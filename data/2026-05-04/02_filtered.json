@@ -1,0 +1,230 @@
+{
+  "kept": [
+    {
+      "id": "13",
+      "title": "AMD unveils full MI400 product lineup, claims MI500 chips will deliver 1,000x increase in AI performance",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AMD MI400 full lineup including Helios rack with EPYC Venice — directly defines MangoBoost's core AMD ecosystem roadmap and DPU integration opportunities."
+    },
+    {
+      "id": "11",
+      "title": "4월 수출 859억달러 '역대 최대'…반도체·SSD, 美·中 수출 ↑",
+      "url": "https://www.etnews.com/20260501000055",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Korean April exports record with semiconductor +173.5% and SSD +515.8% — primary market intelligence on AI infrastructure demand driving Korean semi."
+    },
+    {
+      "id": "20",
+      "title": "MOREH Demonstrates Production-Ready LLM Inference on Tenstorrent Galaxy, Achieving DGX A100-Class Performance with Improved Cost Efficiency",
+      "url": "https://www.prnewswire.com/news-releases/moreh-demonstrates-production-ready-llm-inference-on-tenstorrent-galaxy-achieving-dgx-a100-class-performance-with-improved-cost-efficiency-302760562.html",
+      "category": "collaboration",
+      "competitor": "Moreh",
+      "keep_reason": "Tier-1 competitor Moreh + Tenstorrent disaggregated serving with prefill accelerators — directly competes with MangoBoost's core disaggregated inference value proposition."
+    },
+    {
+      "id": "22",
+      "title": "2조 규모 '국가 AI컴퓨팅 센터' 참여 자격 까다로워져 '논란'",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=33551",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "국가 AI 컴퓨팅 센터 참여 요건 강화로 Rebellions·FuriosaAI 자격 논란 — 핵심 한국 AI 인프라 정책 프로젝트."
+    },
+    {
+      "id": "10",
+      "title": "OpenAI missed revenue and user targets, faces internal concern over meeting data center spend commitments — report",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-missed-revenue-and-user-targets-faces-internal-concern-over-meeting-data-center-spend-commitments-report/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "OpenAI Stargate rework with bilateral deals across Oracle/AMD/Broadcom/Nvidia/CoreWeave/Cerebras — defines hyperscaler infrastructure landscape."
+    },
+    {
+      "id": "18",
+      "title": "Prediction: This Will Be the Top-Performing AI Semiconductor Stock Over the Next Year (Hint: It's Not Nvidia, Broadcom, or Micron)",
+      "url": "https://www.fool.com/investing/2026/05/03/prediction-this-will-be-the-top-performing-artific/",
+      "category": "products",
+      "competitor": "Marvell",
+      "keep_reason": "Marvell DPU and inference SmartNIC role plus $2B Nvidia partnership and Google TPU talks — direct DPU competitor intelligence."
+    },
+    {
+      "id": "7",
+      "title": "Cloudflare Builds High-Performance Infrastructure for Running LLMs",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-llm-infrastructure/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Disaggregated prefill/decode architecture with custom Infire inference engine and Unweight compression — central to MangoBoost's AI infrastructure value-add domain."
+    },
+    {
+      "id": "3",
+      "title": "컴퓨팅 확보 비상 걸린 앤트로픽, 영국 칩 신예와 파트너십 검토",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210033",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Anthropic의 Fractile 등 SRAM 기반 추론 칩 다변화 검토 — AI 추론 칩 공급/효율 이슈와 NVIDIA 의존 탈피 시그널."
+    },
+    {
+      "id": "9",
+      "title": "Google Is A Full Stack AI Player, And Is Playing Well",
+      "url": "https://www.nextplatform.com/cloud/2026/05/02/google-is-a-full-stack-ai-player-and-is-playing-well/5219190",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Google Cloud +63% with Ironwood TPU and Marvell custom silicon talks — hyperscaler in-house silicon strategy and $460B backlog signal demand."
+    },
+    {
+      "id": "21",
+      "title": "The Second Time Will Be The IPO Charm For Cerebras",
+      "url": "https://www.nextplatform.com/compute/2026/04/22/the-second-time-will-be-the-ipo-charm-for-cerebras/5218651",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras IPO push at $23B valuation plus $20B OpenAI deal and AWS Trainium pairing — major competitor financial event with Nvidia/Groq acquihire context."
+    },
+    {
+      "id": "19",
+      "title": "Tenstorrent's Galaxy Blackhole AI servers are finally out",
+      "url": "https://www.theregister.com/2026/04/28/tenstorrent_galaxy_blackhole_ai_servers_ga/",
+      "category": "products",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Tier-2 competitor Tenstorrent Galaxy Blackhole GA at $110K vs DGX 3-5x cheaper, 100Tbps Ethernet mesh — direct alternative to NVIDIA inference platforms."
+    },
+    {
+      "id": "16",
+      "title": "Meta just bumped its 2026 capex forecast up to as much as $145 billion — and investors flinched",
+      "url": "https://fortune.com/2026/04/29/meta-zuckerberg-145-billion-ai-spending-roi/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Meta capex up to $145B citing memory cost; Microsoft $190B with $25B from memory — capex/memory dynamics central to AI infra cost analysis."
+    },
+    {
+      "id": "15",
+      "title": "Q1 2026 Big Tech Earnings: $650 Billion in AI Capex and Compute Constraints",
+      "url": "https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Aggregate hyperscaler AI capex at $650B+ with AWS 28% growth and Google compute-constrained — defines 2026 AI infrastructure investment scale."
+    },
+    {
+      "id": "25",
+      "title": "삼성전자, 7세대 HBM4E 5월 검증 나서…SK하이닉스, TSMC 협력 대응",
+      "url": "https://www.fnnews.com/news/202604201452539502",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "삼성 HBM4E 5월 NVIDIA 검증, SK하이닉스 TSMC 3nm 베이스다이 협력 — AI 가속기 메모리 공급/성능의 핵심 변곡점."
+    },
+    {
+      "id": "24",
+      "title": "Samsung, SK Hynix and TSMC Battle for AI Chip Supremacy in Asia as 2026 Race Intensifies",
+      "url": "https://www.ibtimes.com.au/samsung-sk-hynix-tsmc-battle-ai-chip-supremacy-asia-2026-race-intensifies-1867348",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "TSMC 2nm/3nm capacity expansion and Samsung $73B 2026 invest — foundry capacity bottleneck and HBM4 dynamics shape AI hardware supply."
+    },
+    {
+      "id": "14",
+      "title": "TSMC CoWoS Wafer ASP Reportedly Nears 7nm Levels; Advanced Packaging Poised to Become a Key Profit Driver",
+      "url": "https://www.trendforce.com/news/2026/04/28/news-tsmc-cowos-wafer-asp-reportedly-nears-7nm-levels-advanced-packaging-poised-to-become-a-key-profit-driver/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "TSMC CoWoS ASP at 7nm-equivalent and 1.3M→2M unit capacity ramp — advanced packaging is a critical bottleneck for HBM-based AI accelerators."
+    },
+    {
+      "id": "23",
+      "title": "AI Inferencing Will Define 2026, and the Market's Wide Open",
+      "url": "https://www.sdxcentral.com/analysis/ai-inferencing-will-define-2026-and-the-markets-wide-open/",
+      "category": "market",
+      "competitor": "Tenstorrent",
+      "keep_reason": "추론 시장 경쟁 구도 분석: Cerebras/Tenstorrent/HyperAccel/Rebellions/FuriosaAI/FriendliAI 등 — MangoBoost 경쟁사 풀 정리."
+    },
+    {
+      "id": "26",
+      "title": "Intel Q1 2026 Earnings: Foundry Revenue Up 16%, Gaudi AI Chip Deployment Expands",
+      "url": "https://creati.ai/ai-news/2026-04-27/intel-ai-chip-comeback-semiconductor-transition/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Intel Foundry +16%, Gaudi 3 enterprise wins, Crescent Island inference GPU 샘플링 — 추론 가속기 시장 경쟁자 동향."
+    },
+    {
+      "id": "27",
+      "title": "Data centers may be forming 'heat islands,' with raised temperatures in a 6-mile radius",
+      "url": "https://fortune.com/2026/04/01/ai-data-centers-heat-island-hyperscalers/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 랙 밀도 메가와트화·액냉 2배 성장·캐펙스 $760B — AI 데이터센터의 전력/냉각/효율 핵심 도전과제."
+    },
+    {
+      "id": "8",
+      "title": "미국 국방부, 앤트로픽 제외한 기업 8곳과 기밀 네트워크 AI 공급 계약",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210017",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "미국 국방부 기밀망 AI 공급 8개사 계약·앤트로픽 제외 — 정부/국방 AI 시장 동향과 sovereign AI 인프라 신호."
+    },
+    {
+      "id": "4",
+      "title": "문서 분석부터 제조 공정까지…상용화 앞둔 AI 기술에 뭉칫돈",
+      "url": "https://www.mt.co.kr/amp/future/2026/05/03/2026050315580471095",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "한국 AI 스타트업 주간 투자 7,216억 원 — 한국 AI 생태계 자본 흐름 동향."
+    },
+    {
+      "id": "1",
+      "title": "구글, AI 음성 비서 겨냥한 '제미나이 플래시'·'옴니' 모델 테스트 중",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210044",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Google Gemini 3.2 Flash/Omni 모델 5월 19-20 I/O 발표 예정 — AI 모델 업데이트 카테고리."
+    },
+    {
+      "id": "2",
+      "title": "GPT-5.5, '4o'의 매력 되찾나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210038",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "OpenAI GPT-5.5 'Spud' 프로젝트 아키텍처 재설계 — AI 모델 업데이트 카테고리."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "5",
+      "title": "Brace for the patch tsunami: AI is unearthing decades of buried code debt",
+      "discard_reason": "off-topic — pure cybersecurity/patching coverage with no DPU/AI infrastructure or competitor angle."
+    },
+    {
+      "id": "6",
+      "title": "Usage-based pricing killing your vibe — here's how to roll your own local AI coding agents",
+      "discard_reason": "off-topic — developer how-to on local coding agents; no AI infrastructure, DPU, or strategic relevance."
+    },
+    {
+      "id": "12",
+      "title": "South Korean Exports Jump as AI Computing Demand from US Tech Giants Remains Strong",
+      "discard_reason": "duplicate of id 11 (etnews Korean primary on April export record); English aggregator adds no incremental detail."
+    },
+    {
+      "id": "17",
+      "title": "OpenAI reworks Stargate data center strategy as site plans change",
+      "discard_reason": "duplicate of id 10 (DCD coverage of OpenAI Stargate rework); DCD version is more recent and substantive."
+    }
+  ],
+  "summary": {
+    "total_received": 27,
+    "total_kept": 23,
+    "total_discarded": 4,
+    "category_breakdown": {
+      "market": 9,
+      "products": 6,
+      "projects": 2,
+      "challenges": 3,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 6,
+    "by_competitor": {
+      "Moreh": 1,
+      "Rebellions": 1,
+      "Marvell": 1,
+      "Cerebras": 1,
+      "Tenstorrent": 2
+    }
+  }
+}

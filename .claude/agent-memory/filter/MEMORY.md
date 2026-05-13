@@ -1,0 +1,5 @@
+- [Korean source preference](feedback_korean_source_preference.md) — 한국어 1차 정리본은 영문 1차와 별도로 keep할 가치가 있을 때가 있음
+- [Registry dedup precision](feedback_registry_url_match.md) — published_urls 매칭은 정확 URL 비교; 같은 사건이라도 매체 URL이 다르면 별도 등록 가능
+- [DPU-adjacent keywords](reference_dpu_adjacent_topics.md) — BlueField, OCTEON, ConnectX, SmartNIC, AGI CPU, Graviton 등 DPU 인접 신호어 목록
+- [Headline calibration sample](project_2026-04-30_headline_calibration.md) — 2026-04-30 사례: 삼성/SK하이닉스 사상최대 실적+퀄컴 DC 진입의 트리플 헤드라인 정당성 기록
+- [Verify article count](feedback_verify_article_count.md) — collector run_summary.total can lie; derive total_received from articles[] length

@@ -1,0 +1,338 @@
+{
+  "kept": [
+    {
+      "id": "art_005",
+      "title": "MOREH Demonstrates Production-Ready LLM Inference on Tenstorrent Galaxy, Achieving DGX A100-Class Performance with Improved Cost Efficiency",
+      "url": "https://www.manilatimes.net/2026/05/02/tmt-newswire/pr-newswire/moreh-demonstrates-production-ready-llm-inference-on-tenstorrent-galaxy-achieving-dgx-a100-class-performance-with-improved-cost-efficiency/2334139",
+      "category": "products",
+      "competitor": "Moreh",
+      "keep_reason": "Tier 1 domestic competitor Moreh's MoAI Inference Framework on Tenstorrent Galaxy with disaggregated GPU+NPU architecture is directly adjacent to MangoBoost's DPU/AI-infra play."
+    },
+    {
+      "id": "art_010",
+      "title": "Qualcomm teases 'dedicated CPU for agentic experiences' and 'agentic smartphones'",
+      "url": "https://www.theregister.com/2026/05/01/qualcomm_q2_fy_26",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Qualcomm entering custom hyperscale silicon with a dedicated agentic-CPU and inference accelerator is a major datacenter-silicon entrant signal in MangoBoost's adjacency."
+    },
+    {
+      "id": "art_033",
+      "title": "AMD unveils full MI400 product lineup, claims MI500 chips will deliver 1,000x increase in AI performance",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "MI400/Helios rack-scale lineup is core to MangoBoost's AMD-ecosystem strategy and a primary collaboration vector."
+    },
+    {
+      "id": "art_002",
+      "title": "Google to sell its TPUs to some customers, who also fancy big-G GPUs",
+      "url": "https://www.theregister.com/2026/04/30/alphabet_google_q1_fy26",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Google opening TPU sales to external customers reshapes hyperscaler-silicon supply chain and is foundational context for sovereign-AI/inference market."
+    },
+    {
+      "id": "art_017",
+      "title": "엑셈, 리벨리온과 손잡고 NPU 기반 AX 사업 확대",
+      "url": "https://zdnet.co.kr/view/?no=20260430103520",
+      "category": "collaboration",
+      "competitor": "Rebellions",
+      "keep_reason": "Tier 1 domestic competitor Rebellions partnering with EXEM for K-Cloud/K-NPU public-sector NPU deployments is core competitor and Korean sovereign-AI signal."
+    },
+    {
+      "id": "art_044",
+      "title": "Korea Semiconductor Association Expands AI Innovation Center in Silicon Valley",
+      "url": "https://en.sedaily.com/business/2026/04/29/korea-semiconductor-association-expands-ai-innovation",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "K-Nvidia initiative ($33B over 5 years) and KSIA US bridge for Rebellions/Furiosa/HyperAccel is directly relevant Korean AI-semi policy substance."
+    },
+    {
+      "id": "art_020",
+      "title": "Marvell's Strategic Role in the Shift to Custom AI ASICs",
+      "url": "https://science-technology.news-articles.net/content/2026/04/30/marvell-s-strategic-role-in-the-shift-to-custom-ai-asics.html",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "Tier 2 competitor Marvell winning Google TPU work, NVLink Fusion partnership with NVIDIA, and 18 hyperscaler design wins is direct competitor intelligence."
+    },
+    {
+      "id": "art_003",
+      "title": "Tenstorrent Announces General Availability of Galaxy Blackhole AI System",
+      "url": "https://www.hpcwire.com/aiwire/2026/05/01/tenstorrent-announces-general-availability-of-galaxy-blackhole-ai-system",
+      "category": "products",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Tier 2 competitor Tenstorrent Galaxy Blackhole GA launch with detailed specs and pricing — direct DPU/NPU competitor product news."
+    },
+    {
+      "id": "art_006",
+      "title": "Anthropic in early talks to secure custom AI chips from Fractile: Report",
+      "url": "https://thetechportal.com/2026/05/03/anthropic-in-early-talks-to-secure-custom-ai-chips-from-fractile-report",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic diversifying inference silicon away from NVIDIA is a key signal of inference-chip market opening to alternatives like MangoBoost."
+    },
+    {
+      "id": "art_007",
+      "title": "화웨이, 엔비디아 중국 공백 틈타 AI 칩 판매 60% 증가 예상",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210019",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Huawei Ascend 950PR/950DT capturing $12B Chinese AI-chip market in NVIDIA's absence is major competitor/market intel."
+    },
+    {
+      "id": "art_011",
+      "title": "Silicon wafer shipments up 13% in Q1 2026, but AI data centers are taking the lion's share",
+      "url": "https://www.tweaktown.com/news/111399/silicon-wafer-shipments-are-up-13-percent-in-q1-2026-but-ai-data-centers-are-taking-the-lions-share/index.html",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SEMI silicon wafer Q1 data quantifying AI-datacenter demand vs consumer is core market intelligence."
+    },
+    {
+      "id": "art_032",
+      "title": "Cerebras IPO (CBRS): $23B AI Chip Challenger Filing for Nasdaq Listing",
+      "url": "https://tech-insider.org/cerebras-ipo-filing-510m-revenue-openai-deal-23b-valuation-2026",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "Adjacent competitor Cerebras' May 2026 Nasdaq IPO filing with $510M revenue and $10B OpenAI deal is significant industry-structure event."
+    },
+    {
+      "id": "art_034",
+      "title": "TSMC's Next-Gen CoWoS Roadmap: 14-Reticle Packages and 48x Compute Power Leap by 2029",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmcs-details-next-gen-cowos-roadmap-over-14-reticle-packages-and-48x-leap-in-compute-power-expected-by-2029-massive-size-enables-24-hbm5e-stacks-and-additional-memory-bandwidth-jump",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "CoWoS capacity expansion to 130k WPM and NVIDIA's reservation of leading capacity is foundational AI-supply-chain bottleneck context."
+    },
+    {
+      "id": "art_013",
+      "title": "AWS Will Be An OEM, Just Like Google And Maybe Microsoft",
+      "url": "https://www.nextplatform.com/cloud/2026/04/30/aws-will-be-an-oem-just-like-google-and-maybe-microsoft",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Hyperscaler shift toward OEM model — Anthropic 5GW Trainium, Google 3.5GW TPU racks — reshapes how AI customers procure infrastructure."
+    },
+    {
+      "id": "art_012",
+      "title": "Big Tech Q1 2026 Earnings Power $700B AI Capex Spree",
+      "url": "https://www.heygotrade.com/en/news/big-tech-q1-2026-earnings-ai-capex-spree",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Hyperscaler combined $650-700B capex aggregation is foundational AI-infra demand signal for the industry."
+    },
+    {
+      "id": "art_016",
+      "title": "AI Boosts Korea's Exports and Strains Global Memory",
+      "url": "https://cloudnews.tech/ai-boosts-koreas-exports-and-strains-global-memory",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Korean April $31.9B chip exports (+173.5% YoY) and HBM/memory supply constraints driven by AI is core market+supply intel."
+    },
+    {
+      "id": "art_037",
+      "title": "AI-Driven Chip Substrate Shortage Prompts Samsung Electro-Mechanics Price Hike",
+      "url": "https://en.sedaily.com/finance/2026/04/30/ai-driven-chip-substrate-shortage-prompts-samsung-electro",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "FC-BGA substrate shortage cascading through AI-server supply chain with 18-24 month lead times is concrete AI-infra supply constraint."
+    },
+    {
+      "id": "art_001",
+      "title": "Google Is A Full Stack AI Player, And Is Playing Well",
+      "url": "https://www.nextplatform.com/cloud/2026/05/02/google-is-a-full-stack-ai-player-and-is-playing-well",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Google Cloud's full-stack 63% YoY growth and 2,050T tokens processed sets context for full-stack AI infrastructure strategies."
+    },
+    {
+      "id": "art_014",
+      "title": "삼성전자 2026년 1분기 실적발표 컨퍼런스콜 전문",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=55934",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung Q1 record 57.23T won operating profit driven by HBM4/SOCAMM2/server SSD is core Korean semi market intelligence; THE ELEC transcript is the more substantive of two Samsung versions."
+    },
+    {
+      "id": "art_022",
+      "title": "Meta raises $25 billion in bond sale after lifting AI spending plan",
+      "url": "https://techstartups.com/2026/04/30/meta-looks-to-raise-25b-in-bond-sale-to-fund-ai-spending-as-capex-surges-to-145b",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Meta $25B bond raise to fund $125-145B 2026 capex including 1GW Ohio and 5GW Louisiana datacenters is concrete AI-infra buildout."
+    },
+    {
+      "id": "art_043",
+      "title": "Silicon Diversification: How a Growing Choice of Chips Is Reshaping Data Center Infrastructure",
+      "url": "https://www.datacenterdynamics.com/en/opinions/silicon-diversification-how-a-growing-choice-of-chips-is-reshaping-data-center-infrastructure",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Multi-vendor AI silicon (AMD, Tenstorrent, Rebellions, Furiosa, ASICs) and infrastructure planning is directly aligned with MangoBoost's chip-agnostic infra value prop."
+    },
+    {
+      "id": "art_025",
+      "title": "미국 국방부, 앤트로픽 제외한 기업 8곳과 기밀 네트워크 AI 공급 계약",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210017",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "DoD classified-network AI contracts to OpenAI, Google, NVIDIA, Microsoft, AWS, Oracle, SpaceX, Reflection AI is significant sovereign/government AI procurement."
+    },
+    {
+      "id": "art_031",
+      "title": "FCC votes to ban all Chinese labs from certifying electronics sold in the US",
+      "url": "https://www.tomshardware.com/tech-industry/fcc-votes-to-ban-all-chinese-labs-from-certifying-electronics-sold-in-the-us",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "FCC ban on Chinese certification labs cascades through semiconductor supply chain with material cost/timeline impact on AI hardware."
+    },
+    {
+      "id": "art_028",
+      "title": "xAI, '상시 추론' 앞세운 '그록 4.3' 공개...저가 공세에도 '수학·코딩'은 숙제",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210018",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "xAI Grok 4.3 release with Colossus 200K-GPU scaling is relevant frontier model + AI-infra signal."
+    },
+    {
+      "id": "art_009",
+      "title": "OpenAI locks GPT-5.5-Cyber behind velvet rope despite slamming Anthropic for doing exactly that",
+      "url": "https://www.theregister.com/2026/05/01/openai_locks_gpt55cyber_behind_velvet",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "GPT-5.5-Cyber model release validated by UK AISI is notable AI model launch, though governance angle is secondary."
+    },
+    {
+      "id": "art_027",
+      "title": "오픈AI 버전 '랄프 루프' 등장...코덱스 CLI에 '자율 목표' 기능 추가",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210020",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Codex CLI Ralph Loop autonomous-goal feature is meaningful agentic AI capability advancement."
+    },
+    {
+      "id": "art_023",
+      "title": "메타 \"AI 투자로 인건비 줄여야 해\"...추가 해고·업무량 폭증 예고",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210030",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Meta explicitly trading off personnel for compute/infra investment frames the broader AI-capex/labor reallocation thesis."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "art_004",
+      "title": "Tenstorrent Galaxy Blackhole Server: 6U System with 32 Chips for AI Inference",
+      "discard_reason": "duplicate of art_003 (HPCwire is more authoritative source for same Galaxy Blackhole GA news)"
+    },
+    {
+      "id": "art_008",
+      "title": "컴퓨팅 확보 비상 걸린 앤트로픽, 영국 칩 신예와 파트너십 검토",
+      "discard_reason": "duplicate of art_006 (Anthropic-Fractile story; English Tech Portal version preferred for global context)"
+    },
+    {
+      "id": "art_015",
+      "title": "삼성전자, 2026년 1분기 실적 발표",
+      "discard_reason": "duplicate of art_014 (Samsung Newsroom PR version less substantive than THE ELEC transcript)"
+    },
+    {
+      "id": "art_018",
+      "title": "Rebellions Gears Up for KOSPI IPO as AI Chip Listing Race Heats Up",
+      "discard_reason": "stale (April 6, ~4 weeks old; not a fresh KST yesterday/today event)"
+    },
+    {
+      "id": "art_019",
+      "title": "Furiosa AI, Rebellion Target Europe's Sovereign AI Market",
+      "discard_reason": "stale (April 9, ~3 weeks old; outside recency window)"
+    },
+    {
+      "id": "art_021",
+      "title": "Qualcomm Prepares Its Return to Data Centers with Custom Silicon for Hyperscale",
+      "discard_reason": "duplicate of art_010 (The Register Q2-call version is the primary source)"
+    },
+    {
+      "id": "art_024",
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "discard_reason": "off-topic (corporate litigation/distillation testimony, no AI-infra/semi substance for MangoBoost)"
+    },
+    {
+      "id": "art_026",
+      "title": "오픈AI, 코덱스에 'AI 펫' 깜짝 도입...코딩에 감성 UX 입힌다",
+      "discard_reason": "off-topic (cosmetic UX feature, no infra/semi relevance)"
+    },
+    {
+      "id": "art_029",
+      "title": "구글 'AI 공동 의사' 발표…시뮬레이션 성과는 합격점, 실제 도입은 '신중'",
+      "discard_reason": "off-topic (vertical healthcare AI app, no AI-infra/semi/competitor link)"
+    },
+    {
+      "id": "art_030",
+      "title": "메타, 로봇 파운데이션 모델 스타트업 인수...휴머노이드·AGI에 기여",
+      "discard_reason": "off-topic (robotics foundation-model M&A; NVIDIA mention is incidental, no AI-infra substance)"
+    },
+    {
+      "id": "art_035",
+      "title": "Marvell Technology: Custom Silicon Business Scales Up for AI Era",
+      "discard_reason": "duplicate of art_020 (same Marvell custom-ASIC narrative; MarketWatch version preferred for depth)"
+    },
+    {
+      "id": "art_036",
+      "title": "Tenstorrent's Galaxy Blackhole AI servers are finally out",
+      "discard_reason": "duplicate of art_003 (April 28 Register version superseded by May 1 HPCwire GA coverage)"
+    },
+    {
+      "id": "art_038",
+      "title": "South Korea's Export Surge Continues as AI Boom Fuels Chip Sales",
+      "discard_reason": "duplicate of art_016 (same Korean April export figures; Cloud News version is more analytical)"
+    },
+    {
+      "id": "art_039",
+      "title": "1X, 미국 공장 가동...연내 가정용 휴머노이드 1만대 생산",
+      "discard_reason": "off-topic (humanoid-robot manufacturing; Nvidia Thor chip mention is incidental)"
+    },
+    {
+      "id": "art_040",
+      "title": "중국 전기차 시장, 가격 경쟁 넘어 'AI 경쟁'으로 확대",
+      "discard_reason": "off-topic (automotive AI competition, no DPU/AI-infra/datacenter link)"
+    },
+    {
+      "id": "art_041",
+      "title": "\"비전은 알트먼, 질서는 프라이어\"...IPO 앞둔 오픈AI CFO가 부각되는 이유",
+      "discard_reason": "off-topic (executive profile/corporate governance, no infra substance)"
+    },
+    {
+      "id": "art_042",
+      "title": "달파 \"에이전트로 마케팅 효율 극대화… 커머스 운영 패러다임 바꾼다\"",
+      "discard_reason": "off-topic (Korean SME e-commerce marketing-agent product, no infra/semi link)"
+    },
+    {
+      "id": "art_045",
+      "title": "중국 법원, AI 도입 이유로 직원 해고한 기업에 '위법' 판결",
+      "discard_reason": "off-topic (Chinese labor-law ruling on AI-driven layoffs, no semi/infra substance)"
+    },
+    {
+      "id": "art_046",
+      "title": "LG Uplus, FuriosaAI to build on-premise sovereign AI appliance",
+      "discard_reason": "stale (March 8, ~2 months old; outside recency window despite FuriosaAI relevance)"
+    }
+  ],
+  "summary": {
+    "total_received": 46,
+    "total_kept": 27,
+    "total_discarded": 19,
+    "category_breakdown": {
+      "market": 11,
+      "products": 7,
+      "projects": 3,
+      "challenges": 5,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 9,
+    "by_competitor": {
+      "NVIDIA": 3,
+      "Tenstorrent": 1,
+      "Moreh": 1,
+      "Rebellions": 2,
+      "Marvell": 1,
+      "Cerebras": 1
+    }
+  }
+}

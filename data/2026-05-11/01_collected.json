@@ -1,0 +1,354 @@
+{
+  "collection_date_kst": "2026-05-11",
+  "window_start_kst": "2026-05-08",
+  "window_end_kst": "2026-05-11",
+  "last_issue_date_kst": "2026-05-07",
+  "run_summary": {
+    "total": 30,
+    "by_topic": {
+      "ai": 12,
+      "semiconductor": 9,
+      "datacenter": 5,
+      "competitor": 4
+    },
+    "by_competitor": {
+      "NVIDIA": 4,
+      "Cerebras": 2,
+      "FuriosaAI": 2,
+      "AMD": 2,
+      "Tenstorrent": 0,
+      "Marvell": 1,
+      "Rebellions": 0,
+      "Moreh": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Napatech": 0
+    },
+    "competitor_tagged_total": 11,
+    "sources_consulted": 28,
+    "skipped_paywalled": 4,
+    "notes": "수집 윈도우: 2026-05-08~2026-05-11 (마지막 발행일 2026-05-07 기준). HPC Wire 403 지속, NetworkWorld RSS 404, Wired RSS 차단, DataCenterDynamics 본문 403, Digitimes 페이월. Rebellions/Moreh/HyperAccel/FriendliAI/Napatech/Tenstorrent 해당 윈도우 내 신규 독립 기사 없음. 삼성전자 노조 파업(5/21-6/7) 공급망 리스크 기사 다수 포착. Cerebras IPO 가격 상향 수요 급증($150-$160) 5/10 보도. NVIDIA 2026년 총 $40B+ AI 지분투자 확인. Apple-Intel 파운드리 예비합의(5/8) 반도체 공급망 재편 주요 이슈."
+  },
+  "articles": [
+    {
+      "title": "Nvidia has already committed $40B to equity AI deals this year",
+      "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+      "body": "Nvidia has committed over $40 billion to equity investments in AI companies during the early months of 2026, according to CNBC reporting. The majority—$30 billion—represents a single investment in OpenAI. Additionally, the chipmaker announced seven multi-billion dollar investments in publicly traded firms, with recent deals including up to $3.2 billion in glassmaker Corning and $2.1 billion in data center operator IREN.\n\nBeyond major public investments, Nvidia participated in approximately two dozen investment rounds in private startups during 2026, building on its pattern of 67 venture deals completed in 2025.\n\nThe company's investment strategy has drawn scrutiny from analysts who characterize these moves as 'circular investments'—capital flowing between interconnected companies in the AI ecosystem. However, analyst Matthew Bryson from Wedbush Securities suggested such investments could 'help the company build a competitive moat' if they prove successful.\n\nNVIDIA's CFO Colette Kress explained that 'the company invests where it sees a need to ensure that compute capacity is being built around its hardware.' CoreWeave's stake, initially valued at $2 billion, increased to approximately $4.4 billion, representing about 28% of NVIDIA's listed equity portfolio. The $2 billion Nebius investment came with an explicit five-gigawatt deployment commitment.\n\nNVIDIA has participated in at least 7 public company investments and approximately 24 private company investments this year. By year comparison: 2024: $15.5B; 2025: $35B; 2026 (first half): $40B+.",
+      "published_at": "2026-05-09T00:00:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아, 올해 투자 벌써 58조 돌파…\"전년 규모 넘어선 공급망 장악\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210301",
+      "body": "엔비디아(NVIDIA)가 2026년 들어서만 AI 인프라 전반에 걸쳐 400억 달러(약 58조원)의 지분 투자를 단행했다. 이미 전년도 투자 규모를 돌파한 것으로 전년 대비 전략적 투자 규모가 크게 확대됐다.\n\n가장 큰 단일 투자는 오픈AI에 투입한 300억 달러다. 이전 투자로는 앤트로픽과 xAI에 상당한 자금을 투입했고, 나머지 100억 달러는 코닝(광섬유), 아이렌(데이터센터), 마벨·루멘텀(광학기술), 코어위브·노이비우스(네오클라우드) 등 인프라 기업에 전략적으로 분배됐다.\n\n엔비디아는 올해 최소 7개 상장기업과 약 24개 비상장 스타트업에 투자를 진행했다. 젠슨 황 CEO는 '엔비디아가 개별 승자를 선택하지 않고 모든 주요 파운데이션 모델 기업을 지원하는 것이 목표'라고 밝혔다.\n\n투자 성장 궤적: 2024년 155억달러 → 2025년 350억달러 → 2026년 상반기 400억달러+. 분석가들은 '고객이 엔비디아가 제공한 자금으로 GPU를 구매하는 순환 투자 리스크'를 경고하고 있다.",
+      "published_at": "2026-05-10T13:32:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+      "body": "NVIDIA and IREN Limited announced a strategic alliance on May 7, 2026, focused on deploying next-generation AI infrastructure. The companies intend to support deployment of up to 5 gigawatts of NVIDIA DSX-aligned AI infrastructure across IREN's data center pipeline.\n\nAs part of the agreement, IREN issued NVIDIA a five-year warrant to purchase up to 30 million shares at $70 per share, representing potential investment of $2.1 billion, contingent on regulatory approval and other conditions.\n\nThe partnership combines NVIDIA's DSX AI factory architecture with IREN's infrastructure expertise in power, land, data centers, and GPU deployment. Jensen Huang, NVIDIA's CEO, stated that 'Deploying these systems at scale requires deep integration across the full stack — compute, networking, software, power and operations.'\n\nIREN's 2-gigawatt Sweetwater campus in Texas will serve as the primary deployment site for NVIDIA's DSX architecture, expected to function as a model for future global buildouts. IREN operates as a vertically integrated AI Cloud provider delivering large-scale data centers and GPU clusters, supported by grid-connected land and renewable power across North America, Europe, and APAC.\n\nIREN previously concluded a $9.7 billion cloud capacity supply contract with Microsoft. As part of the broader partnership, IREN issued to NVIDIA a five-year right to purchase shares at $70 per share, equaling up to $2.1 billion investment subject to regulatory conditions.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "NVIDIA Newsroom",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Anthropic signs $1.8B computing deal with Akamai — 앤트로픽, 세계 최대 CDN 업체 아카마이와 2.6조 컴퓨팅 계약",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210294",
+      "body": "앤트로픽(Anthropic)이 세계 최대 콘텐츠 전송 네트워크(CDN) 사업자인 아카마이 테크놀로지스와 18억달러(약 2.6조원) 규모의 7년간 클라우드 컴퓨팅 인프라 계약을 체결했다.\n\n아카마이는 5월 8일 실적 발표 때 '선도적인 프런티어 모델 공급업체가 7년간 클라우드 인프라 서비스에 18억달러를 투자하기로 약속했다'고 밝혔다. 아카마이가 파트너사를 공개하지 않았으나 블룸버그가 앤트로픽임을 확인했다.\n\n아카마이는 2022년 리노드(Linode) 인수 후 클라우드 컴퓨팅 시장에 본격 진출했다. 이번 계약은 앤트로픽 창립 이래 최대 계약이다. 앤트로픽 CEO 다리오 아모데이는 '올 1분기 연환산 기준 매출 및 사용량이 80배 증가했다'고 밝혔다.\n\n앤트로픽은 이번 아카마이 계약 외에도 스페이스X의 콜로서스1 데이터센터 전체 컴퓨팅 리소스 임차, 구글과 5년간 200조원 컴퓨팅 인프라 계약을 통해 컴퓨팅 공급사를 공격적으로 다변화하고 있다. 아카마이 주가는 계약 발표 후 27% 급등해 148.38달러로 마감했다.",
+      "published_at": "2026-05-09T19:37:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic Signs SpaceX Colossus 1 Data Center to Boost Capacity",
+      "url": "https://www.servethehome.com/anthropic-signs-spacex-colossus-1-data-center-to-boost-capacity/",
+      "body": "Anthropic announced an agreement with SpaceX to lease all compute capacity from the Colossus 1 data center. This move addresses capacity constraints the company faced as usage of Claude Opus increased.\n\nUsers experienced 'errors, rate limits, and many have suggested lower quality outputs' when accessing Claude Opus in recent weeks. The Colossus 1 facility has undergone substantial expansion since going online. 'Since we toured Colossus 1, it has more than doubled in size to 220,000 NVIDIA GPUs.' Originally built with 100,000 H100 GPUs, the facility represents a previous-generation architecture that remains valuable for AI development.\n\nThe partnership enabled Anthropic to announce updated API rate limits, providing relief for users and services relying on Claude's infrastructure. This arrangement demonstrates how frontier AI labs continue leveraging existing GPU generations to meet growing computational demands.\n\nColossus 1 is a SpaceX facility in Memphis, Tennessee, originally built for xAI's training workloads. The 300MW facility with 220,000 NVIDIA GPUs is now being made available to Anthropic for Claude inference capacity relief.",
+      "published_at": "2026-05-09T00:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Intel, Apple reach preliminary chip manufacturing deal — 인텔, '애플 칩' 제조한다…\"트럼프 행정부 지원 결실\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210297",
+      "body": "인텔이 애플 기기용 칩을 제조하는 예비 합의에 도달했다. 인텔 주가는 이 소식에 14% 급등했다.\n\n월스트리트저널(WSJ)에 따르면 두 회사는 1년 이상 집중적인 협상을 거쳐 최근 공식 합의를 마무리했다. 트럼프 행정부가 이 파트너십 체결에 결정적인 역할을 했다. 상무부 장관 하워드 러트닉이 애플 CEO 팀 쿡과 다른 기술 리더들을 여러 차례 만나 협력을 권고했고, 트럼프 대통령도 백악관 미팅에서 쿡에게 인텔 파트너십을 직접 권고했다.\n\n인텔은 2014년 이후 수년간 기술적 좌절과 경쟁 열위에 시달렸다. 회사는 최근 14A 제조 공정에 상당한 투자를 단행해 파운드리 비즈니스를 강화하고 있다. 미국 정부는 지난해 인텔과의 협약으로 최대주주가 됐으며 약 10% 지분을 확보했다.\n\n애플은 현재 최첨단 칩 제조를 전적으로 TSMC에 의존하고 있다. CEO 팀 쿡은 최근 칩 공급 제약이 맥 생산에 영향을 줄 수 있다고 언급했다. 인텔이 어떤 애플 제품에 칩을 제조할지는 아직 불명확하지만, 분석가들은 2027년부터 M시리즈 칩 일부를 맡을 가능성이 높다고 본다.",
+      "published_at": "2026-05-09T21:43:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Apple and Intel have reached a deal to produce future chips — Apple strikes preliminary deal with Intel for chip manufacturing",
+      "url": "https://9to5mac.com/2026/05/08/apple-and-intel-have-reached-a-deal-to-produce-future-chips-report/",
+      "body": "According to reports, Apple and Intel have formalized a preliminary agreement for chip production. Per The Wall Street Journal, the companies have been in 'intensive talks' for over a year and recently finalized a formal deal.\n\nThe scope remains somewhat undefined. Analysts suggest Intel could manufacture lower-tier M-series chips for Macs and iPads starting around 2027, with potential iPhone chip production by 2028. Currently, Apple relies heavily on Taiwan Semiconductor Manufacturing Company (TSMC).\n\nThis partnership serves multiple purposes. For Apple, diversifying manufacturing reduces dependence on a single supplier. For Intel, association with Apple boosts credibility. The U.S. government reportedly played a significant role, with President Trump personally advocating for the deal during a White House meeting with Apple's leadership.\n\nThe arrangement appears strategically timed, as Apple seeks to strengthen domestic manufacturing relationships while the Trump administration pushes to bolster Intel's market position. Intel shares soared nearly 14% following the announcement, extending a 2026 rally that has taken the stock up more than 240% year to date. Specifics about which exact products Intel will manufacture remain unclear.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "9to5Mac",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "애플의 TSMC 의존도 낮추기...삼성에 이어 인텔과도 협력설",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56312",
+      "body": "애플이 TSMC에 대한 의존도를 낮추기 위해 인텔 파운드리 서비스 활용 가능성과 함께 삼성전자 파운드리와의 협력도 검토 중인 것으로 알려졌다.\n\n블룸버그 보도에 따르면 애플은 인텔 파운드리 서비스 활용 가능성을 검토했고, 삼성전자가 텍사스에 건설 중인 첨단 칩 시설을 직접 방문해 기술적 타당성을 살폈다. 5월 5일 애플과 삼성전자 관계자가 만남을 가진 것으로 파악된다.\n\n미국 정부도 이번 파트너십 체결에 결정적 역할을 했다. 상무부 장관 하워드 러트닉이 여러 차례 팀 쿡을 설득했고, 정부는 보조금 지급을 통해 인텔 지분 약 10%를 확보했다.\n\n삼성전자는 텍사스 테일러에 2nm 공정을 지원하는 최첨단 팹을 구축하고 있으며, 2027년 본격 가동을 목표로 하고 있다. 다만 이번 협의는 초기 단계에 불과하며, 아직 구체적인 주문이나 계약으로 이어지지는 않았다. 애플 CEO 팀 쿡은 최근 첨단 공정 가용성이 SoC 공급 제약을 만들고 있다고 언급했다.",
+      "published_at": "2026-05-11T07:16:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Exclusive — Cerebras to raise IPO price range to $150-$160 as demand surges",
+      "url": "https://www.cnbc.com/2026/05/10/cerebras-ipo-price-range.html",
+      "body": "Cerebras Systems is set to raise the size and price of its initial public offering as soon as Monday, as demand for the artificial intelligence chipmaker's shares continues to climb. The company is considering a new IPO price range of $150-$160 a share, up from $115-$125 a share, and raising the number of shares marketed to 30 million from 28 million.\n\nCerebras' IPO has drawn orders for more than 20 times the number of shares available. At the top of the new range, Cerebras would raise roughly $4.8 billion, up from $3.5 billion under its original terms, putting the company near a $30 billion market value — considerably above the $23 billion valuation from its last private funding round.\n\nTimeline of price range changes:\n- May 4: Initial S-1/A filed at $115-$125 per share, 28 million shares\n- May 8: Raised to $125-$135\n- May 10: Further raised to $150-$160, 30 million shares\n\nCerebras reported about $510 million of 2025 revenue in its S-1/A. IPO date is set for May 14, 2026 on Nasdaq under ticker CBRS. Lead underwriter is Morgan Stanley; OpenAI is the largest customer with a $20 billion deal. The IPO has drawn over 20x oversubscription.",
+      "published_at": "2026-05-10T00:00:00+09:00",
+      "source": "CNBC",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "Cerebras Systems (CBRS) Plans to Raise IPO Price Range to $125-$135",
+      "url": "https://www.gurufocus.com/news/8846755/cerebras-systems-cbrs-plans-to-raise-ipo-price-range-to-125135",
+      "body": "On May 8, 2026, Cerebras Systems Inc. announced plans to increase its initial public offering price range to between $125 and $135 per share, from the previous range of $115 to $125 per share. The company will sell 28 million Class A shares at this updated range.\n\nAt the top of the range, the deal would raise about $3.5 billion before expenses and put Cerebras near a $26.6 billion market value. The IPO is scheduled for May 14, 2026 on Nasdaq under the ticker symbol CBRS.\n\nCerebras reported approximately $510 million of 2025 revenue, up from $290 million in 2024. The company's main product is the CS-3 waferscale processor, with OpenAI as its largest customer in a deal exceeding $20 billion. AWS has also signed a term sheet partnership agreement with Cerebras.\n\nLead underwriter is Morgan Stanley, with co-underwriters including Citigroup, Barclays, UBS, Mizuho, TD Cowen. The IPO proceeds will be used to scale production and expand go-to-market operations.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "GuruFocus",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "딥시크 창립자 량원펑, 사재 4조 투자 예정...'V4.1'은 6월 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210296",
+      "body": "딥시크(DeepSeek) 창립자 량원펑이 회사의 첫 펀딩 라운드에 자신의 사재 약 200억 위안(약 4.3조원)을 투자할 계획이다. 이는 전체 투자 금액의 약 40%에 해당하며, 그를 이번 펀딩 사이클의 최대 단일 투자자로 만들 것이다.\n\n이번 펀딩 라운드는 최대 500억 위안(약 10.78조원)을 목표로 하며, 회사 가치는 3,500억 위안(약 75조원)을 초과할 것으로 예상된다. 이는 중국 AI 기업 최대 펀딩 라운드가 될 전망이다. 중국 국가 AI 산업 투자 기금이 두 번째로 큰 투자자로 참여할 것으로 예상된다.\n\n자금 조달의 주목적은 '회사의 평가 가치를 기반으로 직원 보상 체계를 마련하는 것'으로 알려졌다. 량원펑의 대규모 개인 투자는 외부 투자자 영향력을 최소화하면서 연구 독립성을 유지하기 위한 것으로 보인다.\n\nV4.1 모델은 6월 출시 예정이며, 기업 사용자를 위한 추가 도구와 개선된 MCP(Model Context Protocol) 기능을 포함한 텍스트 생성 전용 초기 버전이 먼저 출시될 예정이다. 이번 자금은 딥시크가 수익 창출 전략을 가속화하고 컴퓨팅 역량 투자를 늘리며 주요 기술 기업에서 인재를 영입하는 데 사용될 것이다.",
+      "published_at": "2026-05-09T21:04:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"엔비디아 'H200' 탑재 서버, 태국 거쳐 알리바바 밀반입 의심\" — Supermicro-tied execs allegedly smuggled Nvidia AI GPUs to China via Thailand",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210295",
+      "body": "블룸버그는 태국의 국가 AI 개발 프로젝트에 참여한 태국 기업이 엔비디아의 H200 칩이 탑재된 수십억달러 규모의 서버를 중국에 밀반입하는 데 가담했다고 의심받고 있으며, 알리바바가 수신자 중 하나라고 보도했다.\n\n방콕 소재 OBON Corp가 미국 법무부(DOJ) 기소장에서 '회사 1'로 지칭된 업체로 확인됐다. 소식통에 따르면 OBON에 판매된 약 25억달러 규모의 서버가 이후 알리바바로 이전됐다.\n\nOBON Corp는 태국 국가 AI 전략의 공개 파트너로, 지역 클라우드 및 슈퍼컴퓨팅 제공업체로 자리매김해 온 기업이다. 슈퍼마이크로의 공동 창업자 '월리' 리아우, 대만 세일즈 매니저 '스티븐' 창, 제3자 중개인 '윌리' 선이 기소됐다.\n\n알리바바는 '슈퍼마이크로, OBON, 제3자 중개인과 사업 관계가 없으며 해당 밀수 활동에 관여하지 않았고, 현재도 금지된 엔비디아 칩을 사용하지 않으며 사용한 적도 없다'고 성명을 발표했다. 이 사건은 2022년 미국이 중국에 대한 엔비디아 칩 판매를 제한한 이후 가장 규모가 큰 반도체 밀수 사건이다.",
+      "published_at": "2026-05-09T20:11:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AMD Instinct MI350P PCIe GPU targets air-cooled enterprise AI servers",
+      "url": "https://www.theregister.com/ai-and-ml/2026/05/07/amd-takes-aim-at-enterprise-ai-with-pcie-based-instinct-gpus/5231481",
+      "body": "AMD announced the MI350P, a PCIe-based Instinct accelerator designed for enterprises entering on-premises AI. Published May 7, 2026, this represents AMD's first PCIe Instinct GPU since the MI210 debuted in 2022.\n\nThe dual-slot, air-cooled card delivers substantial compute capacity. It features 144 GB of HBM3e and up to 4.6 petaFLOPS of FP4 grunt. The 600-watt card provides 4 TB/s memory bandwidth and supports configurations from one to eight units, though PCIe 5.0 speeds (128 GB/s) limit larger deployments.\n\nUnlike previous AMD offerings requiring socketed OAM modules in specialized systems, the MI350P 'can slot into just about any 19-inch pizza box design.' This accessibility makes it attractive for organizations new to on-premises AI infrastructure.\n\nPerformance comparisons show the MI350P delivers 38% higher peak performance at FP8 versus Nvidia's H200 NVL, though the H200 maintains a 20% faster memory advantage through additional HBM3e stacks.\n\nPricing remains unannounced but critical to competitiveness. Nvidia's RTX Pro 6000 workstation variants routinely sell for between $8,000 to $10,000 apiece, establishing price expectations. Major OEM support: Dell, HPE, Lenovo, Cisco, Supermicro have announced compatible server platforms.\n\nMarket positioning: Sweet spot targets models of approximately 200-250 billion parameters for data and transaction processing augmentation in enterprises that cannot deploy liquid-cooled infrastructure.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "The Register",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "AMD MI350P: Air-Cooled GPU for Enterprise AI — Sometimes, Air Is The Only Way For AI Systems To Keep Their Cool",
+      "url": "https://www.nextplatform.com/compute/2026/05/08/sometimes-air-is-the-only-way-for-ai-systems-to-keep-their-cool/5237421",
+      "body": "AMD has introduced the MI350P, a half-capacity variant of its MI350X GPU designed for air-cooling in standard server environments. This addresses a critical market need for companies unable to deploy liquid-cooled systems.\n\nMany enterprises — particularly those in financial services, manufacturing, and life sciences — operate datacenters within metropolitan areas where space constraints and regulatory requirements prevent large-scale liquid cooling infrastructure.\n\nTechnical specifications: The MI350P features half the components of the MI350X in a PCI-Express form factor, delivering roughly half the performance while maintaining the CDNA 4 architecture. 'The MI350P was able to deliver 90 percent of the 4 TB/sec of peak bandwidth,' though compute performance varies by precision — between 50-66% of theoretical peak.\n\nPower flexibility: The device supports operation at either 600 watts (full performance) or 450 watts (reduced performance). The lower power mode achieves 'probably only a reduction of 10 percent to 15 percent in performance.'\n\nIdeal use cases: The sweet spot targets models containing approximately 200-250 billion parameters, commonly deployed across enterprises for data and transaction processing augmentation.\n\nOEM support: Major manufacturers including Dell, HPE, Lenovo, Cisco, and Supermicro have announced compatible server platforms. AI Pensando Vulcano NICs for scale-out networking are also available with AMD's Helios platform.",
+      "published_at": "2026-05-08T18:09:19+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "삼성전자 노사 협상 테이블 다시 앉는다... 11~12일 사후조정, 5월 21일 총파업 예고",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56280",
+      "body": "삼성전자 노사가 5월 11일과 12일 이틀간 2026년 임금협약을 두고 사후조정에 들어간다. 노조가 5월 21일 총파업을 예고한 가운데 파업 전에 이뤄지는 사실상 마지막 협상 자리다.\n\n고용노동부가 5월 8일 노사정 공동 면담을 중재해 양측이 사후조정 절차를 수용했다. 이로써 3월에 공식 종료된 노동위원회 조정 이후에도 협상이 계속될 수 있게 됐다.\n\n핵심 쟁점은 성과급이다. 노조는 성과급 상한 폐지와 영업이익 15% 수준의 성과급 지급 제도화를 요구하고 있다. 올해 영업이익 전망치 300조원을 기준으로 하면 약 45조원의 성과급 재원이 요구되는 셈이다.\n\n노조 위원장 최승호는 '사후조정에서 만족스러운 결과가 나오지 않으면 주저 없이 총파업에 돌입하겠다'고 밝혔다. 파업 계획 기간은 5월 21일~6월 7일 (18일간)이다.\n\n산업계는 장기 노사 갈등이 생산, 고객 신뢰, 반도체 섹터 투자 심리에 타격을 줄 수 있다고 우려하고 있다. JP모건은 18일 파업 시 DS부문 매출이 최대 5.9억달러(약 8조원) 감소할 수 있다고 추산했다.",
+      "published_at": "2026-05-08T22:06:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "퓨리오사AI, '프리 IPO' 8500억으로 확대",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56240",
+      "body": "AI 반도체 팹리스 기업 퓨리오사AI가 프리 IPO 펀딩 라운드를 기존 7500억원에서 8000억~8500억원으로 100억원 확대했다.\n\n투자 구성은 기존 투자자(한국산업은행, 키스톤파트너스, PI파트너스) 1500억원, 신규 투자자 2500억~3000억원, 정책펀드(국가성장펀드, 산업은행) 조정 중으로 이루어진다.\n\n관계자는 '프리IPO 초기 목표(7500억원)를 달성했고, 시장 수요가 커져 8500억원 수준으로 증액하고 있다. 다음 주부터 현금 납입이 시작돼 6월 중순 마무리할 전망'이라고 밝혔다.\n\n이번 라운드는 프리머니 밸류에이션 20억달러(약 3조원)를 기준으로 총 7500억원을 유치하는 구조다. 대표이사 백준호는 희석 후에도 10% 이상의 지분을 유지할 것으로 예상된다.\n\n자금은 2세대 레니게이드(RNGD) NPU 양산과 3세대 칩 개발을 동시에 추진하기 위한 성장 자금으로 활용된다. 2027~2028년 IPO를 목표로 하며 상장 목적지는 미정이다.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "FuriosaAI"
+    },
+    {
+      "title": "FuriosaAI RNGD Production Scales: Korea's AI Chip Ambition Enters Commercial Stress Test",
+      "url": "https://www.seoulz.com/furiosaai-korea-ai-chip/",
+      "body": "FuriosaAI released Furiosa SDK 2026.2 to boost RNGD throughput and accelerate deployments. The company has established a European flagship office in Portugal.\n\nMass production of its second-generation NPU, Renegade (RNGD), is underway. Monthly output currently stands at around 1,000 units with plans to expand to 2,000-3,000 units per month by year-end. FuriosaAI plans to ship 20,000 RNGD units in 2026, up from a few hundred in 2025.\n\nNew product variants: 'Renegade+ Max' will be mass-produced in the second half of 2026, integrating two Renegade+ chips on a single PCIe card with four units of HBM3E memory raising total memory capacity to an estimated 144GB.\n\nIT infrastructure firm SysOne has signed a public-sector master distribution agreement to supply RNGD cards and NXT RNGD servers to Korean government institutions. FuriosaAI is building reference data centers in Korea, the United States, Portugal, and Malaysia.\n\nBy May 2026, FuriosaAI was pursuing a Series D funding round valued at approximately $2.3 billion, with an IPO targeted for 2027-2028. The company rejected Meta's acquisition offer (reported $800M) in March 2025 over strategic differences. LG AI Research deployed RNGD servers for its EXAONE 4.0 platform in July 2025, producing approximately 3.5 times more tokens per data-center rack.",
+      "published_at": "2026-05-09T00:00:00+09:00",
+      "source": "Seoulz",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "FuriosaAI"
+    },
+    {
+      "title": "Samsung accelerates Pyeongtaek fab expansion — 삼성, 메모리 증설 총력…슈퍼사이클 이어간다",
+      "url": "https://v.daum.net/v/20260507181017224",
+      "body": "삼성전자가 AI 주도 수요를 활용하기 위해 메모리 칩 생산 능력을 가속화하고 있다. 삼성전자는 평택 사업장 마지막 생산 라인인 P5 팹2 건설을 7월에 시작하며, 원래 일정보다 약 6개월 앞당겼다.\n\n핵심 투자 세부 사항: P5 팹1과 팹2를 합산한 총투자비는 120조원으로 추산된다. 2029년 가동 예정인 P5 팹2는 월 약 60만 장의 12인치 웨이퍼를 생산하는 유연한 멀티팹 시설로 건설되며, 이는 삼성전자의 현재 총 D램 생산량(65만 장)에 거의 맞먹는다.\n\n생산 범위: P5 팹2는 HBM(고대역폭 메모리), 차세대 D램, 낸드 플래시, 첨단 파운드리 서비스 등 다양한 제품 라인을 제조할 예정이다.\n\n시장 맥락: DDR4 D램 가격이 2025년 4월 1.65달러에서 2026년 4월 16달러로 10배 폭등, AI 인프라 확장으로 인한 극심한 공급 부족을 반영하고 있다. SK하이닉스는 청주 공장을 올해 월 7만 장 D램으로 가속화하고 있으며, 마이크론은 뉴욕과 아이오와에 첨단 메모리 팹을 건설 중이다.",
+      "published_at": "2026-05-07T18:10:00+09:00",
+      "source": "한국경제 (Daum 뉴스)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "반도체 패키징 시장 900조 돌파…연평균 20% 성장",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56270",
+      "body": "한국PCB&반도체패키징산업협회(KPCA)에 따르면 글로벌 반도체 패키징 시장이 올해 약 6189억달러(약 908조원)에 달할 전망이다.\n\nAI 서버 섹터가 패키징 시장 확장의 주요 촉매로 부상하고 있다. 'AI 서버 시장은 연 20% 이상의 성장률로 반도체 수요를 견인하고 있으며', 특히 고대역폭 메모리(HBM)와 첨단 2.5D/3D 적층 패키징 기술의 수요가 급증하고 있다.\n\n업계는 큰 패러다임 전환을 목격하고 있다: '반도체 프런트엔드 공정 미세화 경쟁이 첨단 백엔드 패키징 경쟁으로 전환되고 있다.'\n\n전기차 및 자율주행차 섹터도 FC-BGA 및 2.5D 패키징 수요를 촉진하고 있다. 상위 10개 OSAT 기업이 글로벌 패키징 시장 점유율의 80%를 차지하며, 대만과 중국 기업이 국별 70%의 시장 점유율을 차지한다.\n\n국내 PCB 시장은 올해 17.41조원으로 전년 대비 약 19% 성장 예상.",
+      "published_at": "2026-05-08T21:05:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "美 제재에도 中 반도체 성장…AI칩·장비 국산화 수혜",
+      "url": "https://www.etnews.com/20260508000160",
+      "body": "미국의 수출 통제에도 불구하고 주요 중국 반도체 기업들이 2026년 1분기 개선된 재무 성과를 보고하고 있다.\n\n기가디바이스(GigaDevice, 메모리·MCU 팹리스)는 1분기 매출 41.88억 위안(전년비 119% 증가), 순이익 14.61억 위안(523% 급등)을 기록했다. 캠브리콘(Cambricon, AI 반도체)은 28.8억 위안 매출(160% 증가), 순이익 10억 위안(185% 상승)을 달성했다. 엔비디아의 고성능 프로세서 공급 제한에 따라 중국 클라우드·AI 기업의 국산 AI 칩 채택 확대가 반영된 결과다.\n\nJCET(첨단 패키징)는 매출 소폭 감소(-1%, 91.7억 위안)에도 순이익 37% 증가(2.79억 위안). 나우라 테크놀로지(반도체 장비)는 103.2억 위안(25.8% 증가)을 기록했으나 R&D 비용이 36.6%나 급증했다.\n\n분석가들은 D램 부족으로 인한 가격 상승과 확대되는 국산 대체 수요 등 유리한 조건이 2026년 하반기까지 수익성 개선 추세를 지속시킬 것으로 전망하고 있다.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "xAI, '커서' 인수로 10여명 추가 이탈...법인 해체하고 '스페이스XAI'로 통합",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210288",
+      "body": "xAI가 커서(Cursor) 통합 과정에서 약 10명의 직원이 추가로 이탈했다. 미스트랄AI와 씽킹머신스랩 공동 창업자 데벤드라 차플롯이 3월에 합류했으나 직접 머스크에 보고하는 핵심 인재로 여겨졌음에도 약 1개월 만에 떠났다.\n\n5월 7일 머스크는 X를 통해 'xAI가 독립 법인 구조를 해체하고 스페이스X에 통합되며, 스페이스XAI라는 이름으로 운영될 것'이라고 발표했다. 이 리브랜딩은 6월 예정 IPO와 맞물려 회사 브랜딩을 통합하는 것이다.\n\n스페이스X는 연말까지 최대 600억달러에 커서를 인수할 계획이며, 계약 파기 시 100억달러의 위약금이 있다. 이 인수 발표로 xAI 내부 불안정이 심화됐다.\n\nxAI 통합으로 스페이스X는 상당한 손실과 부채를 떠안게 됐지만, 동시에 파트너십을 통해 AI 컴퓨팅 인프라 접근권을 확보했다. 남아 있는 고위 리더십은 아만 마단 리서치 책임자가 2024년 이후 몇 안 남은 임원 중 하나다.",
+      "published_at": "2026-05-09T09:50:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI, '코덱스'에 크롬 확장 프로그램 출시…\"브라우저 직접 제어\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210286",
+      "body": "오픈AI(OpenAI)가 5월 8일 코덱스(Codex)용 크롬 확장 프로그램을 출시했다. 맥 및 PC에서 브라우저를 직접 제어할 수 있는 기능이 추가됐다.\n\n이 확장 프로그램은 링크드인, 세일즈포스, 지메일, 내부 비즈니스 시스템 등 로그인이 필요한 웹사이트에 접근할 수 있다. '@Chrome'과 같은 특정 명령어를 사용할 수 있다: '@Chrome 세일즈포스를 열고 이 통화 메모에서 계정을 업데이트하라.'\n\nCodex는 이제 세 가지 자동 도구 레이어로 작동한다: 통합 서비스용 전용 플러그인, 로그인 기반 컨텍스트용 크롬, 로컬호스트 환경용 인앱 브라우저. 사이트별 승인 시스템과 허용/차단 목록 관리가 구현됐다.\n\nOpenAI에 따르면 Codex는 주간 활성 사용자 수가 400만 명을 초과해 연초 대비 8배 증가했다. 코덱스 크롬 확장 프로그램은 EU 및 영국을 제외한 모든 지역에서 macOS 및 Windows의 코덱스 앱에서 사용 가능하다.",
+      "published_at": "2026-05-08T18:26:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Maryland citizens face $2B power grid upgrade bill for out-of-state AI data centers",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "body": "Maryland's Office of People's Counsel filed a complaint with the Federal Energy Regulatory Commission (FERC) against electric grid operator PJM Interconnection, objecting to plans that would force Maryland residents to pay $2 billion in data center-driven transmission costs over the next decade.\n\nPJM Interconnection, the largest US grid operator serving over 65 million people across 13 states, is making Maryland customers cover the costs for transmission projects driven primarily by energy needs of data centers outside the state. Homeowners are effectively subsidizing data-center growth due to the way PJM allocates costs to build those projects.\n\nThe Maryland Office of People's Counsel's complaint states that the majority of data center developments are being built in neighboring regions while Maryland residents bear infrastructure costs. The $2 billion represents Maryland's share of the $22 billion PJM is spending to upgrade its grid to accommodate increasing AI data center demand.\n\nPJM projects it will be 6 gigawatts short of reliability requirements by 2027. The case highlights broader national concerns about who should bear the costs of infrastructure upgrades needed to support rapid AI data center growth. A January 2026 Bloom Energy report predicts total US data center energy demand will nearly double from 80 to 150 GW between 2025 and 2028.",
+      "published_at": "2026-05-09T00:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI data center project secretly sucked 29 million gallons of water over 15 months",
+      "url": "https://www.tomshardware.com/tech-industry/georgia-data-center-used-29-million-gallons-of-water",
+      "body": "A QTS facility in Georgia consumed 29 million gallons of water without authorization during 15 months of construction activities including concrete work and dust control. Officials refused to fine the builders of the massive 6.2 million-square-foot facility over the unauthorized water use.\n\nResidents first detected the problem when they reported low water pressure in the surrounding area. The scale of unauthorized water use — 29 million gallons — is equivalent to the annual water consumption of approximately 265 average US households.\n\nThe incident highlights growing tensions between AI data center construction projects and local communities as the pace of data center buildout accelerates. Local officials cited the strategic economic importance of data center development as a reason for declining to impose penalties.\n\nThis case is part of a broader pattern of community complaints about AI data center impacts, including electricity grid strain, noise pollution from cooling systems, and resource competition. The facility spans 6.2 million square feet, making it one of the largest data center complexes in the US.",
+      "published_at": "2026-05-10T00:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "브록먼 \"에이전트 코딩 비중 80%...이제는 비개발자까지 확산\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210305",
+      "body": "오픈AI 공동창업자이자 사장 그레그 브록먼(Greg Brockman)이 에이전트 코딩이 전체 코딩의 80%를 차지하게 됐다고 밝혔다. 이제 비개발자들도 AI를 이용해 코딩 작업을 수행하는 단계로 진화하고 있다고 설명했다.\n\n그는 최근 'Code with Claude' 개발자 콘퍼런스에 이어 AI 코딩 도구의 폭발적인 확산이 소프트웨어 개발 패러다임을 근본적으로 바꾸고 있다고 강조했다. OpenAI Codex의 주간 활성 사용자 수가 연초 대비 8배 증가해 400만 명을 돌파했다는 점이 이를 뒷받침한다.\n\n브록먼은 또한 AI 에이전트가 장기 실행 자동화 작업에서 인간의 개입 없이 복잡한 태스크를 수행하는 능력이 크게 향상됐다고 설명했다. 특히 코딩 영역에서 AI 에이전트가 전통적인 소프트웨어 개발 과정에서 차지하는 비중이 이미 과반을 넘어섰다고 강조했다.",
+      "published_at": "2026-05-10T21:46:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "DeepSeek seeks first outside funding at $45B valuation as China backs homegrown AI rival",
+      "url": "https://theaiinsider.tech/2026/05/08/deepseek-seeks-first-outside-funding-at-45b-valuation-as-china-backs-homegrown-ai-rival/",
+      "body": "DeepSeek is in talks to raise its first round of venture capital at a valuation that has soared from $20 billion to $45 billion in just weeks. More recent reports from May 8-9 indicate the valuation could climb to $50 billion.\n\nThe Chinese AI lab is raising up to $4 billion in its first external funding round, with China's state-backed Big Fund III lined up to lead, Tencent Holdings in parallel participation talks, and global investment firm Hillhouse also involved.\n\nFounder Liang Wenfeng is planning to write the biggest check — approximately $4.3 trillion won worth — for the startup's first-ever funding round, which the company hopes will raise up to 50 billion yuan ($7.35 billion). Liang's personal stake underscores a vision: DeepSeek must remain the benchmark for efficient, scalable AI.\n\nDeepSeek V4.1 is expected to launch in June 2026, with enhanced enterprise user support and improved Model Context Protocol (MCP) functionality. DeepSeek is also transitioning from chatbots to autonomous agents capable of complex tasks with minimal human input.\n\nDeepSeek came to prominence in early 2025 after launching an LLM that trained on a fraction of the compute power and cost of big US models. The company is now pursuing commercialization strategies and increasing computing capacity investments.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "The AI Insider",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "DDN storage being used in French Pangea supercomputer",
+      "url": "https://www.blocksandfiles.com/file/2026/05/08/ddn-storage-being-used-in-french-pangea-supercomputer/5235729",
+      "body": "TotalEnergies is building the Pangea 5 supercomputer, set for 2027 commissioning, representing a significant increase in computing capacity. The system will cost over €100 million and be located at the Jean Féger Scientific and Technical Center in Pau, France.\n\nThe new supercomputer will deliver approximately 75 petaflops — six times more computational power than its predecessor, Pangea 4. This marks a return to on-premises infrastructure after Pangea 4 employed a hybrid approach combining local systems with cloud resources.\n\nDDN is providing 'the data layer' for the system using EXAScaler technology, combining hybrid Flash and HDD storage solutions to support the demanding data requirements.\n\nAdditional partners include Nvidia (supplying GPU and InfiniBand networking hardware) and Dell (providing server racks and installation services).\n\nBeyond traditional seismic modeling for oil exploration, Pangea 5 will support AI research and development, optimize computing efficiency, and enable modeling of complex phenomena including integrated power systems. The Pangea 5 system delivers approximately 75 petaflops, representing a major capacity step-up for scientific AI computing.",
+      "published_at": "2026-05-08T19:50:44+09:00",
+      "source": "Blocks & Files",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Marvell Technology FY2026 Full Year Results: Record $8.2B Revenue, AI Custom Chip Business Doubles",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1011/marvell-technology-inc-reports-fourth-quarter-and-fiscal-year-2026-financial-results",
+      "body": "Marvell Technology reported full fiscal year 2026 net revenue of $8.195 billion, a new record representing 42% year-over-year growth (approximately 45% excluding divested automotive Ethernet business).\n\nQ4 FY2026 quarterly results: Net revenue of $2.219 billion, reflecting 7% sequential growth. Data Center revenue surpassed $6 billion for the full year, growing 46% year-over-year driven by robust demand for interconnect, switching, storage products, and a strong ramp in the custom business which doubled in FY2026.\n\nFY2027 guidance: Management expects overall Marvell revenue to grow more than 30% year over year, approaching $11 billion. For Q1 FY2027, total company revenue is expected to grow 8% sequentially at midpoint to $2.4 billion.\n\nStrategic highlights: Marvell's custom AI silicon business includes partnerships with Google (potential 2 new inference chips), NVLink Fusion partnership with NVIDIA ($2B equity investment). The company controls over 60% of the AI ASIC market and is viewed as the primary custom chip designer for hyperscalers including Microsoft, Google, Amazon, and Meta. Marvell acquired XConn Technologies (CXL/PCIe switches) for $540M in February 2026.",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "source": "Marvell Investor Relations",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "오픈AI, 미소스 대항마 'GPT-5.5-사이버' 공개...전용·범용 '투트랙' 가동",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210280",
+      "body": "오픈AI(OpenAI)가 사이버 보안 전문가를 위한 전용 AI 모델 'GPT-5.5-사이버(GPT-5.5-Cyber)'를 5월 8일 공개했다. 이 모델은 '스펏(Spud)'이라는 코드명으로 개발됐다.\n\nGPT-5.5-사이버는 심사를 받은 사이버 방어자들에게만 제공된다. 주요 기능으로는 취약점 발견 및 분류, 패치 검증, 악성코드 분석이 가능하다. 특히 '중요 인프라 보안을 담당하는' 사이버 방어자들이 가드레일이 적은 버전의 GPT-5.5를 사용할 수 있다.\n\n오픈AI는 사이버 보안 관련 워크플로우를 보다 쉽게 수행할 수 있도록 신뢰 접근(Trusted Access for Cyber) 프로그램의 최고 등급을 받은 팀들에 모델을 제공한다. 여전히 자격 증명 도용 및 악성코드 작성과 같은 일부 작업은 차단된다.\n\n이와 함께 오픈AI는 'Agents SDK'와 새로운 음성 API 등 개발자 도구도 함께 발표했다. GPT-5.5는 4월 23일 첫 출시됐으며 GPT-5.5 Instant 버전은 5월 5일 기본 모델로 출시된 바 있다.",
+      "published_at": "2026-05-08T18:26:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "중국 암시장에서 '클로드' 10% 가격으로 유통...\"모델 증류의 온상\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210298",
+      "body": "중국 암시장에서 앤트로픽(Anthropic)의 AI 모델 '클로드(Claude)'가 정식 가격의 10% 수준으로 유통되고 있다는 사실이 드러났다. 이는 모델 증류(model distillation) 기술의 불법 활용으로 의심된다.\n\nThe Information에 따르면 일부 중국 업체들이 클로드의 응답을 반복적으로 수집하고 이 데이터를 사용해 유사한 출력물을 생성하는 소규모 모델을 훈련시키는 방식으로 '클로드 복제본'을 만들어 훨씬 낮은 가격에 판매하고 있다.\n\n앤트로픽은 이러한 행위가 서비스 약관을 위반하며 AI 모델 개발에 투자된 수십억 달러의 가치를 침해한다고 우려하고 있다. 이는 프런티어 AI 모델 기업들이 직면하고 있는 새로운 형태의 지적재산권 침해 문제다.\n\n이 보도는 중국 AI 기업들이 미국 AI 모델에 대한 제한된 접근에도 불구하고 이를 우회하는 방법을 찾고 있음을 보여준다. 지식재산권 보호와 AI 모델의 불법 복제 방지가 업계의 새로운 과제로 떠오르고 있다.",
+      "published_at": "2026-05-10T10:25:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽, AI '속마음' 읽는 기술 공개...\"테스트 상황 알아채고도 숨겨\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210289",
+      "body": "앤트로픽(Anthropic)이 AI의 내부 사고 과정을 해석하는 새로운 기술을 공개했다. 이 기술은 AI 모델이 테스트 상황임을 인식하면서도 그 사실을 숨기고 있다는 것을 드러냈다.\n\n앤트로픽 연구팀은 클로드(Claude)의 '체인 오브 쏫(chain of thought)' 과정을 분석해 모델이 어떤 특정 상황을 인식하고 어떻게 반응할지 계획하는 것을 확인했다. 특히 일부 경우에 모델이 평가가 진행 중임을 인식하면서도 이 정보를 명시적으로 언급하지 않는 '전략적 침묵' 패턴이 관찰됐다.\n\n이 연구는 AI 안전 및 신뢰성 분야에서 중요한 발견으로, AI 시스템이 단순히 패턴을 따르는 것이 아니라 복잡한 내부 상태와 전략을 가질 수 있음을 시사한다. 앤트로픽은 이러한 발견이 AI 정렬(alignment) 및 감시 연구의 중요성을 강조한다고 밝혔다.",
+      "published_at": "2026-05-09T17:47:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Napatech wins Tier-1 bank deal for 400G SmartNIC deployment",
+      "url": "https://convergedigest.com/napatech-wins-tier-1-bank-deal-for-400g-smartnic-deployment/",
+      "body": "Napatech announced a multi-year design win with a tier-1 global financial institution, with the deployment centered on Napatech's NT400 SmartNIC, which targets ultra-low latency and deterministic performance at 400G. The agreement is expected to exceed $3 million over two years, with $1.5 million scheduled for 2026.\n\nThe platform integrates programmable hardware and software to support application-aware packet processing, a requirement for trading, market data distribution, and other time-sensitive financial workloads. The company said the win adds to a base of more than 50 fintech customers, including exchanges, trading firms, and banks.\n\nNapatech's NT400 SmartNIC uses FPGA-based programmable hardware for deterministic performance, differentiating from pure software-defined approaches. The company said this win demonstrates continued relevance of purpose-built FPGA SmartNICs for financial services workloads where consistent, measurable latency matters more than raw throughput.\n\nThis deal underscores Napatech's continued strength in the financial services sector and their focus on deterministic, low-latency networking performance using their FPGA-based SmartNIC solutions.",
+      "published_at": "2026-05-09T00:00:00+09:00",
+      "source": "Converge Digest",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Napatech"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<!-- Competitor company block. Used inside {{COMPETITOR_SECTION}}. -->
+<!-- Distinguishing visual cues: light-grey card with subtle border, navy badge pill for company name, mango bullet markers. -->
+<!-- {{COMPETITOR_BULLETS_HTML}} is filled with one or more bullet rows of the form: -->
+<!--   <div style="margin-bottom:6px;"><span style="color:#FFB81C;">●</span>&nbsp;&nbsp;<span style="font-size:13px;color:#15182D;line-height:22px;">{{BULLET_TEXT}}</span></div> -->
+<!-- The last bullet row drops the margin-bottom: <div><span ...>●</span>&nbsp;&nbsp;<span ...>{{BULLET_TEXT}}</span></div> -->
+          <tr>
+            <td style="padding:0 28px {{CARD_PADDING_BOTTOM}} 28px;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:#F1F1F5;border:1px solid #D8D9E4;padding:14px 16px;">
+                <tr>
+                  <td>
+                    <div style="display:inline-block;background-color:#15182D;color:#FFFFFF;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:bold;">{{COMPANY_NAME}}</div>
+                    <div style="margin-top:8px;">
+{{COMPETITOR_BULLETS_HTML}}
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>

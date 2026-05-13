@@ -1,0 +1,255 @@
+{
+  "issue_date_kst": "2026-05-13",
+  "main": [
+    {
+      "id": 4,
+      "title": "Samsung labor negotiations collapse; strike looms",
+      "url": "https://www.koreaherald.com/article/10736594",
+      "category": "market",
+      "is_headline": true,
+      "competitor": null,
+      "tldr": "삼성전자 노사 중재가 결렬되면서 5월 21일 4만 1,000명 규모의 총파업이 사실상 확정돼 글로벌 반도체 공급망에 비상이 걸렸다.",
+      "summary_bullets": [
+        "삼성전자 노사는 5월 13일 새벽 세종 중앙노동위원회에서 17시간에 걸친 마지막 중재 협상을 벌였지만, 성과급 산정 방식을 둘러싼 입장 차를 좁히지 못한 채 결렬됐다. 최승호 전국삼성전자노조 위원장은 \"노사 간 격차가 좁혀지지 않아 12시간을 기다렸지만 사측 제안은 오히려 후퇴했다\"며 중재 결렬을 선언했다.",
+        "노조는 영업이익의 15%를 성과급으로 지급하고 지급 상한을 폐지하며 보너스 제도를 공식 제도화할 것을 요구하고 있다. 이 요구가 받아들여지지 않을 경우 5월 21일부터 총파업에 돌입한다는 일정도 이미 예고된 상태다.",
+        "현재 약 4만 1,000명의 조합원이 파업 참여 의사를 밝혔고, 실제 동참 인원은 5만 명을 넘길 수 있다는 게 노조 추산이다. 세계 최대 메모리 제조사이자 한국 시가총액 1위인 삼성전자에서 이 정도 규모의 파업이 벌어지면 메모리 생산 차질이 불가피하다.",
+        "투자은행권에서는 장기화될 경우 영업이익 손실이 수십조 원대로 불어날 수 있다는 추정이 나오고 있으며, HBM·DDR5 등 AI 인프라용 메모리 수급에도 직접 영향이 우려된다. 다만 그늘만 있는 것은 아니다 — 중재 결렬 직후에도 양측은 추가 협상 가능성을 완전히 닫지는 않은 상태다."
+      ],
+      "jargon": []
+    },
+    {
+      "id": 7,
+      "title": "OpenAI, Microsoft And Friends Build A Better, More Scalable Ethernet",
+      "url": "https://www.nextplatform.com/connect/2026/05/12/openai-microsoft-and-friends-build-a-better-more-scalable-ethernet/5239078",
+      "category": "challenges",
+      "is_headline": true,
+      "competitor": "NVIDIA",
+      "tldr": "OpenAI·마이크로소프트·엔비디아·AMD·브로드컴이 공동 개발한 차세대 이더넷 프로토콜 MRC가 AI 클러스터를 13만 1,072 GPU 규모까지 확장 가능하게 만들었다.",
+      "summary_bullets": [
+        "OpenAI, 마이크로소프트, 엔비디아, AMD, 브로드컴이 손잡고 만든 새 네트워킹 프로토콜 'MRC(Multipath Reliable Connection)'는 기존 RDMA over Converged Ethernet(RoCE)의 진화형이다. 포트 대역폭을 무작정 키우는 대신, 더 많은 수의 저대역폭 연결로 스위치 대역폭을 분산해 라텍시도 비용도 같이 낮춘다는 접근이다.",
+        "핵심은 '코어 네트워크에서 사실상 혼잡이 없도록' 만든 적응형 패킷 스프레잉(adaptive packet spraying) 부하 분산이다. 여덟 개의 독립적인 Clos 토폴로지 데이터 플레인을 동시에 굴려, 어떤 두 엔드포인트 사이에도 다중 경로가 항상 열려 있다.",
+        "확장성 지표가 인상적이다. 2단 MRC 네트워크 하나로 13만 1,072개 컴퓨트 엔진을 최대 3홉(hop) 안에 연결할 수 있다 — 기존 3단 네트워크가 6만 5,536 GPU를 최대 7홉으로 연결하던 것과 비교하면, 컴퓨트 용량은 두 배인데 스위치는 20%만 더 들어간다.",
+        "이 프로토콜은 이미 오라클 Stargate 데이터센터(텍사스 애빌린)와 마이크로소프트 Azure AI Fairwater(위스콘신) 시설에서 실증됐다. 구현 스택은 엔비디아 ConnectX-8 SmartNIC, AMD DPU, 브로드컴 Thor Ultra SmartNIC을 묶고, 라우팅은 엔비디아 Spectrum 스위치와 Arista 인프라가 맡는 구도다.",
+        "흥미로운 대목은 이 라인업이 사실상 AI 클러스터 네트워킹 표준의 분기점이라는 점이다. MangoBoost 핵심 사업인 DPU/SmartNIC이 위치한 계층에서 거대 고객사들이 직접 표준을 짜고 그 구현 칩까지 함께 지정했기 때문에, 향후 SmartNIC 시장의 진입 조건이 MRC 호환성으로 재정의될 가능성이 크다."
+      ],
+      "jargon": [
+        {
+          "term": "RDMA / RoCE",
+          "explanation": "RDMA는 CPU를 거치지 않고 서버 간 메모리를 직접 주고받는 고속 통신 기법으로, GPU 클러스터의 사실상 표준 통신 방식이다. RoCE는 이 RDMA를 일반 이더넷 위에서 굴리는 변형으로, MRC는 이 RoCE를 한 단계 더 끌어올린 후속편이라 보면 된다."
+        },
+        {
+          "term": "Clos 토폴로지",
+          "explanation": "여러 단의 작은 스위치를 격자처럼 엮어 어떤 두 서버 사이에도 동일한 경로 품질이 나오도록 만든 데이터센터 표준 네트워크 구조다. AI 클러스터의 거의 모든 대규모 인터커넥트가 변형된 Clos 위에서 동작한다."
+        },
+        {
+          "term": "패킷 스프레잉(packet spraying)",
+          "explanation": "한 통신 흐름의 패킷들을 일부러 여러 경로에 흩뿌려 보내 특정 링크에 트래픽이 몰리지 않게 하는 방식이다. 도로 정체 시 차들을 우회로로 분산시키는 교통 통제와 비슷하다."
+        },
+        {
+          "term": "ConnectX-8 / Thor Ultra / SmartNIC",
+          "explanation": "SmartNIC은 서버 네트워크 카드에 자체 프로세서를 탑재해 네트워크 처리 일부를 CPU에서 떼어내 직접 수행하는 칩이다. ConnectX-8은 엔비디아, Thor Ultra는 브로드컴의 최신 세대 SmartNIC 제품군으로, 이번 MRC 구현의 표준 하드웨어로 지정됐다."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cerebras' $48 Billion IPO Tests the Market's Inference Bet",
+      "url": "https://www.investing.com/analysis/cerebras-48-billion-ipo-tests-the-markets-inference-bet-200680080",
+      "category": "products",
+      "is_headline": true,
+      "competitor": "Cerebras",
+      "tldr": "Cerebras가 488억 달러 평가로 5월 14일 나스닥에 상장하며, GPU 아닌 웨이퍼 단위 칩으로 AI 추론 시장에 자본시장의 베팅을 끌어냈다.",
+      "summary_bullets": [
+        "Cerebras Systems는 5월 13일 IPO 공모가를 주당 150~160달러로 확정하며, 약 48억 달러를 조달하고 완전 희석 기준 488억 달러 기업가치를 평가받았다. 당초 제시했던 115~125달러 밴드를 크게 웃도는 가격대였고, 청약 수요는 공모 물량의 20배를 넘었다 — 5월 14일부터 티커 'CBRS'로 나스닥 거래가 개시된다.",
+        "회사의 간판 제품은 'WSE-3(Wafer Scale Engine 3)' 아키텍처로, 통상적인 GPU 다발 대신 웨이퍼 한 장 전체를 그대로 하나의 거대한 칩으로 쓰는 방식이다. 이 구조 덕분에 AI 추론(inference) 워크로드에서 GPU 기반 시스템 대비 차별화를 노린다.",
+        "고객 측 모멘텀이 가격을 끌어올렸다. OpenAI가 750MW(약 750메가와트) 규모, 200억 달러 이상에 달하는 장기 공급 계약을 약정했고, AWS도 자사 데이터센터에 Cerebras 시스템을 배포할 계획을 공식 발표했다. 2025년 매출은 전년 대비 76% 증가한 5억 1,000만 달러, 순이익률 47%를 기록했지만 GAAP 기준 영업적자는 여전히 남아 있다.",
+        "다만 그늘도 분명하다. 분석 보고서는 (1) OpenAI에 과도하게 쏠린 매출 집중, (2) 장기 공급 약정이 없는 TSMC 의존 생산 구조, (3) 엔비디아의 지속적인 R&D 투자와 최근 인수합병 행보로 인한 경쟁 압박을 3대 구조적 리스크로 짚었다.",
+        "비교 차원에서 488억 달러 평가는 최근 12개월 매출(TTM) 대비 약 51배 — 향후 클라우드 서비스 매출이 본격적으로 늘면서 마진까지 같이 확장된다는 시나리오를 가격에 이미 다 반영해 둔 셈이다."
+      ],
+      "jargon": [
+        {
+          "term": "WSE-3 (Wafer Scale Engine 3)",
+          "explanation": "Cerebras가 직접 설계한 칩으로, 통상 작은 다이로 잘라내는 웨이퍼 한 장을 자르지 않고 통째로 하나의 거대한 칩처럼 쓴다. 칩 안에서 데이터 이동 거리가 짧아 GPU 클러스터처럼 외부 인터커넥트에 의존할 필요가 줄어드는 것이 장점이다."
+        },
+        {
+          "term": "AI 추론(inference)",
+          "explanation": "이미 학습이 끝난 AI 모델이 실제로 사용자 질문에 답을 만들어내는 단계다. 학습보다 횟수가 압도적으로 많아 비용·전력 효율이 사업성을 결정하며, Cerebras·Groq·SambaNova 등이 GPU 대안으로 노리는 격전지가 바로 이 영역이다."
+        },
+        {
+          "term": "TTM 매출 배수(51x)",
+          "explanation": "최근 12개월(TTM, Trailing Twelve Months) 매출 대비 기업가치가 몇 배인지 보는 지표다. 51배는 통상 SaaS 초고성장주에서나 보이는 수치로, 시장이 향후 수 년간의 고속 성장을 가격에 이미 반영했다는 뜻이다."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "MinIO adds petabyte-scale MemKV cache for Nvidia GPU inference",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/05/12/minio-adds-petabyte-scale-memkv-cache-for-nvidia-gpu-inference/5238593",
+      "category": "products",
+      "is_headline": false,
+      "competitor": "NVIDIA",
+      "tldr": "MinIO가 엔비디아 BlueField-4 DPU와 RDMA를 활용한 페타바이트급 MemKV 캐시를 출시해 128 GPU 환경에서 GPU 활용률을 50%에서 90%로 끌어올렸다.",
+      "summary_bullets": [
+        "오브젝트 스토리지 전문 기업 MinIO가 자사 AIStor 플랫폼 위에 'MemKV'라는 페타바이트급 캐싱 시스템을 새로 얹었다. GPU가 추론 도중 자체 HBM 메모리를 다 쓰면 데이터가 CPU DRAM → NVMe SSD(BlueField-4 DPU의 컨트롤러 소프트웨어 경유) → 오브젝트 스토리지 순으로 흘러내려가는 다단계 메모리 계층의 가장 바깥 단을 책임지는 구조다.",
+        "성능 수치가 인상적이다. 128 GPU에 128K 토큰 컨텍스트 환경에서 GPU 활용률을 50%에서 90% 이상으로 끌어올렸고, 회사 측은 이로 인해 연 200만 달러의 컴퓨트 비용 절감 효과가 났다고 밝혔다.",
+        "기술 스택은 사실상 엔비디아 풀스택으로 짜여 있다. BlueField-4 DPU의 STX 아키텍처를 ARM64 네이티브 바이너리로 직접 지원하고, GPU 메모리와 NVMe 사이를 RDMA로 직결해 파일시스템·오브젝트 스토리지 프로토콜 오버헤드를 모두 제거했다. 블록 크기도 기존 4KB 대신 2~16MB로 GPU에 맞춰 키웠고, Spectrum-X 이더넷과 PCIe Gen6에 맞춘 와이어스피드(wire-speed) 성능을 낸다.",
+        "흥미로운 대목은 이 솔루션이 KV 캐시 영역의 표준 인접 사례를 양산형으로 보여줬다는 점이다. GRAID, WEKA 등도 STX 호환 KV 캐시를 내놓고 있어, DPU 기반 인퍼런스 메모리 계층 자체가 본격적인 경쟁 시장으로 굳어지고 있다."
+      ],
+      "jargon": [
+        {
+          "term": "KV 캐시(Key-Value cache)",
+          "explanation": "LLM이 이전 대화/문맥을 기억하기 위해 토큰마다 만들어 두는 중간 계산 결과 저장소다. 대화가 길어질수록 KV 캐시가 폭증해 GPU 메모리(HBM)를 빠르게 잡아먹기 때문에, 이걸 어디에/얼마나 효율적으로 저장하느냐가 추론 비용을 좌우한다."
+        },
+        {
+          "term": "BlueField-4 / STX 아키텍처",
+          "explanation": "BlueField-4는 엔비디아의 최신 세대 DPU로, GPU 옆에서 네트워크·스토리지 처리를 도맡는 보조 칩이다. STX는 그 위에서 동작하는 소프트웨어 스택 프레임워크로, MemKV처럼 외부 벤더가 DPU에 직접 코드를 얹어 인퍼런스 데이터 경로를 가속할 수 있게 해 준다."
+        },
+        {
+          "term": "Spectrum-X / PCIe Gen6",
+          "explanation": "Spectrum-X는 엔비디아가 만든 AI 전용 이더넷 스위치 패밀리이고, PCIe Gen6는 서버 내부에서 칩과 칩을 잇는 최신 세대 고속 버스 표준이다. 둘 다 'GPU 옆까지 데이터를 막힘없이 흘려보내는 고속도로'에 해당한다."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "리벨리온, 국민성장펀드 6000억 수령 완료...차세대 AI칩 양산 본격화",
+      "url": "https://www.ajunews.com/view/20260512150952425",
+      "category": "projects",
+      "is_headline": false,
+      "competitor": "Rebellions",
+      "tldr": "리벨리온이 국민성장펀드로부터 6,000억 원 납입을 완료하고 차세대 칩 '리벨 100' 양산과 미국 시장 진출, 하반기 IPO를 동시에 본격화한다.",
+      "summary_bullets": [
+        "리벨리온은 국민성장펀드로부터 총 6,000억 원의 투자금 납입을 완료했다고 발표했다. 자금 구성은 기금운용심의회 직접 투자 2,500억 원, 산업은행 500억 원, 미래에셋을 비롯한 민간 부문 3,000억 원으로, 정부와 민간 자금이 함께 들어간 형태다.",
+        "이 자금은 차세대 AI 칩 '리벨 100(Rebel 100)' 양산과 미국 등 글로벌 시장 진출에 투입된다. 잠재 고객사로는 메타(Meta)와 xAI가 언급됐고, 양산은 삼성 파운드리를 통해 진행되며 이전 세대 아톰(Atom) NPU 출하량 수준의 물량이 목표다.",
+        "실적 모멘텀도 함께 붙고 있다. 2025년 연결 매출은 320억 원으로 전년 대비 3배 성장했으며, SK텔레콤의 AI 서비스에 아톰 칩이 채택된 것이 매출 성장의 주된 견인차였다.",
+        "한편 6,400억 원 규모의 프리IPO 자금 유치까지 성공하면서 하반기 기업공개(IPO) 가능성이 한층 가시화됐다. 현재 기업가치는 3조 4,000억 원, 삼성증권과 한국투자증권이 주관사로 선정됐고 이르면 8월 거래소 상장 예비 심사 청구가 예상된다."
+      ],
+      "jargon": [
+        {
+          "term": "프리IPO(pre-IPO)",
+          "explanation": "상장 직전에 진행하는 마지막 비공개 투자 라운드다. 이 단계에서 평가받은 기업가치가 사실상 IPO 공모가의 기준점이 되기 때문에, 본 상장 전 시장의 가격 감을 잡는 신호로 자주 활용된다."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "BofA hikes 2026 chips forecast to $1.3 trillion, names Nvidia, Broadcom, Marvell, AMD as top drivers",
+      "url": "https://finance.yahoo.com/news/bofa-hikes-2026-chips-forecast-to-13-trillion-names-nvidia-broadcom-marvell-amd-as-top-drivers-164800203.html",
+      "category": "market",
+      "is_headline": false,
+      "competitor": "Marvell",
+      "tldr": "뱅크오브아메리카가 2026년 글로벌 반도체 시장 전망을 1조 3,000억 달러로 4개월 만에 3,000억 달러 상향하며 엔비디아·브로드컴·마벨·AMD를 4대 AI 주도주로 지목했다.",
+      "summary_bullets": [
+        "뱅크오브아메리카(BofA)의 비벡 아리야(Vivek Arya) 애널리스트는 2026년 글로벌 반도체 매출 전망을 1조 3,000억 달러로 상향 조정했다. 이는 불과 4개월 전 추정치 대비 3,000억 달러 증가한 수치로, AI 부문의 가속 모멘텀을 반영한 결과다.",
+        "성장 동력에 대해 아리야는 \"AI/데이터센터가 컴퓨트·네트워킹·메모리를 통해 성장의 대부분을 견인하고, 산업용은 재고 보충과 로보틱스 양산으로 보조 역할\"이라고 진단했다. 2030년까지 시장 규모는 2조 달러로, 연평균 성장률(CAGR) 20% 수준 — 역사적 평균 9%의 두 배가 넘는 페이스다.",
+        "BofA는 엔비디아와 브로드컴을 성장의 1차 주도주로 지목하면서, 마벨(Marvell)과 AMD를 'AI 컴퓨트 리더'로 함께 추천했다. 장비 제조사 어플라이드 머티리얼즈(Applied Materials)와 램리서치(Lam Research)는 칩 생산 증가의 수혜주로, EDA 소프트웨어 기업 케이던스(Cadence)와 시놉시스(Synopsys)는 AI 설계 단계의 '곡괭이와 삽(picks and shovels)' 종목으로 짚었다.",
+        "다만 그늘도 있다. BofA는 칩 벤더가 약속받은 수요를 채우려면 2027년까지 글로벌 클라우드 자본지출(capex)이 1조 달러를 넘어야 한다고 추산했는데, 이는 현재 시장 컨센서스 8,720억 달러를 한참 웃도는 숫자다. 하이퍼스케일러들이 약속한 만큼 투자해 그 ROI를 회수할 수 있을지가 향후 베팅의 시험대다."
+      ],
+      "jargon": [
+        {
+          "term": "picks and shovels(곡괭이와 삽)",
+          "explanation": "골드러시 시대에 금을 캐러 간 사람보다 그들에게 곡괭이와 삽을 판 상인이 더 안정적으로 돈을 벌었다는 데서 유래한 표현이다. AI 붐의 직접 수혜자(GPU 업체)보다 그 인프라를 떠받치는 EDA·장비·소재 업체에 베팅하는 전략을 가리킨다."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Samsung Electronics, 4분기 '포스트 HBM' CXL 3.1 양산 추진",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56445",
+      "category": "products",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "삼성전자가 2026년 4분기 CXL 3.1 메모리 모듈 양산을 추진하며, 3분기부터 마이크로소프트·구글·아마존 등 글로벌 40개 하이퍼스케일러에 샘플을 공급한다.",
+      "summary_bullets": [
+        "삼성전자가 2026년 4분기에 CXL 3.1 기반 메모리 모듈 'CMM-D 3.1' 양산에 들어간다. 3분기부터는 마이크로소프트, 구글, 아마존, 메타, 델, 슈퍼마이크로 등 전 세계 약 40개 주요 서버·데이터센터 기업에 샘플 공급을 시작할 예정이며, 4분기 고객사 품질 테스트를 거쳐 양산 일정으로 이어진다.",
+        "사양 면에서 큰 점프가 있다. CMM-D 3.1은 PCIe 6.0 인터페이스를 사용해 최대 1TB 용량과 72GB/s 대역폭을 지원한다 — 직전 세대 CMM-D 2.0이 최대 256GB 용량에 36GB/s였던 것과 비교하면 용량 4배, 대역폭 2배에 해당한다.",
+        "시장 측 전망도 우호적이다. 시장조사업체 욜(Yole)에 따르면 CXL 시장은 AI 데이터센터 수요에 힘입어 2025년 21억 달러(약 2조 8,700억 원)에서 2028년 160억 달러(약 21조 8,400억 원)로 약 8배 성장할 것으로 예상된다.",
+        "다만 일정은 한 번 미뤄진 것이다. 삼성은 당초 2025년 4분기 CXL 3.1 제품 출시를 계획했지만, 기존 D램과 HBM 솔루션에 대한 시장 수요가 워낙 강해 일단 그쪽에 생산 자원을 우선 배정하면서 CXL 출시 시점을 1년 가량 늦춘 셈이다."
+      ],
+      "jargon": [
+        {
+          "term": "CXL 3.1 / CMM-D",
+          "explanation": "CXL은 CPU·GPU·메모리·DPU 같은 서로 다른 칩들이 한 메모리 공간을 공유할 수 있게 해 주는 표준 인터커넥트다. CMM-D는 그 표준을 따르는 메모리 모듈로, 서버에 메모리를 카드 형태로 끼워 용량을 유연하게 늘릴 수 있다 — 사실상 'CPU 옆에 붙는 D램 슬롯을 통째로 빼서 따로 모아 두는' 디스어그리게이션의 핵심 부품이다."
+        },
+        {
+          "term": "PCIe 6.0",
+          "explanation": "서버 내부에서 칩과 칩을 잇는 표준 고속 버스의 최신 세대 규격이다. CXL 3.1은 이 PCIe 6.0 물리 계층 위에서 동작하기 때문에, PCIe 6.0이 가능한 시스템이 갖춰져야 비로소 CMM-D 3.1의 72GB/s 대역폭이 실제로 나온다."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Microsoft claims to be first hyperscaler to power on Nvidia Vera Rubin NVL72 system",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-claims-to-be-first-hyperscaler-to-power-on-nvidia-vera-rubin-nvl72-system/",
+      "category": "products",
+      "is_headline": false,
+      "competitor": "NVIDIA",
+      "tldr": "마이크로소프트가 엔비디아 차세대 Vera Rubin NVL72 시스템을 클라우드 사업자 중 최초로 가동하며, Blackwell 대비 추론 성능 5배·토큰당 비용 1/10 시대의 개막을 알렸다.",
+      "summary_bullets": [
+        "사티아 나델라 마이크로소프트 CEO는 \"마이크로소프트가 검증을 위해 엔비디아 Vera Rubin NVL72 시스템을 가동한 최초의 클라우드 사업자\"라며, 이를 \"엔비디아와 함께 차세대 AI 인프라를 만드는 또 하나의 큰 한 걸음\"이라 평했다. 가동은 일단 자체 랩에서 이뤄졌고, 향후 수개월 동안 Azure 데이터센터로 확대 배포될 예정이다.",
+        "Vera Rubin NVL72는 엔비디아의 차세대 데이터센터 플래그십 구성이다. R100(H300) GPU 72개와 Vera CPU 36개를 NVLink 6 인터커넥트로 묶어 260TB/s 규모의 전구간(all-to-all) 대역폭을 낸다.",
+        "성능 점프가 크다. 직전 세대 Blackwell 대비 추론 성능은 최대 5배, 토큰당 비용은 1/10 수준으로 낮아진다 — 추론 비용이 사실상 1자릿수로 떨어지는 구조다.",
+        "2026년 첫 배포 클라우드 명단에는 AWS, 구글 클라우드, 마이크로소프트, OCI에 더해 엔비디아 클라우드 파트너인 CoreWeave, Lambda, Nebius, Nscale이 포함된다. 양산과 파트너 공급 본격화 시점은 2026년 하반기(H2 2026)로, 이 발표는 2026년 3월 GTC를 기점으로 굳어진 일정이다.",
+        "마이크로소프트는 이 시스템을 차세대 AI 데이터센터, 특히 Fairwater AI 슈퍼팩토리 부지에 우선 배치할 계획이다 — 같은 Fairwater 시설은 이번 호의 MRC 이더넷 프로토콜 실증지이기도 해서, 한 부지에서 차세대 GPU와 차세대 인터커넥트가 동시에 실증되는 셈이다."
+      ],
+      "jargon": [
+        {
+          "term": "Vera Rubin NVL72 / R100 / NVLink 6",
+          "explanation": "Vera Rubin은 Blackwell의 다음 세대인 엔비디아 차세대 GPU 플랫폼 코드명이다. NVL72는 GPU 72개 + CPU 36개를 한 랙에 욱여넣은 표준 구성이고, NVLink 6는 GPU들끼리 직접 연결하는 초고속 전용 인터커넥트의 6세대 버전 — 이 세 가지가 모여 한 덩어리의 'AI 슈퍼컴퓨터 한 랙'을 이룬다."
+        },
+        {
+          "term": "토큰당 비용(cost per token)",
+          "explanation": "AI 모델이 단어 한 조각(토큰)을 만들어 낼 때 드는 추론 비용을 가리키는 핵심 단가 지표다. 이 비용이 1/10이 됐다는 것은 같은 ChatGPT 응답을 만드는 데 드는 데이터센터 비용도 거의 같은 비율로 떨어진다는 의미라, AI 서비스 사업성에 직접 영향을 준다."
+        }
+      ]
+    }
+  ],
+  "competitor_updates": [
+    {
+      "company": "FriendliAI",
+      "tier": "1",
+      "bullets": [
+        "Tier 1 국내 경쟁사 FriendliAI가 샌프란시스코 SoMA에 7,000제곱피트 규모 사무소(20 Hawthorne Street)를 개설하며 본격적인 미국 시장 진입을 알렸다. 동시에 연 매출 10배 성장 궤도를 공언하며 미국 내 GTM·파트너십·엔지니어링 전 직군에 걸친 채용 확대를 예고했다 — Bay Area 고객·파트너에 더 가까이 붙겠다는 의도가 분명하다.",
+        "기술적 차별점은 메모리 병목 해소에 있다. Artificial Analysis와 OpenRouter 독립 벤치마크에서 GLM-5.1·Gemma 4 등 주요 모델에 대해 출력 속도·라텍시·툴 호출·구조화 출력 전 항목 1위를 차지했고, 연속 배치(continuous batching)와 디스어그리게이티드 메모리 관리로 LLM 서빙의 메모리 대역폭 한계를 우회하는 방식이다 — MangoBoost와 동일한 'AI 메모리 병목' 문제 영역에서 소프트웨어 측 솔루션으로 영토를 넓혀 가는 모습이다.",
+        "협업 측면에서는 엔비디아 Nemotron 3, Z.ai GLM-5.1의 Day 0 파트너로 이름을 올렸고, 인프라 측에서는 AWS, OCI, 삼성 클라우드 플랫폼과 손잡았다 — 모델 공급자·클라우드 양쪽에 동시에 끈을 둔 구도다."
+      ],
+      "source_article_ids": [16, 35]
+    },
+    {
+      "company": "Rebellions",
+      "tier": "1",
+      "bullets": [
+        "Tier 1 국내 경쟁사 리벨리온이 국민성장펀드 6,000억 원 납입을 완료하고, 차세대 칩 '리벨 100' 양산과 메타·xAI를 잠재 고객으로 한 미국 진출을 동시에 본격화했다. 양산은 삼성 파운드리에서 이뤄지며, 이전 세대 아톰(Atom) NPU 출하량 수준을 양산 목표로 잡았다.",
+        "별도로 6,400억 원 규모 프리IPO 유치까지 마무리하면서, 현재 기업가치 3조 4,000억 원·하반기 거래소 상장 예비 심사 청구라는 IPO 로드맵이 8월 전후로 가시화됐다 — 2025년 매출 320억 원(전년 대비 3배)이라는 실적 모멘텀이 가격 베팅을 떠받치는 구조다."
+      ],
+      "source_article_ids": [17]
+    },
+    {
+      "company": "Cerebras",
+      "tier": "2",
+      "bullets": [
+        "Cerebras가 5월 14일 나스닥(티커 CBRS)에 488억 달러 평가로 상장한다. 공모가는 당초 밴드(115~125달러)를 한참 웃도는 150~160달러로 확정됐고, 청약 수요는 공모 물량의 20배를 넘었다 — GPU 아닌 웨이퍼 단위 추론 칩 아키텍처(WSE-3)에 대한 자본시장의 베팅이 본격화된 셈이다.",
+        "고객 측 모멘텀이 가격을 끌어올렸다. OpenAI가 750MW·200억 달러 이상의 장기 공급을 약정했고 AWS도 자사 데이터센터 배포를 공식화했다. 다만 OpenAI 매출 집중과 TSMC 의존(장기 약정 부재), 그리고 엔비디아의 추격 R&D가 3대 구조적 리스크로 함께 짚혔다."
+      ],
+      "source_article_ids": [5]
+    },
+    {
+      "company": "Marvell",
+      "tier": "2",
+      "bullets": [
+        "뱅크오브아메리카가 2026년 글로벌 반도체 시장 전망을 1조 3,000억 달러로 4개월 만에 3,000억 달러 상향하면서 마벨(Marvell)을 AMD와 함께 'AI 컴퓨트 리더'로 명시했다 — 1차 주도주 엔비디아·브로드컴 바로 다음 줄에 마벨의 이름이 놓인 셈이라, 커스텀 ASIC·옵티컬 인터커넥트 분야에서의 마벨 입지가 시장 평가에 점점 더 분명하게 반영되고 있다."
+      ],
+      "source_article_ids": [30]
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "2",
+      "bullets": [
+        "엔비디아는 차세대 AI 인프라 표준의 모든 결정 지점에서 한가운데 자리를 차지하고 있다. OpenAI·MS·AMD·브로드컴과 공동 개발한 MRC 이더넷 프로토콜의 표준 SmartNIC으로 ConnectX-8이 지정됐고, 라우팅은 Spectrum 스위치가 맡으며, 같은 Fairwater 부지에서 Vera Rubin NVL72까지 클라우드 최초로 가동되는 등 — 네트워크·컴퓨트·데이터센터 부지 모두 한꺼번에 엔비디아 스택으로 정렬되고 있다.",
+        "제품 측 모멘텀도 가파르다. Vera Rubin NVL72는 직전 세대 Blackwell 대비 추론 성능 5배·토큰당 비용 1/10을 내세우며 2026년 하반기 양산에 들어가고, BlueField-4 DPU는 MinIO MemKV 같은 외부 벤더가 직접 ARM64 네이티브로 코드를 얹는 'STX 플랫폼'으로 굳어지면서 128 GPU 환경에서 활용률 50→90% 같은 실증 사례를 끌어내고 있다.",
+        "다만 정치적 그늘도 있다. 젠슨 황(Jensen Huang) CEO가 5월 13~15일 트럼프 대통령의 방중 경제사절단에서 의도적으로 배제된 것으로 해석되며 — Apple·Tesla CEO는 합류한 가운데 — AI 칩 수출 통제를 둘러싼 미·중 갈등에서 엔비디아의 외교적 입지가 흔들리는 신호로 읽힌다. 중국 매출은 H20급 규제 호환 제품으로 여전히 성장 중이지만, 이번 사절단 배제로 단기에 큰 미·중 AI 칩 합의가 나올 가능성은 낮아졌다는 게 월가 시각이다."
+      ],
+      "source_article_ids": [7, 19, 33, 6]
+    }
+  ]
+}

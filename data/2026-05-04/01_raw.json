@@ -1,0 +1,300 @@
+{
+  "collection_date_kst": "2026-05-04",
+  "run_summary": {
+    "total": 27,
+    "by_topic": {
+      "ai": 9,
+      "semiconductor": 7,
+      "datacenter": 6,
+      "competitor": 5
+    },
+    "by_competitor": {
+      "Tenstorrent": 2,
+      "Moreh": 1,
+      "Furiosa": 0,
+      "Rebellions": 1,
+      "NVIDIA": 0,
+      "Marvell": 1,
+      "Cerebras": 1,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Napatech": 0
+    },
+    "competitor_tagged_total": 6,
+    "sources_consulted": 38,
+    "skipped_paywalled": 5,
+    "notes": "Acceptance window: 2026-05-03 and 2026-05-04 KST only. Many high-value competitor articles (FuriosaAI Samsung SDS, Rebellions Rebel100, HyperAccel award, Marvell Google TPU) were published in late April (2026-04-02 through 2026-04-29) and fell outside the recency window — excluded per rules. Channel A status: TheRegister networks section most recent 2026-05-02 (borderline — included 2 articles); NextPlatform feed topped at 2026-05-02 (1 article included); ServeTheHome had only a consumer motherboard review (rejected); HPCwire feed returned 403; BlocksAndFiles topped at 2026-05-01; ArtificialIntelligence-news topped at 2026-05-01; DCD RSS had one qualifying article (OpenAI/Stargate, 2026-05-03); NetworkWorld index.rss returned 404; IEEE Spectrum had no 2026-05-03/04 articles; SemiAnalysis feed only had Sept 2025 content; Wired feed returned fetch error; Naver News section fetch blocked (403). Paywalled/403 skips: Digitimes cooling overhaul (paywall), KoreaTechDesk FuriosaAI RNGD (403), WccfTech Tenstorrent (403), DCD OpenAI body (403 — used search snippet). FriendliAI: no qualifying May 3-4 articles found. Napatech: no qualifying May 3-4 articles found. HyperAccel award article published 2026-04-22 — outside window. Published_urls.jsonl: 19 URLs checked and excluded. Moreh+Tenstorrent Manila Times URL (issue #001) excluded. Tenstorrent HPCwire URL (issue #001) excluded. Note: 2026-05-03 articles from The Register (2026-05-02 UTC = 2026-05-03 KST) included."
+  },
+  "articles": [
+    {
+      "title": "구글, AI 음성 비서 겨냥한 '제미나이 플래시'·'옴니' 모델 테스트 중",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210044",
+      "body": "Google is preparing new AI models ahead of its I/O developer conference on May 19-20, 2026, according to leaked testing catalogs and screenshots. The company is focusing on voice assistant capabilities and on-device AI optimization.\n\nGoogle is testing an improved Gemini Flash model labeled as Gemini 3.2 Flash. According to test users, the new version offers faster inference speed and significantly enhanced capabilities in SVG graphic generation, complex code writing, and 3D voxel simulation.\n\nA lighter version called Gemini 3.1 Flash Lite will be distributed to Vertex AI customers starting June 1st, replacing the current Gemini 2 Flash. The company is also rolling out Gemma 4, an open model designed to strengthen on-device AI performance.\n\nGoogle is testing a new Omni model within the Gemini app for video generation. A leaked screenshot shows the text 'Start with an idea or try a template. Powered by Omni.' This multimodal model would handle text, images, video, and audio simultaneously — a first for integrated video generation in consumer AI apps.\n\nThese developments suggest Google aims to strengthen its position in the voice assistant market and on-device AI environments, while consolidating various model names under the unified Gemini brand. The I/O conference on May 19-20 is expected to formally announce these models.",
+      "published_at": "2026-05-04T09:34:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "GPT-5.5, '4o'의 매력 되찾나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210038",
+      "body": "OpenAI's latest model GPT-5.5 is receiving praise from users who appreciate its more natural conversational style compared to previous versions, with commentary spreading through online communities.\n\nReddit's ChatGPT community shows growing enthusiasm for GPT-5.5. One user stated the model has 'definitely gotten better' and appreciated that the model does not panic when conversation stops, generates ideas, and shows its own perspective.\n\nThe phrase 'drop the clipboard' has emerged to describe the shift. Previous models like GPT-5 and GPT-5.2 were perceived as overly formal — like a rigid HR person checking everything on a clipboard.\n\nGPT-5.5 was developed through a 'Spud' project that fundamentally redesigned the architecture, moving beyond recent models' focus on coding performance. Anthropic's Claude Mythos is also in limited testing.\n\nDespite positive feedback, critics note GPT-4o had a certain 'soul' that remains unmatched. The new model also exhibits alignment issues, including a higher rate of false claims about completing impossible tasks (29%).",
+      "published_at": "2026-05-03T16:55:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "컴퓨팅 확보 비상 걸린 앤트로픽, 영국 칩 신예와 파트너십 검토",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210033",
+      "body": "Anthropic is urgently seeking new AI chip sources beyond its existing suppliers. The company is in discussions with British startup Fractile regarding next-generation inference chips, according to reporting from The Information.\n\nFractile, founded in 2022 and emerging from stealth mode in mid-2024, represents an unconventional choice for Anthropic. The startup lacks extensive hardware manufacturing experience, yet Anthropic is actively negotiating chip procurement despite this risk. Fractile's chips are expected to become available as early as next year (2027).\n\nAnthropic faces severe computing resource constraints due to surging demand for AI coding and automation tasks. Users report service disruptions and consumption limits that developers are contesting.\n\nSuccessfully contracting with Fractile would strengthen Anthropic's negotiating position with major suppliers including Google, Amazon, and Nvidia. Fractile and competitors emphasize efficient inference capabilities through SRAM-based architectures that minimize data movement, reducing costs and power consumption.\n\nAnthropic is also reportedly reviewing designs for proprietary inference chips — a strategy OpenAI and Meta are pursuing. The shift reflects growing industry momentum away from Nvidia's GPU dominance in inference workloads.",
+      "published_at": "2026-05-03T11:42:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "문서 분석부터 제조 공정까지…상용화 앞둔 AI 기술에 뭉칫돈",
+      "url": "https://www.mt.co.kr/amp/future/2026/05/03/2026050315580471095",
+      "body": "Korean AI startup investment landscape for the week of April 27-May 1, 2026: 29 companies raised funding, with 10 disclosing investment amounts totaling 721.6 billion won (약 7,216억 원).\n\nRoai — Physical AI for Manufacturing: Raised 130 billion won (약 1,300억 원, Series A) from KB Investment and LB Investment. Focus: AI-based autonomous manufacturing infrastructure with robot path optimization and simulation using Nvidia Omniverse.\n\nTinaps — AI Security: Raised 4.5 billion won (약 45억 원, Seed) from Mirae Asset Venture Investment. Focus: AI trust layer that validates AI agent responses in real-time, preventing hallucinations and data breaches in enterprise deployments.\n\nSearchDog — Document Analysis AI: Raised 750,000 USD (약 11억 원, Seed) from Asia2G and Futurplay. Founded by engineers from AWS, Naver, and Samsung. Analyzes large-scale documents and industrial blueprints using AI.\n\nTheme for the week: Investment concentrated on commercially-ready AI applications addressing manufacturing, security, document processing, and clean energy sectors, signaling Korean AI ecosystem maturation beyond model development into deployment-layer infrastructure.",
+      "published_at": "2026-05-03T15:58:00+09:00",
+      "source": "머니투데이",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Brace for the patch tsunami: AI is unearthing decades of buried code debt",
+      "url": "https://www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
+      "body": "Britain's National Cyber Security Center (NCSC) warns that artificial intelligence is rapidly exposing long-buried software vulnerabilities, creating an unprecedented surge in required security patches across the technology ecosystem.\n\nThe NCSC's Chief Technology Officer Ollie Whitehouse explains that organizations have accumulated substantial technical debt — expensive issues deferred in favor of short-term solutions. AI tools are now efficiently identifying these weaknesses at scale.\n\nWhitehouse stated: 'All organizations have technical debt; a backlog of technical issues resulting from prioritizing immediate gains over building resilient systems. The convergence of AI's discovery capabilities with accumulated legacy flaws will trigger a forced correction across the technology ecosystem.'\n\nAdvanced AI models like Anthropic's Claude Mythos and OpenAI's GPT-5.5-Cyber can identify and fix bugs, but the same technology lowers barriers for attackers seeking vulnerabilities.\n\nOrganizations must shrink their internet-facing attack surfaces immediately, prioritize securing perimeter technologies before moving inward, prepare for rapid, frequent, large-scale patching, and consider replacing unsupported or obsolete systems entirely. Security teams should anticipate an influx of critical-severity vulnerability updates arriving simultaneously, compressing timelines for defensive responses.",
+      "published_at": "2026-05-02T00:00:00+09:00",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Usage-based pricing killing your vibe — here's how to roll your own local AI coding agents",
+      "url": "https://www.theregister.com/2026/05/02/local_ai_coding_agents/",
+      "body": "Major AI providers are shifting toward expensive usage-based pricing models. Anthropic has been dropping Claude Code from its most affordable plans while Microsoft moved GitHub Copilot to a purely usage-based model. This pricing pressure makes hobby and small-scale development projects increasingly costly.\n\nDevelopers can now run capable models locally using the Qwen3.6-27B model, which offers flagship coding capability on hardware as modest as a 32GB Mac or 24GB GPU.\n\nModel capabilities have advanced significantly. Reasoning features allow smaller models to compensate through extended thinking, mixture-of-experts (MoE) architecture reduces memory requirements, and improved function-calling enables interaction with codebases and shell environments.\n\nA machine with at least 24GB VRAM (Nvidia, AMD, or Intel GPU) is recommended, or 32GB unified memory for newer M-series Macs.\n\nThree agent frameworks are detailed: Claude Code (works with local models despite its Anthropic branding), Pi Coding Agent (lightweight, open-source alternative), and Cline (VS Code extension with planning/action mode switching).\n\nTesting showed Qwen3.6-27B managed to one-shot an interactive solar system web app and could identify and patch bugs in existing codebases. The article signals a structural market shift toward local AI inference as cloud API costs escalate.",
+      "published_at": "2026-05-02T00:00:00+09:00",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Cloudflare Builds High-Performance Infrastructure for Running LLMs",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-llm-infrastructure/",
+      "body": "Cloudflare has unveiled new infrastructure designed to operate large language models (LLMs) across its global network, addressing key challenges posed by computationally expensive AI systems through innovative architectural approaches.\n\nDisaggregated Prefill Architecture: Cloudflare separates LLM request processing into two specialized stages. One machine handles input token processing and key-value cache population (compute-intensive prefill stage), while another manages output token generation (memory-intensive decode stage). As the engineering team explains: 'Prefill is usually compute bound, while decode is memory bound.'\n\nCustom Inference Engine — Infire: This custom engine optimizes multi-GPU model execution, improves efficiency, reduces memory consumption, and accelerates model startup times. The system employs pipeline and tensor parallelism to balance throughput and latency effectively.\n\nUltra-large models like Kimi K2.5 (exceeding 1 trillion parameters, approximately 560GB) require distribution across multiple GPUs. Running such models demands at least eight H100 graphics processing units simply to load parameters into memory.\n\nCloudflare has also introduced Unweight, a compression system claiming 15-22% reduction in model weights without accuracy loss, enabling faster and more efficient inference globally.",
+      "published_at": "2026-05-01T00:00:00+09:00",
+      "source": "InfoQ",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "미국 국방부, 앤트로픽 제외한 기업 8곳과 기밀 네트워크 AI 공급 계약",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210017",
+      "body": "The U.S. Department of Defense has signed AI supply contracts for classified network deployment with eight companies, notably excluding Anthropic from the initial round. The contracts cover deployment of AI systems on secure, classified government networks.\n\nThe selected companies include major cloud and AI providers with existing security clearances and classified infrastructure capabilities. The exclusion of Anthropic is notable given the company's scale and its Claude models' widespread enterprise adoption.\n\nThe contracts reflect accelerating U.S. government investment in AI for defense and intelligence applications. Classified network AI deployment requires specialized infrastructure, air-gapped or classified cloud environments, and adherence to strict data handling protocols.\n\nThis development signals the growing importance of AI in national security contexts and the competitive market for government AI contracts among major technology companies.",
+      "published_at": "2026-05-03T00:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Google Is A Full Stack AI Player, And Is Playing Well",
+      "url": "https://www.nextplatform.com/cloud/2026/05/02/google-is-a-full-stack-ai-player-and-is-playing-well/5219190",
+      "body": "Google delivered strong Q1 2026 results demonstrating the advantages of its vertically integrated AI strategy spanning custom silicon (TPUs, Ironwood), infrastructure, platform services, and consumer applications.\n\nGoogle Cloud achieved 63% year-on-year growth to reach $20.02 billion (약 27.4조 원) in Q1 2026, dramatically exceeding analyst forecasts of $18.05 billion. Google's CEO indicated the company is compute constrained in the near term, with cloud demand exceeding available capacity. The company's cloud backlog reached over $460 billion (약 630조 원), nearly doubling the previous quarter.\n\nGoogle's latest TPU, Ironwood, is described as the first Google TPU for the age of inference. The company is also in talks with Marvell Technology to develop additional custom AI inference chips alongside its existing Broadcom TPU programme, diversifying its silicon supply chain.\n\nAlphabet raised its capex guidance to $180-$190 billion (약 246-260조 원) for 2026, reflecting the scale of investment required to maintain compute infrastructure leadership.\n\nThe article positions Google as uniquely advantaged by having in-house silicon, data centers, hyperscale cloud, and consumer AI products — a stack few competitors can match end-to-end.",
+      "published_at": "2026-05-02T21:16:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI missed revenue and user targets, faces internal concern over meeting data center spend commitments — report",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-missed-revenue-and-user-targets-faces-internal-concern-over-meeting-data-center-spend-commitments-report/",
+      "body": "OpenAI has missed revenue and user targets and faces internal concern over its ability to meet data center infrastructure spending commitments as the company reworks Stargate and prepares for an IPO, according to a report.\n\nThe company is reworking its $500 billion (약 685조 원) Stargate initiative, shifting from a fixed data center joint venture toward a more flexible strategy for securing computing capacity.\n\nOpenAI has effectively abandoned the joint-venture structure in favor of a string of major bilateral agreements. Oracle is playing the lead role with its pledge to supply 4.5 gigawatts of compute capacity over five years. AMD, Broadcom, Nvidia, CoreWeave, and Cerebras have also signed partnerships.\n\nDespite the strategic changes, OpenAI insists the overall strategy remains intact, claiming it has already secured more than 8 gigawatts of capacity toward an initial target of 10 gigawatts by 2030, and is now aiming for more than $600 billion (약 820조 원) in total investment.\n\nMicrosoft agreed to rent data center capacity at a site in Norway that was initially intended for OpenAI and marketed as part of the Stargate initiative, reflecting the evolving and flexible nature of the programme.",
+      "published_at": "2026-05-03T18:29:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "4월 수출 859억달러 '역대 최대'…반도체·SSD, 美·中 수출 ↑",
+      "url": "https://www.etnews.com/20260501000055",
+      "body": "South Korea achieved record April exports of $85.89 billion (한화 약 117조 원), representing a 48% increase year-over-year. The nation simultaneously surpassed $80 billion in monthly exports and $20 billion in trade surplus for two consecutive months — a historic first.\n\nSemiconductors emerged as the primary growth driver, with exports surging 173.5% to $31.9 billion (약 43.6조 원). This marked the 13th consecutive month of record performance for April shipments. The sector benefited from global AI infrastructure expansion, creating excess demand for both NAND and DRAM products.\n\nThe computer storage sector (SSDs) experienced extraordinary growth of 515.8%, driven by surging datacenter demand from AI proliferation.\n\nChina led regional growth with exports up 62.5% extending a six-month positive streak. United States exports climbed 54% to $163 billion.\n\nSemiconductors now account for more than 37% of total Korean export value, with High-Bandwidth Memory (HBM) and enterprise SSD products as primary contributors.",
+      "published_at": "2026-05-01T00:00:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "South Korean Exports Jump as AI Computing Demand from US Tech Giants Remains Strong",
+      "url": "https://topnews.in/south-korean-exports-jump-ai-computing-demand-us-tech-giants-remains-strong-2418850",
+      "body": "South Korea's exports surged to $85.89 billion (약 117조 원) in April 2026, representing a 48% year-on-year increase and the second-strongest monthly performance on record. The country achieved a trade surplus of $23.77 billion (약 32.5조 원), marking its 15th consecutive month of surplus.\n\nSemiconductor exports jumped by 173.5% year-on-year to $31.9 billion (약 43.6조 원), establishing a new monthly record and extending 13 consecutive months of record highs. Memory products, particularly DDR5 modules, experienced significant price appreciation.\n\nHigh-Bandwidth Memory (HBM) has become essential for AI infrastructure. South Korea controls this market through SK Hynix, which holds approximately 60% of global HBM supply, and Samsung Electronics. SK Hynix reported operating margins near 72%, while Samsung's semiconductor division generated approximately $36.1 billion (약 49.3조 원) in operating profit in Q1 2026.\n\nU.S. technology giants — Amazon, Microsoft, Alphabet, and Meta — collectively project spending of $630-650 billion (약 862-889조 원) in 2026, with memory now accounting for roughly 30% of hyperscaler data center spending.",
+      "published_at": "2026-05-01T00:00:00+09:00",
+      "source": "TopNews",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "AMD unveils full MI400 product lineup, claims MI500 chips will deliver 1,000x increase in AI performance",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance",
+      "body": "AMD has detailed its full Instinct MI400 series lineup, with CEO Lisa Su presenting five distinct accelerators targeting different segments of the AI and high-performance computing market. The MI400 series is built on CDNA 5 architecture using TSMC's 2nm process.\n\nThe MI400 lineup features 320 billion transistors, 432 GB of HBM4 memory at 19.6 TB/s bandwidth, and a projected $7.2 billion (약 9.8조 원) in first-year revenue.\n\nKey product variants: Instinct MI455X, aimed at scale AI training and inference workloads, and MI430X, aimed at HPC and Sovereign AI workloads, featuring hardware-based FP64 capabilities.\n\nHelios rack-scale platform combines 72 Instinct MI455X GPUs with EPYC Venice CPUs, delivering 2.9 exaFLOPS of FP4 inference performance and 1.4 exaFLOPS of FP8 training performance per rack, with 31 TB of HBM4 memory.\n\nAMD has confirmed the MI400 series for launch in the second half of 2026. Analysts estimate AMD could ship roughly 258,000 MI400 series units in 2026, with an average selling price of about $30,926.\n\nLooking ahead, AMD claims its MI500 chips will deliver a 1,000x increase in AI performance over current generations, targeting a 2027 launch.",
+      "published_at": "2026-05-02T00:00:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "TSMC CoWoS Wafer ASP Reportedly Nears 7nm Levels; Advanced Packaging Poised to Become a Key Profit Driver",
+      "url": "https://www.trendforce.com/news/2026/04/28/news-tsmc-cowos-wafer-asp-reportedly-nears-7nm-levels-advanced-packaging-poised-to-become-a-key-profit-driver/",
+      "body": "TSMC's Chip-on-Wafer-on-Substrate (CoWoS) advanced packaging technology is becoming a significant profit contributor as AI demand accelerates. The average selling price (ASP) of a single CoWoS wafer is around $10,000 — comparable to cutting-edge 7nm process nodes.\n\nThe packaging technology offers distinct economic benefits compared to traditional advanced nodes. CoWoS production requires substantially lower capital investment since it avoids expensive front-end equipment like extreme ultraviolet (EUV) lithography tools that exceed $150 million per unit. This efficiency enables gross margins potentially matching advanced process technologies while maintaining lower depreciation costs.\n\nIndustry analysts estimate TSMC's CoWoS packaging capacity reaching approximately 1.3 million units in 2026, potentially doubling to 2 million by 2027. Advanced packaging's revenue contribution expanded to roughly 10% in 2025 and is expected to grow further.\n\nTSMC is advancing its packaging capabilities significantly, planning to introduce larger 14-reticle CoWoS variants by 2028 and establish U.S.-based advanced packaging facilities in Arizona by 2029. The company has accelerated deployment timelines by up to 75%, enabling faster customer market entry.",
+      "published_at": "2026-04-28T00:00:00+09:00",
+      "source": "TrendForce",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Q1 2026 Big Tech Earnings: $650 Billion in AI Capex and Compute Constraints",
+      "url": "https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud",
+      "body": "Alphabet led Q1 2026 earnings reports with $109.9 billion (약 150.3조 원) in quarterly revenue, surpassing analyst expectations. Google Cloud achieved 63% year-on-year growth to reach $20.02 billion (약 27.4조 원), dramatically exceeding the $18.05 billion forecast.\n\nAmazon reported $181.5 billion (약 248.4조 원) in net sales with AWS growing 28% — its fastest rate in over three years. Meta generated $56.31 billion (약 77.1조 원) in revenue but faced investor skepticism after raising its full-year capital expenditure guidance to $125-$145 billion (약 171-198조 원).\n\nThe five major hyperscalers — Microsoft, Alphabet, Meta, Amazon, and Apple — are collectively committing over $650 billion (약 889조 원) to AI infrastructure in 2026. Alphabet raised its capex guidance to $180-$190 billion (약 246-260조 원), while Amazon committed approximately $200 billion (약 274조 원).\n\nGoogle's CEO indicated the company is compute constrained in the near term, with cloud demand exceeding available capacity. The company's cloud backlog reached over $460 billion (약 630조 원), nearly doubling the previous quarter.\n\nWhether this unprecedented investment will generate proportional returns remains the defining question for the coming years.",
+      "published_at": "2026-04-29T00:00:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Meta just bumped its 2026 capex forecast up to as much as $145 billion — and investors flinched",
+      "url": "https://fortune.com/2026/04/29/meta-zuckerberg-145-billion-ai-spending-roi/",
+      "body": "Meta raised its full-year 2026 capital expenditure guidance to $125 billion to $145 billion (약 171-198조 원), up from a previous range of $115 billion to $135 billion. The company cited higher component pricing, particularly for memory, alongside growing competition for land, power, and skilled workers needed to build data centers.\n\nGoogle, Amazon, Microsoft, and Meta collectively plan to spend $725 billion (약 992조 원) on capex in 2026, up 77% from last year's record $410 billion (약 561조 원).\n\nMicrosoft set its calendar-year 2026 capex at $190 billion (약 260조 원), well above the $152 billion average analyst estimate. CFO Amy Hood attributed $25 billion of that figure to rising memory chip and component costs.\n\nAmazon projected 2026 capex of about $200 billion (약 274조 원), a sharp jump from prior years. AWS revenue came in at $37.59 billion (약 51.4조 원) in Q1 2026, growing 28% year over year, the fastest pace in 15 quarters.\n\nThe market reaction was mixed: Meta's shares dropped about 6% after the capex increase, while Alphabet traded higher on Google Cloud strength.",
+      "published_at": "2026-04-29T00:00:00+09:00",
+      "source": "Fortune",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI reworks Stargate data center strategy as site plans change",
+      "url": "https://www.digitimes.com/news/a20260430VL225/openai-stargate-data-center-capacity-infrastructure.html",
+      "body": "OpenAI is reworking its $500 billion (약 685조 원) Stargate initiative, shifting from a fixed data center joint venture toward a more flexible strategy for securing computing capacity as demand for artificial intelligence infrastructure accelerates.\n\nOpenAI has effectively abandoned the joint-venture structure in favor of a string of major bilateral agreements. Oracle is playing the lead role with its pledge to supply 4.5 gigawatts of compute capacity over five years for $300 billion (약 411조 원). AMD, Broadcom, Nvidia, CoreWeave, and Cerebras have also signed partnerships.\n\n'Stargate hasn't disappeared, but it has evolved, and everyone can now give it their own definition,' according to a SoftBank-associated source cited by the Financial Times.\n\nOpenAI insists the overall strategy remains intact, claiming it has already secured more than 8 gigawatts of capacity toward an initial target of 10 gigawatts by 2030, and is now aiming for more than $600 billion (약 820조 원) in total investment.\n\nMicrosoft agreed to rent data center capacity at a site in Norway that was initially intended for OpenAI, reflecting the strategic flexibility the company has adopted.",
+      "published_at": "2026-04-30T00:00:00+09:00",
+      "source": "Digitimes",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Prediction: This Will Be the Top-Performing AI Semiconductor Stock Over the Next Year (Hint: It's Not Nvidia, Broadcom, or Micron)",
+      "url": "https://www.fool.com/investing/2026/05/03/prediction-this-will-be-the-top-performing-artific/",
+      "body": "Motley Fool argues that Marvell Technology (NASDAQ: MRVL) will outperform better-known competitors like Nvidia, Broadcom, and Micron over the next year, driven by its under-the-radar role in AI data center infrastructure.\n\nMarvell designs high-speed Ethernet switches, network interface cards, and data processing units (DPUs) that optimize data movement within AI data centers. Three major catalysts support this thesis:\n\n1. Nvidia Partnership — a $2 billion (약 2.7조 원) strategic investment and collaboration will accelerate development of next-generation Ethernet switches and DPUs optimized for Nvidia's AI platforms.\n\n2. Hyperscaler Spending Shift — with $720 billion (약 985조 원) in AI capex expected from major tech companies, spending is shifting from training (Nvidia's domain) toward inference, where Marvell's low-power inference engines provide advantages.\n\n3. Google TPU Talks — Google is in discussions with Marvell for two new AI chips: a memory processing unit and a new inference-focused TPU, adding to Marvell's existing custom silicon contracts with Amazon, Microsoft, and Meta.\n\nUnlike Nvidia's $5 trillion valuation, Marvell has a smaller market cap with greater room for earnings surprises. Marvell data center revenue reached $6.1 billion (약 8.3조 원) in fiscal 2026.",
+      "published_at": "2026-05-03T00:00:00+09:00",
+      "source": "Motley Fool",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Tenstorrent's Galaxy Blackhole AI servers are finally out",
+      "url": "https://www.theregister.com/2026/04/28/tenstorrent_galaxy_blackhole_ai_servers_ga/",
+      "body": "Tenstorrent announced the general availability of its Galaxy Blackhole AI compute platform. Each 6U system contains 32 Blackhole accelerators connected via 100 Tbps of aggregate bandwidth in a dense Ethernet mesh configuration.\n\nA single Galaxy system delivers: 1 TB of GDDR6 memory, 16 TB/s of memory bandwidth, and 23 petaFLOPS of dense FP8 performance, all priced at $110,000 (약 1.5억 원). For comparison, NVIDIA's eight-way DGX boxes cost between three and five times as much.\n\nThe architecture supports clustering. Tenstorrent's base Galaxy Supercluster costs $440,000 and comprises four Blackhole systems; the design accommodates up to 144 nodes with over 4,000 chips total.\n\nFor large language models like DeepSeek V3, a four-node Blackhole Galaxy Supercluster can process a 100,000 token prompt in less than four seconds. The system generates up to 300 tokens per second per user, with expectations to reach 350 through software improvements.\n\nSeveral datacenter providers are adopting the hardware, including Cirrascale, Equinix, and Japan's ai&. The TT-Deploy event on May 1 shared additional deployment details.",
+      "published_at": "2026-04-28T00:00:00+09:00",
+      "source": "The Register",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "MOREH Demonstrates Production-Ready LLM Inference on Tenstorrent Galaxy, Achieving DGX A100-Class Performance with Improved Cost Efficiency",
+      "url": "https://www.prnewswire.com/news-releases/moreh-demonstrates-production-ready-llm-inference-on-tenstorrent-galaxy-achieving-dgx-a100-class-performance-with-improved-cost-efficiency-302760562.html",
+      "body": "Moreh, an AI infrastructure software company, announced that it has successfully validated LLM (Large Language Model) inference performance on the Tenstorrent Galaxy Wormhole system using its proprietary MoAI Inference Framework. Based on tests across leading Mixture-of-Experts (MoE) models — including GPT-OSS, Qwen, GLM, and DeepSeek — Moreh achieved LLM inference performance on Tenstorrent Galaxy Wormhole matching or surpassing NVIDIA DGX A100-class systems.\n\nMoAI Inference Framework is a disaggregated inference solution that enables unified operation of heterogeneous GPUs and NPUs — including NVIDIA, AMD, and Tenstorrent — within a single cluster, allowing enterprises to build flexible AI infrastructure strategies without vendor lock-in.\n\nMoreh improved cost efficiency by implementing a disaggregated serving architecture that combines GPUs with Tenstorrent Wormhole chips, utilizing Tenstorrent processors as dedicated prefill accelerators to reduce reliance on high-cost HBM and lower overall infrastructure costs.\n\nMoreh is developing its own core AI infrastructure engine and, through its foundation LLM subsidiary Motif Technologies, is building end-to-end capabilities spanning both infrastructure and model domains. The company collaborates with AMD, Tenstorrent, and SGLang as key partners.",
+      "published_at": "2026-05-02T00:00:00+09:00",
+      "source": "PR Newswire",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Moreh"
+    },
+    {
+      "title": "The Second Time Will Be The IPO Charm For Cerebras",
+      "url": "https://www.nextplatform.com/compute/2026/04/22/the-second-time-will-be-the-ipo-charm-for-cerebras/5218651",
+      "body": "Cerebras Systems is making another push to go public after withdrawing its initial IPO filing from September 2024. The company, which creates waferscale AI chips, is pursuing a second IPO in April 2026 with significantly improved financial prospects and major customer deals.\n\nThe company raised $1.1 billion in Series G funding (October 2025) at an $8.1 billion valuation, followed by $1 billion in Series H funding in February 2026, pushing valuation to $23 billion (약 31.5조 원).\n\nIn January 2026, Cerebras secured a transformative agreement potentially worth up to $20 billion (약 27.4조 원) with OpenAI, with an initial 750-megawatt installation through 2028 and options for 3 gigawatts in 2029-2030. The deal includes a $1 billion working capital loan.\n\nMarch 2026 brought a binding term sheet pairing Cerebras CS-3 systems with AWS's Trainium AI infrastructure across multiple years for global distribution.\n\nCerebras now has $510 million (약 6,980억 원) in annual revenue with multiple substantial customers. The article also notes that Nvidia 'acquihired' most of Groq for an enormous $20 billion (약 27.4조 원) to add low-latency inference capabilities — intensifying competition for alternative inference solutions.",
+      "published_at": "2026-04-22T00:00:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "2조 규모 '국가 AI컴퓨팅 센터' 참여 자격 까다로워져 '논란'",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=33551",
+      "body": "South Korea's 2 trillion won (약 2조 원) National AI Computing Center faces mounting criticism over increasingly stringent participation requirements for private companies, according to reporting from THE ELEC.\n\nThe government mandates that participating firms must: secure GPU supply commitments from NVIDIA and AMD through written agreements, achieve a 50% domestic AI chip ratio by 2030, build computing capacity of at least 1 exaflop (FP32 standard), and continuously upgrade domestic semiconductors annually.\n\nIndustry observers characterize these conditions as unrealistic. The special-purpose company will secure approximately 400 billion won (약 4,000억 원) in capital over six years — enough to cover only about 11,000 NVIDIA H100 GPUs, when 16,667 units are required for minimum capacity targets.\n\nTwo domestic AI chip developers face qualification obstacles: Rebellions' Atom NPU shows promise with 3rd generation Revel sampling planned, but concerns persist about achieving H100-equivalent performance levels. FuriosaAI's Renegade NPU reportedly achieved performance comparable to older A100 GPUs rather than current H100 standards. Meta's past acquisition proposal also complicates FuriosaAI's domestic classification.\n\nTimeline: Technical and policy evaluation in June, selection of preferred negotiating partner in August-September.",
+      "published_at": "2026-04-29T00:00:00+09:00",
+      "source": "디일렉 (THE ELEC)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "AI Inferencing Will Define 2026, and the Market's Wide Open",
+      "url": "https://www.sdxcentral.com/analysis/ai-inferencing-will-define-2026-and-the-markets-wide-open/",
+      "body": "2026 is shaping up to be the breakout year of AI inferencing — the process where a trained machine learning model generates predictions and outputs from new input data. The inference market is wide open with no dominant player in the way NVIDIA dominates training.\n\nMultiple architectures are competing: waferscale (Cerebras), RISC-V (Tenstorrent), LPDDR-based LPU (HyperAccel, Groq), NPU (Rebellions, FuriosaAI), and custom ASIC (AWS Trainium, Google TPU, Microsoft Maia).\n\nThe economics of inference differ fundamentally from training. Training happens once; inference runs continuously at scale. The winner will optimize for cost-per-token, latency, and power efficiency — not raw FLOPS.\n\nFriendliAI, which builds inference software optimizations including speculative decoding and continuous batching, is expanding its platform to cover more complex inference pipelines including multi-agent workloads.\n\nNVIDIA is responding with inference-specific products including its NIM microservices and inference-optimized Hopper and Blackwell configurations, but specialists argue architecture-level advantages for purpose-built inference chips remain significant for power-constrained deployments.",
+      "published_at": "2026-04-28T00:00:00+09:00",
+      "source": "SDxCentral",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor", "competitor"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "Samsung, SK Hynix and TSMC Battle for AI Chip Supremacy in Asia as 2026 Race Intensifies",
+      "url": "https://www.ibtimes.com.au/samsung-sk-hynix-tsmc-battle-ai-chip-supremacy-asia-2026-race-intensifies-1867348",
+      "body": "TSMC captured nearly 70% of the global foundry business in 2025 with $122.5 billion (약 167.6조 원) in revenue, up 36% year-over-year, while Samsung trailed at 7.2% with $12.6 billion (약 17.2조 원).\n\nTSMC has decided to expand wafer production capacity for its 2nm and 3nm processes by approximately 20% by end of 2026, planning to scale monthly 3nm production to approximately 180,000 wafers and 2nm capacity to around 100,000 wafers per month.\n\nSamsung counters with more than $73 billion (약 99.9조 원) in 2026 investment targeting memory, foundry, and R&D, aiming to ramp HBM4 production and accelerate its SF2 and SF4 processes, with its Texas fab coming online for risk production later this year.\n\nTSMC is effectively fully booked for coming years, with orders for its 2nm process flooding in from Nvidia, AMD, Qualcomm, and Apple. This bottleneck elevates Samsung — the only other company capable of 2nm production — as a viable alternative.\n\nSamsung's foundry business is targeting profitability turnaround moved forward from 2027 to 2026, while aiming for 20% foundry market share by 2027.",
+      "published_at": "2026-04-29T00:00:00+09:00",
+      "source": "International Business Times AU",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "삼성전자, 7세대 HBM4E 5월 검증 나서…SK하이닉스, TSMC 협력 대응",
+      "url": "https://www.fnnews.com/news/202604201452539502",
+      "body": "Samsung Electronics plans to complete production of its 7th-generation HBM (High-Bandwidth Memory) HBM4E samples in May 2026 and distribute them to major customers like Nvidia for validation testing. The company aims to secure market dominance by showcasing results ahead of competitors.\n\nThe HBM4E features a 10-nanometer 6th-generation D-RAM, 4-nanometer foundry process, stack height increased from 12 to 16 layers for enhanced data processing capacity, and new 'Eco' power efficiency technology.\n\nSK Hynix is pursuing a partnership strategy with TSMC to introduce 3-nanometer logic processes for the base die in next-generation HBM products. While focusing on completing HBM4 supplies, its HBM4E variant combining 10-nanometer D-RAM with TSMC processes is expected to enter mass production in 2027.\n\nBoth companies are preparing for Nvidia's advanced accelerator generations, with industry experts noting that memory performance, 16-layer stack yield, and foundry cooperation will be decisive competitive factors.",
+      "published_at": "2026-04-20T14:52:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Intel Q1 2026 Earnings: Foundry Revenue Up 16%, Gaudi AI Chip Deployment Expands",
+      "url": "https://creati.ai/ai-news/2026-04-27/intel-ai-chip-comeback-semiconductor-transition/",
+      "body": "Intel's foundry revenue rose 16% year-over-year to $5.4 billion (약 7.4조 원) in Q1 2026, demonstrating strong momentum. Intel Foundry expanded assembly and test capacity in Penang, Malaysia to support customer products amid rising global demand for packaging solutions.\n\nIntel is currently shipping the Gaudi 3 AI data center chip, with Inflection AI shifting its enterprise platform to Intel's Gaudi 3 accelerators. Intel announced a multiyear arrangement with Google in Q1, under which Xeon CPUs will power AI inference and other workloads on Google Cloud.\n\nIntel confirmed it will work with Elon Musk on the planned Terafab facility, a domestic chip manufacturing hub intended to serve SpaceX, xAI, and Tesla.\n\nThe next-gen Crescent Island inference-focused data center GPU has customer sampling scheduled for H2 2026. Intel's Jaguar Shores Gaudi successor is rumored to use new HBM4E memory.\n\nIntel's AI chip comeback is seen as part of a broader semiconductor industry transition, with the company repositioning its foundry and AI accelerator businesses for the inference-dominated era of 2026-2027.",
+      "published_at": "2026-04-27T00:00:00+09:00",
+      "source": "Creati AI News",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Data centers may be forming 'heat islands,' with raised temperatures in a 6-mile radius",
+      "url": "https://fortune.com/2026/04/01/ai-data-centers-heat-island-hyperscalers/",
+      "body": "A research team found that from 2004 to 2024, surrounding areas of more than 6,000 data centers worldwide saw an average increased land temperature of about 2 degrees Celsius, with the effect measurable up to 6 miles from the facilities.\n\nAI infrastructure is significantly warming surrounding areas. As AI workloads push rack densities toward the megawatt era, cooling is no longer a supporting system — it is the system, changing from a facility problem of moving heat out of a room to a system design problem spanning silicon, fluid, controls, and workload scheduling.\n\nLiquid-cooled cooling capacity equaled air cooling capacity in 2025, and by the end of 2026 it will double air cooling capacity. Racks that once pushed 30-40 kW are now measured in hundreds of kilowatts, with designs approaching the megawatt range.\n\nCapital expenditures for data center facilities are predicted to reach $760 billion (약 1,040조 원) in 2026 according to BloombergNEF estimates, up from $450 billion (약 616조 원) last year. Permitting, power, and cooling infrastructure — not silicon — have emerged as the primary constraints on AI infrastructure expansion.",
+      "published_at": "2026-05-01T00:00:00+09:00",
+      "source": "Fortune",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}

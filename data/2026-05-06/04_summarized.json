@@ -1,0 +1,263 @@
+{
+  "issue_date_kst": "2026-05-06",
+  "main": [
+    {
+      "id": 1,
+      "title": "Broadcom Helps CPU And XPU Makers Go Vertical With Compute",
+      "url": "https://www.nextplatform.com/compute/2026/05/05/broadcom-helps-cpu-and-xpu-makers-go-vertical-with-compute/5219419",
+      "category": "products",
+      "is_headline": true,
+      "competitor": "Broadcom",
+      "tldr": "브로드컴이 3D 적층 패키징 'XDSiP'로 AWS Trainium4·메타 MTIA 등 6개 하이퍼스케일러 커스텀 실리콘의 차세대 표준 자리를 사실상 굳히고 있다.",
+      "summary_bullets": [
+        "브로드컴이 자사 3.5D XDSiP(Extreme Dimension System in Package) 적층 기술로 CPU와 XPU 제조사들이 여러 컴퓨트 부품을 한 소켓 안에 수직으로 통합할 수 있게 지원하고 있다고 밝혔다. 칩 바깥으로 나가는 인터커넥트를 줄이는 만큼 전력 소모와 지연이 크게 떨어진다는 설명이다.",
+        "기술 핵심은 칩 두 장을 면대면(face-to-face)으로 붙이는 본딩 방식으로, 신호 밀도가 1제곱밀리미터당 약 1만 4천 개에 달해 기존 face-to-back 3D 대비 거의 한 자릿수 단위로 높다. 금속 배선이 자연스럽게 정렬돼 별도 아키텍처 개조 없이 본딩제만으로 결합이 가능하다는 점이 강점이다.",
+        "이 기술을 채택한 6개 XPU 메이커 가운데 최소 한 곳은 2026년 말, 나머지는 2027년에 양산 제품을 내놓을 전망이다. 두 곳은 AWS의 Trainium4(2026년 말)와 메타의 MTIA 500(2027년)으로 추정되며, 후지쯔의 144코어 Arm 서버 CPU 'Monaka'도 2nm·5nm 칩렛 조합으로 같은 라인에 합류한다.",
+        "설계상 발열이 큰 고성능 컴퓨트는 위쪽 다이에 올려 방열을 확보하고, SRAM과 활성도가 낮은 부품은 아래쪽으로 배치해 열 예산을 효율적으로 관리한다. 흥미로운 대목은 브로드컴이 단순 칩 공급사가 아니라 차세대 커스텀 AI 가속기 패키징의 '플랫폼 게이트키퍼'로 자리잡고 있다는 점이다."
+      ],
+      "jargon": [
+        {"term": "3.5D XDSiP", "explanation": "여러 칩을 한 패키지 안에 수평·수직 양방향으로 함께 욱여넣는 브로드컴의 어드밴스드 패키징 기술. 칩끼리 직접 맞붙이는 방식이라 외부 배선보다 훨씬 짧고 빠르다."},
+        {"term": "면대면 본딩(face-to-face bonding)", "explanation": "두 칩의 회로 면을 서로 마주 보게 붙이는 방식. 회로 위에 또 회로가 곧장 닿아 신호가 가장 짧은 경로로 흐른다 — 휴대폰 두 개를 화면끼리 마주 붙여 데이터를 주고받는 모습이라고 보면 된다."},
+        {"term": "XPU", "explanation": "GPU·NPU·TPU·DPU 등 AI/데이터센터용 가속기 전반을 한 번에 가리키는 통칭. 하이퍼스케일러가 자체 설계해 쓰는 커스텀 가속기를 통틀어 부를 때 자주 쓰인다."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Astera Labs Extends Leadership in Open, AI Scale-Up Networking with New 320 Lane Scorpio X-Series Smart Fabric Switch",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288226/0/en/astera-labs-extends-leadership-in-open-ai-scale-up-networking-with-new-320-lane-scorpio-x-series-smart-fabric-switch.html",
+      "category": "products",
+      "is_headline": true,
+      "competitor": "Astera Labs",
+      "tldr": "Astera Labs가 320레인 Scorpio X 패브릭 스위치를 공개하며 UALink·CXL·PCIe·NVLink Fusion을 한 플랫폼에 묶는 '오픈 스케일업' 전선을 한층 더 확장했다.",
+      "summary_bullets": [
+        "Astera Labs가 업계 최대 규모를 자처하는 메모리 시맨틱 패브릭 스위치 'Scorpio X-Series 320 Lane'을 발표했다. 회사는 이 스위치 한 대로 기존 다단 스위치 여러 대를 대체해, 단일 홉(single hop)으로 더 큰 스케일업 클러스터를 구성할 수 있다는 점을 핵심 가치로 내세웠다.",
+        "하드웨어로 가속되는 Hypercast·In-Network Compute 엔진은 GPU 간 집합 통신(collective)을 최대 2배 빠르게 처리한다. 스위치는 2026년 하반기 양산 램프업에 들어가며, Astera는 2030년 200억 달러 규모로 커질 것으로 보이는 머천트 스케일업 스위치 실리콘 시장을 정조준했다.",
+        "이 칩은 회사의 'Intelligent Connectivity Platform'에 얹혀 CXL, 이더넷, NVLink Fusion, PCIe, UALink를 하나의 COSMOS 소프트웨어 스택으로 묶는다. UALink 2.0 표준 제정에도 직접 참여한 만큼, 엔비디아의 NVLink 진영에 맞서는 '오픈 스케일업' 진영의 사실상 간판 벤더 위치를 굳히고 있다는 평가다.",
+        "Astera는 6월 2~5일 대만 컴퓨텍스 2026에서 신제품을 시연할 계획이다. 비교 차원에서 보면 — 이는 MangoBoost가 속한 DPU/SmartNIC 생태계의 핵심 인접 영역으로, '누가 스케일업 패브릭을 잡느냐'가 차세대 AI 데이터센터 네트워크 표준 경쟁의 주요 변수다."
+      ],
+      "jargon": [
+        {"term": "스케일업(scale-up) vs 스케일아웃(scale-out)", "explanation": "스케일업은 한 박스(노드) 안에서 GPU/메모리를 더 빽빽하게 묶어 거대한 단일 머신처럼 쓰는 방식, 스케일아웃은 박스를 여러 대 옆으로 늘리는 방식. 거대 모델 학습은 우선 스케일업으로 묶은 뒤 스케일아웃으로 늘리는 게 정석이다."},
+        {"term": "UALink", "explanation": "엔비디아의 NVLink에 맞서 AMD·인텔·구글·메타·MS 등이 만든 오픈 스케일업 인터커넥트 표준. 한 클러스터 안에서 가속기끼리 메모리를 공유하듯 빠르게 묶는 용도다."},
+        {"term": "메모리 시맨틱 패브릭(memory-semantic fabric)", "explanation": "스위치 너머의 GPU 메모리도 마치 같은 박스 안 메모리처럼 직접 읽고 쓰게 해주는 네트워크. 일반 이더넷이 '택배'라면 이쪽은 '복도 너머 캐비닛 열어보기'에 가깝다."},
+        {"term": "single hop", "explanation": "두 가속기 사이 데이터가 스위치를 한 번만 거치는 구조. 홉이 늘어날수록 지연과 변동성이 누적되기 때문에, 클러스터를 단일 홉 안에 욱여넣는 능력이 곧 모델 학습 속도와 직결된다."}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "[이슈플러스] 없어서 못파는 반도체, 삼성이 안 만들면 중국이 모두 가져간다",
+      "url": "https://www.etnews.com/20260505000034",
+      "category": "challenges",
+      "is_headline": true,
+      "competitor": null,
+      "tldr": "삼성전자 18일 파업이 현실화되면 약 30조 원 손실에 더해 CXMT·YMTC 같은 중국 메모리 업체에 점유율을 내주는 구조적 타격까지 우려된다는 분석이다.",
+      "summary_bullets": [
+        "전자신문은 삼성전자의 잠재적 파업이 AI 칩 경쟁이 가장 격해진 시점에 글로벌 반도체 공급망을 흔들 위험이 있다고 진단했다. 8시간 야간 교대 한 번만 멈춰도 파운드리 생산이 58.1%, 메모리 생산이 18.4% 떨어지는 것으로 파악됐고, 예고된 18일간의 파업은 약 30조 원 손실로 이어질 것으로 추산됐다.",
+        "삼성의 선단 공정 라인은 현재 풀가동 중이며, 회사는 최근 HBM4 칩 양산을 막 시작한 상태다. 2026년 내내 수요가 공급을 초과할 것으로 보고 있는 만큼, 짧은 가동 중단이라도 채택 고객사 공급 일정에 즉각 구멍을 낼 수 있다.",
+        "업계 관계자는 \"중국을 제외하면 HBM을 공급할 수 있는 기업은 전 세계에 단 3곳뿐\"이라며 생산 연속성 유지의 시급성을 강조했다. 한 번 신뢰가 깨지면 고객사들이 라인 다변화에 나서기 마련이라는 점에서, 단기 손실보다 중장기 신뢰 훼손이 더 무섭다는 우려가 나온다.",
+        "그늘은 중국 쪽으로 더 짙다. CXMT의 D램 시장점유율은 3%에서 5%로 올랐고 내년에는 10%에 닿을 것으로 전망되며, YMTC의 낸드 출하량은 2025년 3분기 기준 시장점유율 13%까지 따라붙었다. 정부 지원을 등에 업은 중국이 한국이 주춤하는 틈을 정확히 파고드는 모습이다.",
+        "전문가들은 파업의 충격이 당장의 재무 손실에 그치지 않고, 한국 반도체 산업 전체의 신뢰성 평판으로 번질 수 있다고 경고했다 — \"삼성이 안 만들면 중국이 다 가져간다\"는 헤드라인의 함의가 그것이다."
+      ],
+      "jargon": [
+        {"term": "HBM4", "explanation": "GPU 옆에 수직으로 쌓아 붙이는 초고속 단기기억 메모리의 차세대 버전. 단수와 대역폭이 한 단계 더 커진 만큼, 차세대 AI 가속기에는 사실상 HBM4가 기본 페어링이 된다."},
+        {"term": "CXMT / YMTC", "explanation": "각각 중국 최대 D램 업체(창신메모리)와 낸드 플래시 업체(양쯔메모리). 정부 보조금과 자국 수요를 등에 업고 시장점유율을 빠르게 끌어올리며, 한국 메모리 양강의 가장 직접적 경쟁자로 부상 중이다."}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Amazon buys office and data center site in Maryland from T. Rowe",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-buys-office-and-data-center-site-in-maryland-from-t-rowe/",
+      "category": "projects",
+      "is_headline": false,
+      "competitor": "AWS",
+      "tldr": "AWS가 메릴랜드 데이터센터 부지를 추가 매입한 가운데, Graviton·Trainium·Nitro DPU로 묶인 자체 실리콘 매출은 이미 연환산 200억 달러(run rate)에 올라섰다.",
+      "summary_bullets": [
+        "아마존이 금융사 T. Rowe Price로부터 메릴랜드의 오피스·데이터센터 부지를 인수했다. AWS의 미 동부 인프라 풋프린트 확장의 일환으로, 2025년 기준 AWS는 5,684만 평방피트의 데이터센터·오피스 공간을 운영 중이라고 규제 서류에 적시했다.",
+        "주목할 대목은 자체 실리콘 포트폴리오의 규모다. Graviton CPU, Trainium AI 가속기, Nitro DPU를 합한 커스텀 칩 매출은 이미 연간 환산 매출(run rate) 200억 달러를 넘어섰고, 세 자릿수 성장률로 늘고 있다.",
+        "지난 1년간 AWS가 새로 배치한 AI 칩은 210만 개를 넘는다. 이 가운데 절반 이상이 Trainium 계열로, AWS-Anthropic은 2026년 말까지 Trainium2·Trainium3로 구성된 1GW 규모 신규 공급 계약까지 체결한 상태다.",
+        "메릴랜드 부지 확보는 결국 이 거대한 자체 실리콘+클라우드 머신을 돌릴 '땅과 전력'을 더 채우는 작업으로 읽힌다. MangoBoost 입장에서는 Nitro DPU 라인이 동급 직접 경쟁 영역인 만큼, 매출 200억 달러대 진입은 자체 실리콘 진영의 무게중심이 한층 더 확실해졌다는 신호다."
+      ],
+      "jargon": [
+        {"term": "Nitro DPU", "explanation": "AWS가 자체 설계한 데이터 처리 가속기. 가상화·네트워크·보안 처리를 CPU에서 떼어내 별도 칩으로 옮긴 구조로, MangoBoost가 겨냥하는 것과 정확히 같은 영역의 인하우스 경쟁자다."},
+        {"term": "Trainium / Graviton", "explanation": "AWS의 자체 AI 학습 가속기(Trainium)와 Arm 기반 서버 CPU(Graviton). 엔비디아 GPU·인텔/AMD CPU 의존도를 줄이려는 하이퍼스케일러 자체 실리콘 전략의 대표 라인업이다."}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Microsoft confirms plans for data center in Tyrone, Georgia",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-confirms-plans-for-data-center-in-tyrone-georgia/",
+      "category": "projects",
+      "is_headline": false,
+      "competitor": "Microsoft",
+      "tldr": "마이크로소프트가 조지아 타이론에 신규 데이터센터를 짓는다고 확정하며, 2026년 자본지출(capex)을 1,900억 달러로 상향하고 자체 실리콘 Cobalt·Maia 200 배치 계획까지 못박았다.",
+      "summary_bullets": [
+        "마이크로소프트가 조지아주 타이론에 신규 데이터센터 캠퍼스를 짓는다고 공식 확인했다. 미국 전역에서 진행 중인 AI 인프라 용량 증설 공세의 한 축으로, 사티아 나델라 CEO는 3월 분기에만 1GW를 추가했고 \"2년 내 AI 인프라 용량을 두 배로 늘린다\"는 목표를 다시 한 번 못박았다.",
+        "회사는 2026 회계연도 자본지출(capex) 전망치를 1,900억 달러로 상향했다. 같은 기간 AI 사업의 연환산 매출(run rate)은 370억 달러, 전년 동기 대비(YoY) 123%라는 폭증세를 보이고 있다 — 매출 증가가 capex 폭증을 일정 부분 정당화하고 있다는 해석이 가능한 수치다.",
+        "타이론 신규 센터에는 자체 Arm 기반 서버 CPU 'Cobalt'와 차세대 AI 가속기 'Maia 200'이 들어설 예정이다. AWS Trainium·구글 TPU와 마찬가지로, MS도 자체 실리콘으로 자사 AI 워크로드의 단가 구조를 재설계하려는 흐름이 점점 또렷해지고 있다."
+      ],
+      "jargon": [
+        {"term": "Cobalt / Maia 200", "explanation": "MS가 자체 설계한 Arm 기반 서버 CPU(Cobalt)와 차세대 AI 가속기(Maia 200). Azure에서 돌리는 자사 워크로드를 엔비디아 GPU·인텔 CPU 의존에서 단계적으로 떼어내는 인하우스 실리콘 라인업이다."}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Huawei AI Chip Sales Target Grows as China Cuts Nvidia Use",
+      "url": "https://winbuzzer.com/2026/05/05/huawei-ai-chip-sales-target-grows-as-china-cuts-nvidia-use-xcxwbn/",
+      "category": "market",
+      "is_headline": false,
+      "competitor": "NVIDIA",
+      "tldr": "화웨이가 2026년 AI 칩 매출 목표를 120억 달러로 높이는 동안 엔비디아의 중국 GPU 점유율은 95%에서 사실상 0%로 떨어졌다.",
+      "summary_bullets": [
+        "화웨이가 2026년 AI 칩 매출 120억 달러를 목표로 잡았다. 미국의 첨단 반도체 수출 통제로 공급 안정성이 흔들리자 중국 기업들이 엔비디아 대신 자국 대안으로 빠르게 발주를 갈아타는 흐름이 뒷받침했다.",
+        "DeepSeek V4 모델 출시와 화웨이 Ascend 가속기 수요 강세는 자국 인프라로의 이동이 가속화되고 있음을 보여준다. 모건스탠리는 2030년 중국 AI 칩 시장 규모를 670억 달러로 추정한다 — 분리된 생태계의 시장성이 점점 또렷해진다는 의미다.",
+        "젠슨 황 CEO는 여러 차례의 미국 수출 통제로 \"엔비디아의 중국 AI GPU 점유율이 95%에서 사실상 0%로 떨어졌다\"고 직접 언급했다. 화웨이는 일부 고객이 기존 엔비디아 시스템을 병행 운용하더라도 자체 가속기 매출이 올해 60% 이상 늘 것으로 본다.",
+        "다만 그늘도 있다. 미 상무부의 2026년 4월 화홍반도체(Hua Hong) 장비 수출 제한에 더해, 화웨이는 2026년 1월 TSMC와의 거래까지 끊겼다. 결국 자국 파운드리 생산 능력이 \"수요는 충분한데 공급이 부족한\" 상황의 진짜 병목이 된 셈이다."
+      ],
+      "jargon": [
+        {"term": "Ascend", "explanation": "화웨이의 자체 AI 가속기 시리즈. 미국 수출 규제로 엔비디아 GPU를 못 쓰게 된 중국 빅테크와 정부 기관의 사실상 표준 대안으로 빠르게 자리 잡고 있다."},
+        {"term": "DeepSeek V4", "explanation": "중국 AI 스타트업 DeepSeek의 차세대 거대언어모델(LLM). 적은 자원으로 GPT급 성능을 낸 V3에 이어 V4가 출시되며 \"자국 칩+자국 모델\" 조합의 실효성을 보여주는 상징 격이다."},
+        {"term": "Hua Hong(화홍반도체)", "explanation": "SMIC에 이은 중국 2위 파운드리. 미 상무부가 2026년 4월 화홍에 대한 장비 수출까지 제한하면서, 중국 AI 칩 양산의 가장 약한 고리가 어디인지 더 또렷이 드러났다."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ASML CEO Christophe Fouquet on his company's monopoly: no one is coming for us",
+      "url": "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+      "category": "market",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "ASML의 푸케 CEO는 \"우리를 따라잡으려는 회사는 없다\"며 EUV 독점을 자신했고, 향후 2~5년간 하이퍼스케일러조차 충분한 칩을 받지 못할 것이라고 예고했다.",
+      "summary_bullets": [
+        "ASML은 한 대당 2~4억 달러에 달하는 극자외선(EUV) 노광 장비를 사실상 독점 공급하는 네덜란드 기업이다. 이 독점 지위가 회사 시가총액을 5,300억 달러 이상으로 끌어올렸고, 첨단 칩 생산은 ASML 장비 없이는 한 발짝도 나가지 못한다는 것이 업계 상식이다.",
+        "크리스토프 푸케 CEO는 스타트업 경쟁자 Substrate에 대해 \"이미지 한 장을 만들 수 있다는 건 출발선일 뿐, 양산은 나노미터 단위 정확도와 막대한 자본투자를 요구한다\"며 일축했다. 수십 년간 쌓인 노하우와 공급망 자체가 진입장벽이라는 뜻이다.",
+        "푸케는 \"수요가 공급을 크게 앞서고 있어 향후 2년, 3년, 길게는 5년까지도 하이퍼스케일러조차 충분한 칩을 받지 못할 것\"이라고 단언했다. AI 인프라 공급망의 진짜 상한선이 GPU도 HBM도 아닌 EUV 장비 출하 속도라는 점을 다시 못박은 발언이다.",
+        "중국의 EUV 역설계 가능성에 대해서도 \"중국으로 EUV 장비가 단 한 대도 수출된 적 없으니, 그런 주장은 단적으로 틀렸다\"고 잘랐다. 또 TSMC가 비싸다고 우려하는 차세대 High-NA 시스템에 대해서는 \"장비 가격은 비싸도 웨이퍼당 비용은 20~30% 떨어진다\"며 가격 정당성을 옹호했다.",
+        "ASML은 2026년 매출 가이던스를 360억~400억 유로로 제시했다. AI 칩 수요에 힘입어 연초 대비 주가는 36% 올랐다."
+      ],
+      "jargon": [
+        {"term": "EUV / High-NA EUV", "explanation": "극자외선 빛으로 칩 회로를 그리는 최첨단 노광 장비. ASML이 사실상 독점하며, 5nm 이하 첨단 공정의 입구다. High-NA는 더 미세한 회로를 한 번에 그릴 수 있게 한 차세대 버전으로, 장비 가격은 더 비싸지만 웨이퍼당 단가는 오히려 낮다는 게 ASML 주장이다."}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Nebius, Lambda, and CoreWeave unlikely to buy Google TPUs any time soon",
+      "url": "https://www.datacenterdynamics.com/en/news/nebius-lambda-and-coreweave-unlikely-to-buy-google-tpus-any-time-soon/",
+      "category": "market",
+      "is_headline": false,
+      "competitor": "Google",
+      "tldr": "구글이 8세대 TPU 외부 판매를 시작했지만, NVIDIA 소프트웨어 락인 때문에 Nebius·Lambda·CoreWeave 같은 네오클라우드는 당분간 구매에 나설 가능성이 낮다는 분석이다.",
+      "summary_bullets": [
+        "GPU 클라우드 사업자인 Nebius·Lambda·CoreWeave가 구글의 텐서 처리 장치(TPU) 신규 외부 판매 프로그램에도 불구하고 단기간 내 고객으로 합류할 가능성은 낮다는 분석이 나왔다. 사업 모델 자체가 엔비디아 하드웨어 위에 세워져 있어 대안 가속기로 갈아타기 부담이 크다는 이유에서다.",
+        "구글은 4월 Cloud Next 2026에서 8세대 TPU를 외부 고객에게 일부 판매하겠다고 발표했다. 학습용 'TPU 8t'와 추론용 'TPU 8i'를 분리한 첫 이원화(bifurcated) 아키텍처로, 8t는 12.6 FP4 PFLOPs와 HBM3e 216GB, 8i는 10.1 FP4 PFLOPs와 HBM3e 288GB를 갖췄다.",
+        "분석가들은 \"논리적으로는 MS Azure·AWS·메타 같은 하이퍼스케일러가 1순위 고객\"이라고 보지만, 네오클라우드 영역은 사실상 엔비디아 단독 진영이라는 점을 지적했다. 고객사 자체가 CUDA 친숙도와 익숙한 도구체인을 요구하기 때문에, 소프트웨어 호환성이 하드웨어 스펙보다 더 큰 채택 장벽으로 작용한다는 설명이다.",
+        "이는 MangoBoost 같은 다중 벤더·다중 가속기 전략을 구사하는 사업자에게 시사하는 바가 크다 — \"칩이 좋다\"가 곧 \"채택된다\"가 아닌 시장 구조에서, 소프트웨어 스택과 마이그레이션 경로의 매끄러움이 사실상 또 하나의 제품 경쟁력이 된다는 점이다."
+      ],
+      "jargon": [
+        {"term": "TPU 8t / 8i", "explanation": "구글의 8세대 텐서 처리 장치. 8t는 학습 전용, 8i는 추론 전용으로 처음 분리됐다. 하나의 칩이 모두를 다 하던 시대에서 \"학습/추론 따로 최적화\"로 가는 추세를 보여주는 사례다."},
+        {"term": "네오클라우드(neo-cloud)", "explanation": "AI 학습·추론용 GPU 임대를 본업으로 하는 신흥 클라우드 사업자들. CoreWeave·Lambda·Nebius 같은 회사가 대표격으로, 인프라 대부분이 엔비디아 GPU+CUDA 위에 세워져 있다."},
+        {"term": "CUDA 락인", "explanation": "엔비디아 GPU 위에서만 잘 도는 소프트웨어 생태계. 한 번 자리잡으면 다른 가속기로 옮기는 비용이 워낙 커서 \"하드웨어 비교가 무의미해지는\" 일종의 진영 효과가 발생한다."}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Micron 6600 ION 245TB SSD Announced",
+      "url": "https://www.servethehome.com/micron-6600-ion-245tb-ssd-announced/",
+      "category": "products",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "마이크론이 단일 드라이브 245TB짜리 6600 ION QLC SSD를 공개하며 1U당 3.9PB라는 새로운 스토리지 밀도 기록을 세웠다.",
+      "summary_bullets": [
+        "마이크론이 6600 ION NVMe SSD 라인업에 245.76TB 모델을 추가하며 단일 드라이브로 거의 4분의 1 페타바이트(PB)를 담을 수 있게 됐다고 발표했다. 마이크론의 G9 QLC 낸드 기반 PCIe Gen5 데이터센터 SSD 라인업의 신규 플래그십이다.",
+        "기존 122.88TB E3.S 모델에 더해 신규 245.76TB는 E3.L과 U.2 두 가지 폼팩터로 출시된다. AI 데이터레이크, 하이퍼스케일 스토리지, 분석 클러스터처럼 \"랙당 용량 밀도와 테라바이트당 전력 효율\"을 우선시하는 환경을 정조준한 제품이다.",
+        "성능 사양은 순차 읽기 최대 13.7GB/s, 순차 쓰기 3.0GB/s, 랜덤 읽기 IOPS 최대 178만, 최대 전력 30W 수준이다. 122TB E3.S 구성으로는 1U당 2.4PB, 245TB E3.L 구성으로는 1U당 3.9PB까지 채울 수 있다.",
+        "마이크론 자체 분석에 따르면 1엑사바이트(EB) 규모 시스템을 구축할 때 245.76TB E3.L SSD를 쓰면 기존 44TB HDD 대비 랙 공간이 약 5.6배 줄어든다. AI 학습 데이터셋이 페타바이트 단위로 부풀어 오른 시대에, 스토리지 밀도가 결국 \"몇 동의 데이터센터를 더 짓느냐\"의 변수로 작용하고 있음을 보여주는 사례다."
+      ],
+      "jargon": [
+        {"term": "QLC NAND", "explanation": "낸드 메모리 셀 하나에 4비트(=16개 상태)를 욱여넣는 방식. 같은 면적에 용량이 가장 크게 들어가지만 쓰기 속도·내구성은 SLC/TLC보다 낮아, 한 번 쓰고 자주 읽는 AI 데이터레이크용으로 특히 어울린다."},
+        {"term": "E3.S / E3.L / U.2", "explanation": "데이터센터 SSD를 꽂는 표준 폼팩터(생김새). E3.S/L은 차세대 EDSFF 규격으로 더 길쭉해 같은 1U 안에 더 많은 SSD를 욱여넣을 수 있게 설계된 폼팩터다."}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Applied Materials Completes ASMPT NEXX Acquisition, Secures ECD Technology",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56061",
+      "category": "market",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "어플라이드 머티어리얼즈가 ASMPT의 NEXX 사업부 인수를 마무리하며 패널레벨 패키징(PLP) 라인업에 전기화학증착(ECD) 장비 역량을 더했다.",
+      "summary_bullets": [
+        "장비 거인 어플라이드 머티어리얼즈(AMAT)가 ASMPT의 NEXX 사업부 인수를 최종 완료했다고 발표했다. NEXX는 어드밴스드 패키징 장비, 특히 전기화학증착(ECD) 장비 'Stratus P500'을 만들어 온 회사로, 이번 거래로 AMAT 포트폴리오에 ECD 역량이 정식 합류한다.",
+        "ECD는 기판을 전해질 용액에 담그고 전류를 흘려 금속 막을 얇게 입히는 방식이다. AMAT가 이미 보유한 패널레벨 패키징(PLP) 기술과 결합되면, 공정 장비끼리 데이터를 공유해 AI 칩 제조 흐름을 한 단계 더 매끄럽게 묶을 수 있다는 설명이다.",
+        "특히 NEXX 기술은 510×515mm 사각 패널 위에서 패키징을 진행해 기존 300mm 원형 웨이퍼보다 처리량이 크다 — 면적이 큰 차세대 AI 가속기 칩에 잘 어울리는 폼팩터다. 거래는 추가 규제 승인 없이 수개월 내 마무리될 예정이며, NEXX 사업은 AMAT의 반도체 제품 그룹에 통합되되 매사추세츠 본사의 R&D 활동은 그대로 유지된다.",
+        "1번 기사(브로드컴 3.5D XDSiP)와 함께 읽으면 흐름이 또렷해진다 — AI 가속기를 만드는 \"앞단 설계\"뿐 아니라 \"뒷단 패키징·증착 장비\" 공급망 자체가 같은 시기에 재편되고 있다는 의미다."
+      ],
+      "jargon": [
+        {"term": "ECD / 전기화학증착", "explanation": "기판을 전해질 용액에 담그고 전류를 흘려 금속 박막을 입히는 방식. 도금과 비슷한 원리로, 어드밴스드 패키징에서 칩 위에 마이크로 단위 배선을 깔 때 핵심 공정이다."},
+        {"term": "패널레벨 패키징(PLP)", "explanation": "원형 300mm 웨이퍼가 아니라 사각 패널(여기서는 510×515mm) 단위로 패키징을 진행하는 방식. 면적이 큰 AI 가속기 칩이 늘면서 \"한 판에 더 많이 잡을 수 있다\"는 처리량 이점이 부각됐다."}
+      ]
+    }
+  ],
+  "competitor_updates": [
+    {
+      "company": "Astera Labs",
+      "tier": "2",
+      "bullets": [
+        "Astera Labs가 1분기 매출 3억 840만 달러로 전년 동기 대비(YoY) 93%, 전 분기 대비(QoQ) 14% 성장하며 PCIe 6 포트폴리오와 신규 Scorpio X-Series 320레인 패브릭 스위치 초도 매출이 동시에 반영되는 기록 분기를 만들어냈다. 2분기 가이던스도 3억 5,500만~3억 6,500만 달러로 한층 더 위를 가리킨다.",
+        "같은 날 발표한 320레인 Scorpio X 스위치는 단일 홉으로 더 큰 스케일업 클러스터를 묶는 데 초점을 맞췄고, UALink 2.0 표준 제정 참여까지 더해 NVLink 진영에 맞서는 '오픈 스케일업' 간판 벤더 자리를 굳히고 있다 — MangoBoost가 속한 DPU/SmartNIC 인접 영역에서 가장 직접적인 Tier-2 경쟁자의 동시다발 공세다."
+      ],
+      "source_article_ids": [3, 4]
+    },
+    {
+      "company": "Broadcom",
+      "tier": "2",
+      "bullets": [
+        "브로드컴이 3.5D XDSiP 적층 패키징 플랫폼으로 AWS Trainium4·메타 MTIA 500·후지쯔 Monaka 등 6개 하이퍼스케일러·서버 메이커의 차세대 커스텀 실리콘을 한꺼번에 묶고 있다. 단순 칩 공급사가 아니라 어드밴스드 패키징의 게이트키퍼로 자리잡았다는 평가가 자연스러워지는 행보다.",
+        "흥미로운 대목은 매출 규모의 비대칭성이다. 브로드컴의 2025년 AI 매출은 200억 달러, 2026년에는 1,000억 달러 돌파가 거론될 정도이며 회계연도 1분기 AI 매출은 84억 달러로 전년 동기 대비(YoY) 106% 늘었다. 6개 하이퍼스케일러 ASIC 계약과 1개월 주가 +34%까지 겹치며, 엔비디아의 1/10 보도 노출에도 불구하고 \"커스텀 XPU 시장의 진짜 패권자\"라는 평가가 점점 굳어지는 분위기다."
+      ],
+      "source_article_ids": [1, 9]
+    },
+    {
+      "company": "Cerebras",
+      "tier": "2",
+      "bullets": [
+        "Cerebras가 기업가치 266억 달러(약 38조 원), 공모 규모 35억 달러(약 5조 원)를 노린 나스닥 IPO 절차를 본격화했다 — 2024년 10월 한 차례 철회한 뒤 두 번째 도전이며, 35억 달러 공모에 100억 달러 규모 주문이 들어올 정도로 수요가 거세다. 2026년 최대 규모 테크 IPO 후보로 거론된다.",
+        "재무·고객 지표 모두 단단해졌다. 2025년 매출 5억 1,000만 달러(약 7,300억 원)로 전년 2억 9,000만 달러에서 급증하며 흑자 전환했고, OpenAI와는 750MW AI 컴퓨팅 인프라 계약(20억 달러+)과 함께 10억 달러 대출(워런트 부 — 향후 약 3,300만 주 인수권)까지 묶었다. AWS 칩 공급 계약도 추가됐다.",
+        "이는 GPU·ASIC 외에 SRAM 기반 웨이퍼스케일이라는 제3의 가속기 카테고리가 자본시장과 톱티어 고객 모두에게서 검증됐다는 신호로 읽힌다. 인접 가속기 카테고리의 자본 유입이 본격화되는 만큼, MangoBoost가 마주한 경쟁 풍경도 그만큼 더 다층화될 전망이다."
+      ],
+      "source_article_ids": [11, 12]
+    },
+    {
+      "company": "AWS",
+      "tier": "2",
+      "bullets": [
+        "AWS의 자체 실리콘 라인업(Graviton CPU·Trainium AI 가속기·Nitro DPU)이 합산 연환산 매출(run rate) 200억 달러를 돌파했고, 지난 1년간 새로 배치된 AI 칩만 210만 개 — 절반 이상이 Trainium 계열이다. Anthropic과는 2026년 말까지 Trainium2/3로 1GW 규모 신규 공급 계약까지 추가했다.",
+        "메릴랜드의 신규 데이터센터 부지 인수(T. Rowe Price로부터)는 결국 이 거대 자체 실리콘+클라우드 머신을 돌릴 \"땅과 전력\"을 더 채우는 작업이다. MangoBoost 입장에서는 Nitro DPU가 가장 직접적인 동급 경쟁자인 만큼, 매출 200억 달러대 진입은 자체 실리콘 진영의 무게중심이 한층 더 확실해졌다는 신호다."
+      ],
+      "source_article_ids": [27]
+    },
+    {
+      "company": "Google",
+      "tier": "2",
+      "bullets": [
+        "구글이 4월 Cloud Next 2026에서 8세대 TPU(학습용 8t·추론용 8i)를 외부 일부 고객에게 판매하겠다고 발표했지만, Nebius·Lambda·CoreWeave 같은 네오클라우드는 단기간 내 합류 가능성이 낮다는 평가다. 이유는 하드웨어 스펙이 아니라 \"고객사의 CUDA 친숙도\"라는 소프트웨어 락인 — 칩 자체보다 생태계가 채택을 가른다는 점이 다시 확인됐다."
+      ],
+      "source_article_ids": [28]
+    },
+    {
+      "company": "Microsoft",
+      "tier": "2",
+      "bullets": [
+        "마이크로소프트가 조지아 타이론 신규 데이터센터를 확정하며, 2026년 자본지출(capex)을 1,900억 달러로 상향하고 \"2년 내 AI 인프라 용량 두 배\" 목표를 재확인했다. 신규 캠퍼스에는 자체 Cobalt Arm CPU와 Maia 200 AI 가속기가 들어설 예정이며, AI 사업의 연환산 매출(run rate)은 370억 달러로 전년 동기 대비(YoY) 123% 성장 중이다.",
+        "한편 5월 1일에는 'Agent 365'를 정식 출시하며 엔터프라이즈 AI 에이전트 거버넌스 시장에 본격 진입했다. 승인 없이 배포된 '섀도우 AI'와 통제되지 않는 '에이전트 스프롤'을 잡는 것이 골자로, AWS 베드록·구글 Gemini Enterprise와도 연동돼 멀티클라우드 환경에서 통합 관리를 지원한다 — 인프라(Maia/Cobalt)와 거버넌스(Agent 365) 양쪽에서 AI 스택을 자기 영역으로 끌어들이는 그림이다."
+      ],
+      "source_article_ids": [15, 26]
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "2",
+      "bullets": [
+        "엔비디아의 중국 AI GPU 시장 점유율이 약 95%에서 사실상 0%로 떨어졌다고 젠슨 황 CEO가 직접 인정했다. 같은 빈자리를 노린 화웨이는 2026년 AI 칩 매출 목표를 120억 달러로 잡고 자체 가속기 매출 +60% 이상을 내다봤으며, 모건스탠리는 2030년 중국 AI 칩 시장이 670억 달러 규모로 커질 것으로 추정한다 — 분리된 글로벌 AI 인프라 공급망이 정량적으로 확정되어 가는 모습이다."
+      ],
+      "source_article_ids": [8]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!-- Category article card. Used inside {{CATEGORY_SECTIONS}}. -->
+<!-- Distinguishing visual cues: no mango left strip, cream-fill TLDR box, mango left border on 요약 + 용어 boxes, h3 18px title. -->
+          <tr>
+            <td style="padding:0 28px {{CARD_PADDING_BOTTOM}} 28px;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:#FFFFFF;border:1px solid #D8D9E4;">
+                <tr>
+                  <td style="padding:20px;">
+                    <a href="{{ARTICLE_URL}}" style="color:#15182D;text-decoration:none;">
+                      <h3 style="margin:0 0 12px 0;font-size:18px;line-height:25px;font-weight:bold;color:#15182D;" class="article-title">{{ARTICLE_TITLE}}</h3>
+                    </a>
+                    <div style="background-color:#FFF3CD;padding:12px 14px;margin-bottom:12px;border-radius:4px;">
+                      <div style="font-size:10px;font-weight:bold;color:#15182D;letter-spacing:2px;margin-bottom:6px;">TL;DR</div>
+                      <div style="font-size:13px;font-weight:bold;color:#15182D;">{{TLDR_TEXT}}</div>
+                    </div>
+                    <div style="background-color:#F1F1F5;border-left:3px solid #FFB81C;padding:12px 14px;">
+                      <div style="font-size:10px;font-weight:bold;color:#15182D;letter-spacing:2px;margin-bottom:8px;">요약</div>
+                      <ul style="margin:0;padding-left:20px;font-size:13px;line-height:22px;color:#4C4A49;">
+{{SUMMARY_BULLETS_HTML}}
+                      </ul>
+                    </div>
+{{JARGON_BLOCK}}
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>

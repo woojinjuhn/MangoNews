@@ -1,0 +1,3 @@
+- [Jargon glossary](jargon_glossary.md) — vetted Korean explanations for recurring AI/semi terms; reuse and refine
+- [Entity renderings](entities_korean_renderings.md) — preferred Korean spellings for companies/products/people + currency unit conversion rules
+- [Skip jargon for terms staff knows](feedback_skip_known_jargon.md) — ASIC/하이퍼스케일러/NPU/팹리스 등 기본 산업 용어는 jargon에 넣지 말 것

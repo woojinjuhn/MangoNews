@@ -1,0 +1,274 @@
+{
+  "filter_date_kst": "2026-05-07",
+  "kept": [
+    {
+      "id": "01",
+      "title": "NVIDIA Spectrum-X Ethernet MRC is the Custom RDMA Transport Protocol for Gigascale AI",
+      "url": "https://www.servethehome.com/nvidia-spectrum-x-ethernet-mrc-is-the-custom-rdma-transport-protocol-for-gigascale-ai/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "DPU/SmartNIC/RDMA networking — NVIDIA's MRC RoCEv2 transport open-sourced via OCP with AMD/Broadcom/Intel co-development, deployed at OpenAI/Microsoft/Oracle; squarely MangoBoost's networking domain."
+    },
+    {
+      "id": "08",
+      "title": "AMD posts record first-quarter results, driven by skyrocketing data center CPU demand",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-posts-record-first-quarter-results-driven-by-skyrocketing-data-center-cpu-demand-company-expects-consumer-and-gaming-revenue-to-decline-in-q2-over-rising-memory-and-component-costs",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AMD ecosystem strategic event — Q1 $10.25B record, Data Center +57% YoY, Meta committing 6GW of MI450 Instinct + 6th-gen EPYC; MangoBoost's AMD adjacency makes this top-tier."
+    },
+    {
+      "id": "28",
+      "title": "FuriosaAI: 2026년 RNGD NPU 2만 장 공급 목표, LG U+와 소버린 AI 어플라이언스 출시",
+      "url": "https://furiosa.ai/blog/lg-u-and-furiosaai-unveil-the-sovereign-ai-appliance",
+      "category": "products",
+      "competitor": "FuriosaAI",
+      "keep_reason": "Tier 1 domestic competitor major milestone — 20K NPU shipment target, LG U+ co-launched 소버린 AI 어플라이언스, RNGD 200W vs GPU 700-1000W positioning."
+    },
+    {
+      "id": "09",
+      "title": "Global semiconductor sales hit nearly $300 billion in Q1 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/global-semiconductor-sales-hit-nearly-usd300-billion-in-q1-2026-chips-are-on-track-to-top-usd1-trillion-for-this-year-says-report",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Industry-wide market intelligence — first $1T-on-pace year, $830B combined hyperscaler 2026 CapEx, HBM/advanced packaging supply warning through 2027."
+    },
+    {
+      "id": "19",
+      "title": "Anthropic to use all of SpaceX-xAI's Colossus 1 data center compute",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Major AI infra deal — Anthropic taking 300MW/220K GPU (H100/H200/GB200) from xAI, key signal of compute scarcity and neocloud monetization model."
+    },
+    {
+      "id": "16",
+      "title": "앤트로픽, 구글 5GW 컴퓨팅 용량 확보 위해 291조 투입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210145",
+      "competitor": "Google TPU",
+      "category": "market",
+      "keep_reason": "Sovereign-scale AI compute deal — Anthropic 5GW TPU 5-year ~$200B contract from 2027, Google TPU + Broadcom 3.5GW; biggest Google Cloud single-customer deal ever."
+    },
+    {
+      "id": "05",
+      "title": "SpaceX may spend up to $119B on 'Terafab' chip factory in Texas",
+      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Largest semi capex announcement — SpaceX/Tesla/Intel partnership using Intel 14A, 1 terawatt annual chip output target; reshapes AI silicon supply landscape."
+    },
+    {
+      "id": "27",
+      "title": "리벨리온, KOSDAQ·나스닥 이중 상장 전략…아람코와 데이터센터 랙 검증 진행",
+      "url": "https://ideal-life.co.kr/254",
+      "category": "market",
+      "competitor": "Rebellions",
+      "keep_reason": "Tier 1 domestic competitor strategic update — Aramco DC rack PoC for sovereign AI export, KOSDAQ/Nasdaq dual-listing, Rebel100 multi-chiplet UCIe details."
+    },
+    {
+      "id": "26",
+      "title": "HyperAccel: LPU 기반 추론 가속기 Bertha 500, 2026년 상반기 샘플 출시",
+      "url": "https://www.eetimes.com/korean-startup-takes-on-cost-and-latency-with-llm-specific-chip/",
+      "category": "products",
+      "competitor": "HyperAccel",
+      "keep_reason": "Tier 1 competitor product launch — Bertha 500 LPU on Samsung 4nm, LPDDR5X-based cost play vs HBM, claims 2x cost/power efficiency vs DGX A100."
+    },
+    {
+      "id": "13",
+      "title": "'If You Can Make A Compute Engine, You Can Sell A Compute Engine' — AMD's agentic AI CPU supercycle",
+      "url": "https://www.nextplatform.com/compute/2026/05/06/if-you-can-make-a-compute-engine-you-can-sell-a-compute-engine/5231317",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Strategic AMD/agentic-AI analysis — articulates the 1:4/1:8 to 1:1 CPU:GPU shift, $120B server CPU TAM thesis, AMD pricing power; useful framing for MangoBoost positioning."
+    },
+    {
+      "id": "11",
+      "title": "Denmark presses pause on new data center grid connections as total requests hit 60 GW",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/denmark-presses-pause-on-new-data-center-grid-connections-as-total-requests-hit-60-gw-nordic-nation-is-the-latest-to-put-the-brakes-on-ai-buildouts",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "DC power/sovereign-grid challenge — 60GW queue vs 7GW peak demand, Nordic moratorium pattern (Ireland/Netherlands precedent); core MangoBoost infra-efficiency narrative."
+    },
+    {
+      "id": "10",
+      "title": "AMD to broaden and specialize EPYC CPUs, already working on Zen 7 architecture",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-to-broaden-and-specialize-epyc-cpus-already-working-on-zen-7-architecture-increased-customization-to-better-address-evolving-ai-and-cloud-needs",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AMD roadmap — Zen 6 Venice + AI-purpose-built Verano + Zen 7 already in development on Samsung 2nm; key collaboration-ecosystem product cadence for MangoBoost."
+    },
+    {
+      "id": "23",
+      "title": "딥엑스·리벨리온·퓨리오사AI 판교 집합 … 거래소, AI 상장 불씨 살리기",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/05/04/2026050400163.html",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "Korean AI semi listing initiative — KRX brought Rebellions/Furiosa/DEEPX/Lablup/Upstage to discuss KOSDAQ tech-special listing; Korean AI ecosystem signal."
+    },
+    {
+      "id": "22",
+      "title": "DEEPX Targets 60 Billion-Won Revenue in 2026, Citing Surge in NPU Demand",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=6557",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Domestic NPU player ramp — DX-M1 mass production at 91.1% Samsung 5nm yield, $40M revenue target (18x YoY), 350-company PoC pipeline."
+    },
+    {
+      "id": "17",
+      "title": "애플, 인텔·삼성과 파운드리 협력 검토...삼성은 주가 '1조달러' 돌파",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210114",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Korean foundry breakout — Samsung market cap crosses $1T, Apple-Intel-Samsung foundry talks, TSMC monopoly under pressure; supply chain context."
+    },
+    {
+      "id": "21",
+      "title": "Tesla Seeks to More Than Double AI6 Chip Production With Samsung",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=5646",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung foundry/2nm AI chip — Tesla AI6 wafer expansion 16K→40K/mo, $17B 8-yr deal, AI DC + Optimus + FSD deployment; Samsung leading-edge capacity validation."
+    },
+    {
+      "id": "04",
+      "title": "Microsoft's AI data center push is colliding with its clean power goals",
+      "url": "https://techcrunch.com/2026/05/06/microsofts-ai-data-center-push-is-colliding-with-its-clean-power-goals/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI infra power challenge — Microsoft considering retreat from hourly clean energy matching, 5GW Chevron natgas plant; core DC efficiency/sustainability narrative."
+    },
+    {
+      "id": "07",
+      "title": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "AI optical interconnect supply expansion — NVIDIA $300M Corning investment + $500M warrants, 10x optical connectivity capacity, 50%+ US fiber capacity for AI factories."
+    },
+    {
+      "id": "20",
+      "title": "Intel Cites Chip Supply Constraints, Aligns With Musk on Terafab Initiative",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=6806",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Korean-source Terafab angle adds Intel CFO 'billions in missed revenue' detail and 18A yield ahead-of-schedule signal; useful Korean primary for domestic readers."
+    },
+    {
+      "id": "12",
+      "title": "PCIe 8.0 spec hits 1 TB/s of bandwidth and has new connector technology",
+      "url": "https://www.tomshardware.com/tech-industry/pci-sig-reveals-pcie-8-0-0-5v-spec-first-draft-includes-1-tb-s-bandwidth-and-new-connector-technology",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "PCIe 8.0 spec milestone for AI accelerator/NIC/SSD/CXL designers — 256GT/s, 1TB/s x16, new connector; notably Marvell+Synopsys demo'd at DesignCon (competitor signal)."
+    },
+    {
+      "id": "24",
+      "title": "Samsung Foundry SF2P vs Tesla AI5: The 2026 Showdown",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/05/202605060603511252fbbec65dfb_1",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung 2nm SF2P yield analysis on Tesla AI5 dual-source deal; Q3-Q4 2026 yield pivot point for Samsung foundry's AI customer pipeline (Apple/Google/Meta)."
+    },
+    {
+      "id": "03",
+      "title": "Is xAI a neocloud now?",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Strategic framing of xAI's pivot to compute provider — useful editorial complement to the Anthropic-Colossus deal facts; neocloud business model trend."
+    },
+    {
+      "id": "06",
+      "title": "DeepSeek could hit $45B valuation from its first investment round",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "China sovereign AI/Big Fund first AI model investment — Tencent/Alibaba/CICF participation, DeepSeek runs on Huawei chips; geopolitical AI infra signal."
+    },
+    {
+      "id": "15",
+      "title": "미국 정부의 AI 모델 사전 점검에 구글·MS·xAI 합류",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210121",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "AI policy/safety governance — CAISI pre-deployment evaluation regime expanded to Google DeepMind/MS/xAI; sovereign AI safety framework signal."
+    },
+    {
+      "id": "18",
+      "title": "앤트로픽 정책 총괄 다음주 방한...과기부와 '미소스' 논의",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210156",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Korean AI sovereignty/access initiative — Anthropic global policy chief visiting MSIT and 국가AI전략위원회 on Misos access; Korean AI procurement framework signal."
+    },
+    {
+      "id": "14",
+      "title": "US government increases AI suppliers and rethinks Anthropic's role",
+      "url": "https://www.artificialintelligence-news.com/news/us-government-increases-ai-in-defence-suppliers-roster-and-rethinks-anthropics-role/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Defense AI supplier expansion — Pentagon adds MS/Reflection AI/Amazon/NVIDIA at IL6/IL7, Anthropic 'supply chain risk' designation; AI vendor diversification policy."
+    },
+    {
+      "id": "30",
+      "title": "아모데이 \"미소스 유효 기간은 6~12개월...중국이 곧 따라잡을 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210157",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AI race competitive frontier commentary — Anthropic CEO concedes 6-12mo lead, recaps Anthropic multi-cloud infra strategy (Google TPU 5GW + Colossus 300MW + AWS/CoreWeave)."
+    },
+    {
+      "id": "31",
+      "title": "UNIST·경북대, 하루 만에 반도체 회로 설계하는 AI 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210101",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "Korean AI-for-EDA research — RL-based analog circuit layout automation, design cycle months→day; relevant to fabless ecosystem competitiveness."
+    },
+    {
+      "id": "32",
+      "title": "챗GPT 기본 모델 'GPT-5.5 인스턴트'로 교체...\"지능↑ 환각↓\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210110",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI model 출시/업데이트 — GPT-5.5 Instant default swap, 52.5% hallucination reduction on high-stakes prompts, memory-source attribution feature."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "02",
+      "title": "PCI-SIG PCIe 8.0 Specification Draft 0.5 Released",
+      "discard_reason": "duplicate of #12 (Tom's Hardware coverage adds Marvell/Synopsys DesignCon demo signal that ServeTheHome lacks)"
+    },
+    {
+      "id": "25",
+      "title": "NVIDIA invests $300 million in Corning to build three new US-based optical fiber plants",
+      "discard_reason": "duplicate of #07 (NVIDIA Newsroom is the primary source for the same announcement)"
+    },
+    {
+      "id": "29",
+      "title": "챗GPT의 아버지…이제 중요한 것은 '로봇'",
+      "discard_reason": "content-thin commentary — Sam Altman general AGI/robotics remarks with no new product, deal, or substantive infra news; tangential semi/DC tie is implicit only"
+    }
+  ],
+  "summary": {
+    "total_received": 32,
+    "total_kept": 29,
+    "total_discarded": 3,
+    "category_breakdown": {
+      "market": 16,
+      "products": 7,
+      "projects": 3,
+      "challenges": 2,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 8,
+    "by_competitor": {
+      "NVIDIA": 3,
+      "FuriosaAI": 1,
+      "Rebellions": 2,
+      "HyperAccel": 1,
+      "Google TPU": 1
+    }
+  }
+}

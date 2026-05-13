@@ -1,0 +1,488 @@
+{
+  "collection_date_kst": "2026-05-03",
+  "run_summary": {
+    "total": 42,
+    "by_topic": {
+      "ai": 16,
+      "semiconductor": 11,
+      "datacenter": 8,
+      "competitor": 7
+    },
+    "by_competitor": {
+      "NVIDIA": 3,
+      "Tenstorrent": 3,
+      "Moreh": 1,
+      "Rebellions": 3,
+      "FuriosaAI": 2,
+      "Marvell": 2,
+      "Qualcomm": 1,
+      "Cerebras": 1
+    },
+    "competitor_tagged_total": 12,
+    "sources_consulted": 47,
+    "skipped_paywalled": 6,
+    "notes": "SemiAnalysis RSS feed stale (last build 2025-09-23, no May 2026 content). ServeTheHome May 2-3 articles limited to consumer DDR5 review — not domain-relevant, excluded. HPC Wire feed returned 403. NetworkWorld index.rss returned 404. DataCenterDynamics RSS returned a May 2 sponsored/opinion piece (403 on body fetch — excluded). Wired RSS blocked. Bloomberg articles behind paywall — skipped (2 items). The Register data_centre/networks section returned mostly April items; May 2 article included. Naver IT/과학 section JS-rendered — cannot fetch directly per memory note; Korean articles surfaced via search instead. HyperAccel, Napatech, Moreh: no standalone May 2-3 articles found via feeds; Moreh covered via May 2 PR on Tenstorrent partnership. FriendlyAI/FriendliAI: no fresh May 2-3 articles found — no hit recorded for this run. Napatech Tier-1 bank deal article returned 403. Blockchain/Wired blocked. Korea Herald HBM4 articles dated Dec 2025 — outside recency window, excluded. EXEM-Rebellions partnership article dated Apr 30 (KST eligible as yesterday). Qualcomm article dated May 1 (KST eligible as yesterday). Samsung Q1 results dated Apr 30 (KST eligible as yesterday via The Elec transcript Apr 30). Big Tech capex article dated Apr 30. AWS OEM article dated Apr 30. xAI distillation article dated Apr 30. FCC ban article dated May 2. AI chip export controls article dated Apr 27 — outside window, excluded. Google TPU sales article dated Apr 30."
+  },
+  "articles": [
+    {
+      "title": "Google Is A Full Stack AI Player, And Is Playing Well",
+      "url": "https://www.nextplatform.com/cloud/2026/05/02/google-is-a-full-stack-ai-player-and-is-playing-well",
+      "body": "Google Cloud is experiencing significant momentum in the generative AI market, growing faster than both AWS and Microsoft Azure in Q1 2026. While the company entered cloud computing later than competitors, it has leveraged its full-stack AI capabilities to capture market share.\n\nThe article notes that Google's early cloud offerings — Compute Engine and App Engine — abstracted infrastructure away, mirroring internal tools. This philosophy has finally resonated with enterprises now adopting cloud-based AI services. Customers are increasingly choosing Google's complete stack, from hardware through inference engines.\n\nGoogle Cloud generated over $20 billion in quarterly revenue, representing 63.4% year-over-year growth. Operating income surged to $6.6 billion, more than tripling annually. The company processed 2,050.6 trillion tokens in Q1 2026, up from 1,310.4 trillion in the prior quarter.\n\nCEO Sundar Pichai emphasized that \"Google Cloud is differentiated because we are the only provider to offer first party solutions across the entire enterprise AI stack.\" Revenue from AI-based products grew nearly 800% year-over-year, with 330 customers processing over 1 trillion tokens each.\n\nThe company's $462 billion revenue backlog — approximately half recognizable within two years — supports substantial capital investment. Google spent $35.67 billion in capex, with 60% allocated to servers and 40% to networking and datacenters.",
+      "published_at": "2026-05-02T21:16:54+02:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Google to sell its TPUs to some customers, who also fancy big-G GPUs",
+      "url": "https://www.theregister.com/2026/04/30/alphabet_google_q1_fy26",
+      "body": "Google Cloud will commence selling its custom tensor processing units to select customers, as the search giant seeks to diversify revenue streams. The announcement came during Alphabet's Q1 2026 earnings call on Wednesday.\n\nCEO Sundar Pichai revealed that Google has detected heightened demand for TPUs among \"AI labs, capital markets firms and high-performance computing applications\" and plans to \"begin to deliver TPUs to a select group of customers in their own data centers.\" Pichai noted customers also demonstrated \"massive interest in our GPU offerings as well.\"\n\nCFO Anat Ashkenazi indicated Google will recognize some TPU revenue this year, with more substantial financial impact anticipated in 2027. She cautioned that \"revenues from TPU hardware sales will fluctuate from quarter to quarter depending on when TPUs are shipped to customers.\"\n\nPichai believes chip sales will fund next-generation silicon research and create manufacturing economies of scale for Google's internal needs.\n\nGoogle Cloud achieved Q1 2026 revenue of just over $20 billion, representing 63 percent growth compared to $12.26 billion in the same quarter last year. The division maintains a $460 billion contract backlog and expects to recognize over half within 24 months, potentially reaching annual revenue exceeding $130 billion.\n\nCapital expenditure reached $35.7 billion quarterly, with approximately 60 percent allocated to servers and 40 percent to data centers and networking. Google revised annual capex forecasts upward to $180-190 billion from the previous $175-185 billion range, partly reflecting the earlier Intersect acquisition.\n\nOverall quarterly revenue totaled $109.9 billion, up 22 percent year-over-year, with net income at $62.6 billion. Alphabet shares gained 3.7 percent in after-hours trading.",
+      "published_at": "2026-04-30",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "Tenstorrent Announces General Availability of Galaxy Blackhole AI System",
+      "url": "https://www.hpcwire.com/aiwire/2026/05/01/tenstorrent-announces-general-availability-of-galaxy-blackhole-ai-system",
+      "body": "Tenstorrent announced the general availability of its Galaxy Blackhole AI compute platform on Tuesday. Each 6U system contains 32 Blackhole accelerators interconnected through a 100 Tbps Ethernet mesh. The company reports each Galaxy system delivers 1 TB of GDDR6 memory, 16 TB/s memory bandwidth, and 23 petaFLOPS of FP8 performance for $110,000.\n\nIndividual systems cost significantly less than Nvidia's comparable eight-way DGX boxes. The mesh network extends across multiple nodes, supporting larger models and higher throughput through tensor and pipeline parallelism adjustments.\n\nA base Galaxy Supercluster with four Blackhole systems costs $440,000, with architecture supporting up to 144 nodes containing over 4,000 chips total.\n\nThe software stack has improved substantially since the company's earlier hands-on reviews. The startup claims its four-node superclusters can process a 100,000-token prompt in under four seconds for DeepSeek V3, with throughput reaching 300 tokens per second per user and expectations to increase that to 350 through software refinements.\n\nTenstorrent states the platform scales effectively from batch eight to batch 64 depending on throughput and interactivity requirements. Beyond language models, the company positions Galaxy Blackhole for video generation, claiming four-node superclusters can generate 720p video faster than real-time.\n\nThe startup reports \"Ninety percent of models from Hugging Face just run on Tenstorrent\" and is developing support for frontier models from companies including Moonshot AI. Hardware adoption is occurring among datacenter and colocation providers including Cirrascale, Equinix, and Japan's ai&.",
+      "published_at": "2026-05-01",
+      "source": "HPCwire",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "Tenstorrent Galaxy Blackhole Server: 6U System with 32 Chips for AI Inference",
+      "url": "https://www.indexbox.io/blog/tenstorrent-launches-galaxy-blackhole-server-and-cluster",
+      "body": "Tenstorrent is launching its Galaxy Blackhole server and cluster system, featuring 32 Tenstorrent Blackhole chips in a 6U form factor delivering 23 PFLOPS of Block FP8 performance. The system handles both prefill and decode operations without requiring disaggregated architecture.\n\nProduction began in January, with typical customer deployments ranging from 4 to 32 Galaxy systems. The servers provide 6.2 GB of on-chip SRAM across all chips, totaling 2.9 PB/s bandwidth, plus 1 TB of DRAM with 16 TB/s bandwidth.\n\nCEO Jim Keller emphasized that the platform is general-purpose rather than specialized. \"The same computer can handle both prefill and decode, building a large cluster of computers capable of running LLM prefill and decode, video generation, and agentic AI,\" representing Tenstorrent's \"anti-specialized and general-purpose\" approach.\n\nIn Blitz Mode, DeepSeek-671B inference achieves up to 350 tokens per second per user with under 4-second latency. EE Times testing recorded 255 tokens per second for short chatbot prompts across 16 Galaxy servers (512 chips) using pipeline parallelism.\n\nScale-out uses standard Ethernet with up to 56 x 800G ports per server. The company developed TTLang, a domain-specific language, to optimize workload deployment across clusters.\n\nDeployment partners include Equinix's Distributed AI Hub, Turiam (India), Cirrascale, and AI& (Japan).",
+      "published_at": "2026-04-29",
+      "source": "IndexBox",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "MOREH Demonstrates Production-Ready LLM Inference on Tenstorrent Galaxy, Achieving DGX A100-Class Performance with Improved Cost Efficiency",
+      "url": "https://www.manilatimes.net/2026/05/02/tmt-newswire/pr-newswire/moreh-demonstrates-production-ready-llm-inference-on-tenstorrent-galaxy-achieving-dgx-a100-class-performance-with-improved-cost-efficiency/2334139",
+      "body": "Moreh, an AI infrastructure software company led by CEO Gangwon Jo, announced that it successfully validated LLM inference performance on the Tenstorrent Galaxy Wormhole system using its proprietary MoAI Inference Framework, achieving LLM inference performance matching or surpassing NVIDIA DGX A100-class systems across Mixture-of-Experts (MoE) models including GPT-OSS, Qwen, GLM, and DeepSeek.\n\nMoreh improved cost efficiency by implementing a disaggregated serving architecture that combines GPUs with Tenstorrent Wormhole chips, and by utilizing Tenstorrent processors as dedicated prefill accelerators, the company reduced reliance on high-cost HBM and lowered overall infrastructure costs.\n\nThe MoAI Inference Framework is a disaggregated inference solution that enables unified operation of heterogeneous GPUs and NPUs — including NVIDIA, AMD, and Tenstorrent — within a single cluster, allowing enterprises to build flexible AI infrastructure strategies without vendor lock-in.\n\nThe results were first unveiled at Tenstorrent's launch event, TT-Deploy, held on May 1 in San Francisco, where Moreh showcased a live LLM inference demo as a strategic partner of Tenstorrent and a major external contributor to Metalium.",
+      "published_at": "2026-05-02",
+      "source": "Manila Times (PR Newswire)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": "Moreh"
+    },
+    {
+      "title": "Anthropic in early talks to secure custom AI chips from Fractile: Report",
+      "url": "https://thetechportal.com/2026/05/03/anthropic-in-early-talks-to-secure-custom-ai-chips-from-fractile-report",
+      "body": "Anthropic is in preliminary discussions with UK semiconductor startup Fractile regarding a potential supply agreement for specialized AI inference chips. According to reporting by The Information, these talks remain at an early phase with no finalized agreement or timeline.\n\nThe chips under development are engineered to execute trained AI models with improved efficiency, reducing operational expenses and enhancing performance speed. Fractile's technology targets the inference phase rather than training, enabling high-volume workloads while consuming less energy and operating with reduced response times. Such specialized hardware appeals to enterprises deploying customer service automation and API services where responsiveness and per-query economics matter significantly.\n\nThis partnership reflects Anthropic's broader effort to diversify away from Nvidia's dominant position in AI infrastructure. Nvidia's supply constraints and pricing have motivated companies to explore alternative semiconductor providers.\n\nThe strategic timing aligns with industry-wide adoption of custom AI silicon. Google, Amazon, and Microsoft have each developed proprietary chips for AI applications. Independent AI laboratories like Anthropic may pursue partnerships with chip specialists rather than investing in internal semiconductor development.\n\nFractile's technology likely won't achieve commercial availability until later this decade, potentially around 2027, positioning any deal as a forward-looking strategic commitment rather than immediate procurement.",
+      "published_at": "2026-05-03T00:37:00+05:30",
+      "source": "The Tech Portal",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "화웨이, 엔비디아 중국 공백 틈타 AI 칩 판매 60% 증가 예상",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210019",
+      "body": "Huawei is poised to capture the largest market share in China's AI chip sector this year, capitalizing on the absence of NVIDIA. The company's AI chip sales are projected to reach approximately $12 billion in 2026, representing a minimum 60% increase from 2025's $7.5 billion.\n\nThe growth centers on Huawei's latest processor, the Ascend 950PR, which began mass production in March. An upgraded version, the 950DT, is scheduled for Q4 release.\n\nThis expansion stems from US-China technological tensions. While the Trump administration conditionally approved H200 exports to China in January, formal sales remain stalled due to Chinese government semiconductor protection policies.\n\nConsequently, Chinese enterprises are actively adopting Huawei chips as alternatives. Huawei is expanding production capacity through partnerships with SMIC and plans to operationalize two additional dedicated facilities this year.\n\nHowever, technological gaps persist. Huawei's AI chips lag NVIDIA's latest offerings by roughly two generations. The company's CANN software ecosystem lacks developer-friendliness compared to NVIDIA's CUDA, increasing adoption costs.\n\nHuawei is strategically prioritizing inference markets over training. DeepSeek has demonstrated efficiency improvements using the 950PR for inference tasks, driving demand among Chinese firms, though model training still predominantly relies on NVIDIA chips.\n\nMorgan Stanley projects the Chinese AI chip market reaching $67 billion by 2030, with domestic suppliers providing 86% of supply.",
+      "published_at": "2026-05-02T14:24:54+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "컴퓨팅 확보 비상 걸린 앤트로픽, 영국 칩 신예와 파트너십 검토",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210033",
+      "body": "Anthropic is actively negotiating with British chip startup Fractile to secure next-generation inference chips as the company faces severe computing resource constraints. The AI firm is seeking to reduce inference costs and diversify its supply chain beyond existing partners like Google, Amazon, and NVIDIA.\n\nFractile, founded in 2022 and emerging from stealth mode in mid-2024, is an unproven newcomer to the chip industry. Chip supplies from Fractile are expected to begin as early as next year.\n\nAnthropic currently experiences critical computing shortages, with developers facing usage limits and customers reporting service disruptions. The partnership would strengthen Anthropic's negotiating position with major suppliers including Google, Amazon, and NVIDIA.\n\nFractile differentiates itself through efficient inference performance using SRAM-based architecture to minimize data movement and improve cost and power efficiency.\n\nThis reflects industry-wide trends toward de-NVIDIA solutions, with competitors like OpenAI partnering with Cerebras and exploring proprietary chip designs. Anthropic is also reportedly considering developing its own custom inference chip.",
+      "published_at": "2026-05-03T11:42:16+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "OpenAI locks GPT-5.5-Cyber behind velvet rope despite slamming Anthropic for doing exactly that",
+      "url": "https://www.theregister.com/2026/05/01/openai_locks_gpt55cyber_behind_velvet",
+      "body": "OpenAI is releasing its GPT-5.5-Cyber model to a restricted group of \"cyber defenders,\" despite recently criticizing Anthropic for implementing similar gatekeeping practices.\n\nCEO Sam Altman announced the limited rollout would begin \"in the next few days,\" targeting organizations working to secure critical infrastructure. The model is designed to identify vulnerabilities, conduct penetration testing, find bugs, and analyze malware.\n\nWeeks prior, Altman had publicly criticized Anthropic's Claude Mythos cyber model, which was distributed to roughly 50 organizations under strict controls. During a podcast appearance, he framed such exclusivity as fear-based marketing, stating: \"There are people in the world who, for a long time, have wanted to keep AI in the hands of a smaller group of people.\"\n\nHe drew an analogy suggesting the approach resembled selling protective solutions to problems companies created themselves.\n\nHowever, the UK's AI Security Institute recently validated the capability, stating GPT-5.5-Cyber ranks among \"the strongest models we have tested on our cyber tasks.\" The institute noted it was only the second system to complete multi-step attack simulations end-to-end.\n\nThe tension highlights the paradox of powerful cybersecurity tools: when capabilities enable both system exploitation and defense, access timing determines whether use serves protection or harm.",
+      "published_at": "2026-05-01",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Qualcomm teases 'dedicated CPU for agentic experiences' and 'agentic smartphones'",
+      "url": "https://www.theregister.com/2026/05/01/qualcomm_q2_fy_26",
+      "body": "Qualcomm has entered the custom hyperscale silicon market, according to CEO Cristiano Amon's remarks during the company's Q2 earnings call. The chipmaker will provide custom products to \"a leading hyperscaler,\" with shipments anticipated in the December quarter and plans for \"a multi-generation engagement.\"\n\nQualcomm is developing datacenter CPUs and high-performance AI inference accelerators. The company gained custom ASIC capabilities through its acquisition of Alphawave and has built what Amon described as \"a dedicated CPU for agentic experiences in the data center.\"\n\nAmon outlined AI's evolution: GPUs for training, then dedicated inferencing hardware, and now dedicated CPUs to \"generate demand for tokens\" powering agentic AI systems.\n\nThe company also plans to introduce \"agentic smartphones,\" citing examples like ZTE's Doubao assistant and Xiaomi's miclaw — an AI-powered assistant integrated with the OS kernel that interprets user intent and interfaces with third-party applications.\n\nThese developments indicate smartphone designs are \"moving towards products that have much more capable CPU,\" potentially requiring increased memory capacity.\n\nQualcomm reported $10.6 billion in quarterly revenue (down 3% year-over-year) and $7.37 billion in net income (up 162%). The automotive business exceeded $5 billion in annualized revenue for the first time, with expectations to reach $6 billion by fiscal year-end.\n\nThe company will provide additional details at a June investor day event.",
+      "published_at": "2026-05-01",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "Silicon wafer shipments up 13% in Q1 2026, but AI data centers are taking the lion's share",
+      "url": "https://www.tweaktown.com/news/111399/silicon-wafer-shipments-are-up-13-percent-in-q1-2026-but-ai-data-centers-are-taking-the-lions-share/index.html",
+      "body": "Global silicon wafer shipments increased 13.1% year-over-year in Q1 2026, reaching 3,275 million square inches compared to 2,896 million in Q1 2025, according to the SEMI Silicon Manufacturers Group. However, the growth primarily benefits AI infrastructure rather than consumer electronics.\n\nSilicon wafers serve as the foundation for semiconductor manufacturing. Companies like TSMC, Samsung, and Intel Foundry use these thin silicon slices to fabricate CPUs, GPUs, and memory modules. Higher wafer shipments typically signal increased chip production capacity.\n\nGinji Yada, SEMI SMG Chairman, noted that \"demand related to AI data centers continues to be strong, including advanced logic and memory, and also now extending to power management devices.\"\n\nThe industrial semiconductor segment shows improvement, but smartphone and personal computer shipments weakened during the first quarter. This decline reflects memory supply constraints driven by AI-focused allocations. High-bandwidth memory designated for AI accelerators has diverted resources away from consumer-grade DDR5 modules.\n\nDespite Q1's 4.7% sequential decline from Q4 2025 — typical seasonal variation — AI infrastructure's dominance reshapes the semiconductor market. CPU supply remains strained, with Intel and AMD raising prices up to 15% annually. The report underscores how consumers increasingly compete with large-scale AI systems for limited silicon resources.",
+      "published_at": "2026-05-02T12:47:00-05:00",
+      "source": "Tweaktown",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Big Tech Q1 2026 Earnings Power $700B AI Capex Spree",
+      "url": "https://www.heygotrade.com/en/news/big-tech-q1-2026-earnings-ai-capex-spree",
+      "body": "The major technology companies reported Q1 2026 financial results and simultaneously announced increases to their artificial intelligence infrastructure spending plans. Microsoft, Alphabet, Meta, and Amazon collectively raised their 2026 capital expenditure budgets, with combined spending now projected between $650-$700 billion for the year.\n\nMicrosoft disclosed over $40 billion in capex during its fiscal fourth quarter, positioning the full year near $190 billion. The company's AI division operates at a $37 billion annualized rate, representing a 123% year-over-year increase.\n\nAlphabet elevated its 2026 capex guidance to $180-$190 billion from the prior $175-$185 billion range, with CFO Anat Ashkenazi indicating additional increases planned for 2027.\n\nMeta raised its 2026 capex range to $125-$145 billion, prompting an approximate 6% stock decline during after-hours trading.\n\nAmazon projected approximately $200 billion in 2026 capex. AWS revenue reached $37.59 billion quarterly, growing 28% year-over-year — the fastest pace in 15 quarters.\n\nMarket reaction diverged based on revenue demonstration. Alphabet stock appreciated as Google Cloud revenue grew 63% year-over-year to roughly $20 billion, directly evidencing capex conversion to customer demand. Microsoft similarly performed well given strong Azure cloud performance alongside its substantial AI run rate.\n\nMeta faced investor skepticism as its capex supports consumer advertising rather than third-party cloud services, making payback verification more difficult quarter-to-quarter.\n\nAmazon positioned between the two, with AWS acceleration offsetting concerns about steep capex projections.",
+      "published_at": "2026-04-30",
+      "source": "Gotrade",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "AWS Will Be An OEM, Just Like Google And Maybe Microsoft",
+      "url": "https://www.nextplatform.com/cloud/2026/04/30/aws-will-be-an-oem-just-like-google-and-maybe-microsoft",
+      "body": "The piece examines how AWS is transitioning toward becoming an original equipment manufacturer (OEM) rather than exclusively a cloud services provider. The author argues this shift is driven by major AI model makers like Anthropic wanting to own and operate their own infrastructure to avoid premium cloud pricing.\n\nGoogle already enabled this model by allowing Anthropic to purchase 3.5 gigawatts of TPU racks for installation in its own datacenters starting in 2027. Similarly, AWS has committed to supplying Anthropic with 5 gigawatts of Trainium capacity through 2036.\n\nAccording to the analysis, AWS faces a choice: \"become an OEM for Anthropic or lose the business.\" AWS leadership acknowledged this possibility, with Andy Jassy stating: \"we are going to sell racks over the next couple of years.\"\n\nThe article provides AWS Q1 2026 financial metrics: $37.59 billion in revenue (up 28.4%), and $14.16 billion operating income representing 37.7% margin. It notes AWS accounted for 59.4% of Amazon's total operating profit despite representing only 20.7% of revenue.\n\nThe piece concludes that Microsoft Azure faces similar pressures regarding its Cobalt CPUs and Maia processors, suggesting this represents a broader industry transformation.",
+      "published_at": "2026-04-30",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "삼성전자 2026년 1분기 실적발표 컨퍼런스콜 전문",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=55934",
+      "body": "Samsung Electronics reported record quarterly results for Q1 2026, achieving revenue of 133.87 trillion won and operating profit of 57.23 trillion won, representing 69.2% and 756.1% year-over-year increases respectively. The operating margin reached 42.8%.\n\nCFO Park Soon-chul stated: \"Through relentless AI technology innovation and proactive market response, Samsung achieved record-breaking quarterly revenue and operating profit.\"\n\nSequential results showed 43% revenue growth and 185% operating profit growth from the previous quarter. Net income reached 47 trillion won, with earnings per share of 7,123 won for common shares.\n\nMemory Division: Hyperscaler AI infrastructure investments drove strong server DRAM and SSD demand. Samsung began mass production of 6th-gen HBM4 and SOCAMM2 products. Server-focused product mix delivered record results.\n\nMobile Experience (MX): Revenue of 37.5 trillion won despite seasonal downturn. Ultra model sales expansion improved average selling price year-over-year.\n\nFoundry: Advanced node utilization reached maximum levels. HPC customer orders continued strong performance.\n\nDisplay: Small-to-medium displays declined seasonally; large displays remained stable driven by gaming monitor demand.\n\nSamsung approved quarterly dividends of 372 won per share. The company completed cancellation of 73.36 million common shares from its 10 trillion won buyback program announced in November 2024.\n\nManagement expects continued AI demand momentum in Q2, with memory bit growth projections for both DRAM and NAND. However, component cost pressures and geopolitical uncertainties present headwinds across consumer-facing divisions through 2026.",
+      "published_at": "2026-04-30",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "삼성전자, 2026년 1분기 실적 발표",
+      "url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2026%EB%85%84-1%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C",
+      "body": "Samsung Electronics reported record-breaking quarterly results for Q1 2026. Total Revenue: 133.9 trillion won. Operating Profit: 57.2 trillion won. R&D Investment: 11.3 trillion won.\n\nRevenue by Division: DS (Device Solutions) 81.7 trillion won / 53.7 trillion won operating profit; DX (Device eXperience) 52.7 trillion won / 3 trillion won; Harman 3.8 trillion won / 0.2 trillion won; Display 6.7 trillion won / 0.4 trillion won.\n\nSamsung achieved record-breaking quarterly revenue and operating profit through AI technology innovation and market responsiveness. Revenue increased 40 trillion won sequentially (43% growth), while operating profit surged 37.2 trillion won (185% increase).\n\nMemory segment achievements: First to simultaneously mass-produce HBM4 and next-generation SOCAMM2 low-power memory modules, plus timely PCIe Gen6 SSD development.\n\nMobile segment: Strong flagship smartphone sales and increased Galaxy S26 Ultra sales drove growth. Favorable exchange rates on major currencies provided approximately 1.8 trillion won positive effect on operating profit.",
+      "published_at": "2026-04-30",
+      "source": "Samsung Newsroom Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI Boosts Korea's Exports and Strains Global Memory",
+      "url": "https://cloudnews.tech/ai-boosts-koreas-exports-and-strains-global-memory",
+      "body": "South Korea's exports reached $85.89 billion in April, driven primarily by semiconductor demand for AI infrastructure. Semiconductor sales hit $31.9 billion, representing a 173.5% year-over-year increase — marking the second consecutive month exceeding $30 billion in chip exports.\n\nThe surge reflects a fundamental shift in global chip markets. Rather than serving mobile devices and consumer electronics, demand now originates from massive AI data center deployments requiring substantial memory, storage capacity, and networking infrastructure. South Korean companies Samsung Electronics and SK hynix are capturing significant value from this transition.\n\nKey figures include: Total exports up 48% year-over-year; Computer products growth exceeding 500%; Trade surplus of $23.77 billion; Exports to China increased 62.5%; to the US rose 54%.\n\nSamsung's semiconductor division earned $67 billion in Q1 2026 revenues with $44 billion operating profit. SK hynix reported $43 billion in revenues and an extraordinary 72% operating margin, attributed to high-bandwidth memory production for AI accelerators.\n\nHowever, this boom creates bottlenecks. As memory has shifted from being a low-margin commodity to a strategic component, manufacturing capacity cannot expand quickly enough. Industry leaders warn supply constraints could persist for years, potentially elevating costs for PCs, smartphones, and other devices competing for limited memory supplies.",
+      "published_at": "2026-05-01",
+      "source": "Cloud News",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "엑셈, 리벨리온과 손잡고 NPU 기반 AX 사업 확대",
+      "url": "https://zdnet.co.kr/view/?no=20260430103520",
+      "body": "AI-focused IT performance management company EXEM announced a memorandum of understanding with Rebellions on April 29 to collaborate on NPU-based artificial intelligence transformation initiatives.\n\nThrough this agreement, the two organizations will combine Rebellion's high-performance NPU technology with EXEM's AI solutions and infrastructure capabilities to establish next-generation computing infrastructure based on domestic AI semiconductors and lead public institutions in AI transformation.\n\nThe domestic NPU market is experiencing significant growth as AI technology shifts from learning to inference focus. NPUs have emerged as alternatives to traditional GPUs, particularly in edge AI and AI agent markets where energy efficiency and cost reduction are critical. The government is actively expanding the domestic NPU market through initiatives like the K-Cloud Project and seven K-NPU public leadership projects targeting public and local government demand.\n\nEXEM recently developed and launched an NPU performance management solution for Rebellion's technology. The companies plan to leverage EXEM's public sector sales capabilities to pioneer market channels for Rebellion's NPU and EXEM's management solutions, with joint sales efforts targeting government ministries, metropolitan local governments, and major public institutions.\n\nThe organizations will also establish a technical committee to enhance solutions aligned with Rebellion's next-generation NPU launch schedule and incorporate advanced AI technologies like RAG and LLMOps, with regular coordination meetings planned.",
+      "published_at": "2026-04-30T10:35:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Rebellions Gears Up for KOSPI IPO as AI Chip Listing Race Heats Up",
+      "url": "https://en.sedaily.com/technology/2026/04/06/rebellions-gears-up-for-kospi-ipo-as-ai-chip-listing-race",
+      "body": "Korean AI chip IPO Wave: Rebellions, valued at 3.4 trillion won (approximately 2.34 billion USD), is pursuing a KOSPI preliminary listing review in the third quarter, with August as the likely filing month. The company raised 640 billion won in a pre-IPO round with backing from the National Growth Fund, Korea Development Bank, and Mirae Asset Group. FuriosaAI and DeepX are also considering domestic listings, positioning Korea as a hub for trillion-won-class AI heavyweights.\n\nSpaceX, OpenAI, Anthropic, ByteDance, and Databricks are projected to achieve 70% compound annual revenue growth through 2029 — 3.8 times faster than the Magnificent 7. Combined IPO proceeds are expected to exceed $280 billion, with SpaceX alone potentially raising up to $75 billion.\n\nRebelions has raised $850 million total — $650 million of which was raised in the last six months. The company plans to target U.S., Japan, Saudi Arabia, and Taiwan for expansion as it readies its flagship Rebel100 NPU for production-scale inference deployment.",
+      "published_at": "2026-04-06",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Furiosa AI, Rebellion Target Europe's Sovereign AI Market",
+      "url": "https://en.sedaily.com/technology/2026/04/09/furiosa-ai-rebellion-target-europes-sovereign-ai-market",
+      "body": "Korean semiconductor startups are expanding into Europe to capture sovereign AI demand. FuriosaAI established a Portuguese entity, while Rebellions is partnering with French company Mistral AI for data center cooperation.\n\nFuriosaAI established a new European flagship office in Portugal. The new office will serve as the regional hub to coordinate commercial and technical support operations across Europe, aligned with FuriosaAI's global operating model, as well as research and development in compilers and chip and PCB design. The office will be led by Nuno Lopes, who combines the role of Director of FuriosaAI Europe with that of professor and researcher at the University of Lisbon.\n\nRebelions is partnering with French AI firm Mistral AI for data center cooperation, positioning itself as a provider of inference chip infrastructure for Mistral's European deployments.\n\nThis expansion is driven by Europe's push for sovereignty in AI infrastructure, with governments and enterprises seeking to reduce dependence on U.S. technology companies. FuriosaAI's RNGD chip, with its 180W power profile, makes it attractive for energy-conscious European operators.",
+      "published_at": "2026-04-09",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Marvell's Strategic Role in the Shift to Custom AI ASICs",
+      "url": "https://science-technology.news-articles.net/content/2026/04/30/marvell-s-strategic-role-in-the-shift-to-custom-ai-asics.html",
+      "body": "The piece examines how Marvell Semiconductor is positioning itself as a critical player in AI infrastructure development. The company benefits from the industry shift toward custom Application-Specific Integrated Circuits (ASICs), as hyperscale cloud providers design specialized chips rather than relying on general-purpose processors.\n\nA key focus involves data movement challenges in AI clusters. The article notes that the physical movement of data has become a primary bottleneck in AI cluster performance, particularly as thousands of GPUs operate in coordination. Marvell addresses this through its optical Digital Signal Processors, which convert electronic signals for fiber optic transmission at speeds moving from 400G to 800G.\n\nThe analysis identifies several growth drivers: expanding custom ASIC demand, increased reliance on optical interconnects, decoupling of AI infrastructure revenue from traditional networking downturns, and strategic cloud provider partnerships.\n\nMarvell secured a portion of next-generation TPU work from Alphabet, ending Broadcom's perceived monopoly on Google's flagship AI silicon program. Google is discussing two new chips with Marvell for AI inference — one being a memory processing unit designed to work alongside Google's existing TPUs and the other being a new TPU built specifically for inference.\n\nMarvell's data centre revenue reached a record $6.1 billion in its fiscal year ending February 2026. The company runs a custom silicon business with a $1.5 billion annual run rate across 18 cloud-provider design wins, building chips for Amazon (Trainium processors), Microsoft (Maia AI accelerator), and Meta. Nvidia invested $2 billion in Marvell at the end of March, partnering through NVLink Fusion to integrate Marvell's custom chips and networking with Nvidia's interconnect fabric.",
+      "published_at": "2026-04-30",
+      "source": "MarketWatch",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Qualcomm Prepares Its Return to Data Centers with Custom Silicon for Hyperscale",
+      "url": "https://cloudnews.tech/qualcomm-prepares-its-return-to-data-centers-with-custom-silicon-for-hyperscale",
+      "body": "Qualcomm is returning to the data center market with custom silicon developed for a major hyperscale client, with shipments expected by year-end 2026. CEO Cristiano Amon characterized this as a multigenerational collaboration, with expanded details promised at an Investor Day on June 24.\n\nThe company's Q2 FY2026 results showed total revenue of $10.599 billion, down 3% year-over-year. Mobile devices generated $6.024 billion (down 13%), while automotive grew 38% to $1.326 billion and IoT increased 9% to $1.726 billion.\n\nQualcomm's data center strategy leverages three competitive advantages: expertise in energy-efficient chip design from mobile applications, integrated system-on-chip capabilities, and customization strengths enhanced by its $2.4 billion acquisition of Alphawave Semi in December 2025.\n\nThe market opportunity reflects hyperscalers' growing demand for proprietary silicon tailored to AI inference, connectivity, and workload-specific requirements. Qualcomm faces established competition from NVIDIA, AMD, and Intel, plus internal chip development programs at major cloud operators.\n\nThe company previously exited data centers in 2018 to focus on mobile but now sees renewed potential in AI infrastructure and edge computing applications.",
+      "published_at": "2026-05-01",
+      "source": "Cloud News",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Meta raises $25 billion in bond sale after lifting AI spending plan",
+      "url": "https://techstartups.com/2026/04/30/meta-looks-to-raise-25b-in-bond-sale-to-fund-ai-spending-as-capex-surges-to-145b",
+      "body": "Meta has raised $25 billion through a six-part investment-grade bond sale to fund its rapidly expanding artificial intelligence infrastructure program. The company simultaneously raised its 2026 capital expenditure guidance to $125-145 billion, up from the prior range of $115-135 billion.\n\nThe company cited higher component pricing and additional data center costs as drivers behind the guidance increase. Meta's previous full-year capex was $72.2 billion in 2025, meaning the new guidance represents nearly doubling of spending year-over-year.\n\nCEO Mark Zuckerberg explained the strategic rationale during the Q1 earnings call: AI investments would make Meta's products fundamentally better while also enabling the company to reduce personnel costs as AI-equipped engineers become more productive.\n\nMeta's AI infrastructure buildout includes a planned 1 GW data center in Ohio and a facility in Louisiana that could eventually scale to 5 GW. The company's capex joins a broader industry-wide wave: Microsoft, Alphabet, Meta, and Amazon collectively committed between $650-725 billion in capital expenditure for 2026, representing a 77% increase over 2025's record $410 billion.",
+      "published_at": "2026-04-30",
+      "source": "Tech Startups",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "메타 \"AI 투자로 인건비 줄여야 해\"...추가 해고·업무량 폭증 예고",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210030",
+      "body": "Meta's leadership has acknowledged potential additional layoffs beyond the already-announced 10% workforce reduction (8,000 employees). During an internal meeting on April 30, HR Chief Janelle Gail stated: \"I cannot say there will be no more layoffs, as that would be unrealistic.\"\n\nThe company plans to redirect personnel costs toward AI infrastructure investments. CEO Mark Zuckerberg explained the trade-off: \"Our base costs fall into two categories: computing/infrastructure and personnel. Investing more in one means less capital for others.\"\n\nKey developments: Remaining staff face significantly increased workloads despite smaller headcount; AI-equipped \"cracked engineers\" will handle work previously requiring hundreds of employees; Development capacity could expand from 5 major apps to potentially 50 new projects; The company denies using keystroke monitoring as a layoff metric, claiming it's purely for AI model training using employee data to gain competitive advantage.\n\nThe strategy prioritizes AI-capable teams while streamlining traditional operations, signaling a fundamental workforce restructuring toward leaner, higher-intensity roles.",
+      "published_at": "2026-05-02T21:06:09+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models",
+      "body": "OpenAI and Anthropic have been aggressively targeting third-party efforts to train new AI models by querying their publicly accessible chatbots and APIs — a technique called distillation.\n\nThe discussion has centered on Chinese firms leveraging distillation to develop open-weight models nearly matching U.S. capabilities at significantly lower costs. However, industry observers have long suspected American laboratories employ similar techniques against one another to remain competitive.\n\nEvidence now confirms this occurs: During California federal court testimony on Thursday, Elon Musk acknowledged that xAI utilized distillation methods on OpenAI models when developing Grok. When asked directly, he replied \"Partly,\" while asserting the practice represents standard industry behavior.\n\nMusk is currently litigating against OpenAI, Sam Altman, and Greg Brockman, claiming they abandoned the original nonprofit vision by transitioning to for-profit operations.\n\nDistillation undermines the competitive advantage established through infrastructure investments, enabling smaller competitors to generate comparable models economically. The irony is notable: frontier laboratories have themselves bent or broken copyright regulations acquiring training data.\n\nxAI's 2023 founding occurred years after OpenAI's emergence, making it logical to learn from the then-leading company. While distillation's legality remains ambiguous, it potentially violates user service agreements.\n\nLater testimony had Musk ranking leading AI providers: Anthropic first, followed by OpenAI, Google, and Chinese open-source models, characterizing xAI as considerably smaller.",
+      "published_at": "2026-04-30T11:03:00-07:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "미국 국방부, 앤트로픽 제외한 기업 8곳과 기밀 네트워크 AI 공급 계약",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210017",
+      "body": "The U.S. Department of Defense has finalized AI supply contracts with eight companies for classified military networks, notably excluding Anthropic.\n\nThe DoD announced agreements with OpenAI, Google, NVIDIA, Microsoft, Amazon Web Services, Oracle, SpaceX, and Reflection AI to deploy AI technology on classified and top-secret military systems. These tools will support intelligence analysis, operational planning, target detection, and battlefield assessments.\n\nKey Points: The contracts enable lawful operational use of AI models and infrastructure within secure military networks; The DoD is pursuing an AI-first military approach, according to Deputy Secretary Emil Michael; The portfolio includes both proprietary models (OpenAI, Google, xAI) and open-source options (NVIDIA's Nemotron); Microsoft and AWS provide infrastructure; Oracle contributes cloud and AI platform capabilities.\n\nNotable Exclusion: Anthropic's Claude, previously used through Palantir's Maven platform, was excluded. While relations appeared to improve after White House discussions on cybersecurity applications, Defense Secretary Pete Hegseth's recent congressional testimony criticized Anthropic CEO Dario Amodei as ideologically zealous, indicating unresolved tensions.\n\nStrategic Rationale: Officials emphasized avoiding dependence on single companies or models, prioritizing diversity and flexibility for battlefield effectiveness. However, AI safety researchers warn that increased automation in targeting and combat decisions could introduce errors and bias distorting human judgment.",
+      "published_at": "2026-05-02T12:39:48+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "오픈AI, 코덱스에 'AI 펫' 깜짝 도입...코딩에 감성 UX 입힌다",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210034",
+      "body": "OpenAI introduced an AI pet feature to Codex, its autonomous coding agent, adding an emotional and interactive UI layer designed to make long-running coding tasks feel more engaging. The pet responds to the progress of tasks and interacts with users, giving the coding experience a companion element.\n\nCodex, powered by GPT-5.5, is OpenAI's flagship agentic coding tool used by 4 million developers weekly. The platform can autonomously write features, fix bugs, run tests, and manage entire codebases. The new AI pet is described as a surprising addition to a tool primarily focused on developer productivity.\n\nThis follows OpenAI's broader strategy to make AI tools more human-centered and emotionally appealing, part of its push to establish ChatGPT and Codex as the default AI companions for technical and professional users.",
+      "published_at": "2026-05-03T11:59:42+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "오픈AI 버전 '랄프 루프' 등장...코덱스 CLI에 '자율 목표' 기능 추가",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210020",
+      "body": "OpenAI introduced a new autonomous goal feature to the Codex command-line interface (CLI), nicknamed the Ralph Loop internally. The update enables Codex to proactively propose useful work and continue where users left off, using context from projects, connected plugins, and memory.\n\nThe Ralph Loop represents an advancement toward more autonomous AI coding agents. Instead of waiting for explicit instructions, the model now surfaces relevant next steps based on ongoing project context. The feature bridges single-task execution with longer-horizon project management.\n\nCodex CLI updates now support background computer use, allowing agents to operate all apps on a Mac using a cursor, click, and type interface — with multiple agents able to work in parallel without interfering with the user's own workflow.",
+      "published_at": "2026-05-02T19:14:18+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "xAI, '상시 추론' 앞세운 '그록 4.3' 공개...저가 공세에도 '수학·코딩'은 숙제",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210018",
+      "body": "xAI released Grok 4.3, a model emphasizing always-on reasoning capabilities. The release marks xAI's push to differentiate through persistent reasoning rather than batch processing.\n\nGrok 4.3 offers competitive pricing, positioning xAI as a lower-cost alternative to OpenAI and Anthropic for inference-heavy workloads. However, benchmarks reveal continued weaknesses in mathematics and coding tasks compared to frontier models from OpenAI and Anthropic.\n\nThe release comes amid the Musk-OpenAI litigation, where Musk ranked AI companies as Anthropic first, followed by OpenAI and Google — with xAI still trailing significantly. The company continues to scale Colossus, its Memphis data center with over 200,000 GPUs, to support larger model training runs.",
+      "published_at": "2026-05-02T13:23:40+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "구글 'AI 공동 의사' 발표…시뮬레이션 성과는 합격점, 실제 도입은 '신중'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210022",
+      "body": "Google DeepMind announced an AI co-clinician research project designed to support physicians rather than replace them. The initiative presents a triadic care model where doctors, patients, and AI collaborate, with the AI functioning as a team member under medical supervision.\n\nPerformance in Testing: The AI demonstrated strong results in controlled environments. In 98 standardized clinical scenarios, it provided error-free responses in 97 cases and showed higher preference ratings than existing evidence-based tools when tested with internal medicine residents.\n\nCapabilities Demonstrated: Real-time video and voice-based remote consultation simulations; Physical examination assistance (correcting inhaler technique, guiding movement assessment); Patient interaction and education.\n\nAcknowledged Limitations: The system fell short of experienced physician performance across 140 evaluation categories, particularly in identifying red flags and conducting critical physical examinations. DeepMind emphasized that legal and ethical responsibility remains with human practitioners.\n\nSafety Architecture: The system uses a dual-structure design (Planner and Talker) to continuously verify medical safety standards, ground responses in clinical evidence, and include source verification.\n\nCurrent Status: Trials are underway in the US, India, Australia, and Singapore, with plans for gradual clinical implementation focused on responsible AI adoption in healthcare.",
+      "published_at": "2026-05-02T14:03:01+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "메타, 로봇 파운데이션 모델 스타트업 인수...휴머노이드·AGI에 기여",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210021",
+      "body": "Meta announced the acquisition of Assured Robot Intelligence (ARI), a humanoid robot startup focused on developing foundation models for robotic systems. The ARI team, including co-founders Xiaolong Wang and Lerrel Pinto, will join Meta's Superintelligence Lab.\n\nMeta stated it acquired ARI because the team designs robots to understand, predict, and adapt to human behavior in complex, dynamic environments. The acquisition price was not disclosed.\n\nTeam Credentials: Xiaolong Wang co-founded the startup after working as an NVIDIA researcher and UC San Diego associate professor; Lerrel Pinto previously taught at NYU and founded Fauna Robotics, which Amazon acquired in April.\n\nStrategic Vision: Wang stated the goal is implementing physical AGI by training universal physical agents in humanoid form that learn directly from human experience.\n\nCompetitive Landscape: Meta joins Tesla, Google, NVIDIA, Amazon, and OpenAI in pursuing robot foundation model development. The field is intensifying as companies race to build world models and advance toward AGI capabilities.",
+      "published_at": "2026-05-02T12:19:20+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "FCC votes to ban all Chinese labs from certifying electronics sold in the US",
+      "url": "https://www.tomshardware.com/tech-industry/fcc-votes-to-ban-all-chinese-labs-from-certifying-electronics-sold-in-the-us",
+      "body": "The Federal Communications Commission voted unanimously to strip every testing lab in China and Hong Kong of its ability to certify electronics for sale in the U.S. The vote occurred on May 2, 2026.\n\nAbout 75% of all electronics manufactured in America are tested in China, making this a sweeping regulatory action. According to compliance data compiled by MarkReady, 126 of the FCC's 591 globally recognized test labs are located in mainland China or Hong Kong. 50 of those are in Shenzhen alone, and the wider Pearl River Delta corridor accounts for 65% of the Chinese total.\n\nThe shift will have significant economic implications. Basic FCC certification testing runs between $400 and $1,300 at Chinese labs, compared with $3,000 to $4,000 at U.S. equivalents.\n\nThe FCC's proposal is the latest in a series of government actions aimed at reducing U.S. reliance on Chinese technology and mitigating perceived national security risks. It follows years of escalating tensions that have included tariffs, export controls on advanced semiconductors, and restrictions on companies like Huawei.\n\nThis regulatory action will cascade through the semiconductor supply chain, as electronic components and systems requiring FCC certification will need to be re-routed to non-Chinese labs, potentially increasing costs and timelines for consumer electronics and industrial equipment.",
+      "published_at": "2026-05-02",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Cerebras IPO (CBRS): $23B AI Chip Challenger Filing for Nasdaq Listing",
+      "url": "https://tech-insider.org/cerebras-ipo-filing-510m-revenue-openai-deal-23b-valuation-2026",
+      "body": "Cerebras Systems filed its public S-1 with the SEC on April 17, 2026, targeting a mid-May Nasdaq listing under ticker CBRS at a $22 to $25 billion valuation. The listing window is tracking May 2026 as roadshow preparations extend.\n\nCerebras brought in $510 million in revenue in 2025, with a GAAP net income of $237.8 million. The company's recent success is driven by a major deal: Cerebras' computing partnership with OpenAI is worth more than $10 billion.\n\nKey Details: Ticker CBRS on Nasdaq; IPO expected to price at $22-25 billion valuation; Offering targeting approximately $2 billion in proceeds; Morgan Stanley leads the deal, with Citigroup, Barclays, and UBS Investment Bank rounding out the lead book-running managers.\n\nWith $510 million in 2025 revenue, a $10 billion OpenAI contract in hand, and a wafer-scale chip that is 57 times larger than Nvidia's H100, Cerebras is making a bold bet that the AI infrastructure market has room for a second major player.\n\nCerebras raised a $1.1 billion Series G in September 2025 (valuing the company at $8.1 billion), followed by a $1 billion Series H in February 2026 at the current $23 billion mark.",
+      "published_at": "2026-04-30",
+      "source": "Tech Insider",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "AMD unveils full MI400 product lineup, claims MI500 chips will deliver 1,000x increase in AI performance",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance",
+      "body": "AMD unveiled the full MI400 series at CES 2026 on January 5, with CEO Lisa Su presenting five distinct accelerators targeting different segments of the AI and high-performance computing market.\n\nThe Instinct MI455X sits at the top of the lineup as AMD's flagship AI training and inference accelerator, packing 320 billion transistors across 12 TSMC N2 compute chiplets and 3 advanced 3nm chiplets, delivering up to 40 PFLOPS of FP4 performance and 20 PFLOPS at FP8 precision, with 432 GB of HBM4 memory and 19.6 TB/s of memory bandwidth.\n\nThe Instinct MI450 serves as the volume play for large-scale AI deployments, offering the same 432 GB HBM4 capacity and 19.6 TB/s bandwidth as the MI455X but at a lower power envelope.\n\nHelios is AMD's first rack-scale AI infrastructure platform, combining 72 Instinct MI455X GPUs with EPYC Venice CPUs, delivering 2.9 exaFLOPS of FP4 inference performance and 1.4 exaFLOPS of FP8 training performance per rack, with 31 TB of HBM4 memory.\n\nThe company has confirmed the MI400 series for launch in the second half of 2026, with production shipments expected to begin in mid-2026. Analysts at S&P Global Market Intelligence project $7.2 billion in MI400 revenue in 2026, based on an estimated 258,000 units at an average selling price of $30,926.",
+      "published_at": "2026-05-01",
+      "source": "Data Center Dynamics",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "TSMC's Next-Gen CoWoS Roadmap: 14-Reticle Packages and 48x Compute Power Leap by 2029",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmcs-details-next-gen-cowos-roadmap-over-14-reticle-packages-and-48x-leap-in-compute-power-expected-by-2029-massive-size-enables-24-hbm5e-stacks-and-additional-memory-bandwidth-jump",
+      "body": "TSMC is pursuing a strategic surge aimed at doubling CoWoS production annually through the end of 2026, scaling capacity from approximately 35,000 wafers per month in late 2024 to a projected 130,000 wafers per month by the close of 2026.\n\nTSMC has pivoted toward CoWoS-L (LSI Bridge), which uses Local Silicon Interconnect (LSI) bridges to stitch multiple chiplets together. This addresses the limitations of earlier approaches as AI chips like NVIDIA's Blackwell and the upcoming Rubin architectures grew in size and complexity, exceeding the reticle limit.\n\nLooking ahead, TSMC expects to produce 14-reticle and over 14-reticle-sized System-in-Packages (SiPs) with up to 24 HBM5E stacks by 2029, enabling a 48x leap in compute power compared to current configurations.\n\nDespite the expansion plans, CoWoS continues to increase at a stunning 80% compound annual growth rate. TSMC executives stated that CoWoS capacity is very tight and remains sold out through 2025 and into 2026. NVIDIA has reserved the majority of TSMC's leading CoWoS technology.",
+      "published_at": "2026-05-01",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Marvell Technology: Custom Silicon Business Scales Up for AI Era",
+      "url": "https://finance.yahoo.com/news/mrvls-custom-silicon-business-scales-135700350.html",
+      "body": "Marvell Technology is experiencing rapid growth in its custom AI silicon business, with its data center revenue reaching a record $6.1 billion in fiscal year ending February 2026. The company runs 18 cloud-provider design wins, building chips for Amazon (Trainium processors), Microsoft (Maia AI accelerator), and Meta.\n\nMarvell recently secured a portion of next-generation TPU work from Alphabet (Google), ending Broadcom's perceived monopoly on Google's flagship AI silicon program. Google is discussing two new chips with Marvell for AI inference — one being a memory processing unit designed to work alongside Google's existing TPUs and the other being a new TPU built specifically for inference.\n\nNVIDIA invested $2 billion in Marvell at the end of March, partnering through NVLink Fusion to integrate Marvell's custom chips and networking with Nvidia's interconnect fabric, positioning Marvell at the intersection of both the GPU and ASIC ecosystems.\n\nTrendForce projects custom chip sales will increase 45% in 2026, compared with 16% growth in GPU shipments. Counterpoint Research projects Broadcom will hold roughly 60% of the custom AI accelerator market by 2027, with Marvell at approximately 25%.",
+      "published_at": "2026-04-30",
+      "source": "Yahoo Finance / Nasdaq",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Tenstorrent's Galaxy Blackhole AI servers are finally out",
+      "url": "https://www.theregister.com/2026/04/28/tenstorrent_galaxy_blackhole_ai_servers_ga",
+      "body": "Tenstorrent announced general availability of its Galaxy Blackhole AI compute platform on Tuesday. Each 6U system contains 32 Blackhole accelerators interconnected through a 100 Tbps Ethernet mesh. The company reports each Galaxy system delivers 1 TB of GDDR6 memory, 16 TB/s memory bandwidth, and 23 petaFLOPS of FP8 performance for $110,000.\n\nIndividual systems cost significantly less than Nvidia's comparable eight-way DGX boxes. The mesh network extends across multiple nodes, supporting larger models and higher throughput through tensor and pipeline parallelism adjustments.\n\nA base Galaxy Supercluster with four Blackhole systems costs $440,000, with architecture supporting up to 144 nodes containing over 4,000 chips total.\n\nThe software stack has improved substantially since the company's earlier reviews. The startup claims its four-node superclusters can process a 100,000-token prompt in under four seconds for DeepSeek V3, with throughput reaching 300 tokens per second per user and expectations to increase that to 350 through software refinements.\n\nTenstorrent states the platform scales effectively from batch eight to batch 64. Beyond language models, the company positions Galaxy Blackhole for video generation, claiming four-node superclusters can generate 720p video faster than real-time.\n\nThe startup reports ninety percent of models from Hugging Face just run on Tenstorrent and is developing support for frontier models from companies including Moonshot AI. Hardware adoption is occurring among datacenter and colocation providers including Cirrascale, Equinix, and Japan's ai&.",
+      "published_at": "2026-04-28",
+      "source": "The Register",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "AI-Driven Chip Substrate Shortage Prompts Samsung Electro-Mechanics Price Hike",
+      "url": "https://en.sedaily.com/finance/2026/04/30/ai-driven-chip-substrate-shortage-prompts-samsung-electro",
+      "body": "The semiconductor substrate market has entered an unprecedented shortage phase amid the AI data center boom, with demand for Samsung Electro-Mechanics' flip-chip ball grid array (FC-BGA) continuing to outstrip production capacity by more than 50%.\n\nSamsung Electro-Mechanics announced price increases for its FC-BGA substrates following sustained demand from AI server component manufacturers. The company's substrate products are used in GPU packages, AI accelerators, and high-performance computing devices.\n\nThe shortage is structurally driven by the rapid expansion of AI data centers requiring high-end packaging substrates. As hyperscalers accelerate capital expenditure — with the top four committing $650-725 billion collectively in 2026 — substrate producers cannot expand capacity fast enough to meet demand.\n\nIndustry analysts note that substrate lead times have extended to 18-24 months for advanced FC-BGA products, giving Samsung Electro-Mechanics and Ibiden significant pricing power. The price hikes are expected to cascade through the AI server supply chain.",
+      "published_at": "2026-04-30",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "South Korea's Export Surge Continues as AI Boom Fuels Chip Sales",
+      "url": "https://theedgemalaysia.com/node/802063",
+      "body": "South Korea's exports reached $85.89 billion in April, a 48% increase compared to the same month last year. The country's exports surpassed the $80 billion mark in April for the second consecutive month, driven by demand for AI server semiconductors, high-bandwidth memory, enterprise SSDs, and data center components.\n\nChip exports reached $31.9 billion, surging 173.5 percent from a year earlier and setting the highest-ever figure for any April. This increase was driven by sustained demand for artificial intelligence semiconductors and continued growth in memory chip prices.\n\nSamsung Electronics reported that its semiconductor division earned 81.7 trillion won ($67 billion) in revenues and 53.7 trillion won ($44 billion) in operating profit in Q1 2026. The company attributed these results to its memory business, higher-value AI products demand, and elevated prices amid limited supply. SK hynix, a key supplier of HBM memory for AI accelerators, reported revenues of 52.58 trillion won ($43 billion), operating profit of 37.61 trillion won ($31 billion), and an operating margin of 72% in Q1.",
+      "published_at": "2026-05-01",
+      "source": "The Edge Malaysia (Bloomberg)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "1X, 미국 공장 가동...연내 가정용 휴머노이드 1만대 생산",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210037",
+      "body": "Norwegian robotics startup 1X Technology opened a new manufacturing facility in Hayward, California, announcing plans to produce up to 10,000 household humanoid robots this year. The 58,000 square-foot factory represents the company's push to compete globally in the robotics market.\n\nProduction Goals: Up to 10,000 units in 2026; 100,000 annually starting in 2027.\n\nFuture Expansion: Plans to build a larger facility in San Carlos, California.\n\nProduct Details: The Neo robot features a soft, human-like appearance and can perform household tasks like laundry and cleaning.\n\nCompetitive Context: Chinese companies Agibot and Unitree respectively shipped over 5,000 humanoid robots last year, securing the top two positions. By contrast, Tesla — the leading Western company — produced only approximately 150 units.\n\nManufacturing Strategy: 1X employs vertical integration, manufacturing critical components including motors, electronics, batteries, and copper coils in-house. The Neo incorporates Nvidia's Thor chip for computation and undergoes quality testing through movement validation procedures.\n\nLong-term Vision: The company ultimately aims to deploy humanoid robots within production processes themselves, though this capability has not yet been achieved.",
+      "published_at": "2026-05-03T12:43:02+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "중국 전기차 시장, 가격 경쟁 넘어 'AI 경쟁'으로 확대",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210036",
+      "body": "China's electric vehicle market has evolved beyond price competition into full-scale artificial intelligence competition. Major EV manufacturers including BYD, Xiaomi, and Huawei's Aito brand are now competing on AI-powered features including autonomous driving, intelligent voice assistants, and in-car AI applications.\n\nThe shift represents a new front in the AI arms race, with Chinese automakers embedding large language models and multimodal AI into vehicle operating systems. This is driving demand for automotive AI chips, with Huawei's automotive division, Horizon Robotics, and Mobileye competing for chip supply contracts.\n\nThe competition mirrors broader trends in consumer AI, where differentiation has shifted from hardware specifications to AI capability and user experience. Chinese EV companies are investing billions in AI development to establish competitive advantages both domestically and in export markets.",
+      "published_at": "2026-05-03T12:08:43+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"비전은 알트먼, 질서는 프라이어\"...IPO 앞둔 오픈AI CFO가 부각되는 이유",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210035",
+      "body": "As OpenAI approaches its IPO, CFO Sarah Friar is emerging as the key figure balancing Sam Altman's visionary leadership with operational discipline. The article examines why Friar has become increasingly prominent as the company transitions from a research organization to a public company.\n\nFriar, who previously served as CEO of Nextdoor, brings enterprise software and capital markets expertise that complements Altman's product vision. Her role has expanded to include investor relations, financial governance, and strategic partnerships with hyperscalers.\n\nThe article notes the parallel between OpenAI's situation and Cerebras Systems, which is also targeting a mid-May IPO at a $23 billion valuation under CBRS ticker. Both companies represent the maturing of the AI infrastructure market from venture-funded bets to public-market-ready businesses.\n\nOpenAI's financial discipline under Friar is seen as critical for sustaining the company's $10+ billion annual compute spending while pursuing the revenue growth needed to justify a valuation expected to exceed $100 billion at IPO.",
+      "published_at": "2026-05-03T11:02:31+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "달파 \"에이전트로 마케팅 효율 극대화… 커머스 운영 패러다임 바꾼다\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210029",
+      "body": "Korean AI startup DALFA announced it is deploying AI agents to maximize marketing efficiency for e-commerce operators, positioning itself as changing the paradigm of commerce operations. The company demonstrated its multi-agent system that autonomously handles product listing optimization, customer targeting, and campaign management.\n\nDALFA's platform uses LLM-based agents to analyze real-time sales data and customer behavior, automatically adjusting marketing strategies to improve conversion rates. The company claims 3x efficiency improvement in marketing operations compared to manual processes.\n\nThe announcement reflects growing adoption of agentic AI in Korean enterprise markets, with the company targeting SME operators on major Korean e-commerce platforms including Naver Shopping and Coupang.",
+      "published_at": "2026-05-02T19:44:18+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Silicon Diversification: How a Growing Choice of Chips Is Reshaping Data Center Infrastructure",
+      "url": "https://www.datacenterdynamics.com/en/opinions/silicon-diversification-how-a-growing-choice-of-chips-is-reshaping-data-center-infrastructure",
+      "body": "The piece examines why data center operators should evaluate power and cooling infrastructure as the range of AI-capable chips continues to expand. Silicon diversification — the proliferation of purpose-built AI chips from AMD, Tenstorrent, Rebellions, FuriosaAI, and custom hyperscaler ASICs — is creating new infrastructure planning challenges.\n\nThe article argues that operators can no longer plan data centers around a single chip architecture. Different AI accelerators have dramatically different thermal design power (TDP) profiles: NVIDIA Blackwell at 1,200W per GPU, AMD MI455X at similar range, while Tenstorrent Galaxy systems use air cooling at much lower per-chip power.\n\nPower and cooling infrastructure decisions made today will determine which silicon vendors can be deployed in 5 years. Operators that invest only in air-cooled infrastructure risk being locked out of high-density AI accelerators, while those deploying liquid cooling now gain flexibility to adopt emerging architectures.\n\nThe piece calls for chip-agnostic infrastructure planning that accounts for diverse power ranges, cooling methods, and rack densities — a practice gaining traction among hyperscalers but still rare among co-location and enterprise operators.",
+      "published_at": "2026-05-02T07:00:00+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Korea Semiconductor Association Expands AI Innovation Center in Silicon Valley",
+      "url": "https://en.sedaily.com/business/2026/04/29/korea-semiconductor-association-expands-ai-innovation",
+      "body": "The Korea Semiconductor Industry Association expanded its Korea-U.S. AI Semiconductor Innovation Center in Silicon Valley, doubling tenants to 10 as Korean fabless firms posted $36 million in U.S. sales last year.\n\nThe expansion reflects the Korean government's K-Nvidia initiative, announced in March 2026, which channels roughly 50 trillion won ($33 billion) into AI and semiconductors over five years, with about 10 trillion won deploying in 2026 alone.\n\nThe Silicon Valley center serves as a bridge between Korean AI chip startups — including Rebellions, FuriosaAI, HyperAccel, and DeepX — and U.S. hyperscaler customers. Tenants receive shared lab space, go-to-market support, and introductions to key procurement decision-makers at major cloud operators.\n\nThe association aims to grow U.S. sales of Korean AI chips to $500 million by 2028, targeting inference chip deployments at AWS, Google Cloud, and Microsoft Azure.",
+      "published_at": "2026-04-29",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "중국 법원, AI 도입 이유로 직원 해고한 기업에 '위법' 판결",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210032",
+      "body": "A Chinese court has ruled that a company that laid off employees citing AI adoption as the reason acted unlawfully. The ruling sets an important precedent for how AI-driven workforce restructuring is treated under Chinese labor law.\n\nThe court found that the company failed to follow proper procedures for collective dismissal, which require advance notice, consultation with employee representatives, and reporting to labor authorities. Simply citing AI efficiency gains as justification for terminations does not satisfy these procedural requirements.\n\nThe ruling comes as Chinese enterprises aggressively adopt AI tools, with Meta, Oracle, and others announcing significant AI-driven workforce reductions globally. Chinese labor law experts say the ruling signals that courts will scrutinize AI-related layoffs carefully, requiring companies to demonstrate both genuine operational necessity and proper procedural compliance.",
+      "published_at": "2026-05-03T10:59:19+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "LG Uplus, FuriosaAI to build on-premise sovereign AI appliance",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20260308/lg-uplus-furiosaai-to-build-on-premise-sovereign-ai-appliance",
+      "body": "LG Uplus and FuriosaAI signed a memorandum of understanding during Mobile World Congress 2026 in Barcelona to jointly build a Sovereign AI Appliance, designed to keep sensitive corporate data within company infrastructure.\n\nThe appliance integrates LG Uplus's enterprise AI platform, LG AI Research's large language model EXAONE 4.0, and FuriosaAI's second-generation RNGD neural processing unit (NPU), known for its high efficiency and low power consumption at a 180W power profile.\n\nThe two companies expect the Sovereign AI Appliance will allow secure adoption in industries with limited cloud access, such as defense, healthcare, finance, manufacturing and research.\n\nFuriosaAI is simultaneously expanding globally, having established a European flagship office in Portugal. The RNGD chip is expected to ship to LG by year-end 2026, with the company targeting 20,000 NPU deliveries to global clients in 2026.",
+      "published_at": "2026-03-08",
+      "source": "Korea Times",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "FuriosaAI"
+    }
+  ]
+}

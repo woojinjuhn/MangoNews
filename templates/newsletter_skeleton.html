@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light only" />
+  <meta name="supported-color-schemes" content="light only" />
+  <title>Mango Newsletter · No. {{ISSUE_NUMBER_PADDED}}</title>
+  <!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+  <style type="text/css">
+    * {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    table {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    img {
+      display: block;
+      border: 0;
+      outline: none;
+      text-decoration: none;
+      height: auto;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','Noto Sans KR',Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #4C4A49;
+    }
+    a {
+      text-decoration: none;
+    }
+    @media screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+      }
+      .px-outer {
+        padding: 12px !important;
+      }
+      .px-card {
+        padding: 18px !important;
+      }
+      .stack {
+        display: block !important;
+        width: 100% !important;
+      }
+      .stack-right {
+        text-align: left !important;
+        margin-top: 12px;
+      }
+      .h-title {
+        font-size: 20px !important;
+        line-height: 28px !important;
+      }
+      .article-title {
+        font-size: 17px !important;
+        line-height: 24px !important;
+      }
+      .section-head {
+        font-size: 22px !important;
+        line-height: 26px !important;
+      }
+      .event-date {
+        display: block !important;
+        margin-bottom: 8px;
+      }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background-color:#F1F1F5;">
+  <div style="display:none;visibility:hidden;opacity:0;color:transparent;height:0;width:0;font-size:1px;line-height:1px;overflow:hidden;max-height:0;max-width:0;mso-hide:all;">
+{{LEAD_PREVIEW_TEXT}}
+  </div>
+
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#F1F1F5" style="width:100%;background-color:#F1F1F5;">
+    <tr>
+      <td style="padding:24px 16px;" class="px-outer">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="640" style="width:640px;max-width:640px;margin:0 auto;background-color:#FFFFFF;" class="container">
+          <!-- Header -->
+          <tr>
+            <td style="padding:24px 28px;border-bottom:none;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;">
+                <tr>
+                  <td width="280" style="padding-right:20px;vertical-align:top;" class="stack">
+                    {{LOGO_IMG_TAG}}
+                  </td>
+                  <td style="text-align:right;vertical-align:top;" class="stack-right">
+                    <div style="font-size:13px;color:#4C4A49;margin-bottom:8px;">{{ISSUE_DATE_KO}} ({{WEEKDAY_KO}})</div>
+                    <div style="font-size:14px;font-weight:bold;color:#15182D;">No. {{ISSUE_NUMBER_PADDED}}</div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Mango divider -->
+          <tr>
+            <td style="height:3px;background-color:#FFB81C;"></td>
+          </tr>
+
+{{HEADLINE_SECTION}}
+
+          <!-- TODAY'S ARTICLES section -->
+          <tr>
+            <td style="padding:24px 28px 0 28px;">
+              <div style="font-size:28px;line-height:32px;font-weight:bold;color:#15182D;text-transform:uppercase;letter-spacing:2px;font-family:'Rift','Bebas Neue','Oswald','Impact','Arial Narrow',Helvetica,Arial,sans-serif;" class="section-head">TODAY'S ARTICLES</div>
+            </td>
+          </tr>
+
+{{CATEGORY_SECTIONS}}
+
+{{COMPETITOR_SECTION}}
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color:#15182D;padding:24px 28px 28px 28px;text-align:center;">
+              <div style="font-size:12px;font-weight:bold;color:#D8D9E4;letter-spacing:1px;margin-bottom:16px;">MANGO NEWSLETTER · No. {{ISSUE_NUMBER_PADDED}}</div>
+              <div style="font-size:11px;color:#FFB81C;margin-bottom:16px;">
+                <a href="mailto:woojin.juhn@mangoboost.io" style="color:#FFB81C;text-decoration:none;">피드백 보내기</a> ·
+                <a href="#" style="color:#FFB81C;text-decoration:none;">지난 호 아카이브</a> ·
+                <a href="#" style="color:#FFB81C;text-decoration:none;">구독 설정</a>
+              </div>
+              <div style="font-size:10px;color:#D8D9E4;line-height:18px;">
+                본 뉴스레터는 MangoBoost 임직원 대상으로 매 영업일 오전 발송됩니다.<br/>
+                © {{ISSUE_YEAR}} MangoBoost, Inc. All rights reserved.
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,381 @@
+{
+  "collection_date_kst": "2026-05-13",
+  "run_summary": {
+    "total": 32,
+    "by_topic": {
+      "ai": 10,
+      "semiconductor": 8,
+      "datacenter": 7,
+      "competitor": 7
+    },
+    "by_competitor": {
+      "NVIDIA": 3,
+      "Samsung (strike/labor)": 3,
+      "Rebellions": 1,
+      "FriendliAI": 1,
+      "Cerebras": 1,
+      "Tenstorrent": 0,
+      "Moreh": 0,
+      "FuriosaAI": 0,
+      "HyperAccel": 0,
+      "Marvell": 0,
+      "Napatech": 0
+    },
+    "competitor_tagged_total": 9,
+    "sources_consulted": 28,
+    "skipped_paywalled": 4,
+    "notes": "Last issue was 2026-05-12; acceptance window is 2026-05-13 only. DCD body fetches still return 403 (used search summaries for DCD items). CNBC direct fetch 403. Tom's Hardware article bodies not fully extractable (JS-rendered). NetworkWorld RSS 404 (known). HPC Wire RSS 403 (known). Wired RSS blocked (known). Naver News section/105 JS-rendered (known). SemiAnalysis RSS shows only Sept 2025 articles (no new May 13 content). Rebellions May 13 news: no new announcement beyond ongoing IPO/funding (March $400M pre-IPO still most recent). FuriosaAI/Moreh/HyperAccel: no new May 13 specific articles found. Napatech: no May 13 announcement. Tenstorrent: no May 13 specific news. Major stories of the day: (1) Samsung labor talks final breakdown / strike confirmed May 21, (2) Cerebras pricing IPO tonight for Nasdaq debut May 14, (3) Trump China visit with Musk/Cook/Qualcomm but without Jensen Huang, (4) OpenAI MRC networking protocol open-sourced, (5) FriendliAI SF office expansion, (6) Applied Materials-TSMC EPIC Center partnership, (7) Google+SpaceX orbital datacenter talks, (8) Server DRAM share to hit 55% by 2028, (9) Samsung CXL 3.1 Q4 2026 mass production plan."
+  },
+  "articles": [
+    {
+      "title": "Samsung Electronics labor talks break down, dispute spirals towards general strike",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260513/samsung-electronics-labor-talks-break-down-dispute-spirals-towards-general-strike",
+      "body": "Wage negotiations between Samsung Electronics management and its labor unions collapsed, with an impending 18-day strike set to commence May 21 involving over 40,000 workers, predominantly from the semiconductor division.\n\nThe two-day mediation session arranged by the National Labor Relations Commission concluded without resolution around 3 a.m. Union leader Choi Seung-ho stated that 'the two sides had failed to narrow their differences' and negotiations 'regressed further.'\n\nThe core dispute centers on bonus structures. Unions seek institutionalized bonuses guaranteeing 15 percent of operating profit allocation, with potential share compensation if full allocation proves unfeasible. Management proposes distributing 10 percent of operating profit without contractual commitment and opposes removing bonus caps, citing concerns about investment momentum.\n\nIndustry analysts project daily losses around 1 trillion won, potentially reaching 30 trillion won considering extended consequences. The company filed an injunction with Suwon District Court to prevent the strike, with a ruling expected before May 21.\n\nUnder Korean labor law, courts may restrict strikes affecting equipment integrity or facility occupation. A precedent case involving Samsung Biologics resulted in partial restrictions rather than outright prohibition. Government intervention through emergency mediation remains possible but carries political risks within organized labor communities.",
+      "published_at": "2026-05-13T06:52:00+09:00",
+      "source": "Korea Times",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "정부 중재에도 삼성전자 노사 사후조정 최종 결렬",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56502",
+      "body": "삼성전자 노사가 정부의 사후조정에도 합의에 이르지 못했다. 중앙노동위원회는 5월 11일부터 진행된 2차 사후조정이 최종 결렬됐다고 5월 13일 발표했다.\n\n노조 위원장 최승호는 '노사 간의 차이가 좁혀지지 않아 조정을 신청했지만 조정안이 오히려 퇴보했다'고 밝혔다. 노조는 상한선 폐지, 투명성, 제도화를 요구했지만 조정안이 이를 반영하지 못했다고 지적했다.\n\n회사 측은 특별성과급 등을 포함한 보상 패키지를 제시했으나, 노조는 반도체 부문 특별성과급이 SK하이닉스 실적을 초과해야 지급된다는 조건이 사실상 불가능한 조건이라며 거부했다.\n\n협상 결렬로 5월 21일부터 6월 7일까지 18일간 총파업이 예고됐다. 현재 조합원 73,000명 중 약 41,000명이 파업 참여 의사를 밝혔으며, 최종 참여자는 50,000명을 넘을 것으로 예상된다.\n\nJP모건은 파업이 진행될 경우 삼성전자의 연간 영업이익이 43조원 감소할 수 있다고 추정했다. 정부의 긴급조정권 발동 가능성도 있지만 정치적 부담이 따른다.",
+      "published_at": "2026-05-13T08:43:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "삼성전자 노조 사후조정 결렬 선언…총파업 시계 다시 간다",
+      "url": "https://www.etnews.com/20260513000001",
+      "body": "삼성전자 노사가 정부의 사후조정에도 합의를 이루지 못하면서 5월 21일부터 18일간의 총파업이 사실상 확정됐다. 중앙노동위원회는 5월 11일부터 진행된 2차 사후조정이 5월 13일 새벽 2시 50분 최종 결렬됐다고 밝혔다.\n\n최승호 삼성전자 최대 노조 위원장은 '노조의 요구는 상한선 폐지, 투명성, 제도화인데 조정안에서 전 사업부에 대한 보장이 없다'며 일회성 조치는 수용할 수 없다고 강조했다.\n\n노조는 협상 중단을 선언하며 추가 협상은 없을 것임을 시사했다. 협상력이 소진된 상태에서 5월 21일 시작되는 총파업이 불가피해 보인다. JP모건은 파업이 지속될 경우 43조원의 손실이 발생할 수 있다고 추산했다. 노조는 50,000명 이상의 참여를 예상하고 있다.\n\n최 위원장은 이번 파업이 합법적 노동행위임을 강조하며 지도부가 파업에 직접 참가하겠다고 밝혔다.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "전자신문 (ETNews)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung labor negotiations collapse; strike looms",
+      "url": "https://www.koreaherald.com/article/10736594",
+      "body": "The labor union and management at Samsung Electronics failed to narrow their differences over performance-based bonuses on the second and final day of government-led mediation talks that ended early Wednesday, raising concerns that the union may go ahead with a general strike later this month.\n\nThe talks, seen as a last-ditch effort to avert the general strike, began at 10 a.m. Tuesday at the National Labor Relations Commission office in the administrative city of Sejong, but both sides failed to reach a consensus despite nearly 17 hours of negotiations.\n\nChoi Seung-ho, head of Samsung Electronics' largest labor union, stated after the meeting: 'Because the differences between the labor union and management did not narrow, we requested mediation and waited for nearly 12 hours but the proposal only worsened.' He indicated the union declared the mediation talks have fallen through.\n\nSamsung's labor union is demanding performance-based bonuses equivalent to 15 percent of operating profit, along with the removal of the payout cap and the formal institutionalization of the bonus system. The union earlier announced plans to stage a general strike starting May 21 if its demands are not met.\n\nChoi stated that approximately 41,000 unionized workers have expressed their intention to participate in the general strike, with potential numbers exceeding 50,000.\n\nThe labor dispute at Samsung Electronics, the world's largest memory chip maker and South Korea's most valuable company, has raised concerns that a walkout could disrupt production and affect the semiconductor supply chain and broader economy.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Cerebras' $48 Billion IPO Tests the Market's Inference Bet",
+      "url": "https://www.investing.com/analysis/cerebras-48-billion-ipo-tests-the-markets-inference-bet-200680080",
+      "body": "Cerebras Systems' initial public offering was priced at $150-$160 per share on May 13, 2026, with the company set to begin Nasdaq trading on May 14 under ticker CBRS. The company raised approximately $4.8 billion with a fully diluted valuation reaching $48.8 billion.\n\nThe pricing represented a significant upward revision from the original range of $115-$125, with demand exceeding 20 times the available shares. The company's WSE-3 (Wafer Scale Engine 3) architecture targets AI inference workloads, positioning it as an alternative to GPU-based solutions.\n\nOpenAI committed to a 750-megawatt deal valued at over $20 billion, while AWS announced deployment plans for Cerebras systems in Amazon data centers. The company achieved $510 million in 2025 revenue (up 76% year-over-year) with a 47% net margin, though GAAP operating losses remained.\n\nThe analysis identifies three structural risks: heavy customer concentration around OpenAI, dependence on TSMC for manufacturing with no long-term supply commitments, and potential competitive pressure from Nvidia's continued R&D investments and recent acquisitions.\n\nThe valuation reflects an approximately 51x trailing revenue multiple, pricing in sustained growth execution and expanded margins as cloud services revenue increases.",
+      "published_at": "2026-05-11T00:00:00+09:00",
+      "source": "Investing.com",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "Jensen Huang skips Trump's China business delegation",
+      "url": "https://thenextweb.com/news/jensen-huang-skips-trumps-china-business-delegation",
+      "body": "NVIDIA CEO Jensen Huang will not join President Donald Trump's business delegation to China this week, according to Reuters reporting. More than a dozen U.S. executives are traveling with the president, including Apple's Tim Cook and Tesla's Elon Musk, who are scheduled to arrive in Beijing on May 13 for formal state meetings on May 14-15.\n\nThe White House has focused the delegation's agenda on agriculture, manufacturing, and commercial aviation—particularly Boeing aircraft orders—rather than AI chip-export disputes that have dominated U.S.-China technology policy for three years.\n\nHuang has been highly visible alongside the Trump administration over the past year, attending multiple events and accompanying the president on overseas trips to the Gulf region. His exclusion from this delegation is being interpreted as deliberate rather than accidental.\n\nThe central point of friction remains chip exports. NVIDIA's most advanced GPUs face U.S. export restrictions for Chinese sales. Though the company has developed compliant variants, it continues lobbying for greater integration between national security and commercial interests. Trump and Huang met in March to discuss export limits.\n\nWall Street analysts suggest Huang's absence reduces the likelihood of meaningful U.S.-China announcements regarding AI chip access during the trip. NVIDIA shares traded modestly higher Monday, with analysts divided on strategic implications.\n\nChina remains critical to NVIDIA despite controls, with data-center revenue continuing to grow through regulated H20-class components.\n\nCook and Musk's inclusion reflects administration preference for major U.S. consumer electronics and EV exposure paired with Chinese manufacturing and consumption. Apple's iPhone supply chain remains heavily China-centered, while Tesla operates its Shanghai gigafactory at significant scale.\n\nBoeing's delegation participation suggests potential commercial aircraft order announcements during the visit.",
+      "published_at": "2026-05-12T08:56:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "OpenAI, Microsoft And Friends Build A Better, More Scalable Ethernet",
+      "url": "https://www.nextplatform.com/connect/2026/05/12/openai-microsoft-and-friends-build-a-better-more-scalable-ethernet/5239078",
+      "body": "A consortium of major technology companies has developed Multipath Reliable Connection (MRC), a new networking protocol designed to improve scalability for AI cluster infrastructure. The collaboration involves OpenAI, Microsoft, Broadcom, AMD, and Nvidia, with the goal of creating more efficient alternatives to traditional high-bandwidth networking approaches.\n\nThe MRC protocol represents an evolution of existing RDMA over Converged Ethernet (RoCE) technology. Rather than pursuing ever-higher port bandwidth, the new approach distributes aggregate switch bandwidth across more numerous, lower-bandwidth connections. This strategy increases network radix—the number of links between devices—while reducing latency and costs.\n\nAccording to the technical approach, the protocol achieves 'essentially no congestion in the core of the network' through adaptive packet spraying load-balancing. The system supports eight independent Clos topology data planes, providing multiple paths between any two endpoints.\n\nThe architecture enables significant scaling improvements. A two-tier MRC network can connect 131,072 compute engines with only three hops maximum between any two devices, compared to traditional three-tier networks supporting 65,536 GPUs with up to seven hops. This improvement requires only 20% more switches for double the compute capacity.\n\nThe MRC protocol has been tested at Oracle's Stargate datacenter in Abilene, Texas and Microsoft's Azure AI facility in Fairwater, Wisconsin. Implementation includes Nvidia ConnectX-8 SmartNICs, AMD DPUs, and Broadcom Thor Ultra SmartNICs, with routing implemented on Nvidia Spectrum switches and Arista Networks infrastructure.",
+      "published_at": "2026-05-12T18:52:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "OpenAI built a networking protocol with AMD, Broadcom, Intel, Microsoft, and NVIDIA to fix AI supercomputer bottlenecks",
+      "url": "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/",
+      "body": "OpenAI has partnered with AMD, Broadcom, Intel, Microsoft, and NVIDIA to create MRC (Multipath Reliable Connection), a new network protocol designed to enhance data transfers between GPUs in large AI supercomputers.\n\nThe protocol makes transfers 'faster, more predictable, and more resilient' by distributing packets across hundreds of simultaneous network paths rather than single routes. This approach reduces network congestion at core levels.\n\nWhen network failures occur, MRC detects and reroutes around problems within microseconds—significantly faster than conventional networks, which require 'seconds or even tens of seconds' to stabilize.\n\nThe system enables training to continue through events that previously caused disruptions. Its multi-plane design can connect over 100,000 GPUs using only two Ethernet switch tiers, compared to three or four tiers in conventional 800 Gb/s networks. This reduces power consumption, component costs, and overall expenses.\n\nMRC is already deployed across OpenAI's largest NVIDIA GB200 supercomputers, including systems in Texas and Microsoft's Fairwater installations. During recent frontier model training, OpenAI rebooted tier-1 switches without coordinating with training teams—something previously impossible.\n\nThe MRC specification was published through the Open Compute Project alongside a research paper, with all contributing companies releasing supporting documentation.",
+      "published_at": "2026-05-06T00:00:00+09:00",
+      "source": "The Decoder",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "\"2028년 서버 D램 비중 55%\"...AI가 D램 흡수",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56496",
+      "body": "시장조사업체 시그마인텔에 따르면 AI 서버 D램 수요가 2028년까지 전체 D램 소비의 50~55%를 차지하게 될 것으로 전망됐다. 이는 2025년 24%에서 두 배 이상 증가한 수치다.\n\n이러한 성장은 인공지능 연산 인프라 요구사항 확대에서 비롯됐다. 시그마인텔은 AI 연산 성장률이 향후 3~5년간 둔화될 수 있지만, 양자컴퓨팅 등 차세대 기술이 성숙할 때까지 절대적 수요는 계속 증가할 것이라고 밝혔다.\n\n글로벌 AI 서버 출하량은 올해 51.3% 증가해 370만 대에 달할 것으로 예상되며, 2027~2028년까지 두 자릿수 성장이 지속돼 2028년에는 약 500만 대에 이를 전망이다.\n\n서버당 메모리 용량도 확대되고 있다. 서버 아키텍처가 다중 CPU 구성에서 CPU, GPU, NPU를 결합한 이기종 설계로 진화하면서 칩 간 효율적인 데이터 이동과 처리를 위해 더 많은 D램 용량이 필요해지고 있다.\n\n반면 이러한 변화는 모바일 시장에 도전을 안겨주고 있다. 시그마인텔은 스마트폰 D램 수요 비중이 2024년 43%에서 2027년 23%로 감소할 것으로 전망했다.",
+      "published_at": "2026-05-13T08:45:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Applied Materials and TSMC Partner at the EPIC Center to Accelerate AI Scaling",
+      "url": "https://www.globenewswire.com/news-release/2026/05/11/3291946/0/en/Applied-Materials-and-TSMC-Partner-at-the-EPIC-Center-to-Accelerate-AI-Scaling.html",
+      "body": "Applied Materials and TSMC announced a new innovation partnership focused on developing semiconductor technologies for the next generation of AI applications. The companies will collaborate at Applied's EPIC Center in Silicon Valley, working together on materials engineering, equipment innovation, and process integration.\n\nGary Dickerson, President and CEO of Applied Materials, stated: 'By bringing our teams together at the EPIC Center, we are strengthening that partnership and accelerating the development of technologies.'\n\nThe partnership builds on over 30 years of collaboration between the two organizations. Key focus areas include process technologies for power and performance improvements in advanced logic nodes, new materials and manufacturing equipment for complex 3D transistor structures, and advanced process integration approaches to enhance yield and reliability.\n\nThe EPIC Center represents a $5 billion U.S. investment in advanced semiconductor equipment research and development, designed to reduce commercialization timelines from early-stage research to full-scale manufacturing. The facility is expected to be operationally ready in 2026.\n\nDr. Y.J. Mii of TSMC noted: 'Applied Materials' EPIC Center provides an ideal environment to accelerate equipment and process readiness for next-generation technologies.'\n\nAs a founding partner of the EPIC Center, TSMC gains earlier access to Applied's innovation teams and next-generation equipment, helping accelerate the path from technology development to high-volume manufacturing. Other founding partners include Samsung Electronics, SK Hynix, and Micron.",
+      "published_at": "2026-05-11T09:00:00-04:00",
+      "source": "GlobeNewswire",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "어플라이드-TSMC, 에픽 센터 협력 체결",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56414",
+      "body": "어플라이드 머티어리얼즈와 TSMC가 에너지 효율적 반도체 성능 구현에 초점을 맞춘 새로운 협력을 발표했다. 두 회사는 어플라이드의 EPIC(에너지·성능 개선 센터) 시설에서 협력하여 AI 및 고성능 컴퓨팅 수요에 대응하는 첨단 반도체 소형화의 핵심 과제를 해결해 나갈 계획이다.\n\n협력 범위는 반도체 재료 엔지니어링, 장비 혁신, 공정 통합 기술의 공동 개발을 포함하며, 복잡한 3D 트랜지스터 및 인터커넥트 구조를 정밀하게 형성하기 위한 새로운 재료와 차세대 제조 장비도 도입할 예정이다.\n\n이 협력은 또한 첨단 로직 반도체 제조 전반에 걸쳐 전력, 성능, 면적(PPA) 지표를 지속적으로 개선하는 공정 기술을 개발하고, 수율 관리, 변동성 제어, 신뢰성 혁신에 집중한다.\n\n5억 달러(약 6,900억 원) 규모의 R&D 시설인 EPIC 센터는 2026년 말 개소 예정이며, 삼성전자, SK하이닉스, 마이크론이 투자사로 참여하고 있다. 목표는 반도체 기업의 연구에서 대량생산까지 상업화 타임라인을 크게 단축하는 것이다.",
+      "published_at": "2026-05-12T19:26:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "TSMC allocates $20 billion to Arizona expansion — project faces water and labor shortages, complicated by visa rules",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-allocates-usd20-billion-to-arizona-expansion-project-faces-water-and-labor-shortages-complicated-by-visa-rules",
+      "body": "TSMC is allocating $20 billion to its Arizona expansion project but continues to face multiple structural challenges. The Arizona site has turned a profit of NT$16.14 billion (approximately $514 million) in its first full year of mass production, exceeding expectations.\n\nHowever, the project faces four key ongoing challenges. Water shortage remains a significant concern, with Arizona's dry climate making it difficult to secure sufficient water resources for chip manufacturing operations. The company is working with Arizona state government on water recycling and treatment facilities.\n\nLabor shortages persist as more than 1,000 Taiwanese engineers sent to support Arizona operations on three-year assignments are approaching the end of their contracts. TSMC faces difficulty finding local manufacturing talent to replace them, and visa rules complicate extensions for overseas workers.\n\nPower infrastructure challenges are also being addressed as the facility scales up production capacity to serve AI chip demand from major customers.\n\nDespite these hurdles, TSMC's Arizona Fab 21 reached profitability in its first operational year and is on track to expand with additional fabs to support growing demand from Apple, NVIDIA, AMD, and other major customers.",
+      "published_at": "2026-05-12T14:53:00+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI 반도체 호황, 사이클 넘어선 '수요 폭발'…대융합 시대 열린다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56446",
+      "body": "SMC코리아 2026 컨퍼런스(수원 컨벤션 센터, 5월 12일)에서 업계 전문가들은 현재의 AI 반도체 호황이 단순한 사이클 상승이 아닌 진정한 수요 폭발이라고 강조했다.\n\n씨티 임원은 현재 상황을 과거의 슈퍼사이클과 비교하며 'AI 에이전트가 스마트폰과 디지털카메라가 이전 사이클을 이끈 것처럼 새로운 수요를 창출하고 있다'고 밝혔다. 기존 반도체 사이클과 달리, HBM 인프라 투자와 기업 AI 도입이라는 복수의 성장 동인이 동시에 발생하고 있다고 분석했다.\n\n경쟁 구도와 관련해서는 인텔의 회복과 CPU 수요 성장이 GPU 확장과 함께 진행되고 있다는 점을 논의했다. 한 패널리스트는 '확장된 컴퓨팅 파워 수요가 메모리 제조업체에 혜택을 준다'고 언급했다.\n\n중국 도전에 대해서는 장비 규제에도 불구하고 중국 제조업체들이 특히 고급 메모리 제품 분야에서 국내 공급망을 빠르게 구축하고 있다는 우려가 제기됐다.\n\n산업 융합과 관련해서는 하이브리드 본딩 기술을 통해 메모리 칩에 처리 기능을 통합할 수 있게 되면서 메모리와 로직 영역의 경계가 흐려지고 있는 점이 강조됐다.",
+      "published_at": "2026-05-12T19:24:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "램리서치·머크, AI 반도체 혁명 '몰리브덴' 주목",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56420",
+      "body": "AI 시대 차세대 반도체의 핵심 소재로 몰리브덴(Molybdenum)이 부상하고 있다. 전통적인 텅스텐 소재의 한계에 부딪힌 제조업체들이 3D 적층 기술의 발전과 함께 새로운 대안을 모색하고 있는 가운데, 램리서치와 머크가 몰리브덴을 핵심 전환점으로 지목했다.\n\n5월 12일 수원컨벤션센터에서 열린 SMC 코리아 2026 컨퍼런스에서 업계 리더들은 3D 반도체 시대의 소재·공정 혁신을 논의했다.\n\n램리서치의 아난드 머시(Anand Murthy) 부사장은 '텅스텐에서 몰리브덴으로의 전환이 진행 중'이라며 몰리브덴을 '차세대 인터커넥트 구조의 중대한 변곡점'이라고 설명했다.\n\n머크 인터몰리큘러의 가네쉬 파나만(Ganesh Panaman) 대표도 '원자층증착(ALD)의 선택적 증착 및 금속화에 대한 몰리브덴 적용 연구가 진행 중'이라고 확인하며 AI 기반 소재 개발 플랫폼을 활용하고 있다고 밝혔다.\n\n머크는 충청북도 음성 공장에서 몰리브덴 생산을 준비하고 있으며, 전구체 및 전달 시스템 사업을 강화해 통합 솔루션을 제공할 계획이다.\n\n현재 몰리브덴 적용은 3D NAND에 집중돼 있으며, 삼성전자와 SK하이닉스가 고적층 저항 문제 해결을 위해 일부 공정에 적용하고 있다.",
+      "published_at": "2026-05-12T17:48:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Electronics, 4분기 '포스트 HBM' CXL 3.1 양산 추진",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56445",
+      "body": "삼성전자가 2026년 4분기 CXL(Compute Express Link) 3.1 기반 메모리 모듈 양산을 추진한다. 회사는 3분기부터 주요 서버 및 데이터센터 기업에 CMM-D(CXL 메모리 모듈) 3.1 샘플을 공급하기 시작할 예정이다.\n\nCXL 3.1 CMM-D 샘플은 마이크로소프트, 구글, 아마존, 메타, 델, 슈퍼마이크로 등 전 세계 약 40개 고객사에 공급될 예정이다. 고객사 품질 테스트는 4분기에 진행돼 양산 계획으로 이어질 것으로 예상된다.\n\nCMM-D 3.1은 PCIe 6.0 인터페이스를 사용하며 최대 1TB 용량과 72GB/초 대역폭을 지원한다. 이전 세대 CMM-D 2.0은 최대 256GB 용량과 36GB/초 대역폭을 제공했다.\n\n시장조사업체 욜(Yole)에 따르면 CXL 시장은 AI 데이터센터 수요에 힘입어 2025년 21억 달러(약 2조 8,700억 원)에서 2028년 160억 달러(약 21조 8,400억 원)로 성장할 것으로 예상된다.\n\n삼성은 당초 2025년 4분기 CXL 3.1 제품을 출시할 계획이었으나 표준 D램과 HBM 솔루션에 대한 시장 수요가 더 강해 출시를 연기했다.",
+      "published_at": "2026-05-12T16:13:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "FriendliAI Expands to San Francisco to Scale Frontier AI Inference for Open-Weight and Custom Models",
+      "url": "https://www.businesswire.com/news/home/20260511481484/en/FriendliAI-Expands-to-San-Francisco-to-Scale-Frontier-AI-Inference-for-Open-Weight-and-Custom-Models",
+      "body": "FriendliAI announced the opening of its new San Francisco office at 20 Hawthorne Street, occupying 7,000 square feet in the historic Crown Point Press building, around the corner from the San Francisco Museum of Modern Art.\n\nThe expansion places FriendliAI at the heart of the Bay Area AI ecosystem and closer to the customers, partners, and developers building the next generation of AI applications.\n\nAI agents—which plan, reason across many steps, and call tools on every turn—require five to thirty times more tokens per task than chatbots, and that consumption compounds as agents move from pilots into always-on production workflows. FriendliAI is on a trajectory to grow revenue tenfold this year.\n\nIndependent benchmarks from Artificial Analysis and OpenRouter rank FriendliAI as the top inference provider for models such as GLM-5.1 and Gemma 4 across output speed, latency, tool calling, and structured outputs.\n\nFriendliAI runs state-of-the-art open-weight and custom models at production scale with industry-leading throughput, latency, and reliability. The company partners with model creators on launch—most recently as a Day 0 partner for NVIDIA Nemotron 3 and Z.ai's GLM-5.1—and with cloud providers including AWS, OCI, and Samsung Cloud Platform.\n\nFriendliAI plans to significantly grow its U.S. team across go-to-market, partnerships, and engineering functions over the coming year. The bright, loft-style space is also purpose-built as a hub for the AI builder community, hosting developer meetups, hackathons, and executive briefings.",
+      "published_at": "2026-05-11T00:00:00+09:00",
+      "source": "BusinessWire",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "FriendliAI"
+    },
+    {
+      "title": "리벨리온, 국민성장펀드 6000억 수령 완료...차세대 AI칩 양산 본격화",
+      "url": "https://www.ajunews.com/view/20260512150952425",
+      "body": "리벨리온이 국민성장펀드로부터 6,000억 원 투자금 납입을 완료하며 차세대 AI 칩 양산을 본격화한다고 발표했다. 이번 투자는 기금운용심의회 직접 투자 2,500억 원, 산업은행 500억 원, 미래에셋을 비롯한 민간 3,000억 원으로 구성됐다.\n\n리벨리온은 이 자금을 활용해 차세대 칩 '리벨 100' 양산에 집중하고, 미국 등 글로벌 시장 진출을 추진한다. 잠재 고객사로는 메타(Meta)와 xAI가 언급됐다. 양산은 삼성 파운드리를 통해 진행되며, 이전 아톰(Atom) NPU 출하량 수준의 물량을 목표로 한다.\n\n지난해 리벨리온의 연결 기준 매출은 320억 원으로 전년 대비 3배 성장했으며, SK텔레콤의 AI 서비스에 아톰 칩 채택이 성장을 견인했다.\n\n6,400억 원 규모의 프리IPO 투자 유치 성공으로 하반기 기업공개(IPO) 가능성이 높아졌으며, 삼성증권과 한국투자증권이 주관사로 선정됐다. 리벨리온의 현재 기업가치는 3조 4,000억 원이며, 이르면 8월 거래소 상장 예비 심사 청구가 예상된다.",
+      "published_at": "2026-05-12T18:00:00+09:00",
+      "source": "아주경제",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Report: Google and SpaceX in talks to put data centers into orbit",
+      "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+      "body": "Google and SpaceX are reportedly in discussions to launch orbital data centers, according to The Wall Street Journal sources. The potential partnership emerges as SpaceX prepares for its anticipated IPO later this year, with company leadership promoting space-based AI computing as a future cost-effective solution.\n\nThe development follows Anthropic's recent agreement with SpaceX regarding computing resources from xAI's data center in Memphis, Tennessee, which includes potential future collaboration on orbital infrastructure. SpaceX acquired xAI in February.\n\nGoogle is also exploring partnerships with additional rocket companies and plans to launch prototype satellites by 2027 through Project Suncatcher, announced previously.\n\nElon Musk has promoted orbital data centers as operationally cheaper, and proponents cite freedom from local opposition that ground-based projects face. However, economic analysis reveals challenges: 'today's terrestrial data centers are much cheaper than those in orbit once satellite construction and launch costs are factored in.'\n\nGoogle invested $900 million in SpaceX during 2015, based on regulatory filings. The discussions are still in early stages, sources said, and no final agreement has been reached.",
+      "published_at": "2026-05-12T10:30:00-07:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "MinIO adds petabyte-scale MemKV cache for Nvidia GPU inference",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/05/12/minio-adds-petabyte-scale-memkv-cache-for-nvidia-gpu-inference/5238593",
+      "body": "MinIO has developed a petabyte-scale MemKV caching system designed to work with Nvidia GPUs, built on top of its AIStor object storage platform.\n\nThe system addresses a critical challenge in GPU inference operations. When GPUs running AI workloads exhaust their high-bandwidth memory (HBM), data flows downstream through a memory hierarchy—CPU DRAM, then NVMe SSDs with controller software on Nvidia's BlueField-4 DPUs, and finally to backing object storage like MinIO's AIStor. MemKV aligns with Nvidia's STX architecture to enable persistent, shared context across GPU clusters at unprecedented scale.\n\nIn a 128-GPU deployment with 128K-token context, the system increased GPU utilization from 50 percent to over 90 percent, reportedly yielding $2 million in annual compute savings.\n\nKey technical features include native BlueField-4 STX support running as ARM64-native binary embedded in storage infrastructure, end-to-end RDMA transport moving KV cache data directly from GPU memory to NVMe without file system or object storage protocol overhead, GPU-optimized block sizes operating in 2-16 MB blocks rather than legacy 4 KB blocks, and wire-speed fabric performance built for Nvidia Spectrum-X Ethernet and PCIe Gen6.\n\nMemKV moves data directly from NVMe SSDs to the AI data path via RDMA, eliminating HTTP overhead, file system translation, and intermediate storage servers between GPUs and context storage. Other suppliers offering STX-compatible KV cache solutions include GRAID and WEKA.",
+      "published_at": "2026-05-12T14:00:00+02:00",
+      "source": "Blocks and Files",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Equinix to build its fourth Malaysian data center",
+      "url": "https://datacenternews.asia/story/equinix-to-build-usd-190-million-kuala-lumpur-data-centre",
+      "body": "Equinix announced plans for a new data centre facility in Kuala Lumpur, designated KL2, representing an investment exceeding USD $190 million. The facility will be constructed in Cyberjaya, adjacent to the company's existing KL1 site, approximately one kilometre away.\n\nThe development will deliver over 2,200 cabinets upon completion and marks Equinix's fourth Malaysian data centre location. The company currently operates facilities in Kuala Lumpur (KL1) and Johor (JH1, JH2).\n\nMalaysia's regional infrastructure aspirations drive this expansion, as the nation seeks strengthening its position for digital and artificial intelligence operations within ASEAN. Data centre demand has increased significantly across cloud services, AI applications, and enterprise infrastructure.\n\nKL2 will support digital-native enterprises, hyperscalers, and multinational organizations. A significant portion will accommodate liquid cooling systems for artificial intelligence and high-performance computing applications. Equinix has secured adjacent land for future expansion opportunities.\n\nThe facility targets 100% renewable energy coverage from initial operations, aligning with the company's 2030 objective for complete renewable energy adoption across its retail portfolio.",
+      "published_at": "2026-05-12T00:00:00+08:00",
+      "source": "Data Center News Asia",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Amazon acquires leased data center in Virginia for $65 million",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-acquires-leased-data-center-in-virginia-for-65-million/",
+      "body": "Amazon has acquired a data center it has been leasing in Manassas, Virginia, with an affiliate of Menlo Equities selling the property at 7505 Mason King Court to Amazon Data Services for $65 million. The single-story facility spans 110,000 sq ft (10,219 sqm), with some online listings suggesting 20MW of capacity.\n\nBuilt in 2003, Digital Realty acquired the site in 2009 and leased it to an unnamed 'leading IT enterprise company.' Digital later sold the site to Menlo in 2021 as part of a wider portfolio sale.\n\nOnline listings suggest Amazon already operates out of the site as IAD7, indicating the acquisition converts an existing operational lease into owned property.\n\nThe acquisition represents Amazon's continued expansion of its substantial data center presence in the Manassas and Northern Virginia region. AWS has committed to investing an additional $35 billion in Virginia data centers by 2040.",
+      "published_at": "2026-05-12T12:30:00+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Neutralizing the Gigascale Problem: How to Solve the Physical Power Paradox of Extreme AI Training Loads",
+      "url": "https://spectrum.ieee.org/gigascale-ai-datacenter-power",
+      "body": "When thousands of GPUs synchronize their computing cycles in a gigascale AI datacenter, they generate high-frequency, abrupt pulse loads that can lead to voltage sags, frequency oscillations, and potential interruptions to critical AI training workloads.\n\nGPU clusters create synchronized power spikes that legacy electrical infrastructure cannot handle. Traditional backup systems like diesel generators respond too slowly for millisecond-level fluctuations, forcing operators into expensive over-sizing of electrical systems.\n\nThe proposed solution involves semi-solid-state battery technology functioning as active shock absorbers rather than passive backup systems. Ampace's approach integrates advanced batteries with UPS (Uninterruptible Power Supply) systems and intelligent power management algorithms to stabilize local power networks before disturbances reach the grid.\n\nKey benefits include immediate response to power spikes, reduced infrastructure over-sizing costs, enhanced safety through minimized liquid electrolyte, and maintained emergency backup capacity.\n\nThe article emphasizes transforming energy storage from a passive insurance policy into dynamic load-management assets supporting sustainable gigascale AI deployment. As AI model training scales to hundreds of thousands of GPUs, the physical power infrastructure challenge becomes as critical as compute performance.",
+      "published_at": "2026-05-12T17:15:00+00:00",
+      "source": "IEEE Spectrum",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "무라티의 TML, 실시간 답변 멀티모달 모델 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210399",
+      "body": "미라 무라티의 씽킹 머신즈 랩(TML)이 기존 순차 교환 방식이 아닌 실시간 양방향 소통을 위한 새로운 AI 아키텍처 '인터랙션 모델(Interaction Models)'을 공개했다.\n\n이 시스템은 200밀리초 입출력 스트림을 동시 처리하는 '전이중(full-duplex)' 아키텍처를 채택해 사용자가 말하기를 마칠 때까지 기다리던 기존 모델과 달리 AI가 자연스럽게 끼어들거나 시각적 변화에 선제적으로 반응할 수 있다.\n\n기술적 접근법으로는 위스퍼(Whisper)와 같은 대형 인코더 대신 '인코더 프리 얼리 퓨전(encoder-free early fusion)'을 구현해, 원시 오디오 신호와 이미지 패치를 경량 임베딩 레이어에 직접 입력하고 트랜스포머 내에서 공동으로 학습시킨다.\n\n성능 지표로는 TML-인터랙션-스몰이 평균 0.40초의 발화 응답 지연을 달성하며, 구글 제미나이(Gemini) 3.1 플래시 라이브(0.57초)와 GPT-실시간-2.0 미니(1.18초)를 능가했다. 인터랙션 품질 벤치마크에서는 77.8점을 기록했다.\n\n실용적 응용 분야로는 제조 안전 모니터링, 콜센터 운영, 시간 인식 작업 관리 등이 있다. 해당 모델은 현재 제한적 리서치 프리뷰 상태이며, 더 광범위한 공개 접근은 2026년 하반기를 목표로 한다.",
+      "published_at": "2026-05-12T18:59:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "고블린 금지·가사는 한 줄도 안 돼\"…시스템 프롬프트로 드러난 AI 기업의 속내",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210388",
+      "body": "AI 업계에서 최근 논란이 된 시스템 프롬프트가 주요 화두로 떠올랐다. 이 숨겨진 지시문은 AI 기업들이 챗봇에 내장하는 핵심 지침으로, 사용자 입력보다 우선하며 응답 스타일, 행동 원칙, 답변 제한 사항을 형성한다.\n\n아스게이르 토르 욘손(Asgeir Thor Jonsson)이라는 개발자가 사회공학적 기법을 사용해 AI 기업들의 시스템 프롬프트를 깃허브에 공개했다. 직접 접근을 요청하는 대신 챗봇의 협조적 성향을 상황적 조작으로 활용해 2,300~27,000단어 분량의 프롬프트를 추출했다.\n\nChatGPT는 읽기 쉽고 접근하기 좋은 응답을 강조하면서도 논란이 될 수 있는 표현은 피하도록 되어 있다. 최근 논란을 반영해 고블린이나 트롤 같은 생물을 언급하지 말라는 지시도 포함됐다.\n\nAnthopic은 지식재산권 보호에 2,000단어 이상을 할애하며 강한 저작권 우려를 보인다. '노래 가사를 한 줄도 재현하지 말라'는 지시는 유니버설 뮤직과의 무단 학습 데이터 관련 소송을 반영한다.\n\n그록(Grok)은 정반대로 성인 콘텐츠를 명시적으로 허용하고 윤리적 제약에 무관심한데, 이는 CEO 일론 머스크의 이념적 선호를 반영한다. 구글 제미나이는 이전에 역사적으로 부정확한 이미지 생성 논란을 해소하기 위해 편향성 완화를 강조한다.",
+      "published_at": "2026-05-13T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "美 국방부, 앤트로픽 퇴출 추진하면서 '미토스'는 도입",
+      "url": "https://www.etnews.com/20260513000034",
+      "body": "미국 국방부가 앤트로픽을 공급망에서 배제하려는 시도를 진행하면서, 동시에 새로운 AI 모델 '미토스(Mithos)'는 채택하는 역설적 상황이 벌어지고 있다.\n\n에밀 마이클(Emil Michael) 국방부 연구·엔지니어링 차관 겸 최고기술책임자(CTO)는 워싱턴 D.C. 한 컨퍼런스에서 이 같이 밝혔다고 로이터통신이 5월 12일 보도했다.\n\n국방부가 미토스를 채택한 이유에 대해 마이클 CTO는 '미토스는 국가 안보에 있어 중요한 순간을 대표한다'며 사이버 보안 취약점을 식별하고 해결하는 데 특화돼 있어 네트워크 보안을 강화한다고 설명했다.\n\n그는 AI 모델이 이러한 취약점의 더 빠른 악용과 더 빠른 수정을 모두 가능하게 한다고 지적하면서도, 앤트로픽의 이 모델에서의 경쟁 우위는 일시적이며 오픈AI, xAI, 구글의 대안이 곧 나올 것이라고 강조했다.\n\n미국 행정부와 앤트로픽 간의 갈등은 이전에 앤트로픽이 공급망 위험 기업으로 지정되고, 이에 앤트로픽이 소송을 제기하는 상황으로 이어진 바 있다.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "전자신문 (ETNews)",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "올트먼 \"머스크, 오픈AI 지분 90% 요구…경영권 세습도 주장\"",
+      "url": "https://www.etnews.com/20260513000032",
+      "body": "샘 올트먼 오픈AI CEO가 일론 머스크가 회사 지분 90%를 요구하고 경영권 세습까지 주장했다고 밝혔다. 오픈AI와 머스크 간의 법적 분쟁에서 공개된 내용에 따르면 머스크가 막대한 통제권을 요구했음을 시사하는 이메일이 존재하는 것으로 전해졌다.\n\n올트먼은 머스크의 요구가 비영리 사명을 가진 회사의 성격과 근본적으로 양립할 수 없다고 주장했다. 이 폭로는 오픈AI의 영리 기업으로의 전환 시도를 둘러싼 법정 싸움이 진행되는 가운데 나왔다.\n\n두 인물의 관계는 2018년 이사회 이후 공개적으로 악화됐으며, 머스크는 이후 오픈AI의 경쟁자 xAI를 설립했다. 최근 머스크는 미국 정부의 AI 정책에 영향력을 행사하는 위치에 있다.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "전자신문 (ETNews)",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Striking Back at AI Memory Pricing… Using AI",
+      "url": "https://www.servethehome.com/striking-back-at-ai-memory-pricing-using-ai/",
+      "body": "The article explores how organizations can combat expensive RAM and AI memory pricing through data-driven capacity planning enhanced by AI analysis. Patrick Kennedy explains that 'memory was our #1 hardware cost' before prices increased dramatically due to AI demand.\n\nThe core methodology involves three steps: First, profiling actual usage across infrastructure using monitoring tools (VMware, Prometheus, Grafana, etc.) to identify overprovisioning rather than assuming peak capacity needs. Second, analyzing patterns using AI agents to review fleet-wide data, identifying systems with low actual working sets versus allocated memory. Third, right-sizing decisions based on sustained and peak usage metrics rather than historical over-provisioning habits.\n\nThe audit revealed approximately '25% memory overdeployment' due to historical cost assumptions. By accurately measuring needs, organizations can redirect budget toward additional compute resources instead of excess RAM.\n\nThe article emphasizes human review of AI-generated recommendations, providing examples like web frontends (good right-sizing candidates) versus databases (requiring careful consideration of reversible policies). This methodology applies especially as HBM and DRAM prices continue rising through 2026-2027 due to AI demand.",
+      "published_at": "2026-05-12T22:00:00+00:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "포항, GPU 기반 AI 전용 데이터센터 국내 최초 상업운전 임박",
+      "url": "https://www.etnews.com/20260513000016",
+      "body": "경북 포항에 GPU 기반 AI 전용 데이터센터의 국내 최초 상업운전이 임박했다. 광명일반산업단지에 들어서는 네오AI클라우드의 글로벌 AI 데이터센터가 상업운전을 앞두고 있다.\n\n40MW 규모 1단계 공사가 마무리 단계에 접어들었으며, 초기 2만 장 규모의 GPU를 탑재할 예정이다. 상업운전 개시 시점은 2026년 상반기 내 예정되어 있다.\n\n네오AI클라우드는 삼성전자, 오픈AI 등 국내외 빅테크와 협력을 통해 GPU 확보에 주력해왔다. 완공 시 연간 2조 원 이상의 경제적 파급효과가 기대된다.\n\n포항시는 AI 산업 거점도시로의 전환을 목표로 2035년까지 2조 원을 투입해 글로벌 AI 데이터센터를 구축한다는 계획이다. 1단계 40MW 이후 2·3단계 증설을 통해 최종 200MW 이상의 대규모 AI 컴퓨팅 인프라를 갖출 예정이다.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "전자신문 (ETNews)",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "신성이엔지, AI 데이터센터·클린룸 통합 솔루션 공개",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56488",
+      "body": "신성이엔지가 HVAC 코리아 2026(5월 13~15일, 서울 코엑스)에 참가해 AI 데이터센터와 반도체 클린룸을 위한 통합 냉난방공조(HVAC) 솔루션을 공개했다.\n\n회사는 두 가지 데이터센터 제품을 선보인다. AIO(All-in-One)는 '고밀도, 고열 AI 데이터센터에 최적화된 전략 플랫폼'으로 수직 통합형 냉각 시스템과 서버 랙을 결합해 별도의 서버룸과 기계실을 없앤다.\n\nFWU(Fan Wall Unit)는 대형 팬이 장착된 벽면 설치형 냉각 장치로, 온도 제어와 현열 관리에 특화돼 있다. 외부 기온에 따라 자동으로 운전 모드를 전환하여 겨울에는 외부 냉기를 유입하고 여름에는 내부 냉각 시스템을 가동해 에너지 비용을 절감한다.\n\n반도체·디스플레이 클린룸 공정 솔루션으로는 OAC, FFU, ILF, ICF 등을 전시하며, 자회사 신성넥서스에서는 데이터센터 플랫폼(DAM) 제품도 소개한다.",
+      "published_at": "2026-05-12T19:33:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "BofA hikes 2026 chips forecast to $1.3 trillion, names Nvidia, Broadcom, Marvell, AMD as top drivers",
+      "url": "https://finance.yahoo.com/news/bofa-hikes-2026-chips-forecast-to-13-trillion-names-nvidia-broadcom-marvell-amd-as-top-drivers-164800203.html",
+      "body": "Bank of America analyst Vivek Arya significantly increased the firm's global semiconductor revenue outlook, raising the 2026 target to $1.3 trillion—a $300 billion jump from estimates provided four months earlier. The upgrade reflects accelerating momentum in the AI sector.\n\nArya stated that 'AI/data center to drive the majority of gains (via compute, networking, memory), with industrial contributing to growths on inventory replenishment and robotics ramp.' The semiconductor market is projected to reach $2 trillion by 2030, representing a 20% compound annual growth rate—more than double the historical 9% average.\n\nBofA identified Nvidia and Broadcom as primary drivers of growth, while also recommending Marvell Technology and Advanced Micro Devices as 'AI compute' leaders. Equipment manufacturers Applied Materials and Lam Research are positioned as beneficiaries of increased chip production demands.\n\nThe bank flagged software firms Cadence and Synopsys as 'picks and shovels' plays, serving the design phase of the AI expansion. BofA's analysis suggests chip vendors require global cloud capital expenditure exceeding $1 trillion by 2027—substantially above current consensus forecasts of $872 billion—raising questions about whether hyperscaler investments will deliver promised returns.",
+      "published_at": "2026-04-09T00:00:00+09:00",
+      "source": "Yahoo Finance / Bank of America Research",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Samsung Electronics, labor union fail to reach pay deal as strike looms",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/samsung-elec-labour-union-fail-180929416.html",
+      "body": "Samsung Electronics and its labor union failed to reach a last-minute wage agreement, heightening the risk of a strike that could disrupt operations at the world's largest memory-chip maker.\n\nThe talks began at 10 a.m. Tuesday at the National Labor Relations Commission office in the administrative city of Sejong, but both sides failed to reach a consensus despite nearly 17 hours of negotiations. The National Labor Relations Commission indicated negotiations could continue beyond their scheduled close.\n\nAs of Tuesday afternoon, more than 40,400 of the union's 73,000 members had signaled they would join the May 21 strike. The union has warned it will stage a full-scale walkout from May 21 to June 7.\n\nThe ongoing dispute centers around the union's demand that Samsung uncap performance payouts and set them at 15% of operating profit. Management has refused to permanently remove the cap, and workers have rejected a counteroffer of a $340,000 one-time bonus.\n\nIndustry estimates suggest the 18-day strike could inflict losses worth tens of trillions of won, with JPMorgan Chase estimating the dispute could reduce Samsung Electronics' annual operating profit by more than 40 trillion won.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "MarketScreener / Reuters",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Asia's trillion-dollar titans are powering — and distorting — its fastest growing stock markets",
+      "url": "https://www.cnbc.com/2026/05/12/tsmc-samsung-sk-hynixs-south-korea-taiwan-stocks-ai-chipmakers-concentration-risk.html",
+      "body": "TSMC now accounts for over 40% of the Taiex benchmark, while Samsung Electronics and SK Hynix together made up a record 42.2% of the KOSPI in May 2026, according to Manulife Investment Management. South Korea's KOSPI has surged more than 80% this year, hitting one fresh high after another.\n\nThe concentration has made both markets highly exposed to the global AI spending cycle. But it also means index-level gains may say less about broad domestic strength than about the earnings power of a narrow group of exporters. Analysts warned that reliance on a narrow group of exporters could amplify volatility and leave markets vulnerable to shocks ranging from geopolitical tensions to a slowdown in data-center spending.\n\nTaiwan and South Korea sit at the heart of a manufacturing ecosystem reliant on specialized chemicals, light-sensitive films known as photoresists and gases that could be affected during geopolitical tensions or disruptions to global shipping routes.\n\nSamsung Electronics crossed a $1 trillion market valuation on May 6, 2026, driven by surging AI chip demand. In the first three months of 2026 alone, Samsung's operating profit grew more than eight times compared to the same period a year earlier. A top South Korean official has proposed a tax on artificial intelligence (AI) profits to be redistributed among society as a semiconductor boom drives massive earnings.",
+      "published_at": "2026-05-12T00:00:00+09:00",
+      "source": "CNBC",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft claims to be first hyperscaler to power on Nvidia Vera Rubin NVL72 system",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-claims-to-be-first-hyperscaler-to-power-on-nvidia-vera-rubin-nvl72-system/",
+      "body": "Microsoft CEO Satya Nadella announced that Microsoft was 'the first cloud to bring up an Nvidia Vera Rubin NVL72 system for validation,' calling it 'another big step in building the next generation of AI infrastructure with Nvidia.' According to a Microsoft blog post, this was done in a Microsoft lab, while the Vera Rubin NVL72 will be rolled out to the company's Azure data centers 'over the next few months.'\n\nThe Nvidia Vera Rubin NVL72 is the flagship datacenter configuration featuring 72 R100 (H300) GPUs and 36 Vera CPUs connected through NVLink 6 interconnects, delivering 260 TB/s all-to-all bandwidth. The system provides up to 5x greater inference performance and 10x lower cost per token than the previous Blackwell generation.\n\nAmong the first cloud providers to deploy Vera Rubin-based instances in 2026 will be AWS, Google Cloud, Microsoft and OCI, as well as NVIDIA Cloud Partners CoreWeave, Lambda, Nebius and Nscale. Mass production and partner availability is targeted for H2 2026.\n\nMicrosoft plans to deploy the Vera Rubin NVL72 rack-scale system in its next-generation AI data centers, including the Fairwater AI superfactory sites. The announcement was made around March 2026 at GTC.",
+      "published_at": "2026-05-12T00:00:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Cerebras Sets IPO Price at $150-$160 Ahead of Nasdaq Debut May 14",
+      "url": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
+      "body": "Cerebras Systems is expected to officially price its initial public offering at $150-$160 per share the evening of Wednesday, May 13, and begin trading on the Nasdaq on Thursday, May 14, under the ticker symbol CBRS.\n\nAt the high end of the new range, Cerebras would net up to $4.8 billion in proceeds through the IPO. The company could end up being worth up to $48.8 billion on a fully diluted basis.\n\nThe revision reflects a roadshow described as more than twenty times oversubscribed. The company's WSE-3 wafer-scale engine targets AI inference workloads, positioning it as an alternative to GPU-based solutions from NVIDIA and AMD.\n\nOpenAI committed to a 750-megawatt deal valued at over $20 billion, while AWS announced deployment plans for Cerebras systems in Amazon data centers. The company achieved $510 million in 2025 revenue with a 47% net margin.\n\nThe IPO represents one of the largest offerings of 2026, driven by strong investor demand for its wafer-scale AI chips.",
+      "published_at": "2026-05-11T00:00:00+09:00",
+      "source": "CNBC",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "FriendliAI may have the inference solution to AI memory ills",
+      "url": "https://www.sdxcentral.com/analysis/friendliai-may-have-the-inference-solution-to-ai-memory-ills/",
+      "body": "FriendliAI has emerged as a leading inference platform addressing the memory bandwidth bottlenecks that constrain large language model serving. The company's platform uses novel memory management techniques to deliver industry-leading throughput and latency at lower cost than traditional GPU-centric deployments.\n\nAs AI agents require five to thirty times more tokens per task than chatbots, inference demand is growing at unprecedented rates. FriendliAI's platform handles this through continuous batching and disaggregated memory management, allowing it to serve multiple concurrent requests efficiently on expensive GPU hardware.\n\nThe company ranks first on independent benchmarks from Artificial Analysis and OpenRouter for models including GLM-5.1 and Gemma 4. FriendliAI is on a trajectory to grow revenue tenfold this year, positioning it as one of the fastest-growing inference startups in the space.\n\nThe company recently opened a San Francisco office to be closer to Bay Area customers and partners, and has partnerships with AWS, OCI, and Samsung Cloud Platform for infrastructure deployment.",
+      "published_at": "2026-05-12T00:00:00+09:00",
+      "source": "SDxCentral",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "FriendliAI"
+    }
+  ]
+}

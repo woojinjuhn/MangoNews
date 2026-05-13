@@ -1,0 +1,278 @@
+{
+  "stage": "filter_1",
+  "input_date_kst": "2026-05-13",
+  "kept": [
+    {
+      "id": 4,
+      "title": "Samsung labor negotiations collapse; strike looms",
+      "url": "https://www.koreaherald.com/article/10736594",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung 18일 총파업(5/21~6/7) 사실상 확정 — 세계 최대 메모리 제조사 생산차질 가능성은 글로벌 반도체 공급망의 최우선 이슈."
+    },
+    {
+      "id": 7,
+      "title": "OpenAI, Microsoft And Friends Build A Better, More Scalable Ethernet",
+      "url": "https://www.nextplatform.com/connect/2026/05/12/openai-microsoft-and-friends-build-a-better-more-scalable-ethernet/5239078",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "MRC 프로토콜은 ConnectX-8 SmartNIC, AMD DPU, Broadcom Thor Ultra SmartNIC을 직접 활용 — MangoBoost DPU 사업의 핵심 인접 영역인 AI 클러스터 네트워킹 표준화."
+    },
+    {
+      "id": 5,
+      "title": "Cerebras' $48 Billion IPO Tests the Market's Inference Bet",
+      "url": "https://www.investing.com/analysis/cerebras-48-billion-ipo-tests-the-markets-inference-bet-200680080",
+      "category": "products",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras $48.8B 평가 IPO 가격 책정 — OpenAI 750MW $20B 딜과 AWS 배포 포함, AI 인퍼런스 비-GPU 대안 시장 형성의 결정적 분기점."
+    },
+    {
+      "id": 17,
+      "title": "리벨리온, 국민성장펀드 6000억 수령 완료...차세대 AI칩 양산 본격화",
+      "url": "https://www.ajunews.com/view/20260512150952425",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "Tier 1 국내 경쟁사 리벨리온이 국민성장펀드 6,000억 납입 완료, 리벨 100 양산 진입 + 메타/xAI 잠재고객, 하반기 IPO 가능성."
+    },
+    {
+      "id": 30,
+      "title": "BofA hikes 2026 chips forecast to $1.3 trillion, names Nvidia, Broadcom, Marvell, AMD as top drivers",
+      "url": "https://finance.yahoo.com/news/bofa-hikes-2026-chips-forecast-to-13-trillion-names-nvidia-broadcom-marvell-amd-as-top-drivers-164800203.html",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "BofA가 2026 글로벌 반도체 시장 $1.3T 상향, Marvell·NVIDIA·Broadcom·AMD를 AI 컴퓨트 리더로 지목 — MangoBoost 시장 환경 핵심 지표."
+    },
+    {
+      "id": 19,
+      "title": "MinIO adds petabyte-scale MemKV cache for Nvidia GPU inference",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/05/12/minio-adds-petabyte-scale-memkv-cache-for-nvidia-gpu-inference/5238593",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "BlueField-4 DPU + RDMA + Spectrum-X 직접 활용한 페타바이트 KV 캐시 — DPU 기반 AI 인퍼런스 메모리 계층의 실증 사례, MangoBoost 핵심 인접 기술."
+    },
+    {
+      "id": 15,
+      "title": "Samsung Electronics, 4분기 '포스트 HBM' CXL 3.1 양산 추진",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56445",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "삼성 CXL 3.1 CMM-D Q4 양산 + 글로벌 40개 하이퍼스케일러 샘플 공급 — DPU/메모리 디스애그리게이션과 직결되는 데이터센터 메모리 표준 전환."
+    },
+    {
+      "id": 33,
+      "title": "Microsoft claims to be first hyperscaler to power on Nvidia Vera Rubin NVL72 system",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-claims-to-be-first-hyperscaler-to-power-on-nvidia-vera-rubin-nvl72-system/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "MS Azure가 Vera Rubin NVL72 최초 가동 — NVIDIA 차세대 GPU 인프라 배포 개시 및 H2 2026 상용화 일정 확정."
+    },
+    {
+      "id": 9,
+      "title": "\"2028년 서버 D램 비중 55%\"...AI가 D램 흡수",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56496",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "시그마인텔 전망: AI 서버 D램 비중 2025년 24% → 2028년 55%, 글로벌 AI 서버 출하 51.3% 증가 — AI 메모리 수요 구조 변화 핵심 데이터."
+    },
+    {
+      "id": 32,
+      "title": "Asia's trillion-dollar titans are powering — and distorting — its fastest growing stock markets",
+      "url": "https://www.cnbc.com/2026/05/12/tsmc-samsung-sk-hynixs-south-korea-taiwan-stocks-ai-chipmakers-concentration-risk.html",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "TSMC 타이엑스 40% / 삼성+SK하이닉스 KOSPI 42.2% 집중 — AI 칩 사이클이 한국·대만 자본시장 구조를 재편 중인 거시 지표."
+    },
+    {
+      "id": 12,
+      "title": "TSMC allocates $20 billion to Arizona expansion — project faces water and labor shortages, complicated by visa rules",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-allocates-usd20-billion-to-arizona-expansion-project-faces-water-and-labor-shortages-complicated-by-visa-rules",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "TSMC Arizona $20B 확장 + Fab 21 첫해 흑자 — Apple/NVIDIA/AMD AI 칩 공급망 미국 이전 진행 상황."
+    },
+    {
+      "id": 10,
+      "title": "Applied Materials and TSMC Partner at the EPIC Center to Accelerate AI Scaling",
+      "url": "https://www.globenewswire.com/news-release/2026/05/11/3291946/0/en/Applied-Materials-and-TSMC-Partner-at-the-EPIC-Center-to-Accelerate-AI-Scaling.html",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Applied-TSMC EPIC 센터 협력 + 삼성/SK하이닉스/마이크론 공동 투자 — AI 스케일링 위한 차세대 소재·공정 R&D 인프라."
+    },
+    {
+      "id": 6,
+      "title": "Jensen Huang skips Trump's China business delegation",
+      "url": "https://thenextweb.com/news/jensen-huang-skips-trumps-china-business-delegation",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA CEO의 트럼프 방중 배제 — AI 칩 수출 통제와 미-중 반도체 갈등의 외교적 시그널, NVIDIA 중국 매출에 직접 영향."
+    },
+    {
+      "id": 28,
+      "title": "포항, GPU 기반 AI 전용 데이터센터 국내 최초 상업운전 임박",
+      "url": "https://www.etnews.com/20260513000016",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "네오AI클라우드 포항 40MW GPU 데이터센터(2만 장 GPU) 국내 최초 상업운전 — 한국 소버린 AI 인프라 구축의 가시적 진전."
+    },
+    {
+      "id": 16,
+      "title": "FriendliAI Expands to San Francisco to Scale Frontier AI Inference for Open-Weight and Custom Models",
+      "url": "https://www.businesswire.com/news/home/20260511481484/en/FriendliAI-Expands-to-San-Francisco-to-Scale-Frontier-AI-Inference-for-Open-Weight-and-Custom-Models",
+      "category": "products",
+      "competitor": "FriendliAI",
+      "keep_reason": "Tier 1 국내 경쟁사 FriendliAI의 SF 사무소 개설 + 매출 10배 성장 궤도 + Artificial Analysis 인퍼런스 1위 — 미국 시장 진입 신호."
+    },
+    {
+      "id": 35,
+      "title": "FriendliAI may have the inference solution to AI memory ills",
+      "url": "https://www.sdxcentral.com/analysis/friendliai-may-have-the-inference-solution-to-ai-memory-ills/",
+      "category": "products",
+      "competitor": "FriendliAI",
+      "keep_reason": "Tier 1 경쟁사 FriendliAI 인퍼런스 플랫폼의 메모리 관리 차별점 분석 — AI 메모리 병목 해소라는 MangoBoost와 유사 문제 영역."
+    },
+    {
+      "id": 13,
+      "title": "AI 반도체 호황, 사이클 넘어선 '수요 폭발'…대융합 시대 열린다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56446",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SMC 코리아 2026 업계 진단 — AI 에이전트 수요·HBM 투자·CPU 회복이 동시 진행, 메모리·로직 경계 흐려지는 융합 시대 메시지."
+    },
+    {
+      "id": 27,
+      "title": "Striking Back at AI Memory Pricing… Using AI",
+      "url": "https://www.servethehome.com/striking-back-at-ai-memory-pricing-using-ai/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 시대 RAM·HBM 가격 폭등에 대응한 메모리 라이트사이징 방법론 — 25% 과배치 패턴 등 AI 인프라 비용 최적화 실용 가이드."
+    },
+    {
+      "id": 22,
+      "title": "Neutralizing the Gigascale Problem: How to Solve the Physical Power Paradox of Extreme AI Training Loads",
+      "url": "https://spectrum.ieee.org/gigascale-ai-datacenter-power",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "GPU 클러스터 동기 전력 스파이크와 그리드 안정화 문제 — 기가스케일 AI 학습이 직면한 물리적 전력 인프라 한계 분석."
+    },
+    {
+      "id": 23,
+      "title": "무라티의 TML, 실시간 답변 멀티모달 모델 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210399",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Thinking Machines Lab의 전이중 멀티모달 인터랙션 모델 공개 — Gemini 3.1·GPT-Realtime 능가하는 200ms 응답 아키텍처."
+    },
+    {
+      "id": 18,
+      "title": "Report: Google and SpaceX in talks to put data centers into orbit",
+      "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "구글·SpaceX 궤도 데이터센터 협의 + Anthropic-SpaceX 컴퓨트 계약 — 향후 AI 컴퓨트 인프라 형태 변화 가능성 시그널."
+    },
+    {
+      "id": 29,
+      "title": "신성이엔지, AI 데이터센터·클린룸 통합 솔루션 공개",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56488",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AIO·FWU 등 고밀도 AI 데이터센터 냉각·HVAC 통합 솔루션 — 한국 AI 인프라 공급망 구성요소."
+    },
+    {
+      "id": 14,
+      "title": "램리서치·머크, AI 반도체 혁명 '몰리브덴' 주목",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56420",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "텅스텐→몰리브덴 인터커넥트 소재 전환과 3D NAND·삼성/SK하이닉스 적용 — AI 반도체 소재 혁신 동향."
+    },
+    {
+      "id": 20,
+      "title": "Equinix to build its fourth Malaysian data center",
+      "url": "https://datacenternews.asia/story/equinix-to-build-usd-190-million-kuala-lumpur-data-centre",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Equinix KL2($190M, 2,200 캐비닛) — 액체냉각 비중 높고 AI/HPC 타겟, ASEAN AI 인프라 확장 사례."
+    },
+    {
+      "id": 25,
+      "title": "美 국방부, 앤트로픽 퇴출 추진하면서 '미토스'는 도입",
+      "url": "https://www.etnews.com/20260513000034",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "미 국방부의 AI 공급망 정책 — Anthropic 배제와 Mithos 채택의 모순적 시그널, AI 정책 동향 신호로 borderline keep."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 1,
+      "title": "Samsung Electronics labor talks break down, dispute spirals towards general strike",
+      "discard_reason": "duplicate of #4 (Korea Herald) — same Samsung 18일 총파업 사건, 더 상세한 영문 1차 소스를 보존."
+    },
+    {
+      "id": 3,
+      "title": "삼성전자 노조 사후조정 결렬 선언…총파업 시계 다시 간다",
+      "discard_reason": "duplicate of #2 (THE ELEC) — 동일 사건의 ETNews 정리본, THE ELEC이 더 풍부한 디테일 제공."
+    },
+    {
+      "id": 2,
+      "title": "정부 중재에도 삼성전자 노사 사후조정 최종 결렬",
+      "discard_reason": "duplicate of #4 (Korea Herald) — Korea Herald 영문판이 가장 권위 있는 1차 매체이며 본문도 동등 이상 상세."
+    },
+    {
+      "id": 31,
+      "title": "Samsung Electronics, labor union fail to reach pay deal as strike looms",
+      "discard_reason": "duplicate of #4 (Korea Herald) — Yahoo/Reuters 신디케이션, 동일 사건 5번째 중복."
+    },
+    {
+      "id": 8,
+      "title": "OpenAI built a networking protocol with AMD, Broadcom, Intel, Microsoft, and NVIDIA to fix AI supercomputer bottlenecks",
+      "discard_reason": "duplicate of #7 (Next Platform) — 동일 MRC 발표를 다룬 The Decoder 정리본, Next Platform이 SmartNIC·DPU 디테일 측면에서 우위."
+    },
+    {
+      "id": 11,
+      "title": "어플라이드-TSMC, 에픽 센터 협력 체결",
+      "discard_reason": "duplicate of #10 (GlobeNewswire) — 동일 EPIC 센터 협력 발표의 한국어 정리본, 1차 영문 보도자료 보존."
+    },
+    {
+      "id": 34,
+      "title": "Cerebras Sets IPO Price at $150-$160 Ahead of Nasdaq Debut May 14",
+      "discard_reason": "duplicate of #5 (Investing.com) — 동일 Cerebras IPO 가격 책정 이벤트, Investing.com의 분석이 리스크 요인까지 포함해 더 풍부."
+    },
+    {
+      "id": 21,
+      "title": "Amazon acquires leased data center in Virginia for $65 million",
+      "discard_reason": "off-topic — 기존 임차 시설의 부동산 매입($65M, 20MW급)으로 AI/DPU 인프라 측면 신규 정보 없음."
+    },
+    {
+      "id": 24,
+      "title": "\"고블린 금지·가사는 한 줄도 안 돼\"…시스템 프롬프트로 드러난 AI 기업의 속내",
+      "discard_reason": "off-topic — AI 기업 시스템 프롬프트 유출 가십성 보도, AI 인프라·반도체·경쟁사 의미 없음."
+    },
+    {
+      "id": 26,
+      "title": "올트먼 \"머스크, 오픈AI 지분 90% 요구…경영권 세습도 주장\"",
+      "discard_reason": "off-topic — OpenAI 소송 관련 폭로성 보도, AI 인프라·반도체·DPU 영역과 무관한 기업 분쟁."
+    }
+  ],
+  "summary": {
+    "total_received": 35,
+    "total_kept": 25,
+    "total_discarded": 10,
+    "category_breakdown": {
+      "market": 10,
+      "products": 7,
+      "projects": 4,
+      "challenges": 4,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 9,
+    "by_competitor": {
+      "NVIDIA": 4,
+      "Cerebras": 1,
+      "FriendliAI": 2,
+      "Rebellions": 1,
+      "Marvell": 1
+    }
+  }
+}

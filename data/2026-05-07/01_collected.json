@@ -1,0 +1,355 @@
+{
+  "collection_date_kst": "2026-05-07",
+  "run_summary": {
+    "total": 30,
+    "by_topic": {
+      "ai": 11,
+      "semiconductor": 7,
+      "datacenter": 8,
+      "competitor": 4
+    },
+    "by_competitor": {
+      "NVIDIA": 3,
+      "Rebellions": 1,
+      "FuriosaAI": 1,
+      "Tenstorrent": 0,
+      "Moreh": 0,
+      "HyperAccel": 1,
+      "Marvell": 0,
+      "Napatech": 0,
+      "FriendliAI": 0,
+      "AMD Pensando": 0,
+      "Cerebras": 0,
+      "Google TPU": 1,
+      "Meta MTIA": 0,
+      "AWS": 0,
+      "Broadcom": 0
+    },
+    "competitor_tagged_total": 7,
+    "sources_consulted": 28,
+    "skipped_paywalled": 2,
+    "notes": "Last issue 2026-05-06 (#003). Collection window: 2026-05-07 KST only. UTC 2026-05-06 articles published after ~15:00 UTC (KST 2026-05-07 00:00+) treated as in-window; earlier UTC 2026-05-06 articles included if not in published_urls registry. HPCwire RSS returned HTTP 403. NetworkWorld RSS returned 404. Semianalysis RSS only showed Sept 2025 articles (no new posts). Wired RSS blocked. Naver News section blocked. The Register datacenter/networks section had only one non-relevant story (DNS outage). Blocksandfiles latest was 2026-05-05. IEEE Spectrum only had a cybersecurity career piece. Moreh/Tenstorrent/FriendliAI news from this window was limited to prior-week PR already captured. Rebellions had no new May 7 news beyond background. HyperAccel Bertha 500 samples due Q1 2026 end — no new May 7 article. Napatech had no new May 7 articles. Korea Exchange KOSDAQ AI company meeting (May 4) included as relevant competitor context."
+  },
+  "articles": [
+    {
+      "title": "NVIDIA Spectrum-X Ethernet MRC is the Custom RDMA Transport Protocol for Gigascale AI",
+      "url": "https://www.servethehome.com/nvidia-spectrum-x-ethernet-mrc-is-the-custom-rdma-transport-protocol-for-gigascale-ai/",
+      "body": "NVIDIA's Multipath Reliable Connection (MRC) is a next-generation RDMA transport protocol for large-scale AI training clusters. MRC enables a single RDMA connection (RoCEv2) to distribute traffic across multiple network paths simultaneously. Key capabilities include dynamic path optimization—the system identifies the fastest available routes and switches between them when congestion or failures occur—load balancing via packet spraying combined with failure handling, rapid failure recovery with microsecond-level failure detection and bypass at hardware speed, and multiplanar architecture support with multiple independent network fabrics providing alternate communication paths between GPUs.\n\nMRC has been proven in production with performance optimized on NVIDIA Spectrum-X Ethernet hardware and is now released as an open specification through the Open Compute Project. NVIDIA collaborated on its development with AMD, Broadcom, Intel, and major cloud providers.\n\nThe technology is already operational in production environments. Spectrum-X Ethernet and MRC are already deployed with OpenAI at major hyperscalers, including Oracle and Microsoft. OpenAI has already used MRC on Spectrum-X to train recent frontier large language models powering ChatGPT and Codex, and Microsoft is deploying it in some of its largest AI factories built on GB200 systems.\n\nThis represents more than theoretical innovation. When networks experience even millisecond-level disruptions in multi-hundred-thousand GPU clusters, the consequences are severe: a stall in a multimillion-dollar training run. MRC leverages fabric signals to dynamically reroute around overloaded links, maintaining high bandwidth even under stress conditions. SpectrumX can detect path failures and reroute in microseconds—essential when thousands of GPUs must operate in perfect synchronization.\n\nThe announcement underscores a fundamental industry transformation: AI workloads now demand specialized networking rather than generic infrastructure.",
+      "published_at": "2026-05-06T11:30:06+00:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "PCI-SIG PCIe 8.0 Specification Draft 0.5 Released",
+      "url": "https://www.servethehome.com/pci-sig-pcie-8-0-specification-draft-0-5-released/",
+      "body": "The PCI-SIG has announced that PCIe 8.0 specification draft 0.5 is now available to members, completing the initial draft phase ahead of schedule. The full specification remains targeted for 2028 release, promising 256GT/s raw transfer rates and up to 1.0TB/s bidirectional bandwidth for x16 configurations.\n\nPCIe 8.0 doubles the performance of PCIe 7.0, escalating from 128 GT/s to 256 GT/s while maintaining PAM4 signaling and FLIT encoding technologies. The generational roadmap is significant because PCIe 7.0 only reached members in June 2025, indicating PCIe 8.0 remains several years from practical implementation.\n\nBandwidth improvements are substantial across all lane configurations. A x16 link achieves 1TB/s throughput, while even modest x4 links reach 256GB/s capacity—enabling future accelerators, network interfaces, SSDs, and CXL-adjacent designs to leverage significantly expanded I/O bandwidth.\n\nCompliance timelines typically lag specification finalization. Integrator lists are usually finalized three years after full specification release, with preliminary testing typically beginning two years after version 1.0. Early products may arrive before formal compliance programs mature.\n\nOptical interconnect work proceeds in parallel. PCI-SIG released an Optical Aware Retimer Engineering Change Note in June 2025 for PCIe 6.0 and 7.0 compliant designs, with optical updates planned for PCIe 8.0. AI platforms represent a primary pressure point driving PCIe evolution. Higher speeds, unordered I/O capabilities, and MultiLink technology collectively address bandwidth and latency requirements for accelerator-heavy workloads.",
+      "published_at": "2026-05-06T20:16:17+00:00",
+      "source": "ServeTheHome",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Is xAI a neocloud now?",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+      "body": "xAI and Anthropic announced a partnership where Anthropic purchased all of the compute capacity at xAI's Colossus 1 data center, representing approximately 300MW of computing power and over 220,000 NVIDIA GPUs. This arrangement is valued at billions of dollars and marks a significant shift in xAI's business strategy.\n\nxAI had already transitioned its training operations to Colossus 2, making the Colossus 1 capacity available for external clients. This move monetizes what was previously an internal resource, positioning xAI as a compute provider rather than solely a model developer.\n\nThe author argues this pivot reveals xAI's true priorities. Unlike Google and Meta—who prioritize retaining compute resources for developing proprietary AI products—xAI is more about building data centers than training AI models. This mirrors the business model of neocloud companies that purchase GPUs from Nvidia and lease them to model developers.\n\nBy selling substantial compute capacity to competitors, xAI may be constraining its own software ambitions. The company previously outlined ambitious projects in coding, digital twins, and AI tools. Committing resources to external clients could limit xAI's ability to pursue these internally focused initiatives.\n\nAnthropic says the additional capacity enables higher limits for Claude Code on paid plans, removes peak-hour reductions for Pro and Max accounts, and increases request volumes for Claude Opus models.",
+      "published_at": "2026-05-06T21:32:55+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft's AI data center push is colliding with its clean power goals",
+      "url": "https://techcrunch.com/2026/05/06/microsofts-ai-data-center-push-is-colliding-with-its-clean-power-goals/",
+      "body": "Microsoft is reconsidering one of its most ambitious environmental commitments as its rapid expansion of AI data centers creates challenges for meeting sustainability targets. According to Bloomberg, the company is internally debating whether to abandon or modify its hourly clean energy matching goal—a pledge to match 100% of its hourly energy consumption with renewable power on the same electrical grid by 2030.\n\nThe company's aggressive buildout of AI infrastructure is creating pressure that may make this target untenable. Microsoft declined direct comment but stated it continues to look for opportunities to maintain our annual matching goal.\n\nHourly matching is more rigorous than annual targets. Since electrical grids require near-instantaneous supply-demand balance, hourly requirements push development of renewable sources that better align with actual consumption patterns.\n\nDespite its commitment to climate goals, Microsoft is pursuing new natural gas infrastructure. Last month, the company announced plans with Chevron to build a massive natural gas plant in West Texas potentially generating up to 5 gigawatts—undermining the clean energy narrative.\n\nMicrosoft previously announced it achieved carbon-neutral operations annually and aims to become carbon-negative by 2030. Scaling back hourly matching targets could weaken the company's public credibility regarding data center sustainability claims, particularly as communities increasingly resist new facility construction.",
+      "published_at": "2026-05-06T19:57:31+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "SpaceX may spend up to $119B on 'Terafab' chip factory in Texas",
+      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "body": "SpaceX is evaluating a major semiconductor manufacturing investment in Grimes County, Texas. According to a county filing, the company may initially spend $55 billion, with total project costs potentially reaching $119 billion.\n\nThe facility, called Terafab, would function as a multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility. The project aims to produce chips for AI servers, satellites, SpaceX's proposed orbital data center, Tesla autonomous vehicles, and robots.\n\nElon Musk has emphasized the urgency of this venture, stating that semiconductor production hasn't kept pace with his companies' needs. He previously wrote: We either build the Terafab or we don't have the chips, and we need the chips, so we build the Terafab.\n\nThe effort includes partnerships with Tesla and chipmaking giant Intel. The facility would eventually manufacture enough chips to provide one terawatt of power annually. Intel CEO Lip-Bu Tan stated he shares Elon Musk's view that global semiconductor supply is failing to keep pace with the rapid growth in artificial intelligence demand. The collaboration aims to innovate manufacturing processes and enable shared learning across participants, using Intel's 14A technology.\n\nMusk clarified that Grimes County represents only one potential location under consideration for the factory. Morgan Stanley projected that even under an aggressive build-out, initial chip output from Terafab would not occur until mid-2028 at the earliest.",
+      "published_at": "2026-05-06T17:23:08+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "DeepSeek could hit $45B valuation from its first investment round",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "body": "DeepSeek, the Chinese artificial intelligence laboratory, is raising its inaugural venture capital round with a potential valuation reaching $45 billion, according to reporting from the Financial Times and Bloomberg. This represents a significant increase from an earlier $20 billion valuation estimate within just a few weeks.\n\nThe company gained international attention in early 2025 after releasing a large language model that achieved competitive performance with leading American models from OpenAI and Anthropic while training on a fraction of the compute power and at a fraction of the cost of those systems.\n\nKey details about the funding round: the state-backed China Integrated Circuit Industry Investment Fund is leading the investment; cloud giants Tencent and Alibaba are reportedly participating; founder and majority shareholder Liang Wenfeng, a hedge fund billionaire controlling roughly 90% of the company, is raising capital to offer employees equity stakes and compete for talent as researchers are being recruited by competitors.\n\nThe investment aligns with China's strategic goal of developing domestic artificial intelligence capabilities that can compete globally while reducing dependence on U.S. technology and chips. DeepSeek has optimized its models to run on processors from Chinese hardware manufacturer Huawei Technologies. China's Big Fund, which has primarily backed semiconductor companies like SMIC and Yangtze Memory, is leading this round—marking its first investment in an AI model company.",
+      "published_at": "2026-05-06T17:20:34+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
+      "body": "NVIDIA and Corning announced a multiyear commercial partnership on May 6, 2026, to expand U.S.-based manufacturing of optical connectivity solutions for AI infrastructure.\n\nCorning will significantly scale domestic production capabilities: increase optical connectivity manufacturing capacity by 10x, expand U.S. fiber production by more than 50%, construct three new manufacturing facilities in North Carolina and Texas, and create over 3,000 high-paying American jobs. NVIDIA is investing $300 million in Corning, and Corning issued warrants to NVIDIA for $500 million as part of the long-term partnership agreement.\n\nThe expansion addresses surging demand from AI data center buildouts. Modern AI systems require thousands of NVIDIA GPUs, necessitating massive volumes of high-performance optical fiber and photonics to move data at scale.\n\nJensen Huang (NVIDIA CEO) stated: AI is driving the largest infrastructure buildout of our time — and a once-in-a-generation opportunity to reinvigorate American manufacturing and supply chains.\n\nWendell P. Weeks (Corning CEO) emphasized: This partnership is proof that AI is not just a technology story. It is a manufacturing story, and it is happening here in the United States.\n\nShares of Corning climbed 14% following the announcement, while Nvidia's stock was up close to 3%. The partnership positions both companies to supply critical optical technologies for the expanding AI infrastructure ecosystem while supporting domestic manufacturing growth.",
+      "published_at": "2026-05-06T00:00:00+09:00",
+      "source": "NVIDIA Newsroom",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AMD posts record first-quarter results, driven by skyrocketing data center CPU demand",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-posts-record-first-quarter-results-driven-by-skyrocketing-data-center-cpu-demand-company-expects-consumer-and-gaming-revenue-to-decline-in-q2-over-rising-memory-and-component-costs",
+      "body": "AMD announced record Q1 2026 revenue of $10.25 billion, up 38% year-over-year and exceeding analyst expectations of approximately $9.89 billion. Non-GAAP EPS reached $1.37, up 43% year-over-year and beating estimates of $1.28.\n\nData Center segment revenue was $5.8 billion, up 57% year-over-year—AMD's fourth consecutive quarter of record server CPU revenue. Server CPU revenue rose more than 50% year-over-year. Cloud and enterprise sales each grew more than 50%.\n\nMeta plans to deploy up to 6 GW of AMD Instinct GPUs, starting with custom MI450, and will be a launch customer for 6th-generation EPYC. Customer engagement around the upcoming 6th-gen EPYC Venice family is ahead of prior cycles.\n\nThe company increased its outlook for the AI server and CPU market, projecting the server CPU total addressable market to exceed $120 billion by 2030, compared with earlier forecasts. AMD CEO Lisa Su explained that the ratio of CPUs to GPUs is changing from historical 1:4 or 1:8 configurations toward 1:1 or even CPU-heavy scenarios. As AI agents spawn additional CPU tasks, overall CPU demand becomes additive to GPU requirements. AMD openly targets greater than 50% market share, directly challenging Intel's historical dominance in datacenter processors. Operating income rose 83% despite only 38% revenue growth, indicating significant pricing power.",
+      "published_at": "2026-05-06T10:30:00+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "Global semiconductor sales hit nearly $300 billion in Q1 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/global-semiconductor-sales-hit-nearly-usd300-billion-in-q1-2026-chips-are-on-track-to-top-usd1-trillion-for-this-year-says-report",
+      "body": "Global semiconductor sales hit nearly $300 billion in Q1 2026, putting the industry on track to surpass $1 trillion in annual sales for the first time this year. The milestone reflects sustained AI-driven demand across the entire semiconductor supply chain, from foundries to packaging to equipment.\n\nAI-optimized chips—GPUs, custom ASICs, and accelerators—represent the primary growth driver, with demand pulling through from design houses to advanced packaging fabs. The surge has been amplified by hyperscaler capex commitments reaching unprecedented levels: the combined CapEx of the world's top nine cloud service providers has been revised upward to approximately $830 billion for 2026.\n\nHBM (High Bandwidth Memory) and advanced packaging remain the primary supply constraints. Samsung and SK Hynix together supply roughly 90% of global DRAM and have publicly warned they may not meet supply demands through 2027. The Q1 figures represent a continuation of a trend that began in late 2025, when AI chip orders began outstripping available capacity at TSMC and Samsung foundry divisions.",
+      "published_at": "2026-05-06T10:00:00+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "AMD to broaden and specialize EPYC CPUs, already working on Zen 7 architecture",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-to-broaden-and-specialize-epyc-cpus-already-working-on-zen-7-architecture-increased-customization-to-better-address-evolving-ai-and-cloud-needs",
+      "body": "AMD has announced plans to broaden and specialize its EPYC server CPU lineup, with the company already working on the Zen 7 architecture even as Zen 6-based Venice products prepare for launch. The strategy aims to better address evolving AI and cloud computing needs with increased customization across market segments.\n\nVenice is built on Zen 6 and 2-nanometer process technology. The family includes Verano, described as AMD's first EPYC CPU purpose-built for AI infrastructure. CEO Lisa Su indicated that the server CPU total addressable market is projected to exceed $120 billion by 2030, compared with earlier forecasts.\n\nThe shift toward AI agents is fundamentally changing CPU demand dynamics. Rather than static GPU-to-CPU ratios, AI inference workloads and agentic AI tasks are creating additive CPU demand that complements GPU deployments. AMD is positioning its EPYC lineup to capture this expanding market opportunity while Intel faces pressure from multiple directions.\n\nMeta has committed to deploying AMD EPYC processors alongside Instinct GPUs, signaling strong enterprise validation of AMD's roadmap. Samsung's 2-nanometer process will be used for next-generation EPYC production.",
+      "published_at": "2026-05-06T13:11:02+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Denmark presses pause on new data center grid connections as total requests hit 60 GW",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/denmark-presses-pause-on-new-data-center-grid-connections-as-total-requests-hit-60-gw-nordic-nation-is-the-latest-to-put-the-brakes-on-ai-buildouts",
+      "body": "Energinet, Denmark's power operator, has introduced a temporary pause on signing new grid connection agreements after demand for electricity capacity surged to around 60 GW—far exceeding Denmark's maximum consumption of about 7 GW. With a 60-gigawatt connection queue against 7 gigawatts of peak demand, approximately 60 GW of projects are waiting for grid connections, while the country's peak electricity demand is roughly 7 GW. The queue is nearly nine times the peak load, and a significant portion of it is data center capacity.\n\nDenmark had around 398 MW of installed data center capacity in 2026, with an additional 208 MW under construction, set to grow by 1.2 GW by 2030. Hyperscalers make up 60% of Denmark's current capacity.\n\nThe moratorium reflects a growing challenge across Europe where AI data centers require unprecedented levels of power infrastructure. Denmark joins a growing list of nations—including Ireland and the Netherlands—that have imposed restrictions on new data center connections to protect grid stability.\n\nWhen there is no certainty that the moratorium will be lifted in three months and the result is unclear, companies are considering pivoting to look at other markets. This reflects the urgency companies feel in deploying AI infrastructure globally. Nordic nations had been attractive due to their renewable energy resources and cool climates, but grid capacity limitations are now constraining further expansion.",
+      "published_at": "2026-05-06T09:30:00+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "PCIe 8.0 spec hits 1 TB/s of bandwidth and has new connector technology",
+      "url": "https://www.tomshardware.com/tech-industry/pci-sig-reveals-pcie-8-0-0-5v-spec-first-draft-includes-1-tb-s-bandwidth-and-new-connector-technology",
+      "body": "The PCI-SIG has released the PCIe 8.0 spec version 0.5, confirming the specification will deliver 1 TB/s of bidirectional bandwidth via an x16 configuration at 256 GT/s raw bit-rate. The draft marks a significant milestone as development progresses toward a final 1.0 specification expected in 2028.\n\nPCIe 8.0 doubles the bandwidth of PCIe 7.0 (512 GB/s), continuing the pattern of each generation doubling throughput. The new specification includes new connector technology to handle the increased signal integrity requirements at 256 GT/s.\n\nSynopsys and Marvell independently showcased PCIe 8.0-class electrical performance at 256 GT/s per lane at DesignCon 2026, marking early progress toward the full specification. Compliance timelines typically lag specification finalization by several years.\n\nThe specification is particularly important for AI infrastructure, where accelerators, network interface cards, SSDs, and CXL memory expansion all benefit from higher PCIe bandwidth. As AI systems scale to larger GPU clusters, the interconnect bandwidth between CPUs, GPUs, and memory becomes an increasingly critical bottleneck.",
+      "published_at": "2026-05-06T19:03:59+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "'If You Can Make A Compute Engine, You Can Sell A Compute Engine' — AMD's agentic AI CPU supercycle",
+      "url": "https://www.nextplatform.com/compute/2026/05/06/if-you-can-make-a-compute-engine-you-can-sell-a-compute-engine/5231317",
+      "body": "The article's central argument is that companies capable of manufacturing compute engines now have immediate market opportunities to sell them due to unprecedented demand—particularly for CPUs needed to support agentic AI systems.\n\nAMD projects the server CPU market will reach $120 billion by 2030, growing at 35% annually—up from earlier $60 billion forecasts. This represents a dramatic shift from the $13-14 billion market in 2015.\n\nCEO Lisa Su explains that the ratio of CPUs to GPUs—the right ratio—is changing from historical 1:4 or 1:8 configurations toward 1:1 or even CPU-heavy scenarios. As AI agents spawn additional CPU tasks, overall CPU demand becomes additive to GPU requirements.\n\nThe server CPU TAM now comprises three market segments: general-purpose compute, GenAI training/inference head nodes, and crucially, CPUs just for all of the agentic AI work.\n\nCurrent shortage conditions mean manufacturers can command premium pricing while maintaining strong margins. AMD's operating income rose 83% despite only 38% revenue growth, indicating significant pricing power. AMD openly targets greater than 50% market share, directly challenging Intel's historical dominance in datacenter processors.",
+      "published_at": "2026-05-06T23:52:37+02:00",
+      "source": "The Next Platform",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "US government increases AI suppliers and rethinks Anthropic's role",
+      "url": "https://www.artificialintelligence-news.com/news/us-government-increases-ai-in-defence-suppliers-roster-and-rethinks-anthropics-role/",
+      "body": "The Trump administration has significantly broadened its roster of approved AI vendors for defense applications. The Pentagon recently signed agreements with Microsoft, Reflection AI, Amazon, and Nvidia, allowing their systems to be deployed on classified operations alongside existing partners OpenAI, xAI, and Google.\n\nThe expansion comes amid an ongoing dispute with Anthropic AI. CEO Darius Amodei objected to the phrase 'any lawful use,' arguing it could permit surveillance of American civilians and autonomous weapons development. The Pentagon subsequently canceled a $200 million contract, designating Anthropic a 'supply chain risk'—reportedly the first such designation for a US-based company. Anthropic has filed suit seeking compensation for lost revenues.\n\nAccording to the Pentagon statement: The Department will continue to build an architecture that prevents AI vendor lock-in while ensuring long-term flexibility for the Joint force. This multi-vendor approach reduces dependency on individual companies' leadership decisions, a concern highlighted by past employee protests at Google and Amazon regarding military applications.\n\nThe new AI systems will access classified information at Impact Levels 6 and 7, supporting document processing, data synthesis, and warfighter decision-making. Previously, Anthropic's Claude operated within Palantir's Maven toolset for classified work.\n\nAccording to reporting citing administration sources, the Trump administration may be seeking ways to reintegrate Anthropic, suggesting ongoing discussions despite public tensions.",
+      "published_at": "2026-05-06T12:23:00+00:00",
+      "source": "AI News",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "미국 정부의 AI 모델 사전 점검에 구글·MS·xAI 합류",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210121",
+      "body": "미국 상무부 산하 AI 표준혁신센터(CAISI)는 5월 5일 구글 딥마인드, 마이크로소프트, xAI와 AI 모델 성능 및 위험 평가를 위한 협약을 체결했다고 발표했다. 이 협약에 따라 기업들은 최신 AI 모델을 출시 전 CAISI에 제출해야 하며, 정부는 '사전 배포 평가'와 함께 안전 메커니즘을 비활성화한 상태에서의 사이버 보안·생물학·화학 분야 국가안보 위험 분석도 실시한다.\n\nCAISI는 독립적이고 엄격한 평가 체계가 첨단 AI의 역량과 국가안보 시사점을 이해하는 데 필수적이라고 밝혔다. 해당 기관은 비공개 모델을 포함해 40건 이상의 평가를 완료한 바 있다.\n\n이번 조치는 2024년 바이든 행정부가 오픈AI·앤트로픽과 체결한 협약을 확대한 것이다. 트럼프 행정부는 감독 기구 명칭을 AISIC에서 CAISI로 변경하고 참여 범위를 넓혔다. 백악관은 새 공공-민간 협의체 구성과 사전 출시 검증 절차를 공식화하는 행정명령 발동도 검토 중이다.\n\n앤트로픽의 Claude Misos 모델이 소프트웨어 취약점 탐지 및 악용 능력에서 강화된 역량을 보임에 따라 AI 보안 위험에 대한 정부의 관심이 높아진 것이 이번 조치의 배경이다.",
+      "published_at": "2026-05-06T13:41:55+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽, 구글 5GW 컴퓨팅 용량 확보 위해 291조 투입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210145",
+      "body": "앤트로픽이 구글과의 5년 계약을 통해 약 291조원(약 2000억달러) 규모의 컴퓨팅 용량을 확보하기로 했다. 이 계약은 구글 클라우드의 총 계약 잔액 중 40% 이상을 단일 고객이 차지하는 이례적인 규모다.\n\n구글은 앤트로픽에 최대 400억달러(약 58조원)를 투자하기로 했으며, 2027년부터 TPU 칩 기반 대규모 컴퓨팅 자원을 5기가와트(GW) 규모로 제공한다. 브로드컴과의 협력도 포함돼 총 3.5GW의 TPU 기반 컴퓨팅 용량을 확보할 예정이다.\n\n오픈AI의 컴퓨팅 지출은 2017년 약 3000만달러에서 현재 연 500억달러 수준으로 급증했으며, 2030년까지 누적 6000억달러 규모로 투자할 계획이다. 앤트로픽도 이에 준하는 수준의 인프라 투자를 진행 중이다.\n\n앤트로픽은 AWS 트레이니엄 칩, 구글 TPU, 엔비디아 GPU, 코어위브와의 장기 협약 등 다각화된 컴퓨팅 전략을 추진하고 있으며, xAI의 Colossus 1 데이터센터 300MW 용량도 확보했다.",
+      "published_at": "2026-05-06T18:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "Google TPU"
+    },
+    {
+      "title": "애플, 인텔·삼성과 파운드리 협력 검토...삼성은 주가 '1조달러' 돌파",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210114",
+      "body": "애플이 아이폰·맥 등 핵심 프로세서 위탁 생산을 위해 삼성전자·인텔과의 파운드리 협력을 검토하고 있다고 블룸버그가 5월 5일 보도했다. 다만 아직 초기 단계로 발주는 이뤄지지 않았다.\n\n애플 CEO 팀 쿡은 현재 공급망 유연성이 평소보다 낮다고 밝히며 반도체 공급 부족이 기업 성장의 제약 요인이라고 언급했다. 애플은 현재 TSMC 시스템온칩(SoC) 생산에 전적으로 의존하고 있다.\n\n이 발표가 전해지자 시장이 즉각 반응했다. 인텔 주가는 13% 급등하며 사상 최고치를 기록했고, 애플 주가도 3% 상승했으며, 삼성전자 주가는 14.6% 뛰어올라 TSMC에 이어 아시아에서 두 번째로 시가총액 1조달러(약 1400조원)를 돌파했다.\n\n삼성전자가 이 파트너십을 실현할 경우 TSMC의 독점 구도에 도전할 수 있는 중요한 반전 기회를 잡는 것이나, 애플은 TSMC 외 공정의 수율 안정성과 기술 신뢰성을 신중하게 평가하고 있어 실제 계약 체결까지는 상당한 시간이 걸릴 것으로 보인다.",
+      "published_at": "2026-05-06T15:08:09+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽 정책 총괄 다음주 방한...과기부와 '미소스' 논의",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210156",
+      "body": "앤트로픽의 글로벌 정책 총괄 마이클 셀리토가 다음주 방한해 과학기술정보통신부와 '미소스(Misos)' 모델 접근 방안을 논의할 예정이다.\n\n셀리토는 국가AI전략위원회 면담에 이어 과기부 당국자들과 회의를 가질 예정이다. 이번 방문은 AI 보안 생태계를 흔들어놓은 미소스에 대한 대응 전략을 점검하고, 모델 접근 방식을 논의하는 데 초점이 맞춰질 것으로 보인다.\n\n현재 미소스 접근권은 엔비디아, 구글, 마이크로소프트 등 약 50개 기업·기관에 한정돼 있다. 미국 외 국가들은 접근 권한을 요청하고 있으나, 공개적으로 테스트 중이라고 밝힌 곳은 영국 AI 안전 연구소뿐이다.\n\n앤트로픽이 미국 정부와 모델 배포를 협의하는 만큼, 미소스 접근은 사실상 백악관의 승인이 필요한 상황이다. 한국 정부는 업무 회의를 통해 거듭 접근권을 요청하고 국내 AI 안전 연구소 중심의 참여 방안을 모색해 왔다. 백경훈 장관은 미국과의 협력과 국가 안보 균형의 필요성을 강조하며, 특정 모델 대응을 넘어 국가 차원의 AI 조달·활용 프레임워크 수립이 필요하다고 역설한 바 있다.",
+      "published_at": "2026-05-06T18:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic to use all of SpaceX-xAI's Colossus 1 data center compute",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/",
+      "body": "Anthropic signed an agreement with SpaceX to use all of the compute capacity at the Colossus 1 data center in Memphis, Tennessee. The deal gives Anthropic access to more than 300MW of capacity across more than 220,000 Nvidia GPUs within the month. The hardware includes dense deployments of H100, H200, and next-generation GB200 accelerators.\n\nAnthropic says the additional capacity enables higher limits for Claude Code on paid plans, removes peak-hour reductions for Pro and Max accounts, and increases request volumes for Claude Opus models.\n\nThe deal with Anthropic, a direct competitor to xAI, will see the generative AI firm hand over a little under half of its total GPU fleet of around 500,000. xAI had already moved training to a newer data center, Colossus 2, making the Colossus 1 capacity available for external clients.\n\nAnthropic has previously secured large-scale compute arrangements with major technology firms, including up to 5 gigawatts with Amazon, with nearly 1 gigawatt expected by the end of 2026, and it also has a 5 gigawatt agreement with Alphabet's Google and Broadcom starting in 2027, alongside a partnership with Microsoft and NVIDIA that includes $30 billion of Azure capacity.\n\nAs part of this agreement, Anthropic also expressed interest in partnering to develop multiple gigawatts of orbital AI compute capacity.",
+      "published_at": "2026-05-06T16:56:00+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Intel Cites Chip Supply Constraints, Aligns With Musk on Terafab Initiative",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=6806",
+      "body": "Intel has joined the Terafab project alongside SpaceX, xAI, and Tesla to tackle global semiconductor supply shortages driven by surging artificial intelligence demand. Intel CEO Lip-Bu Tan stated that he shares Elon Musk's perspective that global semiconductor supply is failing to keep pace with the rapid growth in artificial intelligence demand.\n\nThe collaboration aims to innovate manufacturing processes and enable shared learning across participants. The initiative involves constructing a fabrication facility in Austin, Texas, using advanced 2-nanometer-class processes. According to Musk, Terafab will utilize Intel's 14A technology. The partnership spans chip design, front-end manufacturing, and advanced packaging capabilities.\n\nTerafab targets 1 terawatt of annual production capacity—roughly 50 times the combined global output of Intel, TSMC, and Samsung Electronics.\n\nIntel's Chief Financial Officer David Zinsner disclosed that unmet foundry demand represents billions of dollars in missed revenue, though he declined to provide specifics.\n\nIntel's 18A process is expected to achieve year-end yield targets ahead of schedule, with the company raising wafer volumes across multiple technology nodes to meet escalating demand.",
+      "published_at": "2026-05-07T00:00:00+09:00",
+      "source": "THE ELEC",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Tesla Seeks to More Than Double AI6 Chip Production With Samsung",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=5646",
+      "body": "Tesla is in discussions with Samsung Electronics to significantly expand manufacturing capacity for its next-generation AI6 chip. Senior procurement executives from Tesla are expected to visit Samsung to negotiate increased foundry production volumes for the 2-nanometer processor.\n\nThe original agreement specified approximately 16,000 wafers monthly. Tesla now seeks an additional 24,000 wafers of capacity, which would bring total monthly production to around 40,000 wafers if finalized.\n\nTesla and Samsung signed an eight-year foundry agreement valued at approximately 22.8 trillion won ($17 billion) through December 31, 2033. The expanded order would increase the overall contract value beyond initial estimates of 2-3 trillion won in annual revenue for Samsung.\n\nThe AI6 chip will power multiple Tesla platforms, including autonomous-driving systems, the Optimus humanoid robot, and internal AI data center infrastructure. The processors are expected to be deployed in cluster configurations on server boards, potentially replacing the role originally planned for Tesla's Dojo supercomputer project.\n\nThis partnership aligns with Tesla's 'No China, No Taiwan' component strategy, utilizing Samsung's advanced Texas facility. Samsung's foundry division would secure substantial leading-edge production capacity. Additionally, Samsung's System LSI division has completed development of a 5G modem for Tesla vehicles, with initial shipments expected in the first half of 2026.",
+      "published_at": "2026-05-07T00:00:00+09:00",
+      "source": "THE ELEC",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "DEEPX Targets 60 Billion-Won Revenue in 2026, Citing Surge in NPU Demand",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=6557",
+      "body": "DEEPX has significantly raised its revenue forecast for 2026 to 60 billion won (approximately $40 million), more than doubling its previous projection of $17 million. This ambitious target represents a roughly 18-fold increase from the company's 2025 revenue of 3.3 billion won.\n\nThe expansion is primarily fueled by the company's neural processing unit chip, the DX-M1, which entered mass production late last year. The chip has already secured around 30 purchase orders totaling $6.7 million (about 10 billion won). With proof-of-concept projects underway among approximately 350 companies, the firm anticipates securing hundreds of additional corporate customers throughout the year.\n\nThe DX-M1 is priced at roughly $50 per unit, while its module version costs around $250. The company's chips offer significantly better efficiency and performance than competing products, consuming only 2–3 watts of power. Manufacturing through Samsung Electronics using a 5-nanometer process, DEEPX achieves a 91.1% yield rate, described as substantially above the typical industry range of 50–80%.\n\nThe second-generation DX-M2 chip is slated for mass production in late 2027, with the company also exploring expansion into the defense sector through partnerships.",
+      "published_at": "2026-05-07T00:00:00+09:00",
+      "source": "THE ELEC",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "딥엑스·리벨리온·퓨리오사AI 판교 집합 … 거래소, AI 상장 불씨 살리기",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/05/04/2026050400163.html",
+      "body": "한국거래소가 2026년 5월 4일 판교에서 딥엑스, 래블업, 리벨리온, 업스테이지, 퓨리오사AI 등 국내 AI 기업 대표들을 불러 코스닥 상장 지원 방안을 논의했다.\n\n딥엑스는 저전력·저발열 기술에 강점을 갖는 온디바이스 AI 반도체 칩을 개발하는 기업으로, 양산 완료 제품을 기반으로 다수 고객사를 확보하고 있다. 래블업은 GPU 관리 효율화를 지원하는 AI 인프라 운영 플랫폼 'Backend.AI'를 개발·운영하고 있다. 리벨리온과 퓨리오사AI는 AI 추론에 특화된 NPU 반도체를 설계하는 기업으로, 양산 완제품 보유 및 높은 기술력을 인정받고 있다.\n\n한국거래소 정은보 이사장은 국내 AI 선도 기업들이 상장 준비 과정에서 어려움을 겪지 않도록 적극 지원하겠다고 밝혔다. 거래소는 기술특례 상장제도 등 제도 개선 사항을 설명하고, AI 기업들은 상장 준비 과정의 애로사항과 개선 의견을 전달했다.\n\n다만 전망은 불투명하다. 2026년 1분기 신규 상장은 11개사로 2025년 25개사 대비 56% 급감했고, IPO 조달액도 전년 대비 57.2% 줄어든 7968억원에 그쳤다. 코스닥 상장 유지 요건도 강화됐다. 올해 최소 시가총액 기준이 40억원에서 150억원으로, 내년에는 300억원으로 높아진다.",
+      "published_at": "2026-05-04T00:00:00+09:00",
+      "source": "뉴데일리",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Samsung Foundry SF2P vs Tesla AI5: The 2026 Showdown",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/05/202605060603511252fbbec65dfb_1",
+      "body": "Tesla has selected both TSMC and Samsung Electronics as dual suppliers for its next-generation AI5 chip, critical for autonomous driving and AI infrastructure. However, industry analysts suggest Samsung's actual partnership status hinges on proving competitive 2nm process yields.\n\nTesla's dual-sourcing approach aims to reduce geopolitical risk and strengthen negotiating leverage. The AI5 chip powers Tesla's full self-driving capability, humanoid robot Optimus, and supercomputer Dojo—making supply chain stability essential.\n\nAs one source notes, Samsung must still prove superior process stability and yields compared to TSMC to move beyond secondary supplier status. The company's Texas Taylor foundry, launching full production by year-end 2026, faces this critical test. Samsung's 2nm variant SF2P is applied in this chip production.\n\nMarket observers identify Q3-Q4 2026 as pivotal. Samsung's SF2P yield data during this period will determine whether the company achieves parity with TSMC and attracts major customers like Apple who previously left for competing foundries.\n\nThree key indicators to monitor: Taylor factory yield stabilization speed; pricing and service competitiveness versus TSMC; and adoption by other major tech companies (Google, Meta) pursuing custom AI chips. Samsung faces a harsh but attractive test where demonstrating commercial reliability—not just technical capability—becomes essential for reshaping the foundry landscape.",
+      "published_at": "2026-05-06T06:03:51+09:00",
+      "source": "글로벌이코노믹",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA invests $300 million in Corning to build three new US-based optical fiber plants",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-invests-usd300-million-in-corning-to-build-three-new-us-based-optical-fiber-plants-ai-infrastructure-deal-would-boost-fiber-production-capacity-by-over-50-percent",
+      "body": "Nvidia is investing $300 million in Corning to enable it to build three additional manufacturing facilities in the U.S. to produce optical fiber used to build AI data centers. The expansion includes the construction of three new advanced manufacturing facilities in North Carolina and Texas and the creation of more than 3,000 new high-paying American jobs.\n\nCorning will increase its U.S.-based optical connectivity manufacturing capacity by 10x and expand its U.S. fiber production capacity by more than 50% to meet the accelerating demand driven by AI factory buildouts. Additionally, Corning issued warrants to NVIDIA for $500 million as part of the long-term partnership agreement.\n\nModern AI workloads require hundreds of thousands of AI accelerators working in concert and moving data at unprecedented scale. The only way to meet bandwidth and latency requirements for such deployments is to use optical fiber and photonics hardware for connectivity.\n\nJensen Huang stated: AI is driving the largest infrastructure buildout of our time — and a once-in-a-generation opportunity to reinvigorate American manufacturing and supply chains.\n\nShares of Corning climbed 14% following the announcement, while Nvidia's stock was up close to 3%.",
+      "published_at": "2026-05-06T17:13:05+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "HyperAccel: LPU 기반 추론 가속기 Bertha 500, 2026년 상반기 샘플 출시",
+      "url": "https://www.eetimes.com/korean-startup-takes-on-cost-and-latency-with-llm-specific-chip/",
+      "body": "한국 AI 반도체 스타트업 하이퍼엑셀(HyperAccel)이 LLM 추론 전용 가속기 Bertha 500을 2026년 1분기 말 샘플 출시할 계획이다. Bertha 500은 삼성 4nm 공정으로 제조되며, 32개 LPU 코어와 256MB SRAM, 768 TOPS(INT8) 성능을 제공한다.\n\n하이퍼엑셀의 핵심 가치 제안은 비용 효율성이다. HBM 대신 LPDDR5X 메모리를 사용해 하드웨어 비용을 절감하면서도 GPU 대비 약 5배 높은 토큰/초 성능(동일 TOPS 기준)을 제공한다. 회사는 NVIDIA DGX A100 대비 성능(+30%), 비용 효율성(2배), 전력 효율성(2배)에서 우위를 주장한다.\n\n하이퍼엑셀은 지금까지 4500만달러를 조달했으며 77명의 팀을 보유하고 있다. Bertha 100(LPDDR5x 두 채널, 2026년 4분기 샘플 예정)도 라인업에 포함돼 있다. 셈이파이브(SEMIFIVE)가 하이퍼엑셀의 AI 칩 양산 계약을 체결한 바 있다.",
+      "published_at": "2026-05-06T00:00:00+09:00",
+      "source": "EE Times",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "HyperAccel"
+    },
+    {
+      "title": "리벨리온, KOSDAQ·나스닥 이중 상장 전략…아람코와 데이터센터 랙 검증 진행",
+      "url": "https://ideal-life.co.kr/254",
+      "body": "국내 AI 반도체 팹리스 스타트업 리벨리온이 2026년 코스닥 상장을 우선 추진하되, 이후 나스닥 상장도 목표로 하는 이중 포석을 두고 있다. 회사는 미래에셋 주도의 6400억원 규모 프리IPO 라운드를 완료했으며, 상장 시 기업가치는 약 5조원 수준으로 예상된다.\n\n리벨리온은 현재 사우디아라비아 아람코와 함께 데이터센터 랙 배송을 완료하고 상용화 목적의 검증(PoC)을 진행 중이다. 이 협력이 대규모 수출 계약으로 이어지면 리벨리온의 해외 매출 비중이 비약적으로 커질 것으로 기대된다.\n\n리벨리온의 Rebel100은 4개의 320mm² NPU 다이를 UCIe 인터커넥트로 연결한 멀티칩렛 구조로, 삼성 SF4X 공정과 I-CubeS 고급 패키징을 적용했다. 총 144GB HBM3E와 12Hi 스택을 통해 NVIDIA H200과 유사한 성능을 낮은 전력에서 구현한다고 주장한다. 리벨리온은 SK텔레콤, KT클라우드 등 국내 주요 통신사 및 클라우드 사업자에 대한 약 3년간의 대규모 추론 배포 경험을 보유하고 있다.",
+      "published_at": "2026-05-06T00:00:00+09:00",
+      "source": "투자정보블로그",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "FuriosaAI: 2026년 RNGD NPU 2만 장 공급 목표, LG U+와 소버린 AI 어플라이언스 출시",
+      "url": "https://furiosa.ai/blog/lg-u-and-furiosaai-unveil-the-sovereign-ai-appliance",
+      "body": "퓨리오사AI(FuriosaAI)는 2026년 전 세계 고객에게 2만 장의 NPU를 공급하는 것을 목표로 하고 있으며, 이는 회사 최초의 대규모 매출 사이클이다. MWC 2026에서 LG유플러스와 공동으로 '소버린 AI 어플라이언스'를 공식 출시했다. 이 제품은 기초 모델, 플랫폼, AI 실리콘 모두 국내 기술로 개발된 최초의 '즉시 실행 가능한' AI 추론 솔루션이다.\n\n2세대 NPU인 RNGD(Renegade)는 TSMC 5nm 공정 기반의 텐서 축소 프로세서(TCP) 아키텍처를 채택하며 1.0GHz에서 동작한다. 절대적인 연산 성능은 NVIDIA RTX Pro 6000급과 유사하지만 전력 소모는 200W 수준으로, 경쟁 GPU의 700~1000W 대비 월등히 낮다.\n\n현재 월 1000장 규모의 양산을 진행 중이며, 연말까지 월 2000~3000장으로 늘릴 계획이다. 한국거래소 AI 기업 CEO 간담회에도 참여해 코스닥 상장 지원 방안을 논의했다. 딥노이드와 NPU 기반 생성형 의료 AI 사업화 협약도 체결했다.",
+      "published_at": "2026-05-06T00:00:00+09:00",
+      "source": "FuriosaAI 공식 블로그 / 종합",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "FuriosaAI"
+    },
+    {
+      "title": "챗GPT의 아버지…이제 중요한 것은 '로봇'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210148",
+      "body": "오픈AI CEO 샘 알트만이 로보틱스를 인공일반지능(AGI) 시대의 핵심 과제로 강조했다. 알트만은 로봇 없이 AGI는 악몽이 될 수 있다며 휴머노이드를 넘어선 '범용 로봇 공장'이 필요하다고 역설했다.\n\n알트만의 이번 발언은 오픈AI가 소프트웨어·모델 개발을 넘어 물리적 AI 인프라로 전선을 넓히고 있음을 보여준다. 그는 AI가 단순한 소프트웨어 문제가 아니라 제조·물류·공급망 전반의 혁신을 필요로 한다고 밝혔다. 범용 로봇이 실현되려면 막대한 컴퓨팅 인프라와 반도체 공급이 뒷받침돼야 한다는 점에서 반도체·데이터센터 투자와 직결된 의제다.",
+      "published_at": "2026-05-07T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "아모데이 \"미소스 유효 기간은 6~12개월...중국이 곧 따라잡을 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210157",
+      "body": "앤트로픽 CEO 다리오 아모데이가 자사의 AI 모델 '미소스(Misos)'의 기술적 우위가 6~12개월에 불과하다며 중국이 곧 따라잡을 것이라고 경고했다. 아모데이는 현재 미소스가 소프트웨어 취약점 탐지, 자율 코딩, 과학 연구 등에서 인간 전문가를 능가하는 수준이라고 밝혔다.\n\n그는 AI 기술의 국가 경쟁력을 유지하기 위해 미국이 지속적인 연구 투자와 규제 환경 정비를 서둘러야 한다고 강조했다. 중국의 딥시크(DeepSeek)가 불과 수주 만에 기업 가치를 200억달러에서 450억달러로 끌어올리며 첫 외부 투자를 받는 등 AI 인프라와 모델 개발에서 빠르게 추격하고 있는 상황이다.\n\n앤트로픽은 현재 구글 TPU 기반 5GW 컴퓨팅 용량 확보(2027년 시작), xAI Colossus 1 300MW 확보, AWS·코어위브 추가 계약 등 다각적 인프라 확보에 나서고 있다.",
+      "published_at": "2026-05-06T18:13:36+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "UNIST·경북대, 하루 만에 반도체 회로 설계하는 AI 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210101",
+      "body": "울산과학기술원(UNIST)과 경북대학교 공동 연구팀이 하루 만에 반도체 회로를 설계하는 인공지능(AI) 시스템을 개발해 공개했다. 이 AI는 기존에 수개월이 걸리던 아날로그 회로 설계 작업을 단 하루로 단축할 수 있다.\n\n연구팀이 개발한 AI는 강화학습 기반으로 설계 규칙을 학습하며, 트랜지스터 배치·배선 최적화 등 복잡한 레이아웃 과정을 자동화한다. 연구 결과는 국제 학술지에 게재됐으며, 향후 EDA(전자설계자동화) 툴과의 통합을 통해 상용화를 추진할 계획이다.\n\n반도체 설계 자동화는 팹리스 생태계의 경쟁력을 높이는 핵심 기술로, 국내 AI 반도체 스타트업들의 설계 주기 단축에 직접적인 영향을 미칠 수 있다.",
+      "published_at": "2026-05-06T13:17:13+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "챗GPT 기본 모델 'GPT-5.5 인스턴트'로 교체...\"지능↑ 환각↓\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210110",
+      "body": "오픈AI가 챗GPT의 기본 모델을 'GPT-5.5 인스턴트(Instant)'로 교체했다. GPT-5.5 인스턴트는 GPT-5.3 인스턴트보다 고위험 프롬프트(의료·법률·금융 등)에서 환각 답변을 52.5% 줄였으며, 사실 오류도 37.3% 감소했다. 응답 길이도 30.2% 짧아지고 불필요한 후속 질문과 이모티콘을 줄여 간결성을 높였다.\n\nGPT-5.5 인스턴트는 과거 대화, 파일, Gmail을 참조해 개인화 답변을 제공하는 검색 기능을 추가했다. 이 기능은 플러스·프로 사용자에게 먼저 웹 버전으로 제공된다. 모든 챗GPT 모델에서 메모리 출처를 표시해 답변 생성 근거를 확인하고 수정할 수 있게 됐다.\n\n롤아웃은 플러스·프로 구독자부터 시작해 이후 무료·Go·비즈니스·엔터프라이즈 사용자 순으로 확대된다. 이번 업데이트는 오픈AI가 추론 모델과 범용 모델을 병행 발전시키는 전략의 일환으로, 기본 모델의 정확성과 사용성을 높이는 데 초점을 맞춘 것으로 풀이된다.",
+      "published_at": "2026-05-06T12:25:29+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "collection_date_kst": "2026-05-06",
+  "run_summary": {
+    "total": 28,
+    "by_topic": {
+      "ai": 12,
+      "semiconductor": 7,
+      "datacenter": 7,
+      "competitor": 2
+    },
+    "by_competitor": {
+      "NVIDIA": 1,
+      "Broadcom": 2,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "Tenstorrent": 0,
+      "Moreh": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Napatech": 0,
+      "Marvell": 0,
+      "Cerebras": 2,
+      "Astera Labs": 2,
+      "AWS": 1,
+      "Google": 1,
+      "Microsoft": 1,
+      "Huawei": 1
+    },
+    "competitor_tagged_total": 11,
+    "sources_consulted": 28,
+    "skipped_paywalled": 4,
+    "notes": "수집 윈도우: 2026-05-05(화) ~ 2026-05-06(수) KST. 마지막 이슈: 2026-05-04. [채널A 오류] hpcwire.com 피드 403, networkworld.com RSS 404, SemiAnalysis 피드 2025년 9월 이후 미업데이트, Naver News 섹션 JS 봇 차단, DataCenterDynamics 기사 본문 대부분 403, 더일렉 일부 기사 페이월. [경쟁사 커버리지 공백] Tenstorrent/Moreh/HyperAccel/FriendliAI/Napatech/Marvell — 05-05~06 신규 기사 미발견. [주요 이슈] 삼성전자 파업 리스크(5/21~6/7 예고) 2일 연속 주요 이슈; Astera Labs 320-lane PCIe 스위치 발표(5/5) + Q1 실적 발표가 datacenter 핵심 신규 이슈; Cerebras IPO 가속(5/4 PDT → 5/5 KST); Huawei AI 칩 $12B 목표(5/5) NVIDIA 中시장 점유율 zero 확인."
+  },
+  "articles": [
+    {
+      "title": "Broadcom Helps CPU And XPU Makers Go Vertical With Compute",
+      "url": "https://www.nextplatform.com/compute/2026/05/05/broadcom-helps-cpu-and-xpu-makers-go-vertical-with-compute/5219419",
+      "body": "Broadcom is facilitating 3D chip stacking technology that enables CPU and XPU manufacturers to integrate multiple computing components vertically within a single socket. This approach, called 3.5D Extreme Dimension System in Package (XDSiP), significantly reduces power consumption and latency compared to traditional off-chip interconnections.\n\nThe technology achieves almost an order of magnitude larger signal density—approximately 14,000 signals per square millimeter—compared to face-to-back 3D approaches. The chief advantage involves using face-to-face bonding where metal layers align naturally, requiring only bonding agents rather than specialized architectural modifications.\n\nMultiple companies are adopting XDSiP stacking, including Fujitsu with its upcoming Monaka Arm server CPU featuring 144 cores across 2-nanometer and 5-nanometer chiplets. At least one of six XPU makers utilizing this technology is expected to ship products in late 2026, with others following in 2027.\n\nThe approach enables designers to place high-performance compute on top dies for better heat dissipation while positioning SRAM and lower-activity components below. Two of the six XPU makers should be Amazon Web Services with its Trainium4 due at the end of this year and Meta Platforms with its MTIA 500 also due in 2027.\n\nBroadcom's 3.5D XDSiP platform is positioned as a key enabler for the next generation of custom AI accelerators, allowing hyperscaler customers to push performance density limits while managing thermal budgets more effectively.",
+      "published_at": "2026-05-05T19:29:02+02:00",
+      "source": "The Next Platform",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor", "ai"],
+      "competitor": "Broadcom"
+    },
+    {
+      "title": "ASML CEO Christophe Fouquet on his company's monopoly: no one is coming for us",
+      "url": "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+      "body": "ASML dominates the semiconductor equipment industry as the sole manufacturer of extreme ultraviolet (EUV) lithography machines—devices costing $200–400 million each that are essential for producing advanced chips. The Dutch company's monopoly has driven its valuation above $530 billion.\n\nCEO Christophe Fouquet downplayed startup rival Substrate's ambitions, arguing that successfully manufacturing these machines requires decades of accumulated expertise. He noted that being able to make an image is a starting point, but scaling production demands nanometer accuracy and enormous capital investment.\n\nFouquet acknowledged that demand significantly outpaces supply, with hyperscalers unlikely to receive sufficient chips for the next two, three, even five years. Regarding China's potential reverse-engineering efforts, Fouquet stated definitively that no EUV machines have been exported there, making such claims simply wrong.\n\nOn TSMC's concerns about expensive high-NA systems, Fouquet countered that despite higher equipment costs, the machines deliver 20%–30% cost reduction per wafer. The CEO also co-signed an opinion piece on May 5 with other European technology companies on semiconductor policy.\n\nASML now sees 2026 net sales to be between 36 billion euros and 40 billion euros, following a 36% stock appreciation year-to-date driven by AI chipmaker demand.",
+      "published_at": "2026-05-05T00:00:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Astera Labs Extends Leadership in Open, AI Scale-Up Networking with New 320 Lane Scorpio X-Series Smart Fabric Switch",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288226/0/en/astera-labs-extends-leadership-in-open-ai-scale-up-networking-with-new-320-lane-scorpio-x-series-smart-fabric-switch.html",
+      "body": "Astera Labs (Nasdaq: ALAB) today announced the Scorpio X-Series 320 Lane Smart Fabric Switch, the industry's largest open, memory-semantic fabric switch engineered to improve token economics and support large-scale scale-up clusters with minimal latency.\n\nCEO Jitendra Mohan stated: The Scorpio X-Series 320 Lane high-radix AI fabric switch replaces multiple legacy switches to enable larger scale-up cluster sizes in a single hop.\n\nKey product highlights include support for increased cluster sizes with minimal latency, hardware-accelerated Hypercast and In-Network Compute engines that boost collective operations by up to 2x, and an expanded Scorpio P-Series spanning 32 to 320 lane configurations.\n\nThe switch begins shipping into a merchant scale-up switch silicon market projected to reach $20 billion by 2030, with production ramping in the second half of 2026. The company plans to showcase the technology at Computex 2026 in Taipei (June 2–5).\n\nAstera Labs also collaborated on UALink 2.0 specification development. The Intelligent Connectivity Platform integrates CXL, Ethernet, NVLink Fusion, PCIe, and UALink semiconductor-based technologies with the COSMOS software suite to unify diverse components into cohesive, flexible systems delivering end-to-end scale-up and scale-out connectivity.",
+      "published_at": "2026-05-05T16:05:00-04:00",
+      "source": "GlobeNewswire / Astera Labs",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Astera Labs"
+    },
+    {
+      "title": "Astera Labs Reports First Quarter 2026 Financial Results",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288259/0/en/astera-labs-reports-first-quarter-2026-financial-results.html",
+      "body": "Astera Labs (Nasdaq: ALAB) today announced record quarterly revenue of $308.4 million, representing 14% sequential growth and 93% year-over-year expansion. The strong results were driven by robust demand for the PCIe 6 portfolio and initial shipments of the new Scorpio X-Series 320-lane AI scale-up fabric switch.\n\nFinancial highlights for Q1 2026:\n- Revenue: $308.4 million (14% sequential, 93% YoY growth)\n- GAAP gross margin: 76.3%\n- GAAP operating margin: 20.1%\n- GAAP net income: $80.3 million\n- GAAP diluted EPS: $0.44\n- Non-GAAP diluted EPS: $0.61\n\nQ2 2026 guidance:\n- Revenue: $355–$365 million\n- GAAP gross margin: ~73%\n- GAAP diluted EPS: $0.44–$0.46\n\nCEO Jitendra Mohan noted that adoption of the Intelligent Connectivity Platform continues to expand with the launch and initial shipments of the new Scorpio X-Series 320-lane AI scale-up fabric switch. The company also expanded its Scorpio P-Series portfolio supporting configurations from 32 to 320 lanes and collaborated on UALink 2.0 specification development.",
+      "published_at": "2026-05-05T16:05:00-04:00",
+      "source": "GlobeNewswire / Astera Labs",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Astera Labs"
+    },
+    {
+      "title": "Astera Labs Scorpio 320-Lane PCIe Switch Update",
+      "url": "https://www.servethehome.com/astera-labs-scorpio-320-lane-pcie-switch-update/",
+      "body": "Astera Labs has announced an update to its Scorpio PCIe switch family, introducing a 320-lane variant designed for large-scale server systems. The company's expansion from PCIe retimers into full switch solutions directly challenges Broadcom's traditional dominance in the server connectivity market.\n\nThe new Scorpio X-Series 320-lane switch is currently shipping to major hyperscalers. The broader P-Series product range now spans from 32 to 320 lanes, enabling system designers to match switch capacity to their specific architectural needs. The 320-lane configuration accommodates 20 devices at 16 lanes each.\n\nA key advantage of larger switches involves reducing the total number of chips required in complex topologies. Larger switches mean system designers can connect more devices with fewer switch chips and fewer hops, reducing cascading complexity in server designs.\n\nThe switches incorporate Astera's Hypercast data replication engine and In-Network Compute capabilities, targeting collective operations like all-reduce and reduce-scatter that consume significant time in large GPU systems. These features aim to improve tokens-per-watt efficiency metrics.\n\nThe announcement reflects growing demand for advanced PCIe/CXL connectivity solutions as AI infrastructure scales rapidly.",
+      "published_at": "2026-05-05T20:05:00+00:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Astera Labs"
+    },
+    {
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "body": "OpenAI announced the release of GPT-5.5 Instant, which will replace GPT-5.3 Instant as ChatGPT's default model. The company reports that the new model reduces hallucination in sensitive areas such as law, medicine, and finance while preserving rapid response times.\n\nThe model demonstrates improved performance on standardized tests, scoring 81.2 on the AIME 2025 math assessment compared to the predecessor's 65.4, and achieving 76 on the MMMU-Pro benchmark versus 69.2.\n\nA notable feature involves enhanced context management, enabling the model to search previous conversations, files, and Gmail for personalized responses. This capability will initially roll out to Plus and Pro users on the web, with broader access planned for other user tiers.\n\nThe release also introduces memory source transparency across all models, allowing users to see where answers originated and correct inaccurate sources. However, shared chats will not display these sources to other recipients.\n\nGPT-5.5 Instant is deploying to Plus, Pro, Business, and Enterprise users in ChatGPT. The article notes past user resistance to model retirement, specifically referencing backlash when GPT-4o was discontinued in February 2026.",
+      "published_at": "2026-05-05T17:00:00+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
+      "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+      "body": "Apple intends to introduce a feature in iOS 27 that enables iPhone users to select from multiple third-party large language models for on-device AI functionality. According to Bloomberg, this capability—internally named Extensions—will allow users to access generative AI capabilities from installed apps on demand, through Apple Intelligence features such as Siri, Writing Tools, Image Playground and more.\n\nThe feature will extend to iPadOS 27 and macOS 27 as well. Currently, models from Google and Anthropic are undergoing testing, though ChatGPT's status remains unclear. Since it is presently the default model available, it may remain as an option.\n\nAs Tim Cook steps down as CEO, incoming leader John Ternus will oversee Apple's AI direction. Despite perceptions that Apple lags in AI services compared to competitors, the company generates substantial AI-related revenue. Rather than constructing extensive AI infrastructure, Apple's strategy focuses on transforming its existing hardware into an AI-driven user experience.\n\nUsers will be able to select a different voice for conversations that use external models, making it easier to quickly understand which AI source is handling the query. Apple will require users to install apps from their selected provider beforehand, but will also make it easier for users to get onboard through a specific App Store section that will list compatible AI apps.",
+      "published_at": "2026-05-05T20:56:41+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Huawei AI Chip Sales Target Grows as China Cuts Nvidia Use",
+      "url": "https://winbuzzer.com/2026/05/05/huawei-ai-chip-sales-target-grows-as-china-cuts-nvidia-use-xcxwbn/",
+      "body": "Huawei aims to reach $12 billion in AI chip sales during 2026 as Chinese companies redirect procurement away from Nvidia toward domestic alternatives. The shift reflects supply security concerns driven by U.S. export controls on advanced semiconductor technology.\n\nChinese buyers increasingly prioritize supply certainty over benchmark performance when selecting accelerators. DeepSeek's V4 model launch and stronger demand for Huawei's Ascend processors signal accelerating adoption of domestic infrastructure. Morgan Stanley projects China's AI chip market could reach $67 billion by 2030.\n\nHuawei's accelerator revenue could still rise 60% or more this year, even if buyers keep Nvidia systems in parts of their fleets. Nvidia's share of China's AI GPU market has fallen from about 95% to zero, according to CEO Jensen Huang, due to several rounds of U.S. export controls.\n\nThe U.S. Commerce Department's April 2026 restrictions on equipment shipments to Hua Hong—China's second-largest chipmaker—create bottlenecks. Huawei lost TSMC access in January 2026, making domestic fabrication capacity the limiting factor for achieving sales targets despite robust customer demand.",
+      "published_at": "2026-05-05T19:16:00+02:00",
+      "source": "WinBuzzer",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Broadcom Is Dominating the Custom AI Chip Market and Doesn't Get a Tenth of the Press Nvidia Does",
+      "url": "https://www.fool.com/investing/2026/05/05/broadcom-is-dominating-the-custom-ai-chip-market/",
+      "body": "Broadcom represents a compelling but underrecognized competitor to Nvidia in the AI chip market. The company has secured major deals with tech giants including Alphabet, Meta Platforms, Anthropic, and OpenAI.\n\nBroadcom specializes in custom XPUs—chips tailored to individual customers' needs, unlike Nvidia's standardized GPU offerings. The company generated $20 billion in AI revenue during 2025, with projections to exceed $100 billion by the end of 2026.\n\nBroadcom has secured partnerships with at least six major hyperscalers for its 3.5D XDSiP packaging technology and custom ASIC development. At a P/E ratio of 82, the stock appears expensive on the surface, but a price-to-earnings-growth (PEG) ratio of 2.0 suggests the stock's valuation is quite reasonable for the growth you're expecting.\n\nSix major chip deals are currently ramping up, positioning Broadcom for substantial near-term expansion. CEO Hock Tan noted that AI revenue could grow to well above $100 billion by the end of next year. Broadcom stock has shot up an impressive 34% over the past month.\n\nThe company earned $20 billion from its AI business in 2025, driven primarily by custom AI ASIC (XPU) designs for hyperscaler customers. Broadcom's AI revenues surged 106% year-over-year in Q1 FY2026, reaching $8.4 billion.",
+      "published_at": "2026-05-05T13:00:00-04:00",
+      "source": "The Motley Fool",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Broadcom"
+    },
+    {
+      "title": "\"CEO들의 '신 콤플렉스' 경계해야\"...젠슨 황, AI 비관론에 쓴소리",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210099",
+      "body": "엔비디아(NVIDIA) 최고경영자(CEO) 젠슨 황이 미국 리더십을 위한 전략적 조언을 담은 팟캐스트 '메모스 투 더 프레지던트(Memos to the President)'에 출연해 근거 없는 AI 비관론을 강하게 비판했다.\n\n황 CEO는 일부 과학자들이 소프트웨어 엔지니어링 커리어를 추구하지 말라고 젊은 졸업생들에게 권고하고 있다며, 이는 AI 발전으로 해당 직종에 대한 전례 없는 수요가 증가하는 현실과 반대된다고 지적했다. 그는 AI가 인류에 20%의 실존적 위험을 제기한다는 주장을 '우스운 이야기'로 일축하고, 신입 일자리의 50%가 사라진다는 발언도 도움이 되지 않는 공포 마케팅이라고 비판했다. 이는 앤트로픽(Anthropic) CEO 다리오 아모데이의 발언을 겨냥한 것으로 보인다.\n\n황 CEO는 최고경영자 위치에 오르면 종종 과도한 지식감을 갖게 되는 '신 콤플렉스'가 나타난다며, 이로 인해 실제 기술적 혜택을 인정하지 않고 근거 없는 종말 시나리오를 퍼뜨릴 수 있다고 경고했다.\n\n긍정적인 면에서 엔비디아 CEO는 AI 발전으로 이미 50만 개 이상의 일자리가 창출됐다고 강조하며, 미래의 일자리는 사라지는 것이 아니라 더 가치 있는 업무로 전환될 것이라고 주장했다.",
+      "published_at": "2026-05-05T15:57:02+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "'엔비디아 대항마' 세레브라스, 38조 기업 가치로 IPO 도전",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210094",
+      "body": "AI 칩 스타트업 세레브라스(Cerebras)가 기업가치 266억 달러(약 38조 원) 목표로 미국 나스닥 상장을 추진하고 있다. 회사는 주당 115~125달러 범위로 2800만 주를 공모해 약 35억 달러(약 5조 원)를 조달한다는 내용의 투자설명서를 제출했다. 모건스탠리, 씨티그룹, 바클레이즈, UBS가 주관사로 나선다.\n\n이는 세레브라스가 지난해 10월 상장 계획을 철회한 이후 두 번째 도전이다. 세레브라스는 연산과 메모리를 대형 실리콘 기판에 통합한 '웨이퍼 스케일 엔진(WSE)' 칩으로 유명하다. 이 기술은 AI 모델 학습과 추론 속도를 대폭 높인다.\n\n재무 성과: 2025년 매출 5억1000만 달러(약 7300억 원, 전년 2억9000만 달러 대비 급증), 주당 순이익 1.38달러로 흑자 전환. 2026년 2월 타이거글로벌 주도 펀딩 라운드에서 기업가치 230억 달러로 평가받았다.\n\n전략적 파트너십: 오픈AI와 750MW AI 컴퓨팅 인프라 제공 계약(20억 달러 이상), 아마존 웹 서비스(AWS)와 칩 공급 계약 체결. 오픈AI 설립자 샘 알트먼과 그레그 브록먼도 엔젤 투자자로 참여. 주요 기관 투자자는 알파 웨이브, 벤치마크, 이클립스, 피델리티, 파운데이션 캐피털 등이다.",
+      "published_at": "2026-05-05T11:42:15+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "OpenAI's cozy partner Cerebras is on track for a blockbuster IPO",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "body": "Cerebras Systems is preparing for a major initial public offering, planning to sell 28 million shares priced between $115–$125 each. This offering would raise approximately $3.5 billion and value the company at $26.6 billion at the high end—a significant increase from its $23 billion valuation just months earlier during its Series H funding round in February.\n\nThe AI chip manufacturer produces the Wafer-Scale Engine 3, designed to compete with GPU-based AI chips while offering improved inference speed and reduced power consumption. OpenAI maintains a notably deep relationship with Cerebras as one of its largest customers, having extended a $1 billion loan secured by warrants permitting potential ownership of over 33 million shares.\n\nThe offering would represent the largest tech IPO of 2026 so far, with substantial investor demand already evident—banks are already fielding $10 billion worth of orders for the $3.5 billion worth of shares on offer. Major shareholders include Alpha Wave, Benchmark, Eclipse, Fidelity, and Foundation Capital, alongside prominent angel investors from the tech industry including OpenAI executives Sam Altman and Greg Brockman.\n\nThe shares are to be traded under the ticker symbol CBRS on the Nasdaq Global Select Market.",
+      "published_at": "2026-05-04T14:53:00-07:00",
+      "source": "TechCrunch",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "백악관, '미소스' 계기로 AI 모델 출시 전 국가 검증 추진 중",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210092",
+      "body": "백악관이 AI 모델 출시 전 정부 검토를 의무화하는 방향을 검토하고 있다. 이번 정책 변화는 앤트로픽(Anthropic)의 '미소스(Mythos)' 모델이 정교한 정밀도로 소프트웨어 취약점을 식별할 수 있어 사이버 보안 우려가 제기된 데서 비롯됐다.\n\n백악관은 기술 기업과 정부 기관으로 구성된 AI 워킹그룹을 만드는 행정명령을 논의 중이며, 영국의 AI 안전 검증 시스템과 유사하게 공개 전 정부 검토를 포함하는 감독 절차 도입을 제안하고 있다.\n\n미소스는 사이버 보안 위험 때문에 핵심 인프라 기업에만 제공되고 있다. 이번 변화는 트럼프 행정부의 기존 규제 완화 기조에서 크게 벗어난 것이다. AI가 일자리·개인정보·교육·국가 안보에 미치는 영향에 대한 우려가 커지면서 초당적 규제 지지 여론이 형성되고 있다.",
+      "published_at": "2026-05-05T11:30:37+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽, 월가와 2조 합작사 설립...엔지니어 파견해 기업 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210091",
+      "body": "앤트로픽(Anthropic)이 골드만삭스, 블랙스톤, 헬만 앤 프리드먼 등 주요 금융기관들과 약 15억 달러(약 2조 원) 규모의 합작 법인을 설립했다.\n\n새 기업은 'AI 네이티브 서비스 회사'로, 앤트로픽의 클로드(Claude) AI 모델을 핵심 비즈니스 운영에 직접 통합하도록 설계됐다. 기존 컨설팅 방식과 달리, 이 합작 법인은 클라이언트 조직에 '현장 배포 엔지니어(FDE)'를 파견해 워크플로우를 재설계하고 AI를 실제 운영에 내재화한다.\n\n추가 투자자로는 아폴로 글로벌 매니지먼트, 제너럴 애틀랜틱, GIC, 세쿼이아 캐피털이 참여했다. 이들의 광범위한 포트폴리오 네트워크가 초기 고객이 될 예정이며, 이후 중견 기업으로 확장할 계획이다.\n\n이는 오픈AI가 동시에 TPG, 브룩필드 자산운용, 어드벤트, 베인 캐피털 등 사모펀드와 40억 달러 이상 규모의 합작 법인 설립에 합의한 것과 경쟁하는 구도다.",
+      "published_at": "2026-05-05T09:58:57+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"통제 불능 섀도우 AI 막는다\"...MS, 사내 거버넌스 플랫폼 '에이전트 365' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210095",
+      "body": "마이크로소프트(Microsoft)가 5월 1일 기업 AI 거버넌스 문제를 해결하기 위한 에이전트 365(Agent 365)를 공식 출시했다. 이 플랫폼은 승인 없이 배포된 비공인 AI 도구, 즉 '섀도우 AI'가 야기하는 보안 위험을 해결한다.\n\nAI 에이전트가 조직 전반에 확산되면서 기업들은 통제되지 않은 에이전트들이 기업 감독 밖에서 운영되는 '에이전트 스프롤' 문제에 직면해 있다. 섀도우 AI 에이전트는 민감한 데이터에 접근하고, 코드를 수정하며, 다른 시스템과 상호작용할 수 있어 데이터 유출 및 무단 접근 위험을 초래한다.\n\n핵심 기능: (1) 관찰 가능성 — IT팀이 마이크로소프트 디펜더와 인튠을 통해 로컬 PC의 에이전트를 포함, 모든 환경의 활성 에이전트를 감지하고 목록화. 향후 GitHub Copilot CLI 및 Claude Code 지원 예정. (2) 거버넌스 — 관리자가 정책 기반 권한과 최소 권한 원칙을 적용하고 컨텍스트 매핑 수행. (3) 보안 — 민감 데이터 유출 및 악의적 행동의 실시간 차단.\n\n에이전트 365는 AWS 베드록과 구글 제미나이 엔터프라이즈와도 통합되어 멀티 클라우드 환경에서 통합 관리를 지원한다.",
+      "published_at": "2026-05-05T12:02:45+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": "Microsoft"
+    },
+    {
+      "title": "메타, '더 오래 생각'하며 고품질 데이터 생성하는 '오토데이터' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210084",
+      "body": "메타(Meta)가 AI 시스템이 데이터 과학자의 분석 접근 방식을 모방하면서 자율적으로 고품질 학습 데이터를 생성, 검증, 정제하는 프레임워크인 오토데이터(AutoData)를 공개했다.\n\n핵심 혁신: 단순히 데이터 볼륨을 늘리는 것이 아니라, 확장된 연산 추론을 활용해 데이터 품질을 개선한다. 이 시스템은 AI 에이전트들이 데이터셋을 생성하고, 정성적 검토를 수행하고, 정량적 평가를 수행하고, 인사이트를 추출하며, 생성 방법을 반복적으로 개선하는 피드백 루프를 사용한다.\n\n핵심 구현인 에이전틱 셀프-인스트럭트(Agentic Self-Instruct)는 여러 전문 에이전트를 조율한다: 챌린저(문제 예제 생성), 약한 솔버 및 강한 솔버(생성된 문제 풀기), 검증자/심판(결과 평가 및 실패 분석).\n\n실험 결과는 모델 등급 간 성능 차별화가 크게 개선됨을 보여주었다. 메타는 데이터 다양성을 측정하고 편향을 필터링하는 메커니즘을 통합해 AI 생성 데이터 반복으로 인한 '모델 붕괴' 가능성에 대응했다.",
+      "published_at": "2026-05-05T16:21:06+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SPEC Consortium Releases SPEC CPU 2026 Benchmark Suite: The Next Decade of CPU Benchmarking",
+      "url": "https://www.servethehome.com/spec-consortium-releases-spec-cpu-2026-benchmark-suite-the-next-decade-of-cpu-benchmarking/",
+      "body": "The Standard Performance Evaluation Corporation has unveiled SPEC CPU 2026, marking the first major release in nine years. This modernized benchmarking suite represents a significant update to CPU performance evaluation methodology.\n\nMost benchmarks from the previous version have been replaced with contemporary workloads. The suite now includes 52 benchmarks covering diverse domains: programming, media, artificial intelligence, electronic design, networking, databases, and computational science. Open-source compilers and image processing libraries have been refreshed for current relevance.\n\nThe benchmark maintains its distinctive characteristic of being distributed as portable source code rather than pre-compiled binaries, enabling compilation on any platform with standards-compliant C, C++, and Fortran compilers.\n\nMajor CPU manufacturers—AMD, Intel, Arm, and SiFive—contributed to the benchmark's development, reinforcing its credibility as an impartial industry standard. SPEC CPU testing measures both hardware performance and compiler efficiency, as the source code relies on compiler optimization to generate efficient machine code.",
+      "published_at": "2026-05-05T20:06:00+00:00",
+      "source": "ServeTheHome",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Micron 6600 ION 245TB SSD Announced",
+      "url": "https://www.servethehome.com/micron-6600-ion-245tb-ssd-announced/",
+      "body": "Micron has unveiled a new capacity milestone for its 6600 ION NVMe SSD lineup. The company introduced a 245.76TB version of the Micron 6600 ION, enabling data center platforms to leverage nearly a quarter petabyte of storage in a single drive.\n\nThe 6600 ION represents Micron's capacity-optimized PCIe Gen5 data center SSD line, constructed using Micron G9 QLC NAND technology. Previously, the family offered a 122.88TB E3.S option. The new 245.76TB model expands availability to both E3.L and U.2 form factors. This drive targets environments prioritizing storage density per rack and power efficiency per terabyte, including AI data lakes, hyperscale storage, and analytics clusters.\n\nThe drive delivers up to 13.7 GB/s for sequential reads and 3.0 GB/s for sequential writes, up to 1.78 million random read IOPS, and a maximum power rating of 30W. According to Micron's specifications, the E3.S 122TB configuration stores over 2.4PB per 1U, while the E3.L 245TB version achieves over 3.9PB per 1U.\n\nMicron's analysis compares a 1EB deployment using 245.76TB E3.L SSDs against traditional 44TB hard drives, demonstrating a 5.6x reduction in rack space.",
+      "published_at": "2026-05-05T13:00:00+00:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Applied Materials Completes ASMPT NEXX Acquisition, Secures ECD Technology",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56061",
+      "body": "Applied Materials has finalized its agreement to acquire ASMPT's NEXX division, a semiconductor advanced packaging equipment business unit. The acquisition adds electrochemical deposition (ECD) technology capabilities to Applied Materials' portfolio.\n\nNEXX specializes in ECD equipment like the Stratus P500, which deposits metal films by submerging substrates in electrolyte solution and applying electrical current. This complements Applied Materials' existing panel-level package (PLP) technology.\n\nThe combined technology portfolio enables co-optimized solutions for AI chip manufacturing. These solutions allow process equipment to share data across manufacturing stages, improving efficiency and accelerating advanced packaging adoption timelines.\n\nThis technology performs semiconductor packaging on rectangular panels (510×515mm), offering greater throughput than traditional 300mm wafers—beneficial for larger AI accelerator chips. The acquisition requires no additional regulatory approval and should close within several months. NEXX operations will integrate into Applied Materials' Semiconductor Products Group while maintaining R&D activities at the Massachusetts headquarters.",
+      "published_at": "2026-05-05T14:06:00+09:00",
+      "source": "THE ELEC (디일렉)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"삼성전자 파업땐 신뢰 하락… 국가경제 전체 치명적 타격\"",
+      "url": "https://www.etnews.com/20260505000058",
+      "body": "전 산업부 장관 이희범은 반도체 생산 중단이 중동 분쟁으로 인한 에너지 우려와 맞물려 한국 경제에 심각한 타격을 줄 수 있다고 경고했다.\n\n경제적 손실 추정치는 크게 엇갈린다. 권오경 교수는 장비 검사와 수율 안정화만으로도 최소 20조 원의 경제적 손실이 발생하며, 공급망 파급 효과를 포함하면 30조 원을 초과할 수 있다고 전망했다.\n\n이종호 교수는 직접적 재무 손실보다 '고객 신뢰 저하와 보상 의무'가 더 클 수 있다며, 즉각적인 매출 영향을 넘어 장기적 결과를 낳을 것이라고 강조했다.\n\n전문가들은 노사 협의를 통한 성과 보너스 기준의 투명화, 개인 실적 기반 차등 보상 체계, 글로벌 반도체 경쟁업체 대비 보상 기준 비교 등을 해결책으로 제안했다.\n\n삼성전자 신종균 의장은 양측에 진정한 대화를 촉구하며 실패 시 '고객 신뢰 상실, 주주 손실, 심각한 국가 경제 피해'의 위험이 있다고 경고했다. 전국삼성전자노동조합은 5월 21일부터 6월 7일까지 18일간 총파업을 예고한 상태다.",
+      "published_at": "2026-05-05T16:00:00+09:00",
+      "source": "전자신문 (ETNews)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "[이슈플러스] 없어서 못파는 반도체, 삼성이 안 만들면 중국이 모두 가져간다",
+      "url": "https://www.etnews.com/20260505000034",
+      "body": "삼성전자의 잠재적 파업이 AI 칩 경쟁의 결정적 시기에 글로벌 반도체 공급망을 위협하고 있다.\n\n생산 영향: 8시간 야간 교대 한 번의 중단만으로 파운드리 생산이 58.1%, 메모리 생산이 18.4% 하락한 것으로 파악됐다. 예고된 18일간의 파업은 약 30조 원의 손실을 초래할 것으로 추정된다.\n\n시장 맥락: 삼성의 선단 공정 라인은 현재 풀가동 중이다. 회사는 최근 HBM4 칩 양산을 시작했으며, 2026년을 통틀어 수요가 공급을 초과할 것으로 예상한다. 업계 관계자에 따르면 중국을 제외하고 HBM을 공급할 수 있는 기업은 전 세계에 3곳뿐이라며 생산 연속성 유지의 시급성을 강조했다.\n\n중국의 우위: 중국 경쟁업체들이 정부 지원을 받아 빠르게 확장하고 있다. CXMT의 D램 시장점유율은 3%에서 5%로 증가했으며, 내년에는 10%에 달할 것으로 예상된다. YMTC의 낸드 플래시 출하량은 2025년 3분기 13% 시장점유율에 도달했다.\n\n전문가들은 생산 중단이 당장의 재무 손실을 넘어 고객들의 삼성에 대한 신뢰를 훼손해 중국 제조업체들에게 이익을 주고 한국의 반도체 산업 전체의 신뢰성을 해칠 수 있다고 경고했다.",
+      "published_at": "2026-05-05T00:00:00+09:00",
+      "source": "전자신문 (ETNews)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "VMware claims Cloud Foundation on track for world domination",
+      "url": "https://www.theregister.com/2026/05/05/vmware_vcf_9_update/",
+      "body": "VMware has released VCF 9.1, an update to its Cloud Foundation private cloud platform designed to reduce hardware expenses. The new version enhances memory tiering technology that transfers data from RAM to NVMe storage, allowing servers to operate with less memory.\n\nKey features in this release include improved detection of cold memory pages for better data migration, next-generation storage compression for AI workloads, and a lightweight Kubernetes environment for development and testing. The update also introduces multi-tenant infrastructure isolation for AI applications.\n\nAccording to Prashanth Shenoy, marketing lead for Broadcom's VCF division, the company has achieved more than 2,000 implementations of VCF 9 in the year since its release. However, context matters: We had less than 2,000–3,000 full stack private cloud customers before acquisition, suggesting adoption remains modest relative to VMware's pre-acquisition customer base of approximately 350,000.\n\nThe update emphasizes cost reduction and on-premises AI deployment, positioning VCF as a solution to avoid cloud computing bill increases when running large language models locally.",
+      "published_at": "2026-05-05T13:01:00+00:00",
+      "source": "The Register",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Chinese cloud infrastructure spend up 26% in Q4 2025",
+      "url": "https://www.datacenterdynamics.com/en/news/chinese-cloud-infrastructure-spend-up-26-in-q4-2025/",
+      "body": "Chinese cloud infrastructure spending grew 26% year-over-year in Q4 2025, driven by hyperscaler investment in AI infrastructure and domestic cloud providers expanding capacity to meet growing enterprise AI demand.\n\nThe growth reflects China's accelerating investment in AI infrastructure as domestic companies pivot toward homegrown technology alternatives following U.S. export restrictions on advanced semiconductors. Major Chinese cloud providers including Alibaba Cloud, Tencent Cloud, and ByteDance have been rapidly expanding their AI compute capacity.\n\nThe surge in spending aligns with Huawei's growing AI chip sales projections, as domestic accelerators increasingly replace NVIDIA hardware in Chinese data centers. The shift is creating a parallel AI infrastructure ecosystem in China that is increasingly decoupled from Western supply chains.\n\nAnalysts note that Chinese cloud spending growth outpaced comparable metrics from U.S. and European providers in the same period, suggesting the domestic market is absorbing a growing share of global AI infrastructure investment.",
+      "published_at": "2026-05-05T17:00:34+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "SAP bags Dremio and Prior Labs in enterprise AI data push",
+      "url": "https://www.blocksandfiles.com/data-management/2026/05/05/sap-bags-dremio-and-prior-labs-in-enterprise-ai-data-push/5219227",
+      "body": "SAP announced plans to acquire both Dremio Corporation and Prior Labs, targeting two persistent constraints in enterprise AI: fragmented data environments and limited model performance on structured business data.\n\nDremio is an open, high-performance data lakehouse platform built to accelerate agentic AI and expand SAP Business Data Cloud's ability to combine SAP and non-SAP data to more effectively run analytical and AI workloads in real time. The transaction is expected to close in Q3 2026, subject to regulatory approvals.\n\nPrior Labs focuses on tabular foundation models designed for structured data—finance, supply chain, and operations. The Prior Labs transaction is expected to close in Q2 or Q3 2026.\n\nSAP also separately announced the acquisition of NemoClaw in a $1.16 billion deal. The company described the moves as addressing two core gaps in enterprise AI architecture: the ability to access data across systems without moving it (Dremio) and the ability to build models designed for structured datasets where most enterprise decisions sit (Prior Labs).",
+      "published_at": "2026-05-05T17:09:08+02:00",
+      "source": "Blocks & Files",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Malaysia's DPS Resources and Alibaba may develop data centers in Melaka, Malaysia",
+      "url": "https://www.datacenterdynamics.com/en/news/malaysias-dps-resources-and-alibaba-may-develop-data-centers-in-melaka-malaysia/",
+      "body": "Malaysia's DPS Resources and Alibaba Cloud are in discussions about potentially developing data centers in the Melaka state of Malaysia. The initiative reflects the continued expansion of hyperscaler AI infrastructure investment into Southeast Asia.\n\nMalaysia has emerged as a strategic hub for data center investment in the region, with its relatively stable political environment, growing digital economy, and competitive land and energy costs attracting major cloud providers. Multiple hyperscalers have announced or are actively developing data center campuses in Malaysia over the past 18 months.\n\nAlibaba Cloud's expansion into Malaysia aligns with China's broader push to grow cloud services in regions where Chinese providers can operate without the restriction concerns that apply in Western markets. The Melaka project, if confirmed, would add to Alibaba's existing Malaysian data center footprint.",
+      "published_at": "2026-05-05T16:28:03+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft confirms plans for data center in Tyrone, Georgia",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-confirms-plans-for-data-center-in-tyrone-georgia/",
+      "body": "Microsoft has confirmed plans to build a new data center campus in Tyrone, Georgia, adding to its aggressive expansion of AI infrastructure capacity across the United States.\n\nThe Tyrone facility is part of Microsoft's commitment to doubling its AI infrastructure capacity within two years. CEO Satya Nadella confirmed the company added 1 gigawatt of additional capacity in the March quarter and reaffirmed the two-year doubling target.\n\nMicrosoft has raised its calendar 2026 capital expenditure forecast to $190 billion, with the company's AI business achieving a $37 billion annualized run rate representing 123% year-over-year growth. The Tyrone data center will eventually house the company's Cobalt ARM-based server chips and Maia 200 AI accelerators.",
+      "published_at": "2026-05-05T14:25:56+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor"],
+      "competitor": "Microsoft"
+    },
+    {
+      "title": "Amazon buys office and data center site in Maryland from T. Rowe",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-buys-office-and-data-center-site-in-maryland-from-t-rowe/",
+      "body": "Amazon has acquired an office and data center property in Maryland, purchased from financial services firm T. Rowe Price. The acquisition is part of Amazon Web Services' ongoing expansion of its physical infrastructure footprint in the eastern United States.\n\nAWS operated 56.84 million square feet of data center and office space in 2025, according to regulatory filings. The company's custom chip portfolio—including Graviton CPUs, Trainium AI accelerators, and Nitro DPUs—has surpassed a $20 billion annual revenue run rate, growing at triple-digit rates.\n\nAmazon has deployed more than 2.1 million AI chips over the past year, with Trainium accounting for more than half. AWS and Anthropic have inked a deal to deliver an additional 1 gigawatt of Trainium2 and Trainium3 chips by the end of 2026. The Maryland acquisition adds capacity to support continued growth in its AI infrastructure and cloud services business.",
+      "published_at": "2026-05-05T14:15:39+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor"],
+      "competitor": "AWS"
+    },
+    {
+      "title": "Nebius, Lambda, and CoreWeave unlikely to buy Google TPUs any time soon",
+      "url": "https://www.datacenterdynamics.com/en/news/nebius-lambda-and-coreweave-unlikely-to-buy-google-tpus-any-time-soon/",
+      "body": "GPU cloud providers Nebius, Lambda, and CoreWeave are unlikely to become customers for Google's Tensor Processing Units (TPUs) in the near term, despite Google's announcement of a TPU sales program for external customers.\n\nGoogle announced at its Cloud Next 2026 event in April that it would begin selling eighth-generation TPUs—the TPU 8t for training and TPU 8i for inference—to select external customers. However, neo-cloud providers that have built business models around NVIDIA hardware face significant software ecosystem lock-in challenges when evaluating alternative compute platforms.\n\nThe TPU 8t and 8i represent Google's first bifurcated architecture, with training and inference chips optimized for their respective workloads. The TPU 8t delivers 12.6 FP4 PFLOPs and 216GB HBM3e memory, while the TPU 8i targets high-speed serving with 10.1 FP4 PFLOPs and 288GB HBM3e.\n\nAnalysts note that while hyperscalers like Microsoft Azure, AWS, and Meta would be logical first-tier customers for Google's TPUs, the neo-cloud segment remains predominantly NVIDIA-centric due to software compatibility requirements and customer demand for familiar tooling.",
+      "published_at": "2026-05-05T14:01:10+00:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "Google"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+    "issue_date_kst":  "2026-05-04",
+    "main":  [
+                 {
+                     "id":  "11",
+                     "title":  "4월 수출 859억달러 '역대 최대'…반도체·SSD, 美·中 수출 ↑",
+                     "url":  "https://www.etnews.com/20260501000055",
+                     "category":  "market",
+                     "is_headline":  true,
+                     "competitor":  null,
+                     "tldr":  "한국의 4월 수출이 858.9억 달러로 역대 최대를 기록했고, 반도체가 전년 동기 대비(YoY) 173.5% 폭증하며 성장을 견인했다.",
+                     "summary_bullets":  [
+                                             "산업통상자원부에 따르면 한국의 2026년 4월 수출액은 858.9억 달러(약 117조 원)로, 전년 동기 대비(YoY) 48% 늘어난 사상 최대치를 기록했다. 월간 수출 800억 달러와 무역수지 200억 달러 흑자를 두 달 연속 동시에 넘긴 것은 이번이 처음이다.",
+                                             "성장의 1등 공신은 반도체였다. 반도체 수출은 319억 달러(약 43.6조 원)로 173.5% 급증해 4월 기준 13개월 연속 최대치를 갈아치웠고, 글로벌 AI 인프라 확장에 따른 NAND·DRAM 초과 수요가 직접적 동력으로 작용했다.",
+                                             "AI 확산에 따른 데이터센터 수요가 SSD를 끌어올린 점도 두드러진다. 컴퓨터 저장장치(SSD) 수출은 무려 515.8% 늘었다.",
+                                             "지역별로는 중국이 6개월 연속 플러스 흐름 속에 62.5% 증가하며 가장 빠르게 회복됐고, 대미 수출도 54% 늘어 1,630억 달러를 기록했다.",
+                                             "반도체는 이제 한국 전체 수출의 37% 이상을 차지하며, 그 안에서도 고대역폭 메모리(HBM)와 기업용 SSD가 중심 품목으로 자리 잡았다 — 한국 수출 구조 자체가 AI 인프라 사이클에 직접 묶여 있음을 보여주는 신호다."
+                                         ],
+                     "jargon":  [
+
+                                ]
+                 },
+                 {
+                     "id":  "10",
+                     "title":  "OpenAI missed revenue and user targets, faces internal concern over meeting data center spend commitments — report",
+                     "url":  "https://www.datacenterdynamics.com/en/news/openai-missed-revenue-and-user-targets-faces-internal-concern-over-meeting-data-center-spend-commitments-report/",
+                     "category":  "projects",
+                     "is_headline":  true,
+                     "competitor":  null,
+                     "tldr":  "OpenAI가 매출·유저 목표를 놓치며 5,000억 달러 규모 Stargate 프로젝트를 합작 구조에서 양자 계약 체제로 전면 재편하고, IPO를 준비 중이라는 보도가 나왔다.",
+                     "summary_bullets":  [
+                                             "OpenAI는 5,000억 달러(약 685조 원) 규모의 데이터센터 이니셔티브 Stargate를 고정된 합작법인(JV) 구조에서 더 유연한 컴퓨팅 확보 전략으로 사실상 전환했다고 Data Center Dynamics가 보도했다. IPO를 앞두고 투자 약정을 실제로 이행할 수 있을지에 대한 내부 우려도 함께 부각됐다.",
+                                             "JV 대신 등장한 것은 굵직한 양자 계약(bilateral deal)들이다. 오라클이 5년에 걸쳐 4.5기가와트 컴퓨팅 용량을 공급하기로 한 합의로 선두에 섰고, AMD·브로드컴·엔비디아·CoreWeave·Cerebras도 각자 파트너십에 서명했다.",
+                                             "OpenAI는 전략 골격은 그대로라고 강조한다. 2030년까지 10기가와트라는 초기 목표 중 8기가와트 이상을 이미 확보했으며, 총 투자 규모는 6,000억 달러(약 820조 원) 이상으로 더 늘릴 계획이라는 입장이다.",
+                                             "다만 그늘도 있다. Stargate 일부로 마케팅됐던 노르웨이 부지의 데이터센터 용량을 결국 마이크로소프트가 임차하기로 했다 — 프로그램이 얼마나 유동적으로 굴러가고 있는지 보여주는 단면이다.",
+                                             "MangoBoost 관점에서 핵심은 단일 거대 JV가 깨진 자리에 AMD·브로드컴·Cerebras 같은 비(非)엔비디아 실리콘 조달 라인이 동시 다발로 박혔다는 점이다. 인프라 스택의 다양성이 커지면서 추론·네트워킹 가속의 중간 계층 수요도 함께 풀린다."
+                                         ],
+                     "jargon":  [
+                                    {
+                                        "term":  "Stargate",
+                                        "explanation":  "OpenAI가 주도하는 초대형 AI 데이터센터 구축 프로그램. 처음에는 오라클·소프트뱅크 등과의 합작법인을 중심에 두는 그림이었는데, 지금은 칩·전력·부지를 공급사별로 따로따로 묶는 양자 계약 패키지로 바뀌고 있습니다."
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "22",
+                     "title":  "2조 규모 '국가 AI컴퓨팅 센터' 참여 자격 까다로워져 '논란'",
+                     "url":  "https://www.thelec.kr/news/articleView.html?idxno=33551",
+                     "category":  "projects",
+                     "is_headline":  false,
+                     "competitor":  "Rebellions",
+                     "tldr":  "2조 원 규모 국가 AI컴퓨팅 센터의 참여 요건이 비현실적으로 강화되면서, 리벨리온·퓨리오사AI 등 국내 AI 칩 기업의 자격 논란이 커지고 있다.",
+                     "summary_bullets":  [
+                                             "정부의 2조 원 규모 국가 AI컴퓨팅 센터 사업이 민간 참여 요건을 둘러싼 잡음에 휘말렸다고 디일렉(THE ELEC)이 보도했다. 요건이 지나치게 빡빡해 사실상 통과 가능한 컨소시엄이 거의 없다는 평가다.",
+                                             "정부가 요구하는 조건은 ▲엔비디아·AMD로부터 GPU 공급 서면 약정 확보 ▲2030년까지 국산 AI 칩 비중 50% 달성 ▲FP32 기준 최소 1엑사플롭스(exaflop) 컴퓨팅 용량 구축 ▲국산 반도체 매년 지속 업그레이드 등이다.",
+                                             "산식 자체에 무리가 있다. 특수목적법인(SPC)이 6년에 걸쳐 확보할 자본금은 약 4,000억 원인데, 이는 엔비디아 H100 GPU 약 11,000장 수준에 불과하다 — 최소 용량 목표(16,667장)에 한참 못 미치는 규모다.",
+                                             "국산 칩 기업의 자격 문제도 도마에 올랐다. 리벨리온의 Atom 신경망처리장치(NPU)는 3세대 Revel 샘플링이 예고됐지만 H100급 성능 도달에는 의문이 남아 있고, 퓨리오사AI의 Renegade NPU는 H100이 아닌 구세대 A100 수준의 성능에 머무는 것으로 전해진다. 메타의 과거 인수 제안 이력은 퓨리오사의 '국산' 인정 여부에도 그림자를 드리운다.",
+                                             "일정상 6월에 기술·정책 평가, 8~9월에 우선협상대상자 선정이 예정돼 있어, 향후 두 분기는 한국 소버린 AI 인프라 정책의 분수령이 될 전망이다."
+                                         ],
+                     "jargon":  [
+
+                                ]
+                 },
+                 {
+                     "id":  "18",
+                     "title":  "Prediction: This Will Be the Top-Performing AI Semiconductor Stock Over the Next Year (Hint: It's Not Nvidia, Broadcom, or Micron)",
+                     "url":  "https://www.fool.com/investing/2026/05/03/prediction-this-will-be-the-top-performing-artific/",
+                     "category":  "products",
+                     "is_headline":  false,
+                     "competitor":  "Marvell",
+                     "tldr":  "Motley Fool은 추론 시프트와 엔비디아 20억 달러 투자, 구글 TPU 협의를 근거로 마벨이 향후 1년간 AI 반도체 최고 수익률 종목이 될 것이라고 전망했다.",
+                     "summary_bullets":  [
+                                             "Motley Fool은 마벨 테크놀로지(NASDAQ: MRVL)가 향후 1년간 엔비디아·브로드컴·마이크론보다 더 높은 수익률을 낼 가능성이 크다고 분석했다. 핵심 논리는 마벨이 AI 데이터센터 내부의 데이터 이동을 책임지는 '보이지 않는 인프라'에서 위치를 굳히고 있다는 점이다.",
+                                             "마벨은 고속 이더넷 스위치, 네트워크 인터페이스 카드(NIC), 데이터처리장치(DPU) 등을 설계한다 — MangoBoost가 속한 영역과 가장 직접적으로 겹치는 사업 구성이다.",
+                                             "첫 번째 호재는 엔비디아와의 20억 달러(약 2.7조 원) 규모 전략적 투자·협력이다. 차세대 이더넷 스위치와 엔비디아 AI 플랫폼 최적화 DPU 개발이 동반된다.",
+                                             "두 번째는 자본지출(capex)의 무게중심 이동이다. 빅테크의 AI 자본지출이 7,200억 달러(약 985조 원) 규모로 부풀어 오르는 가운데, 지출이 학습(엔비디아 강세 영역)에서 추론으로 이동하면서 마벨의 저전력 추론 엔진이 반사이익을 본다는 시나리오다.",
+                                             "세 번째는 구글과의 협의다. 구글이 메모리 처리 유닛과 추론 전용 차세대 TPU 두 개의 신규 AI 칩을 마벨과 함께 개발하는 방안을 논의 중이며, 이는 아마존·MS·메타와 이미 맺은 커스텀 실리콘 계약 위에 얹어지는 추가 모멘텀이다.",
+                                             "회계연도 2026년 마벨의 데이터센터 매출은 61억 달러(약 8.3조 원)에 도달했다. 시가총액이 5조 달러에 이르는 엔비디아와 달리, 작은 시총이 곧 어닝 서프라이즈에 따른 주가 탄력으로 이어질 수 있다는 게 글의 결론이다."
+                                         ],
+                     "jargon":  [
+
+                                ]
+                 },
+                 {
+                     "id":  "7",
+                     "title":  "Cloudflare Builds High-Performance Infrastructure for Running LLMs",
+                     "url":  "https://www.infoq.com/news/2026/05/cloudflare-llm-infrastructure/",
+                     "category":  "challenges",
+                     "is_headline":  false,
+                     "competitor":  null,
+                     "tldr":  "클라우드플레어가 prefill·decode 분리 아키텍처와 자체 추론 엔진 Infire, 가중치 압축 기술 Unweight로 거대언어모델(LLM)을 글로벌 네트워크에서 직접 돌리는 인프라를 공개했다.",
+                     "summary_bullets":  [
+                                             "클라우드플레어가 자사의 글로벌 네트워크 위에서 거대언어모델(LLM)을 직접 운영하기 위한 새 인프라를 발표했다. 핵심은 추론 워크로드를 두 단계로 쪼개고, 그 사이의 비효율을 자체 엔진과 압축 기술로 메우는 구조다.",
+                                             "첫 번째 축은 디스어그리게이티드 prefill 아키텍처다. 입력 토큰 처리와 키-값 캐시를 채우는 연산 집중 단계(prefill)와, 출력 토큰을 만드는 메모리 집중 단계(decode)를 서로 다른 머신에 분리해 배치한다. 엔지니어링 팀은 \"prefill은 보통 연산 병목, decode는 메모리 병목\"이라고 설명했다.",
+                                             "두 번째는 자체 추론 엔진 Infire다. 다중 GPU 모델 실행을 최적화하고, 메모리 사용을 줄이며, 모델 시작 시간을 단축한다. 파이프라인·텐서 병렬화를 함께 써 처리량과 지연을 동시에 잡는 식이다.",
+                                             "Kimi K2.5처럼 1조 파라미터(약 560GB)를 넘는 초거대 모델은 단순히 가중치를 메모리에 올리는 데만 H100 GPU 8장이 필요하다 — 인프라 비용이 모델 크기에 거의 선형으로 따라붙는 구조다.",
+                                             "세 번째 축이 가중치 압축 시스템 Unweight다. 정확도 손실 없이 모델 가중치를 15~22% 줄였다고 클라우드플레어는 주장한다. 글로벌 분산 추론에서 모델을 옮기고 띄우는 비용을 한 단계 떨어뜨리는 의미가 있다.",
+                                             "MangoBoost 관점에서는 이 모든 설계가 디스어그리게이티드 추론이라는 같은 큰 흐름 위에 놓인다는 점이 중요하다 — 빅테크가 직접 자체 스택을 짜고 있다는 신호이자, 인프라 미들웨어 시장이 본격적으로 열리고 있다는 뜻이기도 하다."
+                                         ],
+                     "jargon":  [
+                                    {
+                                        "term":  "디스어그리게이티드 prefill 아키텍처",
+                                        "explanation":  "LLM 추론을 입력 처리(prefill)와 토큰 생성(decode) 두 단계로 쪼개, 각자에 맞는 칩·머신에 따로 맡기는 방식. prefill은 연산이, decode는 메모리가 주된 병목이라 한 종류 GPU로 둘 다 처리하면 자원이 낭비됩니다 — 이 구조가 비싼 HBM 의존도를 낮추는 열쇠로 부상하고 있습니다."
+                                    },
+                                    {
+                                        "term":  "키-값 캐시(KV cache)",
+                                        "explanation":  "LLM이 이미 본 토큰들의 내부 표현을 임시 저장해 두는 공간. 새 토큰을 만들 때마다 처음부터 다시 계산하지 않아도 되게 해 줍니다. 모델이 길게 말할수록 이 캐시가 커지면서 메모리를 빠르게 잡아먹기 때문에 추론 인프라 설계의 핵심 변수입니다."
+                                    },
+                                    {
+                                        "term":  "파이프라인·텐서 병렬화",
+                                        "explanation":  "거대 모델을 여러 GPU에 나눠 싣는 두 가지 대표 방식. 파이프라인 병렬은 모델을 층 단위로 자르고, 텐서 병렬은 한 층 안의 행렬 연산을 가로로 자릅니다. 두 기법을 조합해야 큰 모델을 효율적으로 굴릴 수 있습니다."
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "9",
+                     "title":  "Google Is A Full Stack AI Player, And Is Playing Well",
+                     "url":  "https://www.nextplatform.com/cloud/2026/05/02/google-is-a-full-stack-ai-player-and-is-playing-well/5219190",
+                     "category":  "market",
+                     "is_headline":  false,
+                     "competitor":  null,
+                     "tldr":  "구글 클라우드가 1분기 매출 200.2억 달러로 전년 동기 대비(YoY) 63% 성장하고 백로그가 4,600억 달러까지 부푼 가운데, Ironwood TPU와 마벨 협업으로 풀스택 AI 우위를 굳히고 있다.",
+                     "summary_bullets":  [
+                                             "구글이 2026년 1분기에 자체 실리콘(TPU·Ironwood)부터 인프라·플랫폼·소비자 앱까지 수직 통합한 AI 전략의 효과를 수치로 입증했다고 The Next Platform이 분석했다.",
+                                             "구글 클라우드 매출은 전년 동기 대비(YoY) 63% 늘어난 200.2억 달러(약 27.4조 원)로, 애널리스트 전망치 180.5억 달러를 큰 폭으로 웃돌았다. 순다르 피차이 CEO는 단기적으로 \"컴퓨팅 자원이 부족한 상태\"이며 클라우드 수요가 가용 용량을 초과한다고 밝혔다.",
+                                             "흥미로운 대목은 백로그다. 구글 클라우드의 수주잔고는 4,600억 달러(약 630조 원)로 직전 분기 대비 거의 두 배가 됐다 — 이미 들어와 있는 미래 매출이 1년치 글로벌 반도체 시장에 맞먹는 규모로 쌓였다는 뜻이다.",
+                                             "최신 TPU인 Ironwood는 \"추론 시대를 위한 첫 구글 TPU\"로 소개됐다. 기존 브로드컴 TPU 프로그램에 더해 마벨 테크놀로지와도 추가 커스텀 AI 추론 칩 두 종을 협의 중이라, 실리콘 공급망을 한 축에 의존하지 않는 형태로 다변화하고 있다.",
+                                             "알파벳은 2026년 자본지출(capex) 가이던스를 1,800~1,900억 달러(약 246~260조 원)로 상향 조정했다. 컴퓨팅 인프라 우위를 유지하기 위한 투자 규모가 한 회사 단위에서 어느 정도까지 부풀 수 있는지 보여 주는 수치다.",
+                                             "기사는 인하우스 실리콘·데이터센터·하이퍼스케일 클라우드·소비자 AI를 모두 가진 구글이 풀스택에서 추격하기 가장 어려운 사업자라고 정리했다."
+                                         ],
+                     "jargon":  [
+                                    {
+                                        "term":  "Ironwood",
+                                        "explanation":  "구글이 추론에 최적화해 새로 내놓은 7세대급 TPU. 기존 TPU 라인이 학습 중심이었다면 Ironwood는 토큰 생성 비용을 낮추는 쪽으로 칩 설계 무게중심을 옮긴 첫 세대로 평가됩니다."
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "20",
+                     "title":  "MOREH Demonstrates Production-Ready LLM Inference on Tenstorrent Galaxy, Achieving DGX A100-Class Performance with Improved Cost Efficiency",
+                     "url":  "https://www.prnewswire.com/news-releases/moreh-demonstrates-production-ready-llm-inference-on-tenstorrent-galaxy-achieving-dgx-a100-class-performance-with-improved-cost-efficiency-302760562.html",
+                     "category":  "collaboration",
+                     "is_headline":  false,
+                     "competitor":  "Moreh",
+                     "tldr":  "Moreh가 자체 MoAI 추론 프레임워크로 Tenstorrent Galaxy Wormhole에서 엔비디아 DGX A100급 거대언어모델(LLM) 추론 성능을 검증하며, 디스어그리게이티드 서빙 기반 비용 절감을 실증했다.",
+                     "summary_bullets":  [
+                                             "AI 인프라 소프트웨어 기업 Moreh가 자체 MoAI 추론 프레임워크로 Tenstorrent Galaxy Wormhole 시스템 위에서 거대언어모델(LLM) 추론 성능을 검증했다고 발표했다. GPT-OSS·Qwen·GLM·DeepSeek 등 주요 Mixture-of-Experts(MoE) 모델 전반에서 엔비디아 DGX A100급 성능에 맞먹거나 이를 뛰어넘었다는 결과다.",
+                                             "MoAI 프레임워크의 핵심은 디스어그리게이티드 추론이다. 엔비디아·AMD·Tenstorrent 등 이종(heterogeneous) GPU·NPU를 한 클러스터 안에서 통합 운영해 벤더 락인 없이 인프라를 짤 수 있게 한다는 게 회사 측 설명이다.",
+                                             "비용 효율의 비결은 역할 분담이다. Tenstorrent Wormhole 칩을 prefill 전용 가속기로 쓰고 GPU와 함께 묶어, 비싼 고대역폭 메모리(HBM) 의존도를 낮춰 전체 인프라 비용을 끌어내리는 식이다.",
+                                             "Moreh는 자체 핵심 AI 인프라 엔진을 개발 중이며, 파운데이션 LLM 자회사 Motif Technologies를 통해 인프라와 모델을 동시에 가져가는 풀스택 구조를 짜고 있다. 협력 파트너는 AMD, Tenstorrent, SGLang으로 명시됐다.",
+                                             "MangoBoost 시각에서 이 발표는 두 가지로 읽힌다 — 디스어그리게이티드 추론이 Tier-1 국내 경쟁사에서도 본격 상용화 단계로 들어섰다는 점, 그리고 Tenstorrent를 prefill 전담 가속기로 묶는 식의 이종 클러스터 레퍼런스가 늘고 있다는 점이다."
+                                         ],
+                     "jargon":  [
+                                    {
+                                        "term":  "MoAI Inference Framework",
+                                        "explanation":  "Moreh가 만든 추론 운영 소프트웨어. 엔비디아 GPU·AMD GPU·Tenstorrent NPU 같은 서로 다른 칩을 한 클러스터 안에서 같이 쓸 수 있게 해 주는 게 핵심으로, 벤더 한 곳에 묶이고 싶지 않은 기업 고객을 겨냥합니다."
+                                    },
+                                    {
+                                        "term":  "MoE(Mixture-of-Experts)",
+                                        "explanation":  "거대 모델을 여러 '전문가' 부분 모델로 쪼개고 입력마다 일부만 골라 쓰는 구조. 전체 파라미터는 거대해도 한 번에 활성화되는 부분은 일부라, 같은 성능을 더 적은 연산으로 낼 수 있습니다. GPT-OSS·DeepSeek 등이 대표 예시."
+                                    },
+                                    {
+                                        "term":  "prefill 전담 가속기",
+                                        "explanation":  "LLM 추론에서 입력을 한꺼번에 처리하는 prefill 단계만 떼어 전담시키는 칩. 이 단계는 연산이 무겁고 메모리 대역폭은 덜 중요해 HBM이 적게 달린 상대적으로 저렴한 가속기로도 효율적으로 처리할 수 있습니다 — 비용 절감의 핵심 레버."
+                                    },
+                                    {
+                                        "term":  "디스어그리게이티드 서빙",
+                                        "explanation":  "추론을 prefill(입력 처리)과 decode(토큰 생성)로 쪼개 서로 다른 칩에 맡기는 방식. 비싼 HBM이 잔뜩 박힌 GPU를 모든 단계에 쓰지 않아도 돼 전체 비용을 크게 낮출 수 있어, 추론 인프라 설계의 새로운 표준으로 떠오르고 있습니다."
+                                    }
+                                ]
+                 },
+                 {
+                     "id":  "3",
+                     "title":  "컴퓨팅 확보 비상 걸린 앤트로픽, 영국 칩 신예와 파트너십 검토",
+                     "url":  "https://www.aitimes.com/news/articleView.html?idxno=210033",
+                     "category":  "challenges",
+                     "is_headline":  false,
+                     "competitor":  null,
+                     "tldr":  "앤트로픽이 영국 추론 칩 스타트업 Fractile과 파트너십을 협의하며 SRAM 기반 차세대 추론 칩 다변화와 자체 설계 검토에 나섰다.",
+                     "summary_bullets":  [
+                                             "앤트로픽이 기존 공급망 너머 새로운 AI 칩 소스를 다급히 찾고 있다. The Information 보도를 인용해 AI타임스가 전한 바에 따르면, 회사는 영국 스타트업 Fractile과 차세대 추론 칩 도입을 협의 중이다.",
+                                             "Fractile은 2022년 설립돼 2024년 중반 스텔스 모드를 벗어난 신생 기업으로, 대규모 하드웨어 양산 경험은 부족하다. 그럼에도 앤트로픽이 칩 조달을 적극 협상 중이라는 점은 그만큼 컴퓨팅 확보가 절박하다는 신호다 — Fractile 칩 양산은 빠르면 내년(2027년)부터로 예상된다.",
+                                             "배경에는 AI 코딩·자동화 수요 폭증이 있다. 앤트로픽 사용자들 사이에서는 서비스 중단과 사용량 한도 문제가 보고되고 있고, 개발자들이 이의를 제기하는 상황이다.",
+                                             "전략적 함의도 크다. Fractile과의 계약이 성사되면 구글·아마존·엔비디아 같은 기존 대형 공급사와의 협상 카드가 강해진다. Fractile과 그 경쟁사들은 데이터 이동을 최소화하는 SRAM 기반 아키텍처로 추론 효율(비용·전력)을 끌어올린다는 공통 메시지를 내세우고 있다.",
+                                             "앤트로픽은 OpenAI·메타가 이미 가고 있는 자체 추론 칩 설계 검토에도 나선 것으로 전해졌다. 이 모든 흐름은 추론 워크로드에서 엔비디아 GPU 지배력으로부터 빠져나오려는 산업적 모멘텀의 또 하나의 단면이다."
+                                         ],
+                     "jargon":  [
+                                    {
+                                        "term":  "Fractile",
+                                        "explanation":  "2022년 설립된 영국의 추론 칩 스타트업. 2024년에야 스텔스 모드를 벗어난 신생 기업이지만, 앤트로픽이 검토할 만큼 SRAM 기반 효율 추론 칩 흐름의 대표 주자로 부상하고 있습니다. 양산은 2027년 예정."
+                                    }
+                                ]
+                 }
+             ],
+    "competitor_updates":  [
+                               {
+                                   "company":  "Moreh",
+                                   "tier":  "1",
+                                   "bullets":  [
+                                                   "Tier-1 경쟁사 Moreh가 자체 MoAI 추론 프레임워크로 Tenstorrent Galaxy Wormhole에서 거대언어모델(LLM) 추론 성능이 엔비디아 DGX A100급에 도달했다고 공표했다 — 단순 벤치마크가 아니라 GPT-OSS·Qwen·GLM·DeepSeek 등 Mixture-of-Experts(MoE) 모델군 전반에서 검증된 성능이라는 점이 무겁다.",
+                                                   "Tenstorrent를 prefill 전담 가속기로 묶고 GPU는 decode에 두는 디스어그리게이티드 서빙 구조로 고대역폭 메모리(HBM) 의존도를 떨어뜨려 비용 효율을 끌어올렸다. MangoBoost가 내세우는 디스어그리게이티드 추론 가치 제안과 정확히 같은 영역에서 상용 레퍼런스를 쌓고 있다는 점에서 가장 주의 깊게 봐야 할 동향이다."
+                                               ],
+                                   "source_article_ids":  [
+                                                              "20"
+                                                          ]
+                               },
+                               {
+                                   "company":  "Rebellions",
+                                   "tier":  "1",
+                                   "bullets":  [
+                                                   "리벨리온의 Atom 신경망처리장치(NPU)가 2조 원 규모 국가 AI컴퓨팅 센터 사업의 자격 라인에 걸쳐 있다 — 3세대 Revel 샘플링은 예고됐지만 엔비디아 H100급 성능 도달 여부에 의문이 남는다는 게 디일렉(THE ELEC)의 평가다.",
+                                                   "사업 자체가 비현실적 요건(2030년 국산 칩 비중 50%, FP32 1엑사플롭스, 엔비디아·AMD GPU 서면 약정 등)으로 표류 가능성이 거론되는 만큼, 6월 기술 평가와 8~9월 우선협상자 선정이 리벨리온의 단기 사업 모멘텀에 결정적 변수가 될 전망이다."
+                                               ],
+                                   "source_article_ids":  [
+                                                              "22"
+                                                          ]
+                               },
+                               {
+                                   "company":  "Cerebras",
+                                   "tier":  "2",
+                                   "bullets":  [
+                                                   "Cerebras가 2024년 9월 철회했던 IPO를 2026년 4월 재추진한다. 2025년 10월 시리즈 G(11억 달러, 약 1.5조 원)로 기업가치 81억 달러에 올라선 뒤, 2026년 2월 시리즈 H(10억 달러, 약 1.4조 원)로 230억 달러(약 31.5조 원)까지 부풀린 게 재상장 자신감의 근거다.",
+                                                   "1월에는 OpenAI와 최대 200억 달러(약 27.4조 원) 규모 계약을 따냈다 — 2028년까지 750메가와트 초기 설치, 2029~2030년 3기가와트 옵션, 10억 달러 운영자금 대출까지 묶인 형태다. 3월에는 AWS Trainium 인프라와 Cerebras CS-3를 짝지어 글로벌 유통하는 구속력 있는 조건제안서(term sheet)에도 서명했다.",
+                                                   "한편 엔비디아가 Groq의 핵심 인력·자산 대부분을 200억 달러(약 27.4조 원)에 \"acquihire\"한 사실이 같은 기사에서 드러났다 — 추론 시장 대안 솔루션을 둘러싼 경쟁이 실리콘에서 인재 쟁탈전 단계로 넘어왔다는 신호이며, Cerebras는 5.1억 달러(약 6,980억 원) 연간 매출을 발판 삼아 이 격전에 정면 대응하는 모양새다."
+                                               ],
+                                   "source_article_ids":  [
+                                                              "21"
+                                                          ]
+                               },
+                               {
+                                   "company":  "Marvell",
+                                   "tier":  "2",
+                                   "bullets":  [
+                                                   "마벨이 데이터처리장치(DPU)·고속 이더넷 스위치·NIC를 축으로 \"보이지 않는 AI 인프라\"에서 위치를 굳히고 있다 — Motley Fool은 향후 1년 AI 반도체 종목 중 마벨이 엔비디아·브로드컴·마이크론을 앞설 후보라고 지목했다.",
+                                                   "엔비디아의 20억 달러(약 2.7조 원) 전략 투자로 차세대 이더넷 스위치와 엔비디아 AI 플랫폼 최적화 DPU 개발이 가속되고, 구글이 메모리 처리 유닛과 추론 전용 차세대 TPU 두 종을 마벨과 협의 중이라는 점은 아마존·MS·메타와의 기존 커스텀 실리콘 계약 위에 추가되는 모멘텀이다.",
+                                                   "회계연도 2026년 데이터센터 매출이 61억 달러(약 8.3조 원)에 이르며, 빅테크의 7,200억 달러(약 985조 원) AI 자본지출(capex) 흐름이 학습에서 추론으로 옮겨갈수록 마벨의 저전력 추론 엔진이 반사이익을 본다는 시나리오 — MangoBoost와 가장 직접적으로 영역이 겹치는 경쟁사라는 점에서 주가·수주 양쪽을 함께 추적할 가치가 크다."
+                                               ],
+                                   "source_article_ids":  [
+                                                              "18"
+                                                          ]
+                               },
+                               {
+                                   "company":  "Tenstorrent",
+                                   "tier":  "2",
+                                   "bullets":  [
+                                                   "Tenstorrent가 Galaxy Blackhole AI 컴퓨팅 플랫폼의 일반 공급(GA)을 시작했다. 6U 시스템 한 대에 Blackhole 가속기 32장을 100Tbps 이더넷 메시로 묶어 GDDR6 1TB·메모리 대역폭 16TB/s·FP8 23페타플롭스를 내며, 가격은 11만 달러로 엔비디아 8-way DGX 박스의 1/3~1/5 수준이다.",
+                                                   "기본형 Galaxy Supercluster는 Blackhole 시스템 4대로 44만 달러부터 시작하며, 최대 144노드·4,000칩 이상까지 확장된다. DeepSeek V3 같은 거대 모델에서 4노드 클러스터가 10만 토큰 프롬프트를 4초 안에 처리하고, 사용자당 초당 300토큰(SW 개선 시 350)을 낸다는 게 회사 측 수치 — 엔비디아 추론 플랫폼에 대한 가격·성능 양면의 직접 대안으로 자리 잡고 있다.",
+                                                   "Cirrascale·Equinix·일본 ai& 등 데이터센터 사업자들이 도입에 들어갔고, SDxCentral 분석은 Cerebras(웨이퍼스케일)·HyperAccel·Groq(LPDDR 기반 LPU)·리벨리온·퓨리오사AI(NPU)·AWS Trainium·구글 TPU·MS Maia(커스텀)와 함께 RISC-V 기반 Tenstorrent를 추론 시장 \"열린 판\"의 주요 후보군으로 분류했다."
+                                               ],
+                                   "source_article_ids":  [
+                                                              "19",
+                                                              "23"
+                                                          ]
+                               }
+                           ]
+}

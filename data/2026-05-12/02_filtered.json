@@ -1,0 +1,174 @@
+{
+  "filter_stage": 1,
+  "collection_date_kst": "2026-05-12",
+  "kept": [
+    {
+      "id": 8,
+      "title": "Samsung SDS 컨소시엄, 2.5조원 규모 국가AI컴퓨팅센터 최종 계약 완료",
+      "url": "https://zdnet.co.kr/view/?no=20260511174341",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "국가 AI 데이터센터 / 소버린 AI 핵심 프로젝트 본계약 체결 + 리벨리온 NPUaaS 채택으로 KEEP 카테고리 '국가 AI 데이터센터 건설 사업'에 정면으로 부합."
+    },
+    {
+      "id": 14,
+      "title": "AMD's 2nm defection to Samsung dents TSMC's AI grip",
+      "url": "https://www.digitimes.com/news/a20260511PD215/samsung-tsmc-amd-2nm-supply-chain.html",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AMD Venice/Verano(에이전틱 AI 워크로드 변형) 2nm를 삼성 파운드리로 이전 — MangoBoost가 깊이 연계된 AMD 생태계의 공급망 재편 신호로 협업 기회 카테고리에 직결."
+    },
+    {
+      "id": 13,
+      "title": "Cerebras bumps up IPO range as it looks to raise up to $4.8 billion",
+      "url": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "AI 인퍼런스 가속기 경쟁사 Cerebras의 2026년 최대 IPO + AWS·OpenAI 100억$ 계약 — 인접 경쟁사 자본 흐름과 전략적 위상 변화를 보여주는 핵심 시장 정보."
+    },
+    {
+      "id": 1,
+      "title": "\"파업이냐, 타결이냐\"…삼성전자 노사, 오늘 '사후조정' 결론 낸다",
+      "url": "https://www.fnnews.com/news/202605120503056082",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성전자 5/21 총파업 여부 결정 + JP모건 추정 최대 43조원 손실 — AI 칩 공급망과 메모리/파운드리 수급에 직접적인 challenges 신호."
+    },
+    {
+      "id": 12,
+      "title": "Smallest.ai and Tenstorrent Partnership Democratises Voice AI — 4x reduction in cost through hardware acceleration",
+      "url": "https://vmpl.scnwire.com/2026/05/smallestai-and-tenstorrent-partnership.html",
+      "category": "products",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Tenstorrent P100 vs NVIDIA L40S에서 TTS 추론 비용 3.6배 절감 실증 — DPU/AI 인프라 비용·효율 challenges 및 GPU 대체 가속기 경쟁사 제품 카테고리에 정확히 부합."
+    },
+    {
+      "id": 18,
+      "title": "Compute And Memory Price Hikes Drive IT Spending Way Higher",
+      "url": "https://www.nextplatform.com/compute/2026/05/11/compute-and-memory-price-hikes-drive-it-spending-way-higher/5238181",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Gartner 2026 글로벌 IT 지출 $6.32T(+13.5%) 및 데이터센터 시스템 +55.8%($788B) 상향 — MangoBoost TAM/시장 규모 인식에 직결되는 매크로 시장 인텔리전스."
+    },
+    {
+      "id": 17,
+      "title": "Inference is giving AI chip startups a second chance to make their mark",
+      "url": "https://www.theregister.com/software/2026/05/03/inference-is-giving-ai-chip-startups-a-2nd-chance-to-shine/5229422",
+      "category": "market",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Prefill/Decode 분리 추세, NVIDIA-Groq, AWS-Cerebras, Intel-SambaNova, Tenstorrent 입장 등 인퍼런스 가속기 시장 구조 변동을 종합 — DPU 인접 전략 컨텍스트로 foundational context 예외 적용."
+    },
+    {
+      "id": 2,
+      "title": "Elon Musk, Tim Cook among CEOs to join Trump on China visit, Nvidia's Jensen Huang not included: Report",
+      "url": "https://thetechportal.com/2026/05/12/elon-musk-tim-cook-among-ceos-to-join-trump-on-china-visit-nvidias-jensen-huang-not-included-report/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "트럼프 방중 대표단에 NVIDIA 젠슨 황 제외 + H200 중국 수출 사실상 차단 — 반도체/AI 칩 수출 통제 정책 substance가 명확하여 KEEP."
+    },
+    {
+      "id": 11,
+      "title": "[이슈플러스] 삼성, 패키징·기판 등 반도체 후공정 투자 추진…생태계 수혜 촉각",
+      "url": "https://www.etnews.com/20260511000126",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "2.5D/3D/CPO 등 차세대 AI 칩 패키징 + 유리기판/SoCAM 투자 확대 — Co-Packaged Optics는 AI 인프라 네트워킹/대역폭 challenges에 직접적인 기술 트렌드."
+    },
+    {
+      "id": 10,
+      "title": "TSMC-소니, 이미지센서 합작사 설립 추진",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56339",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "TSMC-소니 차세대 이미지센서 JV(소니 과반) + 자동차·로보틱스·피지컬 AI 응용 — TSMC의 글로벌 파운드리 협력 구조 변화로 반도체 시장 동향 카테고리에 부합."
+    },
+    {
+      "id": 9,
+      "title": "소프트뱅크, AI 데이터센터용 ESS 직접 만든다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56328",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "소프트뱅크 오사카 AI 데이터센터용 ESS(LFP 1GWh + 아연-브롬 100MWh) 내재화 — AI 데이터센터 전력/안전성 challenges와 글로벌 인프라 전략의 구체적 사례."
+    },
+    {
+      "id": 16,
+      "title": "코스텍시스템, 삼성전자 HBM용 '필-오프' 장비 공급 임박…국산화 문 연다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56370",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "HBM 제조용 Peel-off 장비 국산화(TEL·EVG·SUSS 대체) — AI 인프라의 핵심 부품 HBM 생태계 공급 동향으로 KEEP 카테고리 '부품 수급'에 부합."
+    },
+    {
+      "id": 7,
+      "title": "Profit-linked bonus demands ripple beyond chips in Korea",
+      "url": "https://www.koreaherald.com/article/10735287",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SK하이닉스 2025년 영업이익 10% 성과급 합의가 삼성·카카오·현대차·LG유플러스로 확산되는 구조적 추세 — 한국 반도체 기업 비용 구조에 영향을 주는 매크로 컨텍스트."
+    },
+    {
+      "id": 21,
+      "title": "오픈AI, GPT-5 훈련 중 '추론 조작' 위험성 노출...\"AI가 인간을 속일 수도\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210350",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "GPT-5 계열(5.4 Thinking, 5.1 Instant) 훈련 중 CoT 추론 조작 현상 발견 — KEEP 카테고리 'AI 모델 출시/업데이트'에 해당하는 OpenAI의 최신 모델 안전성 업데이트."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 3,
+      "title": "테슬라·애플·보잉 CEO, 트럼프 중국 방문에 동행…엔비디아 젠슨 황 빠져",
+      "discard_reason": "duplicate of article 2 (TechPortal); 같은 사건을 다루며 영문판이 반도체 수출 통제 컨텍스트를 더 상세히 제공."
+    },
+    {
+      "id": 4,
+      "title": "Jensen Huang: 'AI Won't Replace You, But Colleagues Who Use AI Well Might'",
+      "discard_reason": "off-topic; CMU 졸업 연설 동기부여성 발언으로 NVIDIA 제품/전략/DPU·SmartNIC 관련 substance가 없음."
+    },
+    {
+      "id": 5,
+      "title": "[5월11일] AI 음성 비서 확산의 '복병'...\"속삭임조차 피곤하다\"",
+      "discard_reason": "off-topic; 소비자 AI 비서의 사회적 마찰을 다룬 라이프스타일 분석으로 반도체/AI 인프라와 연결 없음."
+    },
+    {
+      "id": 6,
+      "title": "Samsung, union make last push to avert strike",
+      "discard_reason": "duplicate of article 1; 동일 사후조정 협상을 다루며 fnnews 한국어 1차 보도가 가장 최신 시각(05:03 KST) 정보를 담음."
+    },
+    {
+      "id": 15,
+      "title": "2.5조원 규모 국가AI컴퓨팅센터, 삼성SDS 컨소시엄 최종 계약 완료",
+      "discard_reason": "duplicate of article 8; 같은 발표를 다루며 ZDNet 버전이 컨소시엄 구성·지분·일정을 더 상세히 정리."
+    },
+    {
+      "id": 19,
+      "title": "과기부, 앤트로픽과 AI 보안 협력 논의...'미소스' 접근은 불발",
+      "discard_reason": "off-topic; AI 사이버보안·모델 취약점 정책 협력으로 반도체/DPU/데이터센터 인프라 substance가 부재."
+    },
+    {
+      "id": 20,
+      "title": "Samsung Samsung Labor Talks Resume, 17.5 Trillion Won Bonus Gap Is Biggest Hurdle",
+      "discard_reason": "duplicate of article 1; 같은 노사 협상 사안을 다루며 BigGo는 2차 매체로 fnnews/Korea Herald 대비 출처 권위 낮음."
+    }
+  ],
+  "summary": {
+    "total_received": 21,
+    "total_kept": 14,
+    "total_discarded": 7,
+    "category_breakdown": {
+      "market": 6,
+      "products": 4,
+      "projects": 1,
+      "challenges": 3,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 4,
+    "by_competitor": {
+      "NVIDIA": 1,
+      "Tenstorrent": 2,
+      "Cerebras": 1,
+      "Rebellions": 1
+    }
+  }
+}

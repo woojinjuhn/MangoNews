@@ -1,0 +1,10 @@
+<!-- Jargon entry. Used to fill the inside of a 용어 (jargon) block. -->
+<!-- {{ENTRY_DIV_STYLE}} is `style="margin-bottom:10px;"` for non-last entries, -->
+<!-- `style=""` for the last entry in the block (no trailing margin). -->
+<!-- The surrounding 용어 block wrapper is hard-coded inside headline_card.html / article_card.html via the {{JARGON_BLOCK}} placeholder fill, with border colors per card type: -->
+<!--   • headline jargon block: border-left:3px solid #15182D; margin-bottom:16px;  (navy) -->
+<!--   • category jargon block: border-left:3px solid #FFB81C; margin-top:12px;     (mango) -->
+                      <div {{ENTRY_DIV_STYLE}}>
+                        <span style="font-size:10px;font-weight:bold;color:#15182D;letter-spacing:2px;">{{TERM}} &mdash;</span>
+                        <span style="font-size:13px;color:#4C4A49;"> {{EXPLANATION}}</span>
+                      </div>

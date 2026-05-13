@@ -1,0 +1,1 @@
+- [Always use canonical script](feedback_use_canonical_script.md) — call scripts/send_newsletter.ps1; inline SmtpClient skips logo LinkedResource + archive b64 expansion

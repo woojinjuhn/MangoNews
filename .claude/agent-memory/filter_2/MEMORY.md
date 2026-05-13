@@ -1,0 +1,9 @@
+- [Raw articles lack id; filename varies](reference_raw_no_id_field.md) — Glob data/<date>/* to find raw file (01_raw.json or 01_collected.json); join by URL
+- [Competitor overlap in main is allowed](feedback_competitor_overlap_in_main.md) — competitor-tagged stories may appear in both main and competitor_articles; designer dedups
+- [Earnings-week market skew is legitimate](project_earnings_week_pattern.md) — late Apr/Jul/Oct + early Feb tilt heavily to market category; don't force over-diversification
+- [AI타임스 body richness profile](reference_aitimes_body_richness.md) — most pass guard; prefer English long-form for marginal slots when tied
+- [Check published_urls.jsonl before locking main 8](feedback_check_registry_for_dupes.md) — collector dedup can fail; Stage-2 must verify exact URL match against registry
+- [Stage-1 summary may undercount competitor_kept_total](reference_stage1_competitor_undercount.md) — count competitor!=null directly from kept, don't trust summary totals
+- [ETNews same-day same-event dedup](feedback_etnews_same_event_dedup.md) — op-ed + 이슈플러스 동시 keep시 데이터 풍부한 1건만 메인 채택
+- [User-specified main_cap overrides formula](feedback_user_override_main_cap.md) — explicit "최대 N개" 우선, 동적 공식값은 selection_notes에 병기
+- [Same event, different URL across days](reference_competitor_url_same_event_diff_url.md) — registry dedup is URL-exact; trust Stage-1's keep call when URLs differ

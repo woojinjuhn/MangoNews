@@ -1,0 +1,272 @@
+{
+  "filter_date_kst": "2026-05-11",
+  "kept": [
+    {
+      "id": "01",
+      "title": "Nvidia has already committed $40B to equity AI deals this year",
+      "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Market intelligence — NVIDIA's $40B+ 2026 equity strategy (OpenAI $30B, Corning $3.2B, IREN $2.1B) reshapes AI supply chain power dynamics and creates 'circular investment' moat directly affecting GPU/DPU ecosystem economics."
+    },
+    {
+      "id": "28",
+      "title": "Marvell Technology FY2026 Full Year Results: Record $8.2B Revenue, AI Custom Chip Business Doubles",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1011/marvell-technology-inc-reports-fourth-quarter-and-fiscal-year-2026-financial-results",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "Tier-2 competitor major financial — Marvell FY26 $8.2B (+42% YoY), DC $6B (+46%), custom AI silicon doubled, controls 60% of AI ASIC market with NVLink Fusion + NVIDIA $2B equity stake; deep relevance to DPU/networking adjacency."
+    },
+    {
+      "id": "13",
+      "title": "AMD Instinct MI350P PCIe GPU targets air-cooled enterprise AI servers",
+      "url": "https://www.theregister.com/ai-and-ml/2026/05/07/amd-takes-aim-at-enterprise-ai-with-pcie-based-instinct-gpus/5231481",
+      "category": "products",
+      "competitor": "AMD",
+      "keep_reason": "AMD ecosystem core product — MI350P PCIe (144GB HBM3e, 4.6 PFLOPS FP4, +38% over H200 NVL at FP8); MangoBoost's AMD adjacency makes new Instinct form factor strategically critical."
+    },
+    {
+      "id": "14",
+      "title": "AMD MI350P: Air-Cooled GPU for Enterprise AI — Sometimes, Air Is The Only Way For AI Systems To Keep Their Cool",
+      "url": "https://www.nextplatform.com/compute/2026/05/08/sometimes-air-is-the-only-way-for-ai-systems-to-keep-their-cool/5237421",
+      "category": "products",
+      "competitor": "AMD",
+      "keep_reason": "Deeper technical/operational angle on MI350P — explicitly mentions AI Pensando Vulcano NICs for scale-out networking and Helios platform; complementary to The Register coverage with networking/SmartNIC details directly tied to MangoBoost's domain."
+    },
+    {
+      "id": "16",
+      "title": "퓨리오사AI, '프리 IPO' 8500억으로 확대",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56240",
+      "category": "market",
+      "competitor": "FuriosaAI",
+      "keep_reason": "Tier 1 domestic competitor major event — FuriosaAI 프리IPO 8,500억원으로 증액, 프리머니 20억달러, 2027-2028 IPO 목표; 국가성장펀드 참여, 한국 AI 반도체 생태계 핵심 동향."
+    },
+    {
+      "id": "09",
+      "title": "Exclusive — Cerebras to raise IPO price range to $150-$160 as demand surges",
+      "url": "https://www.cnbc.com/2026/05/10/cerebras-ipo-price-range.html",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "Wafer-scale AI chip competitor IPO — Cerebras raising $4.8B at ~$30B valuation (20x oversubscribed), OpenAI $20B largest customer; major signal of AI compute investor demand and competitor capital position."
+    },
+    {
+      "id": "32",
+      "title": "Napatech wins Tier-1 bank deal for 400G SmartNIC deployment",
+      "url": "https://convergedigest.com/napatech-wins-tier-1-bank-deal-for-400g-smartnic-deployment/",
+      "category": "products",
+      "competitor": "Napatech",
+      "keep_reason": "Direct DPU/SmartNIC competitor commercial win — NT400 FPGA-based 400G SmartNIC tier-1 bank multi-year deal ($3M+ over 2 yrs); MangoBoost's exact networking domain."
+    },
+    {
+      "id": "03",
+      "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "Strategic AI infra deal — 5GW NVIDIA DSX deployment via IREN (Sweetwater Texas 2GW), $2.1B warrant; demonstrates NVIDIA's full-stack (compute+network+software+power) integration model."
+    },
+    {
+      "id": "17",
+      "title": "FuriosaAI RNGD Production Scales: Korea's AI Chip Ambition Enters Commercial Stress Test",
+      "url": "https://www.seoulz.com/furiosaai-korea-ai-chip/",
+      "category": "products",
+      "competitor": "FuriosaAI",
+      "keep_reason": "Tier 1 domestic competitor operational scale — RNGD 월 1,000→2,000-3,000 ramp, 2026년 20K 출하 목표, Renegade+ Max 144GB HBM3e PCIe, SysOne 공공조달, 포르투갈/말레이시아 reference DC; product-level detail complementing 프리IPO 자금조달 기사."
+    },
+    {
+      "id": "06",
+      "title": "Intel, Apple reach preliminary chip manufacturing deal — 인텔, '애플 칩' 제조한다…\"트럼프 행정부 지원 결실\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210297",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Foundry/공급망 재편 — Apple-Intel 예비합의 + 미정부 개입, TSMC 의존도 분산, 2027년 M시리즈 일부 제조 가능성; 글로벌 반도체 capacity 구도 변화."
+    },
+    {
+      "id": "08",
+      "title": "애플의 TSMC 의존도 낮추기...삼성에 이어 인텔과도 협력설",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56312",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "동일 사건의 보완 앵글 — 애플의 삼성전자 테일러 2nm 팹 검토 추가 정보 (5/5 회동), 삼성 파운드리 회복 시나리오; Intel-only 기사로 누락되는 한국 반도체 영향 포착."
+    },
+    {
+      "id": "04",
+      "title": "Anthropic signs $1.8B computing deal with Akamai — 앤트로픽, 세계 최대 CDN 업체 아카마이와 2.6조 컴퓨팅 계약",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210294",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "주요 AI 컴퓨팅 계약 — Anthropic-Akamai 7년 18억달러; CDN-cloud 컨버전스 + 컴퓨팅 공급 다변화 트렌드 (Akamai 주가 +27%); AI 인프라 수요/공급 시그널."
+    },
+    {
+      "id": "18",
+      "title": "Samsung accelerates Pyeongtaek fab expansion — 삼성, 메모리 증설 총력…슈퍼사이클 이어간다",
+      "url": "https://v.daum.net/v/20260507181017224",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "메모리 슈퍼사이클 코어 — 삼성 P5 팹2 6개월 조기 착공, P5 총 120조원 투자, HBM/DDR/낸드/파운드리; DDR4 10x 상승 (1.65→16달러) AI 인프라 부품 수급 핵심."
+    },
+    {
+      "id": "15",
+      "title": "삼성전자 노사 협상 테이블 다시 앉는다... 11~12일 사후조정, 5월 21일 총파업 예고",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56280",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "반도체 공급망 리스크 — 5/21-6/7 (18일) 총파업 시 DS부문 매출 최대 5.9억달러 감소 가능 (JP모건 추산); 메모리/HBM 공급 단기 변동성, AI 인프라 부품 수급 영향."
+    },
+    {
+      "id": "12",
+      "title": "\"엔비디아 'H200' 탑재 서버, 태국 거쳐 알리바바 밀반입 의심\" — Supermicro-tied execs allegedly smuggled Nvidia AI GPUs to China via Thailand",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210295",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "수출규제/공급망 — H200 25억달러 규모 태국→알리바바 우회 밀수 의혹, Supermicro 임원 기소; 2022년 이후 최대 반도체 밀수 사건, AI 칩 수출통제 강화 압력."
+    },
+    {
+      "id": "20",
+      "title": "美 제재에도 中 반도체 성장…AI칩·장비 국산화 수혜",
+      "url": "https://www.etnews.com/20260508000160",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "중국 반도체 시장 동향 — 캠브리콘 매출 +160% 순익 +185%, 기가디바이스 매출 +119%, NVIDIA 제한 반사이익으로 국산 AI 칩 채택 확대; 글로벌 AI 반도체 경쟁 구도 변화."
+    },
+    {
+      "id": "05",
+      "title": "Anthropic Signs SpaceX Colossus 1 Data Center to Boost Capacity",
+      "url": "https://www.servethehome.com/anthropic-signs-spacex-colossus-1-data-center-to-boost-capacity/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 컴퓨팅 부족 시그널 — Anthropic이 Claude Opus 용량 부족 해소 위해 SpaceX Colossus 1 (220K NVIDIA GPU, 300MW) 전체 임차; AI 인프라 capacity scarcity 사례."
+    },
+    {
+      "id": "19",
+      "title": "반도체 패키징 시장 900조 돌파…연평균 20% 성장",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56270",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "시장 리포트 — 글로벌 반도체 패키징 2026년 6,189억달러 (908조원), AI 서버가 HBM 및 2.5D/3D 적층 수요 견인; '프런트엔드→백엔드 첨단 패키징' 패러다임 전환."
+    },
+    {
+      "id": "11",
+      "title": "딥시크 창립자 량원펑, 사재 4조 투자 예정...'V4.1'은 6월 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210296",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI 모델 업데이트 + 펀딩 — DeepSeek V4.1 6월 출시 + MCP 강화, 사재 200억 위안 포함 최대 500억 위안 라운드 (밸류 3,500억 위안); 중국 AI 효율 모델 트렌드 핵심."
+    },
+    {
+      "id": "23",
+      "title": "Maryland citizens face $2B power grid upgrade bill for out-of-state AI data centers",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 데이터센터 전력 과제 — Maryland $2B 송전 인프라 부담 분쟁, PJM 22B 업그레이드, 미국 DC 전력수요 2025-2028 80→150GW; AI 인프라 비용/전력 정책 리스크."
+    },
+    {
+      "id": "24",
+      "title": "AI data center project secretly sucked 29 million gallons of water over 15 months",
+      "url": "https://www.tomshardware.com/tech-industry/georgia-data-center-used-29-million-gallons-of-water",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI DC 냉각/자원 갈등 — QTS Georgia 시설 무단 2,900만 갤런 사용 (265 가구 연간 사용량 상당); DC 확장과 지역 자원 충돌 패턴 확산."
+    },
+    {
+      "id": "27",
+      "title": "DDN storage being used in French Pangea supercomputer",
+      "url": "https://www.blocksandfiles.com/file/2026/05/08/ddn-storage-being-used-in-french-pangea-supercomputer/5235729",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "HPC/AI 인프라 협업 사례 — TotalEnergies Pangea 5 (75 PFLOPS, €100M+), DDN EXAScaler 스토리지 + NVIDIA GPU/InfiniBand + Dell 서버; 스토리지/네트워킹 통합 인프라 레퍼런스."
+    },
+    {
+      "id": "29",
+      "title": "오픈AI, 미소스 대항마 'GPT-5.5-사이버' 공개...전용·범용 '투트랙' 가동",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210280",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI 모델 출시 — GPT-5.5-Cyber 사이버 방어 특화 모델, Agents SDK 및 음성 API 추가; LLM 분화/전문화 트렌드, 인프라 다양화 수요."
+    },
+    {
+      "id": "22",
+      "title": "OpenAI, '코덱스'에 크롬 확장 프로그램 출시…\"브라우저 직접 제어\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210286",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI Agent 업데이트 — Codex Chrome 확장 (LinkedIn/Salesforce/Gmail 등 로그인 사이트 직접 제어), Codex WAU 400만 (연초 대비 8x); 브라우저 에이전트 인프라 수요 확대."
+    },
+    {
+      "id": "25",
+      "title": "브록먼 \"에이전트 코딩 비중 80%...이제는 비개발자까지 확산\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210305",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI 에이전트 산업 트렌드 — OpenAI 브록먼: 에이전트 코딩 80% 도달, 비개발자 확산, Codex WAU 400만; 소프트웨어 개발 패러다임 전환 신호."
+    },
+    {
+      "id": "21",
+      "title": "xAI, '커서' 인수로 10여명 추가 이탈...법인 해체하고 '스페이스XAI'로 통합",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210288",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AI 빅테크 재편 — xAI 독립법인 해체, SpaceX 통합 (브랜드 스페이스XAI), 커서 인수 최대 600억달러 + IPO 6월; xAI 컴퓨팅 인프라 접근권 재편."
+    },
+    {
+      "id": "30",
+      "title": "중국 암시장에서 '클로드' 10% 가격으로 유통...\"모델 증류의 온상\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210298",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 모델 IP 보호 과제 — Claude 응답 수집 → 증류 학습 → 10% 가격 복제본 유통; 프런티어 AI 모델 IP 침해 새 패턴, 미·중 AI 격차 우회 시그널."
+    },
+    {
+      "id": "02",
+      "title": "엔비디아, 올해 투자 벌써 58조 돌파…\"전년 규모 넘어선 공급망 장악\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210301",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "한국어 1차 정리본 — 영문 TechCrunch 기사(#01)의 한국어 종합 (Anthropic, xAI, Marvell·Lumentum 포함 100억달러 인프라 분배 추가 디테일); 한국 독자에게 별도 가치."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "07",
+      "title": "Apple and Intel have reached a deal to produce future chips — Apple strikes preliminary deal with Intel for chip manufacturing",
+      "discard_reason": "duplicate of #06 (AItimes Korean coverage of same WSJ-sourced Apple-Intel preliminary deal, same date 5/8)"
+    },
+    {
+      "id": "10",
+      "title": "Cerebras Systems (CBRS) Plans to Raise IPO Price Range to $125-$135",
+      "discard_reason": "stale — Cerebras IPO range superseded by #09 ($150-160 range, 5/10), this $125-135 (5/8) is intermediate step now obsolete"
+    },
+    {
+      "id": "26",
+      "title": "DeepSeek seeks first outside funding at $45B valuation as China backs homegrown AI rival",
+      "discard_reason": "duplicate of #11 (same DeepSeek first funding round / Liang Wenfeng personal investment / V4.1 June launch; Korean AItimes version has equivalent depth)"
+    },
+    {
+      "id": "31",
+      "title": "앤트로픽, AI '속마음' 읽는 기술 공개...\"테스트 상황 알아채고도 숨겨\"",
+      "discard_reason": "off-topic — AI safety/interpretability research with no infra/semi/business implications for MangoBoost; not market, products, projects, challenges, or collaboration"
+    }
+  ],
+  "summary": {
+    "total_received": 32,
+    "total_kept": 28,
+    "total_discarded": 4,
+    "category_breakdown": {
+      "market": 13,
+      "products": 8,
+      "projects": 1,
+      "challenges": 5,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 11,
+    "by_competitor": {
+      "NVIDIA": 4,
+      "Marvell": 1,
+      "AMD": 2,
+      "FuriosaAI": 2,
+      "Cerebras": 1,
+      "Napatech": 1
+    }
+  }
+}

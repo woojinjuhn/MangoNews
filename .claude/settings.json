@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "WebFetch(domain:*)",
+      "Write",
+      "Edit",
+      "PowerShell",
+      "Write(path:C:\\Users\\pc-24-042\\mangonews\\.claude\\agent-memory\\**)",
+      "Edit(path:C:\\Users\\pc-24-042\\mangonews\\.claude\\agent-memory\\**)"
+    ]
+  }
+}

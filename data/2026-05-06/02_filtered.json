@@ -1,0 +1,245 @@
+{
+  "collection_date_kst": "2026-05-06",
+  "filter_stage": 1,
+  "kept": [
+    {
+      "id": 3,
+      "title": "Astera Labs Extends Leadership in Open, AI Scale-Up Networking with New 320 Lane Scorpio X-Series Smart Fabric Switch",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288226/0/en/astera-labs-extends-leadership-in-open-ai-scale-up-networking-with-new-320-lane-scorpio-x-series-smart-fabric-switch.html",
+      "category": "products",
+      "competitor": "Astera Labs",
+      "keep_reason": "Tier-2 경쟁사 Astera Labs의 320-lane scale-up fabric switch — UALink/CXL/PCIe 통합 인텔리전트 커넥티비티 플랫폼은 MangoBoost DPU/SmartNIC 영역과 정면 경합."
+    },
+    {
+      "id": 20,
+      "title": "\"삼성전자 파업땐 신뢰 하락… 국가경제 전체 치명적 타격\"",
+      "url": "https://www.etnews.com/20260505000058",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "한국 반도체 산업의 핵심 리스크(5/21~6/7 18일 총파업 예고) — 30조 원 손실 추정, HBM 공급 차질 시 글로벌 AI 인프라 공급망 직접 타격."
+    },
+    {
+      "id": 21,
+      "title": "[이슈플러스] 없어서 못파는 반도체, 삼성이 안 만들면 중국이 모두 가져간다",
+      "url": "https://www.etnews.com/20260505000034",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성 파업 리스크의 생산영향 정량화(파운드리 -58.1%, 메모리 -18.4%) + CXMT/YMTC 점유율 잠식 등 중국 반사이익 분석 — #20과 다른 각도의 심층 보도."
+    },
+    {
+      "id": 1,
+      "title": "Broadcom Helps CPU And XPU Makers Go Vertical With Compute",
+      "url": "https://www.nextplatform.com/compute/2026/05/05/broadcom-helps-cpu-and-xpu-makers-go-vertical-with-compute/5219419",
+      "category": "products",
+      "competitor": "Broadcom",
+      "keep_reason": "Broadcom 3.5D XDSiP — AWS Trainium4·Meta MTIA·Fujitsu Monaka 등 6대 XPU/CPU 메이커의 3D 적층 패키징 채택, 하이퍼스케일러 자체 실리콘 동향 핵심."
+    },
+    {
+      "id": 27,
+      "title": "Amazon buys office and data center site in Maryland from T. Rowe",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-buys-office-and-data-center-site-in-maryland-from-t-rowe/",
+      "category": "projects",
+      "competitor": "AWS",
+      "keep_reason": "AWS 자체 실리콘(Nitro DPU·Graviton·Trainium) $20B run-rate 명시 + 1GW Trainium2/3 Anthropic 공급 — MangoBoost DPU 영역 직접 경쟁 맥락."
+    },
+    {
+      "id": 26,
+      "title": "Microsoft confirms plans for data center in Tyrone, Georgia",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-confirms-plans-for-data-center-in-tyrone-georgia/",
+      "category": "projects",
+      "competitor": "Microsoft",
+      "keep_reason": "MS Cobalt ARM CPU + Maia 200 AI 가속기 배치 예정 + 2026 capex $190B — 하이퍼스케일러 자체 실리콘 인프라 확장의 결정적 데이터포인트."
+    },
+    {
+      "id": 8,
+      "title": "Huawei AI Chip Sales Target Grows as China Cuts Nvidia Use",
+      "url": "https://winbuzzer.com/2026/05/05/huawei-ai-chip-sales-target-grows-as-china-cuts-nvidia-use-xcxwbn/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Huawei $12B 목표 + NVIDIA 中시장 점유율 95%→0% + 中AI칩 시장 2030년 $67B 전망 — 분리된 글로벌 AI 인프라 공급망 형성의 핵심 시그널."
+    },
+    {
+      "id": 4,
+      "title": "Astera Labs Reports First Quarter 2026 Financial Results",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288259/0/en/astera-labs-reports-first-quarter-2026-financial-results.html",
+      "category": "market",
+      "competitor": "Astera Labs",
+      "keep_reason": "Tier-2 경쟁사 분기 실적: 매출 $308.4M(YoY +93%), GAAP GPM 76.3%, Q2 가이던스 $355–365M — PCIe 6 + Scorpio X 본격 매출 반영 단계 확인."
+    },
+    {
+      "id": 12,
+      "title": "OpenAI's cozy partner Cerebras is on track for a blockbuster IPO",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras IPO 본격화 — 가치 $26.6B, $3.5B 조달, OpenAI $1B 대출/워런트 + AWS 공급계약. 인접 AI 가속기 시장의 자본·고객 검증 신호."
+    },
+    {
+      "id": 11,
+      "title": "'엔비디아 대항마' 세레브라스, 38조 기업 가치로 IPO 도전",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210094",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras IPO 한국어 정리본 — 38조 원 기업가치, 750MW OpenAI 인프라 계약($2B+), AWS 공급, 2025 매출 $510M 흑자전환 등 한국 독자용 1차 정리."
+    },
+    {
+      "id": 2,
+      "title": "ASML CEO Christophe Fouquet on his company's monopoly: no one is coming for us",
+      "url": "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "ASML 2026 매출 가이던스 €36–40B + EUV 공급 부족이 향후 2~5년 하이퍼스케일러 칩 수급 제약으로 직결 — AI 인프라 공급망 상단 제약 신호."
+    },
+    {
+      "id": 19,
+      "title": "Applied Materials Completes ASMPT NEXX Acquisition, Secures ECD Technology",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56061",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AMAT의 ASMPT NEXX(ECD 장비) 인수 완료 — AI 가속기용 패널레벨 패키징(510×515mm) 역량 확보, 어드밴스드 패키징 공급망 재편."
+    },
+    {
+      "id": 28,
+      "title": "Nebius, Lambda, and CoreWeave unlikely to buy Google TPUs any time soon",
+      "url": "https://www.datacenterdynamics.com/en/news/nebius-lambda-and-coreweave-unlikely-to-buy-google-tpus-any-time-soon/",
+      "category": "market",
+      "competitor": "Google",
+      "keep_reason": "Google TPU 8t/8i 외부 판매 vs neo-cloud의 NVIDIA 소프트웨어 락인 — 대안 가속기 채택 장벽과 시장 분절 구조 분석. MangoBoost의 다양한 가속기 활용 전략에 직결."
+    },
+    {
+      "id": 9,
+      "title": "Broadcom Is Dominating the Custom AI Chip Market and Doesn't Get a Tenth of the Press Nvidia Does",
+      "url": "https://www.fool.com/investing/2026/05/05/broadcom-is-dominating-the-custom-ai-chip-market/",
+      "category": "market",
+      "competitor": "Broadcom",
+      "keep_reason": "Broadcom AI 매출 $20B(2025) → $100B+(2026E), Q1 FY26 AI 매출 +106% YoY $8.4B, 6대 하이퍼스케일러 ASIC 계약 — 커스텀 XPU 시장 패권 데이터."
+    },
+    {
+      "id": 18,
+      "title": "Micron 6600 ION 245TB SSD Announced",
+      "url": "https://www.servethehome.com/micron-6600-ion-245tb-ssd-announced/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Micron 245.76TB QLC SSD — AI 데이터레이크/하이퍼스케일 스토리지 밀도(3.9PB/1U) 신기록, MangoBoost SSD/스토리지 가속 인접 영역."
+    },
+    {
+      "id": 23,
+      "title": "Chinese cloud infrastructure spend up 26% in Q4 2025",
+      "url": "https://www.datacenterdynamics.com/en/news/chinese-cloud-infrastructure-spend-up-26-in-q4-2025/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "中 클라우드 인프라 지출 +26% YoY — Alibaba/Tencent/ByteDance AI 컴퓨트 확장과 Huawei 칩 수요 동반 상승, 분리된 AI 생태계 가속화."
+    },
+    {
+      "id": 6,
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "ChatGPT 디폴트 모델 GPT-5.5 Instant 교체 — AIME 65→81, MMMU-Pro 69→76 향상으로 추론 컴퓨트 수요 패턴에 영향."
+    },
+    {
+      "id": 15,
+      "title": "\"통제 불능 섀도우 AI 막는다\"...MS, 사내 거버넌스 플랫폼 '에이전트 365' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210095",
+      "category": "products",
+      "competitor": "Microsoft",
+      "keep_reason": "MS Agent 365 정식 출시 — 엔터프라이즈 AI 에이전트 거버넌스(섀도우 AI/에이전트 스프롤), AWS Bedrock·Gemini Enterprise 멀티클라우드 통합. AI Agent 생태계 핵심."
+    },
+    {
+      "id": 14,
+      "title": "앤트로픽, 월가와 2조 합작사 설립...엔지니어 파견해 기업 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210091",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic+Goldman/Blackstone/H&F $1.5B 합작 — 엔터프라이즈 AI 도입 가속이 추론 인프라 수요로 직결, OpenAI 사모펀드 합작과 경쟁 구도."
+    },
+    {
+      "id": 17,
+      "title": "SPEC Consortium Releases SPEC CPU 2026 Benchmark Suite: The Next Decade of CPU Benchmarking",
+      "url": "https://www.servethehome.com/spec-consortium-releases-spec-cpu-2026-benchmark-suite-the-next-decade-of-cpu-benchmarking/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "SPEC CPU 2026 9년 만의 메이저 업데이트 — AI 워크로드 포함 52개 벤치마크, AMD/Intel/Arm/SiFive 공동참여. CPU 성능 평가의 산업 표준."
+    },
+    {
+      "id": 13,
+      "title": "백악관, '미소스' 계기로 AI 모델 출시 전 국가 검증 추진 중",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210092",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "美 백악관 AI 모델 사전 정부검증 행정명령 검토 — Anthropic Mythos 사이버보안 우려 계기. AI 모델 출시 규제 환경 변화는 인프라 배포 일정에 영향."
+    },
+    {
+      "id": 7,
+      "title": "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
+      "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Apple iOS 27 다중 LLM 선택 기능(Google·Anthropic 테스트 중) — 온디바이스 AI 다공급자 아키텍처 표준화 신호, 모델별 추론 트래픽 분산 영향."
+    },
+    {
+      "id": 16,
+      "title": "메타, '더 오래 생각'하며 고품질 데이터 생성하는 '오토데이터' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210084",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Meta AutoData — 에이전틱 셀프-인스트럭트 합성 데이터 생성 프레임워크, 추론 컴퓨트로 학습 데이터 품질 개선. AI 학습 컴퓨트 사용 패턴 변화 시사."
+    },
+    {
+      "id": 22,
+      "title": "VMware claims Cloud Foundation on track for world domination",
+      "url": "https://www.theregister.com/2026/05/05/vmware_vcf_9_update/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "VCF 9.1 — 메모리 티어링(RAM→NVMe) 강화로 서버 메모리 절감, 온프레미스 AI 워크로드 압축, 멀티테넌트 AI 격리. AI 인프라 비용/효율 직결."
+    },
+    {
+      "id": 25,
+      "title": "Malaysia's DPS Resources and Alibaba may develop data centers in Melaka, Malaysia",
+      "url": "https://www.datacenterdynamics.com/en/news/malaysias-dps-resources-and-alibaba-may-develop-data-centers-in-melaka-malaysia/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Alibaba Cloud 말레이시아 멜라카 DC 추가 검토 — 中하이퍼스케일러의 동남아 AI 인프라 확장, 서구 규제 회피 우회로 형성."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 5,
+      "title": "Astera Labs Scorpio 320-Lane PCIe Switch Update",
+      "discard_reason": "duplicate of #3 (Astera Labs GlobeNewswire 보도자료) — ServeTheHome은 동일 발표의 편집형 재정리, 1차 출처 우선 원칙."
+    },
+    {
+      "id": 10,
+      "title": "\"CEO들의 '신 콤플렉스' 경계해야\"...젠슨 황, AI 비관론에 쓴소리",
+      "discard_reason": "off-topic — Jensen Huang의 팟캐스트 발언 정리(AI 일자리·실존위험 논쟁)로 DPU/AI 인프라/사업 동향과 직접 연관 없는 인터뷰성 콘텐츠."
+    },
+    {
+      "id": 24,
+      "title": "SAP bags Dremio and Prior Labs in enterprise AI data push",
+      "discard_reason": "off-topic — 엔터프라이즈 데이터레이크/표형 모델 SW M&A로 반도체·AI 인프라 스택과 거리 있음. MangoBoost 직무 관심사 밖."
+    }
+  ],
+  "summary": {
+    "total_received": 28,
+    "total_kept": 25,
+    "total_discarded": 3,
+    "category_breakdown": {
+      "market": 11,
+      "products": 9,
+      "projects": 3,
+      "challenges": 2,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 11,
+    "by_competitor": {
+      "NVIDIA": 1,
+      "Broadcom": 2,
+      "Cerebras": 2,
+      "Astera Labs": 2,
+      "AWS": 1,
+      "Google": 1,
+      "Microsoft": 2
+    }
+  }
+}

@@ -1,0 +1,39 @@
+# MangoNews — News Source Registry
+# Edited by humans. Read by the collector agent at the start of every run.
+#
+# Two channels:
+#   - rss_feeds   : the agent fetches each URL as RSS/Atom, lists items dated today or yesterday (KST),
+#                   then fetches each item URL for full body extraction.
+#   - web_sections: pages without a usable RSS feed. The agent fetches the section page, discovers
+#                   links to articles, then applies the same recency + topical relevance + dedup rules.
+#
+# Recency, deduplication, and topical relevance rules live in the agent prompt — not here.
+
+rss_feeds:
+  - https://www.theregister.com/data_centre/networks/
+  - https://www.nextplatform.com/feed/
+  - https://semianalysis.com/feed/
+  - https://www.servethehome.com/feed/
+  - https://www.hpcwire.com/feed/
+  - https://blocksandfiles.com/feed/
+  - https://www.artificialintelligence-news.com/feed/
+  - https://www.datacenterdynamics.com/en/rss/
+  - https://www.networkworld.com/index.rss
+  - https://www.aitimes.com/rss/allArticle.xml
+  - https://www.tomshardware.com/feeds/all
+  - https://spectrum.ieee.org/feeds/feed.rss
+  - https://www.wired.com/feed/rss
+  - https://techcrunch.com/feed/
+
+web_sections:
+  - name: "Naver News — IT/과학"
+    url: https://news.naver.com/section/105
+    language: ko
+    notes: |
+      Naver does not publish a usable RSS feed for this section. Fetch the section landing page
+      (and follow into linked sub-sections such as 모바일, 인터넷/SNS, 통신/뉴미디어, IT 일반,
+      보안/해킹, 컴퓨터, 게임/리뷰, 과학 일반 if useful) to discover article URLs.
+      Only keep articles that:
+        (a) were published today or yesterday in KST, AND
+        (b) materially fit one of the four target domains (AI / semiconductor / datacenter / competitor).
+      Skip lifestyle, gadget reviews, or generic IT consumer news that does not advance the four domains.
