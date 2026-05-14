@@ -17,3 +17,6 @@ venv/
 .vscode/launch.json
 .idea/
 *.swp
+
+# Claude Code local overrides (machine-specific hook paths, etc.)
+.claude/settings.local.json

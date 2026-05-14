@@ -1,0 +1,262 @@
+{
+  "collection_date_kst": "2026-05-14",
+  "run_summary": {
+    "total": 22,
+    "by_topic": {
+      "ai": 7,
+      "semiconductor": 6,
+      "datacenter": 5,
+      "competitor": 4
+    },
+    "by_competitor": {
+      "NVIDIA": 4,
+      "Cerebras": 2,
+      "AMD": 2,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "Moreh": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Tenstorrent": 0,
+      "Marvell": 1,
+      "Napatech": 0,
+      "Fractile": 1
+    },
+    "competitor_tagged_total": 8,
+    "sources_consulted": 28,
+    "skipped_paywalled": 5,
+    "notes": "수집 기간: 2026-05-14 단일 일자. 마지막 발행 호가 2026-05-13이므로 오늘(2026-05-14) 기사만 대상. 다수 기사가 아직 오늘 새벽에 게재되지 않아 일부 Channel A RSS 피드에서 5월 13일 UTC 기사가 5월 14일 KST로 해석되는 경우 포함. TrendForce 삼성 파업 영향 분석(5/13 UTC=5/14 KST 새벽)과 더일렉 5/14 07:40 KST 기사 포함. 세레브라스 CBRS IPO 첫 거래일(5/14 KST)이 오늘의 핵심 competitor 이벤트. 젠슨 황 트럼프 방중 합류(5/13 발표, 5/14 KST 유효). DCD RSS 403 접근 실패로 개별 URL 검색으로 대체. Tier 1 한국 경쟁사(FuriosaAI, Rebellions, Moreh, HyperAccel, FriendliAI) 오늘자 독립 기사 없음 — 5/12~13에 이미 보도된 내용 반복만 확인됨. Fractile은 AI 추론칩 경쟁사 adjacent로 태깅. 삼성 파업 최신 동향은 5/13 UTC 발표 기사 포함."
+  },
+  "articles": [
+    {
+      "title": "Cerebras Systems Announces Pricing of Initial Public Offering at $185 per Share — Nasdaq CBRS Begins Trading May 14, 2026",
+      "url": "https://www.stocktitan.net/news/CBRS/cerebras-systems-announces-pricing-of-initial-public-7iz0bt77kxua.html",
+      "body": "Cerebras Systems priced its IPO at $185.00 per share for 30 million Class A shares. The underwriters received a 30-day option to purchase up to 4.5 million additional shares at the same price. Shares are expected to begin trading on the Nasdaq Global Select Market on May 14, 2026 under ticker CBRS, with closing anticipated for May 15, 2026.\n\nMajor banks leading the offering include Morgan Stanley, Citigroup, Barclays, and UBS Investment Bank, with Mizuho and TD Cowen serving as bookrunners.\n\nCerebras develops AI infrastructure, with its flagship product being the Wafer-Scale Engine 3 (WSE-3) processor, described as 'the world's largest and fastest commercialized AI processor' capable of delivering 'inference up to 15 times faster than leading GPU-based solutions.'\n\nThe IPO raised $5.55 billion in total, giving Cerebras a market valuation of more than $56 billion. The offering was approximately 20 times oversubscribed. Key customers include OpenAI ($10B+ multi-year deal for 750 MW of low-latency AI compute) and Amazon Web Services.\n\nPre-IPO secondary market activity showed strong investor demand, with shares changing hands at $187.53 on Monday, about 17% above the top of the initial offering range. This represents one of the largest AI-related offerings of 2026 and the largest US technology IPO of the year.",
+      "published_at": "2026-05-13T22:00:00+09:00",
+      "source": "StockTitan / Cerebras Systems Press Release",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "Cerebras prices IPO above expected range, Wall Street braces for AI chip wave",
+      "url": "https://www.cnbc.com/2026/05/13/cerebras-prices-ipo-above-expected-range-wall-street-expects-ai-flood.html",
+      "body": "Cerebras priced its initial public offering at $185 per share on Wednesday, May 13, 2026 — significantly above the upwardly revised price range of $150 to $160 per share. The company raised $5.55 billion through the sale of 30 million shares, achieving a market valuation exceeding $56 billion.\n\nThe offering was approximately 20 times oversubscribed, reflecting exceptional institutional demand for the AI chip maker. Wall Street analysts characterized the pricing as a significant test of the market's appetite for AI inference infrastructure plays.\n\nCerebras has inked multi-year deals with artificial intelligence giants OpenAI (valued at more than $10 billion for 750 megawatts of low-latency AI compute capacity) and Amazon Web Services. The company's WSE-3 Wafer-Scale Engine processor delivers inference up to 15 times faster than leading GPU-based solutions.\n\nShares began trading on the Nasdaq Global Select Market on May 14, 2026 under ticker CBRS. Underwriters hold a 30-day option for up to 4.5 million additional shares. Lead underwriters include Morgan Stanley, Citigroup, Barclays, and UBS Investment Bank.",
+      "published_at": "2026-05-13T22:00:00+09:00",
+      "source": "CNBC",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "Samsung's critical union negotiations break down eight days before planned 18-day chip factory strike — Korean PM calls emergency meeting as strike looms",
+      "url": "https://www.tomshardware.com/tech-industry/samsungs-last-ditch-union-talks-collapse-eight-days-before-planned-18-day-chip-factory-strike",
+      "body": "Samsung Electronics' labor-management negotiations collapsed on May 13, 2026, after a 17-hour bargaining session. The breakdown threatens the company's first semiconductor production halt since 1984.\n\nThe union's demands center on performance bonuses, seeking to set the bonus pool at 15% of forecasted operating profit and eliminate bonus caps. Union chair Choi Seung-ho stated that more than 50,000 members will participate in a planned strike beginning May 21.\n\nA general strike could cause an estimated 30 trillion won in production losses through early June. Additional damage from wafer destruction (costing $20,000 each) and equipment failures could add tens of trillions more. Samsung's semiconductor sector represents 36.2% of South Korea's exports.\n\nPrime Minister Kim Min-seok convened emergency meetings, declaring the government will 'actively support labor-management dialogue so that this does not lead to a strike.' Officials are considering invoking emergency arbitration powers — potentially the first such action in 21 years — to prevent the economic damage.\n\nThe union rejected further negotiations: 'We are not considering any additional dialogue with the company until the strike ends.'\n\nJPMorgan estimates the 18-day work stoppage would cost Samsung over 4 trillion won in direct revenue, roughly 1% of its semiconductor division's annual sales. The union now counts more than 90,000 members, representing over 70% of Samsung's South Korean workforce. Samsung has offered a one-time payment for 2026 but refused to commit to permanent changes in how bonuses are calculated.",
+      "published_at": "2026-05-13T11:41:52+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "[News] Samsung Strike Seen Contained on Revenue Impact, with Price Support and Order Shift Risks to SK Hynix and Micron",
+      "url": "https://www.trendforce.com/news/2026/05/13/news-samsung-strike-seen-contained-on-revenue-impact-but-may-support-prices-while-order-risk-shifts-to-sk-hynix-and-micron/",
+      "body": "The anticipated Samsung Electronics labor strike beginning May 21 is expected to have limited direct financial impact despite potential production disruptions. Analysts estimate that even a 5% slowdown in memory production would affect quarterly revenue by less than 1 trillion won — negligible compared to Samsung's approximately 23 trillion won in quarterly sales.\n\nSemiconductor manufacturing's complexity and strict safety regulations around toxic chemicals create natural barriers to coordinated disruption. A full production shutdown is viewed as highly unlikely, though wafer input rates could face some slowdown.\n\nInterestingly, reduced output might actually benefit Samsung financially. Tighter memory supplies could push DRAM and NAND flash prices upward, potentially offsetting revenue losses.\n\nThe greater threat is customer defection. Samsung is actively expanding AI infrastructure products like HBM and enterprise SSDs. Any supply uncertainty could drive customers toward competitors like SK hynix and Micron. Since semiconductor process validation and customer certification require significant time and cost, recovering lost business would prove difficult once customers switch suppliers.\n\nDisruptions could reach 3-4% for DRAM and 2-3% for NAND, based on the production weight of Samsung's Pyeongtaek and Hwaseong fabs. The direct financial harm appears contained, but reputational damage and supply chain realignment pose longer-term competitive risks.",
+      "published_at": "2026-05-13T09:00:00+09:00",
+      "source": "TrendForce",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Faces First-Ever Chip Fab Shutdown in 42 Years",
+      "url": "https://en.sedaily.com/finance/2026/05/13/samsung-faces-first-ever-chip-fab-shutdown-in-42-years",
+      "body": "Samsung Electronics labor-management negotiations collapsed on May 13, 2026, after a 17-hour bargaining session. The breakdown threatens the company's first semiconductor production halt since 1984.\n\nThe union's demands center on performance bonuses, seeking to set the bonus pool at 15% of forecasted operating profit and eliminate bonus caps. Union chair Choi Seung-ho stated more than 50,000 members will participate in a planned strike beginning May 21.\n\nA general strike could cause an estimated 30 trillion won in production losses through early June. Additional damage from wafer destruction (costing $20,000 each) and equipment failures could add tens of trillions more. Samsung's semiconductor sector represents 36.2% of South Korea's exports.\n\nPrime Minister Kim Min-seok convened emergency meetings, declaring the government will actively support labor-management dialogue. Officials are considering invoking emergency arbitration powers — potentially the first such action in 21 years.\n\nThe union rejected further negotiations: 'We are not considering any additional dialogue with the company until the strike ends.'",
+      "published_at": "2026-05-13T09:00:00+09:00",
+      "source": "Seoul Economic Daily (영문)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang joins Trump on his China visit — H200 chip export talks center stage",
+      "url": "https://americanbazaaronline.com/2026/05/13/nvidia-ceo-jensen-huang-joins-trump-on-his-china-visit-480712/",
+      "body": "Nvidia CEO Jensen Huang has joined President Donald Trump's delegation to China, reversing earlier reports that he would not attend. Trump personally called Huang and invited him after seeing media coverage of his absence.\n\nA Nvidia spokesperson stated: 'Jensen is attending the summit at the invitation of President Trump to support America and the administration's goals.'\n\nTrump confirmed the development on social media, asserting that Huang was aboard Air Force One and denying the CEO hadn't been invited. The president indicated his primary objective would be requesting that Chinese leader Xi Jinping create more openness for American businesses.\n\nHuang has been advocating for expanded Chinese market access, which he values at approximately $50 billion in opportunity. Nvidia's advanced chips have faced significant export restrictions to China over the past four years, though some H200 models recently received approval.\n\nThe broader delegation includes prominent business leaders such as Elon Musk, Tim Cook, Larry Fink, and Stephen Schwarzman. Trump in January greenlit shipments of Nvidia's H200 chips to China, but not a single one has been sold — China reportedly instructed customs officers to stop the chips at the border.\n\nIndustry observers note that while Huang's participation signals importance, meaningful progress on export control modifications remains uncertain. A former Taiwan legislator characterized Huang's presence as Trump wanting him 'at the table to be a bargaining chip' in chip export control discussions.",
+      "published_at": "2026-05-13T15:00:00+09:00",
+      "source": "American Bazaar Online",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "젠슨 황, 트럼프 방중단에 전격 합류…미중 반도체 담판 '게임 체인저' 되나",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/05/2026051311135398432bd56fbc3c_1",
+      "body": "NVIDIA CEO 젠슨 황이 트럼프 대통령의 중국 방문 사절단에 합류하기로 했다. 초기에는 방중 명단에 없었으나, 트럼프 대통령이 직접 전화를 걸어 초청한 것으로 알려졌다. 황 CEO는 알래스카에서 에어포스원에 탑승한 것으로 확인됐다.\n\n황 CEO의 합류는 미중 반도체 수출 통제 협상에서 중요한 의미를 갖는다. 엔비디아는 H200 칩에 대한 미국 정부의 수출 허가를 받았으나, 중국 측이 세관에서 이를 막아 단 한 건의 판매도 이루어지지 않은 상황이다.\n\n트럼프 방문단에는 일론 머스크 테슬라·스페이스X CEO, 팀 쿡 애플 CEO, 래리 핑크 블랙록 회장, 스티브 슈워츠만 블랙스톤 회장 등이 포함됐다. 마이크론 산제이 메흐로트라 CEO, 퀄컴 크리스티아노 아몬 CEO도 수행단에 합류했다.\n\n황 CEO는 중국 시장 접근 확대를 강력히 요구해왔으며, 이 기회가 약 500억 달러(약 70조원) 규모라고 평가하고 있다. 업계 관계자는 '이번 방문이 H200 대중 수출의 전환점이 될 수 있다'고 전망하면서도 '구체적 합의 도출은 쉽지 않을 것'이라고 내다봤다.",
+      "published_at": "2026-05-13T11:13:00+09:00",
+      "source": "글로벌이코노믹",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Fractile raises $220M in Series B to accelerate development of AI inference chips",
+      "url": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/",
+      "body": "UK-based AI chip startup Fractile has secured $220 million in Series B funding to develop next-generation inference hardware for frontier AI models. The round was led by Accel, Factorial Funds, and Founders Fund, with additional backing from Conviction, Gigascale, O1A, Felicis, Buckley Ventures, and 8VC. Pat Gelsinger also joined as an angel investor.\n\nAccording to CEO Walter Goodwin, the company addresses a critical constraint in AI development: 'Inference is both the revenue engine of the AI industry and the rate-limiting factor on expanding it.' The fundamental issue is that advanced language models increasingly require millions of tokens to solve complex problems, yet current hardware processes tokens too slowly — roughly 40 per second — making a single output potentially take a month to complete.\n\nFounded in 2022, Fractile is tackling what the company identifies as the real bottleneck: memory bandwidth limitations in existing architectures. Rather than merely optimizing current workloads, Goodwin emphasizes the value lies in 'entirely new workloads that hardware like Fractile will enable.'\n\nFractile claims its product can run models 25 times faster and at 10% of the cost of current alternatives. The company is aiming to deliver chips to customers in 2027. It is expanding operations across London, Bristol, San Francisco, and Taipei.\n\nNote: Anthropic was previously reported to be in early talks to source inference chips from Fractile, which uses an SRAM-based architecture that reduces reliance on expensive DRAM during the current memory shortage.",
+      "published_at": "2026-05-13T08:00:00+09:00",
+      "source": "Tech.eu",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "Fractile"
+    },
+    {
+      "title": "AMD's EPYC Steamrolls the Server Market With Record 46.2% Revenue Share in Q1 2026",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56564",
+      "body": "AMD achieved its highest-ever market share in the x86 server CPU segment, capturing 46.2% of revenue in Q1 2026, according to Mercury Research. This represents significant growth — an increase of 6.8 percentage points year over year and 4.9 points from the previous quarter.\n\nAMD's fifth-generation EPYC (code-named Turin) server CPU accounted for more than 50% of server revenues for the first time.\n\nThe company's success stems from expanded adoption of its EPYC processors in cloud and enterprise environments, combined with strong demand for its Instinct GPU line supporting AI-related server applications. AMD's revenue share nearly reaches 50% while its unit volume share stands at 33.2%, indicating customers are purchasing higher-priced products.\n\nAMD is strengthening its competitive position through upcoming releases. The firm plans to introduce Venice, its next-generation EPYC CPU based on Zen 6 architecture, in the second half of 2026. The new Helios platform — a rack-scale AI system launching later this year — will integrate Venice processors alongside Instinct MI455X GPUs, offering 2.9 EFLOPS of FP4 compute performance. All Helios racks are equipped with networking gear from AMD's Pensando division.\n\nIn consumer CPU markets, AMD recorded 31.4% revenue share, with desktop CPUs at 37.6% and mobile processors at 28.9%.",
+      "published_at": "2026-05-14T07:40:00+09:00",
+      "source": "더일렉 (THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "Musk's xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
+      "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+      "body": "Elon Musk's xAI is operating 46 natural gas turbines at its Mississippi data center that currently lack air pollution permits, according to a TechCrunch report. The situation centers on a regulatory loophole.\n\nMississippi classifies the turbines as 'mobile' because they sit on flatbed trailers, which exempts them from air pollution regulations for one year. However, federal law stipulates that trailer-mounted power plants can still be considered stationary and subject to such regulations.\n\nThe NAACP filed a lawsuit through the Southern Environmental Law Center, claiming the unchecked emissions worsen air quality in an already polluted region. The organization recently requested court action to halt what it describes as illegal air pollution from the facility.\n\nxAI has received permits for only 15 turbines, yet continues expanding operations. xAI's Mississippi data center runs 46 turbines up from 18 when it first arrived last year. MDEQ said xAI added 19 temporary-mobile turbines between March 25 and May 2.\n\nThe power plant in Southaven has the potential to emit more than 1,700 tons of smog-forming nitrogen oxides (NOx) each year. Memphis was recently named an 'asthma capital' and both Shelby County, Tennessee, and DeSoto County, Mississippi, received an 'F' for ozone pollution from the American Lung Association.\n\nThe dispute highlights ongoing tensions between rapid AI infrastructure expansion and environmental compliance in industrial communities.",
+      "published_at": "2026-05-13T19:49:42+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand",
+      "url": "https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/",
+      "body": "Fervo Energy, a geothermal startup, achieved a valuation exceeding $10 billion following its public market debut on May 13, 2026. The company raised $1.89 billion through an upsized initial public offering, with shares priced at $27 and subsequently climbing 33% on their first trading day under the ticker FRVO on Nasdaq.\n\nThe offering experienced exceptional interest from investors. According to Sarah Jewett, Fervo's senior vice president of strategy, the company 'was asked a few times on the roadshow, Why aren't you raising more money?' This enthusiasm prompted multiple upsizes of the offering, ultimately netting an additional $500 million beyond original projections.\n\nThe surge in Fervo's valuation directly correlates with the escalating demand for power from artificial intelligence data centers. Tech companies desperately seek reliable electricity sources to operate their facilities. This trend mirrors another recent energy sector success: nuclear startup X-energy raised $1 billion in its own upsized IPO weeks earlier.\n\nFervo develops enhanced geothermal systems that drill deeper to access hotter rock formations, employing directional drilling techniques adapted from the oil and gas industry. The company has dramatically reduced drilling costs by two-thirds after completing 14 wells.\n\nThe company's Cape Station project in Utah is slated for operation this year, with plans to generate 500 megawatts. Fervo has also secured a Google contract to supply 115 megawatts from its Corsac Station in Nevada. Google represents approximately 65-70% of Fervo's contracted revenue through 2028.",
+      "published_at": "2026-05-13T17:42:20+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Ransomware hackers claim breach at Foxconn, a major electronics manufacturer for Apple, Google, and Nvidia",
+      "url": "https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia/",
+      "body": "Foxconn, a critical supplier for major hardware companies like Apple and Nvidia, confirmed a cyberattack affecting its North American operations after the Nitrogen ransomware gang listed the electronics manufacturer on its data leak site.\n\nThe Nitrogen ransomware criminals claimed to have breached the Taiwan-based company and stolen 8 TB of data comprising more than 11 million files. The stolen data allegedly includes confidential instructions, internal project documentation, and technical drawings related to projects at Intel, Apple, Google, Dell, and Nvidia, among others.\n\nThe cyberattack caused a network outage at Foxconn's Mount Pleasant (Wisconsin) facility in early May 2026, disrupting production for about a week. A Foxconn facility in Houston, Texas, was also impacted.\n\nNetwork topology diagrams for Google and Intel data centers are a particular concern as architectural maps of live infrastructure. However, based on the sample provided, analysts said it does not appear that Nitrogen obtained any Apple schematics, documentation related to Foxconn's Apple product development teams, or Apple quality control data.\n\nResearchers believe Nitrogen is linked with ransomware operators in Eastern Europe. Nitrogen is a double-extortion ransomware group, meaning the hackers encrypt files and also steal them first, which allows them to threaten to leak the stolen data.",
+      "published_at": "2026-05-13T15:39:37+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Japanese chemical giant JSR expands to Taiwan for EUV photoresist production near TSMC",
+      "url": "https://www.tomshardware.com/tech-industry/jsr-builds-first-taiwan-photoresist-plant-as-japanese-materials-makers-race-to-embed-next-to-tsmc",
+      "body": "Japanese semiconductor materials supplier JSR is establishing its first photoresist manufacturing facility in Taiwan through a joint venture with local partners Wah Lee Industrial and LCY Chemical. The plant, located in Yunlin County, is expected to begin operations by 2028.\n\nThis expansion addresses a critical gap in JSR's global footprint. The company had been shipping resist samples from facilities in Japan, the U.S., and Belgium, with each development cycle taking weeks for round-trip shipping alone. By locating near TSMC, JSR can accelerate co-development cycles that require hundreds of iterative test cycles between supplier and foundry.\n\nJSR becomes the last of Japan's 'big three' EUV-resist suppliers to establish Taiwanese manufacturing presence. Competitors Tokyo Ohka Kogyo and Shin-Etsu Chemical already operate facilities on the island. This consolidation reflects intense competition for position as AI chip demand drives record foundry orders.\n\nBeyond conventional resists, JSR is ramping metal oxide resist (MOR) production at its South Korea facility. MOR technology absorbs EUV photons roughly five times more efficiently than conventional approaches, positioning JSR for next-generation process nodes below 1nm.\n\nChinese competitors remain far behind, with domestic EUV-resist supply below 5%, though several domestic firms are actively pursuing advanced photoresist development. The expansion was driven by a TSMC request and a change in leadership, as advanced processes become more sophisticated and material suppliers must be closer to customers to accelerate development.",
+      "published_at": "2026-05-13T15:37:18+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Google reportedly in talks with SpaceX to launch its orbital data centers — Suncatcher project targets AI compute in orbit",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-in-talks-with-spacex-to-launch-its-orbital-data-centers-partnership-could-mark-a-historic-turning-point-and-boost-upcoming-ipo",
+      "body": "Google and SpaceX are in talks to launch orbital data centers in space, reports The Wall Street Journal, citing sources familiar with the matter. Google is negotiating with SpaceX on Project Suncatcher, aiming to build next-generation orbital data centers in space.\n\nGoogle is advancing the concept of a space-based data centre by linking solar-powered satellites equipped with Tensor Processing Units (TPUs) into an orbital AI cloud network. The company is targeting the launch of an early prototype in partnership with Planet Labs around 2027.\n\nThe potential deal comes as SpaceX gears up for its $1.75 trillion IPO later this year, selling investors on the idea that data centers in space will be the cheapest place to put AI compute within the next few years. It also follows Anthropic's deal with SpaceX last week to use computing resources from xAI's data center in Memphis, Tennessee, with the potential to work together on orbital ones in the future. (SpaceX acquired xAI in February.)\n\nToday's terrestrial data centers remain significantly cheaper than orbital alternatives when satellite construction and launch costs are factored in. However, supporters argue that orbital compute could eventually become cost-competitive given rising terrestrial energy and real estate costs.\n\nThe Suncatcher concept includes solar-powered satellites equipped with Google's TPU chips forming an orbital AI cloud network. This would be the first commercial deployment of hyperscaler AI compute hardware in space.",
+      "published_at": "2026-05-13T11:40:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "South Korean official proposes 'citizen dividend' from Samsung and SK Hynix semiconductor tax windfall — spooking markets",
+      "url": "https://www.tomshardware.com/tech-industry/south-korean-official-proposes-citizen-dividend-from-samsung-and-sk-hynix-tax-windfall-spooking-markets",
+      "body": "A South Korean official has proposed redistributing AI-generated revenues to citizens through dividend payments, specifically mentioning Samsung and SK Hynix — major semiconductor manufacturers benefiting from artificial intelligence demand.\n\nThe markets reacted negatively to this suggestion, reflecting investor concern about potential wealth redistribution policies that could impact the profitability of major tech companies driving current AI growth.\n\nThe proposal represents an emerging policy debate about whether societies should capture a portion of economic gains generated by AI advancement and distribute them broadly to citizens, rather than allowing all benefits to concentrate within corporations.\n\nThe semiconductor windfall context: Samsung and SK Hynix together are expected to generate approximately 350 trillion won in new cash this year alone. Samsung held 147 trillion won in cash-equivalent assets as of end of Q1 2026, while SK Hynix held 54 trillion won. Both companies added more than 20 trillion won in cash in a single quarter.\n\nSK Hynix's Q1 2026 results set a record — revenue of 52.5763 trillion won and operating profit of 37.6103 trillion won, up 405.5% year-on-year. The HBM market share of South Korean companies reached 79% in Q2 2026, with SK Hynix at 62% and Samsung at 17%.",
+      "published_at": "2026-05-13T10:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "[5월13일] 머스크는 '그록'을 버렸나...'모델'에서 '인프라'로 바뀌는 AI 경쟁의 중심",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210448",
+      "body": "일론 머스크의 xAI가 AI 모델 경쟁에서 인프라 구축 쪽으로 전략적 전환을 하고 있다는 분석이 나왔다. 5월 1일 출시된 그록 4.3은 Kimi 2.6 등 중국 경쟁 모델에 비해 벤치마크 순위에서도 뒤처지며 사용자 관심을 끌지 못했다.\n\nAppMagic 데이터에 따르면 그록 다운로드는 1월의 2천만 건 이상에서 4월 830만 건으로 감소했다. 기업 채택률도 저조해, 500개 기업 조사에서 그록 사용률은 7%에 불과했으며 OpenAI 모델 사용률(57%)에 비해 크게 낮았다.\n\n전략적 전환의 핵심은 인프라다. 스페이스X 기반 데이터센터와 테슬라의 테라팹(Terafab) 프로젝트는 '연간 1테라와트 컴퓨팅 용량' 달성을 목표로 한다. 머스크는 '대부분의 컴퓨팅이 우주로 이동해야 한다'고 주장하며, 미국 전체 전력 생산량이 0.5테라와트에 불과하다는 점을 근거로 들었다.\n\n이는 AI 경쟁의 더 넓은 구조적 변화를 반영한다. 프론티어 모델의 성능이 수렴하면서 인프라가 핵심 경쟁 요소가 되고 있으며, 인터넷 경쟁이 검색엔진에서 데이터센터, 클라우드 서비스로 진화한 것과 유사한 패턴이다.",
+      "published_at": "2026-05-14T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "The AI Market Shift: From GPUs to Hyperscalers and Infrastructure",
+      "url": "https://science-technology.news-articles.net/content/2026/05/13/the-ai-market-shift-from-gpus-to-hyperscalers-and-infrastructure.html",
+      "body": "The AI investment landscape is fundamentally changing. Rather than focusing exclusively on GPU manufacturers, the market is recognizing that cloud giants and infrastructure providers are becoming the true value captors in the AI economy.\n\nThe early generative AI era was defined by compute scarcity, driving GPU valuations skyward. However, momentum has shifted toward companies that can 'deploy and manage this hardware at scale.' Hyperscalers like AWS, Microsoft Azure, and Google Cloud are transitioning from mere customers to 'gatekeepers of the AI economy.'\n\nThe article emphasizes that 'digital intelligence requires physical sustenance,' encompassing power generation (renewed interest in nuclear energy and advanced renewable grids), thermal management (liquid cooling and advanced HVAC systems as chips generate increased heat), and specialized chipsets — ASICs and LPUs designed for inference, not just training.\n\nHyperscalers are developing proprietary chips to reduce vendor dependency and optimize workloads. Custom ASICs from Google (TPU v7 Ironwood), Microsoft (Maia 200), Amazon (Trainium 3), and Meta (MTIA) grow at 44.6% CAGR, targeting the inference workloads that now represent two-thirds of all AI compute.\n\nTotal semiconductor revenues are forecast to reach $1.29 trillion in 2026, up 52.8% year over year from $842.8 billion in 2025. A critical tension remains between capital expenditure and revenue generation. While hyperscalers spend billions on infrastructure, enterprise adoption generating sustainable returns is still emerging.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "science-technology.news-articles.net",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang — a 'bargaining chip' in China — joins Trump summit to advance H200 export talks",
+      "url": "https://www.semafor.com/article/05/13/2026/nvidias-jensen-huang-a-bargaining-chip-in-china",
+      "body": "Nvidia CEO Jensen Huang was included last-minute on President Trump's Beijing trip, signaling potential negotiations over AI chip exports. Trump approved shipments of Nvidia's H200 chips to China in January, yet 'not a single one has been sold,' according to Reuters reporting cited in the piece.\n\nA former Taiwan legislator characterized Huang's presence as Trump wanting him 'at the table to be a bargaining chip' in chip export control discussions. The article suggests this represents an attempt to break the current impasse.\n\nNvidia has been active in urging the White House to reconsider export restrictions, arguing that prolonged restrictions could be counterproductive and incentivize China to accelerate its own domestic innovation. Nvidia has confirmed it received export licenses for multiple Chinese customers and has purchase orders in hand, with H200 manufacturing restarted.\n\nThe White House's push to support Nvidia faces domestic headwinds — American voters are increasingly skeptical of AI development. Additionally, Chinese firms are gaining confidence in domestic semiconductor alternatives, which undermines Washington's leverage by demonstrating that export restrictions haven't significantly hindered China's AI advancement.\n\nThe broader delegation includes Elon Musk, Tim Cook, Larry Fink, Sanjay Mehrotra (Micron CEO), and Cristiano Amon (Qualcomm CEO).",
+      "published_at": "2026-05-13T06:00:00+09:00",
+      "source": "Semafor",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AMD Helios AI Rack Platform: 256-Core Venice EPYC + Instinct MI455X GPU with Pensando DPU Networking — H2 2026 Launch",
+      "url": "https://www.servethehome.com/amds-epyc-venice-instinct-mi455x-helios-hardware-on-display-for-first-time-at-ces-2026/",
+      "body": "AMD's Helios rack-scale AI platform has been confirmed for H2 2026 launch. The Helios rack features four Instinct MI455X GPUs alongside a single EPYC Venice 'Zen 6' CPU, providing 2.9 EFLOPS of FP4 compute performance in a fully liquid-cooled design.\n\nAMD's EPYC Venice is the company's first data center design to be manufactured on TSMC's N2 (2nm-class) process technology, featuring up to 256 CPU cores with Zen 6 microarchitecture. Venice supports 16 channel memory and delivers up to 70% higher performance compared to the existing EPYC 9005-series.\n\nCritically for DPU-space relevance: all Helios racks are equipped with networking gear from AMD's Pensando division, providing scale-out capabilities. The Pensando integration includes DPU-level offload for AI cluster networking.\n\nAMD recorded 46.2% server CPU revenue share in Q1 2026 (Mercury Research), an increase of 6.8 percentage points year over year. EPYC Turin (5th gen) accounted for more than 50% of server revenues for the first time. 2nm chips are now in production and expected to ship to customers in H2 2026.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "Marvell Chairman Matt Murphy to keynote COMPUTEX 2026 on 'Scaling Data Center Infrastructure to Drive AI Innovation'",
+      "url": "https://www.prnewswire.com/news-releases/matt-murphy-marvell-chairman-and-ceo-to-keynote-at-computex-2026-302718395.html",
+      "body": "Marvell Technology Inc. Chairman and CEO Matt Murphy will deliver a keynote address titled 'Scaling Data Center Infrastructure to Drive AI Innovation' at COMPUTEX 2026.\n\nThe keynote is scheduled for June 2 at 10:30 a.m. (GMT+8) at the Taipei Nangang Exhibition Center Hall 2, 7F. COMPUTEX 2026 runs June 2-5 with the theme 'AI Together.'\n\nMarvell technologies enable every critical link in modern AI data center infrastructure — from inside servers and racks to the geographically distributed networks connecting data center regions — allowing customers to deploy AI-optimized systems with unprecedented performance and scale.\n\nThis announcement comes as Marvell reported FY2026 full year revenue of $8.2 billion (+42% YoY), with data center revenue exceeding $6 billion (+46%) and its custom AI business doubling. FY2027 guidance calls for 30%+ growth approaching $11 billion.\n\nMarvell's key products include OCTEON DPU, custom AI ASIC designs for hyperscalers (Google TPU collaboration, NVLink Fusion partnership with NVIDIA), and PCIe/CXL switches from the XConn acquisition.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "PR Newswire / Marvell",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Kioxia XG10 Series PCIe Gen5 SSDs Announced — up to 4TB capacity for high-performance client storage",
+      "url": "https://www.servethehome.com/kioxia-xg10-series-pcie-gen5-ssds-announced/",
+      "body": "Kioxia has announced the XG10 series of PCIe Gen5 SSDs, bringing next-generation storage connectivity and up to 4TB of capacity to the company's higher-end client M.2 SSDs. The Kioxia XG10 series represents a significant step up in the company's client SSD portfolio, leveraging the PCIe 5.0 interface for substantially higher sequential read and write speeds compared to Gen4 predecessors.\n\nPCIe Gen5 storage has been gaining traction across both client and data center segments as AI workloads demand faster data ingestion and model checkpoint throughput. The XG10 targets enterprise clients and high-performance workstation users requiring large-capacity, high-speed local storage.\n\nKioxia's announcement adds to a growing roster of PCIe Gen5 SSD products from major flash vendors, including Samsung (9100 Pro series), WD (SN850X successor), and Micron (6600 ION enterprise line).",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Intel Googlebook AI laptop partnership confirmed — x86 option alongside Qualcomm and MediaTek",
+      "url": "https://www.tomshardware.com/laptops/intel-confirms-googlebook-ai-laptop-partnership-opening-x86-possibilities-for-new-os-google-vp-says-devices-to-also-ship-with-qualcomm-and-mediatek-chips",
+      "body": "Intel and Qualcomm have both confirmed partnerships with Google for the Googlebook AI laptop initiative, which will bring a new AI-optimized operating system to multiple hardware platforms. Google VP confirmed that Googlebook devices will ship with chips from Intel, Qualcomm, and MediaTek.\n\nThe Intel confirmation opens x86 possibilities for the new Google OS, which was previously rumored to be Arm-only. This is significant for the PC ecosystem as it provides flexibility for OEM partners and enterprise customers who may prefer x86 compatibility.\n\nThe Googlebook initiative represents Google's bid to enter the laptop market with a deeply AI-integrated operating system, positioning AI capabilities as a first-class feature rather than an add-on. The platform is expected to leverage Google's on-device AI capabilities including Gemini Nano.\n\nQualcomm's involvement continues its push into the PC market following the Snapdragon X Elite launch, while Intel's participation signals its desire to remain relevant in AI PC deployments alongside the growing Arm competition.",
+      "published_at": "2026-05-13T10:58:33+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "AMD Ryzen 9000 PRO lineup expanded with six new SKUs featuring 3D V-Cache for the first time — workstation CPUs up to 170W TDP",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-expands-its-ryzen-9000-pro-lineup-with-six-new-skus-now-featuring-3d-v-cache-for-the-first-time-new-workstation-cpus-have-up-to-170w-tdps-available-with-oems-later-this-year",
+      "body": "AMD has expanded its Ryzen 9000 PRO lineup with six new SKUs, now featuring 3D V-Cache technology for the first time in the PRO series. The new workstation CPUs feature TDPs up to 170W and will be available through OEM partners later in 2026.\n\nThe addition of 3D V-Cache to the PRO lineup brings AMD's game-optimized cache stacking technology to enterprise and workstation users who previously could only access it in consumer Ryzen X3D variants. The expanded cache is particularly valuable for AI inference at the edge and professional visualization workloads.\n\nThe new SKUs strengthen AMD's position in professional workstations, a market where Intel has traditionally held strong relationships with ISV partners. The PRO designation includes AMD's enterprise-focused security features, manageability, and extended platform stability guarantees.",
+      "published_at": "2026-05-13T13:17:39+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}

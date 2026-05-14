@@ -178,3 +178,36 @@ type: reference
 - `Trump China visit CEO delegation Jensen Huang excluded May 12 2026` — thetechportal.com + news1.kr + en.sedaily.com accessible
 - `Cerebras IPO price final Nasdaq CBRS May 13 14 2026` — CNBC 403; use BigGo/cryptopolitan
 - `삼성SDS 국가AI컴퓨팅센터 계약 2026년 5월` — zdnet.co.kr + thelec.kr + etnews.com all accessible same-day
+
+## Source notes (2026-05-14 run)
+- **thelec.kr/news/articleList.html** — idxno=56564 is May 14 07:40 KST AMD server CPU market share article; idxno=56556 is May 14 07:34 battery/PNT; refresh to highest idxno to find same-day articles
+- **aitimes.com** — idxno=210448 is May 14 07:00 KST (xAI infrastructure pivot analysis); idxno=210481 and 210484 also May 14 morning
+- **stocktitan.net** — accessible for Cerebras IPO press release when CNBC/Bloomberg 403
+- **tech.eu** — accessible; UK/EU startup funding coverage (Fractile $220M Series B May 13)
+- **americanbazaaronline.com** — accessible; Jensen Huang China trip confirmation story May 13
+- **semafor.com** — accessible; strategic analysis on Jensen Huang as China bargaining chip
+- **wccftech.com** — AMP version 403; use digitalcitizen.life for AMD market share data
+- **en.sedaily.com** — accessible for Samsung/Korean labor/strike stories in English
+- **TechCrunch** — RSS only shows May 13 articles as of early May 14 KST; wait for May 14 UTC articles
+- **ServeTheHome** — Kioxia XG10 PCIe Gen5 SSD article published May 13 KST
+- **DCD** — 403 on individual article fetch (Fractile story); use tech.eu/finsmes.com for DCD-originated stories
+- **upi.com** — 403; use en.sedaily.com/manilatimes.net for Korea labor news
+
+## Key observations (2026-05-14 run)
+- Cerebras CBRS IPO first trading day (May 14 KST) is the day's defining competitor event; $185/share, $56B+ valuation
+- Jensen Huang last-minute Air Force One boarding (May 13 KST) resolves the "excluded from China trip" story; H200 export talks now active
+- Samsung strike: no new settlement as of 5/14 morning KST; May 21 strike date intact; TrendForce contained-impact analysis published May 13 UTC
+- Foxconn ransomware (Nitrogen) breach confirmed May 12-13 UTC — NVIDIA/Intel/Google datacenter topology data allegedly stolen
+- Fervo Energy FRVO IPO +33% debut signals AI power-demand investment theme maturing
+- Fractile $220M Series B (UK inference chip) confirms growing non-NVIDIA inference chip funding wave
+- AMD EPYC hits record 46.2% server CPU revenue share Q1 2026; Venice/Helios H2 2026 launch confirmed
+- Marvell COMPUTEX 2026 keynote (June 2) announced; tag as competitor event
+- JSR Taiwan photoresist plant (Yunlin, 2028 start) — last Japanese big-3 to localize near TSMC
+
+## Query patterns (2026-05-14 run)
+- `Cerebras CBRS IPO Nasdaq May 14 2026 listing first day trading` — stocktitan.net + cnbc.com (403 for body but headline OK) + investing.com
+- `Jensen Huang China H200 chip deal semiconductor export talks outcome May 14` — semafor.com + americanbazaaronline.com + meyka.com accessible
+- `Samsung strike May 21 2026 latest update HBM production risk` — trendforce.com + en.sedaily.com + tomshardware.com
+- `Fractile AI inference chip funding raise May 2026` — tech.eu + finsmes.com + datacenterdynamics.com (403)
+- `AMD EPYC server CPU 46% market share Q1 2026 Mercury Research` — wccftech.com AMP 403; digitalcitizen.life accessible
+- `Google SpaceX orbital data center partnership May 2026` — tomshardware.com + dataconomy.com accessible; bloomberg.com 403

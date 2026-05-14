@@ -1,0 +1,197 @@
+{
+  "filter_date_kst": "2026-05-14",
+  "kept": [
+    {
+      "id": 19,
+      "title": "AMD Helios AI Rack Platform: 256-Core Venice EPYC + Instinct MI455X GPU with Pensando DPU Networking — H2 2026 Launch",
+      "url": "https://www.servethehome.com/amds-epyc-venice-instinct-mi455x-helios-hardware-on-display-for-first-time-at-ces-2026/",
+      "category": "products",
+      "competitor": "AMD",
+      "keep_reason": "AMD Helios 랙은 MI455X GPU + Pensando DPU 네트워킹 통합 — MangoBoost의 핵심 AMD/DPU 생태계 직접 경쟁/협력 영역."
+    },
+    {
+      "id": 1,
+      "title": "Cerebras Systems Announces Pricing of Initial Public Offering at $185 per Share — Nasdaq CBRS Begins Trading May 14, 2026",
+      "url": "https://www.stocktitan.net/news/CBRS/cerebras-systems-announces-pricing-of-initial-public-7iz0bt77kxua.html",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "AI 추론 칩 경쟁사 Cerebras IPO 가격 확정($56B 밸류, 20배 초과청약) — AI 인프라 시장 분위기와 추론 칩 경쟁 지형의 시그널."
+    },
+    {
+      "id": 20,
+      "title": "Marvell Chairman Matt Murphy to keynote COMPUTEX 2026 on 'Scaling Data Center Infrastructure to Drive AI Innovation'",
+      "url": "https://www.prnewswire.com/news-releases/matt-murphy-marvell-chairman-and-ceo-to-keynote-at-computex-2026-302718395.html",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "Marvell(OCTEON DPU 보유, 직접 경쟁사) COMPUTEX 키노트 + FY26 DC 매출 $6B+46%, 커스텀 AI ASIC 2배 — DPU 시장 핵심 신호."
+    },
+    {
+      "id": 9,
+      "title": "AMD's EPYC Steamrolls the Server Market With Record 46.2% Revenue Share in Q1 2026",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56564",
+      "category": "market",
+      "competitor": "AMD",
+      "keep_reason": "AMD 서버 CPU 점유율 사상 최대(46.2%), Helios 랙에 Pensando DPU 통합 명시 — MangoBoost AMD 에코시스템 핵심 모멘텀."
+    },
+    {
+      "id": 8,
+      "title": "Fractile raises $220M in Series B to accelerate development of AI inference chips",
+      "url": "https://tech.eu/2026/05/13/uk-ai-chip-startup-fractile-raises-220m-to-tackle-the-growing-inference-bottleneck/",
+      "category": "products",
+      "competitor": "Fractile",
+      "keep_reason": "AI 추론 칩 스타트업 Fractile $220M Series B — Anthropic 잠재 고객, SRAM 기반 아키텍처로 메모리 병목 공략, AI 추론 인프라 경쟁 지형 시그널."
+    },
+    {
+      "id": 17,
+      "title": "The AI Market Shift: From GPUs to Hyperscalers and Infrastructure",
+      "url": "https://science-technology.news-articles.net/content/2026/05/13/the-ai-market-shift-from-gpus-to-hyperscalers-and-infrastructure.html",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "GPU에서 하이퍼스케일러/인프라/커스텀 ASIC(TPU v7, Maia 200, Trainium 3, MTIA, 44.6% CAGR)로 가치 이동 분석 — MangoBoost 전략 포지셔닝의 거시 맥락."
+    },
+    {
+      "id": 18,
+      "title": "Nvidia CEO Jensen Huang — a 'bargaining chip' in China — joins Trump summit to advance H200 export talks",
+      "url": "https://www.semafor.com/article/05/13/2026/nvidias-jensen-huang-a-bargaining-chip-in-china",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "젠슨 황 트럼프 방중 합류 + H200 대중 수출 협상 — AI 칩 수출통제 변화는 글로벌 AI 인프라 수급 구도에 직접 영향."
+    },
+    {
+      "id": 4,
+      "title": "[News] Samsung Strike Seen Contained on Revenue Impact, with Price Support and Order Shift Risks to SK Hynix and Micron",
+      "url": "https://www.trendforce.com/news/2026/05/13/news-samsung-strike-seen-contained-on-revenue-impact-but-may-support-prices-while-order-risk-shifts-to-sk-hynix-and-micron/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성 파업이 HBM/엔터프라이즈 SSD 등 AI 인프라 부품 수급, 메모리 가격, SK하이닉스/마이크론 수주 이동에 미칠 영향 분석 — AI 인프라 부품 수급 직결."
+    },
+    {
+      "id": 14,
+      "title": "Google reportedly in talks with SpaceX to launch its orbital data centers — Suncatcher project targets AI compute in orbit",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-in-talks-with-spacex-to-launch-its-orbital-data-centers-partnership-could-mark-a-historic-turning-point-and-boost-upcoming-ipo",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Google Project Suncatcher: TPU 탑재 궤도 데이터센터 — AI 컴퓨트 전력/공간 제약을 우주로 푸는 차세대 인프라 시도, 데이터센터 미래 시그널."
+    },
+    {
+      "id": 15,
+      "title": "South Korean official proposes 'citizen dividend' from Samsung and SK Hynix semiconductor tax windfall — spooking markets",
+      "url": "https://www.tomshardware.com/tech-industry/south-korean-official-proposes-citizen-dividend-from-samsung-and-sk-hynix-tax-windfall-spooking-markets",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "삼성/SK하이닉스 350조원 AI 캐시플로우 재분배 정책 논의 + HBM 점유율 79%(SK 62%, 삼성 17%) — 한국 반도체 정책/시장 환경."
+    },
+    {
+      "id": 16,
+      "title": "[5월13일] 머스크는 '그록'을 버렸나...'모델'에서 '인프라'로 바뀌는 AI 경쟁의 중심",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210448",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AI 경쟁 축이 모델에서 인프라로 이동(Terafab, 1테라와트 컴퓨팅 목표) — MangoBoost 인프라 사업의 매크로 트렌드 한국어 정리."
+    },
+    {
+      "id": 10,
+      "title": "Musk's xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
+      "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "xAI 데이터센터 가스터빈 46기 무허가 운영, 환경 규제 충돌 — AI 데이터센터 전력/환경 제약(MangoBoost가 노리는 효율 문제) 직결."
+    },
+    {
+      "id": 11,
+      "title": "Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand",
+      "url": "https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "지열 스타트업 Fervo IPO 33% 급등, Google 115MW 계약 — AI 데이터센터 전력 수요가 신규 에너지원 시장을 만드는 거시 시그널."
+    },
+    {
+      "id": 13,
+      "title": "Japanese chemical giant JSR expands to Taiwan for EUV photoresist production near TSMC",
+      "url": "https://www.tomshardware.com/tech-industry/jsr-builds-first-taiwan-photoresist-plant-as-japanese-materials-makers-race-to-embed-next-to-tsmc",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "JSR이 TSMC 인근 대만에 EUV 포토레지스트 공장 — 1nm 이하 첨단공정 소재 공급망 재편, AI 칩 파운드리 생태계 변화."
+    },
+    {
+      "id": 21,
+      "title": "Kioxia XG10 Series PCIe Gen5 SSDs Announced — up to 4TB capacity for high-performance client storage",
+      "url": "https://www.servethehome.com/kioxia-xg10-series-pcie-gen5-ssds-announced/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Kioxia PCIe Gen5 4TB SSD — AI 워크로드 데이터 적재/모델 체크포인트 처리량 요구를 반영한 스토리지 트렌드, MangoBoost SSD 영역 인접."
+    },
+    {
+      "id": 12,
+      "title": "Ransomware hackers claim breach at Foxconn, a major electronics manufacturer for Apple, Google, and Nvidia",
+      "url": "https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia/",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "Foxconn 랜섬웨어 — Google/Intel 데이터센터 네트워크 토폴로지 도면 유출 가능성, AI 인프라 공급망 보안 리스크."
+    },
+    {
+      "id": 3,
+      "title": "Samsung's critical union negotiations break down eight days before planned 18-day chip factory strike — Korean PM calls emergency meeting as strike looms",
+      "url": "https://www.tomshardware.com/tech-industry/samsungs-last-ditch-union-talks-collapse-eight-days-before-planned-18-day-chip-factory-strike",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성 18일 파업 임박, 첫 생산 중단 위험 — HBM/메모리 공급망과 한국 반도체 산업 전반에 영향."
+    },
+    {
+      "id": 22,
+      "title": "Intel Googlebook AI laptop partnership confirmed — x86 option alongside Qualcomm and MediaTek",
+      "url": "https://www.tomshardware.com/laptops/intel-confirms-googlebook-ai-laptop-partnership-opening-x86-possibilities-for-new-os-google-vp-says-devices-to-also-ship-with-qualcomm-and-mediatek-chips",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Google Googlebook AI 노트북 — Intel/Qualcomm/MediaTek 멀티 실리콘 채택, AI PC 생태계 흐름(주변부지만 AI 디바이스 인프라 맥락)."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 2,
+      "title": "Cerebras prices IPO above expected range, Wall Street braces for AI chip wave",
+      "discard_reason": "duplicate of article 1 (StockTitan 1차 보도). CNBC 버전은 동일 IPO 가격/밸류/고객 정보 반복, StockTitan이 더 자세한 1차 보도자료 기반."
+    },
+    {
+      "id": 5,
+      "title": "Samsung Faces First-Ever Chip Fab Shutdown in 42 Years",
+      "discard_reason": "duplicate of article 3 (Tom's Hardware). Seoul Economic Daily 영문판 — 동일 사건 동일 facts, Tom's Hardware가 더 상세하고 JPMorgan 분석 등 추가 정보 포함."
+    },
+    {
+      "id": 6,
+      "title": "Nvidia CEO Jensen Huang joins Trump on his China visit — H200 chip export talks center stage",
+      "discard_reason": "duplicate of article 18 (Semafor). 동일 사건이며 Semafor가 더 분석적·전략적 관점(수출통제 함의) 제공. 한국어판(article 7)도 보관 가치 더 높음."
+    },
+    {
+      "id": 7,
+      "title": "젠슨 황, 트럼프 방중단에 전격 합류…미중 반도체 담판 '게임 체인저' 되나",
+      "discard_reason": "duplicate of article 18. 한국어 정리본이지만 Semafor 영문판이 더 전략적 함의(수출통제, 국내 정치 반발, 중국 자급화)를 깊이 다룸 — 1개만 유지."
+    },
+    {
+      "id": 23,
+      "title": "AMD Ryzen 9000 PRO lineup expanded with six new SKUs featuring 3D V-Cache for the first time — workstation CPUs up to 170W TDP",
+      "discard_reason": "off-topic. AMD Ryzen 9000 PRO는 워크스테이션/소비자 CPU 라인업 확장 — DPU/SmartNIC/AI 인프라 영역과 직접 연관성이 약함 (AMD 태그여도 데이터센터/AI 인프라 substance 부재)."
+    }
+  ],
+  "summary": {
+    "total_received": 23,
+    "total_kept": 18,
+    "total_discarded": 5,
+    "category_breakdown": {
+      "market": 6,
+      "products": 4,
+      "projects": 2,
+      "challenges": 5,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 7,
+    "by_competitor": {
+      "AMD": 2,
+      "Cerebras": 1,
+      "Marvell": 1,
+      "Fractile": 1,
+      "NVIDIA": 2
+    },
+    "notes": "Article id는 collected.json articles 배열 순서 1-indexed (실제 23건, collector run_summary.total=22는 부정확). AMD Ryzen 9000 PRO(소비자/워크스테이션 CPU)는 AMD 태그여도 DPU/AI인프라 substance 부재로 off-topic discard. 삼성 파업 3건은 각도 다름(파업 위협 본문 / 시장 영향 분석 / 영문 요약) → 2건 keep(가장 상세한 Tom's + 시장영향 TrendForce), 1건 dup discard. 젠슨 황 방중 4건은 영문 분석본(Semafor) 1건만 keep — 한국어 g-enews도 분석 깊이가 Semafor보다 얕아 dup discard. Cerebras IPO는 1차 보도자료 기반 StockTitan만 keep. 본 단계는 23건 중 18건(78%) 유지, 정상 retention 범위(50-85%). filter_2에서 top 8 정밀 컷."
+  }
+}

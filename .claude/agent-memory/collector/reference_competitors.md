@@ -67,6 +67,15 @@ type: reference
 - **Samsung Electronics labor**: Post-adjustment talks Day 2 May 12 — no deal reached; 18-day strike May 21 still threatened; 17.5조원 bonus gap; JP Morgan: 43조원 potential loss
 - **Tier 1 Korean (FuriosaAI/Moreh/HyperAccel/FriendliAI)**: No standalone new May 12 news
 
+## May 14 2026 update — competitor developments
+- **Cerebras**: CBRS Nasdaq trading begins May 14; priced at $185/share (above $150-160 range); raised $5.55B; implied mkt cap $56B+; 20x oversubscribed. 2026's largest US tech IPO.
+- **NVIDIA**: Jensen Huang last-minute joined Trump's Air Force One to China (May 13 KST); H200 export talks now underway; Trump approved H200 exports in Jan but China customs blocked all sales; Huang values China market at ~$50B opportunity; Foxconn Nitrogen ransomware breach leaked alleged NVIDIA datacenter topology data.
+- **AMD**: EPYC server CPU revenue share hit record 46.2% in Q1 2026 (Mercury Research); Venice Zen 6 + Helios rack confirmed for H2 2026; Helios uses Pensando DPU for rack-scale networking. Ryzen 9000 PRO 3D V-Cache 6 new workstation SKUs announced.
+- **Marvell**: COMPUTEX 2026 keynote (June 2) announced — Matt Murphy to speak on AI data center infrastructure scaling.
+- **Fractile** (adjacent): UK inference chip startup raised $220M Series B (May 13); SRAM in-memory-compute architecture; 25x speed / 10% cost claim vs GPU; Anthropic early-stage talks; 2027 chip delivery target. Tag as adjacent competitor.
+- **Tenstorrent, FuriosaAI, Rebellions, Moreh, HyperAccel, FriendliAI**: No standalone new May 14 news.
+- **Samsung Electronics labor**: May 21 strike confirmed after May 13 talks fully collapsed; union rejected further dialogue; TrendForce: contained financial impact but customer defection risk real; emergency arbitration being considered by Korean PM.
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform
