@@ -76,6 +76,16 @@ type: reference
 - **Tenstorrent, FuriosaAI, Rebellions, Moreh, HyperAccel, FriendliAI**: No standalone new May 14 news.
 - **Samsung Electronics labor**: May 21 strike confirmed after May 13 talks fully collapsed; union rejected further dialogue; TrendForce: contained financial impact but customer defection risk real; emergency arbitration being considered by Korean PM.
 
+## May 15 2026 update — competitor developments
+- **NVIDIA**: H200 export to China cleared for ~10 firms (Alibaba, Tencent, ByteDance, JD.com, Lenovo, Foxconn + distributors); 75,000 chips per customer cap; zero shipments yet — Chinese govt blocking imports, pressure to use Huawei/domestic chips. Huang at Beijing summit. Stock record $236.46, mkt cap $5.77T. Q2 FY2027 earnings May 20.
+- **Cerebras**: CBRS IPO closed May 15; day-1 (May 14) trading closed +68% at $311; $5.55B raised; implied mkt cap $56B+. 2026 largest US tech IPO.
+- **TSMC**: 2026 Technology Symposium (May 14 Hsinchu) — announced A13 (2nm-class successor), A12 (2nm volume), N2U (enhanced 2nm); CoWoS 98% yield (up from 80%); 5 new 2nm fab announced; CAGR target 70%. 4nm still dominant volume node.
+- **AMD Pensando**: AMD Helios rack platform confirmed — Pensando DPU for rack-scale networking; Venice EPYC + Instinct MI455X GPU; H2 2026 launch. AMD EPYC record 46.2% server CPU revenue share (Q1 2026 Mercury Research) from prior week.
+- **Samsung (HBM/strike)**: Union May 15 10am ultimatum to DS CEO Jeon Young-hyun; warm-down production cuts underway; no settlement as of collection time; May 21 18-day strike still threatened. 100T won (~$72B) production risk. KOSPI broke 8000 (Samsung +143%, SK Hynix +201% YTD).
+- **Tenstorrent, FuriosaAI, Rebellions, Moreh, HyperAccel, FriendliAI, Napatech**: No standalone May 15 news found.
+- **Microsoft (Maia/hyperscaler silicon)**: CEO Summit (May 14-15) in Redmond; SK Hynix partnership deepened; Jensen Huang in attendance; GPU procurement plans for 2026-2030 reported.
+- **SoftBank**: Record ¥5 trillion annual profit; OpenAI stake drives result; Arm revenue up; signal for AI infrastructure investment wave.
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform

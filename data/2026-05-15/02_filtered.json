@@ -1,0 +1,351 @@
+{
+  "filter_date_kst": "2026-05-15",
+  "kept": [
+    {
+      "id": 7,
+      "title": "Samsung enters emergency mode ahead of chip union strike",
+      "url": "https://www.koreaherald.com/article/10738243",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성전자 반도체 노조 5월 21일 18일 총파업 대비 비상관리체제 가동, JPMorgan 추산 손실 43조원·최악 100조($67B) — 글로벌 메모리 공급 차질 우려."
+    },
+    {
+      "id": 4,
+      "title": "NVIDIA Stock Jumps To Record After Washington Greenlights Chip Exports To China",
+      "url": "https://yellow.com/news/nvidia-record-236-h200-china-firms",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "미 상무부 H200 中 10개사 수출 승인(Alibaba·Tencent·ByteDance·JD 등 75,000개 한도), NVIDIA 시총 $5.52T 사상최고 — AI 칩 지정학·매출 전망 핵심."
+    },
+    {
+      "id": 19,
+      "title": "Microsoft Courts SK Hynix as its Maia 200 AI Chip Raises Memory Stakes",
+      "url": "https://winbuzzer.com/2026/05/14/microsoft-deepens-sk-hynix-partnership-as-it-seeks-xcxwbn/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "MS Maia 200(216GB HBM3e/7TB/s, 10+ petaFLOPS FP4 750W) SK하이닉스 단독공급 추진 — 하이퍼스케일러 자체 AI ASIC 가속(2026 +44.6%) 트렌드 핵심 신호."
+    },
+    {
+      "id": 6,
+      "title": "코스피 사상 최초 8000돌파…'만스피' 눈에 보인다",
+      "url": "https://www.asiae.co.kr/article/2026051510193636246",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "KOSPI 사상 첫 8,000 돌파(삼성+143%/SK하이닉스+201% YTD), KB증권 연말 목표 7,500→10,500 — AI 메모리 슈퍼사이클 정점 신호."
+    },
+    {
+      "id": 14,
+      "title": "TSMC touts advanced packaging, 2nm progress at tech symposium",
+      "url": "https://focustaiwan.tw/sci-tech/202605140021",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "TSMC A13/A12/N2U 공정 공개, CoWoS 양산 수율 98% 돌파, 2nm CAGR 70%(2026~28), 2nm 25개 디자인 확정+70개 개발중 — AI 인프라 첨단 공정/패키징 로드맵."
+    },
+    {
+      "id": 20,
+      "title": "SK Hynix's AI Memory Supremacy Pushes Valuation Past 1,400 Trillion Won as Samsung Faces Strike Threat",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sk-hynix-s-ai-memory-supremacy-pushes-valuation-past-1-400-trillion-won/69330340",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SK하이닉스 시총 1,400조 첫 돌파(YTD +188%), HBM 점유율 ~50%, 청주 월 30~50K→내년 80K 웨이퍼 확대 — Maia 200 단독공급과 결합한 메모리 패권 신호."
+    },
+    {
+      "id": 5,
+      "title": "Samsung chip division head warns against complacency amid looming major strike",
+      "url": "https://www.koreaherald.com/article/10738439",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "전영현 부회장 '마지막 골든 타임' 발언, 삼성 Q1 순익 47.22조원(전년 5배+), 올해 영업이익 300조 전망 — 파업 위기 속 삼성 반도체 경영진의 위기감 발신."
+    },
+    {
+      "id": 38,
+      "title": "Samsung Revives Shelved Chip Programs as Worker Walkout Looms",
+      "url": "https://www.techtimes.com/articles/316582/20260513/samsung-revives-shelved-chip-programs-worker-walkout-looms.htm",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "삼성 400+ 레이어 V-NAND, GaN/SiC, AI 칩렛 어드밴스드 패키징 등 보류 프로젝트 재가동 — 파업이 첨단 반도체 로드맵 자체를 위협하는 전략 시점."
+    },
+    {
+      "id": 35,
+      "title": "NVIDIA Q1 FY2027 Earnings Preview: $78B Revenue Expected as China H200 Deal Could Be Upside Catalyst",
+      "url": "https://www.fool.com/investing/2026/05/13/nvidia-reports-its-fiscal-2027-q1-earnings-may-20/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA 5/20 Q1 FY27 실적 발표 프리뷰, 매출 $78B(+78% YoY) 예상, Blackwell+Rubin $1T 2026~27 — AI 인프라 수요 가늠자."
+    },
+    {
+      "id": 15,
+      "title": "TSMC 2026 Technology Symposium Hsinchu: From Transistor Scaling to System-Level AI Infrastructure",
+      "url": "https://tspasemiconductor.substack.com/p/tsmc-2026-technology-symposium-hsinchu",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "TSMC 시스템 레벨 AI 인프라 전환, A14(2028)/A13(2029), CoWoS 20+ HBM(2028), SoIC 56배 연결밀도, COUPE 광패키지 10배 전력효율, SoW 64 HBM — DPU/AI 인프라 미래 로드맵 심층."
+    },
+    {
+      "id": 37,
+      "title": "US-China Trade Truce May 12: Tariffs Cut to 30%, Chip Controls on the Table",
+      "url": "https://www.abhs.in/blog/us-china-trade-truce-beijing-summit-chip-export-controls-semiconductor-may-2026",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "미중 관세 인하(145→30%/125→10%)+베이징 정상회담 H200 라이선스·희토류 핵심 의제, 中 국산 AI칩 점유율 2026년 50% 전망, 5월 中 오픈웨이트 4개(GLM-5.1/MiniMax/Kimi/DeepSeek V4) — AI/반도체 지정학 핵심."
+    },
+    {
+      "id": 33,
+      "title": "'몸값 84조' 세레브라스, IPO 돌풍…우버 이후 최대 규모 기록",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210525",
+      "category": "market",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras IPO 주당 $185, 시총 ~$56B, $5.55B 조달(Uber 이후 최대 테크 IPO), G42 24%·UAE 추가 62% 매출 의존 — AI 추론 칩 경쟁사 IPO 성공의 시장 의미."
+    },
+    {
+      "id": 21,
+      "title": "[Global Issue] MS CEO Summit 2026 Opens… Korean Semiconductor and Telecom Firms Rise as Key Pillars of Global AI Alliance",
+      "url": "https://www.globalkoreapost.co.kr/news/articleView.html?idxno=91611",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "MS Redmond CEO Summit에 SK하이닉스 곽노정·LG U+ 홍범식 CEO 참석, AI 인프라 글로벌 동맹 재편 신호 — 한국 반도체·통신의 위상 변화."
+    },
+    {
+      "id": 25,
+      "title": "Anthropic tosses agents into the API billing pool",
+      "url": "https://www.theregister.com/ai-ml/2026/05/14/anthropic-tosses-agents-into-the-api-billing-pool/5240748",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Anthropic 6/15부터 인터랙티브와 에이전트 사용량 분리 과금, Agent SDK·헤드리스 별도 풀 — AI 에이전트 인프라 비용 구조 분기, 컴퓨트 자원 한계 표면화."
+    },
+    {
+      "id": 30,
+      "title": "알리바바 \"이익보다 AI 점유율 우선\"...공격적 투자 선언에 주가 급등",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210531",
+      "category": "market",
+      "competitor": "Alibaba (domestic AI chip)",
+      "keep_reason": "알리바바 3년 3,800억 위안 AI 투자 약속, Qwen+자국 칩 통합 전략, 클라우드 매출 +38%·AI 11분기 연속 세 자릿수 성장 — 중국 AI 인프라/칩 자급 가속."
+    },
+    {
+      "id": 40,
+      "title": "Trump-Xi summit updates: US, China leaders hold talks on trade, tech, Iran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/14/trump-xi-summit-live-us-china-leaders-to-hold-talks-on-trade-tech-iran",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "트럼프-시진핑 베이징 정상회담(5/14-15), H200 라이선스·희토류·AI 거버넌스 핵심 의제, Huang·Musk·Cook 동행 — 반도체 수출 통제 프레임워크 분기점."
+    },
+    {
+      "id": 34,
+      "title": "SoftBank profits soar on OpenAI bet: Record ¥5 trillion annual net income",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/softbank-group-stock-jp3436100006-record-5-trillion-profit-on-openai/69333122",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "소프트뱅크 OpenAI 베팅으로 사상최대 연 ¥5조($31.8B) 순익, OpenAI 밸류 $150B→$852B 급등 — AI 인프라 투자 사이클의 거시 신호."
+    },
+    {
+      "id": 8,
+      "title": "Samsung Cuts Wafer Input as Strike Threatens Memory Lead",
+      "url": "https://en.sedaily.com/finance/2026/05/14/samsung-cuts-wafer-input-as-strike-threatens-memory-lead",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성 'warm-down' 웨이퍼 투입 축소, 일일 손실 2.57~3조원 추산, DRAM 36% 점유율·월 680K 웨이퍼 감소시 SK하이닉스/마이크론 추격 위협 — 메모리 시장 구도 영향."
+    },
+    {
+      "id": 18,
+      "title": "대덕전자, 1분기 영업익 513억원…전년비 8배 증가",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56637",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "대덕전자 Q1 매출 3,463억(+60.8%)·영업익 513억(흑전), FC-BGA/FC-CSP 고부가 패키지 기판 견인, 2,130억 메모리 패키지 기판 공장 증설(2027 가동) — AI 서버 기판 수요 신호."
+    },
+    {
+      "id": 17,
+      "title": "제주반도체, 1분기 영업익 671억원...전년비 1713% 상승",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56635",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "제주반도체 Q1 매출 1,804억(+273%)·영업익 671억(+1,713%), 메모리(NAND MCP·DRAM·CRAM) 1,349억 — 메모리 호황의 중소 IDM 낙수 효과."
+    },
+    {
+      "id": 3,
+      "title": "Nvidia's Record Run Hinges on China Access and a May 20 Earnings Test",
+      "url": "https://ts2.tech/en/nvidias-record-run-hinges-on-china-access-and-a-may-20-earnings-test/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA 5/20 실적 발표 앞두고 Q1 FY27 매출 $78B 가이던스(中 데이터센터 매출 제외), AMD·Broadcom·Alphabet 커스텀 칩 경쟁 압력 명시 — 경쟁 환경 변화 신호."
+    },
+    {
+      "id": 10,
+      "title": "Samsung Union Rejects 40 Trillion Won Bonus Offer; Minister Hints at Emergency Arbitration",
+      "url": "https://en.sedaily.com/finance/2026/05/14/samsung-union-rejects-40-trillion-won-bonus-offer-minister",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "정부 중재 40조 보너스안 노조 거부, 산업부 장관 긴급조정권 발동 시사, 6대 경제단체 공동성명 예고 — 파업 협상 결렬 임계점 신호."
+    },
+    {
+      "id": 24,
+      "title": "앤트로픽, 오픈AI 이어 클로드에 '자율 목표' 기능 추가",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210511",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Claude Code /goal 명령어로 세션 레벨 완료조건 자동 평가·반복 실행, AI 에이전트 자율성 한 단계 진전 — AI 에이전트 경쟁 핵심 기능."
+    },
+    {
+      "id": 22,
+      "title": "[5월14일] 왜 실리콘 밸리는 더 비싼 클로드를 선호하나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210509",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Ramp 보고서 기업 AI 사용 Anthropic 34.4%/OpenAI 32.3%, NVIDIA·Uber 클로드 비용 인건비 초과해도 채택, Codex 무료 2개월 공세 — AI 에이전트 시장 점유 변화."
+    },
+    {
+      "id": 31,
+      "title": "Microsoft Eyes OpenAI Alternative, Explores Acquisition of Stanford-Born AI Startup Inception",
+      "url": "https://finance.biggo.com/news/n_91JJ4B2jrwCtglws3U",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "MS 디퓨전 기반 텍스트 생성 스타트업 Inception($1B+ 밸류) 인수 추진, OpenAI 의존도 축소 전략 명시, SpaceX와 경합 — 빅테크 자체 AI 모델 보유 경쟁."
+    },
+    {
+      "id": 23,
+      "title": "MS, '미소스' 성능 넘은 사이버보안용 '멀티 에이전트' 시스템 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210536",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "MS MDASH 멀티모델 에이전트 시스템(GPT+클로드 100+ 에이전트), CyberGym 88.45%로 Sonnet·GPT-5.5 추월, 윈도우 취약점 16건 발견 — 다중 모델 앙상블 에이전트 트렌드."
+    },
+    {
+      "id": 48,
+      "title": "Apple Reviews AI Agent Approval for App Store: Maintaining Revenue Structure Even as Apps Disappear",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210523",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Apple App Store AI 에이전트 승인·보안 프레임워크 신설 검토, WWDC에서 Siri-Gemini 통합 등 공개 예정 — '앱 없는 아이폰' 시대 대비, 에이전트 플랫폼 경쟁."
+    },
+    {
+      "id": 47,
+      "title": "한국경제: 삼성전자, 총파업 대비 감산 돌입…셧다운 땐 100조 손실 예상",
+      "url": "https://www.hankyung.com/article/2026051473441",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성 웜다운 감산 + HBM 우선 재편, 셧다운시 100조 손실 추산, 정부 긴급조정권 검토 — 한국어 1차 정리본 (정부 대응 상세)."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 1,
+      "title": "Nvidia looks for breakthrough in China on chip deal after US buying clearance",
+      "discard_reason": "duplicate — same H200 China 승인 사건이 id 4(Yellow.com)에 더 상세히 정리됨."
+    },
+    {
+      "id": 2,
+      "title": "Nvidia Stock Hits Record as U.S. Clears H200 China Sales — But No Chips Have Shipped",
+      "discard_reason": "duplicate — id 4와 동일 사건, Yellow.com 버전이 시총·관세 25% 구조 등 더 포괄적."
+    },
+    {
+      "id": 9,
+      "title": "Samsung Cuts Chip Output Ahead of Strike as Over $67bn Disruption Feared; Union Rejects Talks",
+      "discard_reason": "duplicate — id 7(KH)/id 8(Sedaily)에 동일 정보 더 상세히 포함, 본문도 얇음."
+    },
+    {
+      "id": 11,
+      "title": "Samsung, union urged to return to talks ahead of planned walkout",
+      "discard_reason": "duplicate — id 7과 동일 NLRC 협상 재개 요청, 새 정보 없음."
+    },
+    {
+      "id": 12,
+      "title": "Samsung Electronics considers scaling down chip production to brace for strike impact",
+      "discard_reason": "duplicate — id 7/8의 감산·웜다운 절차와 중복, 추가 정보 미미."
+    },
+    {
+      "id": 13,
+      "title": "Samsung wants its union back at the table. The union wants the bonus formula in writing.",
+      "discard_reason": "duplicate — SK하이닉스 선례 부분만 차별점이나 id 47(한국경제) 등에서 이미 언급됨."
+    },
+    {
+      "id": 16,
+      "title": "TSMC symposium spotlights AI expansion, advanced packaging demand",
+      "discard_reason": "duplicate — id 14/15에 비해 기술 로드맵 디테일 부족, Digitimes 일반 코멘트성."
+    },
+    {
+      "id": 26,
+      "title": "Anthropic tightens Claude limits and OpenAI courts defectors",
+      "discard_reason": "duplicate — id 25(Register)와 동일 빌링 분리 정책, ServiceNow/Uber 예시만 차별점."
+    },
+    {
+      "id": 27,
+      "title": "Claude Code Increases Weekly Limits by 50% Through July 13, 2026: Anthropic's Anti-Codex Move",
+      "discard_reason": "duplicate — id 25/26 Codex 경쟁 맥락과 동일, 위크 한도 +50% 수치만 추가."
+    },
+    {
+      "id": 28,
+      "title": "WhatsApp adds an incognito mode in Meta AI chats",
+      "discard_reason": "off-topic — 소비자 AI 채팅 프라이버시 기능, DPU/AI 인프라 무관."
+    },
+    {
+      "id": 29,
+      "title": "메타, 왓츠앱에 강력한 'AI 시크릿 채팅' 출시",
+      "discard_reason": "off-topic — id 28 한국어 번역본, 소비자 메신저 AI 기능."
+    },
+    {
+      "id": 32,
+      "title": "\"오픈AI 넘어 자체 AGI 개발로\"...MS, 차세대 스타트업 인셉션 인수 검토",
+      "discard_reason": "duplicate — id 31(BigGo)과 동일 Inception 인수 추진, 영문 원문이 더 풍부."
+    },
+    {
+      "id": 36,
+      "title": "Will Nvidia Beat Q1 Earnings on May 20? Here's What Prediction Markets Think.",
+      "discard_reason": "duplicate — id 35와 동일 NVIDIA 실적 프리뷰, Polymarket 90% 추가만 차별점이라 실질 가치 낮음."
+    },
+    {
+      "id": 39,
+      "title": "Microsoft strengthens partnership with SK Hynix for its own AI chips",
+      "discard_reason": "duplicate — id 19/21에 비해 추가 정보 없는 MS-SK하이닉스 파트너십 일반 보도."
+    },
+    {
+      "id": 41,
+      "title": "코스피 8000 돌파 (KOSPI Breaks 8000)",
+      "discard_reason": "content-thin — 단순 지수 돌파 사실만 2줄, id 6(아시아경제)이 분석·전망 포함 풍부."
+    },
+    {
+      "id": 42,
+      "title": "DGIST-삼보모터스, AX 공동연구랩 구축…AI+로봇 제조혁신기술 개발 및 실증 공동 추진",
+      "discard_reason": "off-topic — 자동차 부품 제조업 로봇 AI 전환 산학협력, DPU/AI 인프라/반도체 시장과 직접 연관 없음."
+    },
+    {
+      "id": 43,
+      "title": "Samsung Electronics union demands CEO respond by May 15 morning or strike proceeds",
+      "discard_reason": "duplicate — id 10/47에서 5/15 오전 10시 최후통첩 이미 다룸."
+    },
+    {
+      "id": 44,
+      "title": "Samsung Electronics, gov't propose resuming wage talks; union rejects offer",
+      "discard_reason": "duplicate — id 7/10/11과 동일 NLRC 토요일 협상 재개 시도·거부 사건."
+    },
+    {
+      "id": 45,
+      "title": "MBC 뉴스: 삼성전자 노조, '사후조정' 결렬 후 대화 제안에 '내일 10시까지 핵심 안건 답하라' 최후통첩",
+      "discard_reason": "duplicate — id 10/43/47과 동일 5/15 최후통첩 사건."
+    },
+    {
+      "id": 46,
+      "title": "Financial News: 삼성전자 총파업 비상…정부·사측, 노사대화 총력전",
+      "discard_reason": "duplicate — id 10/47과 동일 정부·사측 협상 시도, 새 정보 없음."
+    }
+  ],
+  "summary": {
+    "total_received": 48,
+    "total_kept": 28,
+    "total_discarded": 20,
+    "category_breakdown": {
+      "market": 11,
+      "products": 9,
+      "projects": 2,
+      "challenges": 5,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 7,
+    "by_competitor": {
+      "NVIDIA": 4,
+      "Cerebras": 1,
+      "Alibaba (domestic AI chip)": 1,
+      "Microsoft (Maia/SK Hynix)": 1
+    },
+    "notes": "Collector run_summary.total claimed 42 but articles[] actually contains 48 — derived total from array length per memory feedback_verify_article_count. Samsung strike cluster had 10 overlapping articles consolidated to 4 angles (operational/감산: id 7, 경영진 위기감: id 5, 협상 결렬: id 10, 한국어 정부대응: id 47) + 1 product-roadmap angle (id 38). NVIDIA H200 China cluster 4→2 (id 3 earnings preview angle, id 4 most comprehensive market news). TSMC symposium 3→2 (id 14 authoritative + id 15 deep technical). Anthropic billing 3→1 (id 25 Register). MS-SK Hynix Maia 3→2 (id 19 technical + id 21 Korean ecosystem angle). NVIDIA earnings preview 2→1 (id 35). KOSPI 2→1 (id 6). Inception 2→1. WhatsApp AI consumer feature both DISCARD (off-topic). DGIST-삼보모터스 robotics-manufacturing collaboration DISCARDED as off-topic for DPU/AI infrastructure. Retention 58% within healthy 50-85% Stage 1 band. Competitor field preserved verbatim from collector — including null where collector had null. NVIDIA competitor field assigned to US-China trade truce/Trump-Xi summit articles by collector (verified preserved). Note: id 19 (MS Maia/SK Hynix) collector tagged 'NVIDIA' competitor — preserved verbatim though Microsoft custom chip is more central; downstream agents see the collector's tag intent."
+  }
+}

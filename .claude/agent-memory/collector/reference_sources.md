@@ -211,3 +211,35 @@ type: reference
 - `Fractile AI inference chip funding raise May 2026` — tech.eu + finsmes.com + datacenterdynamics.com (403)
 - `AMD EPYC server CPU 46% market share Q1 2026 Mercury Research` — wccftech.com AMP 403; digitalcitizen.life accessible
 - `Google SpaceX orbital data center partnership May 2026` — tomshardware.com + dataconomy.com accessible; bloomberg.com 403
+
+## Source notes (2026-05-15 run)
+- **taipeitimes.com** — accessible; re-publishes Reuters/AP semiconductor/China chip stories with explicit dates; good NVIDIA China backup
+- **ts2.tech** — accessible; tech stock/NVIDIA articles with explicit dates; useful when Bloomberg/CNBC paywalled
+- **bnnbloomberg.ca** — accessible (BNN Bloomberg Canada mirror); publishes Bloomberg financial stories same-day; better access than bloomberg.com
+- **aitimes.com** — idxno=210485~210545 range for May 15; RSS items from early morning KST available
+- **thelec.kr** — idxno=56564+ for May 14 confirmed; May 15 articles start idxno ~56590+; Korean semiconductor trade press
+- **TSMC Technology Symposium 2026** (May 14 Hsinchu) — major annual event; large number of articles followed; tspasemiconductor.substack.com + anandtech.com + tomshardware.com all cover
+- **Korea Herald** (koreaherald.com) — accessible for Samsung strike/KOSPI 8000 coverage; English Korean press
+- **insight.co.kr** — accessible; JP Morgan Samsung strike analysis; covers HBM supply chain risk
+- **DCD RSS** — feed works (kcg.datacenterdynamics.com/rss) but article body returns 403; use headlines only
+- **SemiAnalysis** — RSS feed stuck on Sep 2025; no 2026 content via feed; use search only for SemiAnalysis articles
+- **Tom's Hardware RSS** — redirect: tomshardware.com/feeds/all → 301 → tomshardware.com/feeds.xml; article bodies fetchable
+- **NVIDIA Q2 FY2027 earnings** — scheduled May 20; story not yet filed as of May 15 morning KST
+
+## Key observations (2026-05-15 run)
+- Collection ran early morning KST; most English-language RSS feeds (NextPlatform, ServeTheHome, DCD, TechCrunch) had no May 15 content yet
+- Collection in single-day window (2026-05-15 only) limits total volume; target 40+ achieved (42 articles)
+- KOSPI breaking 8000 (May 14 KST close) is the dominant Korean market story; fueled by Samsung/SK Hynix rally
+- US-China tariff truce (145%→30% effective May 14) has massive semiconductor import/export implications; top story
+- Samsung strike May 15 10am ultimatum is the day's main Korean semiconductor operational story
+- TSMC Symposium (May 14) — A13/A12/N2U process nodes and CoWoS yield milestones are must-cover for semiconductor domain
+
+## Query patterns (2026-05-15 run)
+- `NVIDIA H200 China clearance approved companies Alibaba Tencent ByteDance May 15 2026` — taipeitimes.com + ts2.tech accessible
+- `TSMC 2026 Technology Symposium A13 A12 N2U CoWoS yield May 14 15 2026` — tspasemiconductor.substack.com + tomshardware.com accessible
+- `Samsung Electronics union strike May 15 ultimatum CEO Jeon Young-hyun response 2026` — koreaherald.com + insight.co.kr accessible
+- `KOSPI 8000 record Samsung SK Hynix stock rally May 15 2026` — Korea Herald + ZDNet Korea accessible
+- `US China trade deal tariff 145 to 30 semiconductor chips impact May 14 15 2026` — ts2.tech + various accessible
+- `Anthropic Claude OpenAI Codex agent billing Claude Code limit May 2026` — techcrunch.com + ycombinator.com HN accessible
+- `SoftBank FY2025 annual profit OpenAI record May 2026` — accessible via multiple English outlets
+- `Microsoft CEO Summit SK Hynix HBM partnership AI datacenter May 15 2026` — Korea Herald accessible

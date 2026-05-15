@@ -3,3 +3,4 @@
 - [DPU-adjacent keywords](reference_dpu_adjacent_topics.md) — BlueField, OCTEON, ConnectX, SmartNIC, AGI CPU, Graviton 등 DPU 인접 신호어 목록
 - [Headline calibration sample](project_2026-04-30_headline_calibration.md) — 2026-04-30 사례: 삼성/SK하이닉스 사상최대 실적+퀄컴 DC 진입의 트리플 헤드라인 정당성 기록
 - [Verify article count](feedback_verify_article_count.md) — collector run_summary.total can lie; derive total_received from articles[] length
+- [Mega-cluster compression](project_2026-05-15_samsung_strike_cluster.md) — 단일 사건 ≥5개 클러스터는 4–6개 각도(운영·리더십·협상·비즈영향·한국어1차)로 압축
