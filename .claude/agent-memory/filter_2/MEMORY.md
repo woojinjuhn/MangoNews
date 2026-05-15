@@ -5,5 +5,7 @@
 - [Check published_urls.jsonl before locking main 8](feedback_check_registry_for_dupes.md) — collector dedup can fail; Stage-2 must verify exact URL match against registry
 - [Stage-1 summary may undercount competitor_kept_total](reference_stage1_competitor_undercount.md) — count competitor!=null directly from kept, don't trust summary totals
 - [ETNews same-day same-event dedup](feedback_etnews_same_event_dedup.md) — op-ed + 이슈플러스 동시 keep시 데이터 풍부한 1건만 메인 채택
+- [Content-overlap dedup beyond exact duplicates](feedback_content_overlap_dedup.md) — non-identical but topically overlapping articles → keep stronger, drop weaker (general form of ETNews rule)
+- [Cap ongoing-saga coverage](feedback_ongoing_story_overcoverage.md) — multi-day story (Samsung strike etc.) capped at 1 main + 0-1 complement per issue
 - [User-specified main_cap overrides formula](feedback_user_override_main_cap.md) — explicit "최대 N개" 우선, 동적 공식값은 selection_notes에 병기
 - [Same event, different URL across days](reference_competitor_url_same_event_diff_url.md) — registry dedup is URL-exact; trust Stage-1's keep call when URLs differ

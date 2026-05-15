@@ -8,7 +8,7 @@ type: feedback
 
 **The jargon section is a readability aid, not a glossary.** Unnecessary jargon entries actively harm the newsletter — they clutter the page, dilute genuinely useful entries, and condescend to the reader. **Default behavior: do NOT include.** Add an entry only when a typical MangoBoost employee would genuinely not know the term.
 
-**Why:** MangoBoost is a DPU (Data Processing Unit) semiconductor company. Its employees are deep practitioners in AI infrastructure, semiconductors, datacenters, accelerators, and packaging. They know the basic vocabulary of the industry, plus standard business and finance terms. (User feedback: 2026-05-03 #001 review, 2026-05-04 #002 review.)
+**Why:** MangoBoost is a DPU (Data Processing Unit) semiconductor company. Its employees are deep practitioners in AI infrastructure, semiconductors, datacenters, accelerators, and packaging. They know the basic vocabulary of the industry, plus standard business and finance terms. (User feedback: 2026-05-03 #001 review, 2026-05-04 #002 review, 2026-05-14 #008 review.)
 
 **The reader-perspective test (apply to every candidate term):**
 1. *"Could a typical MangoBoost engineer or PM not know this?"* → If they almost certainly know it, **skip**.
@@ -45,6 +45,7 @@ If a phrase tells you its meaning by being read literally, do NOT define it:
 - `메모리 처리 유닛 (MPU)` if "메모리 처리 유닛" itself reads as the explanation
 - `SRAM 기반 추론 칩`
 - `양자 계약(bilateral deal)`
+- `750MW 저지연 AI 컴퓨트` / `N GW 데이터센터 클러스터` — staff knows MW/GW and what "저지연 컴퓨트" means; concatenating known parts does NOT create a new term worth defining (2026-05-14 #008 review)
 - Anything where the explanation would be a near-tautology
 
 ## 3. K-* prefix policy compounds
@@ -70,6 +71,8 @@ Staff includes business and PM roles familiar with standard vocabulary:
 - **MoU**, **JV**
 - **특수목적법인 / SPC**
 - Standard IPO / financing vocabulary: S-1, IPO, valuation, lockup, etc.
+- **초과청약 N배** (oversubscribed by N times) — IPO press standard, self-evident: "20배 초과청약" reads as its own definition (2026-05-14 #008 review)
+- **공모가**, **공모가 밴드**, **상장 첫 거래일**, **유통주식**, **시가총액** — IPO mechanics baseline
 
 # What to INCLUDE — when the term genuinely warrants it
 

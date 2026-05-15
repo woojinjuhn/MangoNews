@@ -1,0 +1,513 @@
+{
+  "collection_date_kst": "2026-05-15",
+  "run_summary": {
+    "total": 42,
+    "by_topic": {
+      "ai": 16,
+      "semiconductor": 13,
+      "datacenter": 5,
+      "competitor": 8
+    },
+    "by_competitor": {
+      "NVIDIA": 5,
+      "Samsung (strike/HBM)": 8,
+      "Cerebras": 1,
+      "Marvell": 0,
+      "Tenstorrent": 0,
+      "FuriosaAI": 0,
+      "Rebellions": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Moreh": 0,
+      "Napatech": 0,
+      "Microsoft (Maia/SK Hynix)": 1,
+      "Alibaba (domestic AI chip)": 1
+    },
+    "competitor_tagged_total": 14,
+    "sources_consulted": 45,
+    "skipped_paywalled": 5,
+    "notes": "Recency window: 2026-05-15 only (last issue #008 was 2026-05-14). Many English-language RSS feeds (NextPlatform, ServeTheHome, DCD, TechCrunch, Tom's Hardware, IEEE Spectrum, AI-News, Blocks & Files) had not yet published 2026-05-15 content as of collection time, suggesting collection ran early morning KST before Western outlets filed. HPC Wire 403. NetworkWorld RSS 404. Wired RSS blocked. Naver News JS-rendered — skipped per prior memory. Digitimes articles behind paywall. CNBC direct 403. Bloomberg direct 403. SemiAnalysis feed only showed Sep 2025 articles — no new 2026 content. Major stories of the day: NVIDIA H200 China approval (US cleared ~10 firms; no shipments yet; Huang in Beijing); Samsung Electronics union May 15 10am ultimatum deadline (CEO Jeon Young-hyun response outcome not confirmed in web results as of collection time); TSMC Taiwan Technology Symposium (May 14 — A13/A12/N2U announced, CoWoS 98% yield, 5 new 2nm fabs, 70% CAGR); KOSPI breaks 8000 for first time (SK Hynix +200% YTD, Samsung +143% YTD); Cerebras CBRS trading day 2 (closed +68% on day 1 at $311, IPO closed May 15); SoftBank record ¥5T profit on OpenAI bet. Korean competitor companies (Tier 1: FuriosaAI, Rebellions, HyperAccel, FriendliAI, Moreh) had no standalone May 15 news found. Napatech, Tenstorrent also no new May 15 news. Skipped paywalled: Digitimes TSMC CoWoS article, CNBC China AI chips body, Bloomberg Samsung, Bloomberg NVIDIA, Sharecast SoftBank."
+  },
+  "articles": [
+    {
+      "title": "Nvidia looks for breakthrough in China on chip deal after US buying clearance",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/05/15/2003857347",
+      "body": "The United States has approved approximately 10 Chinese companies to purchase Nvidia's H200 artificial intelligence chips, yet no deliveries have occurred. CEO Jensen Huang joined a White House delegation to Beijing, picked up by President Trump en route to meeting Chinese President Xi Jinping, aiming to unlock stalled chip sales in China.\n\nApproved buyers include Alibaba Group Holding Ltd, Tencent Holdings Ltd, ByteDance Ltd and JD.com Inc, along with distributors Lenovo and Foxconn. Each approved customer may purchase up to 75,000 chips under licensing terms.\n\nDespite US authorization, Chinese firms have withdrawn after receiving guidance from Beijing, according to sources. The Chinese government is mounting pressure to block or carefully review orders, fearing that imports could undermine domestic AI chip development efforts.\n\nCompanies like DeepSeek increasingly promote reliance on domestic chips, including Huawei Technologies products. Huang has warned that export controls are eroding Nvidia's market position, stating the company's share of AI accelerators in China has 'effectively fallen to zero.'",
+      "published_at": "2026-05-15T00:00:00+09:00",
+      "source": "Taipei Times (Reuters)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Nvidia Stock Hits Record as U.S. Clears H200 China Sales — But No Chips Have Shipped",
+      "url": "https://ts2.tech/en/nvidia-stock-hits-record-as-u-s-clears-h200-china-sales-but-no-chips-have-shipped/",
+      "body": "Nvidia's stock surged 4.4% to $235.74 after U.S. authorities approved sales of H200 AI accelerator chips to approximately ten Chinese companies, including Alibaba, Tencent, ByteDance, and JD.com. However, the approval has not yet resulted in actual shipments.\n\nThe clearance permits each customer to purchase up to 75,000 chips under U.S. licensing requirements. The Trump administration's arrangement involves Washington receiving a 25% revenue cut and requiring chips to route through U.S. territory before reaching China—a provision that has raised concerns in Beijing about potential tampering.\n\nDespite the regulatory green light, Chinese companies have hesitated to proceed, citing concerns from Beijing. China is simultaneously intensifying efforts to reduce foreign technology dependence and bolster domestic chip manufacturing.\n\nCEO Jensen Huang is visiting Beijing alongside a U.S. delegation as the company prepares its May 20 quarterly earnings report. Nvidia's market capitalization reached approximately $5.77 trillion following the stock jump. Analysts remain optimistic, with one increasing price targets despite the execution uncertainty surrounding actual China deliveries.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "TechStock² (ts2.tech)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Nvidia's Record Run Hinges on China Access and a May 20 Earnings Test",
+      "url": "https://ts2.tech/en/nvidias-record-run-hinges-on-china-access-and-a-may-20-earnings-test/",
+      "body": "Nvidia's stock reached record territory at $220.78 on May 13, 2026, up 12% over five trading sessions. The rally reflects investor optimism about potential China market access and upcoming earnings results.\n\nCEO Jensen Huang joined President Trump's Beijing visit, raising hopes that frozen H200 AI-chip sales restrictions might ease. As one analyst noted, 'Keeping the status quo would already count as good news,' signaling the stock's sensitivity to diplomatic developments.\n\nManagement forecasts Q1 fiscal 2027 revenue of approximately $78 billion, explicitly excluding Chinese data-center revenue. The May 20 earnings call could provide clarity on Blackwell demand and China strategy.\n\nAnalysts like Susquehanna's Christopher Rolland raised price targets to $275, citing strong AI infrastructure demand. However, skeptics highlight valuation concerns, rising interest rates, and competitive pressure from AMD, Broadcom, and Alphabet's custom chips.\n\nHigher inflation concerns and Iran-conflict anxiety weighed on broader markets, yet Nvidia bucked the trend, suggesting investors believe company-specific catalysts outweigh near-term economic risks.",
+      "published_at": "2026-05-13T04:08:00-04:00",
+      "source": "TechStock² (ts2.tech)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA Stock Jumps To Record After Washington Greenlights Chip Exports To China",
+      "url": "https://yellow.com/news/nvidia-record-236-h200-china-firms",
+      "body": "NVIDIA shares climbed to a record $236.46 on Thursday after Washington cleared H200 chip exports to roughly 10 Chinese firms, lifting market value above $5.5 trillion.\n\nThe US Department of Commerce signed off on H200 purchases for around 10 Chinese companies, according to Reuters reporting carried by CNBC and Bloomberg.\n\nAlibaba, Tencent, ByteDance and JD.com lead the list of cleared buyers, while Lenovo and Foxconn received approval to act as distributors.\n\nEach licensed customer can purchase up to 75,000 H200 units under the terms. The ruling reverses October 2023 export controls that had effectively prevented China from accessing NVIDIA's most advanced inventory. That market previously generated approximately $8 billion in annual sales for the chipmaker.\n\nBeijing is still reviewing the transactions and no physical shipments have left the United States. Chinese firms have pulled back after guidance from authorities in Beijing, according to Reuters. The H200 ranks as NVIDIA's second-most powerful AI accelerator behind the Blackwell line.\n\nNVIDIA chief executive Jensen Huang joined US President Donald Trump in Beijing for the bilateral summit with Chinese President Xi Jinping. Huang described the meeting as 'one of the most important summits in human history.'\n\nTrump personally called the NVIDIA chief after the executive was initially absent from the White House delegation list, and Huang boarded Air Force One in Alaska before continuing on to Beijing.\n\nThursday's rally pushed NVIDIA's market capitalization past $5.52 trillion, with the stock gaining roughly 4% on the session, according to Yahoo Finance. The chipmaker now stands as the world's most valuable publicly traded company by a wide margin.\n\nTraders viewed Chinese demand as the missing piece in the data center expansion story. Licensed sales remain subject to a 25% revenue duty paid to the US government and physical inspection inside US territory before export. NVIDIA first crossed the $4 trillion threshold in July 2025 and reached $5 trillion in late October.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "Yellow.com",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Samsung chip division head warns against complacency amid looming major strike",
+      "url": "https://www.koreaherald.com/article/10738439",
+      "body": "Samsung Electronics Vice Chairman and CEO Jun Young-hyun, overseeing the semiconductor division, cautioned executives against becoming complacent during a management briefing. He described the current chip market upswing as 'the last golden opportunity' to recover technological competitiveness.\n\nThe warning arrives as Samsung reported first-quarter net profits of 47.22 trillion won ($31.8 billion)—over five times the previous year's results—fueled by demand for advanced memory chips used in AI applications.\n\nLabor tensions intensify the situation, with the union threatening a major strike scheduled for the following Thursday. Disagreements center on performance-based bonuses tied to semiconductor business earnings. Industry analysts project Samsung could exceed 300 trillion won in operating profit this year amid the chip boom.\n\nThe company faces pressure to maintain competitive advantages while navigating labor negotiations during a period of exceptional financial performance.",
+      "published_at": "2026-05-15T09:20:23+09:00",
+      "source": "The Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "코스피 사상 최초 8000돌파…'만스피' 눈에 보인다",
+      "url": "https://www.asiae.co.kr/article/2026051510193636246",
+      "body": "남한의 KOSPI 지수가 2026년 5월 15일 역사상 처음으로 8,000포인트를 돌파하며 장중 최고가 8,046.78을 기록했다. 이 이정표는 지수가 5월 6일 7,000포인트를 처음 돌파한 지 단 일주일 만에 달성된 것이다.\n\n이 급등의 주요 원동력은 KOSPI 시가총액의 48%를 차지하는 삼성전자와 SK하이닉스다. AI 혁명과 연결된 메모리 반도체에 대한 전 세계적인 수요 급증으로 인해, 양사는 올해 들어 각각 삼성전자 143%, SK하이닉스 201% 상승했다.\n\n주요 투자은행들은 2026년 KOSPI 목표치를 크게 상향 조정했다. KB증권은 연말 목표치를 7,500에서 10,500포인트로 높였으며, 반도체 선도 기업들의 영업이익이 세 배로 늘어날 것으로 예상했다. JP모건과 다른 주요 금융기관들은 9,000~10,000포인트 사이의 목표를 설정했다.\n\n그러나 삼성전자는 노동 파업 위협으로 인해 역풍을 맞고 있으며, 애널리스트들은 잠재적 손실이 40조원을 초과할 수 있다고 전망했다. 반면 SK하이닉스는 보다 안정적인 궤도를 유지하고 있다.",
+      "published_at": "2026-05-15T10:19:36+09:00",
+      "source": "아시아경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Samsung enters emergency mode ahead of chip union strike",
+      "url": "https://www.koreaherald.com/article/10738243",
+      "body": "Samsung Electronics has activated emergency management procedures in anticipation of an 18-day strike commencing May 21, as its semiconductor labor union prepares for a walkout. The company is reviewing contingency plans including production adjustments and stabilization measures.\n\nIndustry analysts warn that a prolonged semiconductor facility shutdown could trigger substantial economic losses. JPMorgan estimates potential losses at approximately 43 trillion won, while worst-case scenarios suggest cumulative damages reaching 100 trillion won ($67 billion). A 2018 precedent highlighted the industry's vulnerability—a 28-minute power outage at Samsung's Pyeongtaek facility cost approximately 50 billion won.\n\nKey Quote: 'Unlike other manufacturing industries, semiconductor plants need to begin production and quality management adjustments a week before a strike even starts in order to minimize the damage.'\n\nThe dispute centers on performance-pay reform. The union demands that 15 percent of semiconductor division operating profit be allocated as bonuses with removal of existing salary caps, while Samsung proposes maintaining its current economic value-added system with one-time special bonuses.\n\nKorea's National Labor Relations Commission requested both parties resume negotiations Saturday, representing a final attempt to prevent the company's inaugural full-scale strike, with approximately 50,000 union members expected to participate.",
+      "published_at": "2026-05-14T17:46:13+09:00",
+      "source": "The Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Cuts Wafer Input as Strike Threatens Memory Lead",
+      "url": "https://en.sedaily.com/finance/2026/05/14/samsung-cuts-wafer-input-as-strike-threatens-memory-lead",
+      "body": "Samsung Electronics has implemented a 'warm-down' production reduction strategy as union strike participation approaches 50,000 workers—more than half of its semiconductor division workforce. The company is reducing new wafer input and moving in-process wafers to safe stages to minimize losses ahead of an anticipated general strike.\n\nIndustry estimates suggest daily production losses could reach nearly 3 trillion won during a complete shutdown. A 2018 power outage lasting 28 minutes caused 50 billion won in damages; extrapolating to current costs, experts project per-day losses between 2.57 and 3 trillion won.\n\nThe broader concern centers on Samsung's competitive position. Currently holding 36% of the global DRAM market, the company produces significantly more wafers than competitors SK hynix and Micron. A month-long production halt would reduce output by 680,000 wafers, narrowing competitive advantages. Economists warn that 'customers who once leave are hard to win back,' risking permanent market share loss to rival suppliers in an AI chip competition landscape.",
+      "published_at": "2026-05-14T18:04:44+09:00",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Cuts Chip Output Ahead of Strike as Over $67bn Disruption Feared; Union Rejects Talks",
+      "url": "https://www.kedglobal.com/labor-union/newsView/ked202605140007",
+      "body": "Samsung Electronics, the world's leading memory chipmaker, has begun reducing semiconductor production in advance of a planned nationwide labor strike. The company is taking protective measures as industry experts caution that the impending work stoppage could represent 'one of the most disruptive industrial actions in South Korea's modern corporate history.'\n\nThe labor union has rejected management's attempts at last-minute negotiations, intensifying concerns about potential economic consequences exceeding $67 billion. The standoff reflects disputes over employee bonus structures, with unionized workers seeking substantial profit-sharing arrangements while the company and government pursue continued dialogue to avert the strike.",
+      "published_at": "2026-05-14T20:11:00+09:00",
+      "source": "KED Global",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Union Rejects 40 Trillion Won Bonus Offer; Minister Hints at Emergency Arbitration",
+      "url": "https://en.sedaily.com/finance/2026/05/14/samsung-union-rejects-40-trillion-won-bonus-offer-minister",
+      "body": "The Samsung Electronics union has rejected a government-mediated bonus proposal worth approximately 40 trillion won, pushing labor negotiations toward collapse just days before a planned 18-day strike beginning May 21.\n\nThe National Labor Relations Commission proposed a 40 trillion won package combining existing bonuses with a special performance-based allocation for the Device Solutions division. Union chairman Choi Seung-ho dismissed the offer, stating the NLRC 'talked nonsense' about putting it to a member vote without a preliminary agreement.\n\nManagement requires union dialogue with concrete proposals by May 15 morning regarding three core demands: OPI transparency, bonus ceiling elimination, and institutionalization. Industry Minister Kim Jung-kwan warned that emergency arbitration appears 'inevitable' if the strike proceeds, citing potential losses of up to 100 trillion won and daily production disruptions of 1 trillion won.\n\nSix major business groups plan issuing a joint statement demanding the union withdraw the strike.\n\nThe standoff reflects fundamental disagreement over formalizing bonus structures and removing compensation caps.",
+      "published_at": "2026-05-14T20:51:06+09:00",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung, union urged to return to talks ahead of planned walkout",
+      "url": "https://www.koreaherald.com/article/10738005",
+      "body": "South Korea's National Labor Relations Commission formally requested on Thursday that Samsung Electronics and its largest union resume negotiations on Saturday, attempting to prevent what would be the company's first comprehensive labor action, scheduled for May 21.\n\nThe proposal followed Samsung's own letter suggesting direct talks with the Samsung Group Federation Union's Samsung Electronics chapter and the National Samsung Electronics Union. Prior discussions held Monday and Tuesday at the Sejong government complex collapsed due to disagreements over performance-pay restructuring, the primary issue in negotiations begun in December.\n\nThe union seeks to allocate 15 percent of semiconductor division operating profit as a performance bonus pool and eliminate the existing 50 percent annual salary cap. Samsung prefers maintaining its current economic value-added system, proposing only a single supplementary bonus for the chip division.\n\nUnion Chair Choi Seung-ho responded cautiously: 'There is room for dialogue if the company has a plan to institutionalize the removal of the cap and ensure transparency.'\n\nThe planned 18-day strike beginning May 21 could involve at least 50,000 members. JPMorgan estimates potential losses reaching 43 trillion won ($28.8 billion) from extended labor disruptions, though industry observers note Samsung's highly automated chip production may mitigate immediate consequences.",
+      "published_at": "2026-05-14T14:25:48+09:00",
+      "source": "The Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Electronics considers scaling down chip production to brace for strike impact",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260514/samsung-electronics-considers-scaling-down-chip-production-to-brace-for-strike-impact",
+      "body": "Samsung Electronics is preparing contingency measures ahead of an 18-day strike set to begin May 21. The company plans to gradually reduce chip production and adjust manufacturing processes to minimize disruptions and quality issues.\n\nThe labor dispute centers on bonus compensation. The unions demand that 15 percent of operating profit be legally guaranteed for performance bonuses with no payout caps. Samsung prefers maintaining current practice: distributing 10 percent of operating profit without contractual guarantees or removing bonus limits.\n\nAn industry official explained the challenge: 'To maintain quality control, production needs to be scaled down ahead of the strike.' The adjustment period is essential because semiconductor manufacturing cannot be safely halted mid-process.\n\nApproximately 44,816 union members have indicated strike participation. Industry analysts estimate potential losses between 40-100 trillion won, depending on production halt duration and recovery timeframes.\n\nBoth the government's Labor Relations Commission and Samsung have proposed additional negotiation sessions. The unions have set conditions for resuming talks, requesting direct engagement from Samsung Co-CEO Jun Young-hyun with substantive bonus system proposals.",
+      "published_at": "2026-05-14T16:42:00+09:00",
+      "source": "The Korea Times",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung wants its union back at the table. The union wants the bonus formula in writing.",
+      "url": "https://thenextweb.com/news/samsung-union-strike-bonus-sk-hynix-precedent",
+      "body": "Samsung Electronics and its largest union remain at an impasse over compensation structure ahead of a planned 18-day strike beginning May 21.\n\nThe core dispute centers not on wage levels but on contractual permanence. Samsung has offered a one-time bonus and a profit share of approximately 13% of chip division operating profit. The union demands 15%, a 7% base wage increase, and removal of the performance bonus cap currently set at 50% of base salary.\n\nThe union's position references SK Hynix, which agreed last September to remove its bonus cap and allocate 10% of annual operating profit to staff for a decade. This precedent influences Samsung workers' demands for 'institutionalisation and transparency'—meaning bonuses locked into employment contracts rather than discretionary.\n\nUnion representative Choi Seung-ho stated the position clearly: 'there is no reason to continue the dialogue without institutionalisation and transparency.'\n\nThe strike would affect roughly 50,000 workers across Samsung's Pyeongtaek and Hwaseong semiconductor facilities during a critical supply period for Nvidia's operations.",
+      "published_at": "2026-05-14T09:18:00+00:00",
+      "source": "The Next Web",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "TSMC touts advanced packaging, 2nm progress at tech symposium",
+      "url": "https://focustaiwan.tw/sci-tech/202605140021",
+      "body": "TSMC presented technological advancements at the 2026 Taiwan Technology Symposium in Hsinchu, highlighting progress in next-generation chipmaking and packaging solutions.\n\nKey Announcements:\n- The company unveiled its A13, A12, and N2U process technologies\n- TSMC will begin mass production this year of an advanced chip-on-wafer-on-substrate (CoWoS) packaging solution with yields 'exceeding 98 percent'\n- A larger CoWoS platform capable of integrating 24 high-bandwidth memory chips is planned for 2029\n- The A16 process remains scheduled for production in the second half of 2026\n\nGrowth Projections:\nTSMC projects a 70 percent compound annual growth rate for 2nm capacity between 2026-2028. The company plans to launch five new fabrication facilities in 2026 to address rising AI and advanced chip demand.\n\nMarket Position:\nThe company has finalized approximately 25 customer designs for 2nm chips, with over 70 additional projects in development. This announcement follows competitive advances from Intel and Samsung in advanced packaging technologies.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "Focus Taiwan (CNA)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "TSMC 2026 Technology Symposium Hsinchu: From Transistor Scaling to System-Level AI Infrastructure",
+      "url": "https://tspasemiconductor.substack.com/p/tsmc-2026-technology-symposium-hsinchu",
+      "body": "The TSMC 2026 Technology Symposium reveals TSMC's strategic pivot from traditional transistor-focused competition toward comprehensive system-level infrastructure for artificial intelligence.\n\nMarket Outlook: The semiconductor market is projected to reach $1 trillion in 2026, accelerating to $1.5 trillion by 2030, with AI and HPC expected to comprise roughly 55% of this market.\n\nTechnology Roadmap Highlights:\n- Advanced Logic: A14 nanosheet technology (2028) delivers up to 15% speed improvements, while A13 (2029) offers backward-compatible migration paths for customers\n- Packaging Innovation: CoWoS packages are expanding to accommodate 20+ HBM stacks by 2028\n- 3D Integration: SoIC technology achieves 56x higher connection density than 2.5D alternatives\n- Optical Integration: COUPE technology enables co-packaged optics with 10x power efficiency gains\n- Wafer-Scale Systems: SoW platforms supporting up to 64 HBM stacks for extreme AI training\n\nManufacturing Scale: Capacity targets include 70% annual growth for N2/A16 technologies and 80%+ CAGR for advanced packaging through 2027.\n\nSustainability Focus: TSMC commits to net-zero emissions by 2050 and aims for 70% in-house resource recycling by 2030.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "SEMIVISION (tspasemiconductor.substack.com)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "TSMC symposium spotlights AI expansion, advanced packaging demand",
+      "url": "https://www.digitimes.com/news/a20260514PD231/tsmc-technology-packaging-demand-2026.html",
+      "body": "TSMC held its annual technology symposium in Hsinchu on May 14, 2026, highlighting how artificial intelligence is expanding from cloud data centers to edge devices. Ray Wan, the Asia-Pacific business director, emphasized that this shift is creating heightened demand for semiconductor density, connectivity bandwidth, power efficiency, and thermal management solutions.\n\nCloud and Edge AI Growth: The semiconductor manufacturer noted that cloud operators are deploying larger AI models and running more complex computing tasks. Concurrently, generative AI and AI agent workflows are spreading rapidly, spurring exponential growth in computational requirements.\n\nEdge Device Integration: AI capabilities are increasingly embedded in appliances, personal computers, vehicles, and mobile phones. These devices now deliver real-time sensing and intelligent responses, with smartphones functioning as personal AI assistants.\n\n2025 Performance Metrics: TSMC's Asia-Pacific customers processed approximately 2.1 million 12-inch wafer equivalents throughout 2025, enabling roughly 2,600 products to enter mass production across smartphones, automotive, networking, and storage sectors.\n\nProduction Innovation: About 400 new products launched in 2025, averaging more than one entering mass production daily, underscoring both customer innovation capacity and TSMC's manufacturing expertise.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "DIGITIMES",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "제주반도체, 1분기 영업익 671억원...전년비 1713% 상승",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56635",
+      "body": "제주반도체가 2026년 1분기 실적을 발표했다. 주요 내용은 다음과 같다.\n\n- 매출: 1,804억 원 (전년 대비 273% 증가)\n- 영업이익: 671억 원 (전년 대비 1,713% 증가)\n\n회사는 '메모리 호황'이 실적에 강력한 영향을 미쳤다고 설명했다.\n\n제품별 현황:\n메모리 제품(NAND MCP, DRAM, CRAM)은 약 1,349억 원을 기록해 전년 대비 267% 증가했다. 메모리 운영만으로도 매출이 205% 증가하여 447억 원을 달성했다.\n\n매출 구성(제품별 비중):\n- NAND MCP: 605억 원 (33.71%)\n- DRAM: 576억 원 (32.07%)\n- TLC NAND: 269억 원 (14.98%)\n\nDRAM 비중이 기존 12.83%에서 크게 확대된 반면, TLC NAND 비중은 16.63%에서 축소됐다.",
+      "published_at": "2026-05-15T08:06:00+09:00",
+      "source": "THE ELEC (디일렉)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "대덕전자, 1분기 영업익 513억원…전년비 8배 증가",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56637",
+      "body": "대덕전자가 AI 서버와 반도체 패키지 기판 수요 확대에 힘입어 2026년 1분기에 큰 폭의 수익성 개선을 이뤘다.\n\n재무 성과:\n- 2026년 1분기 연결 기준 매출: 3,463억 원 (전년 대비 60.8% 증가)\n- 영업이익: 513억 원 (2025년 1분기 62억 원 손실에서 흑자 전환)\n- 전 분기 대비: 매출 8.9%, 영업이익 77.5% 성장\n\n핵심 성장 동인:\n회사는 고부가가치 반도체 패키지 기판(FC-BGA 및 FC-CSP)의 판매 증가와 다층 인쇄회로기판(MLB) 수요 확대를 실적 호전의 주요 요인으로 꼽았다.\n\n지역별 성과:\n- 미국: 446억 원 (2025년 전체 미국 매출의 약 절반에 해당)\n- 국내: 1,881억 원\n- 중국: 638억 원\n\n확장 계획:\n회사는 2027년 가동을 목표로 2,130억 원 규모의 메모리 패키지 기판 공장 확장에 투자한다고 발표했다. 이 사업을 통해 연간 3,500억~4,000억 원의 추가 매출과 메모리 패키지 기판 생산 능력 약 30% 증가가 기대된다.",
+      "published_at": "2026-05-15T07:46:00+09:00",
+      "source": "THE ELEC (디일렉)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft Courts SK Hynix as its Maia 200 AI Chip Raises Memory Stakes",
+      "url": "https://winbuzzer.com/2026/05/14/microsoft-deepens-sk-hynix-partnership-as-it-seeks-xcxwbn/",
+      "body": "Microsoft has courted SK Hynix as Maia 200's 216GB HBM3e design raises memory-supply stakes for AI inference, but no new summit or chip deal is public.\n\nSK Hynix chief executive Kwak Noh-Jung is expected to meet Bill Gates and Satya Nadella during Microsoft's CEO Summit this week. With the summit underway, SK Hynix appears to be aiming at a sole-supplier role for Maia 200, Microsoft's in-house AI inference chip. No Maia 200 supply agreement is public.\n\nMicrosoft already places Maia 200 in its heterogeneous AI infrastructure for Foundry and Microsoft 365 Copilot workloads. More HBM supply would let Microsoft widen that hardware lane across more inference demand instead of leaving Maia 200 as a narrower in-house option.\n\nAs Maia 200 moves from launch messaging into deployment, Iowa rollout details and a reported 30% better performance per dollar gain already pushed the chip beyond a launch concept earlier in 2026. Lower cost per inference only matters at scale, though, if Microsoft can secure enough memory, packaging capacity, cooling, and board-level supply to build out more complete systems.\n\nMaia 200 uses 216GB HBM3e at 7 TB/s. Stacked high-bandwidth memory keeps large AI models fed with data fast enough to avoid turning expensive compute into idle waiting time.\n\nEach Maia 200 chip is specified at more than 10 petaFLOPS at FP4 within a 750W envelope. Microsoft's earlier Maia generation used far less memory, so the 2026 design marks a meaningful jump in how much data each accelerator can keep close to the compute cores.\n\nAs Microsoft moves deeper into custom silicon, Google's TPUs and AWS Trainium already serve training and inference workloads inside rival cloud stacks, while NVIDIA still sets the broader GPU benchmark that hyperscalers are trying to offset rather than fully replace.\n\nCustom ASIC shipments grew 44.6% in 2026, versus 16.1% growth for GPU shipments.\n\nSK Hynix is not negotiating with Microsoft in isolation. The company has been linked to HBM for NVIDIA GPUs and to Google and AWS partnerships, leaving Microsoft to court a supplier that already sits inside several competing ecosystems.",
+      "published_at": "2026-05-14T11:54:00+02:00",
+      "source": "WinBuzzer",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "SK Hynix's AI Memory Supremacy Pushes Valuation Past 1,400 Trillion Won as Samsung Faces Strike Threat",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sk-hynix-s-ai-memory-supremacy-pushes-valuation-past-1-400-trillion-won/69330340",
+      "body": "SK Hynix achieved a historic market capitalization milestone, crossing 1.4 quadrillion won for the first time. The stock closed at 1,976,000 Korean won, representing a 188% year-to-date surge. The company now trails Samsung Electronics, valued at approximately 1.669 quadrillion won, with analysts suggesting a potential overtaking could occur within weeks.\n\nThe South Korean memory chipmaker strengthened its dominance through an exclusive partnership supplying HBM3E memory for Microsoft's Maia 200 AI accelerator—delivering '216 GB of memory capacity and bandwidth of 7 TB/s.' SK Hynix maintains roughly 50% of the global HBM supply market share.\n\nSamsung's position weakened following labor disputes, with the National Labor Relations Commission halting wage negotiations and the union threatening an 18-day strike potentially beginning May 21. Analysts estimate such action could reduce Samsung's operating profit by 7-12%.\n\nSK Hynix is accelerating capacity expansion at its Cheongju facility, targeting 30,000-50,000 monthly wafer units by year-end and 80,000 units next year to meet surging AI-related DRAM demand.",
+      "published_at": "2026-05-14T08:22:53+00:00",
+      "source": "boerse-global.de",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "[Global Issue] MS CEO Summit 2026 Opens… Korean Semiconductor and Telecom Firms Rise as Key Pillars of Global AI Alliance",
+      "url": "https://www.globalkoreapost.co.kr/news/articleView.html?idxno=91611",
+      "body": "Microsoft's invitation-only CEO Summit at its Redmond headquarters featured prominent participation from South Korean technology leaders. LG Uplus CEO Hong Bum-sik and SK hynix CEO Kwak Noh-jung attended discussions focused on generative AI, cloud infrastructure, and next-generation computing strategies.\n\nThe article notes that 'SK hynix is currently regarded as one of the world's most important suppliers of HBM (High Bandwidth Memory), a critical component for AI accelerators.' SK hynix leadership likely discussed Microsoft's AI chip development and long-term memory partnerships during the summit.\n\nLG Uplus is expected to emphasize expanding AI-based business services, including contact center solutions and enterprise cloud transformation. The article suggests their partnership with Microsoft could deepen into collaborative enterprise AI service platforms.\n\nIndustry analysts characterize the summit as more than a technology conference—it represents a strategic realignment where 'the next global AI economic order is being shaped.' Korean companies have shifted from being viewed primarily as manufacturers to becoming essential partners in AI infrastructure and telecommunications systems.",
+      "published_at": "2026-05-12T21:07:00+09:00",
+      "source": "Global Korea Post",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "[5월14일] 왜 실리콘 밸리는 더 비싼 클로드를 선호하나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210509",
+      "body": "실리콘 밸리 기업들은 더 저렴한 대안이 있음에도 앤트로픽의 클로드에 더 높은 비용을 지불하고 있다. 엔비디아, 우버 등의 기업들은 클로드 사용 비용이 일부 인건비를 초과한다고 인정하면서도, 상당한 생산성 향상으로 정당화된다고 설명한다.\n\n시장 데이터에 따르면 예상치 못한 트렌드가 나타난다. 경쟁사들이 더 낮은 가격을 제공함에도 클로드 도입이 증가하고 있다. 결제 플랫폼 Ramp는 4월 보고서에서 기업 고객들 중 앤트로픽 모델 사용 비중(34.4%)이 OpenAI(32.3%)를 앞섰다고 밝혔다. 개발자 커뮤니티에서는 클로드 코드 도입이 가속화되는 패턴이 나타난다.\n\n경쟁 구도는 직관에 반하는 것처럼 보인다. OpenAI의 Codex는 토큰 소비량이 더 적고, 더 강력한 자율 실행 기능을 갖추고 있으며, 멀티 에이전트 아키텍처로 빠르게 확장되고 있다. 중국 모델들도 더 파격적인 할인을 제공했으며, OpenRouter에서는 클로드 Opus 4.7이 1위 자리를 탈환하기 전까지 중국 모델을 먼저 순위에 올리기도 했다.\n\n핵심 차별점: 분석에 따르면 'Codex는 AI 주도 작업을 강조하는 반면, 클로드 코드는 협업 개발을 강조한다.' 클로드는 실시간 협업, 복잡한 코드베이스에 걸친 문맥 유지, 중요한 의사결정 시 투명한 추론 제공에서 뛰어나다. Codex는 자율 성능, 터미널 기반 디버깅, 대규모 프로젝트에서의 토큰 효율성이 우수하다.\n\n개발자들은 클로드가 우수한 문맥 유지, 자연스러운 설명, 낮은 반복 작업 스트레스를 통해 인지 부하를 줄여준다고 보고한다.\n\n다만 이 경쟁 우위는 불확실성에 직면해 있다. OpenAI는 5월 14일 기업 고객에게 2개월 무료 Codex 접근권을 제공한다고 발표해 공격적 경쟁을 예고했다.",
+      "published_at": "2026-05-15T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "MS, '미소스' 성능 넘은 사이버보안용 '멀티 에이전트' 시스템 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210536",
+      "body": "마이크로소프트가 앤트로픽의 클로드 소넷보다 일부 벤치마크에서 우수한 성능을 보이는 새로운 AI 사이버보안 시스템 MDASH(Multi-Model Agentic Scanning Harness)를 공개했다.\n\n해당 시스템은 5월 12일 발표되었으며, 마이크로소프트는 이번 달 패치를 통해 해결된 원격 코드 실행 취약점 4개를 포함해 윈도우의 16가지 새로운 취약점을 발견했다고 밝혔다.\n\nMDASH는 특수 AI 에이전트를 실행하는 단계적 파이프라인으로 동작한다. 각 에이전트는 잠재적 취약점을 스캔하고, 별도의 에이전트 그룹이 악용 가능성을 평가한다. 마지막 단계에서는 버그를 확인하기 위한 개념 증명(PoC) 공격을 수행한다.\n\nSonnet과 OpenAI의 GPT-5.5-Cyber가 에이전트 프레임워크 내에서 단일 모델을 사용하는 것과 달리, MDASH는 여러 모델을 연결하는 모델 앙상블이다. GPT 및 클로드 계열 모델을 포함한 100개 이상의 전문 AI 에이전트를 활용한다.\n\nUC 버클리의 CyberGym 벤치마크에서 MDASH는 88.45%를 달성하며 소넷(83.1%)과 GPT-5.5(81.8%)를 앞질렀다. 이 테스트는 AI 시스템이 188개 오픈소스 프로젝트에서 가져온 1,507개 작업 전반에 걸쳐 실제 취약점을 얼마나 잘 재현할 수 있는지를 측정한다.\n\n마이크로소프트는 AI가 취약점 발견을 가속화함에 따라 향후 패치 화요일 배포 규모가 크게 확대될 것으로 예상한다고 밝혔다.",
+      "published_at": "2026-05-15T00:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽, 오픈AI 이어 클로드에 '자율 목표' 기능 추가",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210511",
+      "body": "앤트로픽이 개발자를 위해 클로드 코드에 새로운 '/goal' 기능을 추가했다. 사용자는 완료 조건을 설정할 수 있으며, AI가 목표 달성까지 여러 턴에 걸쳐 자율적으로 작업을 계속할 수 있다.\n\n'/goal' 기능은 세션 수준의 완료 조건을 가능하게 한다. 개발자가 '모든 테스트 통과', '전체 API 마이그레이션 완료', '이슈 백로그 해소' 등 명확한 목표를 지정하면, 클로드는 각 작업 후 조건 충족 여부를 평가하고 미완성 시 자동으로 계속한다.\n\n이 기능은 사용자가 후속 프롬프트를 제공해야 하는 기존 AI 코딩 도구와의 차별점이다. '/goal' 기능은 사용자 개입 없이 워크플로우 연속성을 유지하며, '상당한 규모의 작업에 대한 지속적인 워크플로우'로 설명된다.\n\n예를 들어 개발자가 'test/auth의 모든 테스트가 lint 오류 없이 통과할 때까지 코드 수정'이라는 목표를 입력하면, 클로드는 반복적으로 코드를 수정하고 테스트를 실행하면서 조건을 지속적으로 확인한다.\n\nOpenAI의 Codex '/goal'이 '/goal pause'와 '/goal resume' 명령어를 통해 사용자 제어 워크플로우를 우선시하는 것과는 차이가 있다.",
+      "published_at": "2026-05-14T19:28:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic tosses agents into the API billing pool",
+      "url": "https://www.theregister.com/ai-ml/2026/05/14/anthropic-tosses-agents-into-the-api-billing-pool/5240748",
+      "body": "Anthropic has implemented new billing restrictions for its Claude model, separating programmatic usage from interactive subscription access effective June 15, 2026.\n\nThe company announced that subscription rate limits, previously shared between interactive and programmatic uses, will now be divided into two distinct pools. Interactive usage—involving direct user prompts and responses through Claude Code, Claude Cowork, and Claude.ai—retains subscription benefits. Programmatic usage via the Agent SDK, headless mode, or third-party tools now receives a separate credit equal to the monthly subscription fee but is billed at higher API rates.\n\nA Pro subscriber paying $20 monthly receives two token allocations. The interactive pool maintains subscription access, while the programmatic pool uses API-rate pricing. Unused programmatic credits do not roll over monthly; customers must calibrate usage to match available credits. Exhausted credits trigger billing through 'extra usage' settings at standard API rates.\n\nThis policy reflects Anthropic's broader effort to transition customers toward metered API consumption rather than flat-rate subscriptions. The company previously banned third-party harnesses with Claude subscriptions in February 2024, enforcing this restriction more aggressively following demand increases in early 2026.\n\nThe Register notes that despite recent partnerships, including Anthropic's deal with SpaceX for compute capacity, usage policies remain restrictive, suggesting improved resource availability has not translated to more generous customer terms.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic tightens Claude limits and OpenAI courts defectors",
+      "url": "https://www.axios.com/2026/05/14/anthropic-claude-price-openai-tokens",
+      "body": "Anthropic has announced new restrictions on how paying customers can use Claude subscriptions, specifically implementing separate credit metering for third-party agent integrations like OpenClaw. This move creates an opening for rival OpenAI to attract power users to its Codex product.\n\nThe shift reflects a fundamental challenge in the AI subscription model: while humans have natural consumption limits, autonomous agents can rapidly deplete computing resources through continuous testing, web browsing, and recursive model calls. According to the report, companies like ServiceNow and Uber have already exhausted their annual AI token budgets.\n\nOpenAI is taking the opposite approach, offering new business customers two months of complimentary Codex usage. The industry response to Anthropic's changes has been notably negative, with users on social media describing the new restrictions as problematic and indicating plans to switch providers.\n\nAnthropic's aggressive stance stems from its position as the preferred choice among developers using agents most intensively, creating infrastructure strain that necessitates usage limitations.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "Axios",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Claude Code Increases Weekly Limits by 50% Through July 13, 2026: Anthropic's Anti-Codex Move",
+      "url": "https://pasqualepillitteri.it/en/news/2494/claude-code-weekly-limits-50-percent-anti-codex-anthropic-2026",
+      "body": "Anthropic increased Claude Code weekly limits by 50% effective May 13, 2026, through July 13, 2026. The expansion applies to Pro, Max, Team, and seat-based Enterprise plans. The free plan was excluded from this promotion.\n\nThis represents Anthropic's defensive response to OpenAI's Codex, which consumes significantly fewer tokens for equivalent tasks. According to the article, 'Codex closed the task with 1.499 million tokens, Claude Code with 6.232 million' on a comparable Figma plugin project.\n\nOpenAI countered the same day with a symmetrical acquisition strategy, offering two free months of Codex for enterprise customers switching within 30 days.\n\nEstimated New Caps (Post-Promo):\n- Pro: 60 weekly hours of Sonnet 4.6\n- Max 5x: 75 weekly hours of Opus 4.7\n- Max 20x: 300 weekly hours of Opus 4.7\n\nDespite the increase, Claude Code remains economically disadvantaged due to higher token consumption per task completed compared to Codex.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "pasqualepillitteri.it",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "WhatsApp adds an incognito mode in Meta AI chats",
+      "url": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
+      "body": "Meta announced it is introducing incognito conversations with its Meta AI chatbot within WhatsApp. Users can access this feature by tapping a new icon in one-on-one chats with Meta AI, with the capability also coming to the standalone Meta AI app.\n\nThese private sessions operate differently from standard chats. According to Meta, 'these incognito conversations are not saved, and messages will disappear by default once you close the chat.' The session also terminates if users close the application or lock their device, causing Meta AI to lose context of that particular exchange.\n\nAlice Newton-Rex, VP of Product at WhatsApp, explained the reasoning: 'People are starting to use AI for everything, including some of their most private thoughts, whether that's tackling financial or health questions, or for advice.'\n\nThe rollout will occur over the coming months. This feature builds on WhatsApp's previously established private processing infrastructure designed to enable AI capabilities while maintaining end-to-end encryption. The incognito chat feature runs on Meta's recently released Muse Spark model.\n\nMeta is also developing a complementary feature called Side Chat, allowing users to privately query AI within group conversations without notifying other participants.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "메타, 왓츠앱에 강력한 'AI 시크릿 채팅' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210535",
+      "body": "메타가 왓츠앱에 'Incognito Chat(시크릿 채팅)'을 출시했다. 이 기능은 메타의 프라이빗 프로세싱 기술을 활용해 메타 자신을 포함한 외부에서 AI와 대화 내용에 접근할 수 없도록 보장한다.\n\n주요 기능:\n- 대화 데이터는 저장되지 않으며 메시지는 기본적으로 자동 삭제\n- 텍스트 전용(초기에는 이미지 업로드 불가)\n- 안전 가드레일을 통해 위험하거나 불법적인 요청에 대한 응답 차단\n- 마크 저커버그는 이를 '서버 대화 기록이 없는 첫 번째 주요 AI 서비스'라고 설명\n\n전문가들의 우려:\n서리 대학의 앨런 우드워드 교수에 따르면, 개인 정보 보호는 유익하지만 기록 부재로 인해 AI 오류 검증이나 피해 발생 시 책임 귀속이 어렵다는 점이 지적됐다. OpenAI와 구글이 AI로 인한 사망 및 자살 관련 소송에 직면한 상황에서 이는 특히 문제가 될 수 있다.",
+      "published_at": "2026-05-15T09:44:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "알리바바 \"이익보다 AI 점유율 우선\"...공격적 투자 선언에 주가 급등",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210531",
+      "body": "대규모 AI 투자로 인한 상당한 이익 감소에도 불구하고, AI와 클라우드 운영에서의 성장 신호에 투자자들이 긍정적으로 반응하면서 알리바바 주가가 급등했다.\n\n알리바바는 1분기 기준 조정 EBITA가 51억 위안(약 1.1조 원)으로 전년 대비 84% 감소했다고 보고했다. 이는 즉석 배달과 AI 인프라 확장에 대한 공격적인 투자에 기인하며, 이커머스 조정 EBITA는 40% 하락했다.\n\n당초 실적 발표 이후 주가는 장전 거래에서 약 4% 하락했다. 그러나 경영진이 AI 수익화 전략을 강조하면서 심리가 반전되어 거래 중 주가가 7% 이상 상승했다.\n\nEddie Wu CEO는 밝혔다: '향후 3~5년간 AI 투자 수익률 전략은 명확하다. 시장 점유율과 리더십이 우선 순위이며, 수익성은 부차적이다.'\n\n알리바바는 3년간 3,800억 위안의 AI 투자를 약속했으며, 급증하는 수요로 인해 실제 지출이 이를 초과할 수도 있다.\n\nCloud Intelligence Group 매출은 38% 증가한 416억 위안이었으며, 조정 EBITA는 57% 상승했다. AI 제품은 11분기 연속 세 자릿수 성장률을 기록했으며, AI 전체 매출은 90억 위안에 달했다.\n\n알리바바는 Qwen AI 모델 시리즈와 반도체 개발을 통한 공격적인 경쟁 포지셔닝을 추구하며, 자국 칩 공급 통합 역량을 통한 중국 시장에서의 독특한 강점을 주장하고 있다.",
+      "published_at": "2026-05-15T09:44:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "Alibaba (domestic AI chip)"
+    },
+    {
+      "title": "Microsoft Eyes OpenAI Alternative, Explores Acquisition of Stanford-Born AI Startup Inception",
+      "url": "https://finance.biggo.com/news/n_91JJ4B2jrwCtglws3U",
+      "body": "Microsoft is actively exploring the acquisition of Inception, an AI startup founded by Stanford researchers, as it prepares for a deteriorating relationship with OpenAI.\n\nAccording to reports, Inception has developed distinctive technology applying diffusion methods—typically used for image generation—to language models. This approach enables simultaneous generation and refinement of multiple tokens, 'offering the advantage of dramatically faster AI response speeds' rather than the sequential token generation of conventional models.\n\nFounded in mid-2024, Inception secured $50 million in seed funding, with Microsoft's venture capital fund M12 participating. The startup now seeks acquisition valuation exceeding $1 billion.\n\nThis acquisition pursuit reflects Microsoft's broader strategy to reduce OpenAI dependency. The company has invested approximately $13 billion in OpenAI since 2019 but now faces constraints: 'OpenAI's computing demands exceeded Microsoft's supply capacity, while Microsoft was contractually barred from building its own models that could compete with OpenAI's foundational models.'\n\nCompetition from Elon Musk's SpaceX complicates negotiations. SpaceX recently acquired Cursor, a coding startup Microsoft had targeted but abandoned due to antitrust concerns regarding GitHub Copilot overlap.\n\nMicrosoft's partnership with OpenAI has fundamentally shifted. Recent 2025-2026 agreements now permit both companies greater independence, with OpenAI partnering with AWS and Microsoft adopting Anthropic's Claude.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "BigGo Finance",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"오픈AI 넘어 자체 AGI 개발로\"...MS, 차세대 스타트업 인셉션 인수 검토",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210498",
+      "body": "마이크로소프트가 오픈AI에 대한 의존도를 낮추기 위해 AI 스타트업 인수를 적극 추진하고 있다. 로이터 보도에 따르면 MS는 핵심 연구 인력과 차세대 모델 기술 확보를 위해 여러 AI 기업들과 인수 가능성을 검토 중이다.\n\n회사는 내년까지 독자적인 최첨단 AI 모델 개발을 목표로 하고 있다. 올해 초 MS는 규제 당국의 검토에 대한 내부 우려로 인해 Cursor 인수를 포기한 바 있다. 회사는 이미 GitHub 자회사를 통해 GitHub Copilot을 운영하고 있어, 상당한 반독점 우려가 제기된 상황이다.\n\n현재 MS는 2024년 스탠퍼드 연구원들이 창립한 AI 스타트업 Inception과 협상 중이다. Inception은 원래 이미지와 동영상 생성에 사용되는 '확산(diffusion)' 기법을 텍스트 생성에 적용했다. 이 방식은 여러 토큰을 동시에 생성하고 수정할 수 있어 모델 속도를 크게 향상시킬 수 있다.\n\n그러나 전문가들은 이 방법이 대형 모델에서 안정적으로 작동하는지에 의문을 제기하고 있다. 최근의 최첨단 모델은 10년 전의 1,000억 개에 비해 약 10조 개의 파라미터를 갖추고 있다.\n\nMS는 인수 논의를 진행하기 위해 투자 은행을 고용했으며, Inception의 기업가치는 10억 달러 이상으로 추정된다. MS의 벤처 기업 M12는 2025년 말 Inception의 5,000만 달러 시드 투자 라운드에 참여한 바 있다.\n\n스페이스X도 경쟁에 나섰다. MS가 Cursor에서 철수한 후, 일론 머스크 CEO는 해당 기업과 계약을 맺고 Inception에도 인수 제안을 했다.",
+      "published_at": "2026-05-14T19:15:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "'몸값 84조' 세레브라스, IPO 돌풍…우버 이후 최대 규모 기록",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210525",
+      "body": "세레브라스가 주당 185달러로 기업공개(IPO)를 성공적으로 완료하며 약 56.4조 원(84조 원)의 기업가치를 달성했다. 회사는 이번 IPO를 통해 최소 55.5억 달러를 조달했으며, 이는 2019년 우버 데뷔 이후 최대 규모 기술 기업 공개 중 하나다.\n\n2016년 설립된 실리콘밸리 AI 칩 제조사는 대규모 AI 연산을 위해 설계된 'WSE(Wafer Scale Engine)' 시리즈를 전문으로 한다. 회사는 NVIDIA 대비 속도와 비용 효율성에서 경쟁 우위를 주장한다.\n\n세레브라스는 2024년 UAE 고객사, 특히 G42에 대한 높은 의존도로 인해 SEC의 조사를 받은 바 있다. 최근 제출 자료에 따르면 G42는 현재 매출의 24%를 차지하며, 또 다른 UAE 기관이 매출의 62%를 담당하고 있다.\n\n회사는 최근 AI 클라우드 서비스로 사업을 전환해 구글 클라우드, 마이크로소프트 애저, 오라클 클라우드와 직접 경쟁하고 있다. 2026년 1월 체결된 OpenAI와의 200억 달러 계약이 시장 신뢰를 크게 높였다.\n\n주요 투자자로는 피델리티 인베스트먼트(약 38억 달러 평가)와 벤치마크 캐피털(약 33억 달러 평가)이 있다.",
+      "published_at": "2026-05-14T17:14:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "SoftBank profits soar on OpenAI bet: Record ¥5 trillion annual net income",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/softbank-group-stock-jp3436100006-record-5-trillion-profit-on-openai/69333122",
+      "body": "SoftBank Group reported its highest-ever annual profit of ¥5 trillion ($31.8 billion) for fiscal year 2026, driven by $43.9 billion in gains from its OpenAI investment stake. Japanese technology investor SoftBank Group Corp. reported Wednesday that profits for the fiscal year through March zoomed by nearly five-fold from the previous year as its AI investments paid off.\n\nSoftBank earned a net income of ¥1.83 trillion ($11.6 billion) in its fiscal fourth quarter, compared with the average analyst estimate of ¥295.2 billion. Chief Financial Officer Yoshimitsu Goto highlighted that SoftBank's annual profit of ¥5 trillion represents the highest ever achieved by a Japanese company.\n\nThe extraordinary earnings growth was primarily driven by OpenAI, in which Softbank has invested $34.6 billion, recording gains of $45 billion. SoftBank Group has reported a surge in quarterly profit due to valuation gains on its OpenAI investment, boosting confidence at the Japanese company to bet even more on the ChatGPT-maker.\n\nOpenAI's valuation has escalated dramatically—from approximately 150 billion dollars at SoftBank's initial investment to 852 billion dollars during a major funding round in March 2026.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "boerse-global.de",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA Q1 FY2027 Earnings Preview: $78B Revenue Expected as China H200 Deal Could Be Upside Catalyst",
+      "url": "https://www.fool.com/investing/2026/05/13/nvidia-reports-its-fiscal-2027-q1-earnings-may-20/",
+      "body": "The article previews Nvidia's fiscal 2027 first-quarter earnings report scheduled for May 20, 2026.\n\nRecent Strategic Developments: The company has announced partnerships with ServiceNow and Corning, launched the Nemotron 3 Nano Omni AI model, and continues to dominate GPU markets across major cloud providers.\n\nCEO's Revenue Projection: CEO Jensen Huang said that he expects the company to rake in $1 trillion from its Blackwell and Vera Rubin processors alone across 2026 and 2027.\n\nWall Street Expectations: Analysts anticipate $1.77 in earnings per share and a 78% year-over-year revenue increase for Q1 FY2027.\n\nHistorical Pattern: The article notes that 'Nvidia tends to beat Wall Street's expectations in any given quarter,' providing specific examples from the prior four quarters where actual EPS consistently exceeded consensus estimates.\n\nMarket Position: Despite Amazon, Alphabet, and Microsoft developing proprietary chips, 'they still rely on Nvidia' for their most powerful GPU capabilities.",
+      "published_at": "2026-05-13T15:16:00-04:00",
+      "source": "The Motley Fool",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Will Nvidia Beat Q1 Earnings on May 20? Here's What Prediction Markets Think.",
+      "url": "https://www.fool.com/investing/2026/05/14/will-nvidia-beat-q1-earnings-on-may-20-heres-what/",
+      "body": "The piece examines prediction market expectations for Nvidia's fiscal 2027 first-quarter earnings report, scheduled for May 20, 2026.\n\nKey Predictions: Polymarket shows approximately 90% implied probability that Nvidia will exceed earnings expectations. Wall Street consensus forecasts $78.8 billion in revenue and $1.77 earnings per share. Goldman Sachs analyst projects Nvidia beating consensus revenue estimates by roughly $2 billion.\n\nMain Arguments: The author cautions against blindly following prediction markets, noting that 'the average bettor on Polymarket doesn't have any more information than the generic public does.'\n\nSupporting evidence includes: Big four tech companies (Alphabet, Amazon, Meta, Microsoft) forecasting combined 2026 capex exceeding $700 billion. SanDisk's exceptional earnings beat demonstrates memory sector strength.\n\nRather than making large bets before earnings, the author advocates for dollar-cost averaging strategies to benefit from long-term AI infrastructure trends while avoiding timing risks.",
+      "published_at": "2026-05-14T04:03:00-04:00",
+      "source": "The Motley Fool",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "US-China Trade Truce May 12: Tariffs Cut to 30%, Chip Controls on the Table",
+      "url": "https://www.abhs.in/blog/us-china-trade-truce-beijing-summit-chip-export-controls-semiconductor-may-2026",
+      "body": "The US and China announced a trade truce on May 12, 2026, cutting US tariffs on Chinese goods from approximately 145% to 30% and Chinese tariffs on US goods from 125% to 10%. President Trump and President Xi are meeting in Beijing on May 14-15 — the first US presidential state visit to China since 2017.\n\nThe May 2026 Beijing summit is happening in a context that makes technology its defining agenda. Past US-China summits have treated technology as a subset of the broader trade relationship. At this summit, the primary trade concession from the US side is a technology export control relaxation, the primary trade concession from China is a critical materials supply chain normalization.\n\nThe specific technology-critical items on the negotiating table: AI chip export controls (particularly H200 and future-generation Nvidia GPU licenses), China's rare earth export restrictions imposed in retaliation for the H20 ban, and the antitrust investigations Chinese regulators had opened against US chip companies including Nvidia, Qualcomm, and Intel.\n\nFour Chinese open-weights models were released in a 12-day window in early May: GLM-5.1 from Z.ai, MiniMax M2.7, Kimi K2.6 from Moonshot AI, and DeepSeek V4, which are competitive with Western frontier models on standard agentic engineering benchmarks.\n\nChinese domestic AI chip market share is projected to hit 50% in 2026. This is not a resolved trade conflict. It is a pause with specific items under active negotiation at the summit.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "Abhishek Gautam (abhs.in)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Samsung Revives Shelved Chip Programs as Worker Walkout Looms",
+      "url": "https://www.techtimes.com/articles/316582/20260513/samsung-revives-shelved-chip-programs-worker-walkout-looms.htm",
+      "body": "Samsung's Device Solutions Division is resuming investment in advanced semiconductor technologies after stabilizing its memory business over the past year. However, an impending labor strike threatens to derail these plans.\n\nRevived Programs:\n- 400+ layer NAND flash development, targeting 'vertical NAND with a minimum of 400 stacked layers' through tenth-generation V-NAND technology\n- Compound semiconductors (gallium nitride and silicon carbide)\n- Advanced packaging and substrates for AI chiplet architectures\n\nLabor Crisis: An 18-day worker walkout is scheduled to begin May 21, with 'more than 40,000 union members' expected to participate. The union demands performance bonuses equivalent to 15% of operating profit, while management opposes removing existing payout caps. Daily losses are estimated at approximately $671 million.\n\nStrategic Significance: The timing is critical as competitors like SK Hynix and TSMC advance their own capabilities. Samsung's investment window in multiple chip categories is described as 'narrow,' making a prolonged strike a significant strategic and financial threat.",
+      "published_at": "2026-05-13T17:05:00-04:00",
+      "source": "Tech Times",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft strengthens partnership with SK Hynix for its own AI chips",
+      "url": "https://www.techzine.eu/news/infrastructure/141307/microsoft-strengthens-partnership-with-sk-hynix-for-its-own-ai-chips/",
+      "body": "Microsoft is deepening its collaboration with South Korean memory chip manufacturer SK Hynix as part of a strategic initiative to decrease dependency on NVIDIA's AI hardware.\n\nAccording to South Korean media reporting on Microsoft's private CEO Summit 2026 in Redmond, approximately one hundred international executives and policymakers gathered to discuss generative AI, cloud infrastructure, and rising demand for AI data centers. SK Hynix CEO Kwak Noh-Jung participated in discussions alongside Microsoft CEO Satya Nadella and co-founder Bill Gates.\n\nThe partnership underscores SK Hynix's significance in Microsoft's AI chip development. The company has pursued greater control over AI infrastructure through deploying proprietary chips alongside NVIDIA GPUs.\n\nMicrosoft's Maia 200 inference accelerator launched earlier this year at a Des Moines, Iowa data center. 'The chip features six memory stacks of 36 GB each, providing a total capacity of 216 GB and a memory bandwidth of 7 TB per second.' SK Hynix serves as the exclusive high-bandwidth memory supplier for this system.\n\nBeyond Microsoft, SK Hynix supplies DRAM, NAND flash, and high-bandwidth memory to other AI market participants, including NVIDIA, Google, and Amazon Web Services.\n\nThis reflects a broader industry shift where hyperscalers increasingly design proprietary chips and infrastructure to control costs and reduce supplier dependency.",
+      "published_at": "2026-05-13T00:00:00+09:00",
+      "source": "Techzine Global",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Trump-Xi summit updates: US, China leaders hold talks on trade, tech, Iran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/14/trump-xi-summit-live-us-china-leaders-to-hold-talks-on-trade-tech-iran",
+      "body": "President Trump arrived in Beijing on May 13, 2026 for summit meetings with President Xi Jinping on May 14-15 — the first US presidential state visit to China since Trump's own November 2017 trip. The summit follows the May 12 trade truce that cut US tariffs from 145% to 30% and Chinese tariffs from 125% to 10%.\n\nThe technology and semiconductor items on the negotiating table include: whether H200 GPU exports to China get a formal licensing framework, what China concedes on rare earth export restrictions, and whether a bilateral AI governance framework gets signed.\n\nInitial Summit Outcomes: The U.S. and China agreed to forge more cooperative ties on the first day of summit, according to Beijing's official English readout, striving to build a 'constructive China-U.S. relationship of strategic stability.' The White House said President Donald Trump had a 'good meeting' with Chinese President Xi Jinping in Beijing, highlighting discussions on expanding economic cooperation and market access for U.S. businesses.\n\nJensen Huang (NVIDIA), Elon Musk (Tesla/SpaceX), Tim Cook (Apple), and Larry Fink (BlackRock) attended the summit. Other tech-specific negotiations focused on semiconductor export controls, rare earth supply, and AI governance.",
+      "published_at": "2026-05-14T00:00:00+09:00",
+      "source": "Al Jazeera",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "코스피 8000 돌파 (KOSPI Breaks 8000)",
+      "url": "https://www.etnews.com/20260515000032",
+      "body": "코스피 지수가 8,000선을 돌파했다. 한국거래소에 따르면 2026년 5월 15일 코스피가 장 초반 8,017.02를 기록했다.\n\n기자: 김신영 (spicyzero@etnews.com)",
+      "published_at": "2026-05-15T09:18:00+09:00",
+      "source": "전자신문 (Electronic Times)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "DGIST-삼보모터스, AX 공동연구랩 구축…AI+로봇 제조혁신기술 개발 및 실증 공동 추진",
+      "url": "https://www.etnews.com/20260515000013",
+      "body": "대구경북과학기술원(DGIST)과 삼보모터스가 로봇 산업의 인공지능 전환(AX)을 촉진하기 위한 업무협약을 체결했다.\n\n이번 협약은 기존 자동차 부품 전문 기업인 삼보모터스가 기존 제조 전문 지식을 활용하면서 로봇 핵심 부품 설계 기술을 내재화함으로써 첨단 로봇 부품 전문 기업으로 사업 구조를 전환하는 것을 지원하는 것을 목표로 한다.\n\n주요 내용: 양 기관은 DGIST 내에 'DGIST-삼보모터스 AX 공동연구랩'을 설립한다. 이 시설은 기업 연구원과 DGIST 과학자들이 공유 작업 공간에서 협력하는 통합 산학연 시스템으로 운영된다. 주요 활동으로는 AI와 로봇을 결합한 제조 혁신 기술 개발, 실제 테스트를 통한 로봇 부품 설계의 공동 발전 등이 있다.\n\nDGIST 이건우 총장은 '삼보모터스의 축적된 현장 경험과 DGIST의 독창적인 AI·로봇 연구 역량을 결합하여 제조 혁신을 이끌어 나갈 것'이라고 밝혔다.",
+      "published_at": "2026-05-15T08:36:00+09:00",
+      "source": "전자신문 (Electronic Times)",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Electronics union demands CEO respond by May 15 morning or strike proceeds",
+      "url": "https://biz.heraldcorp.com/article/10738180",
+      "body": "Samsung Electronics' largest union, the Metal Workers' Union Samsung Electronics Branch, has issued an ultimatum to company leadership. In a formal document sent May 14 to CEO Jeon Young-hyun (DS Division Head), the union stated: 'If the company demonstrates clear willingness to discuss performance pay transparency and eliminating upper limits through institutionalization, we will engage in dialogue.'\n\nThe union set a deadline of May 15, 10 a.m. for Jeon's direct response. Union officials assert that without substantive changes from management on their key demands, they will proceed with strike action.\n\nThe standoff centers on performance pay reforms. The union claims it already made concessions during Central Labor Relations Commission mediation, while management has maintained its existing position without meaningful movement. With only seven days remaining before a planned strike beginning May 21, both sides remain deadlocked on the fundamental issue of institutionalizing performance bonuses with transparency provisions and removing caps.",
+      "published_at": "2026-05-14T16:45:00+09:00",
+      "source": "Herald Business (헤럴드경제)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Electronics, gov't propose resuming wage talks; union rejects offer",
+      "url": "https://www.koreaherald.com/article/10737980",
+      "body": "Samsung Electronics and South Korea's government urged labor unions to resume wage negotiations on Thursday, attempting to prevent a planned strike scheduled for the following week. The National Labor Relations Commission called for another round of government-mediated talks on Saturday.\n\nHowever, union leadership rejected the overture. According to Choi Seung-ho, head of Samsung's largest labor union: 'There is no reason to continue the dialogue without the institutionalization of bonus payments and transparency.'\n\nThe dispute centers on performance-based bonuses tied to AI-related earnings. The union demands fixed bonuses equivalent to 15 percent of semiconductor division operating profit with no payout cap. Management proposed maintaining the current cap while offering a one-time special compensation package instead.\n\nApproximately 41,000 unionized workers have indicated plans to participate in the threatened 18-day general strike, with potential participation possibly exceeding 50,000.",
+      "published_at": "2026-05-14T14:14:49+09:00",
+      "source": "The Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "MBC 뉴스: 삼성전자 노조, '사후조정' 결렬 후 대화 제안에 '내일 10시까지 핵심 안건 답하라' 최후통첩",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6822541_37004.html",
+      "body": "삼성전자 노동조합(금속노조)이 회사의 대화 재개 요청에 답하며 CEO에게 핵심 요구사항을 5월 15일 오전 10시까지 제시할 것을 요구하는 최후통첩을 발행했다.\n\n금속노조 삼성전자 지부 최승호 지부장은 노조가 '성과급 투명화, 한도 제거, 제도화'와 관련한 회사의 진정한 대화 의지가 확인될 경우에만 협상에 임하겠다는 입장을 밝혔다. 노조는 이전에 실질적 내용이 없다는 이유로 전국노동관계위원회의 조정 제안을 거부한 바 있다.\n\n회사가 전면 파업에 돌입한 지 불과 일주일 앞서, 삼성은 잠재적 생산 중단에 앞서 평택 반도체 시설에서 360,000개의 웨이퍼를 안전한 위치로 옮기는 등 보호 조치를 시작했다.\n\n노조는 SK하이닉스가 10년간 연간 영업이익의 10%를 표준화된 성과급 제도로 지급하기로 합의한 것을 삼성이 채택해야 할 모델로 제시했다.",
+      "published_at": "2026-05-14T20:02:00+09:00",
+      "source": "MBC 뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Financial News: 삼성전자 총파업 비상…정부·사측, 노사대화 총력전",
+      "url": "https://www.fnnews.com/news/202605141600232449",
+      "body": "삼성전자 노조가 총파업 1주일 앞두고 파업을 선언하면서, 정부와 회사 경영진은 노동 협상 재개를 위해 총력을 기울이고 있다.\n\n중앙노동관계위원회는 공식적으로 파업 예정일 5일 전인 5월 16일에 삼성 경영진과 노동조합이 사후조정 협의를 재개할 것을 요청했다.\n\n삼성전자는 '양측이 의견을 교환했으나 합의에 이르지 못했다'는 서면 제안을 노조에 전달하며 '노사 간 직접 대화'를 제안했다.\n\n노조의 답변은 단호했다. 금속노조는 '성과급(OPI) 투명화, 상한선 폐지, 제도화'에 대해 논의할 것을 요구하며 '5월 15일 오전 10시까지 회사의 직접 답변'을 요청했다. 노조는 '변화 없으면 파업으로 대응할 것'이라고 경고했다.\n\n핵심 쟁점이 해결되지 않은 상황에서 재협상 성공 전망은 제한적인 것으로 보인다. 정부는 파업 시 긴급조정권 발동을 고려하기 전에 대화 기반 해결책을 강조하고 있다.",
+      "published_at": "2026-05-14T16:51:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "한국경제: 삼성전자, 총파업 대비 감산 돌입…셧다운 땐 100조 손실 예상",
+      "url": "https://www.hankyung.com/article/2026051473441",
+      "body": "삼성전자가 예정된 노동조합 전면 파업에 앞서 일주일 전부터 비상 생산 감축에 돌입했다. 43,000명 이상의 조합원이 파업 참가를 등록한 상황에서 회사는 잠재적인 제조 전면 중단으로 인한 피해를 최소화하기 위해 '웜다운(warm-down)' 절차를 시행하고 있다.\n\n회사는 생산 라인에 투입하는 신규 웨이퍼 수량을 제한하고 HBM(고대역폭 메모리) 등 최첨단 공정 위주로 재편하고 있다. 업계에서는 생산 전면 중단 시 '100조원의 막대한 손실'이 발생할 수 있다고 추산하고 있다.\n\n주요 긴장 요인: 노조는 성과급 투명화, 상한 폐지, 제도화를 요구하며 5월 15일 오전 10시까지 삼성 DS 본부장의 직접 답변을 요청했다. 요구가 받아들여지지 않을 경우 파업을 강행하겠다는 의사를 확인했다.\n\n정부 대응: 파업 진행 시 노동법에 따른 긴급조정권 발동을 검토 중이다.",
+      "published_at": "2026-05-14T17:41:00+09:00",
+      "source": "한국경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Apple Reviews AI Agent Approval for App Store: Maintaining Revenue Structure Even as Apps Disappear",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210523",
+      "body": "Apple is developing new approval and security frameworks to integrate AI agents into its App Store ecosystem. The company previously blocked AI coding tools over compliance concerns, but is now strategically shifting to absorb agent-based software under platform rules rather than exclude it.\n\nThe core challenge stems from AI agents' autonomous nature—they dynamically generate and execute code in response to user requests—which conflicts with Apple's current prohibition against apps downloading unapproved code after approval. Apple's 2025 App Store revenue reached approximately $50 billion, making the platform economically critical.\n\nThe article notes that 'Apple is designing new security and approval standards' to accommodate agent capabilities while maintaining control. Industry analysts suggest Apple is preparing for an 'app-free iPhone era' where users issue voice commands and agents handle underlying functionality.\n\nApple plans to showcase enhanced AI strategies at next month's WWDC event, including upgraded Siri with Google Gemini integration and broader AI model support.\n\nHowever, developer reactions remain mixed, with concerns that deeper Siri integration could strengthen Apple's fee structures and platform control.",
+      "published_at": "2026-05-14T19:23:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}

@@ -1,3 +1,4 @@
 - [MangoNews Pipeline Context](project_pipeline.md) — Channel A/B architecture, test-mode override details, dedup state location
 - [High-yield news sources per domain](reference_sources.md) — confirmed sources, paywall notes, Korean outlets, effective query patterns
 - [MangoBoost competitor watchlist](reference_competitors.md) — DPU/SmartNIC/inference chip competitors, recent M&A, product roadmaps
+- [Verify publication date against byline](feedback_verify_publication_date.md) — never default published_at to today; T00:00:00 + past-event URL slugs (ces-2026, mwc-2026) require byline re-verification or drop
