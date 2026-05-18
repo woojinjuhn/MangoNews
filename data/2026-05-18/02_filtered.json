@@ -1,0 +1,351 @@
+{
+  "filter_date_kst": "2026-05-18",
+  "kept": [
+    {
+      "id": 1,
+      "title": "A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom",
+      "url": "https://fortune.com/2026/05/17/labor-strike-samsung-ai-hbm-chips-dividend-revolution-memory/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung 5/21 18일 총파업이 HBM 공급망과 글로벌 AI 인프라에 직격 — 한국 반도체 산업 최대 사건이자 시장 동향 핵심."
+    },
+    {
+      "id": 45,
+      "title": "NVIDIA prepares shipment of 82,000 AI GPUs to China as chip war lines blur — H200 shipments with 25% tax to begin as US loosens restrictions",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-prepares-h200-shipments-to-china-as-chip-war-lines-blur",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "엔비디아 H200 중국 수출 라이선스+25% 세금 부과 구조 확정 — 글로벌 GPU 공급망 재편의 구체적 진전."
+    },
+    {
+      "id": 3,
+      "title": "US FTC reportedly launches antitrust probe into Arm following its launch of its own AGI CPU — regulators investigate if chip designer is restricting architecture access to rivals",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/us-ftc-reportedly-launches-antitrust-probe-into-arm-following-its-launch-of-its-own-agi-cpu-regulators-investigate-if-chip-designer-is-restricting-architecture-access-to-rivals",
+      "category": "market",
+      "competitor": "Arm",
+      "keep_reason": "Arm의 자체 AGI CPU 진출에 따른 FTC 반독점 조사 — 2029년 AI 서버 CPU 90% 점유 예상 회사의 사업 모델 전환과 직결."
+    },
+    {
+      "id": 27,
+      "title": "SK Hynix Locks Up 2026 HBM Capacity and Snares 200 Samsung Engineers in AI Memory Blitz",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sk-hynix-locks-up-2026-hbm-capacity-and-snares-200-samsung-engineers-in-ai/69357098",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SK하이닉스 2026 HBM 완판+삼성 엔지니어 200명 유출 — 한국 메모리 양강 구도 재편의 결정적 신호."
+    },
+    {
+      "id": 43,
+      "title": "Google, Microsoft, Meta, and Amazon capex spending to hit $725 billion in 2026, up 77% from last year — analyst says bear thesis is 'garbage'",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "빅테크 4사 2026년 capex 7,250억 달러(전년대비 77% 증가) — AI 인프라 시장 규모의 기초 컨텍스트(메모리·DPU·DC 수요 견인)."
+    },
+    {
+      "id": 12,
+      "title": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
+      "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
+      "category": "products",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras IPO 후 600억 달러 기업가치 달성 — 웨이퍼 스케일 엔진의 B200 대비 58배 크기 등 AI 추론 가속기 경쟁사 동향."
+    },
+    {
+      "id": 46,
+      "title": "Huawei could seize China's AI chip crown in 2026 as Nvidia's H200 shipments stall in regulatory limbo",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-could-seize-chinas-ai-chip-crown-in-2026-as-nvidias-h200-shipments-stall-in-regulatory-limbo-beijing-pushes-homegrown-ai-hardware-dominance-in-a-market-projected-to-hit-usd67-billion-by-2030",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Huawei Ascend SMIC 양산 + 670억 달러 중국 AI 칩 시장 — 글로벌 GPU 경쟁구도의 양극화 진전."
+    },
+    {
+      "id": 4,
+      "title": "Jensen Huang slams 'stupid' analogy comparing GPUs to nuclear weapons — Nvidia CEO says government should allow selling GPUs to adversarial countries",
+      "url": "https://www.tomshardware.com/tech-industry/jensen-huang-says-comparing-gpus-to-atomic-bombs-is-stupid-nvidia-ceo-says-government-should-allow-selling-gpus-to-adversarial-companies",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "젠슨 황 스탠퍼드 연설 — 수출 통제 정책 비판, 78B Q1 가이던스 컨텍스트 — NVIDIA 리더십 시각 직접 청취."
+    },
+    {
+      "id": 22,
+      "title": "ST, 엔비디아 AI 데이터센터 '800V' 전력설계 겨냥…\"시장 수요에 적기 대응\"",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56739",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA Kyber 2027 랙 + 800VDC 아키텍처 — AI 데이터센터 전력 효율 핵심 과제와 ST의 SiC/GaN 솔루션."
+    },
+    {
+      "id": 2,
+      "title": "AI data centers trigger massive 'irreversible' 76% electricity price spike in largest US region — federal watchdog demands tech giants pay for their own power infrastructure",
+      "url": "https://www.tomshardware.com/tech-industry/ai-data-centers-trigger-massive-irreversible-76-percent-electricity-price-spike-in-largest-us-region-federal-watchdog-demands-tech-giants-pay-for-their-own-power-infrastructure",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "PJM 전력가격 75.5% 급등 — AI 데이터센터 전력 비용/효율 문제의 구체적 영향(MangoBoost DPU TCO 가치 제안과 직결)."
+    },
+    {
+      "id": 24,
+      "title": "삼성·SK하이닉스, 1분기 연구개발비 최대 68% 급증",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56740",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "삼성/SK하이닉스 1Q R&D 25.5%/68.3% 증가, HBM4E 6세대 개발 가속 — 메모리 경쟁의 강도 측정 지표."
+    },
+    {
+      "id": 19,
+      "title": "엔비디아, 'RTX 5090' 한장으로 1분 영상 생성하는 월드 모델 오픈 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210609",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA SANA-WM 오픈소스 — RTX 5090 1장으로 720p 60초 영상 생성, 단일 GPU 효율 36배 향상 — AI 모델 최적화 핵심."
+    },
+    {
+      "id": 23,
+      "title": "김민석 총리 \"삼성전자 파업하면 긴급조정 등 모든 수단 강구\"",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56746",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "김민석 총리 긴급조정 발동 시사 — 1963년 이후 4번뿐인 강제 조정 절차 가능성 — 정부 개입 강도."
+    },
+    {
+      "id": 28,
+      "title": "Korea should restrict semiconductor strikes",
+      "url": "https://www.koreaherald.com/article/10739534",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "반도체 산업 파업 법적 제한 옵에드 — 700억 달러 손실+GDP 0.78% 감소 추정 인용 — 정책 토론 각도."
+    },
+    {
+      "id": 26,
+      "title": "삼성전자, 노조 요구 수용해 대표교섭위원 교체… 18일 사후조정 재개",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56745",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "삼성 협상 대표 교체 + 5/18 2차 사후조정 재개 — 파업 4일 전 마지막 협상 동학."
+    },
+    {
+      "id": 7,
+      "title": "AI data centers require 36 times more fiber than standard servers — severe glass shortages push cable lead times out to a full year",
+      "url": "https://www.tomshardware.com/tech-industry/ai-data-centers-are-consuming-fiber-optic-cable-faster-than-suppliers-can-make-it",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI DC 광섬유 수요 76% YoY 증가, 납기 1년 — Meta/Nvidia 다년 공급 계약 — AI 인프라 부품 수급 문제."
+    },
+    {
+      "id": 9,
+      "title": "ASML partners with Tata Electronics to equip India's first commercial semiconductor fab",
+      "url": "https://www.tomshardware.com/tech-industry/asml-partners-with-tata-electronics-to-equip-indias-first-commercial-semiconductor-fab",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "ASML+Tata 인도 첫 상업 300mm 팹 110억 달러 투자 — 글로벌 반도체 생산 다변화 진전."
+    },
+    {
+      "id": 8,
+      "title": "Texas county passes data center ban for rural areas for a year — move comes in wake of AI data centers moving to remote areas to skirt regulations",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/texas-county-passes-data-center-moratorium-for-a-year-follows-other-local-governments-pausing-similar-projects-but-state-senator-says-counties-cannot-impose-these-bans",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "텍사스 힐 카운티 데이터센터 1년 모라토리엄 — AI DC 입지 규제 첫 사례, 전력/소음 우려."
+    },
+    {
+      "id": 41,
+      "title": "[차이나 브리프] TSMC의 PLP 패키징 6월 완공",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=55351",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "TSMC 패널 레벨 패키징(PLP) 6월 완공 — AI 반도체 첨단 후공정 경쟁(CoWoS+PLP)."
+    },
+    {
+      "id": 33,
+      "title": "주성엔지니어링, 세계 최초 원자층성장 장비 출하",
+      "url": "https://zdnet.co.kr/view/?no=20260517170050",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "주성엔지니어링 세계 최초 ALG(원자층성장) 반도체 장비 출하 — 한국 반도체 장비 기술 진전."
+    },
+    {
+      "id": 15,
+      "title": "Google I/O 2026 Keynote Opens Tuesday as New Gemini Lands Behind Mythos and GPT-5.5",
+      "url": "https://www.techtimes.com/articles/316755/20260517/google-i-o-2026-keynote-opens-tuesday-new-gemini-lands-behind-mythos-gpt-55.htm",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "5/19 Google I/O 2026 키노트 프리뷰 — Gemini Omni 통합 모델, Android XR, Gemini Intelligence 에이전트 — AI 모델 업데이트."
+    },
+    {
+      "id": 5,
+      "title": "China bypasses US GPU bans with 1.54-exaflops 'LineShine' supercomputer — CPU-only monster packs 2.4 million Huawei-designed Armv9 cores",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/china-bypasses-us-gpu-bans-with-1-54-exaflops-lineshine-supercomputer-cpu-only-monster-packs-2-4-million-huawei-designed-armv9-cores",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Huawei Armv9 SVE/SME 304-core CPU 240만 코어 1.54 exaFLOPS — GPU 없는 AI/HPC 인프라 대안 아키텍처."
+    },
+    {
+      "id": 34,
+      "title": "설립 6개월 만에 몸값 7조...리커시브, 스스로 진화하는 '재귀적 AI' 도전",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210601",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Richard Socher Recursive Intelligence 6.5억 달러 조달, 46.5억 달러 기업가치 — AI 모델 신규 진입 동향."
+    },
+    {
+      "id": 36,
+      "title": "스페이스X, IPO 일정 앞당겨…이르면 6월12일 나스닥 상장",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210599",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SpaceX IPO 6/12 조기 상장 — xAI Colossus 22만 GPU 데이터센터 인프라 가치 평가 컨텍스트."
+    },
+    {
+      "id": 11,
+      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI 슈퍼 앱 전환 + 브록먼 제품 총괄 — 추가 자금조달 검토 — 최대 AI 컴퓨팅 수요처의 전략 방향."
+    },
+    {
+      "id": 20,
+      "title": "누스 리서치, '토큰 중첩 학습'으로 사전훈련 시간 2.5배 단축",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210584",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Nous Research TST 토큰 중첩 학습 — 10B-A1B 사전훈련 2.5배 빠름, 12,311→4,768 GPU시간 — LLM 컴퓨팅 비용 절감 기술."
+    },
+    {
+      "id": 18,
+      "title": "미 FTC, '직접 칩 설계' 나선 Arm 반독점 조사 착수",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210612",
+      "category": "market",
+      "competitor": "Arm",
+      "keep_reason": "Arm FTC 반독점 조사 한국어 1차 정리본 — 한국 공정위 수원 사무소 압수수색 등 한국 맥락 추가."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 6,
+      "title": "Taiwan declares itself 'sovereign and independent' after Trump questions US defense commitment",
+      "discard_reason": "off-topic — 정치/외교 중심, 반도체 산업 본질적 새 정보 없음"
+    },
+    {
+      "id": 10,
+      "title": "Tata Electronics and ASML Announce Strategic Partnership to Advance the Semiconductor Manufacturing Ecosystem in India",
+      "discard_reason": "duplicate of id 9 — ASML 보도자료 원문, Tom's Hardware 정리본이 더 풍부"
+    },
+    {
+      "id": 13,
+      "title": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its physical-world thesis",
+      "discard_reason": "duplicate of id 12 (Cerebras 클러스터) — VC 관점만 추가, MangoBoost 시그널 약함"
+    },
+    {
+      "id": 14,
+      "title": "Cerebras Soared 68% in Its First Day of Trading. After This Explosive IPO, Is It Too Late to Buy the Stock?",
+      "discard_reason": "duplicate of id 12 — 주식 투자 분석에 그침, 새 기술/사업 정보 부재"
+    },
+    {
+      "id": 16,
+      "title": "OpenAI, '슈퍼 앱' 체제로 경영진 전면 개편…브록먼이 제품 총괄",
+      "discard_reason": "duplicate of id 11 — 영문 1차 TechCrunch이 더 디테일 풍부"
+    },
+    {
+      "id": 17,
+      "title": "IPO로 수익 압박 커진 xAI, '그록' 금융권 도입 위해 총력전",
+      "discard_reason": "off-topic — 그록의 월가 영업 활동, DPU/AI 인프라 본질과 거리 있음"
+    },
+    {
+      "id": 21,
+      "title": "오픈AI, 챗GPT에 '개인 금융 관리' 기능 도입...은행·증권 계좌 실시간 연동",
+      "discard_reason": "off-topic — 개인 금융 소비자 기능, MangoBoost 인프라 관련성 낮음"
+    },
+    {
+      "id": 25,
+      "title": "이재용 회장 노조사태 사과... \"내부 문제로 심려끼쳐 사죄\"",
+      "discard_reason": "duplicate of id 26 — 같은 사건 리더십 각도, id 26이 협상 동학 디테일 포함"
+    },
+    {
+      "id": 29,
+      "title": "Korean Semiconductor Society Urges Swift Resolution of Samsung Labor Dispute",
+      "discard_reason": "duplicate of id 1/23 — 업계 단체 성명, 새 사실 추가 미미"
+    },
+    {
+      "id": 30,
+      "title": "TSMC to Sell $850M Stake in Vanguard International Semiconductor",
+      "discard_reason": "off-topic — TSMC의 비핵심 자회사 지분 매각, MangoBoost 시그널 미미"
+    },
+    {
+      "id": 31,
+      "title": "Arm Holdings to face US antitrust probe over chip tech",
+      "discard_reason": "duplicate of id 3 — Arm FTC 동일 사건, 영문 정리본이 더 약함"
+    },
+    {
+      "id": 32,
+      "title": "Anthropic's Most Dangerous Model Was Accessed Without Authorization on Day One",
+      "discard_reason": "off-topic — AI 모델 보안 사고, DPU/AI 인프라 본질과 거리 있음"
+    },
+    {
+      "id": 35,
+      "title": "구글, '플래시' 모델로 버셀 사용량 1위...가성비로 기업 점유율 경쟁",
+      "discard_reason": "content-thin — Vercel SDK 사용량 순위 단신, 추가 분석 부족"
+    },
+    {
+      "id": 37,
+      "title": "억만장자 애크먼, MS에 3.5조 베팅…\"MS 오피스는 AI로 대체 불가능\"",
+      "discard_reason": "off-topic — 단일 투자자 헤지펀드 베팅, 인프라 관련성 미미"
+    },
+    {
+      "id": 38,
+      "title": "넷플릭스, 'AI 애니메이션' 직접 만든다…전문 스튜디오 설립",
+      "discard_reason": "off-topic — 콘텐츠 산업 AI 활용, MangoBoost 인프라 본질과 거리 있음"
+    },
+    {
+      "id": 39,
+      "title": "오픈AI, '유명인 음성 복제' 스타트업 인수해 폐쇄...상장 전 논란 제거 의도",
+      "discard_reason": "off-topic — IPO 전 법적 리스크 정리, 인프라 시그널 없음"
+    },
+    {
+      "id": 40,
+      "title": "\"24시간 동안 쉬지 않고 택배 분류\"...피규어의 휴머노이드 생중계 화제",
+      "discard_reason": "off-topic — 휴머노이드 로봇 시연, 데이터센터/DPU와 간접적 연관만"
+    },
+    {
+      "id": 42,
+      "title": "\"인간 손만큼 섬세\"...ST, 21개 센서 탑재한 휴머노이드 솔루션 공개",
+      "discard_reason": "off-topic — 휴머노이드 센서 솔루션, AI 인프라 시그널 미미"
+    },
+    {
+      "id": 44,
+      "title": "주성엔지니어링, 업계 최초 '원자층 성장' 장비 출하·공급",
+      "discard_reason": "duplicate of id 33 — ZDNet 정리본과 동일 사건"
+    },
+    {
+      "id": 47,
+      "title": "[AI 이슈트렌드] 미중 정상회담 관심 속 AI 국민배당금·삼성전자 파업 등 주목",
+      "discard_reason": "duplicate — 주간 다이제스트, 개별 기사로 이미 커버됨"
+    },
+    {
+      "id": 48,
+      "title": "이재용 \"우리는 한몸\" 호소가 물꼬…삼성 노사협상 극적 재개",
+      "discard_reason": "duplicate of id 26 — 협상 재개 같은 각도, 더일렉이 디테일 풍부"
+    },
+    {
+      "id": 49,
+      "title": "FTC Investigates Whether Arm's First Chip Launch Lets It Squeeze the Licensees It Now Competes Against",
+      "discard_reason": "duplicate of id 3 — Arm FTC 같은 사건; Meta 공동개발 디테일은 id 3에 미포함이나 cluster 압축 휴리스틱 적용"
+    }
+  ],
+  "summary": {
+    "total_received": 49,
+    "total_kept": 27,
+    "total_discarded": 22,
+    "category_breakdown": {
+      "market": 13,
+      "products": 6,
+      "projects": 0,
+      "challenges": 5,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 7,
+    "by_competitor": {
+      "NVIDIA": 4,
+      "Arm": 2,
+      "Cerebras": 1
+    }
+  }
+}

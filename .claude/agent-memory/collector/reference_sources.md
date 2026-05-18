@@ -243,3 +243,40 @@ type: reference
 - `Anthropic Claude OpenAI Codex agent billing Claude Code limit May 2026` — techcrunch.com + ycombinator.com HN accessible
 - `SoftBank FY2025 annual profit OpenAI record May 2026` — accessible via multiple English outlets
 - `Microsoft CEO Summit SK Hynix HBM partnership AI datacenter May 15 2026` — Korea Herald accessible
+
+## Source notes (2026-05-16 to 2026-05-18 run — 3-day weekend window)
+- **Weekend publishing pattern**: Most English RSS feeds (NextPlatform, ServeTheHome, DCD, Blocks & Files, IEEE Spectrum) publish very little Sat/Sun; expect low Channel A yield; Channel B (WebSearch) becomes primary on weekends
+- **AI타임스 RSS** — still publishes on weekends; idxno=210555~210600 range for May 16-18; reliable
+- **thelec.kr** — weekend article volume reduced but still publishes; idxno=56600~56650 range for May 16-18
+- **더일렉 article list** — direct list page at thelec.kr/news/articleList.html still works; explicit timestamps confirm weekend articles
+- **koreaherald.com** — accessible; covers Samsung strike ultimatum (Lee Jae-yong apology May 16) and Samsung union negotiation May 18
+- **bnnbloomberg.ca** — accessible for weekend Bloomberg semiconductor/NVIDIA stories
+- **Reuters** — accessible for weekend NVIDIA/China chip export stories
+- **Google I/O 2026** (starts May 19): preview articles published May 16-18 are valid; actual announcement articles not yet available
+- **NVIDIA Q1 FY2027 earnings**: scheduled May 20; not yet published in May 16-18 window; only preview articles accessible
+- **fnnews.com** — accessible Korean; publishes Samsung labor news on weekends
+- **zdnet.co.kr** — accessible weekends; Samsung/SK Hynix/semiconductor news
+- **etnews.com** — accessible weekends; 전자신문 Korean semiconductor coverage
+
+## Key observations (2026-05-16 to 2026-05-18 run)
+- 3-day weekend window (Sat+Sun+Mon after Fri issue) significantly increases collection window but reduces per-day article density
+- Samsung labor dispute (Lee Jae-yong apology May 16, final negotiation May 18) dominated Korean semiconductor coverage all weekend
+- Chinese semiconductor export/Huawei supercomputer stories continue to surface (LineShine/Huawei CPU cluster May 16)
+- Google I/O 2026 preview articles available May 16-18 but actual announcements (May 19-20) fall outside window
+- FTC Arm antitrust investigation (May 16) was major US semiconductor story; Arm designing AGI CPU for own datacenter sales
+- STMicroelectronics NVIDIA 800V datacenter power partnership (May 16) — niche but relevant to datacenter power domain
+- Jensen Huang Stanford speech (May 17) on GPU export policy important NVIDIA competitor article
+- Samsung/SK Hynix R&D surge articles confirm Korean memory investment wave
+
+## Query patterns (2026-05-16 to 2026-05-18 run)
+- `Samsung Lee Jae-yong apology union strike chip May 16 2026` — koreaherald.com + fnnews.com accessible
+- `FTC Arm antitrust investigation AGI CPU datacenter May 2026` — accessible via Bloomberg/Reuters mirrors
+- `NVIDIA Jensen Huang Stanford GPU export speech May 17 2026` — tomshardware.com + SiliconAngle accessible
+- `China Huawei CPU supercomputer LineShine May 16 2026` — accessible via multiple outlets
+- `STMicroelectronics NVIDIA 800V datacenter power May 16 2026` — GlobeNewswire + Tom's Hardware accessible
+- `Samsung SK Hynix R&D spending surge semiconductor record May 2026` — zdnet.co.kr + koreaherald.com accessible
+- `ASML Tata India semiconductor fab May 2026` — Reuters + accessible outlets
+- `OpenAI Sam Altman Greg Brockman restructuring May 16 17 2026` — TechCrunch + multiple accessible
+- `Google I/O 2026 AI announcement May 19 preview` — TechCrunch + The Verge accessible
+- `TSMC VIS minority stake sale May 2026` — Reuters + Taiwan press accessible
+- `Joosungenginring ALG wafer polishing equipment semiconductor May 2026` — Korean press accessible

@@ -86,6 +86,28 @@ type: reference
 - **Microsoft (Maia/hyperscaler silicon)**: CEO Summit (May 14-15) in Redmond; SK Hynix partnership deepened; Jensen Huang in attendance; GPU procurement plans for 2026-2030 reported.
 - **SoftBank**: Record ¥5 trillion annual profit; OpenAI stake drives result; Arm revenue up; signal for AI infrastructure investment wave.
 
+## May 16-18 2026 update — competitor developments (weekend window)
+- **NVIDIA**: Jensen Huang Stanford speech May 17 on GPU export policy — called China blocking import "colossal mistake," urged administration to allow H200 exports; zero H200 shipments to China despite US-side clearance. Q1 FY2027 earnings preview articles circulating ahead of May 20 report. May 18 final Samsung union negotiation day.
+- **Cerebras (CBRS)**: Post-IPO analysis period (CBRS May 14 debut +68%); no standalone new May 16-18 competitor articles; IPO cycle complete.
+- **Arm**: FTC opened antitrust investigation May 16 — probing Arm's plan to design its own AGI CPU for sale direct to datacenters (bypassing chip licensing model); potentially competing with Arm's own licensees (NVIDIA, Qualcomm, etc.). Tag as competitor/adjacent when the datacenter AGI CPU product features in articles.
+- **STMicroelectronics + NVIDIA**: 800V GaN power system for datacenter partnership announced May 16 — STMicro SiC/GaN enabling NVIDIA next-gen rack power; relevant to datacenter power domain.
+- **Samsung Electronics labor**: Lee Jae-yong (Jay Y. Lee) issued rare public apology May 16 for "failing employees"; final negotiation session May 18 with arbitration deadline; Korean Semiconductor Industry Association issued solidarity statement May 17; Korean PM threatened emergency arbitration May 17; May 21 strike still unresolved as of May 18 morning KST.
+- **ASML + Tata**: Joint partnership for India semiconductor capacity — ASML providing DUV lithography tools for Tata's planned India fabs; long-term supply chain diversification story.
+- **TSMC**: VIS (Vanguard International Semiconductor) 10% stake sale — TSMC divesting legacy node subsidiary stake; TSMC focusing on advanced nodes (N2/A13 roadmap). VIS stake estimated ~$600M.
+- **FuriosaAI, Rebellions, Moreh, HyperAccel, FriendliAI, Tenstorrent, Napatech, Marvell**: No standalone new May 16-18 articles found.
+- **Google (Axion/TPU)**: Google I/O 2026 starts May 19; preview articles for AI infrastructure (Axion, TPU v6, Gemini 2.5 Ultra) circulating in May 16-18 window; actual announcement articles come May 19+.
+- **Amazon (Trainium/Graviton)**: AWS re:Invent preview articles noting Trainium 3 timeline for H2 2026.
+- **OpenAI (restructuring)**: Greg Brockman returned as President; Sam Altman CTO title discussion ongoing; restructuring completed May 16-17; signals strategic leadership stabilization.
+
+## Forward-looking competitor calendar (as of May 18 2026)
+- **NVIDIA Q1 FY2027 earnings**: May 20 after US market close; will include H100/H200 demand, Blackwell ramp, China impact
+- **Google I/O 2026**: May 19-20; AI/TPU/Axion datacenter announcements expected
+- **Samsung strike**: May 21 18-day strike window; production risk through June 7
+- **Marvell COMPUTEX 2026 keynote**: June 2; Matt Murphy on AI data center infrastructure
+- **AMD Venice/Helios rack**: H2 2026 launch (EPYC Zen 6 + Instinct MI455X + Pensando DPU)
+- **FuriosaAI pre-IPO**: Funding close target mid-June 2026; 2027 IPO
+- **Rebellions KOSPI IPO**: Targeting Q3 2026 (August likely)
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform
