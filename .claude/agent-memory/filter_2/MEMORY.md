@@ -9,3 +9,4 @@
 - [Cap ongoing-saga coverage](feedback_ongoing_story_overcoverage.md) — multi-day story (Samsung strike etc.) capped at 1 main + 0-1 complement per issue
 - [User-specified main_cap overrides formula](feedback_user_override_main_cap.md) — explicit "최대 N개" 우선, 동적 공식값은 selection_notes에 병기
 - [Same event, different URL across days](reference_competitor_url_same_event_diff_url.md) — registry dedup is URL-exact; trust Stage-1's keep call when URLs differ
+- [Stale published_at = drop, not demote](feedback_stale_date_drop_not_demote.md) — if published_at falls outside the recency window, drop the article entirely; demoting from headline to main is rationalization, not enforcement (#010 Big-Tech capex Apr 30 incident)

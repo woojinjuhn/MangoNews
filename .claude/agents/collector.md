@@ -172,6 +172,12 @@ Return a single JSON object structured for the next agent in the pipeline:
 
 1. Did you fetch **every** entry in `config/sources.yaml` (`rss_feeds` and `web_sections`)? If any feed/section was unreachable, list it under `run_summary.notes` rather than silently skipping.
 2. Is every `published_at` within the "since last issue" KST window (last issue's `issue_date_kst` + 1 day, through today)? Remove anything on or before the last issue's date.
+2a. **HARD GATE — no fallback timestamps**: Count `T00:00:00+09:00` substrings in your `articles[]` `published_at` values. The count **must be 0** before you return. A `T00:00:00+09:00` value means you could not extract a real time and used the date-only fallback — for the past two confirmed incidents (#008 ServeTheHome CES article, #010 Tom's Hardware Apr 30 capex article) this is exactly how stale articles slipped into the issue and reached readers. For every offender:
+   - Re-fetch the article and parse `<script type="application/ld+json">` → look for `datePublished` (ISO 8601 with time). This is the canonical structured-data path on Tom's Hardware, TechCrunch, Bloomberg, Reuters, ServeTheHome, AnandTech, EE Times, fool.com, koreaherald.com, asml.com, indexbox.io, freemalaysiatoday.com, zdnet.co.kr, etnews.com, nate.com, en.sedaily.com, and most other publishers — present even when the visible byline shows only a date or "X days ago".
+   - If JSON-LD is absent, check `<meta property="article:published_time">` or `<meta name="parsely-pub-date">`.
+   - Convert to KST and use the precise time.
+   - If no structured source yields a precise time AND the visible byline is also date-only, **drop the article** and add `run_summary.notes` entry `"dropped: <url> — publication time unverifiable"`. Do not write a date-only fallback to disk.
+   This applies to every article regardless of source — including Korean outlets. Do not waive the gate even for high-value pieces; the entire point of the rule is that stale articles look high-value too.
 3. Are all URLs canonicalized (lowercased host, no tracker params, redirector resolved, no fragments, no trailing slash on non-root paths)?
 4. Is no canonicalized URL already present in `state/published_urls.jsonl`? Drop any that already appear.
 5. Is every `body` non-trivial (more than ~300 characters of real article text)?

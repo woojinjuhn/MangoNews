@@ -1,0 +1,1 @@
+- [Verify 요약/용어 section counts before reporting done](feedback_verify_section_counts.md) — designer once silently dropped 2/12 요약 blocks; count-check + report actual numbers, not "byte-for-byte" claims
