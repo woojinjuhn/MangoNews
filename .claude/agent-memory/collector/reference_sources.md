@@ -280,3 +280,28 @@ type: reference
 - `Google I/O 2026 AI announcement May 19 preview` — TechCrunch + The Verge accessible
 - `TSMC VIS minority stake sale May 2026` — Reuters + Taiwan press accessible
 - `Joosungenginring ALG wafer polishing equipment semiconductor May 2026` — Korean press accessible
+
+## Source notes (2026-05-19 run — single day window)
+- **English RSS feeds ALL empty for May 19 KST**: TheRegister, NextPlatform, ServeTheHome, TechCrunch, Tom's Hardware, AI News, Spectrum IEEE, SemiAnalysis, DCD, Blocks&Files all published last on May 18 as of early May 19 KST. Single-day windows after non-weekday issues are very lean for English sources.
+- **Google I/O 2026 keynote**: starts 10am PT May 19 = 2am KST May 20 — any recap articles are out-of-window for May 19 issue; capture for May 20.
+- **NVIDIA Q1 FY2027 earnings**: after-hours May 20 ET = May 21 KST — also for future issue.
+- **Korean sources were the only May 19 publishers**: aitimes.com, aitimes.kr, thelec.kr, etnews.com, zdnet.co.kr published May 19 morning articles.
+- **thelec.kr articleList**: showed only 1 confirmed May 19 article (idxno=56722, 08:00 KST); idxno=56800 was published May 18 18:00 (updated May 19 08:03 — update timestamp does NOT count for recency).
+- **aitimes.com article list section/S1N1**: most recent articles are May 18; May 19 articles appear only on the homepage view.
+- **CNBC chip stocks article May 19**: URL cnbc.com/2026/05/19/chip-stocks-samsung-sk-hynix-ai-memory.html — 403 on direct fetch; use bnnbloomberg.ca/ts2.tech as backup.
+- **aitimes.kr article list**: use /news/articleList.html?view_type=sm to find same-day articles; found idxno=40085 (Dell-Samsung 08:39) and idxno=40087 (Siemens-Arm 09:28) for May 19.
+- **etnews.com homepage**: showed 7 May 19 articles; most relevant were tech/AI category articles (idxno 20260519000001 through 000053).
+- **zdnet.co.kr**: one relevant May 19 article found (ChatGPT/Gemini/Claude Korean MAU record, 09:27 KST).
+
+## Key observations (2026-05-19 run)
+- Single-day KST window (May 19 only) after previous-day issue is the leanest collection scenario.
+- Korean outlets publish starting ~06:00-07:00 KST; English outlets typically start publishing UTC 06:00+ (= KST 15:00+).
+- thelec.kr GIDS architecture article (idxno=56800) is a key gotcha: published May 18 18:00 but "updated" May 19 08:03 — ORIGINAL publish date governs recency, NOT update date.
+- Competitor searches: zero qualifying May 19 articles for all Tier 1 and Tier 2 priority competitors.
+- Major May 19 Korean tech stories: OpenAI wins Musk trial (aitimes.com), POSTECH transistor research (etnews.com), Dell-Samsung AI factory (etnews.com), KOSPI semiconductor pullback.
+
+## Query patterns (2026-05-19 run)
+- `Google IO 2026 Gemini 4 keynote recap announcements` — all results are preview articles; no post-keynote coverage yet as keynote starts 10am PT = 2am KST May 20
+- `Samsung SK Hynix memory chip stocks Nomura rally "May 19"` — CNBC article (403); use ts2.tech/bnnbloomberg.ca as backup
+- `전자신문 etnews 5월19일 반도체 AI 데이터센터 뉴스` — surfaces etnews.com articles from May 19 (7 articles found)
+- `aitimes.kr 인공지능신문 AI 뉴스 5월 19일 2026 반도체` — surfaces aitimes.kr same-day articles
