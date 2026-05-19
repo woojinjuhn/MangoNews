@@ -1,0 +1,124 @@
+{
+  "filter_date_kst": "2026-05-19",
+  "kept": [
+    {
+      "id": "newspim-20260519000052",
+      "title": "\"인텔·퀄컴, AI 칩 스타트업 텐스토렌트 인수 관심\"",
+      "url": "https://www.newspim.com/news/view/20260519000052",
+      "category": "market",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Tier-2 competitor M&A: Intel/Qualcomm interest in Tenstorrent at $5B+ valuation reshapes AI inference chip landscape directly adjacent to MangoBoost's space."
+    },
+    {
+      "id": "etnews-20260519000038",
+      "title": "델 테크놀로지스, 삼성전자 반도체 AI 기반 팩토리에 혁신 솔루션 공급",
+      "url": "https://www.etnews.com/20260519000038",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "Major infra partnership: Dell supplies compute/storage/data-movement to Samsung's AI semiconductor factory — collaboration model relevant to MangoBoost's hyperscale-fabric positioning."
+    },
+    {
+      "id": "aitimes-kr-40087",
+      "title": "지멘스-Arm, AGI CPU 검증 협력...에이전틱 AI 대규모 상용화 인프라 구현 지원",
+      "url": "https://www.aitimes.kr/news/articleView.html?idxno=40087",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Arm Neoverse CSS V3 AGI CPU verification — hyperscaler-targeted agentic AI CPU is DPU-adjacent (per memory) and directly competitive with cloud server silicon MangoBoost interfaces with."
+    },
+    {
+      "id": "etnews-20260519000049",
+      "title": "코스피 1%대 하락 출발…반도체주 흔들리며 장 초반 변동성 확대",
+      "url": "https://www.etnews.com/20260519000049",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Seagate CEO comment on AI infra bottleneck and memory cycle peak concern triggered Phila semi index -2.5%, Micron -5.9% — substantive market-cycle signal beyond stock noise."
+    },
+    {
+      "id": "thelec-56722",
+      "title": "[피지컬 AI와 OT 네트워크①]무인 자율제조 시대, OT 네트워크는 준비됐는가",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56722",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Physical AI requires IT/OT network convergence, TSN, GPU clusters sharing deterministic transport — networking-fabric challenge directly in DPU/SmartNIC territory."
+    },
+    {
+      "id": "techcrunch-anthropic-stainless",
+      "title": "Anthropic Acquires Developer Tools Startup Stainless for Over $300M",
+      "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic deepens AI infra stack ownership via $300M+ SDK-tooling acquisition — strategic signal for AI agent infrastructure consolidation MangoBoost serves."
+    },
+    {
+      "id": "zdnet-pqc-wd",
+      "title": "WD, 데이터센터 HDD에 양자내성 암호화 기술 탑재",
+      "url": "https://zdnet.co.kr/view/?no=20260519095319",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI training/inference datacenter storage hardens against quantum-era 'Harvest Now, Decrypt Later' attacks; PQC at device level relevant to DPU storage offload (NVMe-oF, ZNS)."
+    },
+    {
+      "id": "aitimes-210673",
+      "title": "오픈AI, 머스크 재판에서 '소멸시효 만료'로 승리",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210673",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI legal path to $1T-valuation IPO cleared (30-60 day filing horizon) — drives capex cycle and AI infra demand visibility."
+    },
+    {
+      "id": "etnews-20260519000024",
+      "title": "포스텍, 저온 공정 가능한 이종접합 트랜지스터 개발",
+      "url": "https://www.etnews.com/20260519000024",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "POSTECH ZnO-Te dual-NDT transistor enables 75% transistor reduction and 4x signal processing in single device — foundational AI-edge device research from Korean semi ecosystem."
+    },
+    {
+      "id": "zdnet-claude-mau",
+      "title": "ChatGPT·Gemini·Claude, 한국 사용자 역대 최대…클로드는 1년 새 12배 급증",
+      "url": "https://zdnet.co.kr/view/?no=20260519092047",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Korea generative AI MAU all-time high (Claude +1148% YoY) signals sustained domestic AI inference demand and Anthropic's enterprise traction — drives sovereign-AI infra discussion."
+    },
+    {
+      "id": "aitimes-210667",
+      "title": "꺼지지 않는 택배 공장…24시간 일하는 휴머노이드들!",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210667",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Figure AI Helix-02 sustained 81-hour autonomy / 101K packages — physical-AI commercialization milestone driving edge inference + datacenter training demand."
+    },
+    {
+      "id": "etnews-anthropic-mithos",
+      "title": "앤트로픽, '미토스' AI 사이버 위협 정보 외부 공유 허용",
+      "url": "https://www.etnews.com/20260519000020",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Project Glasswing partnership spans AWS/Apple/Cisco/Google/MS/NVIDIA — substantive cross-hyperscaler AI security collaboration signals AI infra integration patterns."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "etnews-20260519000001",
+      "title": "韓, 저탄소 산업공급망 구축…4대그룹 '리딩한다'",
+      "discard_reason": "off-topic — primarily CBAM/SBTi carbon-policy supply-chain partnership with 9.8B KRW SME subsidy mechanism; while Samsung/SK hynix participate as anchors, the substantive content is environmental compliance not AI/semi strategy."
+    }
+  ],
+  "summary": {
+    "total_received": 13,
+    "total_kept": 12,
+    "total_discarded": 1,
+    "category_breakdown": {
+      "market": 5,
+      "products": 4,
+      "projects": 0,
+      "challenges": 1,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 1,
+    "by_competitor": {
+      "Tenstorrent": 1
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
   "collection_date_kst": "2026-05-19",
   "run_summary": {
-    "total": 10,
+    "total": 13,
     "by_topic": {
-      "ai": 5,
+      "ai": 6,
       "semiconductor": 4,
-      "datacenter": 1,
-      "competitor": 0
+      "datacenter": 2,
+      "competitor": 1
     },
     "by_competitor": {
       "NVIDIA": 0,
@@ -15,14 +15,14 @@
       "Moreh": 0,
       "FriendlyAI": 0,
       "HyperAccel": 0,
-      "Tenstorrent": 0,
+      "Tenstorrent": 1,
       "Marvell": 0,
       "Napatech": 0
     },
-    "competitor_tagged_total": 0,
-    "sources_consulted": 18,
+    "competitor_tagged_total": 1,
+    "sources_consulted": 22,
     "skipped_paywalled": 2,
-    "notes": "Recency window: 2026-05-19 only (last issue #010 was 2026-05-18). Single-day window. English RSS feeds (TheRegister, NextPlatform, ServeTheHome, TechCrunch, Tom's Hardware, AI News, Spectrum IEEE, SemiAnalysis, DCD) had no May 19 KST articles — most published their last stories on May 18. Google I/O 2026 keynote starts 10am PT May 19 (= 2am KST May 20) — actual announcement recap articles will be in-window for May 20 issue. NVIDIA Q1 FY2027 earnings report on May 20 — also for next issue. Tenstorrent Intel/Qualcomm acquisition interest (Bloomberg May 18) is out-of-window. Samsung strike / court injunction stories (May 18) are out-of-window. Collection concentrated in Korean outlets as a result. Naver News section/105 remains JS-blocked. CNBC chip stocks article (May 19) returned 403. Competitor searches for all Tier 1 and Tier 2 companies run: no May 19 KST articles found for any priority competitor company. topic_tag competitor has 0 articles: this is genuine — no Tier 1 or Tier 2 priority competitor had a qualifying May 19 KST publication. Siemens-Arm AGI CPU verification (aitimes.kr idxno=40087) tagged competitor:null as Arm is not in the explicit priority list. dropped: etnews.com/20260519000019 — near-duplicate of aitimes.com/210673 (same Musk/OpenAI verdict, Korean translation). dropped: aitimes.kr/idxno=40085 Dell-Samsung — near-duplicate of etnews.com/20260519000038 (same story, etnews version is more complete). dropped: aitimes.kr/idxno=40080 Gaon Cable — published May 18 17:51, outside window. dropped: thelec.kr/idxno=56800 GIDS architecture — published May 18 18:00, outside window (updated May 19 but original publish May 18). dropped: thelec.kr/idxno=56824 Samsung union — published May 18 19:56, outside window. FORWARD-LOOKING: Major stories expected for May 20 issue: Google I/O keynote recap (10am PT May 19 = 2am KST May 20), NVIDIA Q1 FY2027 earnings (after-hours May 20 ET = May 21 KST — may need next issue)."
+    "notes": "Recency window: 2026-05-19 only (last issue #010 was 2026-05-18). Single-day window. English RSS feeds (TheRegister, NextPlatform, ServeTheHome, Tom's Hardware, AI News, Spectrum IEEE, SemiAnalysis, DCD) had no May 19 KST articles as of early morning KST — most published their last stories on May 18. However, several US-published articles from evening May 18 PT (= early May 19 KST) were found and included: TechCrunch Anthropic/Stainless acquisition (12:27 PM PDT May 18 = 04:27 KST May 19). Tenstorrent Intel/Qualcomm acquisition interest (Bloomberg May 18 = out-of-window for English original; Newspim Korean recap May 19 08:08 KST = in-window — included with competitor:Tenstorrent). Google I/O 2026 keynote starts 10am PT May 19 (= 2am KST May 20) — actual announcement recap articles will be in-window for May 20 issue. NVIDIA Q1 FY2027 earnings report on May 20 — also for next issue. Samsung strike / court injunction stories (May 18) are out-of-window. Naver News section/105 remains JS-blocked. CNBC chip stocks article (May 19) returned 403. Competitor searches for all Tier 1 and Tier 2 companies run in English and Korean: Tier 1 (Moreh, FriendlyAI, HyperAccel, Furiosa, Rebellions) had no qualifying May 19 KST articles. Tier 2: Tenstorrent — 1 article (Newspim, acquisition interest); NVIDIA/Marvell/Napatech — no qualifying May 19 KST articles found. Siemens-Arm AGI CPU verification (aitimes.kr idxno=40087) tagged competitor:null as Arm is not in the explicit priority list. dropped: etnews.com/20260519000019 — near-duplicate of aitimes.com/210673 (same Musk/OpenAI verdict). dropped: aitimes.kr/idxno=40085 Dell-Samsung — near-duplicate of etnews.com/20260519000038 (same story). dropped: aitimes.kr/idxno=40080 Gaon Cable — published May 18 17:51, outside window. dropped: thelec.kr/idxno=56800 GIDS architecture — published May 18 18:00, outside window (updated May 19 but original publish governs). dropped: thelec.kr/idxno=56824 Samsung union — published May 18 19:56, outside window. dropped: techcrunch.com Musk/OpenAI May 19 02:34 KST — near-duplicate of aitimes.com/210673 already in collection. dropped: zdnet.co.kr Apple WWDC26 preview — future event announcement (June 8-12), borderline relevance to domains, excluded. dropped: sedaily.com/20045626 Korea semiconductor stocks — near-duplicate of etnews.com/20260519000049 (same stock market story). FORWARD-LOOKING: Major stories expected for May 20 issue: Google I/O keynote recap (10am PT May 19 = 2am KST May 20), NVIDIA Q1 FY2027 earnings (after-hours May 20 ET = May 21 KST)."
   },
   "articles": [
     {
@@ -51,6 +51,16 @@
       "body": "앤트로픽(Anthropic)이 보안 중심 AI 모델인 '클로드 미토스(Claude Mithos)' 사용자들의 사이버 위협 정보 외부 공유를 허용하는 정책을 시행하기 시작했다.\n\n앤트로픽 관계자는 \"미토스 사용자들은 처음에 사이버 보안 위험 정보 공유를 방지하는 기밀 유지 계약에 서명했다\"며 \"이제 조직들에게 사이버 위협과 미토스 분석 결과를 다른 기관과 책임감 있게 공유할 수 있다고 통보하기 시작했다\"고 밝혔다.\n\n이 변경은 민주당 하원의원 조시 고트하이머(Josh Gotthheimer)가 앤트로픽 CEO에게 \"어떤 기관도 다른 기관에게 긴급한 사이버 위험에 대해 경고하거나 완화 조치를 조율하는 것을 계약적으로 제한해서는 안 된다\"고 주장하는 서한을 보낸 후에 이루어졌다.\n\n'프로젝트 글라스윙(Project Glasswing)'이라고 불리는 이니셔티브 하에 약 50개의 주요 기업과 기관이 클로드 미토스 프리뷰에 접근하고 있다. 파트너십에는 AWS, 애플, 시스코, 크라우드스트라이크, 구글, JPMorgan체이스, 리눅스 재단, 마이크로소프트, 엔비디아, 팔로알토 네트웍스 등이 포함된다.\n\n미토스 모델은 모든 주요 운영 체제와 웹 브라우저의 소프트웨어 취약점을 발견하는 데 인간 연구자보다 훨씬 효율적인 것으로 나타났다. 팔로알토 네트웍스와 모질라 같은 기업들은 미토스 모델을 사용해 이전보다 훨씬 더 많은 소프트웨어 취약점을 발견했다고 보고했다.\n\n한편 보안 전문가들은 더 광범위한 정보 배포가 취약점 공개 전에 악의적인 행위자들이 이를 악용할 수 있는 가능성을 높일 수 있다고 경고했다.",
       "published_at": "2026-05-19T07:27:00+09:00",
       "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic Acquires Developer Tools Startup Stainless for Over $300M",
+      "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare",
+      "body": "Anthropic announced the acquisition of Stainless, a New York-based developer tools startup founded in 2022 by former Stripe engineer Alex Rattray. While terms weren't officially disclosed, The Information reported the deal valued the company at over $300 million.\n\nStainless specializes in automating the creation and maintenance of software development kits (SDKs)—libraries developers use to interact with APIs. The platform converts API specifications into production-ready SDKs across multiple programming languages including Python, TypeScript, Kotlin, Go, and Java. It automatically updates SDKs as APIs change, eliminating manual maintenance.\n\nThe acquisition removes a key infrastructure supplier from Anthropic's competitors. Companies like OpenAI, Google, Replicate, Runway, and Cloudflare had been using Stainless tools. According to Anthropic, \"Stainless software has powered the generation of every official Anthropic SDK since the earliest days of its API.\"\n\nThe technology proves particularly valuable for companies building AI agents that connect to external software to complete user tasks. Anthropic announced it will discontinue all hosted Stainless products, including its SDK generator. However, existing customers retain full ownership and modification rights to SDKs they've already generated.\n\nRattray stated the decision to join Anthropic was driven by \"watching what developers have built on Claude over the last few years.\" The acquisition signals Anthropic's strategy to deepen developer ecosystem ownership and strengthen its competitive position in the AI infrastructure stack.",
+      "published_at": "2026-05-19T04:27:00+09:00",
+      "source": "TechCrunch",
       "topic_tag": "ai",
       "secondary_tags": [],
       "competitor": null
@@ -125,5 +135,25 @@
       "secondary_tags": [],
       "competitor": null
     },
+    {
+      "title": "\"인텔·퀄컴, AI 칩 스타트업 텐스토렌트 인수 관심\"",
+      "url": "https://www.newspim.com/news/view/20260519000052",
+      "body": "AI 칩 스타트업 텐스토렌트(Tenstorrent)가 인텔(INTC), 퀄컴(QCOM) 등 잠재 인수자로부터 초기 접촉을 받고 있는 것으로 알려졌다. 캘리포니아 산타클라라에 본사를 둔 텐스토렌트는 AI 워크로드를 경쟁사보다 효율적으로 처리하는 특화 반도체를 개발하고 있다.\n\n잠재 거래 시 기업가치는 최소 50억달러(약 6조9000억원)를 웃돌 수 있으며, 세레브라스 시스템즈의 최근 IPO 성과에 따라 더 높은 밸류에이션 가능성도 있다고 보도됐다.\n\n텐스토렌트는 인수 논의와 동시에 새로운 펀딩 라운드도 추진하고 있다. 지난 11월 피델리티 매니지먼트가 주도하는 펀딩 라운드에서 회사의 프리머니 기업가치는 약 32억달러로 산정된 바 있다.\n\n이번 인수 관심은 세레브라스 시스템즈의 성공적 IPO와 그록(Grok), 엔비디아가 연루된 주요 산업 거래 이후 특화 AI 추론 칩 스타트업들의 전략적 가치 재평가를 반영한다. 텐스토렌트, 인텔, 퀄컴 모두 해당 인수 논의에 대한 논평을 거부했다.",
+      "published_at": "2026-05-19T08:08:00+09:00",
+      "source": "뉴스핌",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "WD, 데이터센터 HDD에 양자내성 암호화 기술 탑재",
+      "url": "https://zdnet.co.kr/view/?no=20260519095319",
+      "body": "웨스턴디지털(Western Digital)이 기업용 하드디스크(HDD)에 양자내성 암호화(PQC, Post-Quantum Cryptography) 기술을 통합했다. 회사는 미국 국립표준기술연구소(NIST)가 승인한 양자내성 암호화 알고리즘을 Ultrastar UltraSMR HDD에 탑재했다고 밝혔다.\n\nPQC가 최초로 적용된 제품은 Ultrastar DC HC6100 UltraSMR로, 펌웨어 무결성 및 키 관리를 통한 디바이스 수준 보안에 중점을 뒀다. 구현된 기술에는 ML-DSA-87(NIST FIPS 204) 및 RSA-3072 기반 디지털 서명과 기존 암호화 표준이 적용됐다.\n\n웨스턴디지털은 PQC 기술을 통한 공개키 인프라(PKI)를 통합해 키 발급, 교체, 생명주기 관리와 함께 하드웨어 보안 모듈(HSM) 워크플로우를 지원한다.\n\n이 기술은 AI 학습, 추론 및 학습 데이터를 저장하는 데이터센터 드라이브에 대한 보안 위협을 해결하기 위해 개발됐다. '지금 수집, 나중에 복호화(Harvest Now, Decrypt Later)' 공격과 기존 암호화 체계의 잠재적 손상에 대응한다.\n\n웨스턴디지털은 현재 주요 하이퍼스케일 고객들과 PQC 탑재 드라이브 검증 중이며, 추가 제품군으로도 기술을 확대 적용할 계획이다.",
+      "published_at": "2026-05-19T09:54:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    }
   ]
 }

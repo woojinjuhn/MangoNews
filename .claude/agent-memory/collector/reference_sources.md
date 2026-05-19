@@ -305,3 +305,16 @@ type: reference
 - `Samsung SK Hynix memory chip stocks Nomura rally "May 19"` — CNBC article (403); use ts2.tech/bnnbloomberg.ca as backup
 - `전자신문 etnews 5월19일 반도체 AI 데이터센터 뉴스` — surfaces etnews.com articles from May 19 (7 articles found)
 - `aitimes.kr 인공지능신문 AI 뉴스 5월 19일 2026 반도체` — surfaces aitimes.kr same-day articles
+- `한경 중앙일보 반도체 AI 5월 19일 2026` — surfaced Newspim Tenstorrent acquisition article (20260519000052, May 19 08:08 KST); newspim.com good source for competitor/M&A news with precise timestamps
+- `Marvell NVIDIA Tenstorrent news May 19 2026` — Tenstorrent Intel/Qualcomm acquisition interest (Bloomberg May 18, out-of-window for English; Newspim Korean recap May 19 in-window)
+- `techcrunch category AI page fetch` — TechCrunch article timestamps sometimes show "X hours ago"; verify whether PT date converts to May 19 KST (evening PT = next-day KST); Anthropic/Stainless acquisition (12:27 PM PDT May 18 = 04:27 KST May 19) was in-window
+
+## Key observations (2026-05-19 run — extended, US morning ET articles)
+- US East Coast business hours (ET 09:00+ = KST 22:00+ May 19) produce English articles that are technically May 19 KST or May 20 KST; for a 07:00 KST newsletter, only articles published by ~22:00 KST May 19 are collectible
+- TechCrunch published Anthropic/Stainless acquisition at 12:27 PM PDT May 18 = 04:27 KST May 19 — clearly in window and high-value story
+- Evening PT articles (after ~20:00 PT) = after 12:00 KST May 20 — those go to next issue
+- **Newspim** (newspim.com) confirmed as valuable source for Korean-language competitor/M&A news; "AI의 종목 이야기" column specifically covers semiconductor/AI competitor stocks; precise timestamps visible
+- **etnews.com WAF blocking**: sequential article URL probing (e.g. 20260519000055, 20260519000060) triggers WAF block (220.76.66.114 flagged); use WebSearch or homepage fetch instead of sequential probing
+- **ZDNet Korea** (zdnet.co.kr) — homepage fetch revealed ~20 articles on May 19; most are non-tech (finance, beauty, health); AI/semiconductor articles need topic-filtering; WD quantum HDD article (09:54) and Apple WWDC26 preview (10:01) were May 19 articles
+- **Apple WWDC26 preview articles** (event June 8-12) published May 19 — these are borderline; include only if significant AI chip announcement expected; pure schedule-announcements can be skipped
+- **sedaily.com** — Seoul Economic Daily accessible; Korean semiconductor stock movement articles with specific timestamps (08:35 KST May 19); potential overlap with etnews/kospi articles — check for near-duplicates
