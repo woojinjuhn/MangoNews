@@ -1,0 +1,258 @@
+{
+  "issue_date_kst": "2026-05-20",
+  "main": [
+    {
+      "id": 22,
+      "title": "Google I/O 2026: Sundar Pichai's opening keynote — Gemini, TPU 8, $180B capex",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "category": "products",
+      "is_headline": true,
+      "competitor": "Google",
+      "tldr": "구글이 I/O 2026에서 Gemini 3.5 Flash·8세대 TPU·연 1,800억~1,900억 달러 자본지출(capex)을 한꺼번에 공개하며 '에이전틱 Gemini 시대'를 선언했다.",
+      "summary_bullets": [
+        "순다르 피차이 CEO는 구글의 월간 처리 토큰이 3.2경 개를 넘어서며 전년 동기 대비(YoY) 7배 늘었다고 밝혔다. Gemini 앱 월간 활성 사용자(MAU)는 4억 명에서 9억 명으로 뛰었고, 검색의 AI 모드 MAU도 10억 명을 돌파했다 — AI 사용량이 더 이상 실험 단계가 아님을 보여주는 수치다.",
+        "신규 모델로는 어떤 입력이든 영상으로 변환해 주는 Gemini Omni Flash와, 경쟁 프런티어 모델 대비 절반 이하 가격·4배 빠른 처리 속도를 내세운 Gemini 3.5 Flash가 공개됐다. 24시간 상시 작동하는 개인 에이전트 'Gemini Spark', 검색용 정보 에이전트, 모닝 브리프 에이전트 등 에이전틱 AI 라인업도 본격적으로 깔렸다.",
+        "인프라 측면에서는 연간 1,800억~1,900억 달러 규모의 자본지출(capex)을 집행 중이라고 밝혔다 — 2022년 대비 6배 수준이다. 학습용 TPU 8t와 추론용 TPU 8i로 구성된 8세대 TPU도 함께 발표됐는데, 이전 세대 대비 와트당 성능이 2배로 뛰었다.",
+        "외부 고객에게 TPU 기반 클라우드를 공급하기 위한 블랙스톤-구글 50억 달러 합작법인(JV)도 키노트에서 공식화됐다. 자체 칩을 가진 구글이 칩 인프라까지 외판망에 태우겠다는 선언으로, 엔비디아 중심의 가속기 시장 구도에 정면으로 균열을 내는 카드다.",
+        "피차이는 \"AI는 방문하는 목적지가 아니라, 우리가 그 안에서 살아가는 인프라가 되어야 한다\"고 말하며 — 모델·칩·데이터센터·고객 채널을 한 묶음으로 묶는 풀스택 전략을 강조했다."
+      ],
+      "jargon": [
+        {
+          "term": "에이전틱 AI(Agentic AI)",
+          "explanation": "한 번 답하고 끝나는 챗봇이 아니라 스스로 목표를 쪼개 도구를 호출하며 자율적으로 일하는 AI. 백그라운드에서 토큰을 수십~수백 번 토해내야 해서 추론 칩 수요 폭발의 직접 트리거다."
+        },
+        {
+          "term": "TPU(Tensor Processing Unit)",
+          "explanation": "구글이 자사 AI 워크로드 전용으로 직접 설계한 AI 가속기. 이번 8세대는 학습용(8t)과 추론용(8i)으로 라인업이 갈라졌고, 블랙스톤 JV를 통해 외부 판매가 본격화된다."
+        },
+        {
+          "term": "Gemini 3.5 Flash",
+          "explanation": "구글이 이번에 공개한 경량형 차세대 모델. 프런티어급 성능을 절반 이하 가격에 제공하면서 추론 속도까지 경쟁 모델 대비 4배 빠르다는 점이 핵심 셀링 포인트다."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Tenstorrent AI Chip Startup Draws Takeover Interest From Intel, Qualcomm",
+      "url": "https://blockonomi.com/tenstorrent-ai-chip-startup-attracts-acquisition-interest-from-intel-and-qualcomm",
+      "category": "market",
+      "is_headline": true,
+      "competitor": "Tenstorrent",
+      "tldr": "AI 추론 칩 스타트업 Tenstorrent가 인텔·퀄컴과 50억 달러 이상 규모의 인수 협상을 진행 중이라는 보도가 나왔다.",
+      "summary_bullets": [
+        "블룸버그의 5월 18~19일 보도에 따르면, Tenstorrent는 인텔·퀄컴 양사와 예비 인수 협상을 진행 중이며 동시에 투자은행을 자문사로 선임해 전략적 대안을 검토하고 있다. 업계 소식통은 매각이 성사될 경우 거래가는 50억 달러를 넘어설 수 있다고 봤다.",
+        "Tenstorrent는 모델 학습이 끝난 뒤 챗봇 등 실제 서비스에 모델을 돌리는 단계인 '추론(inference)'에 특화된 칩을 만든다 — 엔비디아의 학습 GPU 지배력을 우회해 빠르게 커지고 있는 영역이다.",
+        "퀄컴 입장에서는 모바일을 넘어 데이터센터·PC·엣지 AI로 사업을 확장할 발판이 되고, 인텔에게는 자체 AI 칩 전략에 빠진 추론 라인업을 단번에 채울 수 있는 카드가 된다. 양사가 동시에 관심을 보였다는 점 자체가 추론 칩 시장의 전략적 가치가 어느 정도인지 보여준다.",
+        "다만 Tenstorrent는 매각 대신 신규 투자 유치도 함께 타진하고 있어 두 가지 길을 모두 열어둔 상태다. 세 회사 모두 협상 사실에 대해서는 공식 코멘트를 거부했다."
+      ],
+      "jargon": [
+        {
+          "term": "Tenstorrent",
+          "explanation": "캐나다 출신 AI 칩 스타트업. 짐 켈러(전 AMD·테슬라 칩 설계 리더)가 이끌며 RISC-V 기반의 자체 추론 가속기를 만든다. 엔비디아 대안을 노리는 'AI 칩 도전자' 그룹의 대표 주자 중 하나다."
+        },
+        {
+          "term": "추론(inference)",
+          "explanation": "거대언어모델(LLM)이 학습을 마친 뒤 실제로 사용자 질의에 답하거나 챗봇·코파일럿을 돌릴 때 거치는 연산 단계. 학습이 한 번에 큰 비용을 쓰는 일회성 작업이라면, 추론은 서비스가 굴러가는 내내 끊임없이 일어나기 때문에 시장 규모는 결국 추론 쪽이 훨씬 크다."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era",
+      "category": "products",
+      "is_headline": false,
+      "competitor": "Google",
+      "tldr": "구글이 학습용 TPU 8t와 추론용 TPU 8i 두 갈래로 8세대 TPU를 공개하고, 100만 칩급 'Virgo 네트워크' 패브릭까지 함께 깔았다.",
+      "summary_bullets": [
+        "학습용 TPU 8t는 슈퍼팟당 9,600칩, 공유 메모리 2페타바이트(PB)를 묶어 약 121 ExaFlops의 컴퓨트 성능을 낸다 — 이전 세대 Ironwood 대비 팟당 약 3배 빠른 수치다. 스토리지 접근 속도도 10배 빨라졌다.",
+        "추론용 TPU 8i는 288GB 고대역폭 메모리(HBM)에 온칩 SRAM 384MB(이전 세대의 3배)를 붙여, 인터커넥트 대역폭을 19.2 Tb/s로 두 배 늘리고 ICI 네트워크의 평균 거리(diameter)는 절반 이하로 줄였다. 그 결과 달러당 성능이 이전 세대 대비 80% 개선됐다.",
+        "두 칩 모두 와트당 성능이 이전 세대 Ironwood 대비 2배로 올라갔고, ARM 기반 자체 CPU 'Axion'과의 코디자인을 강조했다. JAX·PyTorch·vLLM까지 프레임워크 지원도 폭넓게 깔렸다.",
+        "흥미로운 대목은 함께 공개된 'Virgo 네트워크' 패브릭이다. 단일 데이터센터에서 TPU 13만 4,000칩을 묶고, 여러 데이터센터를 가로질러 100만 칩까지 하나의 학습 클러스터로 묶을 수 있도록 설계됐다 — 모델·하드웨어·네트워크를 통째로 짜는 구글식 풀스택의 전형이다.",
+        "구글 클라우드 Managed Lustre 스토리지의 대역폭도 10 TB/s로 작년 대비 10배 뛰었다. 두 TPU의 일반 공급(GA)은 2026년 하반기 예정이다."
+      ],
+      "jargon": [
+        {
+          "term": "Virgo 네트워크",
+          "explanation": "구글이 이번에 공개한 메가스케일 데이터센터 패브릭. TPU 13만 4,000개를 한 데이터센터에 묶고, 여러 데이터센터까지 가로질러 100만 칩 규모의 단일 학습 클러스터를 만드는 네트워크 계층이다. 가속기 위의 '인터넷'을 새로 깐 셈."
+        },
+        {
+          "term": "ExaFlops",
+          "explanation": "초당 100경(10^18) 회 부동소수점 연산. 슈퍼컴퓨터 성능 단위로, TPU 8t 슈퍼팟이 약 121 ExaFlops라는 건 — 세계 최상위 슈퍼컴 십수 대분의 학습 컴퓨트를 한 팟에 욱여넣었다는 뜻이다."
+        },
+        {
+          "term": "ICI(Inter-Chip Interconnect)",
+          "explanation": "구글이 TPU 칩 사이를 묶는 자체 고속 인터커넥트. 'diameter를 절반으로 줄였다'는 건 한 칩에서 다른 칩까지 거쳐야 하는 평균 홉(hop) 수를 줄였다는 뜻 — 추론에서 토큰을 다음 단계로 넘기는 지연이 크게 줄어든다."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Blackstone and Google team up for new TPU-based cloud platform",
+      "url": "https://www.datacenterdynamics.com/en/news/blackstone-and-google-team-up-for-new-tpu-based-cloud-platform",
+      "category": "market",
+      "is_headline": false,
+      "competitor": "Google",
+      "tldr": "블랙스톤이 50억 달러를 투자해 구글과 250억 달러 규모의 TPU 클라우드 합작법인(JV)을 세우며 — 사실상 엔비디아 대안형 'TPU판 CoreWeave'를 표방한다.",
+      "summary_bullets": [
+        "블랙스톤이 50억 달러를 지분 출자해 과반을 가져가고, 부채 조달까지 합쳐 총 250억 달러 규모의 미국 기반 TPU 클라우드 JV를 만든다. 2027년까지 500MW급 데이터센터 용량 확보를 목표로 한다.",
+        "JV의 핵심 포지셔닝은 'CoreWeave에 대한 구글의 응수'다. 엔비디아 GPU 중심으로 짜인 신흥 AI 클라우드 시장에 TPU 기반 대안 인프라를 박아 넣겠다는 의도가 명확하다.",
+        "흥미로운 대목은 자금 구조다. 구글은 앤트로픽과의 5GW·400억 달러 규모 TPU 공급 약정 같은 외부 컴퓨트 약속으로 자체 데이터센터 capex가 빡빡해진 상태인데, 이번 JV로 인프라 금융 부담을 대차대조표 밖으로 빼면서도 TPU 공급권과 마진은 구글이 그대로 쥔다.",
+        "타깃 고객은 파운데이션 모델 연구소, TPU 대안을 찾는 엔터프라이즈 GPU 사용자, 그리고 엔비디아 수출 규제를 받는 지역의 '소버린 AI' 구매자다 — 소버린 AI가 MangoBoost의 전략 시장과 겹친다는 점에서 주목할 만하다.",
+        "JV CEO는 구글에서 20년 이상 근무했고 직전까지 최고프로그램책임자(CPO)를 맡은 벤자민 트레이너 슬로스가 맡는다. 하드웨어·TPU·소프트웨어·서비스는 모두 구글이 공급한다."
+      ],
+      "jargon": [
+        {
+          "term": "CoreWeave",
+          "explanation": "엔비디아 GPU를 잔뜩 사들여 AI 학습/추론 전용으로 임대해 주는 신흥 클라우드 사업자. AWS·구글 클라우드 같은 범용 클라우드와 달리 AI 워크로드 한 우물만 판다. 이번 JV는 본질적으로 'TPU판 CoreWeave를 만들겠다'는 선언이다."
+        },
+        {
+          "term": "소버린 AI(sovereign AI)",
+          "explanation": "데이터·모델·인프라를 자국 영토와 자국 통제 아래 두려는 국가 단위 AI 전략. 미국 수출 규제로 엔비디아 최고급 GPU를 못 받는 국가들이 늘면서, TPU 같은 대안 가속기의 핵심 수요처가 되고 있다."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Dell Bulks Up Hardware As AI Infrastructure Shifts To On-Premises",
+      "url": "https://www.nextplatform.com/compute/2026/05/19/dell-bulks-up-hardware-as-ai-infrastructure-shifts-to-on-premises/5242811",
+      "category": "products",
+      "is_headline": false,
+      "competitor": "NVIDIA",
+      "tldr": "Dell이 Tech World 2026에서 'AI 워크로드의 67%는 클라우드 밖에서 돈다'며 PowerRack·PowerCool·Vera Rubin NVL72 기반 신제품을 한꺼번에 쏟아냈다.",
+      "summary_bullets": [
+        "마이클 델 CEO는 AI 워크로드의 67%가 클라우드 밖 — 온프레미스·디바이스·엣지·코로케이션 — 에서 돌아간다고 강조했다. 설문 응답자의 88%는 이미 온프레미스에서 AI 워크로드를 하나 이상 돌리고 있다는 수치도 함께 제시됐다.",
+        "주력 신제품인 'PowerRack'은 컴퓨트·네트워크·스토리지를 19/21인치 랙에 통째로 묶어 6시간 만에 가동까지 마칠 수 있도록 설계한 통합 시스템이다. 액냉 솔루션 PowerCool CDU C7000은 최대 220kW 발열·40도 흡기 환경을 견디며, 엔비디아 Vera Rubin NVL72 플랫폼을 정조준한다.",
+        "엔비디아 Vera Rubin NVL72 기반 PowerEdge XE9812는 토큰당 비용을 Blackwell 대비 10분의 1 수준으로 낮춘다고 발표됐다 — 추론 비용 구조를 한 세대 만에 갈아엎겠다는 메시지다.",
+        "사례로는 일라이 릴리의 'LillyPod' 슈퍼컴이 공개됐다. Blackwell GPU 1,016개에 Dell 스토리지가 초당 약 2테라바이트(TB)의 읽기 대역폭을 붙여 신약 개발 워크로드를 돌린다.",
+        "구글-Dell 협업도 함께 발표됐다. Gemini 3 Flash 모델을 Dell PowerEdge XE9780 위 Google Distributed Cloud의 컨피덴셜 컴퓨팅 환경에서 완전 온프레미스로 돌릴 수 있게 된다 — Google I/O 발표와 직접 맞물리는 대목이다.",
+        "젠슨 황 엔비디아 CEO도 무대에 올라 \"몇 달 걸리던 일이 몇 주가 되고, 몇 주가 며칠이 되며, 며칠이 몇 시간으로 줄어들고 있다\"며 에이전틱 AI가 압축하는 개발 사이클을 강조했다."
+      ],
+      "jargon": [
+        {
+          "term": "Vera Rubin NVL72",
+          "explanation": "엔비디아의 차세대 랙스케일 AI 플랫폼. Blackwell 다음 세대 GPU(Rubin)와 자체 CPU·NVLink 스위치를 한 랙에 72-GPU 단위로 묶어 추론·학습용 대형 시스템으로 판다."
+        },
+        {
+          "term": "컨피덴셜 컴퓨팅",
+          "explanation": "CPU 안의 격리된 영역(보안 인클레이브)에서 데이터·모델을 암호화된 상태로 처리해, 운영자조차 안을 들여다보지 못하게 만드는 기술. 규제 산업·정부 고객이 자체 데이터로 LLM을 돌리려 할 때 사실상 전제 조건이 된다."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Napatech wins first major production order for AI SmartNIC platform",
+      "url": "https://www.napatech.com/media/press-releases/napatech-optimizes-datacenter-infrastructure-for-artificial-intelligence",
+      "category": "market",
+      "is_headline": false,
+      "competitor": "Napatech",
+      "tldr": "Napatech이 SmartNIC 1,000대 규모의 첫 양산 발주를 따내며 AI 추론 인프라 향 'design win → 양산 전환'에 성공했다.",
+      "summary_bullets": [
+        "Napatech은 2025년에 확보한 AI 인프라 design win을 기반으로, 차세대 프로그래머블 SmartNIC 1,000대 규모의 첫 상업 양산 발주를 따냈다고 발표했다. 발주처는 AI 추론 시스템 분야의 선도 업체로, 수년에 걸친 다년 롤아웃의 시작점이다.",
+        "이 고객 플랫폼은 Napatech SmartNIC 아키텍처를 분산 AI 워크로드의 저지연 연결 계층으로 활용한다 — 추론에서 토큰을 노드 사이로 빠르게 옮기는 네트워크 계층이 가속기만큼이나 병목이라는 점을 재확인하는 사례다.",
+        "그 후폭풍으로 회사는 2026년 매출 가이던스를 그대로 유지한다고 못 박았다. AI 인프라 수요가 진짜로 매출로 이어지고 있다는 의미다.",
+        "별도 건으로, Napatech은 글로벌 Tier-1 금융기관과 NT400 SmartNIC 기반 다년 계약도 체결했다. 400G 환경에서 초저지연·결정론적 성능을 요구하는 워크로드용으로, 2년간 300만 달러 이상 규모(2026년 분량 150만 달러)다. 기존 50개 이상 핀테크 고객 기반에 더해진다."
+      ],
+      "jargon": [
+        {
+          "term": "SmartNIC",
+          "explanation": "기존 네트워크 카드(NIC)에 자체 프로세서·메모리·프로그래머블 로직을 얹어, CPU가 하던 패킷 처리·암호화·스토리지 오프로드 같은 일을 카드 자체에서 처리해 주는 칩. MangoBoost DPU와 동일 영역에서 경쟁한다."
+        },
+        {
+          "term": "design win",
+          "explanation": "고객 시스템의 설계 단계에서 자사 칩이 채택되는 사건. 양산 발주로 이어지기까지 보통 1~2년이 걸리기 때문에, design win에서 양산 전환에 성공하느냐가 반도체 회사의 매출 실현 여부를 가른다."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "삼성전자 노사 자정 넘겨 협상…극적 타결·파업 초읽기 기로에",
+      "url": "https://www.ajunews.com/view/20260520004120325",
+      "category": "market",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "삼성전자 노사가 자정을 넘겨 중노위에서 마라톤 협상을 이어갔고 — 결렬 시 5월 21일 총파업, 정부는 긴급조정권 발동을 검토 중이다.",
+      "summary_bullets": [
+        "5월 20일 0시를 넘기도록 세종 중앙노동위원회에서 2차 사후조정이 이어졌다. 박수근 중노위 위원장은 오후 10시 마감을 훌쩍 넘겨 협상을 끌고 가면서 \"오후 10시경 합의가 이루어지지 않으면 조정안을 제출하겠다\"고 압박한 상태다.",
+        "핵심 쟁점은 삼성전자가 박 위원장이 제안한 절충안을 수용하느냐다. 회사가 동의하면 노조는 조합원 투표에 들어가지만, 박 위원장은 \"경영진이 승인하고 노조가 투표를 진행해야 해 변수가 많다\"며 타결 가능성을 단정 짓지 않았다.",
+        "협상이 결렬되면 노조는 5월 21일부터 총파업에 돌입한다. 반도체 산업이 한국 경제에서 차지하는 비중을 감안해 정부는 긴급조정권 발동을 검토 중인데 — 노동계는 강하게 반발하고 있어 정치적 부담이 큰 카드다.",
+        "1차 사후조정도 합의 없이 자정을 넘겨 끝난 바 있어, 양측 거리가 좁혀지지 않은 채 강대강 국면이 굳어지는 분위기다."
+      ],
+      "jargon": [
+        {
+          "term": "중앙노동위원회 사후조정",
+          "explanation": "노사 분쟁이 결렬돼 파업 직전 단계에 이르렀을 때, 정부 산하 중노위가 마지막 합의안을 제시하며 양측을 중재하는 절차. '사후'는 단체교섭이 결렬된 뒤 진행된다는 의미다. 여기서 깨지면 사실상 파업 외 카드가 거의 없다."
+        },
+        {
+          "term": "긴급조정권",
+          "explanation": "고용노동부 장관이 국민 경제에 중대한 영향을 미치는 노동쟁의에 대해 발동할 수 있는 권한. 발동되면 최대 30일간 쟁의행위가 강제 중단된다 — 노동계가 강하게 반발하는 이유는 헌법상 단체행동권을 사실상 정지시키는 강수이기 때문이다."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "'AI 풀스택' 구글의 딜레마…\"내부 컴퓨팅 경쟁에 나선 연구원들\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210697",
+      "category": "challenges",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "세계에서 가장 자원이 많은 구글조차 내부 연구원들이 TPU 한 대를 두고 세 명이 다툴 만큼 컴퓨트가 부족하다 — AI 시대의 진짜 병목은 알고리즘이 아니라 인프라라는 증거다.",
+      "summary_bullets": [
+        "블룸버그의 5월 18일 보도에 따르면, 구글 내부에서는 연구원들이 TPU 자원을 놓고 치열하게 경쟁하고 있다. AI 연구자 오렌 에치오니는 \"구글 내 모든 TPU에는 경쟁자가 세 명씩 있다\"며 수요가 공급의 3배에 달한다고 표현했다. TPU 크레딧이 사내에서 주식시장처럼 시장 가격에 따라 거래된다는 대목도 인상적이다.",
+        "희소성의 원인은 외부 약정이다. 앤트로픽·메타 같은 유료 고객에게 컴퓨트를 우선 공급하다 보니 자사 연구원들이 뒤로 밀린다 — 풀스택 전략의 부작용이 안에서 터지고 있는 셈이다.",
+        "그 후폭풍으로 핵심 개발자들의 이탈이 가속화되고 있다. 구글을 떠난 인력이 세운 Reflection AI와 Recursive Intelligence는 설립 직후 수십억 달러대 가치를 인정받았다.",
+        "피차이 CEO는 DeepMind의 첨단 모델 개발용 컴퓨트 우선 배분이 모든 운영의 토대라고 강조했다. 구글 클라우드의 외부 고객용 컴퓨팅 용량은 지난 분기 4,600억 달러로 두 배 늘었지만(원문 표현 그대로), 단기 제약은 여전히 지속된다는 평가다.",
+        "비교 차원에서 빅테크 4사는 올해 AI 인프라에 7,250억 달러를 투자하겠다고 발표했고, 2027년에는 1조 달러를 넘어설 전망이다 — 알고리즘이 아니라 컴퓨트 인프라가 AI 경쟁의 핵심 병목이라는 점이 매크로 수치로 다시 한 번 확인되는 셈이다."
+      ],
+      "jargon": [
+        {
+          "term": "TPU 크레딧",
+          "explanation": "구글 사내에서 연구원이 TPU 컴퓨트 자원을 쓰기 위해 받는 내부 사용권. 부서·프로젝트별로 배분되며, 이번 보도에서는 자원 희소성이 심해진 결과 사내에서 마치 주식처럼 시장 가격에 거래된다는 점이 화제가 됐다."
+        },
+        {
+          "term": "자본지출(capex)",
+          "explanation": "데이터센터·서버·전력·네트워크 같은 대형 설비투자. AI 시대에는 곧 GPU·HBM·DPU·광 트랜시버 수요로 직결된다. 빅테크 4사의 7,250억 달러 capex가 곧 가속기 시장의 상한선이라고 보면 된다."
+        }
+      ]
+    }
+  ],
+  "competitor_updates": [
+    {
+      "company": "Google",
+      "tier": "2",
+      "bullets": [
+        "구글이 I/O 2026에서 칩·모델·인프라·자본을 한꺼번에 들이부었다. 8세대 TPU(학습용 8t·추론용 8i, 와트당 성능 2배), Gemini 3.5 Flash(경쟁사 대비 절반 가격·4배 속도), 그리고 연 1,800억~1,900억 달러 규모의 자본지출(capex) — 2022년 대비 6배 — 까지 동시에 발표하며 풀스택 압박 강도를 한 단계 끌어올렸다.",
+        "동시에 발표된 블랙스톤-구글 250억 달러 합작법인은 TPU 인프라를 외부 고객용 클라우드로 외판하겠다는 선언이다. 'TPU판 CoreWeave'를 표방하면서 엔비디아 수출 규제 지역의 소버린 AI 구매자까지 정조준하고 있어 — 비엔비디아 가속기 진영에 새 채널이 열린다는 의미가 크다.",
+        "TPU 8과 함께 깔린 'Virgo 네트워크' 패브릭은 단일 데이터센터에서 13만 4,000칩, 사이트 간 100만 칩 클러스터까지 묶도록 설계됐다. 가속기 자체 못지않게 네트워킹·스토리지(Managed Lustre 10 TB/s)까지 자체 스택으로 다지는 모습은, DPU·SmartNIC 시장에 직접적인 시그널이다."
+      ],
+      "source_article_ids": ["22", "23", "20"]
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "2",
+      "bullets": [
+        "엔비디아는 Dell Tech World 2026 무대의 사실상 주연이었다. Dell의 PowerEdge XE9812·PowerCool CDU C7000·PowerRack 신제품이 모두 차세대 Vera Rubin NVL72 플랫폼을 기준점으로 잡았고, XE9812는 토큰당 비용을 Blackwell 대비 10분의 1로 낮춘다고 발표됐다 — 다음 세대 GPU로 추론 단가 곡선을 한 번 더 꺾겠다는 메시지다.",
+        "Dell·구글의 온프레미스 Gemini 3 Flash 협업, 그리고 마이클 델·젠슨 황의 합동 무대까지 — 엔비디아 GPU를 중심에 놓고 서버·스토리지·소프트웨어 생태계가 정렬되는 그림이 계속 굳어지고 있다. 다만 같은 날 구글이 TPU 클라우드 JV로 비엔비디아 대안을 본격화한 만큼, 가속기 시장의 양극화는 더 뚜렷해질 것으로 보인다.",
+        "한편 지멘스 EDA는 ARM의 첫 AI/클라우드용 자체 칩 'AGI CPU'(Neoverse CSS V3, PCIe Gen 6·CXL·NVMe 통합)를 'Veloce Strato CS' 플랫폼으로 검증했다. 엔비디아 Grace를 정조준한 ARM 서버 CPU 라인업이 ARM 생태계 전반의 표준 검증 워크플로와 함께 다음 단계로 넘어가고 있다는 신호다."
+      ],
+      "source_article_ids": ["13", "21", "10"]
+    },
+    {
+      "company": "Napatech",
+      "tier": "2",
+      "bullets": [
+        "Napatech은 2025년 AI 인프라 design win을 양산 발주로 전환하는 데 성공했다 — 차세대 프로그래머블 SmartNIC 1,000대 규모의 첫 상업 양산 계약으로, 다년 롤아웃의 출발점이다. 2026년 매출 가이던스도 그대로 유지한다고 명시해 AI 수요가 실제 매출에 꽂히고 있음을 시사한다.",
+        "추가로 글로벌 Tier-1 금융기관과 NT400 SmartNIC 기반 2년 300만 달러 이상 규모(2026년 분량 150만 달러)의 다년 계약도 체결했다. 400G 초저지연·결정론적 워크로드용으로, MangoBoost와 직접 겹치는 AI 추론과 금융 저지연 두 시장 모두에서 SmartNIC 경쟁사가 양산 단계 매출을 쌓아 가고 있다는 점이 핵심이다."
+      ],
+      "source_article_ids": ["26"]
+    },
+    {
+      "company": "Tenstorrent",
+      "tier": "2",
+      "bullets": [
+        "Tenstorrent가 인텔·퀄컴 양사와 50억 달러 이상 규모의 예비 인수 협상에 들어갔고, 동시에 신규 투자 유치도 병행하고 있다 — 두 길을 모두 열어둔 상태다. 인텔에게는 부재한 추론 라인업을 채우는 카드, 퀄컴에게는 모바일 너머 데이터센터·PC·엣지 AI로 확장하는 발판이라는 점에서, 거래 성사 여부가 추론 칩 스타트업 진영 전체의 가치 평가를 다시 매기는 기준점이 될 전망이다."
+      ],
+      "source_article_ids": ["24"]
+    }
+  ]
+}

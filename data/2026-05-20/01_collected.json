@@ -1,21 +1,21 @@
 {
   "collection_date_kst": "2026-05-20",
   "run_summary": {
-    "total": 35,
-    "by_topic": {"ai": 18, "semiconductor": 6, "datacenter": 7, "competitor": 4},
+    "total": 30,
+    "by_topic": {"ai": 13, "semiconductor": 8, "datacenter": 6, "competitor": 3},
     "by_competitor": {
-      "NVIDIA": 2,
-      "Tenstorrent": 1,
+      "NVIDIA": 3,
+      "Tenstorrent": 2,
+      "Napatech": 1,
+      "Google": 3,
       "Marvell": 0,
-      "Napatech": 0,
       "Rebellions": 0,
       "Furiosa": 0,
       "FriendliAI": 0,
       "HyperAccel": 0,
-      "Moreh": 0,
-      "Google": 2
+      "Moreh": 0
     },
-    "competitor_tagged_total": 5,
+    "competitor_tagged_total": 9,
     "sources_consulted": 28,
     "skipped_paywalled": 2,
     "notes": "Recency window: 2026-05-20 KST only (last issue was 2026-05-19). NVIDIA Q1 FY2027 earnings scheduled after market close today (4:20 PM ET = May 21 05:20 KST) — actual results not yet available in window. RSS feed for hpcwire.com returned 403. networkworld.com RSS returned 404. wired.com returned error. semianalysis.com feed showed only articles from Sep 2025. DCD articles at 17:00 UTC May 19 = 02:00 KST May 20 are in-window. ServeTheHome Dell Tech World article dated May 18 confirmed out of window. Tenstorrent M&A story (Bloomberg/newspim) dated May 18-19 — newspim article dated May 19 KST, out of window. Samsung strike court injunction articles all pre-May 20. Google I/O 2026 keynote occurred May 19 PT (= May 20 KST) — Korean reporting from May 20 KST included. dropped: no articles with T00:00:00+09:00 timestamps."

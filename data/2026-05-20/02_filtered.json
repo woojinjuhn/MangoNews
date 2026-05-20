@@ -1,0 +1,230 @@
+{
+  "filter_date_kst": "2026-05-20",
+  "kept": [
+    {
+      "id": 22,
+      "title": "Google I/O 2026: Sundar Pichai's opening keynote — Gemini, TPU 8, $180B capex",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "category": "products",
+      "competitor": "Google",
+      "keep_reason": "Primary-source Google I/O keynote covering Gemini 3.5 Flash, TPU 8, $180B capex, and Blackstone JV — single most consequential infrastructure story of the day for a DPU vendor watching hyperscaler in-house silicon."
+    },
+    {
+      "id": 23,
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era",
+      "category": "products",
+      "competitor": "Google",
+      "keep_reason": "Google's TPU 8t/8i technical deep-dive (121 ExaFlops, Virgo Network fabric, 1M chip clusters) — direct competitive intelligence on hyperscaler accelerator and networking, highly relevant to MangoBoost's DPU/SmartNIC space."
+    },
+    {
+      "id": 20,
+      "title": "Blackstone and Google team up for new TPU-based cloud platform",
+      "url": "https://www.datacenterdynamics.com/en/news/blackstone-and-google-team-up-for-new-tpu-based-cloud-platform",
+      "category": "market",
+      "competitor": "Google",
+      "keep_reason": "$25B Blackstone-Google JV positioning TPU infrastructure as a NVIDIA alternative, explicitly targeting sovereign-AI buyers — directly relevant to MangoBoost's sovereign AI and non-NVIDIA ecosystem positioning."
+    },
+    {
+      "id": 24,
+      "title": "Tenstorrent AI Chip Startup Draws Takeover Interest From Intel, Qualcomm",
+      "url": "https://blockonomi.com/tenstorrent-ai-chip-startup-attracts-acquisition-interest-from-intel-and-qualcomm",
+      "category": "market",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Tier-2 competitor Tenstorrent in $5B+ acquisition talks with Intel/Qualcomm — major M&A signal in the inference-chip startup landscape MangoBoost competes in."
+    },
+    {
+      "id": 26,
+      "title": "Napatech wins first major production order for AI SmartNIC platform",
+      "url": "https://www.napatech.com/media/press-releases/napatech-optimizes-datacenter-infrastructure-for-artificial-intelligence",
+      "category": "market",
+      "competitor": "Napatech",
+      "keep_reason": "Tier-2 SmartNIC competitor Napatech transitioning from design win to volume production (1,000-unit AI inference order plus Tier-1 financial $3M+ deal) — direct competitive intelligence on MangoBoost's exact market."
+    },
+    {
+      "id": 13,
+      "title": "Dell Bulks Up Hardware As AI Infrastructure Shifts To On-Premises",
+      "url": "https://www.nextplatform.com/compute/2026/05/19/dell-bulks-up-hardware-as-ai-infrastructure-shifts-to-on-premises/5242811",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Dell Tech World 2026 deep-dive on on-prem AI infra shift (67% of AI workloads outside cloud), PowerRack, PowerCool 220kW CDU, Vera Rubin NVL72 — full-stack AI infra context with NVIDIA partnership."
+    },
+    {
+      "id": 21,
+      "title": "Dell announces PowerStore Elite storage platform, unveils 18th generation of PowerEdge servers",
+      "url": "https://www.datacenterdynamics.com/en/news/dell-announces-powerstore-elite-storage-platform-unveils-18th-generation-of-poweredge-servers",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Dell 18th-gen PowerEdge with 6th-gen AMD EPYC, Vera Rubin NVL72-based XE9812, on-prem sovereign AI partnerships (OpenAI/Palantir/Google/Mistral) — strong AMD-ecosystem and sovereign-AI relevance."
+    },
+    {
+      "id": 2,
+      "title": "'AI 풀스택' 구글의 딜레마…\"내부 컴퓨팅 경쟁에 나선 연구원들\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210697",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Compute scarcity inside Google despite being the most resource-rich AI player — bigtech-4 to invest $725B in 2026 / $1T+ by 2027; foundational evidence that infrastructure is the AI bottleneck (MangoBoost's core thesis)."
+    },
+    {
+      "id": 10,
+      "title": "지멘스-Arm, 'AGI CPU' 성능 검증 협력",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56884",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Arm's first AI/cloud silicon 'AGI CPU' on Neoverse CSS V3 integrating PCIe Gen 6, NVMe, CXL — directly DPU-adjacent server CPU competing with NVIDIA Grace and hyperscaler in-house ARM silicon."
+    },
+    {
+      "id": 29,
+      "title": "Intel tells PC makers to adopt 18A CPUs or lose their supply allocations",
+      "url": "https://www.tomshardware.com/tech-industry/intel-tells-pc-makers-to-adopt-18a-cpus-or-lose-their-allocations",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Intel forcing OEMs to 18A node (RibbonFET GAA + PowerVia backside power) by redirecting Intel 7 capacity to higher-margin server/industrial — significant foundry-competitive datapoint vs TSMC/Samsung."
+    },
+    {
+      "id": 11,
+      "title": "삼성전자 노사 자정 넘겨 협상…극적 타결·파업 초읽기 기로에",
+      "url": "https://www.ajunews.com/view/20260520004120325",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung labor talks past midnight with strike imminent May 21 and government considering emergency arbitration — high-impact Korean semiconductor supply-chain risk."
+    },
+    {
+      "id": 25,
+      "title": "AMD EPYC 8005 is Out with Up to 84 Zen 5 Cores in a 225W TDP Package",
+      "url": "https://www.servethehome.com/amd-epyc-8005-is-out-with-up-to-84-zen-5-cores-in-a-225w-tdp",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AMD EPYC 8005 'Sorano' launch with Zen 5 cores for telco/edge/storage — directly relevant to MangoBoost's AMD ecosystem positioning."
+    },
+    {
+      "id": 28,
+      "title": "AWS Summit Seoul 2026: 에이전틱 AI 시대 향한 20년 비전 제시",
+      "url": "https://aws.amazon.com/ko/events/summits/seoul",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AWS Summit Seoul 2026 (5/20-21) with CFO John Felton keynote on agentic AI, AI infra/security/governance tracks — major Korean cloud/AI ecosystem event."
+    },
+    {
+      "id": 16,
+      "title": "레드햇 CTO '오픈시프트 가상화, VM웨어 대체 그 이상…AI 인프라 핵심'",
+      "url": "https://zdnet.co.kr/view/?no=20260520090402",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Red Hat OpenShift virtualization unifying VM + container + AI workloads with $2B ARR ($600M from virtualization) — relevant AI-infra-modernization layer above DPU plane."
+    },
+    {
+      "id": 17,
+      "title": "SMIC founder and AMEC CEO urge Chinese fabs to test domestic chipmaking tools on production lines",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/smic-founder-and-amec-ceo-urge-chinese-fabs-to-test-domestic-chip-tools-on-production-lines",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "China-US semiconductor decoupling intensifying with coordinated SMIC/AMEC CCTV push and US MATCH Act DUV restrictions — geopolitical context shaping global semi supply."
+    },
+    {
+      "id": 8,
+      "title": "코히어, 릴라이언트 AI 인수…제약 AI 주권형 시장 공략",
+      "url": "https://zdnet.co.kr/view/?no=20260520085655",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Cohere acquiring Reliant AI explicitly framed as sovereign-AI / domain-specialized strategy in regulated industries — sovereign AI is a MangoBoost strategic core."
+    },
+    {
+      "id": 7,
+      "title": "오픈AI 공동 창업자 안드레이 카파시, 앤트로픽 합류",
+      "url": "https://www.etnews.com/20260520000026",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Andrej Karpathy joining Anthropic pretraining team — significant AI talent move signaling intensifying frontier-model competition that drives compute/infra spending."
+    },
+    {
+      "id": 0,
+      "title": "구글, 4배 빠른 경량 AI 모델 '제미나이 3.5 플래시' 공개",
+      "url": "https://www.etnews.com/20260520000020",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Korean primary coverage of Gemini 3.5 Flash launch with concrete cost framing ($1B annual savings on 1T-token workloads) — model-launch news with infra-cost implications."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 1,
+      "title": "AI 모델부터 영상까지…구글, 오픈AI·앤트로픽 겨냥 전방위 공세",
+      "discard_reason": "duplicate of id 0 — same etnews source, same Google I/O Gemini 3.5 Flash story, narrative angle adds little beyond keynote primary id 22."
+    },
+    {
+      "id": 3,
+      "title": "에이전트 강화한 '제미나이 3.5 플래시' 출시...가격 껑충",
+      "discard_reason": "duplicate of id 0 — Gemini 3.5 Flash launch coverage already represented by Korean primary (id 0) and English primary (id 22)."
+    },
+    {
+      "id": 4,
+      "title": "구글, 검색창·AI 에이전트 싹 바꿨다…'행동형 플랫폼으로 진화'",
+      "discard_reason": "duplicate of Google I/O coverage — Gemini Spark/Omni/Search overhaul already captured in keynote primary id 22."
+    },
+    {
+      "id": 5,
+      "title": "Google introduces Gemini Omni, Gemini 3.5 Flash, AI-powered Search upgrades and more at I/O 2026",
+      "discard_reason": "duplicate of id 22 — secondary English coverage of same I/O keynote with no additional infrastructure detail."
+    },
+    {
+      "id": 6,
+      "title": "Google claims new Gemini 3.5 Flash runs 4x faster than rival frontier models",
+      "discard_reason": "duplicate of Gemini 3.5 Flash launch story already represented by ids 0 and 22."
+    },
+    {
+      "id": 9,
+      "title": "삼성·구글, AI 글라스 디자인 첫 선…하반기 출시",
+      "discard_reason": "off-topic — consumer AR smart-glasses partnership with no DPU/datacenter/AI-infra substance."
+    },
+    {
+      "id": 12,
+      "title": "삼상전자 노사, 협상 막판까지 '줄다리기'…오늘 오전 10시 재개",
+      "discard_reason": "duplicate of id 11 — same Samsung labor-talks negotiation, id 11 has stronger detail on emergency arbitration and strike timeline."
+    },
+    {
+      "id": 14,
+      "title": "델, AI 인프라 '끝판왕' 노린다…스토리지·보안·자동화 전면 개편",
+      "discard_reason": "duplicate of Dell Tech World coverage — same announcements already captured by primary English ids 13 and 21 with deeper technical detail."
+    },
+    {
+      "id": 15,
+      "title": "델 테크놀로지스, AI 시대 모던 데이터센터 위한 스토리지·서버·사이버 복원력 신제품 공개",
+      "discard_reason": "duplicate of Dell Tech World announcements already represented by ids 13 and 21."
+    },
+    {
+      "id": 18,
+      "title": "빛만으로 반도체 성능 63배 높였다…DGIST, 마이크로렌즈 기반 초고해상도 광도핑 기술 개발",
+      "discard_reason": "off-topic — academic 2D-semiconductor photo-doping research with no near-term DPU/AI-infra commercial relevance."
+    },
+    {
+      "id": 19,
+      "title": "Google reveals Gemini-powered smart glasses with Samsung at I/O 2026, expected fall release",
+      "discard_reason": "off-topic — consumer AR smart-glasses, duplicate angle of discarded id 9."
+    },
+    {
+      "id": 27,
+      "title": "\"인텔·퀄컴, AI 칩 스타트업 텐스토렌트 인수 관심\" (updated)",
+      "discard_reason": "duplicate of id 24 — same Bloomberg-sourced Tenstorrent M&A story; English primary id 24 retained."
+    }
+  ],
+  "summary": {
+    "total_received": 30,
+    "total_kept": 18,
+    "total_discarded": 12,
+    "category_breakdown": {
+      "market": 8,
+      "products": 6,
+      "projects": 0,
+      "challenges": 2,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 8,
+    "by_competitor": {
+      "Google": 3,
+      "NVIDIA": 3,
+      "Tenstorrent": 1,
+      "Napatech": 1
+    }
+  }
+}

@@ -99,14 +99,24 @@ type: reference
 - **Amazon (Trainium/Graviton)**: AWS re:Invent preview articles noting Trainium 3 timeline for H2 2026.
 - **OpenAI (restructuring)**: Greg Brockman returned as President; Sam Altman CTO title discussion ongoing; restructuring completed May 16-17; signals strategic leadership stabilization.
 
-## Forward-looking competitor calendar (as of May 18 2026)
-- **NVIDIA Q1 FY2027 earnings**: May 20 after US market close; will include H100/H200 demand, Blackwell ramp, China impact
-- **Google I/O 2026**: May 19-20; AI/TPU/Axion datacenter announcements expected
-- **Samsung strike**: May 21 18-day strike window; production risk through June 7
+## May 20 2026 update — competitor developments
+- **Google (TPU/Silicon)**: Google I/O 2026 revealed 8th-gen TPUs (TPU 8t training + TPU 8i inference). TPU 8t: 9,600/superpod, 121 ExaFlops, 2PB shared memory, ~3x vs Ironwood. TPU 8i: 288GB HBM + 384MB SRAM (3x prev gen), 19.2Tb/s ICI, 80% better perf/dollar. Virgo Network megascale fabric: 134K TPU/datacenter or 1M+ chips in single cluster. GA later in 2026. Tags: competitor silicon, datacenter.
+- **Google + Blackstone**: $25B JV (Blackstone $5B equity, ~70% ownership; rest debt); 500MW datacenter capacity by 2027; external TPU-based cloud targeting CoreWeave customers; CEO: Benjamin Treynor Sloss. Google off-balance-sheet move while maintaining TPU supply control.
+- **Tenstorrent**: Intel and Qualcomm engaged in preliminary acquisition discussions; $5B+ valuation if sold; also speaking to investors about new funding round. Bloomberg May 18; Korean newspim May 19; Blockonomi May 20. Jim Keller's AI startup — very high MangoBoost relevance (RISC-V AI chip competitor). Status: ongoing, no deal signed.
+- **Napatech**: First major AI SmartNIC production order — 1,000 units to AI inference pioneer (name undisclosed); multi-million dollar; initiates planned multi-year rollout; 2026 guidance unchanged. Also NT400 Tier-1 bank deal ($3M+, 2yr). Key MangoBoost competitor (SmartNIC domain).
+- **NVIDIA**: Q1 FY2027 earnings scheduled 4:20 PM ET May 20 = May 21 05:20 KST — NOT included in May 20 collection; will be top story for May 21 issue. Jensen Huang appeared at Dell Tech World with Michael Dell.
+- **Dell + NVIDIA**: PowerEdge XE9812 (NVIDIA Vera Rubin NVL72) announced at Dell Tech World; 10x lower cost-per-token vs Blackwell; NVIDIA Spectrum-X used in PowerSwitch at 496Tbps; Jensen Huang on stage with Michael Dell.
+- **Samsung strike (ongoing)**: 3차 조정 at 10am KST May 20; still unresolved from overnight May 19-20 negotiations; May 21 strike deadline imminent; government considering emergency arbitration.
+- **Tier 1 Korean (Rebellions/FuriosaAI/Moreh/HyperAccel/FriendliAI)**: No standalone May 20 news; monitor for post-Google-IO partnership announcements.
+
+## Forward-looking competitor calendar (as of May 20 2026)
+- **NVIDIA Q1 FY2027 earnings**: May 20 4:20 PM ET = May 21 05:20 KST; next issue story
+- **Samsung strike**: May 21 start date; 18-day window through June 7; monitoring required
 - **Marvell COMPUTEX 2026 keynote**: June 2; Matt Murphy on AI data center infrastructure
 - **AMD Venice/Helios rack**: H2 2026 launch (EPYC Zen 6 + Instinct MI455X + Pensando DPU)
 - **FuriosaAI pre-IPO**: Funding close target mid-June 2026; 2027 IPO
 - **Rebellions KOSPI IPO**: Targeting Q3 2026 (August likely)
+- **Google 8th-gen TPU**: GA planned later in 2026; watch for customer adoption announcements
 
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026

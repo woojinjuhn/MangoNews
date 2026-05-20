@@ -318,3 +318,38 @@ type: reference
 - **ZDNet Korea** (zdnet.co.kr) — homepage fetch revealed ~20 articles on May 19; most are non-tech (finance, beauty, health); AI/semiconductor articles need topic-filtering; WD quantum HDD article (09:54) and Apple WWDC26 preview (10:01) were May 19 articles
 - **Apple WWDC26 preview articles** (event June 8-12) published May 19 — these are borderline; include only if significant AI chip announcement expected; pure schedule-announcements can be skipped
 - **sedaily.com** — Seoul Economic Daily accessible; Korean semiconductor stock movement articles with specific timestamps (08:35 KST May 19); potential overlap with etnews/kospi articles — check for near-duplicates
+
+## Source notes (2026-05-20 run — single day window, Google I/O day 2)
+- **Google I/O 2026 keynote (May 19 PT = May 20 KST)**: Google I/O keynote ran May 19 10am PT = May 20 02:00 KST; all recap/announcement articles published May 20 KST morning are in-window; extremely high-yield day for AI articles
+- **Korean outlets published May 20 Google I/O recap by 07-09 KST**: etnews.com (×4 articles, Gemini Flash×2, Karpathy, Dell), aitimes.com (×2 articles), zdnet.co.kr (×5 articles including Google IO, Dell, Red Hat, Cohere, Samsung strike); very high yield
+- **DCD (Data Center Dynamics)**: Blackstone-Google TPU JV article and Dell PowerStore Elite article published ~02:00 KST May 20 (17:00 UTC May 19); accessible via RSS; individual article 403 still applies — use RSS feed timestamps and body via search supplement
+- **NextPlatform**: Dell Tech World article published 17:08 UTC May 19 = 02:08 KST May 20; accessible; full body fetchable
+- **ServeTheHome**: AMD EPYC 8005 Sorano article published ~16:30 UTC May 19 = 01:30 KST May 20; accessible; full body fetchable
+- **Tom's Hardware**: SMIC article at 16:01 UTC May 19 = 01:01 KST May 20; Intel 18A article at 12:13 UTC May 19 = 21:13 KST May 19 (borderline — day before window start); be careful; check RSS timestamps precisely
+- **Napatech press releases**: napatech.com/media/press-releases/ — accessible; May 20 production order announcement explicit timestamp; always fetch direct for competitor coverage
+- **Google Blog** (blog.google/innovation-and-ai/): accessible; exact publication timestamps via article JSON-LD; Sundar Pichai keynote recap published with 02:00 KST May 20 estimate (keynote timing)
+- **Google Cloud Blog** (cloud.google.com/blog/): accessible; 8th-gen TPU article; same timing as blog.google; use JSON-LD for exact time
+- **Interesting Engineering** (interestingengineering.com): accessible; Gemini Flash recap published ~02:28 KST May 20; good backup for English AI stories when TechCrunch/The Verge paywalled
+- **The Tech Portal** (thetechportal.com): accessible; two May 20 Google IO articles published 03:32 and 04:21 KST; good source for AI hardware/software recaps
+
+## Key observations (2026-05-20 run)
+- Google I/O 2026 day 2 dominates the AI domain — 10+ articles across Korean and English outlets covering Gemini 3.5 Flash, Gemini Omni/Spark, Search AI overhaul, Samsung smart glasses
+- Blackstone-Google $25B TPU joint venture (announced May 20) is the single highest-impact datacenter story; directly relevant to MangoBoost (TPU competition with DPU workloads)
+- Google 8th-gen TPU details: TPU 8t (training, 121 ExaFlops/pod, 9600/superpod) and TPU 8i (inference, 288GB HBM, 19.2Tb/s ICI) — directly relevant as competitor silicon
+- NVIDIA Q1 FY2027 earnings released after market close (4:20 PM ET May 20 = May 21 05:20 KST) — NOT available for May 20 collection; will be top story for May 21 issue
+- Dell Technologies World 2026 (Las Vegas) produces simultaneous Korean and English datacenter articles
+- Samsung labor dispute (파업) still ongoing May 20; 3차 조정 session at 10am KST May 20; no resolution as of morning collection
+- **Tenstorrent Intel/Qualcomm M&A**: Bloomberg May 18 original (out-of-window); Newspim Korean recap May 19 (borderline); Blockonomi English recap May 20 ~04:00 KST (in-window); keep both Korean and English as they serve different MangoBoost audiences
+- **Napatech**: First major AI SmartNIC production order win (1,000 units, inference customer); also NT400 fintech deal; very high relevance to MangoBoost as direct SmartNIC competitor; always include
+
+## Query patterns (2026-05-20 run)
+- `Google IO 2026 Gemini Flash TPU keynote announcements May 20` — extremely high yield; all Korean outlets published 07-09 KST May 20
+- `Dell Technologies World 2026 AI infrastructure PowerEdge NVIDIA May 20` — NextPlatform + DCD + Korean outlets accessible
+- `Blackstone Google TPU joint venture cloud platform May 20 2026` — DCD + The Register accessible
+- `Google 8th generation TPU training inference agentic 2026` — blog.google + cloud.google.com accessible
+- `Napatech SmartNIC production order AI inference May 2026` — napatech.com press release directly accessible
+- `Tenstorrent Intel Qualcomm acquisition M&A May 2026` — Blockonomi + newspim accessible
+- `Andrej Karpathy Anthropic pretraining May 2026` — etnews.com + Korean outlets
+- `SMIC AMEC domestic Chinese chipmaking tools production May 2026` — tomshardware.com accessible
+- `AMD EPYC 8005 Sorano Zen 5 telco edge May 2026` — servethehome.com accessible
+- `삼성전자 파업 5월 20일 3차 조정 타결 여부` — ajunews.com + zdnet.co.kr; both published overnight into May 20
