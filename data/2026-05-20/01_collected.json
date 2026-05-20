@@ -1,0 +1,325 @@
+{
+  "collection_date_kst": "2026-05-20",
+  "run_summary": {
+    "total": 35,
+    "by_topic": {"ai": 18, "semiconductor": 6, "datacenter": 7, "competitor": 4},
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Tenstorrent": 1,
+      "Marvell": 0,
+      "Napatech": 0,
+      "Rebellions": 0,
+      "Furiosa": 0,
+      "FriendliAI": 0,
+      "HyperAccel": 0,
+      "Moreh": 0,
+      "Google": 2
+    },
+    "competitor_tagged_total": 5,
+    "sources_consulted": 28,
+    "skipped_paywalled": 2,
+    "notes": "Recency window: 2026-05-20 KST only (last issue was 2026-05-19). NVIDIA Q1 FY2027 earnings scheduled after market close today (4:20 PM ET = May 21 05:20 KST) — actual results not yet available in window. RSS feed for hpcwire.com returned 403. networkworld.com RSS returned 404. wired.com returned error. semianalysis.com feed showed only articles from Sep 2025. DCD articles at 17:00 UTC May 19 = 02:00 KST May 20 are in-window. ServeTheHome Dell Tech World article dated May 18 confirmed out of window. Tenstorrent M&A story (Bloomberg/newspim) dated May 18-19 — newspim article dated May 19 KST, out of window. Samsung strike court injunction articles all pre-May 20. Google I/O 2026 keynote occurred May 19 PT (= May 20 KST) — Korean reporting from May 20 KST included. dropped: no articles with T00:00:00+09:00 timestamps."
+  },
+  "articles": [
+    {
+      "title": "구글, 4배 빠른 경량 AI 모델 '제미나이 3.5 플래시' 공개",
+      "url": "https://www.etnews.com/20260520000020",
+      "body": "구글이 연례 개발자 컨퍼런스 '구글 I/O'에서 차세대 경량 AI 모델 '제미나이 3.5 플래시(Gemini 3.5 Flash)'를 공개했다. 신모델은 소형 모델임에도 최전방 모델과 비슷한 성능을 구현하면서 처리 속도는 4배 이상 빠른 것이 특징이다.\n\n제미나이 3.5 플래시는 에이전트 운영, 코딩, 금융 분석 분야에서 제미나이 3.1 프로를 상회하는 성능을 보였다. 모델 컨텍스트 프로토콜(MCP) 에이전트 규칙과 금융 분석 등 벤치마크에서 구글·오픈AI·앤트로픽의 경쟁 최전방 모델을 모두 능가했다. 코딩 평가에서도 터미널 환경 벤치마크에서 GPT-5.5와 맞먹는 점수를 기록했으나 SWE-bench Pro 일반 코딩 지표에서는 클로드 오퍼스 4.7과 GPT-5.5에는 미치지 못했다.\n\n순다르 피차이 CEO는 재정적 함의를 부각시켰다. 그는 \"하루 1조 개 토큰을 소비하는 기업이 워크로드의 80%를 이 경량 모델로 전환하면 연간 10억 달러 이상을 절약할 수 있다\"고 말했다.\n\n구글은 또 24시간 자율 운영하는 에이전트 '제미나이 스파크(Gemini Spark)'와 텍스트·오디오·이미지·동영상을 처리하고 동영상을 출력하는 멀티모달 모델 '오미(Omni)'도 발표했다. AI가 생성한 영상에는 구글의 SynthID 워터마크가 삽입된다.\n\n제미나이 3.5 플래시는 제미나이 앱 및 검색의 AI 모드 기본 모델로 즉시 배포됐다. API 가격은 입력 토큰 100만 개당 1.50달러, 출력 토큰 100만 개당 9.00달러로, 이전 플래시 버전 대비 3배 인상됐다.",
+      "published_at": "2026-05-20T07:10:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI 모델부터 영상까지…구글, 오픈AI·앤트로픽 겨냥 전방위 공세",
+      "url": "https://www.etnews.com/20260520000021",
+      "body": "구글이 구글 I/O 2026에서 신형 AI 모델과 서비스를 연달아 공개하며 경쟁사 오픈AI와 앤트로픽의 강점과 약점을 전략적으로 겨냥했다.\n\n[제미나이 3.5 플래시 — 비용 효율 카드] 피차이 CEO는 연간 AI 토큰 예산을 중도에 소진하는 기업들이 제미나이 3.5 플래시로 전환하면 '연간 10억 달러 이상을 절약'할 수 있다고 강조했다. 이는 인프라 제약에 따른 소비 기반 가격 정책으로 전환한 앤트로픽을 직접 겨냥한 것으로 풀이된다.\n\n[제미나이 오미 — 영상 생성 대응] 멀티모달 모델 제미나이 오미는 텍스트·이미지·오디오·동영상 입력을 처리해 동영상 출력을 생성한다. 이는 더 수익성 높은 도구에 집중하기 위해 소라(Sora) 영상 생성 서비스를 중단한 오픈AI의 결정에 대응하는 포지셔닝이다.\n\n[코드멘더 보안 API — 직접 경쟁] 구글은 앤트로픽의 미토스 모델이 '보안 분야에서 모델 크기 확장에 가치를 입증했다'고 인정하면서도, 내부 테스트에서 제미나이 3.1 프로가 '취약점의 80~90%를 감지'해 성능 격차를 좁혔다고 주장했다.\n\n협력 측면에서 구글은 경쟁사와의 통합을 강화해 모델 컨텍스트 프로토콜(MCP) 기능을 확대하고 AI 생성 콘텐츠 식별 도구 SynthID를 오픈AI에 제공하기로 했다.\n\n구글 I/O 2026은 5월 19일(현지시간) 캘리포니아주 마운틴뷰 쇼어라인 앰피시어터에서 개막했으며, 양일간 키노트·세션·전시 행사가 진행됐다.",
+      "published_at": "2026-05-20T07:21:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "'AI 풀스택' 구글의 딜레마…\"내부 컴퓨팅 경쟁에 나선 연구원들\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210697",
+      "body": "구글은 칩·모델·인프라·배포 네트워크를 갖춘 'AI 풀스택' 기업으로 꼽히며, 주가도 이달 초 잠시 엔비디아 시가총액을 넘어설 만큼 높이 평가받고 있다. 그러나 세계에서 자원이 가장 풍부한 기업조차 내부적으로 컴퓨팅 희소성에 시달린다는 사실이 드러났다.\n\n블룸버그의 5월 18일 보도에 따르면, 구글 연구원들은 컴퓨팅 자원을 놓고 치열한 내부 경쟁을 벌이고 있다. 저명한 AI 연구자 오렌 에치오니는 \"구글 내 모든 TPU에는 경쟁자가 세 명씩 있다\"고 표현했다. 즉 수요가 공급의 세 배에 달한다는 뜻이다.\n\n이 희소성은 외부 파트너에 대한 구글의 공격적인 컴퓨팅 공급 약정에서 비롯된다. 앤트로픽·메타 등에 자원을 제공하다 보니 연구원들이 유료 고객에게 밀리는 상황이 벌어진다. 내부적으로 TPU 크레딧은 주식시장처럼 시장 가격에 따라 거래된다.\n\n컴퓨팅 희소성은 인재 유치의 핵심 변수로 부상했다. 제미나이처럼 수익성 높은 프로젝트가 우선 배분을 받다 보니 초기 연구 단계에 자원이 부족해진다. 이 역학이 핵심 개발자들의 이탈을 유발하고 있으며, 이들이 창업한 스타트업 Reflection AI와 Recursive Intelligence는 설립 직후 수십억 달러 가치를 인정받았다.\n\n피차이 CEO는 DeepMind의 첨단 모델 개발을 위한 컴퓨팅 자원 우선 배분이 모든 운영의 토대라고 강조했다. 구글 클라우드의 외부 고객용 컴퓨팅 용량은 지난 분기 4600억 달러로 두 배 늘었지만, 단기적 제약은 여전히 지속되고 있다.\n\n이 기사는 알고리즘이 아닌 컴퓨팅 인프라가 AI 경쟁의 핵심 병목임을 부각시킨다. 빅테크 4사는 올해 AI 인프라에 7250억 달러를 투자하겠다고 발표했으며, 2027년에는 1조 달러를 넘어설 전망이다.",
+      "published_at": "2026-05-20T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "에이전트 강화한 '제미나이 3.5 플래시' 출시...가격 껑충",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210725",
+      "body": "구글이 I/O 2026 개발자 컨퍼런스에서 제미나이 3.5 플래시(Gemini 3.5 Flash)를 공개했다. 최전방급 성능을 갖추면서 처리 속도를 대폭 높인 모델이지만 가격은 세 배로 올랐다는 점이 눈에 띈다.\n\n제미나이 3.5 플래시는 제미나이 앱과 검색의 AI 모드에 즉시 탑재됐다. 개발자는 구글 안티그래비티(AntiGravity), 구글 AI 스튜디오, 제미나이 API를 통해 접근할 수 있으며, 엔터프라이즈 제품에도 포함됐다.\n\n주요 벤치마크에서 경쟁력 있는 성능을 입증했다. 터미널 벤치 2.1에서 76.2%를 기록해 GPT-5.5의 78.2%에 근접했다. 에이전트 성능은 특히 두드러져 MCP 아틀라스 83.6%, 툴라슬론 56.5%로 각 카테고리 1위를 차지했다.\n\n구글 CTO 코리 카부콜리는 \"초당 토큰 수 기준으로 제미나이 3.5 플래시는 다른 최전방 모델보다 4배 빠르다\"고 강조했다. 이 시스템은 장기 에이전트 작업을 최적화해 개발자가 며칠 또는 몇 주에 걸친 작업을 훨씬 짧은 시간에 완료할 수 있도록 지원한다.\n\n[가격 구조] 입력 토큰 100만 개당 1.50달러, 출력 토큰 100만 개당 9.00달러로, 이전 플래시 버전(0.50달러/3.00달러) 대비 각각 3배 인상됐다. Artificial Analysis에 따르면 벤치마크 실행 비용은 이전 플래시 대비 5배 이상 높다.\n\n구글은 동시에 개인 AI 에이전트 제미나이 스파크(Gemini Spark)도 발표했다. 사용자의 디지털 활동을 지원하기 위해 지속적으로 운영되는 개인 AI 에이전트로, 즉시 제한 테스트에 돌입하며 다음 주 미국 구글 AI 울트라 구독자 대상 베타 서비스를 시작한다.\n\n제미나이 3.5 프로는 내부 테스트 중이며, 공식 출시는 다음 달로 예정됐다.",
+      "published_at": "2026-05-20T08:03:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "구글, 검색창·AI 에이전트 싹 바꿨다…'행동형 플랫폼으로 진화'",
+      "url": "https://zdnet.co.kr/view/?no=20260520085810",
+      "body": "구글이 연례 개발자 컨퍼런스 구글 I/O에서 AI 모델과 검색 서비스를 대폭 개편하며 차세대 플랫폼 주도권 경쟁에 나섰다.\n\n회사는 핵심 AI 전략 모델 '제미나이 3.5 플래시', 개인 AI 에이전트 '제미나이 스파크', 물리적 환경을 시뮬레이션하는 세계 모델 '오미(Omni)' 등 세 가지 혁신을 발표했다.\n\n제미나이 3.5 플래시는 최전방 모델에 필적하는 성능을 갖추면서 비용을 절반~3분의 2 수준으로 낮춘 경량 모델이다. 구글은 이를 제미나이 앱과 검색 AI 모드의 전 세계 기본 모델로 배포했다. 성능이 더 높은 제미나이 3.5 프로는 내부 활용 중이며, 공개 출시는 다음 달로 미뤄졌다.\n\n다음 주 베타 출시 예정인 제미나이 스파크는 연결된 앱 전반의 정보를 종합하고 사용자 지시에 따라 행동을 실행하는 범용 에이전트다.\n\n세계 모델 오미는 사용자 행동에 따른 미래 시나리오를 예측하며, 로봇공학·게임 등에 응용된다. 제미나이 앱, 구글 플로우, 유튜브 쇼츠 전반에서 이미지·오디오를 지원하고 동영상 편집 기능도 갖췄다.\n\n구글은 25년 만에 검색 인터페이스를 AI 중심으로 전면 개편해 대화형 쿼리와 AI 기반 시각화 도구를 지원하는 지능형 검색 인터페이스를 도입했다. 사용자 질문에 맞춰 동적 레이아웃과 시각화를 생성하는 생성형 UI도 탑재됐다. 이번 여름 출시 예정인 정보 에이전트 기능은 맞춤 조건에 따라 24시간 웹 변화를 모니터링할 수 있다.\n\n피차이 CEO는 \"최고 수준의 역량을 갖추면서도 효율적이고 빠르며 저렴한 최첨단 모델 제공에 집중한다\"고 말했다.",
+      "published_at": "2026-05-20T09:08:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Google introduces Gemini Omni, Gemini 3.5 Flash, AI-powered Search upgrades and more at I/O 2026",
+      "url": "https://thetechportal.com/2026/05/20/google-introduces-gemini-omni-gemini-3-5-flash-ai-powered-search-upgrades-and-more-at-i-o-2026",
+      "body": "Google unveiled its next-generation multimodal AI system Gemini Omni at I/O 2026, capable of processing text, images, audio, and video simultaneously. The company demonstrated users uploading images and providing spoken instructions to generate short cinematic videos with synchronized sound.\n\nGemini 3.5 Flash is a faster AI model that now powers upgrades across Google Search, Gemini, and Workspace applications. According to benchmarks, it achieved 90.4% on GPQA Diamond for scientific reasoning and 78% on SWE-bench Verified for coding tasks. The model delivers results at 4x the speed of comparable frontier models.\n\nSearch received a major overhaul featuring conversational AI capabilities, multimodal input (screenshots, PDFs, photos, videos), and autonomous Gemini-powered agents that can monitor information and take actions for users.\n\nGoogle introduced Gemini Spark (a background autonomous assistant running 24/7), Daily Brief (a personalized AI dashboard), and demonstrated Gemini-powered smart glasses developed with Samsung for fall 2026 release.\n\nThe announcements position Google directly in competition with AI video platforms like OpenAI's Sora and Adobe Firefly by integrating generative capabilities into existing ecosystems. Google is investing $180-190 billion in capex annually (6x the 2022 level), with its 8th-generation TPU chips optimized for training and inference playing a central role.",
+      "published_at": "2026-05-20T03:32:00+09:00",
+      "source": "The Tech Portal",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Google claims new Gemini 3.5 Flash runs 4x faster than rival frontier models",
+      "url": "https://interestingengineering.com/ai-robotics/google-gemini-3-5-flash-launch",
+      "body": "Google unveiled Gemini 3.5 Flash at Google I/O 2026, positioning it as a high-speed AI model optimized for coding and autonomous tasks. The company claims the model achieves frontier-level performance at 4x the speed of comparable frontier models.\n\nKey performance highlights: Gemini 3.5 Flash scored 76.2% on Terminal-Bench and surpassed Gemini 3.1 Pro on coding evaluations including GDPval-AA and MCP Atlas benchmarks. The company asserts the model delivers results often at less than half the cost of competitors.\n\nThe model targets complex workflows like application development, large software project management, and financial document preparation. Google emphasizes its capacity for long-horizon agentic tasks — multi-step operations requiring limited human oversight.\n\nGoogle introduced complementary products including Gemini Spark (a personal AI agent) and Gemini Omni (a video generation model). The announcements reflect Google's pivot toward action-oriented AI systems rather than simple response-based models.\n\nThe model rolled out immediately across Gemini apps and Google Search's AI Mode, with enterprise access via Gemini Enterprise platforms. API pricing is $1.50 per million input tokens and $9.00 per million output tokens — about 40% cheaper than Gemini 3.1 Pro but 3x more expensive than previous Flash versions.",
+      "published_at": "2026-05-20T02:28:00+09:00",
+      "source": "Interesting Engineering",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "오픈AI 공동 창업자 안드레이 카파시, 앤트로픽 합류",
+      "url": "https://www.etnews.com/20260520000026",
+      "body": "오픈AI 공동 창업자이자 전 테슬라 AI 디렉터인 안드레이 카파시(Andrej Karpathy)가 앤트로픽에 합류했다. 로이터가 5월 19일(현지시간) 보도했다.\n\n카파시는 X(구 트위터)를 통해 \"대규모 언어모델 분야의 최전선에서 앞으로 몇 년은 특히 중요한 시기가 될 것\"이라며 \"앤트로픽 팀과 함께 연구개발에 복귀하게 돼 매우 기쁘다\"고 밝혔다.\n\n보도에 따르면 카파시는 이번 주부터 앤트로픽의 프리트레이닝 팀에서 근무를 시작했다. 이 팀은 클로드에 핵심 지식과 역량을 제공하는 대규모 훈련 실행을 담당한다.\n\n[카파시 이력]\n- 스탠퍼드대학교 컴퓨터공학 박사 취득\n- 오픈AI 초창기 멤버로 딥러닝·컴퓨터 비전 연구\n- 2017년 테슬라로 이직, AI 디렉터로 오토파일럿 컴퓨터 비전팀 총괄\n- 2022년 테슬라 퇴사\n- 오픈AI로 복귀한 뒤 2024년 AI 통합 교육 플랫폼 '유레카 랩스' 창업\n- '바이브 코딩(Vibe Coding)' 개념의 선구자\n\n이번 영입은 오픈AI와의 경쟁 심화 속에서 앤트로픽이 최고 수준 인재를 지속적으로 영입하고 있음을 보여준다. 이달 초 전 xAI 창립 멤버이자 전 테슬라 직원인 로스 노르딘도 앤트로픽 합류를 발표했다.",
+      "published_at": "2026-05-20T07:45:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "코히어, 릴라이언트 AI 인수…제약 AI 주권형 시장 공략",
+      "url": "https://zdnet.co.kr/view/?no=20260520085655",
+      "body": "코히어(Cohere)가 바이오테크 특화 AI 기업 릴라이언트 AI(Reliant AI)를 인수하며 글로벌 제약·헬스케어 시장 확대를 선언했다. 데이터 보안·주권·컴플라이언스가 핵심인 규제 산업에서 특화 AI 솔루션으로 승부하겠다는 전략이다.\n\n몬트리올·베를린에 기반을 둔 릴라이언트 AI는 제약 바이오 기업의 과학 문헌 리뷰, 경쟁 분석, 비정형 과학·규제 데이터 추출을 자동화하는 지능형 연구 워크벤치를 개발했다.\n\n코히어는 릴라이언트 AI의 연구 팀, 독점 바이오메디컬 데이터셋, 도메인 최적화 기술을 엔터프라이즈급 주권형 AI 플랫폼에 통합한다. 합병 후 법인은 기존의 행정·임상·매출주기 워크플로 파트너십과 시너지를 창출하며 헬스케어·생명과학 역량을 확대할 계획이다.\n\n에이단 고메즈 CEO는 \"의료는 AI가 가장 큰 임팩트를 낼 수 있는 분야\"라면서 동시에 \"안전하고 주권적이며 도메인 특화된 시스템\"을 요구한다고 강조했다.\n\n코히어는 제약 바이오 특화 에이전틱 AI 시스템 '노스 포 파마(North for Pharma)' 개발을 가속화할 계획으로, 금융·통신 등 규제 산업을 겨냥한 기존 '노스' 제품군을 제약·바이오테크 분야로 확장한다.\n\n공동 창업자 카를 모리츠 헤르만은 베를린에서 AI 수직화 담당 부사장으로, 마크 G. 벨마레는 몬트리올에서 모델링 담당 부사장으로 합류한다. 코히어는 GSK, 메디쿠스 파마, 교와기린 등 릴라이언트 AI의 고객 관계를 인수한다.",
+      "published_at": "2026-05-20T09:01:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "삼성·구글, AI 글라스 디자인 첫 선…하반기 출시",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56873",
+      "body": "삼성전자와 구글이 패션 안경 브랜드 젠틀몬스터, 워비파커와 협력해 안드로이드 XR 기반 AI 글래스 두 가지 디자인을 공개했다. 5월 19일(현지시간) 미국 캘리포니아주 마운틴뷰에서 열린 구글 I/O 2026에서 발표됐다.\n\n이 기기에는 카메라, 마이크, 스피커가 탑재되지만 디스플레이는 없다. 음성 명령으로 내비게이션, 실시간 번역, 메시지 요약, 캘린더 관리, 사진 촬영 등을 핸즈프리로 이용할 수 있다. 구글의 AI 어시스턴트 제미나이에 스마트폰을 꺼내지 않고 접근할 수 있다.\n\n주요 기능으로는 위치 추천이 포함된 음성 길 안내, 대화 톤을 반영한 실시간 음성 번역, 메뉴·간판 텍스트 번역, 착용자 시점에서의 즉각적인 사진 촬영 등이 있다.\n\n삼성 MX사업부 김정현 부사장은 이 제품이 '삼성의 AI 비전을 확장하는 중요한 이정표'라고 밝혔다. 양 브랜드는 하드웨어 리더십과 프리미엄 디자인을 결합해 자연스러운 핸즈프리 경험을 제공한다는 점을 강조했다.\n\n이 안경은 2026년 하반기 출시될 예정이며, 세부 사양은 추후 공개될 계획이다.",
+      "published_at": "2026-05-20T02:45:00+09:00",
+      "source": "디일렉",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "지멘스-Arm, 'AGI CPU' 성능 검증 협력",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56884",
+      "body": "지멘스 EDA 사업부가 Arm과 협력해 AI 및 클라우드 시장을 위해 설계된 Arm의 첫 번째 실리콘 칩 'AGI CPU'를 검증했다. 이 협업은 지멘스의 하드웨어 검증 플랫폼 '벨로체 스트라토 CS(Veloce Strato CS)'를 활용해 물리적 칩 생산 전 단계에서 CPU의 HDL(하드웨어 기술 언어)을 테스트했다.\n\nAGI CPU는 Arm의 '니오버스 컴퓨팅 서브시스템 V3(Neoverse Compute Subsystem V3)'를 기반으로 하며 PCIe Gen 6, NVMe, CXL 기술을 통합한다. 지멘스는 하드웨어 지원 검증·에뮬레이션·프로토타이핑 솔루션으로 가상 환경에서 성능과 안정성을 검증한다.\n\n'벨로체 프로 FPGA CS 프로토타이핑'을 활용한 이 협력은 FPGA 기반 프로토타입으로 소프트웨어 개발을 수개월 앞당겨 준다.\n\n지멘스 시니어 부사장은 이 파트너십이 \"업계 최고의 성능과 채널 대역폭으로 SoC 수준에서의 검증 역량을 입증한다\"고 말했다.\n\n복잡한 멀티다이 칩 구조로 인해 기존 검증 방식을 넘어선 특화된 EDA 도구가 필요했으며, 이번 협업은 Arm의 파트너·라이선시 전반의 검증 워크플로를 표준화하는 것을 목표로 한다.",
+      "published_at": "2026-05-20T07:35:00+09:00",
+      "source": "디일렉",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "삼성전자 노사 자정 넘겨 협상…극적 타결·파업 초읽기 기로에",
+      "url": "https://www.ajunews.com/view/20260520004120325",
+      "body": "삼성전자 노사가 5월 20일 0시를 넘기도록 세종 중앙노동위원회에서 2차 사후조정을 이어갔다. 당초 예정된 오후 10시 마감을 훨씬 초과해 협상이 계속됐다.\n\n박수근 중노위 위원장은 타결을 유도하기 위한 대안 제안을 내놓으며 \"오후 10시경 합의가 이루어지지 않으면 조정안을 제출하겠다\"고 밝혔다.\n\n핵심 쟁점은 삼성전자가 박 위원장의 제안을 수용하느냐 여부다. 회사가 동의하면 노조는 합의 조건에 대한 조합원 투표를 진행하게 된다. 박 위원장은 \"경영진이 승인하고 노조가 투표를 진행해야 해 변수가 많다\"고 말했다.\n\n협상이 결렬될 경우 노조는 5월 21일부터 총파업에 돌입할 예정이다. 반도체가 한국 경제에 갖는 중요성을 감안해 정부는 긴급조정권 발동을 검토 중이지만, 노동계는 이에 강력히 반발하고 있다.\n\n1차 사후조정도 마찬가지로 합의 없이 자정을 넘겨 종료된 바 있다.",
+      "published_at": "2026-05-20T00:46:00+09:00",
+      "source": "아주경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "삼상전자 노사, 협상 막판까지 '줄다리기'…오늘 오전 10시 재개",
+      "url": "https://zdnet.co.kr/view/?no=20260520012813",
+      "body": "삼성전자와 전국금속노동조합 삼성전자지회가 5월 19일 진행한 2차 사후조정 협상에서도 합의에 이르지 못하고 자정을 넘겨 회의를 종료했다. 중앙노동위원회는 5월 20일 오전 10시 같은 장소에서 3차 조정을 재개한다고 밝혔다.\n\n노조 위원장은 \"중앙노동위원회에서 대기하며 5월 20일 사후조정에 참여하겠다\"고 밝혔다.\n\n5월 19일 오전 10시부터 시작된 장시간 협상에도 노사 간 입장 차이는 좁혀지지 않았다. 중노위는 일부 합의 가능성이 있다고 언급했으나, 노조 지도부는 협상이 결렬되면 예정대로 총파업을 강행하겠다는 뜻을 내비쳤다.",
+      "published_at": "2026-05-20T01:29:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Dell Bulks Up Hardware As AI Infrastructure Shifts To On-Premises",
+      "url": "https://www.nextplatform.com/compute/2026/05/19/dell-bulks-up-hardware-as-ai-infrastructure-shifts-to-on-premises/5242811",
+      "body": "The first day of Dell Technologies World 2026 in Las Vegas echoed sentiments from several years ago, before cloud computing dominated conversations about optimization software rather than hardware infrastructure. However, artificial intelligence — particularly agentic AI and inferencing — has shifted the focus back to infrastructure in datacenters and edge locations.\n\nDell founder and CEO Michael Dell emphasized that 67 percent of AI workloads operate outside the cloud — on premises, on devices, at the edge, or in co-location facilities. Additionally, 88 percent of survey respondents reported running at least one AI workload on premises.\n\nDell showcased the Eli Lilly LillyPod supercomputer featuring 1,016 Blackwell GPUs delivering over 9,000 petabytes of performance for drug discovery with Dell storage systems providing nearly 2 terabytes per second read bandwidth.\n\nKey product announcements include:\n- PowerRack: integrated rack-scale systems combining compute, networking, and storage in 19-inch and 21-inch configurations; can be set up in as little as 6 hours\n- PowerCool CDU C7000: handles upwards of 220kW of heat with intake temperatures as high as 40°C; supports NVIDIA's Vera Rubin NVL72 platform\n- Deskside Agentic AI: powered by NVIDIA GB10 and GB300 systems, running locally-executed agentic AI workloads\n- PowerEdge XE9812: built on NVIDIA Vera Rubin NVL72, delivers 10x lower cost-per-token than Blackwell\n\nGoogle and Dell are collaborating to bring Gemini 3 Flash models to fully on-premises confidential computing environments on Google Distributed Cloud on Dell PowerEdge XE9780 servers.\n\nNvidia co-founder and CEO Jensen Huang joined Dell on stage, noting that agentic AI dramatically accelerates timelines: 'what took months now takes weeks, what took weeks now takes days, and what takes days now takes hours.'",
+      "published_at": "2026-05-20T02:08:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "델, AI 인프라 '끝판왕' 노린다…스토리지·보안·자동화 전면 개편",
+      "url": "https://zdnet.co.kr/view/?no=20260520053906",
+      "body": "델 테크놀로지스가 에이전틱 AI 시대에 맞춘 전면적인 AI 네이티브 인프라 전략을 델 테크놀로지스 월드 2026(라스베이거스)에서 발표했다.\n\n[데이터 플랫폼 전략] 델은 구조화·비구조화·멀티모달 데이터를 자동 처리하는 '델 오케스트레이션 엔진'을 엔비디아와 공동 개발해 '델 AI 데이터 플랫폼'을 구성했다. 3개 레이어로 구성: 데이터 준비, 분산 추론, 스토리지.\n\n[스토리지 인프라]\n- 라이트닝(Lightning): 랙당 150GB/s 처리량을 제공하는 병렬 파일시스템\n- 엑사스케일(Exascale): 파워스케일, 오브젝트스케일, 라이트닝, 파워플렉스 통합 AI 전용 스토리지\n- 파워스토어 엘리트: 3x 성능 향상, 4x 처리량 개선, 5.8PB 유효 용량\n\n[서버 및 네트워킹] AI 서버 포트폴리오를 파워엣지 XE9812(엔비디아 블랙웰 울트라 기반, 랙당 최대 144 GPU 지원)로 확대. 엔비디아 스펙트럼-X 활용 파워스위치 신제품은 최대 496Tbps 스위칭 용량 제공.\n\n[보안·자동화]\n- 파워프로텍트 원(PowerProtect One): 관리 부담 50% 절감\n- 델 사이버 디텍트(Dell Cyber Detect): AI 기반 랜섬웨어 탐지 정확도 99.99%\n- 델 자동화 플랫폼·스튜디오: GenAI 기반 인프라 자동화\n\nISG 사장 아서 루이스는 \"에이전틱 엔터프라이즈는 지금 구축되고 있으며, 미래의 구상이 아니다\"라고 말했다.",
+      "published_at": "2026-05-20T05:40:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "델 테크놀로지스, AI 시대 모던 데이터센터 위한 스토리지·서버·사이버 복원력 신제품 공개",
+      "url": "https://www.etnews.com/20260520000048",
+      "body": "델 테크놀로지스가 AI 시대에 맞춘 차세대 스토리지, 컴퓨팅, 사이버보안 제품을 발표하며 모던 데이터센터 전환을 지원한다고 밝혔다.\n\n[스토리지] 델 파워스토어 엘리트는 AI 기반 소프트웨어와 차세대 하드웨어를 결합해 3U 어플라이언스에서 3배 성능 향상과 최대 5.8PB 유효 용량, 업계 최고 6:1 데이터 축소를 제공한다.\n\n[컴퓨팅] 18세대 델 파워엣지 서버는 첨단 냉각 설계로 최대 70% 성능 향상을 제공한다.\n- 수냉형 M9825: 6세대 AMD EPYC 프로세서 탑재, AI·HPC 워크로드용\n- 공랭형 XE5845·XE7845: PCIe 기반 AI 환경용\n- R9825·R9815: 시스템당 최대 256코어 지원\n\n[사이버보안] 델 파워프로텍트 원(PowerProtect One)은 통합 위협 감지·보호 관리·복구 기능을 제공한다. AI 기반 랜섬웨어 탐지는 바이트 수준에서 위협을 식별하는 99.99% 정확도를 달성했다.\n\n[자동화] 델 자동화 플랫폼은 에이전틱 인텔리전스로 인프라 관리 부담을 기존 방식 대비 최대 50% 절감한다.\n\n김경진 한국 델 테크놀로지스 사장은 \"모던 데이터센터는 IT를 단순화하는 지능형 소프트웨어로 정의된다\"며 에이전틱 자동화가 엔터프라이즈급 기반을 제공한다고 강조했다.",
+      "published_at": "2026-05-20T09:16:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "레드햇 CTO '오픈시프트 가상화, VM웨어 대체 그 이상…AI 인프라 핵심'",
+      "url": "https://zdnet.co.kr/view/?no=20260520090402",
+      "body": "레드햇 CTO 크리스 라이트(Chris Wright)는 오픈시프트 가상화가 단순한 VM웨어 대체를 넘어 AI 인프라 현대화의 핵심이라고 강조했다. 그는 애틀랜타에서 열린 레드햇 서밋 2026에서 쿠버네티스 기반 플랫폼이 단일 인프라 내에서 가상머신, 클라우드 네이티브 애플리케이션, AI 워크로드를 동시에 관리할 수 있다고 설명했다.\n\n전통적인 가상화 아키텍처는 VM, 컨테이너화 애플리케이션, AI 워크로드를 위한 별도 플랫폼이 필요해 실질적으로 세 개의 독립 시스템을 운영하는 셈이다. 라이트는 \"VM과 클라우드 네이티브 컨테이너, AI를 각각 관리하면 결국 세 개 플랫폼을 운영하게 된다\"고 지적했다.\n\n오픈시프트 가상화는 쿠버네티스로 VM 생성·배포·스케줄링을 실행해 컨테이너·AI 워크로드를 같은 시스템 내에서 관리할 수 있다. 이 방식은 통합 운영 경험, 공유 개발 환경, 통합 자원 배분을 별도 기술 스택 유지 없이 제공한다.\n\n국내 시장에 대해 라이트는 기업들이 글로벌 레퍼런스와 검증된 마이그레이션 사례를 먼저 확인하고 도입을 논의하는 경향이 있다고 관찰했다. 글로벌 마이그레이션 사례가 늘면서 국내에서도 PoC 활동이 증가하고 있다고 밝혔다.\n\n오픈시프트는 연간 반복 매출(ARR) 20억 달러를 달성했으며, 가상화가 6억 달러를 기여했다. 평가 가능한 VM 마이그레이션 잠재 규모는 110만 대에서 150만 대로 확대됐다.",
+      "published_at": "2026-05-20T09:07:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "SMIC founder and AMEC CEO urge Chinese fabs to test domestic chipmaking tools on production lines",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/smic-founder-and-amec-ceo-urge-chinese-fabs-to-test-domestic-chip-tools-on-production-lines",
+      "body": "SMIC founder Richard Chang and AMEC chairman and CEO Dr. Gerald Yin appeared together on CCTV's Dialogue program on May 17 to make a coordinated case for Chinese chipmakers to give homegrown equipment more production-line trial time. The joint television appearance came days after Chinese industry figures told Securities Times that the next three to five years will determine whether domestically built tools can move from functional prototypes to equipment that meets the yield, throughput, and uptime demands of volume manufacturing.\n\nChinese equipment makers achieved record revenues in 2025 — AMEC reached $1.74 billion with 36.6% year-over-year growth — yet margins contracted significantly due to intense domestic competition.\n\nIndustry sources indicate 'the next three to five years will determine whether domestically built tools can move from functional prototypes to equipment that meets the yield, throughput, and uptime demands of volume manufacturing.'\n\nLithography remains China's most significant bottleneck, with domestic solutions unlikely for advanced nodes before 2030. The U.S. is advancing the MATCH Act to restrict DUV lithography equipment exports to Chinese facilities.\n\nThe article frames the CCTV broadcast as Beijing's coordinated response to tightening export controls, messaging that fabs must accelerate qualification of Chinese alternatives before supply lines narrow further. Chinese companies like AMEC, Naura, and SMEE are building their own chip-making equipment to become less dependent on foreign technology.",
+      "published_at": "2026-05-20T01:01:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "빛만으로 반도체 성능 63배 높였다…DGIST, 마이크로렌즈 기반 초고해상도 광도핑 기술 개발",
+      "url": "https://www.etnews.com/20260520000029",
+      "body": "DGIST 권혁준 교수 연구팀이 빛을 활용해 2D 반도체의 전기적 특성을 정밀 제어하는 새로운 광도핑 기술 '램프(LAMP·레이저 보조 마이크로렌즈 어레이 처리)'를 개발했다.\n\nRAMP는 자기조립 폴리스티렌 마이크로 입자를 초소형 렌즈로 활용해 532nm 연속파 레이저를 회절 한계 이하로 집속하는 기술이다.\n\n단층 이황화몰리브덴(MoS₂) 트랜지스터에서 다음과 같은 성능 향상을 달성했다.\n- 온전류 최대 63배 증가\n- 전계효과 이동도 51배 향상\n- 전하 밀도 37배 향상\n\n이 기술은 MoS₂의 전기적 특성을 변형하는 핵심 결함인 황 공공(vacancy)을 화학적 불순물 없이 선택적으로 생성한다. 실제 반도체 소자 제조에 적합한 안정적이고 비휘발성 도핑 효과를 입증했다.\n\n권 교수는 이 연구가 '빛만을 이용해 원하는 위치에 원자 수준의 결함을 정밀하게 형성하는 새로운 결함 제어 플랫폼'이라고 말했다. 연구 결과는 학술지 '스몰(Small)'에 게재됐으며, 국가연구재단·교육부의 지원을 받았다.",
+      "published_at": "2026-05-20T08:15:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Google reveals Gemini-powered smart glasses with Samsung at I/O 2026, expected fall release",
+      "url": "https://thetechportal.com/2026/05/20/google-reveals-gemini-powered-smart-glasses-with-samsung-at-i-o-2026-expected-fall-release",
+      "body": "Google and Samsung are launching AI-powered smart glasses in fall 2026, built on the Android XR platform. The announcement came during Google I/O 2026.\n\nThe glasses will feature Google's Gemini AI to provide real-time assistance including translations, navigation, messaging, and object recognition. The partnership includes Qualcomm and eyewear brands like Gentle Monster and Warby Parker to create devices that resemble normal glasses rather than bulky headsets.\n\nThe core technology centers on Gemini, described as a multimodal assistant capable of processing voice, camera input, and environmental context simultaneously. Expected capabilities include live conversation translation, contextual object explanations, hands-free messaging, AR navigation, and notification summaries.\n\nThe hardware strategy emphasizes social acceptability and lightweight daily-wear design. Early versions will rely on smartphone pairing and cloud processing to reduce onboard hardware demands, improving battery efficiency and device compactness.\n\nAndroid XR functions as an open-source ecosystem rather than a single product line, positioning it similarly to Android's role in smartphones but for spatial computing. Samsung leads hardware development while Qualcomm provides XR-optimized chipsets.\n\nKey details including pricing, battery life, processing distribution, and regional availability remain undisclosed and are expected closer to launch.",
+      "published_at": "2026-05-20T04:21:00+09:00",
+      "source": "The Tech Portal",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Blackstone and Google team up for new TPU-based cloud platform",
+      "url": "https://www.datacenterdynamics.com/en/news/blackstone-and-google-team-up-for-new-tpu-based-cloud-platform",
+      "body": "Blackstone has established a joint venture with Google to create a new US-based cloud platform offering Google's Tensor Processing Units (TPUs). Blackstone is contributing $5 billion in equity to take majority ownership, with the deal valued at approximately $25 billion total including debt financing. The partnership targets 500 megawatts of data-center capacity by 2027.\n\nThe venture represents Google's competitive response to CoreWeave, positioning TPU-based infrastructure as an alternative to NVIDIA-centric solutions. The financial structure is a recognizable Blackstone infrastructure-fund template.\n\nThe move addresses internal constraints stemming from Google's aggressive external commitments, including a $40 billion Anthropic deal involving five gigawatts of TPU capacity. This partnership allows Google to move the infrastructure-financing burden off-balance-sheet while maintaining control over TPU supply and margins.\n\nPotential customer segments include foundation-model laboratories, enterprise GPU-compute users seeking TPU alternatives, and sovereign-AI buyers in jurisdictions facing NVIDIA export restrictions.\n\nBenjamin Treynor Sloss has been named as the CEO of the JV, having worked at Google for more than two decades, most recently as the company's chief programs officer. Google will supply the hardware and TPUs as well as software and services.",
+      "published_at": "2026-05-20T02:00:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "Google"
+    },
+    {
+      "title": "Dell announces PowerStore Elite storage platform, unveils 18th generation of PowerEdge servers",
+      "url": "https://www.datacenterdynamics.com/en/news/dell-announces-powerstore-elite-storage-platform-unveils-18th-generation-of-poweredge-servers",
+      "body": "Dell Technologies announced updates to its Nvidia-based Dell AI Factory portfolio at Dell Technologies World 2026 in Las Vegas, with a focus on on-premises sovereign AI infrastructure.\n\nThe headline products include:\n- PowerStore Elite: Next-generation enterprise storage with 3x performance improvements and up to 5.8PB effective capacity in a 3U appliance, with 6:1 data reduction guarantee\n- 18th Generation PowerEdge Servers: Up to 70% performance improvement through advanced cooling; includes water-cooled M9825 with 6th-gen AMD EPYC processors, air-cooled XE5845 and XE7845, and R9825/R9815 models supporting up to 256 cores\n- PowerRack: Integrated rack-scale systems combining compute, networking, and storage for AI and HPC workloads\n- PowerEdge XE9812: Built on NVIDIA Vera Rubin NVL72, delivers 10x lower cost-per-token than Blackwell\n\nDell stated that 67% of AI workloads now operate outside the cloud, with 88% of enterprises running at least one AI workload on-premises. Michael Dell said: 'AI is fueling a renaissance in enterprise hardware, a shift from bits back to atoms.'\n\nThe company also unveiled the Dell AI Data Platform developed with Nvidia, the Dell Automation Platform, and partnerships with OpenAI, Palantir, Google, SpaceXAI, Mistral AI, and Reflection to enable on-premises model deployment.",
+      "published_at": "2026-05-20T02:00:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Google I/O 2026: Sundar Pichai's opening keynote — Gemini, TPU 8, $180B capex",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "body": "Google CEO Sundar Pichai announced Google's transition into the 'agentic Gemini era' at I/O 2026, highlighting remarkable AI adoption growth across the company's products and services.\n\nKey metrics: Monthly tokens processed surged to over 3.2 quadrillion (7x year-over-year growth). Gemini app grew from 400 million to 900 million monthly active users. Search's AI Mode exceeded 1 billion monthly active users. Over 8.5 million developers building with Google's models monthly.\n\nNew Models & Capabilities: Gemini Omni Flash launched, capable of generating video outputs from any input. Gemini 3.5 Flash introduced — frontier-level capabilities at less than half the price. Gemini 3.5 Flash processes 4x faster than competing frontier models.\n\nConsumer Agents: Gemini Spark: A 24/7 personal AI agent handling long-horizon tasks. Information Agents in Search for background task monitoring. Daily Brief agent for personalized morning digests.\n\nInfrastructure Investment: Google is investing $180-190 billion in capex annually (6x the 2022 level). 8th-generation TPU chips optimized for training (TPU 8t) and inference (TPU 8i) with 2x better performance-per-watt. Blackstone-Google $5 billion joint venture to create TPU-based cloud platform for external customers.\n\nPichai stated: 'AI should not be a destination you visit. It should be the infrastructure you live inside.'",
+      "published_at": "2026-05-20T02:00:00+09:00",
+      "source": "Google Blog",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "Google"
+    },
+    {
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era",
+      "body": "Google unveiled two specialized eighth-generation Tensor Processing Units designed for the agentic era.\n\nTPU 8t (Training): Engineered for massive model development, this chip scales to 9,600 units per superpod with two petabytes of shared memory. Delivers approximately 121 ExaFlops of compute and nearly 3x the compute performance per pod compared to the previous Ironwood generation. Integrates 10x faster storage access, and when combined with Virgo Network, can provide near-linear scaling for up to 1 million chips in a single logical cluster.\n\nTPU 8i (Inference): Optimized for low-latency reasoning workloads, pairs 288GB high-bandwidth memory with 384MB on-chip SRAM — tripling SRAM versus previous generation. Doubles Interconnect bandwidth to 19.2 Tb/s and reduces ICI network diameter by over 50%. Delivers 80% better performance-per-dollar compared to the previous generation.\n\nBoth chips emphasize power efficiency, delivering up to 2x better performance-per-watt than the previous Ironwood generation. The announcement highlights co-design with Google's Axion ARM-based CPUs, and support for frameworks including JAX, PyTorch, and vLLM.\n\nVirgo Network is a new megascale data center fabric underpinning AI Hypercomputer, enabling connection of 134,000 TPUs in a single data center and over one million TPUs across multiple sites into a training cluster. Google Cloud Managed Lustre now delivers 10 TB/s of bandwidth — a 10x improvement over last year.\n\nGeneral availability is scheduled for later in 2026.",
+      "published_at": "2026-05-20T02:00:00+09:00",
+      "source": "Google Cloud Blog",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "Google"
+    },
+    {
+      "title": "Tenstorrent AI Chip Startup Draws Takeover Interest From Intel, Qualcomm",
+      "url": "https://blockonomi.com/tenstorrent-ai-chip-startup-attracts-acquisition-interest-from-intel-and-qualcomm",
+      "body": "Tenstorrent, a developer of artificial intelligence processors, has become the subject of preliminary acquisition discussions with Intel and Qualcomm, according to Bloomberg reports from May 18-19, 2026.\n\nKey details:\n- The startup has engaged in discussions with both semiconductor manufacturers and begun consulting investment banking firms to assess strategic alternatives\n- Should Tenstorrent elect to pursue a sale, industry sources suggest the transaction could command a valuation exceeding $5 billion\n- The company is particularly focused on inference — the stage after a model has been trained when it's used to power chatbots and other generative tools\n- While takeover talks are ongoing, Tenstorrent is also speaking to potential investors about a new funding round, keeping both paths open\n\nFor Qualcomm, Tenstorrent could add depth beyond mobile chips as the company expands into data centers, PCs and edge AI devices. For Intel, which has been aggressively pursuing the AI chip market, an acquisition could provide immediate inference capabilities.\n\nTenstorrent is one of several upstart chipmakers looking to take a piece of the AI compute market from leader Nvidia. All three companies — Tenstorrent, Intel, and Qualcomm — have declined to comment on the discussions.\n\nKorean outlet NewsPim first reported on this story in Korean on May 19, noting that \"Intel and Qualcomm are showing interest in acquiring AI chip startup Tenstorrent.\"",
+      "published_at": "2026-05-20T04:00:00+09:00",
+      "source": "Blockonomi",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "\"인텔·퀄컴, AI 칩 스타트업 텐스토렌트 인수 관심\" (updated)",
+      "url": "https://www.newspim.com/news/view/20260519000052",
+      "body": "인텔과 퀄컴이 AI 칩 스타트업 텐스토렌트(Tenstorrent) 인수에 관심을 보이고 있다는 보도가 나왔다. 블룸버그통신이 5월 18일(현지시간) 보도했다.\n\n텐스토렌트는 양사와 인수 예비 협상을 진행하는 동시에 투자은행을 고용해 전략적 대안을 검토 중인 것으로 알려졌다. 매각을 결정할 경우 거래 가치는 50억 달러(약 6조 9천억 원) 이상이 될 것으로 전해졌다.\n\n텐스토렌트는 추론(인퍼런스) 특화 AI 반도체 기업으로, 훈련이 완료된 모델을 챗봇 등 서비스에 활용하는 단계에 집중한다. 퀄컴에는 모바일 칩을 넘어 데이터센터·PC·엣지 AI로 사업을 확장하는 기회가 될 수 있다. 인텔로서는 AI 칩 시장 공략을 위한 즉각적인 추론 역량 확보 수단이 될 수 있다.\n\n매각과 신규 투자 유치 두 가지 경로를 모두 열어두고 협상 중인 것으로 전해진다. 세 회사 모두 공식 논평을 거부했다.\n\n텐스토렌트는 창업자 짐 켈러가 이끄는 캐나다 토론토 기반 스타트업으로, 엔비디아에 도전하는 여러 AI 반도체 신생기업 중 하나다.",
+      "published_at": "2026-05-20T05:00:00+09:00",
+      "source": "뉴스핌",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "AMD EPYC 8005 is Out with Up to 84 Zen 5 Cores in a 225W TDP Package",
+      "url": "https://www.servethehome.com/amd-epyc-8005-is-out-with-up-to-84-zen-5-cores-in-a-225w-tdp",
+      "body": "AMD has released the EPYC 8005 'Sorano' series, representing a significant upgrade from the previous EPYC 8004 generation. The most notable changes include the shift from Zen 4c to full Zen 5 cores.\n\nKey specifications: The flagship EPYC 8635P features 84 cores with a 225W TDP at a $5,799 list price. Clock speeds across all current SKUs reach 4.5GHz (up from 3.15GHz in EPYC 8004). The series supports DDR5-6400 memory.\n\nThe lineup includes models ranging from 8 to 84 cores, with entry-level options like the 8-core EPYC 8025P priced at $529.\n\nThis represents one of the first times AMD has moved a segment from one core type to another — from Zen 4c to full Zen 5 — which provides substantially more L3 cache and higher clock speeds.\n\nTarget markets: telco, edge computing, and storage applications, while competing against Intel's Xeon 6 SoC family.\n\nAMD has introduced targeted LDPC (Low-Density Parity Check) decoding optimizations to advance Layer 1 performance in vRAN deployments, helping reduce latency and accelerate forward-error-correction processing for 5G workloads. The lineup includes NEBS-compliant platform support for telco deployments.",
+      "published_at": "2026-05-20T01:30:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Napatech wins first major production order for AI SmartNIC platform",
+      "url": "https://www.napatech.com/media/press-releases/napatech-optimizes-datacenter-infrastructure-for-artificial-intelligence",
+      "body": "Napatech has secured its first major commercial production order tied to an AI infrastructure design win announced in 2025, marking a transition from development to volume deployment.\n\nThe multi-million dollar order for 1,000 next-generation programmable SmartNIC units, placed by a pioneer in AI inference systems, initiates a planned multi-year rollout. The AI customer's platform uses Napatech's SmartNIC architecture for efficient, low-latency connectivity in distributed AI workloads.\n\nThis production order represents a significant milestone for Napatech, transitioning from their earlier design win with an AI computing platform into actual volume production deployment. The contract underpins the company's unchanged financial guidance for 2026 amid rising AI infrastructure demand.\n\nIn a separate development, Napatech also won a multi-year SmartNIC deal with a Tier-1 global financial institution centered on its NT400 SmartNIC, which targets ultra-low latency and deterministic performance at 400G. The agreement is expected to exceed $3 million over two years, with $1.5 million scheduled for 2026, adding to a base of more than 50 fintech customers.",
+      "published_at": "2026-05-20T09:00:00+09:00",
+      "source": "Napatech Press Release",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Napatech"
+    },
+    {
+      "title": "AWS Summit Seoul 2026: 에이전틱 AI 시대 향한 20년 비전 제시",
+      "url": "https://aws.amazon.com/ko/events/summits/seoul",
+      "body": "AWS가 5월 20~21일 서울 코엑스에서 'AWS 서밋 서울 2026'을 개최한다. AWS가 클라우드 시장에 진입한 지 20주년이자 한국 서울 리전을 개설한 지 10주년을 맞은 이번 행사는 지난 20년을 돌아보고 에이전틱 AI 주도의 향후 20년 비전을 제시한다.\n\n5월 20일(1일차, 인더스트리 데이)에는 AWS 코리아 함기호 대표와 AWS 최고재무책임자(CFO) 존 펠튼이 에이전틱 AI 시대의 고객 혁신 지원 전략과 사례를 공유하는 기조연설을 진행한다.\n\n행사 구성:\n- 1일차(5/20): 인더스트리 데이 — AI 리더십, 리테일·커머스, 금융·핀테크, SaaS·디지털 플랫폼, 제조·하이테크, 피지컬 AI, 통신·미디어·게임, 여행·호텔, 공공·의료 등 9개 산업별 트랙\n- 2일차(5/21): AI 데이 — AI 모델 개발, 데이터 드리븐 AI, 에이전트 빌딩, 에이전트 실행·전환, 개발자 AI 시대 역량, AI 인프라, AI 보안·거버넌스, AI 기반 비즈니스 혁신, AWS 커뮤니티 등 9개 AI 중심 트랙\n\n총 18개 트랙, 100개 이상의 세션과 핸즈온 체험, 60개 이상의 파트너 참여 전시가 마련됐다. AWS의 20주년을 기념하는 특별 부스에서는 산업 현장에 활용되는 AI 솔루션을 체험할 수 있으며, AI for Industries 및 피지컬 AI 라운지도 운영된다.",
+      "published_at": "2026-05-20T09:00:00+09:00",
+      "source": "AWS Korea",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Intel tells PC makers to adopt 18A CPUs or lose their supply allocations",
+      "url": "https://www.tomshardware.com/tech-industry/intel-tells-pc-makers-to-adopt-18a-cpus-or-lose-their-allocations",
+      "body": "According to a Nikkei Asia report, Intel is compelling notebook and PC manufacturers across the US, China, and Taiwan to transition to 18A-based processors. The company has effectively halted additional consumer-market allocations of older Intel 7 CPUs, leaving OEMs with limited alternatives.\n\nIntel has redirected its constrained Intel 7 manufacturing capacity toward server and industrial customers, where profit margins are substantially higher. An industry executive noted that 'industrial-use CPU margins run roughly 20% above consumer equivalents,' making it nearly impossible for PC makers to secure additional Intel 7 stock.\n\nThe initiative encompasses two processor families built on the 18A process node:\n- Panther Lake (Core Ultra Series 3)\n- Wildcat Lake (Core Series 3)\n\nIntel indicated to partners that supply availability for these newer chips is more robust compared to legacy products including Alder Lake, Raptor Lake, and Arrow Lake processors.\n\nThis strategy effectively forces OEMs to either redesign systems around cutting-edge 18A processors or accept supply shortages. The 18A node features Intel's new RibbonFET gate-all-around transistor technology and PowerVia backside power delivery network, which Intel has been positioning as a key competitive differentiator against TSMC and Samsung Foundry.",
+      "published_at": "2026-05-19T21:13:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}
