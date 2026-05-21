@@ -1,0 +1,342 @@
+{
+  "collection_date_kst": "2026-05-21",
+  "run_summary": {
+    "total": 32,
+    "by_topic": {
+      "ai": 11,
+      "semiconductor": 8,
+      "datacenter": 5,
+      "competitor": 8
+    },
+    "by_competitor": {
+      "NVIDIA": 10,
+      "Samsung": 4,
+      "Tenstorrent": 0,
+      "Marvell": 0,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "Moreh": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Napatech": 0,
+      "Broadcom": 1,
+      "Google": 1
+    },
+    "competitor_tagged_total": 12,
+    "sources_consulted": 28,
+    "skipped_paywalled": 2,
+    "notes": "Recency window: 2026-05-21 only (last issue #012 was 2026-05-20). NVIDIA Q1 FY2027 earnings released 4:20 PM ET May 20 = 05:20 KST May 21 — dominant story of the day across all Korean and English outlets. Samsung Electronics strike averted at 22:30 KST May 20 (1.5 hours before deadline) — second dominant story. Applied Materials/Broadcom EPIC partnership: English source dated May 20 8:00 AM ET (= May 20 21:00 KST, OUT OF WINDOW); included only Korean thelec.kr article dated May 21 08:37 KST. ADI/Empower Semiconductor deal dated May 19 ET = May 20 KST — OUT OF WINDOW, excluded. Alibaba Zhenwu M890 chip announcement: English sources dated May 20 UTC = May 20 KST, OUT OF WINDOW; excluded to avoid stale carry-over. Tier 1 Korean competitors (FuriosaAI/Rebellions/Moreh/HyperAccel/FriendliAI): no standalone May 21 articles found. Tenstorrent M&A story (Bloomberg May 18) is prior to window; English recap articles also pre-window — not included. SemiAnalysis RSS stuck at Sep 2025. HPC Wire 403. Naver News section 105 JS-rendered/blocked. NetworkWorld RSS 404. Wired RSS blocked."
+  },
+  "articles": [
+    {
+      "title": "엔비디아, 1분기 매출 816억달러…12분기 연속 신기록",
+      "url": "https://www.etnews.com/20260521000004",
+      "body": "엔비디아(NVIDIA)가 2027 회계연도 1분기(2~4월) 실적에서 매출 816억 2000만 달러(약 122조 3000억 원)를 기록, 12분기 연속 매출 신기록을 달성했다. 전년 동기 대비 85% 급증했으며 전 분기 대비로는 20% 증가했다. 시장 전망치 788억 5000만 달러를 크게 웃돌았다. 조정 주당순이익(EPS)은 1.87달러로 월가 예상치 1.76달러를 상회했다. 데이터센터 부문은 전년 대비 92% 성장해 752억 달러의 매출을 기록했다. 데이터센터 컴퓨팅 604억 달러, 네트워킹 148억 달러로 구성됐다. 에지 컴퓨팅(PC·게임콘솔·자율주행) 부문은 64억 달러로 29% 성장했다. 엔비디아는 2분기 매출 가이던스를 910억 달러(±2%)로 제시했다. 이는 월가 예상치 870억 달러를 크게 웃도는 수치다. 다만 이 가이던스에는 중국 데이터센터 매출은 포함되지 않았다. 젠슨 황 CEO는 실적 발표 후 콘퍼런스콜에서 \"AI 공장 건설은 인류 역사상 최대 규모의 인프라 확장이며 놀라운 속도로 가속화되고 있다\"고 말했다. 엔비디아는 차세대 플랫폼 베라 루빈의 3분기 출하 시작, 4분기 양산 돌입을 재확인했다.",
+      "published_at": "2026-05-21T06:24:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아, 12분기 연속 매출 신기록…데이터센터가 실적 견인",
+      "url": "https://www.ajunews.com/view/20260521062826184",
+      "body": "엔비디아가 2027 회계연도 1분기(2026년 2~4월)에 매출 816억 2000만 달러를 기록, 12분기 연속 매출 신기록을 달성했다. 전 분기 대비 20%, 전년 동기 대비 85% 증가한 수치다. 시장 예상치 788억 5000만 달러를 3.5% 상회했다. 조정 EPS는 1.87달러로 예상치 1.76달러를 웃돌았다. 데이터센터 매출은 752억 달러로 92% YoY 성장했다. 컴퓨팅 604억 달러, 네트워킹 148억 달러로 구성됐다. 에지 컴퓨팅은 64억 달러, 29% 성장했다. 2분기 가이던스는 910억 달러로 월가 컨센서스 870억 달러를 크게 웃돌았으나 중국 데이터센터 매출은 제외됐다. 젠슨 황 CEO는 \"AI 팩토리 건설이 전례 없는 속도로 가속화되고 있다\"며 엔비디아를 \"모든 클라우드와 AI 모델을 지원하는 유일한 플랫폼\"으로 규정했다. CFO 콜레트 크레스는 베라 루빈 출하를 3분기에 시작해 4분기 램프업하고, 2027 회계연도 1분기에 대규모 매출이 발생할 것이라고 밝혔다.",
+      "published_at": "2026-05-21T06:34:00+09:00",
+      "source": "아주경제",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아, 4월 분기 '깜짝 실적'...젠슨 황 \"AI 시장 굳건, 올해 DC 1조달러 투자\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=152033",
+      "body": "엔비디아(NVIDIA)가 2027 회계연도 1분기(2~4월)에 매출 816억 1500만 달러를 기록, 시장 예상치를 상회했다. 영업이익(GAAP)은 535억 3600만 달러(약 80조 2200억 원)로 전년 대비 147% 급증했다. 매출총이익률은 74.9%로 집계됐다. 젠슨 황 CEO는 실적 발표 콘퍼런스콜에서 \"하이퍼스케일러 설비투자(CAPEX)가 올해 1조 달러에 달할 것\"이라며 \"성장세가 지속될 것\"이라고 강조했다. 그는 \"10메가와트 이상 데이터센터가 1년 사이에 두 배 이상 증가해 전 세계 80곳을 넘었다\"고 설명했다. 베라 CPU와 관련해 황 CEO는 \"AI 에이전트 시대에는 GPU가 AI 모델의 '생각'을 담당하고, 에이전트가 수행하는 작업의 오케스트레이션은 CPU가 맡는다. 수십억 개의 에이전트가 등장하면 CPU 수요도 폭발적으로 늘어날 것\"이라며 \"올해 베라 CPU에서 200억 달러 매출이 예상된다\"고 언급했다. CFO 크레스는 베라 루빈 3분기 출하 시작, 4분기 본격 양산을 재확인했다. 중국 관련 매출은 2분기 가이던스에서 제외됐다.",
+      "published_at": "2026-05-21T07:34:00+09:00",
+      "source": "테크M",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AI 버블 일축...엔비디아 \"향후 AI 투자 3조 달러 시대 온다\"",
+      "url": "https://zdnet.co.kr/view/?no=20260521073258",
+      "body": "엔비디아 젠슨 황 CEO가 Q1 FY2027 실적 발표 콘퍼런스콜에서 AI 투자 거품론을 일축하며 장기 성장에 대한 강한 자신감을 내비쳤다. 황 CEO는 \"애널리스트들은 하이퍼스케일러 투자가 내년 1조 달러에 달할 것이며 장기적으로는 3~4조 달러까지 지속 성장할 것\"이라고 밝혔다. 엔비디아의 Q1 매출은 816억 달러로 전년 대비 85% 증가했다. '에이전트 AI 시대의 도래'를 선언한 황 CEO는 \"토큰이 실제 매출을 창출하고 있으며 주요 AI 기업들이 더 많은 서비스를 생산하기 위해 경쟁하고 있다\"고 강조했다. 베라 루빈 플랫폼 출하(Q3 시작, Q4 양산), 베라 CPU 별도 공급, 블랙웰 울트라 램프업이 주요 전략으로 제시됐다. 엔비디아는 2분기 910억 달러 가이던스를 제시했으나 중국 데이터센터 매출은 제외했다. 크레스 CFO는 \"중국에 대한 실제 H200 판매는 아직 이루어지지 않았으며 중국 수입 허가 현황이 불확실하다\"고 밝혔다.",
+      "published_at": "2026-05-21T07:56:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "글로벌 시총 1위 엔비디아 또 매출 신기록⋯전년比 85%↑",
+      "url": "https://www.etoday.co.kr/news/view/2586547",
+      "body": "엔비디아(NVIDIA Corporation)가 2027 회계연도 1분기(2026년 2~4월) 매출 816억 2000만 달러(약 122조 3000억 원)를 기록, 12분기 연속 매출 신기록을 달성했다. 전년 동기(441억 달러) 대비 85% 급증, 전 분기(681억 달러) 대비 19.8% 증가했다. 시장 전망치 788억 5000만 달러를 3.5% 웃돌았다. 조정 EPS는 1.87달러로 예상치 1.76달러를 상회했다. 데이터센터 매출은 752억 달러(92% YoY). 컴퓨팅 604억 달러, 네트워킹 148억 달러. 에지 컴퓨팅 64억 달러(29% YoY). 2분기 가이던스는 910억 달러(±2%)로 월가 870억 달러 예상을 크게 웃돌았다. 이 가이던스에는 중국 데이터센터 매출이 포함되지 않았다. 젠슨 황 CEO는 \"AI 공장 건설은 전례 없는 속도로 가속화되고 있다\"고 강조했다. 이사회는 800억 달러 자사주 매입 프로그램을 승인했으며 분기 배당금을 0.01달러에서 0.25달러로 25배 인상했다.",
+      "published_at": "2026-05-21T07:44:00+09:00",
+      "source": "이투데이",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아, 1분기 매출 85% 급증·800억 달러 자사주 매입 발표",
+      "url": "https://www.newspim.com/news/view/20260521000059",
+      "body": "엔비디아가 Q1 FY2027(2026년 2~4월) 매출 816억 달러를 기록, 예상치를 크게 상회했다. 조정 EPS는 1.87달러(예상 1.76달러). 이사회는 800억 달러 자사주 매입 프로그램을 승인하고 분기 배당금을 0.01달러에서 0.25달러로 인상했다. 분기 잉여현금흐름은 486억 달러로 전 분기 349억 달러를 크게 웃돌았다. 2분기 매출 가이던스 910억 달러(±2%)는 월가 컨센서스 868억 4000만 달러를 5% 상회하며 주요 긍정 요소로 작용했다. 젠슨 황 CEO는 \"에이전트 AI 시대가 도래했으며, AI 팩토리 건설은 가속화되고 있다\"고 강조했다. 베라 루빈 플랫폼은 Q3 출하 시작, Q4 대규모 램프업 예정이다. 차세대 베라 CPU를 통한 신규 200억 달러 TAM도 언급됐다. 시간외 거래에서 NVDA 주가는 0.34% 하락한 222.70달러로 마감했다.",
+      "published_at": "2026-05-21T05:49:00+09:00",
+      "source": "뉴스핌",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "빅테크 AI 경쟁에 웃는 엔비디아...데이터센터 매출 2배 급증",
+      "url": "https://www.sedaily.com/article/20046596",
+      "body": "엔비디아가 Q1 FY2027 매출 816억 달러를 기록했다. 전년 동기 대비 85% 증가, 전 분기 대비 20% 증가로 12분기 연속 신기록이다. 데이터센터 매출은 752억 달러로 92% 급증했다. AWS, 구글, 마이크로소프트, 메타 등 하이퍼스케일러들의 AI 투자 경쟁이 수요를 견인했다. 조정 EPS는 1.87달러(예상 1.76달러). 2분기 가이던스는 910억 달러로 월가 예상 860억 달러를 크게 웃돌았다. 2026년 주요 하이퍼스케일러 합산 CAPEX는 7000억 달러를 초과할 전망이다. 젠슨 황 CEO는 \"AI 팩토리 건설은 인류 최대의 인프라 확장\"이라며 엔비디아가 \"모든 클라우드에서 운용되는 유일한 플랫폼\"이라고 강조했다. 시간외 거래에서 주가는 소폭 상승하며 마감했다. 한편 구글 TPU 등 맞춤형 칩이 GPU 대안으로 부상하고 있다는 우려도 제기됐다.",
+      "published_at": "2026-05-21T06:26:00+09:00",
+      "source": "서울경제",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Jensen Huang says he's found a 'brand new' $200B market for Nvidia",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "body": "Nvidia CEO Jensen Huang identifies a brand-new $200 billion total addressable market in CPUs designed for agentic AI. The market centers on Vera, Nvidia's new purpose-built Arm-based CPU with 88 custom Olympus cores, designed for the orchestration and execution layer of AI agents. Huang explained that while GPUs handle the 'thinking' of AI models, agents primarily operate on CPUs to execute tasks. He projected the world will have 'billions of agents' each requiring CPU resources, similar to how humans use personal computers. Nvidia has already achieved 'nearly $20 billion' in standalone Vera CPU revenue visibility for this year. The Vera CPU delivers twice the efficiency and 50% faster performance than traditional rack-scale CPUs, with 1.2 TB/s memory bandwidth. Key hyperscaler customers include Alibaba Cloud, ByteDance, Meta, Oracle Cloud Infrastructure, and CoreWeave. System makers Dell Technologies, HPE, Lenovo, Supermicro are building Vera-based systems. The CPU is now in production, with partner availability in H2 2026. During the Q1 FY2027 earnings call (revenue $81.6B, +85% YoY), Huang emphasized: 'The world is rebuilding computing for agentic AI and robotic AI. And Nvidia sits at the center of it all.'",
+      "published_at": "2026-05-21T09:28:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA Q1 FY2027: EPS $2.39 Beats $1.75 Est., Revenue $81.6B Tops $78.80B — Data Center Hits $75.2B, +92% YoY",
+      "url": "https://blockonomi.com/nvidia-q1-fy2027-revenue-hits-record-81-6-billion-as-ai-infrastructure-demand-accelerates/",
+      "body": "NVIDIA reported record Q1 FY2027 results on May 20, 2026. Total revenue: $81.615 billion (85% YoY, 20% QoQ), beating $78.80B consensus. GAAP diluted EPS: $2.39 (214% YoY). Non-GAAP EPS: $1.87 (140% YoY). GAAP gross margin: 74.9% (up from 60.5% YoY, driven by lower inventory reserves vs. prior year $4.5B H20 chip charge). GAAP net income: $58.3 billion (211% YoY). Operating cash flow: $50.3B. Free cash flow: $48.6B. Data Center: $75.246B (92% YoY) — Hyperscale $37.869B (115% YoY), ACIE (AI Cloud, Industrial, Enterprise) $37.377B (74% YoY). Zero H20/Hopper China shipments in quarter. Data Center compute: $60.4B (77% YoY). Networking: $14.8B (199% YoY). Edge Computing: $6.369B (29% YoY). Q2 FY2027 guidance: ~$91B (±2%), excludes all China DC compute. Gross margin guidance: 74.9% ±50bps. $80B new share repurchase authorization (no expiration); remaining $38.5B. Quarterly dividend raised from $0.01 to $0.25/share. CEO Jensen Huang: 'The buildout of AI factories — the largest infrastructure expansion in human history — is accelerating at extraordinary speed. Agentic AI has arrived, doing productive work, generating real value.' CFO Colette Kress confirmed Vera Rubin will ship Q3 FY2027, ramp in Q4. NVIDIA introduced new two-segment reporting: Data Center (Hyperscale + ACIE) and Edge Computing. New partnerships: Hyundai, Kia, BYD, Uber, Google Cloud, Marvell for autonomous driving and ecosystem. Blackwell drove ~70% of data center compute last quarter. Data centers >10MW globally doubled YoY, now >80 facilities.",
+      "published_at": "2026-05-21T06:00:00+09:00",
+      "source": "Blockonomi",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아 1분기 실적 발표: 영업이익 147% 급증, 베라루빈 3분기 출하 확정",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56961",
+      "body": "엔비디아가 2027 회계연도 1분기(2026년 2~4월) 실적을 발표했다. 매출 816억 1500만 달러(약 122.3조원)로 전년 대비 85%, 전 분기 대비 약 19.8% 증가해 12분기 연속 매출 신기록을 달성했다. 영업이익(GAAP)은 535억 3600만 달러(약 80조 2200억 원)로 전년 대비 147% 급증했다. GAAP EPS는 2.39달러(YoY +214%). 총이익률은 74.9%. 데이터센터 부문: 752억 4600만 달러(YoY +92%). 하이퍼스케일 378억 6900만 달러(YoY +115%), ACIE 373억 7700만 달러(YoY +74%). 컴퓨팅 604억 달러, 네트워킹 148억 달러. 에지 컴퓨팅: 63억 6900만 달러(YoY +29%). 2분기 가이던스: 910억 달러(±2%), 중국 데이터센터 매출 제외. 총이익률 74.9%(±0.5%p). 젠슨 황 CEO는 '에이전트 AI가 도래했으며, 수십억 개의 에이전트가 등장할 것'이라며 베라 CPU의 새로운 2000억 달러 TAM을 언급했다. CFO 크레스는 베라 루빈 출하 Q3 시작, Q4 대규모 램프업, 2027년 1분기 대규모 매출 발생을 공식 확인했다. 이사회는 800억 달러 자사주 매입 프로그램을 승인, 분기 배당금을 0.01달러에서 0.25달러로 인상했다.",
+      "published_at": "2026-05-21T09:13:00+09:00",
+      "source": "더일렉",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "삼성전자 총파업 피했다…노사, 성과급 절충안 잠정 합의",
+      "url": "https://www.etnews.com/20260520000533",
+      "body": "삼성전자 노사가 총파업 돌입을 불과 90분 앞두고 2026년 임금·성과급 협상 잠정합의안을 도출했다. 노사는 5월 20일 밤 경기 수원시 경기지방고용노동청에서 김영훈 고용노동부 장관 주재 하에 약 6시간 30분 만에 잠정 합의안을 도출하고 서명했다. 핵심 쟁점이었던 적자사업부 성과급 배분 방식을 두고 회사 측이 1년간 유예하기로 하면서 극적 타결에 성공했다. 기존 OPI(초과이익성과급) 제도는 유지하면서 DS(반도체) 부문에 별도의 특별경영성과급 제도를 새로 도입하기로 합의했다. 특별경영성과급 재원은 사업성과의 10.5%로 정했고 지급 상한은 두지 않기로 했다. 노조 공동투쟁본부는 '5월 21일부터 6월 7일까지 예정했던 총파업은 추후 별도 지침이 있을 때까지 유보한다'고 공지했다. 조합원 찬반투표는 5월 22일부터 27일까지 진행된다. 잠정 합의가 가결되면 파국은 피하게 된다. 이번 분쟁은 지난해 12월부터 이어진 임금·성과급 갈등이 올해 초 협상 결렬로 번져 조합원 93.1% 찬성으로 파업권 확보 후 극적으로 타결된 것이다.",
+      "published_at": "2026-05-20T23:22:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "[일지]삼성전자 파업 직전 노사 극적 타결로 파국 막았다",
+      "url": "https://www.fnnews.com/news/202605210007281331",
+      "body": "삼성전자 노사가 5월 20일 밤 총파업 예고 약 90분을 앞두고 2026년 임금협약 잠정 합의안에 서명했다. 2025년 12월 시작된 임금 협상의 파국을 극적으로 막았다. 핵심 합의 내용: ▲기존 OPI(초과이익성과급) 제도 유지 ▲DS부문 특별경영성과급 신설 ▲특별성과급 재원은 사업성과의 10.5% ▲지급 상한 없음 ▲적자사업부 성과급 배분 방식 1년간 유예. 노조 대표 최승호 위원장은 '총파업 투쟁지침 제3호를 유보한다'고 발표했다. 회사 대표 여명구 수석은 '성과보상 원칙을 지키면서 대화를 통해 최선의 해법을 찾았다'고 밝혔다. 협상 일지: 12월 첫 교섭 시작 → 2월 협상 결렬, 노동위 조정 신청 → 3월 파업권 93.1% 가결 → 5월 8일 사후조정 수용 → 5월 15~16일 이재용 회장 공개 사과 후 중재 재개 → 5월 20일 최종 합의. 찬반투표는 5월 22~27일 진행. 조합원 과반 찬성 시 최종 가결된다.",
+      "published_at": "2026-05-21T00:07:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung narrowly avoids 18-day chip strike after last-minute wage deal with 48,000-worker union — tentative deal subject to workers' vote",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/samsung-narrowly-avoids-18-day-chip-strike-after-last-minute-wage-deal-with-48-000-worker-union-tentative-deal-subject-to-workers-vote-suspends-billions-of-dollars-worth-of-potential-losses",
+      "body": "Samsung Electronics narrowly avoided an 18-day strike at its South Korean chip facilities after reaching a last-minute wage agreement with its 48,000-member union on May 20, just hours before workers were scheduled to walk out. The labor union suspended the planned strike (May 21–June 7) to put the tentative deal to an internal vote, with voting scheduled for May 22–27. The dispute centered on performance bonuses: the union demanded Samsung allocate 15% of annual operating profit to bonuses and remove a 50% annual salary cap. Samsung resisted, citing differences in profitability across divisions. Escalation timeline: Negotiations broke down in February and March. A previous one-day strike involved over 40,000 workers and caused foundry output to 'fall sharply' during night shifts. Samsung had begun winding down production ahead of the threatened action. Economic impact: Analysts warned of potential daily losses around 1 trillion won if production halted, with broader economic risks in the tens of billions of dollars. The compromise: Samsung agreed to postpone implementation changes for loss-making divisions' bonus distribution for one year, while maintaining its core performance-reward principles. A newly formalized special compensation system for semiconductor divisions was also introduced. Next step: Union member approval remains uncertain — rejection could reinstate strike threats at a critical moment in the global AI chip supply chain.",
+      "published_at": "2026-05-21T02:53:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "삼성전자 총파업 직전 합의…\"억눌렸던 주가 강력한 반등 촉매\"",
+      "url": "https://www.fnnews.com/news/202605210602299362",
+      "body": "삼성전자 노사가 5월 20일 밤 총파업 직전 잠정 합의에 이르면서 증권가는 삼성전자 주가에 강력한 반등 촉매가 될 것이라고 평가했다. 합의 직전인 5월 20일 삼성전자 주가는 협상 결렬 소식에 10분 만에 6.38% 폭락했다가 이후 대화 가능성이 열리면서 낙폭이 축소돼 전일 대비 0.18%(500원) 상승한 276,000원으로 마감했다. 이번 합의로 그동안 삼성전자 주가 상승을 제한했던 불확실성이 해소됐다. 최근 한 달간 삼성전자(28.67%) 주가 상승률이 SK하이닉스(49.66%)의 절반에 불과했는데 이는 파업 우려가 밸류에이션 할인으로 작용했기 때문이다. 증권가는 '억눌렸던 주가의 강력한 반등 촉매'로 작용할 것이라고 분석했다. 유진투자증권은 목표주가를 36만원에서 50만원으로, 미래에셋증권은 40만원에서 48만원으로 상향했다. 삼성전자의 2026년 영업이익 증가율은 638%로 전망된다. 찬반투표는 5월 22~27일 진행된다.",
+      "published_at": "2026-05-21T06:02:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Electronics, SK Hynix Jump 6.16% and 4.3% in Premarket on Labor Deal, Nvidia Earnings",
+      "url": "https://en.bloomingbit.io/feed/news/112545",
+      "body": "Samsung Electronics and SK Hynix experienced significant premarket gains on Nextrade on May 21, 2026. Samsung rose 6.16% to 293,000 won and SK Hynix climbed 4.3% to 1.82 million won as of 8:05 AM. Two primary catalysts drove the rally. First, Samsung Electronics' management and labor union reached a provisional deal just 90 minutes before a planned general strike on May 20. This tentative wage agreement averted what would have been the company's largest strike in history, removing market concerns about potential losses of approximately 100 trillion won and broader semiconductor supply chain disruption. Second, Nvidia posted a 12th straight quarterly revenue record, with first-quarter fiscal year revenue reaching $81.62 billion — surpassing the $78.85 billion consensus estimate. The company projected second-quarter revenue of $91 billion. CEO Jensen Huang emphasized that 'the buildout of AI factories...is accelerating at a striking pace,' positioning Nvidia as the dominant platform across cloud services and computing applications. The combined catalyst of Samsung's strike resolution and Nvidia's strong earnings provided the semiconductor sector with positive momentum heading into regular trading.",
+      "published_at": "2026-05-21T08:45:00+09:00",
+      "source": "Bloomingbit",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "코스피, 삼성전자 노사 합의에 반등할까…외국인·개인 수급 공방 '주목'",
+      "url": "https://biz.heraldcorp.com/article/10742432",
+      "body": "삼성전자 노사가 총파업 직전 극적 합의에 이르면서 코스피 반등 기대가 높아지고 있다. 코스피는 5월 20일 7,208.95로 마감, 전일 대비 0.86% 하락하며 2거래일 연속 하락세를 보였다. 코스피는 7,053.84까지 하락하며 7,000선 지지 여부가 주목됐다. 외국인 투자자는 10거래일 연속 매도세를 이어가며 2조 9310억 원을 순매도했다. 개인 투자자는 같은 기간 1조 7100억 원을 순매수했다. 미국 증시는 다우존스 1.31%, S&P500 1.08%, 나스닥 1.55% 상승했다. 미국 30년물 국채금리는 한때 2007년 이후 최고치인 5.197%까지 올랐다가 5.114%로 하락했다. 삼성전자 파업 타결과 엔비디아 호실적이 겹치면서 장 전 거래에서 삼성전자는 6.16%, SK하이닉스는 4.3% 상승했다. 키움증권 한지영 연구원은 '잠정합의 타결이 반도체주에 긍정적 수급 여건을 만들 것'이라고 평가했다.",
+      "published_at": "2026-05-21T08:45:44+09:00",
+      "source": "헤럴드경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Memory makers brace for hydrogen fluoride pricing shock as Hormuz blockade impacts supply chain",
+      "url": "https://www.tomshardware.com/tech-industry/memory-makers-brace-for-hydrogen-fluoride-pricing-shock-as-hormuz-blockade-impacts-supply-chain-key-etching-and-cleaning-material-faces-sharp-cost-increase-amid-trade-disruption",
+      "body": "A Strait of Hormuz blockade stemming from the US-Iran conflict is disrupting the supply of anhydrous hydrogen fluoride (HF), a critical chemical used in semiconductor etching and cleaning. HF production depends on sulfuric acid derived from sulfur — a byproduct of oil and gas refining now constrained by regional instability. China, the world's largest HF exporter, has restricted exports as sulfuric acid demand surges from fertilizer, steel, and battery industries. Prices for hydrogen fluoride have jumped 'as much as 130% over early-2026 levels,' with South Korean chemical suppliers (Soulbrain, ENF Technology, Foosung) expecting to pass these costs to Samsung and SK Hynix by July 2026. Korean chemical firms began receiving higher-priced HF shipments in mid-May. Sulfuric acid comprises over 50% of HF production costs, making the material particularly vulnerable to refining disruptions. Historical context: A 2019 Japan-South Korea trade dispute restricted HF supplies by 87.9%, yet consumer memory prices remained relatively stable due to inventory buffers. Today's situation differs critically: 'There is no glut of memory chips to buffer material supply concerns. There's a global shortage.' Mitigation: Fluoride Korea's new Ulsan plant (projected Q4 2026 startup, 50,000-ton capacity) could address half of South Korea's demand and provide relief.",
+      "published_at": "2026-05-21T02:07:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic says it's about to have its first profitable quarter",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+      "body": "Anthropic has informed investors it will achieve its first profitable quarter with projected Q2 revenue of approximately $10.9 billion — more than doubling from the previous quarter. The company expects to deliver an operating profit, marking a significant financial milestone. However, this profitability may be temporary. According to reporting, 'it may not remain profitable throughout the year due to the large compute costs it's scheduled to incur.' The strong performance reflects growing market preference for Anthropic's Claude chatbot among professionals. The company has also expanded strategically by launching services targeting small business owners and developing specialized tools for law firms, broadening its customer base beyond initial markets. This announcement coincided with news that OpenAI is preparing for an IPO, positioning the two AI competitors differently in the market — one approaching profitability while the other pursues public markets funding. Anthropic declined to comment further on the financial projections shared with investors. Separately, Anthropic is in active talks to raise $50 billion at a $900 billion valuation, surpassing OpenAI in private market pricing, ahead of an IPO as early as October 2026.",
+      "published_at": "2026-05-21T09:21:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI to file for IPO this week, targeting $1 trillion debut",
+      "url": "https://thenextweb.com/news/openai-ipo-confidential-filing-anthropic-race",
+      "body": "OpenAI is preparing a confidential IPO prospectus filing as soon as this week, with Goldman Sachs and Morgan Stanley as advisors. The company targets an autumn debut, potentially in September 2026, at a valuation exceeding $1 trillion. OpenAI's most recent private funding round in March raised $122 billion at an $852 billion valuation. Market reaction: Prediction market odds shifted dramatically in OpenAI's favor following the announcement. Kalshi jumped from 32% to 83% probability of OpenAI beating Anthropic to IPO. Polymarket: Anthropic's chances of listing first collapsed from 69% to 20%. Context: A California jury recently dismissed all claims in Elon Musk's lawsuit against OpenAI and Sam Altman, removing a persistent legal cloud over the company's governance and for-profit transition. Competitive dynamics: Anthropic, OpenAI's chief rival, was previously expected to list first but now faces pressure. Anthropic has $30 billion in annualized revenue but would need to rush its IPO process or wait until 2027 if OpenAI lists in September. Broader implications: This IPO race represents part of a larger wave — SpaceX is also expected to file in 2026 with a $1.5 trillion valuation target, potentially adding nearly $3 trillion in new public market capitalization.",
+      "published_at": "2026-05-21T05:19:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SpaceX files IPO prospectus, offers a peek into its finances — Nasdaq SPCX, targets $1.7T valuation",
+      "url": "https://fortune.com/2026/05/20/spacex-finally-files-ipo-prospectus-reveals-revenue-is-up-but-losses-are-too/",
+      "body": "SpaceX filed its S-1 prospectus publicly, planning to list on Nasdaq and Nasdaq Texas under ticker 'SPCX.' The company seeks to raise $80 billion, valuing itself at $1.7 trillion — surpassing Saudi Aramco's previous IPO record of $26 billion in 2019. Financial overview: 2025 full-year revenue: $18.7 billion (33% increase from $14.1 billion in 2024). Q1 2026 net loss: $4.27 billion (versus $528 million year-ago). Accumulated deficit: $41.3 billion as of March 31. Business segments: Starlink (satellite communications) is the primary revenue engine, representing over two-thirds of revenue with $1.2 billion quarterly profit. Space and AI divisions both operated at losses during Q1. Key governance: Elon Musk maintains 85% voting power through Class B shares. The company granted him 1 billion performance-based shares contingent on establishing 'a permanent human colony on Mars with at least one million inhabitants.' Notable partnership: Anthropic committed to paying SpaceX $1.25 billion monthly through 2029 for cloud computing capacity. IPO timeline: Investor roadshow scheduled to kick off June 4, share pricing anticipated for June 11, trading debut expected June 12. Underwriters: Goldman Sachs and Morgan Stanley leading, with BofA, Citi, JPMorgan Chase.",
+      "published_at": "2026-05-21T06:23:00+09:00",
+      "source": "Fortune",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "AMD Ryzen AI Max PRO 400 'Gorgon Halo' packs up to 192GB of unified memory — refreshed APU for AI systems",
+      "url": "https://www.servethehome.com/amd-reveals-ryzen-ai-max-pro-400-series-192gb-ram-for-ai-systems/",
+      "body": "AMD unveiled the Ryzen AI Max PRO 400 family ahead of Computex, featuring a significant memory capacity upgrade. The new chips support up to 192GB of RAM, representing a 50% increase over the previous 300 series' 128GB maximum. Top-tier SKU (Ryzen AI Max+ PRO 495): 16 Zen 5 CPU cores with 5.2GHz boost, RDNA 3.5 integrated GPU (Radeon 8050S, 40 compute units), 55 TOPS NPU, 45-120W TDP range, up to 192GB LPDDR5X memory support. Additional SKUs: Ryzen AI Max PRO 490 (12 cores, 5.0GHz), Ryzen AI Max PRO 485 (8 cores, 5.0GHz). The expanded memory allows systems to allocate as much as 160GB to the GPU, enabling support for larger AI models — enough to load a 300B FP4 parameter model locally. AMD acknowledges that 'this change is not likely to move the needle on performance,' as compute throughput and bandwidth remain unchanged. Systems launching Q3 2026 through ASUS, Lenovo, and HP. AMD is exclusively releasing PRO SKUs with enterprise management features, signaling an AI-focused positioning rather than consumer applications. Development kits with previous-generation Strix Halo chips will be available for pre-order in June starting at $3,999.",
+      "published_at": "2026-05-21T09:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Applied Materials와 Broadcom, AI 패키징 혁신 위해 EPIC 플랫폼 파트너십 체결",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56959",
+      "body": "어플라이드 머티어리얼즈(Applied Materials)는 브로드컴(Broadcom)이 EPIC(Equipment and Process Innovation for Commercialization) 플랫폼의 혁신 파트너로 참여한다고 발표했다. 양사는 차세대 AI 시스템을 위한 첨단 칩 패키징 기술 연구개발을 협력할 계획이다. EPIC 센터는 실리콘밸리에 건설 중인 50억 달러 규모의 R&D 시설로 삼성전자, SK하이닉스, TSMC, 마이크론 등이 투자했으며 2026년 하반기 개소 예정이다. 이 시설은 '반도체 기업의 연구에서 양산까지 상용화 기간을 획기적으로 단축'하는 것을 목표로 한다. 협력 분야는 하이브리드 본딩과 광학 연동 패키징(CPO) 등 이종 집적·첨단 패키징 기술에 집중된다. 게리 딕커슨 어플라이드 CEO는 'EPIC 플랫폼은 생태계 전반의 협업 혁신을 달성하기 위해 설계됐다'고 강조했다. 찰리 카와스 브로드컴 반도체솔루션 사업부장은 '차세대 AI 시스템 구현을 위해 전체 공급망의 긴밀한 협업이 필수적'이라고 밝혔다.",
+      "published_at": "2026-05-21T08:37:00+09:00",
+      "source": "더일렉",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "Broadcom"
+    },
+    {
+      "title": "Nvidia earnings takeaways: Data center revenue nearly doubles, report is strong but stock slides",
+      "url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html",
+      "body": "Nvidia reported strong Q1 FY2027 earnings with data center revenue nearly doubling. Total revenue: $81.62 billion (85% YoY), beating consensus of $78.85 billion. Data Center revenue: $75.2 billion (92% YoY). Adjusted EPS: $1.87 (above $1.77 estimate). Q2 guidance: $91 billion, exceeding Wall Street's $87 billion estimate. Despite the strong beat, Nvidia stock initially fell more than 2% in after-hours trading, extending a pattern where strong earnings haven't translated to significant stock gains — NVDA fell 5% after Q4 FY2026 results in February, and was down 3% and 0.8% following the previous two reports. The last time NVIDIA saw a double-digit stock move on earnings was more than two years ago, in early 2024. Capital returns: $20 billion returned to shareholders in Q1; new $80 billion buyback authorization; quarterly dividend raised from $0.01 to $0.25/share. Data Center networking revenue: $14.8 billion (+199% YoY). Data Center compute: $60.4 billion. Blackwell drove close to 70% of data center compute. Vera Rubin will ship Q3 FY2027 and ramp in Q4. The Q2 guidance excludes any Data Center compute revenue from China, reflecting ongoing uncertainty over H200 export licensing — zero H200 chips shipped to China despite US approval since December.",
+      "published_at": "2026-05-21T05:00:00+09:00",
+      "source": "CNBC",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA Q1 Earnings Call Highlights: Vera Rubin July Delivery, $500B Backlog Visibility, China Zero Revenue",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q1-earnings-call-highlights-230509694.html",
+      "body": "Key highlights from NVIDIA's Q1 FY2027 earnings call (May 20, 2026): Revenue $81.6B (+85% YoY), Data Center $75.2B (+92% YoY). Q2 guidance $91B excludes all China data center compute revenue. CFO Colette Kress: Vera-Rubin will ship during fiscal Q3 FY2027 and will ramp in Q4; large revenue expected Q1 FY2028. NVIDIA has $500B in Blackwell and Rubin revenue visibility locked in from calendar 2025 through end of 2026. Jensen Huang confirmed: Pilot production of Vera Rubin has begun in June with first batch to major North American cloud providers in July. NVIDIA went from roughly 90% market share in China to zero; Q1 had zero H20 Hopper GPU shipments to China. Huang: 'The world is rebuilding computing for agentic AI and robotic AI. And Nvidia sits at the center of it all.' Agentic AI context: Vera CPU opens $200B new TAM; NVIDIA has $20B visibility in standalone Vera CPU revenue this year. Blackwell Ultra ramp: All major hyperscalers (Google, Microsoft, Amazon, Meta, Oracle) are deploying Blackwell at scale. Data centers >10MW more than doubled YoY, now >80 globally. Networking revenue $14.8B (+199% YoY) driven by Spectrum-X adoption for Ethernet-based AI clusters.",
+      "published_at": "2026-05-21T07:00:00+09:00",
+      "source": "Yahoo Finance",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아 실적 발표 코스피 반등 기대: 엔비디아·삼성전자 파업 타결 동반 호재",
+      "url": "https://biz.heraldcorp.com/article/10742352",
+      "body": "엔비디아가 2027 회계연도 1분기 매출 816억 달러를 기록하며 시장 예상치를 상회했다. 2분기 가이던스 910억 달러(중국 제외)도 월가 예상 870억 달러를 크게 웃돌았다. 조정 EPS 1.87달러(예상 1.77달러). 이와 함께 삼성전자 노사가 파업 90분 전 극적 합의에 이르면서 코스피와 반도체주에 이중 호재가 됐다. 엔비디아는 분기 배당금을 0.01달러에서 0.25달러로 25배 인상하고 800억 달러 자사주 매입 프로그램을 승인했다. 베라 루빈은 3분기 출하 시작, 4분기 대량 생산. 중국 H200 수출 승인에도 불구하고 실제 판매는 여전히 '제로' — 중국 측 수입 거부로 2분기 가이던스에서도 제외됐다. 시간외 거래에서 NVDA 주가는 약 2% 하락하며 다소 부진한 반응을 보였다.",
+      "published_at": "2026-05-21T06:40:58+09:00",
+      "source": "헤럴드경제",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "[5월20일] 미국 대학 졸업식에서 AI 이야기가 야유받는 이유",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210734",
+      "body": "2026년 미국 대학 졸업식 시즌에 AI 발언이 잇따라 야유를 받는 이례적인 사태가 벌어졌다. 구글 전 CEO 에릭 슈미트는 애리조나대학교 졸업식에서 AI가 세상을 변화시킨다는 발언을 했다가 학생들로부터 야유를 받았다. 플로리다대학교, 미들테네시주립대학교에서도 유사한 사례가 발생했다. Business Insider 보도에 따르면 Z세대 졸업생들은 AI를 '기회'보다 '일자리 대체 위협'으로 인식하는 경향이 크다. 월튼가족재단 설문조사에서 14~29세의 AI 호감도는 1년 새 14% 하락했고 반감은 증가했다. 반면 젠슨 황 엔비디아 CEO는 카네기멜론대에서 비교적 우호적인 반응을 받았다. 이 기사는 한국과 미국의 반응 차이도 조명했다. 미국에서는 목소리를 높여 반대하는 반면 한국에서는 조용히 경청하는 모습으로 대비됐다. 이는 AI 관련 실직 등 경제적 불안감의 표출 양상이 각국에서 다르게 나타나는 현상을 반영한다.",
+      "published_at": "2026-05-21T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Google Cloud TPU Competitor Race: NVIDIA Q1 Beat Fuels Hyperscaler AI Spending Debate",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=152033",
+      "body": "As NVIDIA reported Q1 FY2027 revenue of $81.6 billion — beating expectations by $2.6 billion — the debate over hyperscaler AI spending sustainability intensified. Jensen Huang confirmed hyperscaler capex will hit $1 trillion this year, with long-term potential of $3-4 trillion annually. Data center compute capacity exceeding 10MW more than doubled globally in one year, now surpassing 80 facilities worldwide. Despite the strong results, Google's TPU 8 and Blackstone joint venture ($25B TPU-based cloud) announced earlier this week signal that large customers are developing alternative compute architectures. NVIDIA's Q2 guidance of $91 billion explicitly excludes China datacenter revenue — a potential $3.5-4B annual upside if H200 exports eventually normalize. CFO Colette Kress confirmed Vera Rubin NVL144 first samples shipped to customers this week (June delivery to major North American hyperscalers), with full ramp in Q4 FY2027. Blackwell Ultra transition well underway. NVIDIA maintains >80% market share in AI accelerators globally. Marvell partnership (NVLink Fusion, $2B strategic equity) and new Dell PowerEdge XE9812 for Vera Rubin NVL72 system represent continued ecosystem expansion.",
+      "published_at": "2026-05-21T07:34:00+09:00",
+      "source": "테크M",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor"],
+      "competitor": "Google"
+    },
+    {
+      "title": "엔비디아 주가, 실적 발표 후 시간외서 소폭 하락…2분기 가이던스 91조 중국 제외로 '혼조'",
+      "url": "https://www.hankyung.com/article/202605210280i",
+      "body": "엔비디아(NVIDIA)가 2027 회계연도 1분기 매출 816억 달러를 기록하며 시장 예상치를 상회했음에도 시간외 거래에서 주가가 소폭 하락하는 혼조세를 보였다. 조정 EPS 1.87달러(예상 1.76달러), 2분기 가이던스 910억 달러(예상 870억 달러). 하지만 2분기 가이던스가 중국 데이터센터 매출을 전혀 포함하지 않은 것으로 밝혀지면서 투자자들의 반응이 엇갈렸다. 미국 정부가 H200 수출을 승인했음에도 중국 측이 수입을 거부하고 있어 실제 판매는 '제로'인 상태다. 젠슨 황 CEO는 이에 대해 '중국이 수입을 선택하지 않았다'며 자국 칩 개발을 우선시하고 있다고 설명했다. 시간외 거래에서 NVDA 주가는 223.47달러에서 222.70달러로 0.34% 하락 마감했다. 이는 이전 실적 발표 후 패턴을 반복한 것으로, 최근 4번의 실적 발표에서 주가는 실적 호조에도 불구하고 하락 또는 보합세를 보였다. 이사회는 800억 달러 자사주 매입 추가 승인, 배당금 0.25달러(기존 0.01달러)로 인상을 결정했다.",
+      "published_at": "2026-05-21T05:53:00+09:00",
+      "source": "한국경제",
+      "topic_tag": "competitor",
+      "secondary_tags": [],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA Q1 Revenue Hits $81.6B, Networking Triples — Vera Rubin CPU Samples Shipped, Production H2 2026",
+      "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-first-quarter-fiscal-fq78amc9h84m.html",
+      "body": "NVIDIA Corporation announced financial results for the first quarter of fiscal year 2027 (ended April 27, 2026). Revenue: $81.6 billion, up 20% from the previous quarter and up 85% year-over-year. GAAP EPS: $2.39, up 36% quarter-over-quarter and up 214% year-over-year. Non-GAAP EPS: $1.87. GAAP gross margin: 74.9%. GAAP net income: $58.3 billion. Operating cash flow: $50.3 billion. Free cash flow: $48.6 billion. Revenue by market: Data Center $75.2B (+92% YoY) — compute $60.4B, networking $14.8B (+199% YoY). Edge Computing $6.4B (+29% YoY). Q2 FY2027 outlook: Revenue approximately $91.0 billion (±2%), excludes Data Center compute revenue from China. GAAP gross margin ~74.9%. Operating expenses ~$8.5 billion. Capital returns: Returned approximately $20.0 billion to shareholders in Q1. Board approved additional $80.0 billion share repurchase authorization (no expiration). Quarterly cash dividend increased from $0.01 to $0.25 per share. Jensen Huang, CEO: 'The buildout of AI factories — the largest infrastructure expansion in human history — is accelerating at extraordinary speed. Agentic AI has arrived, doing productive work, generating real value.' Colette Kress, CFO: Vera Rubin production shipments to begin Q3 FY2027, ramp in Q4. Vera CPU samples shipped to customers, production availability H2 2026.",
+      "published_at": "2026-05-21T06:00:00+09:00",
+      "source": "StockTitan / NVIDIA Newsroom",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "KOSPI Semiconductor Rally: Samsung +6%, SK Hynix +4% Premarket as Strike Averted and NVIDIA Beats",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261914137-kospi-samsung-strike-rebound-government-emergency-tradingkey",
+      "body": "South Korea's KOSPI semiconductor stocks surged in premarket trading on May 21 as two major catalysts aligned. Samsung Electronics jumped 6.16% to 293,000 won and SK Hynix climbed 4.3% to 1.82 million won on Nextrade as of 8:05 AM KST. Catalyst 1 — Samsung strike resolution: Samsung Electronics management and union reached a provisional deal 90 minutes before the planned May 21 general strike, suspending the 18-day action (May 21-June 7). The deal introduces a new DS division special performance bonus system, maintaining core OPI principles while providing flexibility on loss-making divisions. Worker ratification vote: May 22-27. Catalyst 2 — NVIDIA Q1 earnings: Nvidia posted 12th consecutive quarterly revenue record at $81.62 billion (+85% YoY), beating $78.85B consensus. Q2 guidance of $91 billion exceeded Wall Street's $87 billion estimate. The combined catalyst resolved two of the largest Korean semiconductor market overhangs — Samsung labor risk and global AI demand uncertainty. The previous KOSPI closed at 7,208.95 (down 0.86%), with foreign investors selling for 10 consecutive sessions. Analysts project the Samsung valuation discount (Samsung +28.67% vs SK Hynix +49.66% over past month) will narrow as uncertainty resolves.",
+      "published_at": "2026-05-21T08:55:00+09:00",
+      "source": "TradingKey",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Alibaba Unveils Zhenwu M890 AI Agent Chip: 3x H20 Performance, 144GB HBM3, NVIDIA Alternative for China",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+      "body": "Alibaba's semiconductor subsidiary T-Head unveiled the Zhenwu M890, a GPU-class AI accelerator delivering three times the performance of its predecessor, the Zhenwu 810E. The processor is purpose-built for AI agent workloads requiring sustained context retention and multi-step autonomous task execution. Key specs: 144GB HBM3 memory (50% increase over 810E's 96GB), 800 GB/s interchip bandwidth. The chip targets NVIDIA's H100 generation — the NVIDIA product Chinese customers can no longer legally purchase under US export controls. The Zhenwu M890 utilizes process nodes that Chinese foundries can manufacture without US-controlled lithography equipment. T-Head has shipped more than 560,000 Zhenwu units to date, with over 400 external customers across 20 industries including automotive and financial services. Multi-year roadmap: V900 (Q3 2027, 3x performance, 216GB, 1,200 GB/s bandwidth), J900 (Q3 2028). Alibaba simultaneously released Qwen 3.7-Max, an LLM engineered for advanced coding and long-running agent tasks, capable of operating continuously for up to 35 hours without performance degradation. Alibaba invested more than 380 billion yuan (~$53 billion) on cloud and AI infrastructure over three years. T-Head is reportedly planning an IPO to fund expanded infrastructure investment. The chip competes directly with Cambricon and Huawei's Ascend for the domestic Chinese accelerator market.",
+      "published_at": "2026-05-20T19:00:00+09:00",
+      "source": "AI News",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    }
+  ]
+}
