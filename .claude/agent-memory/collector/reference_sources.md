@@ -319,6 +319,41 @@ type: reference
 - **Apple WWDC26 preview articles** (event June 8-12) published May 19 — these are borderline; include only if significant AI chip announcement expected; pure schedule-announcements can be skipped
 - **sedaily.com** — Seoul Economic Daily accessible; Korean semiconductor stock movement articles with specific timestamps (08:35 KST May 19); potential overlap with etnews/kospi articles — check for near-duplicates
 
+## Source notes (2026-05-21 run — single day window, NVIDIA Q1 FY2027 earnings day)
+- **NVIDIA earnings coverage pattern**: Earnings released 4:20 PM ET May 20 = 05:20 KST May 21; Korean outlets (fnnews, ajunews, sedaily, heraldcorp, hankyung, newspim, techm.kr, zdnet.co.kr, etoday) publish first wave 05:45-09:13 KST; English outlets (TechCrunch, The Register, NextPlatform, ServeTheHome) publish 02:00-07:00 KST; huge volume — plan for 10+ articles on earnings-day; downstream filter selects
+- **fnnews.com** — very fast to publish after-hours earnings coverage; NVIDIA article 05:45 KST; Samsung labor deal article 00:07 KST May 21; reliable Korean financial press
+- **ajunews.com** — accessible Korean financial/tech news; NVIDIA earnings 06:34 KST; precise timestamps in article byline
+- **newspim.com** — accessible; early KST publisher; NVIDIA earnings 05:49 KST; good for AI/semiconductor earnings
+- **techm.kr** — accessible Korean tech news; NVIDIA earnings 07:34 KST; article structure allows body extraction
+- **etoday.co.kr** — accessible Korean financial news; NVIDIA earnings 07:44 KST; stock market angle
+- **heraldcorp.com** — accessible Korean press; NVIDIA earnings 06:40 KST; Korea Herald parent; same-day financial news
+- **sedaily.com** (Seoul Economic Daily, Korean) — accessible; NVIDIA/Samsung stock reaction 06:26 KST
+- **thelec.kr** — NVIDIA earnings piece 09:13 KST with unique Samsung/SK Hynix HBM supply angle; most distinctive take among Korean NVIDIA articles
+- **hankyung.com** — accessible Korean financial press; NVIDIA earnings 05:53 KST (very fast); often pairs with stock market reaction
+- **SemiAnalysis RSS** — confirmed STUCK at September 2025; no 2026 content; skip feed entirely; use WebSearch for individual SemiAnalysis article leads
+- **HPC Wire** — 403 confirmed; skip
+- **NetworkWorld RSS** — 404 confirmed; skip
+- **Wired RSS** — blocked; skip
+- **Naver News section/105** — JS-rendered; skip
+- **Tom's Hardware** — bodies fetchable via direct URL; RSS confirmed at tomshardware.com/feeds.xml; Samsung strike/NVIDIA earnings coverage published ~02-03 KST morning
+
+## Key observations (2026-05-21 run)
+- Single-day KST window (May 21 only) remains lean for English sources before 07:00 KST; NVIDIA earnings exception — all outlets rushed to publish
+- **Dominant story pattern**: When NVIDIA reports earnings after-hours ET, May-date KST issue becomes an NVIDIA earnings heavy issue; plan for 50%+ competitor-tagged articles
+- Korean outlets publish NVIDIA earnings summaries fast (within 90 minutes of ET release); typically 8-10 Korean articles on same earnings event; filter_2 should select the most distinctive angle
+- Samsung labor deal (파업 타결) resolved May 20 22:30 KST; articles published May 21 00:07 KST onward; confirm exact settlement terms: DS사업부 특별 인센티브 세전 10.5% (매출 대비), 상한선 없음; ratification vote May 22-27
+- SpaceX S-1 IPO filing: Nasdaq SPCX, $1.7T valuation target, $80B raise — major financial news with satellite/AI infrastructure angle; filed 2026-05-21
+
+## Query patterns (2026-05-21 run)
+- `NVIDIA Q1 FY2027 earnings results revenue datacenter guidance May 21 2026` — extremely high yield; all Korean + English outlets
+- `엔비디아 실적 발표 1분기 FY2027 5월 21일` — fnnews/ajunews/hankyung/newspim/techm.kr all publish within 90min of ET release
+- `Samsung Electronics strike averted union deal May 21 2026` — fnnews + Tom's Hardware + thelec.kr accessible
+- `NVIDIA Jensen Huang Vera Rubin BlueField-4 DPU guidance Q2 FY2027 91 billion` — TechCrunch + The Register accessible
+- `Anthropic first profitable quarter Q2 revenue projected 2026` — TechCrunch accessible
+- `OpenAI IPO confidential S-1 filing valuation 2026` — multiple accessible outlets
+- `AMD Ryzen AI Max PRO 400 192GB unified memory AI workloads May 2026` — Tom's Hardware accessible
+- `삼성전자 파업 타결 5월 21일 DS 특별인센티브` — fnnews/thelec.kr accessible
+
 ## Source notes (2026-05-20 run — single day window, Google I/O day 2)
 - **Google I/O 2026 keynote (May 19 PT = May 20 KST)**: Google I/O keynote ran May 19 10am PT = May 20 02:00 KST; all recap/announcement articles published May 20 KST morning are in-window; extremely high-yield day for AI articles
 - **Korean outlets published May 20 Google I/O recap by 07-09 KST**: etnews.com (×4 articles, Gemini Flash×2, Karpathy, Dell), aitimes.com (×2 articles), zdnet.co.kr (×5 articles including Google IO, Dell, Red Hat, Cohere, Samsung strike); very high yield

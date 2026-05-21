@@ -5,3 +5,4 @@
 - [Verify article count](feedback_verify_article_count.md) — collector run_summary.total can lie; derive total_received from articles[] length
 - [Mega-cluster compression](project_2026-05-15_samsung_strike_cluster.md) — 단일 사건 ≥5개 클러스터는 4–6개 각도(운영·리더십·협상·비즈영향·한국어1차)로 압축
 - [Dual mega-event compression](project_2026-05-20_dual_event_compression.md) — 한 날에 Google I/O+Dell Tech World 두 메가이벤트 동시 발생 시 클러스터별 3–4개 각도 압축 도식
+- [NVIDIA earnings + Samsung strike cluster](project_2026-05-21_nvidia_earnings_cluster.md) — 2026-05-21 NVIDIA Q1 14건+삼성 파업 7건 dual-mega; 14건 어닝 클러스터는 5각도 max keep 권장

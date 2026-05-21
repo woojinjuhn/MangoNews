@@ -109,14 +109,24 @@ type: reference
 - **Samsung strike (ongoing)**: 3차 조정 at 10am KST May 20; still unresolved from overnight May 19-20 negotiations; May 21 strike deadline imminent; government considering emergency arbitration.
 - **Tier 1 Korean (Rebellions/FuriosaAI/Moreh/HyperAccel/FriendliAI)**: No standalone May 20 news; monitor for post-Google-IO partnership announcements.
 
-## Forward-looking competitor calendar (as of May 20 2026)
-- **NVIDIA Q1 FY2027 earnings**: May 20 4:20 PM ET = May 21 05:20 KST; next issue story
-- **Samsung strike**: May 21 start date; 18-day window through June 7; monitoring required
+## May 21 2026 update — competitor developments
+- **NVIDIA Q1 FY2027 earnings** (released 4:20 PM ET May 20 = 05:20 KST May 21): Revenue $81.6B (+85% YoY, beat $77.3B est); DC $75.2B (+73% YoY, +9% QoQ); Q2 FY2027 guidance $91B ±2%; Vera Rubin NVL144 sampling to customers, first shipments Q3 FY2027; BlueField-4 DPU (800Gbps, 64 Arm cores) integral to Vera Rubin rack; $80B share buyback; quarterly dividend raised 25x; gross margin 71.3% (compressed from 78.4% by Blackwell ramp costs). Jensen Huang: agentic AI driving 4x more compute demand; Vera CPU for $200B compute CPU market (replacing x86).
+- **Tenstorrent acquisition rumors**: Intel + Qualcomm in separate preliminary acquisition talks (Bloomberg May 18; Newspim Korean May 19; Blockonomi May 20); $5B+ valuation. No deal signed; Jim Keller says open to strategic discussions. Critical MangoBoost competitor — RISC-V AI chip that could be folded into larger platform.
+- **Samsung Electronics labor strike**: Averted May 20 22:30 KST — union and management reached deal: DS division special incentive = 10.5% of annual revenue before tax, NO CAP; 2025 payout ≈ 7.4조원; ratification vote May 22-27; if ratified, 18-day strike (May 21–June 7) cancelled. Production continuity restored; Samsung/SK Hynix stocks rallied +6.16%/+4.3% premarket.
+- **Rebellions, FuriosaAI, Moreh, HyperAccel, FriendliAI, Napatech, Marvell**: No standalone May 21 articles found. Marvell COMPUTEX June 2 still forward calendar.
+
+## Forward-looking competitor calendar (as of May 21 2026)
+- **NVIDIA Q1 FY2027 earnings**: DONE — May 21 05:20 KST; $81.6B revenue; top story for #013 issue
+- **Samsung strike**: RESOLVED May 20 22:30 KST; DS 10.5% incentive; ratification vote May 22-27; if vote passes, strike cancelled
 - **Marvell COMPUTEX 2026 keynote**: June 2; Matt Murphy on AI data center infrastructure
 - **AMD Venice/Helios rack**: H2 2026 launch (EPYC Zen 6 + Instinct MI455X + Pensando DPU)
 - **FuriosaAI pre-IPO**: Funding close target mid-June 2026; 2027 IPO
 - **Rebellions KOSPI IPO**: Targeting Q3 2026 (August likely)
 - **Google 8th-gen TPU**: GA planned later in 2026; watch for customer adoption announcements
+- **Samsung strike ratification vote**: May 22-27; monitor for result; if rejected, strike may resume
+- **Tenstorrent acquisition**: Intel/Qualcomm talks ongoing; watch for deal announcement or funding round announcement
+- **SpaceX Starlink IPO (SPCX)**: S-1 filed ~May 21; $1.7T valuation target; $80B raise; Nasdaq
+- **OpenAI IPO**: Confidential S-1 filing imminent; $1T+ valuation target; September 2026 target
 
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026

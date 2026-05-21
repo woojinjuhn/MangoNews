@@ -1,0 +1,267 @@
+{
+  "issue_date_kst": "2026-05-21",
+  "main": [
+    {
+      "id": 8,
+      "title": "NVIDIA Q1 FY2027: EPS $2.39 Beats $1.75 Est., Revenue $81.6B Tops $78.80B — Data Center Hits $75.2B, +92% YoY",
+      "url": "https://blockonomi.com/nvidia-q1-fy2027-revenue-hits-record-81-6-billion-as-ai-infrastructure-demand-accelerates/",
+      "category": "market",
+      "is_headline": true,
+      "competitor": "NVIDIA",
+      "tldr": "엔비디아가 2027 회계연도 1분기 매출 816억 달러, 데이터센터 752억 달러를 기록하며 12분기 연속 신기록을 갈아치웠다.",
+      "summary_bullets": [
+        "엔비디아의 2027 회계연도 1분기 매출은 816억 달러로, 전년 동기 대비(YoY) 85%, 전 분기 대비(QoQ) 20% 늘었다 — 시장 컨센서스(788억 달러)를 28억 달러나 웃돈 수치다. GAAP 희석 주당순이익(EPS)은 2.39달러로 전년 대비 214% 급증했고, GAAP 순이익은 583억 달러에 달했다.",
+        "데이터센터 부문이 752억 달러(YoY +92%)로 사실상 회사 전체를 끌고 갔다. 이번 분기부터 신설된 두 세그먼트 중 하이퍼스케일은 379억 달러(YoY +115%), 클라우드·산업·기업 고객을 묶은 ACIE(AI Cloud, Industrial, Enterprise)는 374억 달러(YoY +74%)였다. 네트워킹 매출은 148억 달러로 무려 199% 늘었는데, 이는 이더넷 기반 AI 클러스터용 Spectrum-X 채택이 폭발했음을 보여준다.",
+        "총이익률은 74.9%로 1년 전 60.5% 대비 14%p가량 뛰었다 — 전년에 H20 칩 관련 45억 달러 재고 충당이 깔려 있었던 기저 효과 덕이다. 영업현금흐름은 503억 달러, 잉여현금흐름은 486억 달러로 곳간이 더 두꺼워졌고, 이사회는 만기 없는 800억 달러 자사주 매입 한도와 분기 배당금을 0.01달러에서 0.25달러로 25배 인상하는 결정을 함께 통과시켰다.",
+        "2분기 가이던스는 약 910억 달러(±2%) — 이는 중국 데이터센터 컴퓨트 매출을 전부 0으로 가정한 숫자다. 실제로 1분기 H20/호퍼의 중국 출하는 한 대도 없었다. CFO 콜레트 크레스는 베라 루빈(Vera Rubin)이 2027 회계연도 3분기에 출하를 시작하고 4분기에 본격 램프업한다고 공식 확인했다.",
+        "젠슨 황 CEO는 \"AI 팩토리 구축은 인류 역사상 가장 큰 인프라 확장이며, 에이전트 AI는 이미 도래해 실질적인 가치를 만들어내고 있다\"고 말했다. 같은 분기 블랙웰(Blackwell)이 데이터센터 컴퓨트의 약 70%를 차지했으며, 전 세계 10MW 이상 대형 데이터센터는 1년 사이 두 배로 늘어 80곳을 넘었다 — DPU·네트워킹 수요의 가시성이 더 두꺼워지고 있다는 의미다."
+      ],
+      "jargon": [
+        {
+          "term": "ACIE(AI Cloud, Industrial, Enterprise)",
+          "explanation": "이번 분기부터 엔비디아가 새로 도입한 데이터센터 세그먼트 구분 중 하나로, 하이퍼스케일 4대 고객을 제외한 나머지 — 2~3티어 클라우드·산업용·일반 기업 고객 — 을 한데 묶은 카테고리다. 기존 \"하이퍼스케일러 의존도\"를 외부에서 더 잘 들여다볼 수 있게 분리한 셈."
+        },
+        {
+          "term": "Spectrum-X",
+          "explanation": "엔비디아의 AI 데이터센터용 이더넷 스위치 제품군. 인피니밴드 대신 표준 이더넷으로 GPU 클러스터를 묶고 싶어 하는 고객을 겨냥했다. 1분기 네트워킹 매출 199% 증가의 주된 동력으로 지목됐다."
+        },
+        {
+          "term": "Vera Rubin",
+          "explanation": "블랙웰 다음 세대 엔비디아 플랫폼의 코드명. CPU 측은 자체 설계 Arm 코어 '베라', GPU 측은 '루빈'으로 구성된다. 2027 회계연도 3분기 첫 출하, 4분기 본격 양산이라는 일정이 이번에 처음으로 공식 확정됐다."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Samsung narrowly avoids 18-day chip strike after last-minute wage deal with 48,000-worker union",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/samsung-narrowly-avoids-18-day-chip-strike-after-last-minute-wage-deal-with-48-000-worker-union-tentative-deal-subject-to-workers-vote-suspends-billions-of-dollars-worth-of-potential-losses",
+      "category": "market",
+      "is_headline": true,
+      "competitor": null,
+      "tldr": "삼성전자가 5월 21일~6월 7일 예정된 18일 총파업을 90분 전 잠정 합의로 가까스로 피했고, 5월 22~27일 노조 찬반투표가 다음 변수로 남았다.",
+      "summary_bullets": [
+        "삼성전자 사측과 4만 8,000명 규모 노조는 5월 20일, 21일 새벽 시작 예정이던 18일짜리 총파업(5/21~6/7) 약 90분 전 임금·성과급 잠정 합의에 도달했다. 노조는 파업을 일단 보류하고 5월 22~27일 조합원 찬반투표에 합의안을 부친다 — 가결되지 않으면 파업 리스크는 곧장 다시 살아난다.",
+        "쟁점은 성과급 산식이었다. 노조는 연간 영업이익의 15%를 성과급 재원으로 배정하고 연봉의 50%로 묶여 있는 성과급 상한을 없애라고 요구했지만, 삼성은 사업부별 수익성 차이를 이유로 거부해 왔다. 결국 양측은 적자 사업부에 한해 성과급 산식 변경을 1년 유예하고, DS(반도체) 부문에는 새 특별 성과보상 체계를 별도로 도입하는 절충안에서 만났다.",
+        "협상 결렬은 2월·3월에 이미 한 차례 있었고, 그 후폭풍으로 4만 명 이상이 참여한 1일 파업이 한 차례 진행돼 파운드리 야간 가동률이 '눈에 띄게 떨어졌다'는 평가가 나왔다. 이번에는 삼성이 파업을 앞두고 일부 라인을 미리 감산 모드로 돌려놓은 상태였다.",
+        "분석가들은 18일 풀가동 중단이 실현됐다면 하루 약 1조 원, 누적으로는 수백억 달러 규모의 손실이 가능했다고 추정한다. 글로벌 AI 칩 공급망이 빠듯한 시점이라 합의 자체가 시장 전반에 안도 신호를 줬지만, 다음 주 노조 투표가 부결되면 같은 그림이 다시 돌아온다는 점은 그대로 남아 있다."
+      ],
+      "jargon": [
+        {
+          "term": "DS(Device Solutions) 부문",
+          "explanation": "삼성전자의 반도체 사업 전체를 묶은 사내 분류 — 메모리, 시스템 LSI, 파운드리가 여기에 속한다. 이번 특별 성과보상 체계가 \"DS만 따로\" 적용된다는 점이 합의의 핵심 디테일이다."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "엔비디아 1분기 실적 발표: 영업이익 147% 급증, 베라루빈 3분기 출하 확정",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56961",
+      "category": "market",
+      "is_headline": false,
+      "competitor": "NVIDIA",
+      "tldr": "엔비디아의 2027 회계연도 1분기 영업이익이 535억 달러로 전년 대비 147% 급증했고, 베라 루빈은 3분기 출하·4분기 램프업·2027년 1분기 본격 매출 발생이 공식 확정됐다.",
+      "summary_bullets": [
+        "더일렉은 같은 엔비디아 실적을 한국 독자 시선에서 다시 풀었다. 매출 816억 1,500만 달러는 원화로 환산하면 약 122조 3,000억 원 — 한 분기에 한국 대표 IT 기업 1년 매출에 맞먹는 규모가 들어왔다는 뜻이다. 12분기 연속 분기 매출 신기록이라는 흐름이 끊기지 않았다.",
+        "특히 눈에 띄는 디테일은 GAAP 영업이익이다. 535억 3,600만 달러(약 80조 2,200억 원)로 전년 동기 대비(YoY) 147% 늘었다 — 매출 증가율(+85%)을 한참 웃돈 이익률 점프인데, 전년에 깔려 있던 H20 재고 충당 45억 달러가 빠진 기저 효과가 크게 작용했다.",
+        "데이터센터 752억 달러를 하이퍼스케일(379억 달러, YoY +115%)과 ACIE(374억 달러, YoY +74%)로 쪼개 본 한국어 보도다 — 이번 분기부터 세그먼트를 새로 나눴다는 점을 한국 독자에게 명확히 보여준다. 컴퓨팅 604억 달러, 네트워킹 148억 달러로 \"GPU만 잘 팔린 게 아니라 네트워킹이 같이 폭발하고 있다\"는 메시지가 강조됐다.",
+        "젠슨 황 CEO는 컨퍼런스콜에서 \"에이전트 AI가 도래했고, 곧 수십억 개의 에이전트가 등장할 것\"이라며, GPU와 별도로 베라 CPU만으로 새로 열리는 2,000억 달러(약 270조 원) 규모의 신규 시장(TAM, 잠재 시장 규모)을 공식 언급했다. CFO 콜레트 크레스는 베라 루빈이 2027 회계연도 3분기 출하 → 4분기 대규모 램프업 → 2027년 1분기 대규모 매출 발생으로 이어진다고 처음으로 못 박았다.",
+        "이사회는 같은 날 800억 달러 자사주 매입 한도와 분기 배당금 0.01달러 → 0.25달러(25배 인상)를 동시 의결해 \"실적 + 주주환원 + 차세대 로드맵\"이라는 세 카드를 한 번에 보여줬다."
+      ],
+      "jargon": []
+    },
+    {
+      "id": 29,
+      "title": "KOSPI Semiconductor Rally: Samsung +6%, SK Hynix +4% Premarket as Strike Averted and NVIDIA Beats",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261914137-kospi-samsung-strike-rebound-government-emergency-tradingkey",
+      "category": "market",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "삼성 파업 회피와 엔비디아 1분기 호실적이 겹치며 5월 21일 KOSPI 프리마켓에서 삼성전자 +6.16%, SK하이닉스 +4.3%로 동시 급등했다.",
+      "summary_bullets": [
+        "5월 21일 오전 8시 5분(KST) 넥스트레이드 프리마켓 기준, 삼성전자는 6.16% 오른 29만 3,000원, SK하이닉스는 4.3% 오른 182만 원에 거래됐다. 한국 반도체 시장을 짓누르던 두 개의 큰 불확실성 — 삼성 노사 분쟁과 글로벌 AI 수요 피크아웃 우려 — 이 하루 만에 동시에 풀린 결과다.",
+        "첫 번째 트리거는 5월 21일 새벽 합의된 삼성 파업 보류다. DS 부문에 특별 성과보상 체계를 도입하고 적자 사업부 산식 변경을 1년 유예한 절충안이 핵심이며, 5월 22~27일 조합원 찬반투표가 통과되어야 완전히 마무리된다.",
+        "두 번째 트리거는 엔비디아 1분기 매출 816억 달러(컨센서스 788억 달러 대비 +26억 달러 상회)와 2분기 가이던스 910억 달러(월가 전망 870억 달러 상회)다. \"AI 빅사이클이 살아 있다\"는 신호가 한국 메모리 양사로 직접 전이됐다.",
+        "흥미로운 대목은 외국인 매도 흐름이다. 직전 KOSPI는 7,208.95(−0.86%)로 마감했고 외국인은 10거래일 연속 순매도였다 — 이번 더블 호재가 그 흐름을 일시적으로 끊을 수 있을지가 다음 주 관전 포인트다. 분석가들은 최근 한 달 수익률에서 삼성(+28.67%)이 SK하이닉스(+49.66%)에 벌어진 격차(밸류에이션 디스카운트)도 좁혀질 것으로 봤다."
+      ],
+      "jargon": []
+    },
+    {
+      "id": 7,
+      "title": "Jensen Huang says he's found a 'brand new' $200B market for Nvidia",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "category": "products",
+      "is_headline": false,
+      "competitor": "NVIDIA",
+      "tldr": "젠슨 황은 베라 CPU를 중심으로 한 에이전트 AI용 CPU에서 2,000억 달러 규모의 새로운 잠재 시장(TAM)을 봤다며, 올해만 200억 달러 매출 가시성을 이미 확보했다고 밝혔다.",
+      "summary_bullets": [
+        "젠슨 황 엔비디아 CEO는 1분기 실적 발표 자리에서 \"에이전트 AI를 위해 새로 설계한 CPU 분야에서 약 2,000억 달러 규모의 신규 잠재 시장(TAM, Total Addressable Market — 회사가 노릴 수 있는 전체 시장 크기)이 열린다\"고 못 박았다. 그 중심에는 Arm 기반 자체 설계 칩 '베라(Vera)'가 있다.",
+        "베라는 엔비디아가 자체 설계한 Olympus 코어 88개를 얹은 랙스케일 CPU로, 메모리 대역폭 1.2 TB/s를 자랑한다. 기존 일반 랙스케일 CPU 대비 효율은 두 배, 성능은 50% 더 빠르다는 게 회사 설명이다.",
+        "황 CEO의 논리는 \"GPU는 모델이 생각하는(thinking) 단계를 맡고, 에이전트가 실제로 도구를 호출하고 작업을 수행하는 실행(execution) 단계는 대부분 CPU에서 돈다\"는 것이다. 사람마다 개인용 PC를 쓰듯 \"수십억 개의 에이전트마다 CPU 리소스가 필요할 것\"이라는 의미. 엔비디아는 GPU 옆에 CPU 시장을 또 하나 새로 만들겠다는 그림을 공식화한 셈이다.",
+        "엔비디아는 이미 올해 베라 CPU 단독 매출에서만 약 200억 달러의 가시성을 확보했다고 밝혔다. 주요 하이퍼스케일러 고객으로는 알리바바 클라우드, 바이트댄스, 메타, 오라클 클라우드 인프라(OCI), CoreWeave가 거론됐고, 시스템 OEM 측에서는 Dell, HPE, 레노버, 슈퍼마이크로가 베라 기반 서버를 만들고 있다.",
+        "비교 차원에서, 베라는 양산 단계에 들어갔고 파트너 시스템 출시는 2026년 하반기로 잡혔다 — GPU 신제품인 베라 루빈(2027 회계연도 3분기 출하)과 시기적으로 살짝 어긋나면서 두 라인업이 같은 데이터센터에 함께 들어오는 그림이 만들어진다."
+      ],
+      "jargon": [
+        {
+          "term": "TAM(Total Addressable Market)",
+          "explanation": "특정 제품이 이론상 노릴 수 있는 전체 시장 크기를 말한다. \"2,000억 달러 TAM\"이라는 말은 \"이 분야 시장 파이가 이 정도 규모로 열린다\"는 뜻이지 엔비디아가 그만큼 다 가져간다는 의미는 아니다."
+        },
+        {
+          "term": "베라(Vera) CPU / Olympus 코어",
+          "explanation": "엔비디아가 직접 설계한 Arm 기반 데이터센터용 CPU의 코드명이 '베라', 그 안에 들어가는 자체 코어 마이크로아키텍처 이름이 'Olympus'다. 인텔 x86이나 AMD EPYC이 차지하던 랙스케일 서버 CPU 자리를 정조준한 칩."
+        },
+        {
+          "term": "에이전트의 \"실행(execution) 레이어\"",
+          "explanation": "LLM이 답을 만드는 '추론' 단계는 GPU가 잘하지만, 그 답을 받아서 외부 도구(브라우저·DB·API 등)를 실제로 호출하고 결과를 합쳐 다시 LLM에 넘기는 오케스트레이션 작업은 일반 CPU가 더 잘 맞는다. 황 CEO가 \"에이전트는 결국 CPU에서 돈다\"고 말한 이유."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Memory makers brace for hydrogen fluoride pricing shock as Hormuz blockade impacts supply chain",
+      "url": "https://www.tomshardware.com/tech-industry/memory-makers-brace-for-hydrogen-fluoride-pricing-shock-as-hormuz-blockade-impacts-supply-chain-key-etching-and-cleaning-material-faces-sharp-cost-increase-amid-trade-disruption",
+      "category": "challenges",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "호르무즈 해협 봉쇄로 반도체 핵심 소재인 무수불산(HF) 가격이 연초 대비 130% 급등했고, 7월부터 삼성·SK하이닉스 측에 비용 전가가 시작될 전망이다.",
+      "summary_bullets": [
+        "미·이란 갈등에서 비롯된 호르무즈 해협 봉쇄로 반도체 식각·세정 공정에 필수인 무수불산(HF, anhydrous hydrogen fluoride) 공급망이 흔들리고 있다. HF 생산비의 50% 이상을 차지하는 황산은 정유 부산물인 황(sulfur)에서 나오는데, 중동 정유 가동이 끊기면서 원료 단가 자체가 튀어 올랐다.",
+        "전 세계 최대 HF 수출국인 중국은 비료·철강·배터리 산업의 황산 수요 폭증을 이유로 수출을 제한하고 있다. 그 결과 HF 가격은 \"2026년 초 대비 최대 130%\" 올랐고, 한국의 솔브레인, ENF테크놀로지, 후성은 5월 중순부터 더 비싼 가격에 HF를 받기 시작했다. 7월부터는 이 인상분을 삼성전자·SK하이닉스에 그대로 넘긴다는 계획이다.",
+        "역사적 비교가 흥미롭다 — 2019년 일본의 한국 수출 규제 때는 HF 공급이 87.9% 끊겼지만 메모리 가격은 비교적 안정적이었다. 당시는 메모리 글러트(공급 과잉)였기 때문이다. 다만 그늘도 있다 — 지금은 정반대 상황이다. 기사는 \"지금은 소재 부담을 흡수해 줄 메모리 재고가 없다 — 글로벌 메모리 부족 사태\"라고 짚는다.",
+        "단기 완충제로는 플루오린코리아의 울산 신공장(2026년 4분기 가동, 연 5만 톤 규모)이 거론된다 — 이 정도면 한국 HF 수요의 절반을 커버할 수 있다는 게 회사 측 설명이지만, 가동 시점이 4분기여서 7월부터 시작될 가격 전가 파동을 막기엔 늦은 셈이다."
+      ],
+      "jargon": [
+        {
+          "term": "무수불산(HF, anhydrous hydrogen fluoride)",
+          "explanation": "반도체 웨이퍼 표면을 깎아 패턴을 새기는 식각(etching)과 잔여물 제거(cleaning) 공정에 들어가는 핵심 화학물질이다. 메모리 한 장 만드는 데 들어가는 \"보이지 않는 핵심 부자재\" — 가격이 30% 출렁이는 것만으로 분기 원가표가 흔들린다."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "AMD Ryzen AI Max PRO 400 'Gorgon Halo' packs up to 192GB of unified memory — refreshed APU for AI systems",
+      "url": "https://www.servethehome.com/amd-reveals-ryzen-ai-max-pro-400-series-192gb-ram-for-ai-systems/",
+      "category": "products",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "AMD가 컴퓨텍스 직전 Ryzen AI Max PRO 400(코드명 Gorgon Halo)을 공개하며 통합 메모리를 192GB까지 끌어올려 300B(3,000억) 파라미터 FP4 모델 로컬 구동을 겨냥했다.",
+      "summary_bullets": [
+        "AMD는 컴퓨텍스를 앞두고 엔터프라이즈 AI 워크스테이션용 Ryzen AI Max PRO 400 패밀리(코드명 Gorgon Halo)를 공개했다. 최대 메모리 용량을 이전 300시리즈의 128GB에서 192GB로 50% 끌어올린 것이 핵심 변경점이다.",
+        "최상위 SKU인 Ryzen AI Max+ PRO 495는 Zen 5 CPU 16코어(부스트 5.2GHz), RDNA 3.5 기반 내장 GPU(Radeon 8050S, 컴퓨트 유닛 40개), 55 TOPS의 NPU, 45~120W TDP 구간, LPDDR5X 192GB 메모리를 묶은 구성이다. 그 아래로 PRO 490(12코어), PRO 485(8코어)가 배치된다.",
+        "이번 업그레이드의 진짜 셀링 포인트는 \"GPU에 메모리를 160GB까지 할당할 수 있다\"는 점이다. 이 정도면 3,000억 파라미터 규모의 FP4 모델을 워크스테이션 한 대에서 로컬로 띄울 수 있다 — 클라우드를 거치지 않고 사내에서 거대 모델을 돌려야 하는 보안 민감 고객을 정조준한 그림이다.",
+        "다만 AMD 스스로도 \"이번 변경은 성능 지표를 크게 흔들 만한 변화는 아니다\"라고 인정했다 — 컴퓨트 처리량과 메모리 대역폭은 그대로이기 때문이다. 출시는 2026년 3분기 ASUS·레노버·HP 시스템 형태로 예정됐고, 이전 세대 Strix Halo 기반 개발자 키트는 6월부터 3,999달러(약 540만 원)에 사전 예약을 받는다.",
+        "주목할 시그널은 이번 라인업이 일반 소비자용 없이 PRO SKU만 단독 출시된다는 점이다. 엔터프라이즈 관리 기능을 기본 탑재해 \"개인용 게이밍이 아니라 AI 업무용\"이라는 포지셔닝을 분명히 했다."
+      ],
+      "jargon": [
+        {
+          "term": "APU(Accelerated Processing Unit)",
+          "explanation": "CPU와 GPU를 한 칩에 함께 얹은 AMD의 통합 프로세서. 별도 그래픽카드 없이도 GPU 워크로드를 돌릴 수 있어 노트북·미니 워크스테이션에서 강점을 보인다. 이번 Max PRO 400은 여기에 NPU까지 추가해 \"AI 통합 칩\"으로 진화한 형태."
+        },
+        {
+          "term": "TDP(Thermal Design Power)",
+          "explanation": "칩이 정상 동작 시 발열로 내보낼 수 있는 최대 전력. 45~120W 범위라는 건 노트북부터 데스크톱 워크스테이션까지 같은 칩을 다양한 폼팩터에 욱여넣을 수 있다는 의미다."
+        },
+        {
+          "term": "통합 메모리(unified memory)",
+          "explanation": "CPU·GPU·NPU가 같은 메모리 풀을 공유하는 구조. 모델을 GPU 전용 VRAM으로 따로 복사할 필요가 없어, 192GB 중 160GB를 GPU 작업에 즉시 할당해 대형 LLM을 통째로 띄울 수 있다."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Alibaba Unveils Zhenwu M890 AI Agent Chip: 3x H20 Performance, 144GB HBM3, NVIDIA Alternative for China",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+      "category": "products",
+      "is_headline": false,
+      "competitor": "NVIDIA",
+      "tldr": "알리바바 자회사 T-Head가 144GB HBM3 탑재 Zhenwu M890을 공개해 미·중 수출 통제로 막힌 엔비디아 H100을 대체하는 중국 내수 가속기 전선을 본격화했다.",
+      "summary_bullets": [
+        "알리바바의 반도체 자회사 T-Head가 Zhenwu(振武) M890을 공개했다. 전작 Zhenwu 810E 대비 3배 성능을 내는 GPU급 AI 가속기로, 한 번 답하고 끝나는 추론이 아니라 \"맥락을 유지하며 여러 단계의 자율 작업을 이어가는\" 에이전트 워크로드에 맞춰 설계됐다.",
+        "핵심 스펙은 144GB HBM3 메모리(전작 96GB 대비 +50%), 칩 간 대역폭 800GB/s다. 이 조합은 명백히 엔비디아 H100(에이전트 워크로드의 사실상 표준이지만 미국 수출 통제로 중국 고객이 합법적으로 구매할 수 없는 칩) 자리를 노린다. 게다가 M890은 미국이 통제하는 첨단 노광 장비 없이도 중국 파운드리가 생산 가능한 공정으로 만들어진다.",
+        "T-Head는 이미 누적 56만 대 이상의 Zhenwu를 출하했고, 자동차·금융 등 20개 산업의 외부 고객 400여 곳을 확보해 단순 \"사내용 칩\"이 아니라 외판 가능한 가속기로 자리잡았다. 로드맵도 같이 공개됐다 — V900(2027년 3분기, 성능 3배·메모리 216GB·대역폭 1,200GB/s), J900(2028년 3분기)으로 멀티이어 위협 시그널을 미리 박았다.",
+        "같은 자리에서 알리바바는 Qwen 3.7-Max라는 LLM도 공개했다 — 고급 코딩과 장시간 에이전트 작업에 특화돼 \"최대 35시간 성능 저하 없이 연속 동작\"이 가능하다고 홍보한다. 칩과 모델을 한 묶음으로 미는 풀스택 그림이다.",
+        "한편 알리바바는 최근 3년간 클라우드·AI 인프라에 3,800억 위안(약 530억 달러, 약 71조 5,000억 원)을 투입했고, T-Head는 추가 인프라 투자 재원 마련을 위한 IPO도 준비 중이라는 보도가 나왔다. 중국 내수 시장에서는 Cambricon, 화웨이 Ascend와 직접 경쟁한다."
+      ],
+      "jargon": [
+        {
+          "term": "Zhenwu(振武) M890",
+          "explanation": "알리바바 반도체 자회사 T-Head의 신형 AI 가속기. 144GB HBM3와 800GB/s 칩 간 대역폭으로 엔비디아 H100 세대를 정조준했고, 같은 자리에서 후속 V900(2027)·J900(2028) 로드맵도 함께 공개했다."
+        },
+        {
+          "term": "T-Head",
+          "explanation": "알리바바 그룹 산하 반도체 설계 자회사(平头哥). 주로 RISC-V CPU와 데이터센터 가속기를 만들며, 미·중 수출 통제 국면에서 \"중국 내수용 엔비디아 대안\"을 만드는 핵심 진영 중 하나다."
+        }
+      ]
+    }
+  ],
+  "competitor_articles": [
+    {
+      "id": 8,
+      "title": "NVIDIA Q1 FY2027: EPS $2.39 Beats $1.75 Est., Revenue $81.6B Tops $78.80B — Data Center Hits $75.2B, +92% YoY",
+      "url": "https://blockonomi.com/nvidia-q1-fy2027-revenue-hits-record-81-6-billion-as-ai-infrastructure-demand-accelerates/",
+      "source": "Blockonomi",
+      "competitor": "NVIDIA",
+      "category": "market",
+      "keep_reason": "NVIDIA Q1 FY2027 실적의 가장 종합적인 영문 1차 정리 — 데이터센터 752억 달러(YoY+92%), Hyperscale/ACIE 신규 세그먼트 분할, 베라 루빈 Q3 출하 등 핵심 수치 망라 (market intelligence 최상위)."
+    },
+    {
+      "id": 9,
+      "title": "엔비디아 1분기 실적 발표: 영업이익 147% 급증, 베라루빈 3분기 출하 확정",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56961",
+      "source": "더일렉",
+      "competitor": "NVIDIA",
+      "category": "market",
+      "keep_reason": "더일렉의 NVIDIA Q1 한국어 1차 정리 — 원화 환산(122.3조원/80.2조원), Hyperscale 378.7억/ACIE 373.8억 달러 분할, 2000억 달러 베라 CPU TAM 등 한국 독자용 컨텍스트 제공 (한국어 1차 보완)."
+    },
+    {
+      "id": 7,
+      "title": "Jensen Huang says he's found a 'brand new' $200B market for Nvidia",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "source": "TechCrunch",
+      "competitor": "NVIDIA",
+      "category": "products",
+      "keep_reason": "베라 CPU(Arm 기반, 88 Olympus 코어, 1.2TB/s 대역폭)의 2000억 달러 TAM과 에이전트 AI 시대 CPU-GPU 역할 분담 — MangoBoost DPU 사업 인접 영역(오케스트레이션/CPU 가속)에 직접 연관."
+    },
+    {
+      "id": 23,
+      "title": "NVIDIA Q1 Earnings Call Highlights: Vera Rubin July Delivery, $500B Backlog Visibility, China Zero Revenue",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q1-earnings-call-highlights-230509694.html",
+      "source": "Yahoo Finance",
+      "competitor": "NVIDIA",
+      "category": "market",
+      "keep_reason": "컨퍼런스콜 차별 디테일 — Blackwell+Rubin 5000억 달러 백로그 가시성, 베라 루빈 7월 첫 북미 하이퍼스케일러 출하, Spectrum-X 이더넷 AI 클러스터 매출 199% 증가 등 DPU/네트워킹 관점 핵심 신호."
+    },
+    {
+      "id": 26,
+      "title": "Google Cloud TPU Competitor Race: NVIDIA Q1 Beat Fuels Hyperscaler AI Spending Debate",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=152033",
+      "source": "테크M",
+      "competitor": "Google",
+      "category": "market",
+      "keep_reason": "NVIDIA 강세 속에 Google TPU 8/Blackstone JV가 대체 가속기 위협으로 부상하는 구도, Marvell NVLink Fusion 파트너십, Dell PowerEdge XE9812 등 생태계 확장 — MangoBoost가 추적할 다중-가속기 경쟁 구도."
+    },
+    {
+      "id": 31,
+      "title": "Alibaba Unveils Zhenwu M890 AI Agent Chip: 3x H20 Performance, 144GB HBM3, NVIDIA Alternative for China",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+      "source": "AI News",
+      "competitor": "NVIDIA",
+      "category": "products",
+      "keep_reason": "Alibaba T-Head Zhenwu M890(144GB HBM3, 800GB/s, NVIDIA H100급) 발표 — 중국향 NVIDIA 대체 가속기 본격화, AI 에이전트 워크로드 특화(35시간 연속 운영 Qwen 3.7-Max) — DPU 인접 가속기 시장 핵심 신호."
+    },
+    {
+      "id": 21,
+      "title": "Applied Materials와 Broadcom, AI 패키징 혁신 위해 EPIC 플랫폼 파트너십 체결",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56959",
+      "source": "더일렉",
+      "competitor": "Broadcom",
+      "category": "collaboration",
+      "keep_reason": "Applied Materials EPIC 50억 달러 R&D 센터에 Broadcom이 혁신 파트너로 합류 — 하이브리드 본딩/CPO 등 첨단 AI 칩 패키징 협력, 삼성·SK하이닉스·TSMC·Micron 투자한 생태계 확장."
+    }
+  ],
+  "summary": {
+    "main_count": 8,
+    "competitor_articles_count": 7,
+    "headlines_in_main": 2,
+    "notes": "메인 8건 모두 TLDR + 요약(불릿 3~6) + Jargon 3섹션 생성 완료. 경쟁사 7건은 designer가 헤드라인+한 줄로 그대로 소비하므로 passthrough 보존."
+  }
+}

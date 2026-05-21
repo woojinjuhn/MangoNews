@@ -1,0 +1,227 @@
+{
+  "kept": [
+    {
+      "id": 8,
+      "title": "NVIDIA Q1 FY2027: EPS $2.39 Beats $1.75 Est., Revenue $81.6B Tops $78.80B — Data Center Hits $75.2B, +92% YoY",
+      "url": "https://blockonomi.com/nvidia-q1-fy2027-revenue-hits-record-81-6-billion-as-ai-infrastructure-demand-accelerates/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA Q1 FY2027 실적의 가장 종합적인 영문 1차 정리 — 데이터센터 752억 달러(YoY+92%), Hyperscale/ACIE 신규 세그먼트 분할, 베라 루빈 Q3 출하 등 핵심 수치 망라 (market intelligence 최상위)."
+    },
+    {
+      "id": 9,
+      "title": "엔비디아 1분기 실적 발표: 영업이익 147% 급증, 베라루빈 3분기 출하 확정",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56961",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "더일렉의 NVIDIA Q1 한국어 1차 정리 — 원화 환산(122.3조원/80.2조원), Hyperscale 378.7억/ACIE 373.8억 달러 분할, 2000억 달러 베라 CPU TAM 등 한국 독자용 컨텍스트 제공 (한국어 1차 보완)."
+    },
+    {
+      "id": 7,
+      "title": "Jensen Huang says he's found a 'brand new' $200B market for Nvidia",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "베라 CPU(Arm 기반, 88 Olympus 코어, 1.2TB/s 대역폭)의 2000억 달러 TAM과 에이전트 AI 시대 CPU-GPU 역할 분담 — MangoBoost DPU 사업 인접 영역(오케스트레이션/CPU 가속)에 직접 연관."
+    },
+    {
+      "id": 23,
+      "title": "NVIDIA Q1 Earnings Call Highlights: Vera Rubin July Delivery, $500B Backlog Visibility, China Zero Revenue",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q1-earnings-call-highlights-230509694.html",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "컨퍼런스콜 차별 디테일 — Blackwell+Rubin 5000억 달러 백로그 가시성, 베라 루빈 7월 첫 북미 하이퍼스케일러 출하, Spectrum-X 이더넷 AI 클러스터 매출 199% 증가 등 DPU/네트워킹 관점 핵심 신호."
+    },
+    {
+      "id": 26,
+      "title": "Google Cloud TPU Competitor Race: NVIDIA Q1 Beat Fuels Hyperscaler AI Spending Debate",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=152033",
+      "category": "market",
+      "competitor": "Google",
+      "keep_reason": "NVIDIA 강세 속에 Google TPU 8/Blackstone JV가 대체 가속기 위협으로 부상하는 구도, Marvell NVLink Fusion 파트너십, Dell PowerEdge XE9812 등 생태계 확장 — MangoBoost가 추적할 다중-가속기 경쟁 구도."
+    },
+    {
+      "id": 31,
+      "title": "Alibaba Unveils Zhenwu M890 AI Agent Chip: 3x H20 Performance, 144GB HBM3, NVIDIA Alternative for China",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Alibaba T-Head Zhenwu M890(144GB HBM3, 800GB/s, NVIDIA H100급) 발표 — 중국향 NVIDIA 대체 가속기 본격화, AI 에이전트 워크로드 특화(35시간 연속 운영 Qwen 3.7-Max) — DPU 인접 가속기 시장 핵심 신호."
+    },
+    {
+      "id": 12,
+      "title": "Samsung narrowly avoids 18-day chip strike after last-minute wage deal with 48,000-worker union",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/samsung-narrowly-avoids-18-day-chip-strike-after-last-minute-wage-deal-with-48-000-worker-union-tentative-deal-subject-to-workers-vote-suspends-billions-of-dollars-worth-of-potential-losses",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "삼성전자 18일 총파업(5/21~6/7)을 90분 전 극적 합의로 회피 — 글로벌 AI 칩 공급망에 미친 잠재 영향(일 1조 원 손실 추정) 영문 1차 정리. 5/22~27 찬반투표 결과는 후속 모니터링 필요."
+    },
+    {
+      "id": 10,
+      "title": "삼성전자 총파업 피했다…노사, 성과급 절충안 잠정 합의",
+      "url": "https://www.etnews.com/20260520000533",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "전자신문의 삼성 노사 잠정합의 한국어 1차 — OPI 유지 + DS 특별경영성과급 신설(사업성과 10.5%, 상한 없음), 적자사업부 1년 유예 등 합의 내용 디테일 제공 (한국어 1차 보완)."
+    },
+    {
+      "id": 29,
+      "title": "KOSPI Semiconductor Rally: Samsung +6%, SK Hynix +4% Premarket as Strike Averted and NVIDIA Beats",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261914137-kospi-samsung-strike-rebound-government-emergency-tradingkey",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "삼성 파업 타결 + NVIDIA Q1 호실적이 한국 반도체주에 동시 반영되는 거시 구도 정리 — 외국인 10거래일 연속 매도 종료, KOSPI 7,053 지지 등 시장 임팩트 통합."
+    },
+    {
+      "id": 16,
+      "title": "Memory makers brace for hydrogen fluoride pricing shock as Hormuz blockade impacts supply chain",
+      "url": "https://www.tomshardware.com/tech-industry/memory-makers-brace-for-hydrogen-fluoride-pricing-shock-as-hormuz-blockade-impacts-supply-chain-key-etching-and-cleaning-material-faces-sharp-cost-increase-amid-trade-disruption",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "호르무즈 봉쇄로 무수불산(HF) 가격 130% 급등, 7월부터 삼성·SK하이닉스 수급 가격 전가 예상 — 메모리 공급망 비용 충격 직격, 글로벌 메모리 부족 상황과 겹쳐 2019년 일본 수출규제보다 심각."
+    },
+    {
+      "id": 20,
+      "title": "AMD Ryzen AI Max PRO 400 'Gorgon Halo' packs up to 192GB of unified memory — refreshed APU for AI systems",
+      "url": "https://www.servethehome.com/amd-reveals-ryzen-ai-max-pro-400-series-192gb-ram-for-ai-systems/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AMD Ryzen AI Max PRO 400(Zen 5 16코어 + 55 TOPS NPU + 192GB 통합 메모리, 300B FP4 로컬 로딩 가능) — MangoBoost가 핵심 협업 영역인 AMD 생태계 신제품, Computex 직전 발표."
+    },
+    {
+      "id": 21,
+      "title": "Applied Materials와 Broadcom, AI 패키징 혁신 위해 EPIC 플랫폼 파트너십 체결",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56959",
+      "category": "collaboration",
+      "competitor": "Broadcom",
+      "keep_reason": "Applied Materials EPIC 50억 달러 R&D 센터에 Broadcom이 혁신 파트너로 합류 — 하이브리드 본딩/CPO 등 첨단 AI 칩 패키징 협력, 삼성·SK하이닉스·TSMC·Micron 투자한 생태계 확장."
+    },
+    {
+      "id": 19,
+      "title": "SpaceX files IPO prospectus, offers a peek into its finances — Nasdaq SPCX, targets $1.7T valuation",
+      "url": "https://fortune.com/2026/05/20/spacex-finally-files-ipo-prospectus-reveals-revenue-is-up-but-losses-are-too/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SpaceX 1.7조 달러 가치 IPO 신청(6/12 데뷔 예정) — Anthropic이 SpaceX에 월 12.5억 달러 클라우드 컴퓨팅 지불 약정 등 AI 인프라 자본 흐름 신호."
+    },
+    {
+      "id": 17,
+      "title": "Anthropic says it's about to have its first profitable quarter",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic Q2 매출 109억 달러로 첫 영업이익 분기 진입 예고, 9000억 달러 가치로 500억 달러 펀딩 협의 — AI 컴퓨팅 비용/투자 구조 핵심 신호."
+    },
+    {
+      "id": 18,
+      "title": "OpenAI to file for IPO this week, targeting $1 trillion debut",
+      "url": "https://thenextweb.com/news/openai-ipo-confidential-filing-anthropic-race",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI IPO 신청 임박, 1조 달러+ 데뷔 목표(9월 예정) — Anthropic과의 자본 시장 진출 경쟁 구도, AI 인프라 투자 사이클의 거시 신호."
+    },
+    {
+      "id": 2,
+      "title": "엔비디아, 4월 분기 '깜짝 실적'...젠슨 황 \"AI 시장 굳건, 올해 DC 1조달러 투자\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=152033",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "젠슨 황의 하이퍼스케일러 1조 달러 CAPEX 발언 + 10MW+ DC 80곳 돌파 + 베라 CPU 200억 달러 매출 가이던스 한국어 1차 — DC 인프라 확장 거시 가이드라인."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 0,
+      "title": "엔비디아, 1분기 매출 816억달러…12분기 연속 신기록",
+      "discard_reason": "duplicate of id 9 (thelec) — 더일렉 한국어 1차가 디테일·환산 면에서 더 권위 있음"
+    },
+    {
+      "id": 1,
+      "title": "엔비디아, 12분기 연속 매출 신기록…데이터센터가 실적 견인",
+      "discard_reason": "duplicate of id 9 — 동일 NVIDIA Q1 한국어 정리, 추가 각도 없음"
+    },
+    {
+      "id": 3,
+      "title": "AI 버블 일축...엔비디아 \"향후 AI 투자 3조 달러 시대 온다\"",
+      "discard_reason": "duplicate of id 2 — 동일한 1조→3-4조 달러 하이퍼스케일러 투자 메시지, id 2가 한국어 1차로 더 종합적"
+    },
+    {
+      "id": 4,
+      "title": "글로벌 시총 1위 엔비디아 또 매출 신기록⋯전년比 85%↑",
+      "discard_reason": "duplicate of id 9 — 동일 NVIDIA Q1 한국어 정리, 자사주 매입/배당 내용은 id 8, 27에서 이미 커버"
+    },
+    {
+      "id": 5,
+      "title": "엔비디아, 1분기 매출 85% 급증·800억 달러 자사주 매입 발표",
+      "discard_reason": "duplicate of id 8 — 자사주 매입/배당 인상은 id 8, 9 등에서 이미 커버, 추가 각도 미흡"
+    },
+    {
+      "id": 6,
+      "title": "빅테크 AI 경쟁에 웃는 엔비디아...데이터센터 매출 2배 급증",
+      "discard_reason": "duplicate of id 26 — TPU 경쟁 구도는 id 26 (테크M Google 태그)이 더 깊이 있게 다룸"
+    },
+    {
+      "id": 11,
+      "title": "[일지]삼성전자 파업 직전 노사 극적 타결로 파국 막았다",
+      "discard_reason": "duplicate of id 10 — 동일 etnews 계열 1차 정리, 협상 일지 추가되었으나 합의 내용은 동일"
+    },
+    {
+      "id": 13,
+      "title": "삼성전자 총파업 직전 합의…\"억눌렸던 주가 강력한 반등 촉매\"",
+      "discard_reason": "duplicate of id 29 — TradingKey가 KOSPI/외국인 수급/목표가 상향 등 동일 angle 더 포괄적으로 다룸"
+    },
+    {
+      "id": 14,
+      "title": "Samsung Electronics, SK Hynix Jump 6.16% and 4.3% in Premarket on Labor Deal, Nvidia Earnings",
+      "discard_reason": "duplicate of id 29 — 동일한 6.16%/4.3% 프리마켓 dual-catalyst 정리, TradingKey가 더 종합적"
+    },
+    {
+      "id": 15,
+      "title": "코스피, 삼성전자 노사 합의에 반등할까…외국인·개인 수급 공방 '주목'",
+      "discard_reason": "duplicate of id 29 — 동일 KOSPI 반등 기대 한국어 정리, TradingKey 영문 정리에 동일 정보 포함"
+    },
+    {
+      "id": 22,
+      "title": "Nvidia earnings takeaways: Data center revenue nearly doubles, report is strong but stock slides",
+      "discard_reason": "duplicate of id 8 — CNBC의 stock slide angle은 id 8, 23에서 이미 커버, 추가 차별점 부족"
+    },
+    {
+      "id": 24,
+      "title": "엔비디아 실적 발표 코스피 반등 기대: 엔비디아·삼성전자 파업 타결 동반 호재",
+      "discard_reason": "duplicate of id 29 — 헤럴드경제 dual-catalyst 정리, TradingKey 영문이 동일 내용 포괄"
+    },
+    {
+      "id": 25,
+      "title": "[5월20일] 미국 대학 졸업식에서 AI 이야기가 야유받는 이유",
+      "discard_reason": "off-topic — AI 일자리 사회 반응 칼럼, 반도체/AI 인프라/경쟁사 동향과 직접 무관"
+    },
+    {
+      "id": 27,
+      "title": "엔비디아 주가, 실적 발표 후 시간외서 소폭 하락…2분기 가이던스 91조 중국 제외로 '혼조'",
+      "discard_reason": "duplicate of id 23 — 베라 루빈/중국 H200 제로/자사주 매입 모두 id 8, 9, 23에서 커버"
+    },
+    {
+      "id": 28,
+      "title": "NVIDIA Q1 Revenue Hits $81.6B, Networking Triples — Vera Rubin CPU Samples Shipped, Production H2 2026",
+      "discard_reason": "duplicate of id 8 — StockTitan/공식 PR, Blockonomi(id 8)가 동일 수치를 더 풍부한 컨텍스트로 제공"
+    }
+  ],
+  "summary": {
+    "total_received": 31,
+    "total_kept": 16,
+    "total_discarded": 15,
+    "category_breakdown": {
+      "market": 10,
+      "products": 3,
+      "projects": 0,
+      "challenges": 1,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 7,
+    "by_competitor": {
+      "NVIDIA": 5,
+      "Google": 1,
+      "Broadcom": 1
+    }
+  }
+}
