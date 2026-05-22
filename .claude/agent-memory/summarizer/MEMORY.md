@@ -1,3 +1,3 @@
-- [Jargon glossary](jargon_glossary.md) — vetted Korean explanations for recurring AI/semi terms; reuse and refine
-- [Entity renderings](entities_korean_renderings.md) — preferred Korean spellings for companies/products/people + currency unit conversion rules
-- [Skip jargon for terms staff knows](feedback_skip_known_jargon.md) — ASIC/하이퍼스케일러/NPU/팹리스 등 기본 산업 용어는 jargon에 넣지 말 것
+- [Jargon glossary — 재사용 가능한 한국어 설명](jargon_glossary.md) — 반복 등장하는 AI/반도체 용어들의 vetted 한국어 정의; 신규 작성 전 먼저 조회
+- [Entity Korean renderings + 통화 환산 규칙](entities_korean_renderings.md) — 회사/제품/인물 한국어 표기 + USD billion → 억 변환 ($1B=10억) 규칙
+- [Skip known jargon — 직원이 아는 기본 용어 정의 금지](feedback_skip_known_jargon.md) — ASIC/하이퍼스케일러/NPU/팹리스/HBM 등 산업 기본어는 jargon 섹션 제외; 자기설명적 복합어도 제외

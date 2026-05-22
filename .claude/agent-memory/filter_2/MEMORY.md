@@ -1,14 +1,9 @@
-- [Raw articles lack id; filename varies](reference_raw_no_id_field.md) — Glob data/<date>/* to find raw file (01_raw.json or 01_collected.json); join by URL
-- [Competitor overlap in main is allowed](feedback_competitor_overlap_in_main.md) — competitor-tagged stories may appear in both main and competitor_articles; designer dedups
-- [Earnings-week market skew is legitimate](project_earnings_week_pattern.md) — late Apr/Jul/Oct + early Feb tilt heavily to market category; don't force over-diversification
-- [AI타임스 body richness profile](reference_aitimes_body_richness.md) — most pass guard; prefer English long-form for marginal slots when tied
-- [Check published_urls.jsonl before locking main 8](feedback_check_registry_for_dupes.md) — collector dedup can fail; Stage-2 must verify exact URL match against registry
-- [Stage-1 summary may undercount competitor_kept_total](reference_stage1_competitor_undercount.md) — count competitor!=null directly from kept, don't trust summary totals
-- [ETNews same-day same-event dedup](feedback_etnews_same_event_dedup.md) — op-ed + 이슈플러스 동시 keep시 데이터 풍부한 1건만 메인 채택
-- [Content-overlap dedup beyond exact duplicates](feedback_content_overlap_dedup.md) — non-identical but topically overlapping articles → keep stronger, drop weaker (general form of ETNews rule)
-- [Cap ongoing-saga coverage](feedback_ongoing_story_overcoverage.md) — multi-day story (Samsung strike etc.) capped at 1 main + 0-1 complement per issue
-- [User-specified main_cap overrides formula](feedback_user_override_main_cap.md) — explicit "최대 N개" 우선, 동적 공식값은 selection_notes에 병기
-- [Same event, different URL across days](reference_competitor_url_same_event_diff_url.md) — registry dedup is URL-exact; trust Stage-1's keep call when URLs differ
-- [Stale published_at = drop, not demote](feedback_stale_date_drop_not_demote.md) — if published_at falls outside the recency window, drop the article entirely; demoting from headline to main is rationalization, not enforcement (#010 Big-Tech capex Apr 30 incident)
-- [Vendor I/O event multi-part split is NOT dedup](project_google_io_2026.md) — keynote + silicon deep-dive + JV financing each carry distinct DPU-relevant angles; keep together in main
-- [Issue #014 small-pool but 3 headlines defensible](project_issue_014_small_pool.md) — 11 kept ≠ weak headlines; pool size and bar-clearance are independent axes
+- [메인셋 dedup — content overlap + same-event + ongoing saga cap](feedback_main_set_dedup.md) — 같은 회사·같은 비트 겹치면 약한 쪽 drop; ETNews 동일 사건 op-ed/심층 중 1개만; multi-day saga는 메인 1+보완 1로 cap
+- [Registry 재확인 — collector dedup 실패 대비](feedback_check_registry_for_dupes.md) — Stage-2가 published_urls.jsonl을 다시 확인하는 마지막 방어선; 정확 URL 매칭으로 drop
+- [Competitor 기사는 main + competitor 양쪽 허용](feedback_competitor_overlap_in_main.md) — competitor != null이 top-8급이면 둘 다에 포함; designer가 dedup; main_competitor_overlap_count 추적
+- [Stale published_at = drop, demote 아님](feedback_stale_date_drop_not_demote.md) — recency window 밖이면 메인/헤드라인/competitor 어디에도 안 넣음; "recycled context"라는 rationalization이 tell
+- [User-specified main_cap이 동적 공식 override](feedback_user_override_main_cap.md) — 프롬프트에 "최대 N개" 명시되면 동적 공식값보다 우선; selection_notes에 둘 다 기록
+- [Stage-1 contract quirks — summary 토탈/id 필드/same-event URL](reference_stage1_contract_quirks.md) — competitor_kept_total 신뢰 금지, raw에 id 필드 없음, same-event-different-URL는 정상 (3가지 합본)
+- [AI타임스 body richness — 대부분 통과, 일부 stub](reference_aitimes_body_richness.md) — 7~8번째 슬롯에서 영문 long-form과 tied면 후자 선호; sovereign-AI/domestic-policy는 AI타임스 우선
+- [어닝 주차 market 카테고리 skew는 정상](reference_earnings_week_skew.md) — 4월 말/7월 말/10월 말/2월 초는 market 2-3슬롯 정상; 카테고리 분산 위해 약한 기사 밀어넣지 말 것
+- [Vendor multi-part 키노트는 dedup 예외](reference_vendor_multipart_event.md) — Google I/O / GTC / WWDC 등 단일 키노트의 multi-part primary blog는 distinct 각도면 함께 keep

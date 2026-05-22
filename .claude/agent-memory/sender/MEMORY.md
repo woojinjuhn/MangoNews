@@ -1,1 +1,1 @@
-- [Always use canonical script](feedback_use_canonical_script.md) — call scripts/send_newsletter.ps1; inline SmtpClient skips logo LinkedResource + archive b64 expansion
+- [Canonical script만 사용 — inline SmtpClient 금지](feedback_use_canonical_script.md) — scripts/send_newsletter.ps1 호출 필수; inline은 logo LinkedResource (cid:logo)와 archive b64 expansion 둘 다 skip해서 받은편지함 로고 깨지고 archive 사이즈 ~278KB→68KB (#003 incident)

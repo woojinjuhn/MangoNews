@@ -1,5 +1,5 @@
-- [MangoNews Pipeline Context](project_pipeline.md) — Channel A/B architecture, test-mode override details, dedup state location
-- [High-yield news sources per domain](reference_sources.md) — confirmed sources, paywall notes, Korean outlets, effective query patterns
-- [MangoBoost competitor watchlist](reference_competitors.md) — DPU/SmartNIC/inference chip competitors, recent M&A, product roadmaps
-- [Verify publication date against byline](feedback_verify_publication_date.md) — never default published_at to today; T00:00:00 + past-event URL slugs (ces-2026, mwc-2026) require byline re-verification or drop. Now backed by Self-Verification step 2a hard gate
-- [JSON-LD datePublished extraction](feedback_jsonld_datepublished_required.md) — Tom's Hardware / Future plc / TechCrunch / wire outlets need JSON-LD parsing because static HTML byline is JS-rendered; visible-byline parsing alone shipped stale articles in #008 and #010
+- [Pipeline architecture — Channel A/B + dedup state location](project_pipeline.md) — RSS+web sections (A) + WebSearch discovery (B); state/published_urls.jsonl이 cross-issue dedup 진실 소스
+- [High-yield news sources per domain](reference_sources.md) — 도메인별 confirmed sources, paywall notes, 한국 매체, 효과적인 query 패턴
+- [MangoBoost competitor watchlist](reference_competitors.md) — DPU/SmartNIC/inference 칩 경쟁사 카탈로그, 최근 M&A, 제품 로드맵
+- [Byline 검증 — published_at default to today 금지](feedback_verify_publication_date.md) — published_at은 본문 byline/meta/JSON-LD에서 derive; 추출 실패 시 drop (synthesize 금지); T00:00:00 + 과거 이벤트 slug(ces-2026, mwc-2026)는 re-verify
+- [JSON-LD datePublished — Tom's Hardware/TechCrunch/Future plc의 유일한 신뢰 dates](feedback_jsonld_datepublished_required.md) — visible byline은 client-side render라 빈 값 반환; <script type="application/ld+json">에서 datePublished 추출 필수 (Self-Verification step 2a 하드 게이트)

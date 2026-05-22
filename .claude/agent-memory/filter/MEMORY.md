@@ -1,9 +1,6 @@
-- [Korean source preference](feedback_korean_source_preference.md) — 한국어 1차 정리본은 영문 1차와 별도로 keep할 가치가 있을 때가 있음
-- [Registry dedup precision](feedback_registry_url_match.md) — published_urls 매칭은 정확 URL 비교; 같은 사건이라도 매체 URL이 다르면 별도 등록 가능
-- [DPU-adjacent keywords](reference_dpu_adjacent_topics.md) — BlueField, OCTEON, ConnectX, SmartNIC, AGI CPU, Graviton 등 DPU 인접 신호어 목록
-- [Headline calibration sample](project_2026-04-30_headline_calibration.md) — 2026-04-30 사례: 삼성/SK하이닉스 사상최대 실적+퀄컴 DC 진입의 트리플 헤드라인 정당성 기록
-- [Verify article count](feedback_verify_article_count.md) — collector run_summary.total can lie; derive total_received from articles[] length
-- [Mega-cluster compression](project_2026-05-15_samsung_strike_cluster.md) — 단일 사건 ≥5개 클러스터는 4–6개 각도(운영·리더십·협상·비즈영향·한국어1차)로 압축
-- [Dual mega-event compression](project_2026-05-20_dual_event_compression.md) — 한 날에 Google I/O+Dell Tech World 두 메가이벤트 동시 발생 시 클러스터별 3–4개 각도 압축 도식
-- [NVIDIA earnings + Samsung strike cluster](project_2026-05-21_nvidia_earnings_cluster.md) — 2026-05-21 NVIDIA Q1 14건+삼성 파업 7건 dual-mega; 14건 어닝 클러스터는 5각도 max keep 권장
-- [Automotive power semi discard](reference_automotive_power_semi_discard.md) — 자동차용 MOSFET/IGBT/SiC 기사는 EU 제재 프레이밍이라도 off-topic discard
+- [한국어/영문 1차 보완 keep](feedback_korean_source_preference.md) — 같은 사건이라도 한국어 1차 + 영문 1차가 상호 보완(환산 단위, 1차 인용)이면 둘 다 keep
+- [Registry dedup은 정확 URL 매칭](feedback_registry_url_match.md) — published_urls.jsonl 매칭은 URL exact; 같은 사건이라도 매체 URL 다르면 별도 등록 가능
+- [Article count는 articles[]에서 derive](feedback_verify_article_count.md) — collector run_summary.total/topic_breakdown는 lie 가능; 실제 배열 길이로 검증
+- [DPU/SmartNIC 인접 신호 어휘](reference_dpu_adjacent_topics.md) — BlueField, OCTEON, ConnectX, Pensando, Graviton, AGI CPU 등 + workload/market 시그널 키워드 카탈로그
+- [자동차 power semi는 off-topic](reference_automotive_power_semi_discard.md) — MOSFET/IGBT/SiC for cars는 EU 제재 프레이밍이라도 discard (auto Tier 1 시장은 DPU 가치사슬과 무관)
+- [메가 클러스터 압축 doctrine](reference_cluster_compression.md) — 단일 사건 5+ 기사 시 3-5각도 압축, dual mega-event 시 클러스터당 3-4각도; 헤드라인 3개 정당화 기준 포함

@@ -1,2 +1,2 @@
-- [Verify 요약/용어 section counts before reporting done](feedback_verify_section_counts.md) — designer once silently dropped 2/12 요약 blocks; count-check + report actual numbers, not "byte-for-byte" claims
-- [Stop and ask on schema mismatch](feedback_stop_and_ask_on_schema_mismatch.md) — when competitor_updates is missing but competitor_articles is present, halt and ask; do NOT improvise English bullets from raw passthrough (issue #013 regression)
+- [요약/용어 section count 검증 — silent drop 방지](feedback_verify_section_counts.md) — 05_newsletter.html 작성 후 요약 블록 수를 main[] 길이와 비교, 용어 블록은 jargon 비어있지 않은 article 수와 비교; "byte-for-byte" 주장 금지, 실제 카운트 보고
+- [Schema mismatch 시 STOP AND ASK — improvise 금지](feedback_stop_and_ask_on_schema_mismatch.md) — 04_summarized.json에 competitor_updates 누락이면 raw competitor_articles 본문 읽어 영문 bullet 만들지 말 것 (issue #013 regression); halt해서 사용자에게 (a) re-summarize 대기 / (b) 섹션 생략 중 선택받기

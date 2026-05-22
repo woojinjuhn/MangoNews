@@ -56,6 +56,21 @@ Every subagent has its own persistent memory directory at `.claude/agent-memory/
 
 The top-level user-scope memory at `~/.claude/projects/c--Users-pc-24-042-mangonews/memory/` holds cross-cutting facts (user profile, currency rule, "뉴스 생성" trigger).
 
+### Before creating a new agent-memory file — mandatory check
+
+When editorial feedback arrives and you decide it belongs in `.claude/agent-memory/<agent>/`, you MUST do these two steps before any `Write` to a new file:
+
+1. **Read the agent's `MEMORY.md`** index and scan every line for a rule that already covers (or generalizes) the new feedback.
+2. **Grep the agent's directory** for the two or three most distinctive keywords from the feedback (e.g. for "겹치는 기사 빼줘" → grep `dedup` and `overlap`).
+
+If an existing file already covers the rule, **Edit it** — append the new example, broaden the wording, or sharpen the `description`. Do NOT create a parallel file with a different name. Creating a sibling file is a soft-duplication that quietly degrades grep recall over time.
+
+Only create a new file when the rule is genuinely orthogonal to every existing one. When in doubt, ask the user "기존 `X.md`에 변형으로 추가할까요, 아니면 별도 파일로 만들까요?" — they almost always prefer the merge.
+
+Symptom of past failure: the same rule landing in 2+ files with different names (e.g. `feedback_etnews_dedup` + `feedback_content_overlap_dedup` — the second one's body even acknowledged it generalized the first, yet both files persisted). When you see this pattern in a directory, that is technical debt — merge them in the same session you noticed.
+
+`MEMORY.md` lines should be **searchable rule keywords**, not event labels. Bad: `"#008 Samsung strike cluster"`. Good: `"메가 클러스터 압축: 단일 사건 5개 이상 시 4-6각도로 묶기"`. The index is the surface that future-you greps first — write it for retrieval, not for nostalgia.
+
 ## Permissions / hooks
 
 - `.claude/settings.json` — committed. Pre-authorizes WebSearch, WebFetch, Write/Edit (especially under agent-memory), and PowerShell so the pipeline runs without permission prompts.
