@@ -115,18 +115,26 @@ type: reference
 - **Samsung Electronics labor strike**: Averted May 20 22:30 KST — union and management reached deal: DS division special incentive = 10.5% of annual revenue before tax, NO CAP; 2025 payout ≈ 7.4조원; ratification vote May 22-27; if ratified, 18-day strike (May 21–June 7) cancelled. Production continuity restored; Samsung/SK Hynix stocks rallied +6.16%/+4.3% premarket.
 - **Rebellions, FuriosaAI, Moreh, HyperAccel, FriendliAI, Napatech, Marvell**: No standalone May 21 articles found. Marvell COMPUTEX June 2 still forward calendar.
 
-## Forward-looking competitor calendar (as of May 21 2026)
-- **NVIDIA Q1 FY2027 earnings**: DONE — May 21 05:20 KST; $81.6B revenue; top story for #013 issue
-- **Samsung strike**: RESOLVED May 20 22:30 KST; DS 10.5% incentive; ratification vote May 22-27; if vote passes, strike cancelled
+## May 22 2026 update — competitor developments
+- **NVIDIA**: Vera Rubin VR200 NVL72 system cost $7.8M (vs $4M for GB300 NVL72); memory now 25% of rack cost ($2M); 54TB LPDDR5X per rack vs 17TB; Morgan Stanley analysis. KOSPI semiconductor sector +9.7% on May 21 NVIDIA earnings reaction. Taiwan chip smuggling case (3 suspects) re: Nvidia AI servers; Taiwan's first chip smuggling prosecution.
+- **Microsoft (Maia)**: In talks to supply Maia200 chips to Anthropic for Claude inference — first external customer for Microsoft proprietary AI silicon; early stage talks (The Information exclusive May 21; etnews.com Korean coverage May 22 07:18 KST).
+- **HyperAccel**: CEO Kim Ju-young gave keynote at 차세대 AI 반도체 아키텍처 워크숍 (May 21 Seoul); topic: sustainable AI infrastructure strategies. No standalone product news.
+- **Moreh**: Dr. Jung Woo-geun (MOREH) presented heterogeneous AI system optimization at same May 21 workshop. No standalone product news.
+- **Rebellions, FuriosaAI, FriendliAI, Napatech, Marvell, Tenstorrent**: No standalone May 22 news.
+- **Kioxia**: Record FY2026 results — ¥2.337T revenue (+37%), US ADS listing planned; AI NAND/SSD demand driving growth.
+
+## Forward-looking competitor calendar (as of May 22 2026)
+- **Samsung strike ratification vote**: Voting May 22 14:00 – May 27 10:00 KST; results announced May 27; if rejected, strike may resume
 - **Marvell COMPUTEX 2026 keynote**: June 2; Matt Murphy on AI data center infrastructure
-- **AMD Venice/Helios rack**: H2 2026 launch (EPYC Zen 6 + Instinct MI455X + Pensando DPU)
+- **AMD Venice/Helios rack**: H2 2026 launch (EPYC Zen 6 + Instinct MI455X + Pensando DPU); $10B Taiwan ecosystem investment announced
 - **FuriosaAI pre-IPO**: Funding close target mid-June 2026; 2027 IPO
 - **Rebellions KOSPI IPO**: Targeting Q3 2026 (August likely)
 - **Google 8th-gen TPU**: GA planned later in 2026; watch for customer adoption announcements
-- **Samsung strike ratification vote**: May 22-27; monitor for result; if rejected, strike may resume
-- **Tenstorrent acquisition**: Intel/Qualcomm talks ongoing; watch for deal announcement or funding round announcement
+- **Tenstorrent acquisition**: Intel/Qualcomm talks ongoing; watch for deal announcement or funding round
 - **SpaceX Starlink IPO (SPCX)**: S-1 filed ~May 21; $1.7T valuation target; $80B raise; Nasdaq
 - **OpenAI IPO**: Confidential S-1 filing imminent; $1T+ valuation target; September 2026 target
+- **Microsoft Maia → Anthropic deal**: Early-stage talks; if closed = first external Maia customer and strategic hyperscaler silicon news
+- **NVIDIA Vera Rubin NVL144 sampling**: Sampling to customers; first shipments Q3 FY2027
 
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026

@@ -1,0 +1,117 @@
+{
+  "kept": [
+    {
+      "id": "art_07",
+      "title": "AMD, 대만에 100억달러 투자…AI 플랫폼 생태계 강화",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57034",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "AMD ecosystem 핵심 전략 (MangoBoost 사업 코어): Helios 랙 스케일 AI 플랫폼, MI450 GPU 6GW OpenAI/Meta 공급, EFB 첨단 패키징, Venice EPYC — DPU/AI 인프라 협업 기회와 직결."
+    },
+    {
+      "id": "art_08",
+      "title": "MS, 앤트로픽에 자체 AI칩 공급 논의…첫 외부 공급",
+      "url": "https://www.etnews.com/20260522000041",
+      "category": "products",
+      "competitor": "Microsoft",
+      "keep_reason": "하이퍼스케일러 자체 실리콘(Maia200)의 외부 첫 공급 사례, NVIDIA GPU 대비 추론 비용 효율, Anthropic이 AWS/MS/Google 커스텀 칩 모두 활용 — 인하우스 실리콘 경쟁 지형 전환점."
+    },
+    {
+      "id": "art_02",
+      "title": "Nvidia's memory costs soar 485%, latest AI systems now cost $7.8 million to build",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidias-memory-costs-soar-485-percent-latest-ai-systems-now-cost-usd7-8-million-to-build-memory-now-comprises-25-percent-of-the-total-cost-rubin-gpus-a-mere-usd50-000-apiece",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "Rubin VR200 NVL72 랙 비용 구조 분해 (메모리 25% = $2M, LPDDR5X 54TB, 3D NAND $1M) — AI 인프라 비용/메모리 병목 의제 정조준, SK하이닉스·삼성 HBM/LPDDR 공급 영향."
+    },
+    {
+      "id": "art_12",
+      "title": "차세대 AI 반도체 아키텍처 워크숍 개최…추론 효율화·NPU 에너지 효율 논의",
+      "url": "https://www.etnews.com/20260522000074",
+      "category": "market",
+      "competitor": "HyperAccel",
+      "keep_reason": "Tier 1 한국 경쟁사 2곳(하이퍼엑셀 김주영, 모레 정우근)이 같은 워크숍에서 추론 효율화·이기종 AI 시스템 최적화 방향성 공개 — 직접 경쟁 정보."
+    },
+    {
+      "id": "art_11",
+      "title": "[AI MY 증시전망] 코스피, 숨고르기 속 반도체 강세 지속…美·이란 협상 변수 주시",
+      "url": "https://www.newspim.com/news/view/20260522000100",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "엔비디아 Q1 데이터센터 92% YoY 성장 + 2분기 가이던스 $910억 컨센서스 상회 + 코스피 반도체 9.7% 급등 — 한국 반도체 밸류체인 시장 정황 종합."
+    },
+    {
+      "id": "art_03",
+      "title": "Kioxia rides the AI wave to record revenues and a US listing",
+      "url": "https://www.blocksandfiles.com/flash/2026/05/21/kioxia-rides-the-ai-wave-to-record-revenues-and-a-us-listing/5241267",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "키오시아 SSD/스토리지 매출 99.8% QoQ 성장, FY26 $14.7B, AI 데이터센터 NAND 수요 — MangoBoost SSD 인접 영역의 시장 신호 + ADS 상장 추진."
+    },
+    {
+      "id": "art_06",
+      "title": "무엇이든 해냅니다…구글의 진정한 멀티모델 '제미나이 옴니'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210808",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "구글 I/O 2026에서 Gemini Omni 멀티모달 + Gemini 3.5 Flash + Gemini Spark 에이전트 동시 공개 — AI 모델/에이전트 출시 KEEP 카테고리 직결."
+    },
+    {
+      "id": "art_05",
+      "title": "[5월21일] 구글은 왜 '제미나이 3.5 프로' 출시를 미뤘나…핵심은 '데이터 플라이휠'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210788",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Gemini 3.5 Pro 지연이 Antigravity 2.0 코딩 데이터 수집 RL 전략임을 분석 — AI 모델 출시 + 에이전트 인프라 전략, 5조 토큰 처리·자기강화 데이터 루프 비교 정보."
+    },
+    {
+      "id": "art_10",
+      "title": "Prosecutors seek to detain trio over AI chip smuggling",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/05/22/2003857777",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "대만 첫 반도체 밀수 기소 (Super Micro AI 서버, NVIDIA H200) — AI 칩 수출통제·공급망 우회 의제, GPU 공급 가용성에 영향."
+    },
+    {
+      "id": "art_09",
+      "title": "삼성전자 노조, 27일까지 잠정합의안 투표",
+      "url": "https://www.etnews.com/20260522000042",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "5월 21일 총파업 위기 잠정 유보의 후속 — DS 사업성과 10.5% 특별성과급, 평균 6.2% 임금 인상안. 직전 이슈에서 다룬 메가 이벤트의 결착 단계."
+    },
+    {
+      "id": "art_04",
+      "title": "Trump delays AI security executive order, saying language 'could have been a blocker'",
+      "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "미국 AI 거버넌스 행정명령 보류 — Anthropic Mythos·OpenAI GPT-5.5 Cyber 사전 보안 검증 의무가 14~90일에서 미정으로, AI 모델 출시 일정/규제 환경 신호."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "art_01",
+      "title": "EU forced to exempt banned Chinese chipmaker after auto industry warns of supply crisis",
+      "discard_reason": "off-topic — Yangjie 양제 전자의 전력 반도체(MOSFET/IGBT/SiC)는 자동차 전장 부품으로, DPU/AI 인프라·AI 가속 영역과 연결점이 없음. EU 제재·자동차 공급망 이슈는 MangoBoost 사업 코어 밖."
+    }
+  ],
+  "summary": {
+    "total_received": 12,
+    "total_kept": 11,
+    "total_discarded": 1,
+    "category_breakdown": {
+      "market": 4,
+      "products": 3,
+      "projects": 1,
+      "challenges": 2,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 4,
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Microsoft": 1,
+      "HyperAccel": 1
+    }
+  }
+}

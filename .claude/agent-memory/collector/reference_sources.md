@@ -388,3 +388,32 @@ type: reference
 - `SMIC AMEC domestic Chinese chipmaking tools production May 2026` — tomshardware.com accessible
 - `AMD EPYC 8005 Sorano Zen 5 telco edge May 2026` — servethehome.com accessible
 - `삼성전자 파업 5월 20일 3차 조정 타결 여부` — ajunews.com + zdnet.co.kr; both published overnight into May 20
+
+## Source notes (2026-05-22 run — single day window)
+- **Single-day KST window after same-week issue**: Tom's Hardware and Blocks & Files published May 21 UTC articles after 15:00 UTC (= after midnight KST May 22); TechCrunch published 10:30 AM PDT May 21 (17:30 UTC = 02:30 KST May 22); no NextPlatform, ServeTheHome, DCD accessible articles for this window
+- **Korean outlets were the primary May 22 source**: etnews.com (4 articles 07:18-09:26 KST), thelec.kr (1 article 06:02 KST), aitimes.com (2 articles 07:00 and 08:03 KST), newspim.com (1 article 08:35 KST)
+- **Taipei Times** (taipeitimes.com) — accessible; publishes Taiwan semiconductor/policy news; good for NVIDIA export control enforcement stories; first-instance chip smuggling crackdown article confirmed accessible
+- **aitimes.com "발행일" vs "입력일"**: Some articles show "입력" (draft input) date earlier than "발행일" (publication date). Use 발행일 for recency window check, not 입력일. Example: idxno=210729 input May 20 but 발행일 May 22 08:03 = in-window for May 22 issue.
+- **newspim.com "AI MY 증시전망" column**: High-value daily semiconductor market analysis with precise KST timestamps; excellent for NVIDIA-earnings-day and Samsung-event reaction articles
+- **etnews.com breaking news list**: m.etnews.com/news/section.html shows all same-day articles with timestamps; use for discovery
+- **DCD** — body still 403 on all attempts; skip individual article fetch; use The Register or search summaries for DCD-originated stories
+- **OpenAI Guaranteed Capacity**: Published The Register May 20 20:51 UTC = May 21 05:51 KST — out of window for May 22 issue (falls on last issue date)
+- **edaily.co.kr** — accessible Korean financial news; NVIDIA earnings articles at 09:53 KST May 21 (out of window for May 22 issue)
+
+## Key observations (2026-05-22 run)
+- **Dominant May 22 story pattern**: NVIDIA earnings aftermath (May 21 KST earnings day); May 22 = "reaction day" — Korean KOSPI semiconductor surge (+9.7%), Samsung vote confirmation, market analysis
+- **Samsung union ratification vote**: Started 14:00 KST May 22; results expected May 27; etnews.com idxno=20260522000042
+- **AMD Taiwan $10B investment**: GlobeNewswire PR published May 21 01:35 ET (out-of-window in English); thelec.kr Korean analysis published 06:02 KST May 22 (in-window); always check Korean outlet publication of same story
+- **aitimes.com articles 210788, 210808**: Both published May 22 morning KST; 210788 is daily news briefing; 210808 is Gemini Omni follow-up from I/O
+- **Microsoft Maia to Anthropic**: The Information exclusive May 21 local time; etnews.com first Korean coverage May 22 07:18 KST
+- **No standalone news for Tier 1 Korean competitors on May 22**: HyperAccel CEO Kim Ju-young spoke at May 21 workshop; Moreh's Jung Woo-geun spoke at same workshop; covered in etnews.com May 22 09:26 article
+- **Datacenter domain lean**: No new datacenter-primary announcements May 22; market reaction stories dominated
+
+## Query patterns (2026-05-22 run)
+- `m.etnews.com/news/section.html` — direct breaking news list; all May 22 articles with timestamps
+- `AMD Taiwan $10 billion investment EFB packaging May 22 2026` — surfaces thelec.kr idxno=57034 (06:02 KST May 22)
+- `전자신문 etnews 기사 20260522` — direct URL probe for May 22 articles (idxno pattern 20260522000041, 42, 74, 83 etc.)
+- `aitimes.com 구글 제미나이 AI 5월22일` — aitimes article list; idxno 210788, 210808 for May 22 morning
+- `Microsoft Maia chip supply Anthropic external first May 2026` — surfaces The Information / etnews.com coverage
+- `엔비디아 1분기 실적 5월22일 반응 코스피 반도체` — newspim.com KOSPI reaction article (08:35 KST May 22 in-window)
+- `Prosecutors Taiwan AI chip smuggling Nvidia Super Micro May 22 2026` — Taipei Times accessible

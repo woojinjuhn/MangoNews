@@ -11,3 +11,4 @@
 - [Same event, different URL across days](reference_competitor_url_same_event_diff_url.md) — registry dedup is URL-exact; trust Stage-1's keep call when URLs differ
 - [Stale published_at = drop, not demote](feedback_stale_date_drop_not_demote.md) — if published_at falls outside the recency window, drop the article entirely; demoting from headline to main is rationalization, not enforcement (#010 Big-Tech capex Apr 30 incident)
 - [Vendor I/O event multi-part split is NOT dedup](project_google_io_2026.md) — keynote + silicon deep-dive + JV financing each carry distinct DPU-relevant angles; keep together in main
+- [Issue #014 small-pool but 3 headlines defensible](project_issue_014_small_pool.md) — 11 kept ≠ weak headlines; pool size and bar-clearance are independent axes
