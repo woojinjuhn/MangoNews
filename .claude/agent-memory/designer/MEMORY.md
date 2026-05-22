@@ -1,1 +1,2 @@
 - [Verify 요약/용어 section counts before reporting done](feedback_verify_section_counts.md) — designer once silently dropped 2/12 요약 blocks; count-check + report actual numbers, not "byte-for-byte" claims
+- [Stop and ask on schema mismatch](feedback_stop_and_ask_on_schema_mismatch.md) — when competitor_updates is missing but competitor_articles is present, halt and ask; do NOT improvise English bullets from raw passthrough (issue #013 regression)
