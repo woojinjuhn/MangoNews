@@ -1,0 +1,532 @@
+{
+  "collection_date_kst": "2026-05-26",
+  "run_summary": {
+    "total": 48,
+    "by_topic": {
+      "ai": 17,
+      "semiconductor": 14,
+      "datacenter": 9,
+      "competitor": 8
+    },
+    "by_competitor": {
+      "NVIDIA": 5,
+      "Rebellions": 2,
+      "Furiosa": 1,
+      "Tenstorrent": 1,
+      "Cerebras": 2,
+      "AMD": 3,
+      "Marvell": 0,
+      "Napatech": 0,
+      "Moreh": 0,
+      "FriendlyAI": 0,
+      "HyperAccel": 0,
+      "Broadcom": 1
+    },
+    "competitor_tagged_total": 15,
+    "sources_consulted": 38,
+    "skipped_paywalled": 2,
+    "notes": "DCD article on AI factories fiber problem returned 403. VentureBeat Cerebras article returned 429 (rate limit). hpcwire.com/feed returned 403. www.wired.com/feed/rss returned error (blocked). networkworld.com/index.rss returned 404. Napatech had no qualifying news in the May 23-26 window. Moreh had no new articles in window (most recent was May 4, already published in issue #005). FriendliAI had no qualifying articles in window (CB Insights selection was May 14, already in issue #007 window). HyperAccel had no new articles in window. Naver News section page returned blocked error. SemiAnalysis feed only showed articles from Sep 2025. thelec.kr article 56994 (리벨리온 데이터센터) published May 21 — within window. Tom's Hardware giga-cycle semiconductor article was December 2025 — excluded. Bloomberg Tenstorrent M&A article is paywalled — skipped. nvidia.com/blog/bluefield-4 was October 2025 — excluded. Dropped: https://www.datacenterdynamics.com/en/opinions/ai-factories-have-a-fiber-problem/ — 403 paywall. dropped: https://blogs.nvidia.com/blog/bluefield-4-ai-factory/ — published 2025-10-28, outside window."
+  },
+  "articles": [
+    {
+      "title": "Nvidia at Computex 2026: Jensen Huang Flies to TSMC as Vera Rubin Ramp Strains Taiwan Supply Chain",
+      "url": "https://www.techtimes.com/articles/317079/20260524/nvidia-computex-2026-jensen-huang-flies-tsmc-vera-rubin-ramp-strains-taiwan-supply-chain.htm",
+      "body": "Jensen Huang landed at Taipei's Songshan Airport on Saturday, May 23, telling reporters he has 'a lot to do' — a phrase that understates what is at stake. The Nvidia CEO's arrival in Taiwan ahead of Computex 2026 and next week's GTC Taipei keynote is about more than trade-show theatrics. The trip's central purpose is a meeting with TSMC Chairman C.C. Wei to lock in production commitments for Nvidia's next-generation Vera Rubin platform — the chip system Huang calls the largest product launch in Taiwan's history.\n\nThree days earlier, Nvidia had posted record Q1 fiscal 2027 revenue of $81.62 billion, an 85% year-over-year increase that beat analyst expectations by more than 3%. Data center revenue — now 90% of the company's total — hit $75.2 billion, up 92% from a year ago. Nvidia authorized an additional $80 billion in share buybacks and raised its quarterly dividend from $0.01 to $0.25 per share. The company guided Q2 fiscal 2027 revenue at roughly $91 billion, with zero China data center compute revenue assumed.\n\nThe Vera Rubin platform is a six-chip system: the Vera central processing unit, the Rubin graphics processing unit, an NVLink 6 switch, a ConnectX-9 SuperNIC, a BlueField-4 data processing unit, and a Spectrum-X ethernet switch. Every chip in the system is new — an approach Huang describes as unprecedented in Nvidia's history. Each NVL72 configuration connects 36 Vera CPUs and 72 Rubin GPUs, contains nearly two million parts, and draws on roughly 150 Taiwanese supply-chain partners to assemble.\n\nVera Rubin delivers 3.5 times the training performance and five times the inference performance of its Blackwell predecessor. It cuts inference costs to one-seventh of the Blackwell platform.\n\nThe constraint Huang's TSMC meeting is designed to address is not silicon fabrication — it is advanced packaging. TSMC's CoWoS technology is the process that integrates a GPU or CPU die with high-bandwidth memory into the unified package Nvidia's AI accelerators require. TSMC is executing one of the most aggressive capacity expansions in semiconductor history: scaling CoWoS output from roughly 35,000 wafers per month in late 2024 toward a projected 120,000 to 140,000 wafers per month by the end of 2026. Despite that expansion, demand remains oversubscribed. Nvidia has reportedly pre-committed more than half of TSMC's available CoWoS capacity through 2027.\n\nNvidia China Market Share Drops to Zero: Huawei has been the primary beneficiary. Its Ascend 950PR chip entered mass production in March 2026, and Huawei's AI chip revenue is projected to reach $12 billion in 2026 — a 60% jump from $7.5 billion in 2025. A licensed pathway for Nvidia chips nominally exists for approximately 10 approved Chinese firms, but as of late May 2026, not a single H200 has been delivered. Beijing has instructed domestic firms to hold back orders and prioritize Huawei alternatives.\n\nHuang's Taiwan arrival comes three days after Taiwanese prosecutors announced an investigation into three individuals suspected of using forged documents to illegally export Super Micro AI servers containing Nvidia chips. The Taiwan case connects to a broader federal indictment unsealed in New York in March 2026, which charged three Super Micro-linked individuals with conspiring to reroute $2.5 billion in US AI technology to China.",
+      "published_at": "2026-05-24T13:48:00+09:00",
+      "source": "TechTimes",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "After $2.5 billion Supermicro smuggling bust, Nvidia CEO urges company to fix export control compliance — Taiwan also begins to crack down on AI GPU chip smuggling to China",
+      "url": "https://www.tomshardware.com/tech-industry/jensen-huang-urges-super-micro-to-tighten-compliance",
+      "body": "Nvidia CEO Jensen Huang called on Super Micro Computer to strengthen its export compliance controls after arriving in Taipei on Saturday, months after U.S. federal prosecutors charged the server maker's co-founder and two others with conspiring to smuggle approximately $2.5 billion worth of Nvidia-equipped servers to China through shell companies in Southeast Asia.\n\nHuang told reporters at Songshan Airport that Nvidia insists its partners follow U.S. trade rules. 'We insist our partners are compliant. We hope that they will enhance their regulation compliance,' Huang stated.\n\nHuang's comments came days after Taiwan launched its first formal crackdown on illicit AI hardware exports. The Keelung District Prosecutors' Office announced that three suspects had submitted fraudulent shipping declarations to export Super Micro servers containing Nvidia AI chips to China, Hong Kong, and Macau.\n\nThe Taiwan case relates to a larger U.S. federal prosecution unsealed in March that charged Supermicro co-founder Yih-Shyan 'Wally' Liaw and two others with conspiring to smuggle approximately $2.5 billion worth of Nvidia-equipped servers to China. Liaw has pleaded not guilty, and Supermicro stated it is not named as a defendant and is cooperating with the investigation.\n\nHuang confirmed that China is included in the $200 billion addressable market he projected for Nvidia's upcoming Vera CPU. He noted that 'H200 has been licensed to ship to China' but emphasized the Chinese market's importance.\n\nHuang is in Taipei ahead of Nvidia's GTC Taipei event and his Computex keynote on June 1st, where he will discuss the Vera Rubin platform's software stack.",
+      "published_at": "2026-05-24T14:20:29+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Huawei claims sanctions-busting breakthrough with 1.4nm-class chips by 2031, claims 55% higher transistor density — firm claims new LogicFolding chip architecture can bypass EUV restrictions, introduces 'Tau Scaling Law' to replace Moore's Law",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/huawei-claims-sanctions-busting-breakthrough-with-1-4nm-class-chips-by-2031-claims-55-percent-higher-transistor-density-firm-claims-new-logicfolding-chip-architecture-can-bypass-euv-restrictions-introduces-tau-scaling-law-to-replace-moores-law",
+      "body": "Huawei announced a novel chip design framework targeting '1.4nm-class' transistors with increased transistor density. The company introduced the 'LogicFolding' architecture and 'Tau Scaling Law' at IEEE's ISCAS 2026 conference in Shanghai.\n\nHe Tingbo, a Huawei board member and HiSilicon president, revealed the company has spent six years developing this methodology, having 'secretly designing and mass-producing 381 chips' based on these principles.\n\nRather than pursuing traditional geometric scaling (Moore's Law), Huawei's approach uses 'temporal scaling,' emphasizing signal speed optimization over component miniaturization. The LogicFolding design stacks logic circuits in dual-layer formations, shortening internal wiring to reduce signal delays.\n\nThe architecture reportedly achieves a '55% increase in transistor density and a 41% boost in power efficiency,' allowing development of competitive processors without access to restricted extreme ultraviolet lithography equipment.\n\nThe flagship Kirin smartphone processors will debut this technology in autumn, designed to circumvent strict US trade sanctions restricting Chinese chipmakers' access to Western manufacturing equipment. The technology represents Huawei's attempt to maintain semiconductor competitiveness through architectural innovation rather than process node scaling.",
+      "published_at": "2026-05-25T13:10:31+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Samsung's $400,000 payout for memory workers sparks revolt as other divisions get only $4,000, fueling intentional production slowdowns — internal resentment disrupts packaging operations, major AI chip project decisions to a complete halt",
+      "url": "https://www.tomshardware.com/tech-industry/samsungs-bonus-dispute-spreads-to-chip-packaging-divisions-threatening-hbm-delivery-schedules",
+      "body": "Samsung's recent labor agreement has backfired internally, creating significant friction across divisions. Memory workers will receive approximately $400,000 in bonuses, while Device Experience (DX) employees receive only $4,000 — a 100-fold disparity triggering widespread resentment.\n\nThe fallout is disrupting critical operations: 'Decision-making on major projects has come to a complete halt.' Meetings are being canceled across foundry and Test & Package (TSP) divisions. Work negligence has spread to departments handling HBM4 production for Nvidia's Rubin AI accelerators.\n\nA smaller DX union representing 13,000 members filed a court injunction to block the larger chip union from handling collective bargaining. Korea Shareholder Action Headquarters threatened legal action, arguing the profit-linked bonus structure requires shareholder approval.\n\nUnion ratification voting runs through May 27, with approximately 43,000 non-memory workers potentially determining the outcome. The HBM4 production disruption poses a threat to AI supply chains as Nvidia's Vera Rubin platform enters its most critical ramp period.",
+      "published_at": "2026-05-23T13:49:57+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Micron's Virginia fab begins producing America's most advanced DRAM memory — fab expansion to quadruple output, easing DDR4 shortage for automotive and defense sectors",
+      "url": "https://www.tomshardware.com/tech-industry/micron-begins-producing-americas-most-advanced-dram-at-its-virginia-fab",
+      "body": "Micron announced it has begun manufacturing 1α (1-alpha) DRAM at its Manassas, Virginia facility, marking the first time this advanced DDR4-compatible technology has been produced domestically. The expansion represents a '$2 billion-plus investment supported by $275 million in finalized CHIPS and Science Act funding,' with output expected by year's end.\n\nAs the sole American memory manufacturer, Micron serves specialized sectors including automotive, defense, aerospace, and industrial applications. This move addresses an unexpected shortage in DDR4 supply, as major manufacturers have redirected production toward DDR5 and other advanced technologies for AI-driven data center demand.\n\nIndustry analysts warn that 'automotive DRAM contract prices could rise 70% to 100% in 2026 compared with 2025 levels,' and inventory buffers for automotive buyers have compressed significantly from over 31 weeks to approximately six to eight weeks, signaling potential supply constraints ahead.\n\nMicron CEO Sanjay Mehrotra stated that 'introducing advanced 1α DRAM manufacturing technology to American soil strengthens supply chains for domestic customers and global markets.' The company projects a fourfold increase in DDR4 wafer supply from the expanded Manassas facility and plans to create approximately 90,000 U.S. jobs through its broader $200 billion expansion plan.",
+      "published_at": "2026-05-23T12:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI cost crisis hits tech giants as employee 'tokenmaxxing' backfires, sparking corporate pullback at Microsoft, Meta, and Amazon — agentic AI eats up to 1000x more tokens than standard AI",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon",
+      "body": "Several major technology companies are experiencing a significant cost reversal regarding AI adoption. Microsoft has reportedly encouraged employees to abandon Claude Code in favor of its internal Copilot CLI, with the underlying cause being escalating expenses rather than feature preferences.\n\nThis trend extends beyond Microsoft. Both Meta and Amazon are similarly reducing their AI commitments. While token pricing has decreased, employee usage has surged dramatically — particularly with agentic AI systems that consume substantially more computational resources than standard language model queries.\n\nThe economic paradox emerges clearly: decreased per-unit costs have driven increased consumption. Agentic AI can require up to 1,000 times more tokens than conventional LLM interactions, depending on task complexity. One developer reported spending '$1.3 million in token costs in just a single month,' illustrating the financial burden.\n\nResearch suggests AI implementation now costs more than employing humans, especially considering modest current productivity improvements. This dynamic mirrors historical economic patterns — the Jevons Paradox — where efficiency improvements paradoxically increase overall consumption.",
+      "published_at": "2026-05-23T13:43:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Imec builds world's first High-NA EUV-fabricated quantum dot qubit device — breakthrough could pull quantum computing onto the same manufacturing roadmap as next-gen AI processors, compressing timelines",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imec-builds-worlds-first-high-na-euv-fabricated-quantum-dot-qubit-device-breakthrough-could-pull-quantum-computing-onto-the-same-manufacturing-roadmap-as-next-gen-ai-processors-compressing-timelines",
+      "body": "Belgian semiconductor research organization imec announced the world's first quantum dot qubit device fabricated using High-NA EUV lithography. The device, unveiled at ITF World in Leuven on May 19, uses silicon quantum dot spin qubits with gate gaps of barely 6 nanometers.\n\nThe significance lies primarily in manufacturing rather than raw quantum performance. 'Manufacturing now represents the major limitation' between experimental quantum systems and commercially viable quantum computers. Imec has demonstrated that the semiconductor industry's most advanced lithography tool can pattern silicon quantum dot spin qubits at industrial-scale tolerances for the first time.\n\nSilicon quantum dot spin qubits are considered 'industry qubits' because they theoretically leverage conventional CMOS semiconductor manufacturing infrastructure. These qubits function by trapping individual electrons inside nanoscale silicon structures, where the electron's quantum spin state stores information while metallic control gates manipulate interactions between neighboring quantum dots.\n\nHigh-NA EUV technology, developed primarily for future sub-2nm processors and advanced AI accelerators, improves patterning precision by increasing numerical aperture from 0.33 to 0.55. Built by ASML, these machines weigh approximately 150 tons and reportedly cost hundreds of millions of dollars each. Intel installed the industry's first commercial High-NA EUV tool late last year, while imec received its equipment in March 2026.\n\nThe breakthrough suggests quantum computing may converge directly with the semiconductor industry's existing manufacturing roadmap. If successfully scaled and stabilized, silicon quantum dot systems could advance molecular simulation, materials discovery, pharmaceutical research, cryptography, and logistics optimization.",
+      "published_at": "2026-05-25T15:27:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "[News] Industry Reportedly Eyes Separating HBM From GPUs to Expand Memory Capacity; Optical Links May Be Key",
+      "url": "https://www.trendforce.com/news/2026/05/25/news-industry-reportedly-eyes-separating-hbm-from-gpus-to-expand-memory-capacity-optical-links-may-be-key/",
+      "body": "As AI workloads expand, memory demands are straining current GPU-HBM configurations. According to industry sources, memory and packaging companies are considering placing GPUs and HBM in separate packages connected via optical links, potentially enabling GPUs to accommodate significantly more memory than existing designs.\n\nThe industry has historically increased HBM capacity through vertical stacking. However, advancing beyond 16-layer designs toward 20+ layers faces 'manufacturing complexity has risen sharply while physical constraints have become increasingly difficult to overcome.'\n\nCurrent 2.5D packaging keeps GPUs and HBM closely together, limiting how many additional HBM units can fit around the GPU's perimeter. The proposed solution involves physical separation while 'offsetting longer transmission distances through ultra-fast optical signaling.'\n\nThe industry is exploring various architectural placements for HBM, including positioning it beneath GPU boards, which would require extending motherboards vertically. A significant challenge involves miniaturizing photonic technologies from large-scale data center applications 'down to microscopic dimensions within a single board or chipset.'",
+      "published_at": "2026-05-25T00:00:01+09:00",
+      "source": "TrendForce",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
+      "url": "https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/",
+      "body": "OpenAI will establish its first Applied AI Lab outside the United States in Singapore through a partnership with the Ministry of Digital Development and Information. The initiative, branded as OpenAI for Singapore, was unveiled at the ATx Summit with a commitment exceeding S$300 million.\n\nThe lab will generate more than 200 technical positions in Singapore over the coming years. The company will serve as one of its global centers for forward-deployed engineers collaborating with organizations on artificial intelligence implementation. Work will concentrate on Singapore's AI Mission priorities encompassing public service, finance, and digital infrastructure.\n\nOpenAI plans collaborations with government agencies and local partners on educational initiatives through the Ministry of Education and GovTech. The company will support teaching professionals via a Singapore OpenAI Academy chapter, participate in the National AI Impact Programme, and conduct Codex for Teachers hackathons.\n\nSingapore has refreshed its governance framework for agentic AI, originally launched by IMDA at the World Economic Forum in January 2026. The updated framework incorporates feedback from over 60 organizations including AWS, DBS, Google, and Salesforce, addressing risks in multi-agent systems, third-party agents, automation bias, and human accountability.\n\nThe revision includes more than ten case studies demonstrating implementation approaches from organizations like Ant International, City Developments Limited, OCBC, PwC, Tencent, and GovTech Singapore.",
+      "published_at": "2026-05-22T10:00:00+09:00",
+      "source": "AI News",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Musk: SpaceX-xAI is actively seeking more AI compute customers, following Anthropic deal",
+      "url": "https://www.datacenterdynamics.com/en/news/musk-spacex-xai-is-actively-seeking-more-ai-compute-customers-following-anthropic-deal/",
+      "body": "Elon Musk confirmed that SpaceX-xAI is actively seeking additional AI compute customers following its deal with Anthropic. The Colossus datacenter, which Anthropic is using for its AI workloads, has opened Musk to considering new cloud computing partnerships. Musk stated the facility is actively available to other organizations looking for large-scale AI compute capacity. The announcement underscores xAI's pivot toward becoming a commercial AI compute provider, directly competing with hyperscalers like AWS, Google Cloud, and Microsoft Azure in the AI infrastructure market.",
+      "published_at": "2026-05-22T15:09:36+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "딥시크, 'V4-프로' 가격 75% 인하 영구화...중국 AI 가격 경쟁 가속",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210880",
+      "body": "딥시크가 이달 말 종료 예정이었던 V4-프로 API의 75% 가격 인하를 영구화했다. 이 회사는 현재 캐시된 입력 토큰을 100만개당 0.025위안(약 5.5원), 비캐시 입력 토큰을 100만개당 3위안(약 658원), 출력 토큰을 100만개당 6위안(약 1,320원)으로 제공하고 있다.\n\n이번 가격 전략은 개발자와 기업 시장에서의 딥시크 입지를 강화하기 위한 것이다. 알리바바 클라우드가 Qwen 가격을 최대 97% 인하한 반면, 바이두는 일부 경량 모델을 무료로 제공하는 등 중국 AI 기업들의 가격 경쟁이 가속화되고 있다.\n\n딥시크의 접근 방식은 경량 버전 할인에 그치지 않고 1.6조 개 매개변수의 주력 모델의 가격을 인하했다는 점에서 주목할 만하다. 캐시된 입력 토큰은 표준 가격의 1/120에 불과해 반복적인 문서 참조 워크플로우에서 '경쟁사 대비 수십 배의 비용 절감'이 가능하다.\n\n딥시크가 화웨이 어센드 950 칩 공급 증가에 힘입어 가격 인하를 단행했는지는 공식적으로 확인되지 않았으나, 전문가들은 칩 가용성 개선과 공정 최적화를 주요 요인으로 꼽고 있다.",
+      "published_at": "2026-05-24T17:31:22+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "MS, 차세대 브라우저 에이전트 '파라1.5' 공개…\"오픈AI·구글 성능 추월\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210879",
+      "body": "Microsoft unveiled Fara1.5, a next-generation browser agent that autonomously performs online tasks on users' behalf. The model operates using a 'pixel-to-action' methodology, recognizing browser screenshots and generating mouse and keyboard inputs to interact with actual websites.\n\nAvailable in three sizes — 4B, 9B, and 27B — the top-tier Fara1.5-27B achieved 72% task success on the Online-Mind2Web benchmark, surpassing OpenAI's Operator (58.3%) and Google's Gemini 2.5 Computer Use (57.3%). The mid-tier 9B model recorded 63.4% success, nearly double its predecessor Fara-7B's 34.1% performance.\n\nThe model functions through an 'observe-think-act' loop, processing prior conversation history and recent browser screenshots to determine appropriate next actions. A distinctive feature called 'meta actions' enables the agent to collaborate with users — retaining important information, requesting clarifications when personal data is insufficient, and seeking approval before executing irreversible operations.\n\nMicrosoft trained the model using 2 million data samples, with 60% derived from authentic web browsing paths. The Fara1.5-9B model is currently accessible via Microsoft's AI platform Foundry.",
+      "published_at": "2026-05-24T12:44:50+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "허사비스 \"진정한 AGI는 '아인슈타인 테스트' 통과해야\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210883",
+      "body": "구글 딥마인드 CEO 데미스 허사비스가 진정한 AGI를 평가하는 벤치마크로 '아인슈타인 테스트'를 제시했다. 구글 I/O 2026에서 허사비스는 AI가 새로운 국면에 진입했으며 AGI 달성이 임박했다고 밝히며 2030년경 도래를 예측했다.\n\n아인슈타인 테스트는 다음과 같이 작동한다: AI는 1901년까지의 데이터만 제공받고, 미래의 답을 학습하지 않은 상태에서 논리적 추론과 직관만으로 아인슈타인의 1905년 특수상대성이론을 독립적으로 발견해야 한다. 허사비스는 '이것이 진정한 AGI 시스템이 반드시 갖춰야 할 창의성과 통찰력의 도약'이라고 설명했다.\n\n그는 현재 AI의 기존 데이터를 매끄럽게 채우는 보간(interpolation) 능력과 가용 정보를 넘어 완전히 새로운 법칙을 발견하는 외삽(extrapolation) 능력을 대비시켰다. 진정한 AGI는 단순히 백과사전적 정보를 취합하는 것이 아니라 새로운 지식을 창출해야 한다고 강조했다.\n\n허사비스는 검증 가능한 결과가 있는 수학과 코딩 분야에서 이 돌파구가 먼저 나타날 것이라고 강조했다. 2027년까지 AI 에이전트가 챗봇 기능을 넘어 실제 워크플로우에 깊이 통합될 것이라고 예측하면서도, 실리콘밸리에 속도만 우선시하지 말고 장기적 관점을 견지할 것을 촉구했다.",
+      "published_at": "2026-05-24T20:17:03+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "피차이 \"구글 코딩, 타사에 뒤져...데이터 선순환 구조로 역전할 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210871",
+      "body": "구글 CEO 순다르 피차이가 자사의 코딩 AI 성능이 앤트로픽·오픈AI 등 경쟁사에 뒤처진다는 점을 인정했다. NYT의 'Hard Fork' 팟캐스트 인터뷰에서 피차이는 이를 코딩 발전에 필수적인 '데이터 플라이휠' 구조에 대한 접근 부족 때문으로 설명했다.\n\n그가 언급한 데이터 플로우는 공개된 코드를 넘어 개발자들이 AI와 함께 코딩·디버깅·상호작용하는 실시간 워크플로우 데이터까지 포함한다. 이 피드백 루프는 강화학습을 강화해 에이전트 능력을 벤치마크 성능 이상으로 끌어올린다.\n\n피차이는 구글의 'Antigravity 2.0'을 해법으로 제시하며, 이미 내부에 배포되어 전례 없는 토큰 소비 반응을 생성하고 있다고 밝혔다. 구글의 I/O 이벤트에서는 플래그십 3.5 Pro 대신 Gemini 3.5 Flash를 출시해 더 저렴하고 성능 좋은 옵션으로 데이터 플라이휠을 구축하는 전략을 취했다.\n\nAGI에 관해 피차이는 이전의 신중한 입장을 수정해 2030년을 현실적인 타임라인으로 제시하며, 딥마인드 CEO 데미스 허사비스의 '특이점의 기슭' 표현이 신뢰할 만하다고 덧붙였다.",
+      "published_at": "2026-05-23T21:12:26+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "미국, 반도체 관세 카드 다시 만지작…\"미국 내 제조 확대\" 압박 커지나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210870",
+      "body": "미국 정부가 반도체 관세를 협상 카드로 활용해 글로벌 반도체 기업들의 국내 제조 확대를 압박하고 있다. 관세를 즉시 부과하는 대신, 재배치를 장려하기 위해 이를 전략적으로 위협 수단으로 활용하고 있다.\n\n재미슨 그리어 미국 무역대표부(USTR) 대표는 5월 22일 버지니아주 마이크론 공장 확장 행사에서 '미국 반도체 제조를 활성화하기 위한 수입 관세 정책을 지속 검토하고 있다'고 밝혔다. 다만 '관세는 임박하게 시행될 계획이 없다'며 업계와 적용 범위 및 시기에 대해 계속 논의 중이라고 명확히 했다.\n\n하워드 러트닉 상무장관은 이전에 국내 제조를 충분히 확대하지 않는 기업에는 100%까지 관세가 부과될 수 있다고 경고한 바 있다. 현재 삼성전자는 텍사스에 파운드리를 건설 중이며, SK하이닉스는 인디애나에서 첨단 패키징 투자를 진행하고 있다. 그러나 마이크론만이 국내에서 메모리 웨이퍼를 생산하는 유일한 업체다. 한국 기업들은 이제 투자를 넘어 현지 메모리 웨이퍼 생산 역량을 구축해야 하는 요구에 직면해 있다.",
+      "published_at": "2026-05-23T19:57:11+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "엔비디아 차세대 AI 서버 한대에 '118억' — 메모리 값만 30억 육박",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210866",
+      "body": "AI 수요 폭증으로 핵심 부품 가격이 급등하면서, 엔비디아의 차세대 AI 서버 시스템 가격도 크게 오를 전망이다. 차세대 '베라 루빈(Vera Rubin)' 기반 AI 랙 시스템은 메모리 비중이 전체 비용의 25% 수준까지 확대되며, 고대역폭 메모리(HBM)와 NAND 공급망이 AI 인프라 경쟁의 핵심 변수로 부상하고 있다.\n\n모건스탠리 리서치에 따르면 엔비디아의 차세대 AI 서버인 'VR200 NVL72' 랙 시스템 가격은 780만달러(약 118억원)에 달할 것으로 추산됐다. 이는 현재 주력 제품인 'GB300 NVL72'의 400만달러(약 60억원)보다 크게 상승한 금액이다.\n\n가격 상승의 가장 큰 원인은 메모리다. VR200 NVL72 한대에 탑재되는 메모리 비용만 200만달러(약 30억원)에 이를 것으로 전망되며, 이는 기존 제품 대비 약 435% 증가한 수준이다. 시스템에는 약 54TB 규모의 'LPDDR5X' 메모리가 탑재될 예정으로, GB200 NVL72의 17TB 대비 3배 이상 늘어난 용량이다.\n\n또 다른 비용 상승 요인은 대규모 3D NAND 스토리지다. VR200 NVL72에는 약 100만달러(약 15억원) 이상의 3D NAND가 탑재될 것으로 예상된다. 전문가들은 AI 모델 규모가 급격히 커지면서 GPU뿐 아니라 메모리와 저장장치 수요까지 폭발적으로 증가하고 있다고 보고 있다.",
+      "published_at": "2026-05-23T18:25:17+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "\"AI 추론으로 CPU 수요 폭증\"...AMD, 대만 공급망에 15조 투입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210886",
+      "body": "AI 추론과 에이전트형 AI 수요가 급증하면서 CPU 시장이 공급 부족 국면에 접어들고 있다. AMD의 리사 수 CEO는 대만 타이베이에서 열린 행사에서 '1년 전 누구도 예상하지 못했던 수준으로 CPU 시장 수요가 증가했다'고 설명했다.\n\nAMD는 생산 능력 확대를 위해 대만의 AI 칩 생산 인프라에 100억 달러(약 15조원) 이상을 투자할 계획이다. TSMC, ASE 테크놀로지, 위스트론, 인벤텍, 위윈 등 대만 주요 파트너들과 협력하여 첨단 패키징, 기판, 랙 스케일 AI 시스템 생산 역량을 강화한다.\n\n수 CEO는 '기업들이 GPU 중심에서 CPU와 시스템 전체 아키텍처를 함께 고려하기 시작했다'고 강조했다. 또한 차세대 '베니스' CPU 생산을 위해 TSMC의 2나노 공정 양산을 본격 확대하기 시작했다. 에이전트형 AI 워크로드가 성장함에 따라 데이터센터 CPU 대 GPU 비율이 기존 1:4에서 1:1에 가까워질 수 있다고 전망했으며, 서버 CPU 시장은 2030년까지 연간 35% 이상 성장해 1,200억 달러를 초과할 것으로 예상된다.",
+      "published_at": "2026-05-25T10:40:01+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "\"코딩은 29배, 추론은 7배\"…세레브라스, '키미' 서비스로 GPU 압도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210890",
+      "body": "AI 칩 전문 기업 세레브라스가 문샷 AI의 1조 매개변수 오픈웨이트 모델 '키미 K2.6'을 기업 고객 대상으로 서비스하기 시작했다. 해당 회사는 벤치마크 기업 아티피셜 애널리시스 기준 초당 981개 출력 토큰을 기록했다고 밝혔다.\n\n이는 GPU 기반 클라우드 서비스 경쟁사보다 6.7배, 업계 평균 대비 23배 빠른 수치다. 특히 에이전트 코딩 작업에서 성능 차이가 극적이다. 세레브라스 시스템에서는 1만개 입력 토큰과 500개 출력 토큰이 포함된 복합 코딩 요청을 처리하는 데 5.6초가 걸렸으나, 키미 공식 엔드포인트에서는 163.7초가 소요되어 약 29배 빠르다.\n\n경쟁력의 핵심은 독특한 하드웨어 구조다. 'WSE 3(Wafer-Scale Engine 3)'는 웨이퍼 전체를 하나의 거대한 칩으로 사용하며, 접시 크기의 단일 칩 안에 대용량 SRAM 메모리를 집적해 지연을 최소화했다. 칩 내부 네트워크 대역폭이 엔비디아 'NVL72' 시스템 대비 200배 이상 높다고 설명했다.\n\n현재 포춘 500대 기업 중심의 엔터프라이즈 고객에게 우선 제공 중이며, 소프트웨어, 금융, 헬스케어 분야 주요 기업들이 시험 운영 중인 것으로 알려졌다.",
+      "published_at": "2026-05-25T17:18:47+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "오픈AI·앤트로픽, 해외 거점 확장…싱가포르·밀라노에 신규 기지 마련",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210895",
+      "body": "오픈AI와 앤트로픽이 미국 밖으로 글로벌 영토를 빠르게 넓히고 있다. 오픈AI는 5월 19일 싱가포르 정부와의 다년간 파트너십을 기반으로 'OpenAI for Singapore' 이니셔티브의 일환으로 첫 해외 '응용 AI 연구소'를 설립한다고 발표했다.\n\n싱가포르의 응용 AI 연구소는 기존 연구 센터나 영업 사무소와는 달리, 현지 공공기관과 기업에 프론티어 모델을 배포하고 실제 사용 사례를 발굴하는 데 집중한다. 오픈AI는 향후 수년간 현지 직원을 약 200명으로 확충하고 2억 3,500만 달러 이상을 투자할 계획이다.\n\n앤트로픽은 5월 21일 유럽의 B2B 시장을 공략하기 위해 이달 내 이탈리아 밀라노에 신규 사무소를 개설한다고 발표했다. 이로써 런던, 파리, 뮌헨에 이어 앤트로픽의 네 번째 유럽 거점이 된다. EMEA 지역의 성장이 이번 확장을 견인했으며, 앤트로픽의 EMEA 연간 반복 매출은 전년 대비 9배 증가했고, 기업 고객은 10배 급증했다.",
+      "published_at": "2026-05-25T17:55:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What's Next in AI",
+      "url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+      "body": "The future of artificial intelligence is converging in Taipei. At NVIDIA GTC Taipei during COMPUTEX, global developers, researchers, and industry leaders are gathering to explore breakthroughs shaping multiple sectors, including AI factories, infrastructure scaling, agentic systems, and physical AI applications.\n\nNVIDIA founder and CEO Jensen Huang will deliver a keynote presentation at Taipei Music Center on Monday, June 1, at 11 a.m. local time.\n\nNVIDIA won multiple COMPUTEX 2026 Best Choice Awards recognizing innovations across AI infrastructure, robotics, and autonomous vehicle development. The Vera Rubin NVL72 rack-scale supercomputer secured a Golden Award and Sustainable Tech Special Award, while the Jetson Thor edge AI platform won a Golden Award for robotics applications.\n\nHuang arrived in Taipei and visited Meet-a-Claw, where developers demonstrated autonomous agents and OpenClaw technology. He emphasized that 'the era of useful AI has arrived,' highlighting open-source agent capabilities for programming, marketing, and content creation applications.\n\nThe Vera Rubin system represents a major undertaking, incorporating approximately 2 million components with collaboration from 150 Taiwanese ecosystem partners. The Vera Rubin NVL72 connects 36 NVIDIA Vera CPUs and 72 NVIDIA Rubin GPUs — unified by the sixth-generation NVIDIA NVLink Switch, with ConnectX-9 SuperNICs, Spectrum-X Ethernet Photonics co-packaged optics switches, and BlueField-4 DPUs.",
+      "published_at": "2026-05-21T00:00:01+09:00",
+      "source": "NVIDIA Blog",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AMD begins production ramp of 256-core EPYC Venice — first 2nm HPC chip claims 70% performance leap",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/amd-begins-production-ramp-of-256-core-epyc-venice-on-tsmcs-2nm-node",
+      "body": "AMD has initiated production of its sixth-generation EPYC processor, Venice, utilizing TSMC's N2 process technology. The processor features up to 256 Zen 6 cores and delivers approximately 70% greater compute performance compared to the existing Turin EPYC lineup.\n\nVenice represents a significant milestone as 'the first high-performance computing product in the industry to reach production on N2.' AMD simultaneously announced a follow-up processor called Verano and indicated plans to manufacture Venice at TSMC's Arizona facility.\n\nDr. Lisa Su, AMD's CEO, emphasized the importance of speed in production: 'As AI and agentic workloads scale rapidly, customers need platforms that can move from innovation to production faster.' Per-socket memory bandwidth more than doubles to 1.6 TB/s, up from 614 GB/s, and CPU-to-GPU bandwidth also gets a 2x boost.\n\nThe achievement is particularly noteworthy given the complexity involved — server processors are substantially larger and more architecturally intricate than smartphone chips, making yield qualification on new processes considerably challenging. Intel's competing processor offerings are not expected to arrive before 2027.\n\nAMD also announced more than $10 billion in investments across Taiwan's ecosystem to expand strategic partnerships and scale advanced packaging manufacturing for next-generation AI infrastructure.",
+      "published_at": "2026-05-21T00:00:01+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "[News] AMD's Lisa Su Reportedly to Visit TSMC for 2nm Capacity; Unveils US$10B Taiwan AI Packaging Investment",
+      "url": "https://www.trendforce.com/news/2026/05/21/news-amds-lisa-su-reportedly-to-visit-tsmc-for-2nm-capacity-announces-us10b-taiwan-ai-packaging-investment/",
+      "body": "AMD Chair and CEO Lisa Su arrived in Taipei on May 20 ahead of COMPUTEX 2026. According to reports, she is expected to meet with TSMC Chairman C.C. Wei to 'secure capacity for 2nm process technology and advanced packaging.'\n\nAMD announced that its next-generation EPYC processor 'Venice' has 'entered production in Taiwan using TSMC's 2nm process,' marking the industry's first HPC product on this technology.\n\nThe company revealed 'more than US$10 billion in investments across Taiwan's ecosystem' focused on advanced packaging capacity for AI infrastructure, partnering with firms like ASE and SPIL on '2.5D bridge interconnect technology.'\n\nRegarding AI computing trends, Lisa Su noted that data center CPU-to-GPU ratios could shift 'closer to 1:1' as agentic AI adoption grows, compared to the historical 1:4 ratio. She projects the server CPU market will grow 'more than 35% annually, exceeding US$120 billion by 2030.'\n\nAMD also demonstrated a compact device running a 200-billion-parameter language model offline using unified RAM architecture where CPU, GPU, and NPU share 128GB of memory.",
+      "published_at": "2026-05-21T00:00:01+09:00",
+      "source": "TrendForce",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "삼성전자, 세계 최초 '900단 V낸드' 구현…1000단 시대 초읽기",
+      "url": "https://www.etnews.com/20260522000306",
+      "body": "삼성전자가 세계 최초로 900단 V낸드 시제품 구현에 성공하며 1000단 메모리 기술 경쟁에서 앞서 나가고 있다.\n\n회사는 두 개의 450단 셀 웨이퍼를 융합하는 '셀 멀티 본딩(CMB)' 기술을 활용해 900단 일체형 시스템을 만들었다. 이 성과는 점진적 발전을 넘어 적층 공정의 패러다임을 근본적으로 전환한 것이다.\n\n현재 SK하이닉스는 321단 4D 낸드를 양산 중이다. 그러나 삼성은 10세대 V낸드(V10, 400단 이상)의 양산을 준비하는 동시에 900단에 이르는 연구 시제품을 진전시켜 차세대 시장 선점을 굳히고 있다.\n\n삼성은 '정상적인 셀 동작 특성'을 검증해, 이 기술이 이론적 적층을 넘어 실제 기능에까지 미친다는 것을 입증했다. 상단 척 설계 강화를 통한 웨이퍼 뒤틀림 해소와 자체 오버레이 교정 기술을 통한 정렬 오류 극복이라는 핵심 물리적 장벽을 넘었다. 새로운 비트라인 및 워드라인 구조는 전력 소비와 칩 크기를 동시에 의미 있게 줄였다.\n\n이 발전은 중국 YMTC가 정부 지원과 현지화된 장비 제조를 바탕으로 300단 양산을 추진하며 저비용 경쟁이 한국 제조업체의 수익성을 압박할 수 있는 상황에서 전략적으로 중요하다.",
+      "published_at": "2026-05-25T00:00:01+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "마이크론, HBM4 램프업 순항…\"내년 HBM4E 양산\"",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57103",
+      "body": "마이크론의 HBM4 생산 램프업이 순조롭게 진행되고 있으며, 내년 HBM4E 양산을 계획하고 있다. 마이크론 테크놀로지의 글로벌 오퍼레이션 부문 부사장 마니쉬 바티아에 따르면 'HBM4 생산 최적화가 이전 HBM3 12-스택 제품보다 두 배 빠르게 진행되고 있다'고 밝혔다.\n\n빠른 램프업은 세 가지 요인 덕분이다: 이전 HBM3/3E 생산 경험, 마이크론 자체의 검증된 1β(1-베타) 공정 기술 활용, 1β DRAM과 내부 제조 전문성을 결합한 독자적인 베이스 다이 최적화.\n\nHBM4E 전략은 크게 달라진다. 코어 다이는 마이크론의 ASML EUV 리소그래피 장비를 최초로 통합하는 1γ(1-감마) 공정을 활용한다. 베이스 다이 생산은 내부 제조 대신 TSMC 파운드리 서비스로 이전된다.\n\n시장에 먼저 출시되는 HBM4E 제품은 JEDEC 표준 규격이 될 것이며, 특정 고객 요구사항을 위한 커스텀 변형도 개발 중이다.",
+      "published_at": "2026-05-25T00:00:01+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "리벨리온, '1MW' 규모 데이터센터 직접 운영한다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56994",
+      "body": "리벨리온이 서울 서쪽 마곡에 769㎡ 규모의 3층 건물에 걸쳐 1MW IT 전력 용량의 자체 데이터센터를 설립했다. 이 시설은 두 가지 목적으로 활용된다: 1세대 '아톰'과 2세대 '레벨100' NPU 칩을 실제 환경에서 테스트하고, 잠재 고객에게 검증 서비스를 제공하는 것이다.\n\n회사는 국내 데이터센터 개발업체 DCP와 협력해 시설을 구축했다. 리벨리온은 GNC에너지와 파트너십을 맺은 DCP로부터 공간을 임차하고 있다. 서버 인프라 비용은 일반적으로 MW당 약 150억원에 달하지만 리벨리온의 비용은 더 낮을 것으로 예상된다. 카드 비용은 수억 원에서 수천억 원에 달한다.\n\n리벨리온은 2025년 말 기준 약 8,560억원의 현금을 보유하고 있으며, 최근 프리IPO 펀딩 라운드에서 6,400억원을 조달했다. 마곡은 안정적인 전력 및 용수 접근성을 포함한 행정적 이점으로 부지가 선정됐다.",
+      "published_at": "2026-05-21T00:00:01+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "앤트로픽 2분기 실적 '첫 분기 흑자 달성' 전망…오픈AI보다 앞서",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57001",
+      "body": "앤트로픽이 2026년 2분기에 처음으로 분기 흑자를 달성할 것으로 전망되며, 매출이 전 분기의 48억 달러보다 두 배 이상 많은 109억 달러를 초과할 것으로 예상된다. 영업이익은 5억 5,900만 달러로 추정된다.\n\n연간 반복 매출(ARR)은 4월의 300억 달러에서 430억 달러로 확대될 전망이다. 이 성장은 초기 단계 경쟁자들을 크게 앞서며 작년 50억 달러 기준 대비 놀라운 확장세를 나타낸다.\n\n앤트로픽의 수익성은 기업 고객에 집중하는 전략에서 비롯됐다. 앤트로픽이 5월에 기업 지출의 34.4%를 차지해 오픈AI의 32.3%를 처음으로 추월하며 기업 지출 점유율 1위를 차지했다.\n\n수익성에도 불구하고 앤트로픽은 상당한 컴퓨팅 비용에 직면해 있다. 회사는 2029년까지 SpaceX와의 연간 450억 달러 계약과 5년간 구글 클라우드에 대한 2,000억 달러 등 총 3,150억 달러 이상의 인프라 계약을 체결했다.\n\n앤트로픽의 기업 가치는 새로운 자금 조달 속에 900억 달러에 달할 것으로 보이며, 이는 3월 850억 달러 기업 가치를 책정한 오픈AI를 앞선다.",
+      "published_at": "2026-05-21T00:00:01+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "마이크론, 미국 내 1α DDR4 첫 생산 시작",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57097",
+      "body": "마이크론 테크놀로지가 버지니아주 매너서스 공장에서 1-알파(1α) DRAM 생산 개시 기념식을 개최했다. CEO 산제이 메흐로트라는 '1α DRAM 제조 기술을 미국 땅에 도입하는 것이 국내 고객과 글로벌 시장을 위한 공급망을 강화한다'고 밝히며 이를 마이크론의 미국 메모리 제조 및 R&D 2,000억 달러 확대 투자 계획의 '중요한 이정표'라고 설명했다.\n\n회사는 연말까지 품질 인증을 완료하고 DDR4 및 저전력 DRAM(LPDDR4) 메모리의 양산을 시작할 계획이다. 1α 공정은 10나노미터 노드 기술로, 마이크론이 국내에 배치한 가장 선진적인 제조 공정이다. 매너서스 공장은 자동차, 국방, 항공우주, 산업용, 네트워크, 의료기기 분야를 위한 장수명 메모리를 제조한다.\n\n1α 구현은 웨이퍼당 생산성과 비용 경쟁력을 향상시킬 것으로 기대되며, 마이크론은 DDR4 웨이퍼 공급량의 4배 증가를 예상하고 있다.",
+      "published_at": "2026-05-23T21:42:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "이재용 회장, 대만 미디어텍 본사 방문…차이리싱 CEO와 회동",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57102",
+      "body": "삼성전자 이재용 회장이 5월 21일 대만 미디어텍 본사를 방문해 미디어텍 CEO 차이리싱과 회동했다고 디지타임스가 5월 22일 공급망 소식통을 인용해 보도했다.\n\n삼성전자는 디지타임스의 방문 사실 확인 요청에 응하지 않았다. 미디어텍도 논평을 거부했다.\n\n미디어텍은 모바일 애플리케이션 프로세서를 주요 매출원으로 삼는 저명한 대만 팹리스 회사로, 중저가 시장에서 특히 강세를 보이고 있다. 최근에는 AI 반도체와 맞춤형 주문형 반도체(ASIC) 분야로 사업을 확장하고 있다.\n\n디지타임스는 이 회장의 대만 방문이 삼성 파운드리 고객 기반을 확장하기 위한 노력으로 해석했다. 삼성은 메모리 공급 부족을 활용해 파운드리 수주를 유도하고, 메모리 물량을 파운드리 서비스와 묶어 제안한 것으로 알려졌다. 삼성은 또한 대만 해협 긴장 관련 지정학적 리스크를 들며 고객들에게 공급업체 다변화를 설득한 것으로 전해졌다.",
+      "published_at": "2026-05-23T21:04:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SK하이닉스, 발열 낮춘 iHBM 신규 패키징 기술 개발...HBM5부터 적용",
+      "url": "https://zdnet.co.kr/view/?no=20260526084549",
+      "body": "SK하이닉스가 HBM 패키지 내부에 통합 냉각 요소(ICE)를 삽입해 발열을 크게 줄이는 iHBM 기술을 5월 26일 공개했다. 이 기술은 HBM5 제품부터 적용될 예정이다.\n\nICE는 전기적으로 비전도성이면서 열을 효과적으로 전도하는 실리콘 소재를 활용해 HBM 패키지 내부에 추가적인 방열 경로를 만든다.\n\nAI 연산 수요가 급증하면서 HBM 기술은 적층 레이어 증가와 속도 향상을 통해 계속 발전하고 있지만, 이는 열 관리 문제를 심화시키고 있다. HBM과 GPU를 연결하는 D2D PHY 인터페이스의 열밀도 제어가 차세대 경쟁력의 핵심이 됐다.\n\niHBM 솔루션은 열 집중이 최고조에 달하는 D2D PHY 영역에 직접 열 제어 요소를 배치하여 전용 열 방출 경로를 구축함으로써 열저항을 30% 이상 감소시키면서 고온·고부하 조건에서도 안정적인 동작을 유지한다.\n\n기존 Advanced MR-MUF 기반 웨이퍼 레벨 패키징 공정과의 호환성과 기존 고객 SiP 환경과의 높은 설계 호환성을 갖추고 있어 최소한의 재설계로 채택이 가능하다.",
+      "published_at": "2026-05-26T09:18:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "\"AI를 데이터 가까이로\"…델이 그린 프라이빗 인프라 미래",
+      "url": "https://zdnet.co.kr/view/?no=20260525084556",
+      "body": "델 테크놀로지스가 라스베이거스에서 열린 2026 World 컨퍼런스에서 에이전트형 AI와 프라이빗 인프라 전략을 발표했다. 회사는 데이터를 클라우드 서비스로 이동시키는 대신 'AI를 데이터 가까이로' 가져오는 것을 강조했다.\n\n마이클 델은 'AI가 실험 단계에서 실제 기업 운영으로 이동하고 있다'며 AI 에이전트가 이제 질문에 답하는 것을 넘어 실제 비즈니스 업무를 수행하고 있다고 밝혔다.\n\n델 AI 팩토리는 5,000개 이상의 고객을 대상으로 하는 엔드투엔드 인프라 플랫폼으로, 서버·스토리지·네트워킹·보안·소프트웨어를 통합한다. 델은 기업 데이터센터 내 델 서버에서 구글 Gemini, xAI Grok, 오픈AI의 ChatGPT 등 모델을 실행하는 것을 지원해 고객 데이터의 프라이버시를 보호하는 방안을 공개했다.\n\n기업 인프라 분리 아키텍처도 새롭게 선보였는데, 컴퓨트·스토리지·네트워킹을 독립적으로 확장할 수 있어 하이퍼컨버지드 인프라보다 최대 65% 비용 효율이 높다고 주장한다. 삼성전자, SK하이닉스, 네이버 클라우드 등 한국 기업들도 참여해 AI 경쟁에서 메모리와 인프라 전문성의 중요한 역할을 보여줬다.",
+      "published_at": "2026-05-25T13:53:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Cisco Wins Over AI Customers With Merchant Silicon And Optics",
+      "url": "https://www.nextplatform.com/connect/2026/05/18/cisco-wins-over-ai-customers-with-merchant-silicon-and-optics/5242200",
+      "body": "Cisco reported strong Q3 FY2026 results with revenues of $15.84 billion (up 12% YoY) and operating income rising 23.7% to $3.96 billion. The company is experiencing substantial demand for AI infrastructure across multiple customer segments.\n\nCisco significantly increased its fiscal 2026 AI order projection from $5 billion to $9 billion. The company expects to 'recognize at least $6 billion in AI revenues from hyperscalers' during the fiscal year. In Q3 alone, AI product orders to hyperscalers and cloud builders surged 2.1X to $1.9 billion.\n\nCisco's Acacia pluggable transceiver business exceeded $1 billion in orders and is 'on track to triple its order book this year.' Cisco shipped over 750,000 400 Gb/sec units and 40,000 800 Gb/sec units.\n\nBeyond hyperscalers, Cisco reported $300 million in AI infrastructure orders from neocloud, sovereign, and enterprise customers with 'triple digit growth in all three quarters' and a pipeline reaching $3 billion. Enterprise datacenter switching orders increased over 40%, reflecting necessity to upgrade both datacenter and campus networks for AI workloads.",
+      "published_at": "2026-05-18T00:00:01+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Dell Showcases Upcoming EPYC Venice PowerEdge Systems, Adds New 5.8PB PowerStore Elite",
+      "url": "https://www.servethehome.com/dell-showcases-upcoming-epyc-venice-poweredge-systems-adds-new-5-8pb-powerstore-elite/",
+      "body": "Dell unveiled its 18th generation PowerEdge lineup at Dell Tech World 2026, featuring up to 70% performance improvements. The company is preparing servers across multiple form factors for the AMD EPYC Venice architecture.\n\nKey systems announced include the M9825 high-density, liquid-cooled flagship for AI workloads in IR7000 racks supporting 480kW per rack; R9815/R9825 single and dual-socket 2U/3U air-cooled systems with up to 512 CPU cores; and XE5845/XE7845 EPYC-based accelerated compute systems pairing with NVIDIA Rubin accelerators.\n\nThe M9825 and R9815/R9825 launch in H2 2026, with remaining Venice-based servers arriving in 2027. The PowerEdge R9810 single-socket 2U server will feature Intel's Diamond Rapids platform with 50% more cores and double the memory bandwidth compared to current Granite Rapids, available in 2027.\n\nDell's new PowerStore Elite 3U storage appliance features 40 E3 form-factor SSDs (up from 21 2.5-inch drives), up to 5.8PB raw storage capacity, 6:1 data reduction ratio (improved from 5:1), and PCIe Gen5 connectivity. Three models available at 1500, 5500, and 9500 configurations, with sales beginning July 2026.",
+      "published_at": "2026-05-22T21:00:10+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Supermicro SYS-112D-36C-FN3P Review: A 36 Core Intel Xeon 6 SoC Server with 2x 100GbE",
+      "url": "https://www.servethehome.com/supermicro-sys-112d-36c-fn3p-review-a-36-core-intel-xeon-6-soc-server-with-2x-100gbe/",
+      "body": "Supermicro's SYS-112D-36C-FN3P is a compact edge server built around the Intel Xeon 6 SoC 6553P-B processor with 36 cores, featuring 2x QSFP28 100GbE networking in a 1U form factor. The chassis prioritizes spatial efficiency at approximately 15.7 inches deep.\n\nThe design separates functional components between front and rear sections: the front panel handles networking and console connectivity while the rear accommodates cooling and power infrastructure. Front I/O includes two QSFP28 100GbE ports, VGA output, USB 3.0 Type-A connections, and shared management LAN via Intel i210 adapter.\n\nThe key distinction from the 40-core model is networking architecture: 'Instead of 8x 25GbE, this platform gives us 2x QSFP28 100GbE in the same general front-I/O 1U format.' The rear configuration features modular fan arrays and redundant power supplies.\n\nThis represents Supermicro's approach to edge computing deployment requirements where rack depth constraints influence design decisions. The server targets environments that require high-bandwidth connectivity in a compact, manageable form factor.",
+      "published_at": "2026-05-25T20:22:12+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "[ITF World 2026] 글로벌 반도체 기술 리더 \"AI 시대 혁신 대전환…생태계 전반과 협력 필수\"",
+      "url": "https://www.etnews.com/20260520000330",
+      "body": "반도체 분야의 글로벌 기술 리더들이 벨기에 앤트워프에서 개최된 'ITF 월드 2026'에 모여 AI 시대 대응을 위한 산업 간 협력의 중요성을 강조했다.\n\n송재혁 삼성전자 사장(CTO)은 '어떤 기업도 AI가 요구하는 막대한 컴퓨팅 수요로 인한 과제를 혼자 해결할 수 없다'며 반도체 생태계 전체의 조율이 필수적임을 역설했다. 엔비디아와의 협력을 사례로 들며, 열 AI 모델을 활용한 반도체 레이아웃 최적화로 오차를 크게 줄인 사례를 소개했다. 설계·공정·패키징 영역에서 소재·부품·장비 파트너와의 협력으로 AI 시장 수요 확대에 대응하고 있다고 밝혔다.\n\n패트릭 반데나멜레 아이멕 CEO는 협업의 중요성을 강조하면서 '우리의 가장 중요한 파트너 중 일부는 한국에 기반을 두고 있다'고 언급했다. 그는 전력 효율 극대화를 위해 'CMOS 2.0' 기술에 주목했으며, 이는 반도체를 다층 구조로 설계하여 각 층에 최적의 트랜지스터 기술을 적용하는 방식이다.\n\nTSMC와 ASML, 엔비디아 등도 트랜지스터 혁신, 첨단 패키징, 광 기반 연결 기술 등의 통합이 필요하다고 지적했다.",
+      "published_at": "2026-05-20T00:00:01+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "네카오, '챗GPT+클로드' 멀티 AI 전략…업무 생산성 향상 '집중 투자'",
+      "url": "https://www.etnews.com/20260522000251",
+      "body": "네이버와 카카오가 직원들에게 ChatGPT Enterprise와 Claude Code를 모두 제공하는 멀티 AI 전략을 채택하고 있다. 네이버는 두 도구를 모두 제공하며 직원 선택을 허용하고, 카카오는 1월부터 ChatGPT Enterprise를 운영해 왔으며 5월 말 Claude Code 배포를 계획하고 있다.\n\n이 회사들은 여러 가지 동기를 제시한다: 개발 및 비개발 직군 모두에서 향상된 AI 코딩 역량, 벤더 종속성 감소, 빠르게 진화하는 AI 모델 환경에서의 유연성 확보.\n\n야놀자, 카카오모빌리티, 우아한형제들(배민) 등 여러 플랫폼도 유사하게 Claude Enterprise를 채택해 더 광범위한 업계 추세를 보여주고 있다.\n\n전문가들은 '프론티어 모델 간 경쟁이 계속해서 이점을 이동시키고 새로운 도구가 끊임없이 등장하는 상황에서 엄격한 보안 프로토콜을 유지하면서 AI 도구 채택을 다양화하는 것이 현명하다'고 분석했다.",
+      "published_at": "2026-05-23T06:00:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "제미나이 3.5 플래시, 성능은 도약했는데…돌리는 비용은 5.5배",
+      "url": "https://zdnet.co.kr/view/?no=20260523104304",
+      "body": "구글이 I/O 2026에서 공개한 Gemini 3.5 Flash 모델은 상당한 성능 향상을 보이지만 운영 비용이 이전 버전보다 5.5배 높다는 우려가 있다.\n\n이 모델은 '5개의 코딩 및 에이전트 중심 평가에서 모든 보고된 모델을 능가'한다고 주장한다. 입력 토큰 100만 개당 1.50달러, 출력 토큰 100만 개당 9달러의 가격으로 Claude Sonnet과 Gemini 3.1 Flash Light 사이의 중간 가격대를 형성한다.\n\n구글은 이를 비용 절감 도구가 아닌 'Flash 속도로 전문가급 성능'을 제공하는 것으로 포지셔닝하고 있지만, 광범위한 지식 영역에서의 성능 우위는 경쟁 모델에 미치지 못한다는 평가다.",
+      "published_at": "2026-05-23T10:43:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "APC PowerForge with Dell and NVIDIA at DTW 2026",
+      "url": "https://www.servethehome.com/apc-powerforge-with-dell-and-nvidia-at-dtw-2026/",
+      "body": "At Dell Tech World 2026, Schneider Electric's APC booth featured an innovative 'PowerForge' demonstration — a rack equipped with two Bambu Lab H2C 3D printers instead of traditional servers. The system showcased an AI-powered workflow combining text-to-image generation with physical manufacturing.\n\nThe setup utilized a Dell Pro Max workstation with GB10 hardware running ComfyUI to generate minifigures from text prompts. The software converted these prompts into 3D models, sent them to a slicer, and transmitted them to the printers. Bambu Lab AMS2 material feeders at the rear enabled multi-color and multi-material printing during the show floor demonstration.\n\nThe demonstration underscored NVIDIA's growing presence in edge AI workstations beyond traditional data center GPU deployments. The Dell + NVIDIA + APC PowerForge setup shows the convergence of AI compute with physical manufacturing workflows in enterprise environments.",
+      "published_at": "2026-05-24T20:14:23+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Cerebras says its chips run a trillion-parameter AI model nearly 7 times faster than GPU clouds",
+      "url": "https://venturebeat.com/technology/cerebras-says-its-chips-run-a-trillion-parameter-ai-model-nearly-7-times-faster-than-gpu-clouds",
+      "body": "Cerebras is running the trillion-parameter open-weight model Kimi K2.6 for enterprise customers, with Artificial Analysis measuring output at 981 tokens per second — far ahead of GPU-based cloud alternatives and 23 times faster than the median inference provider. The result was independently verified, making Cerebras 6.7 times faster than the next-fastest GPU-based cloud provider.\n\nFor practical applications, for a standard agentic coding request involving 10,000 input tokens, Cerebras delivered the full response — including prompt processing, reasoning, and 500 output tokens — in 5.6 seconds, compared to 163.7 seconds on the official Kimi endpoint.\n\nCerebras stores Kimi K2.6 in the model's original 4-bit weights while computing at 16-bit floating point, with weights distributed across wafers and activations streamed between them. The wafer-scale engine keeps expert communication on-wafer at SRAM speeds rather than across a slower network fabric.\n\nCerebras is offering enterprise trials of K2.6 to customers. The company's WSE-3 architecture uses an entire wafer as a single chip, embedding large-capacity SRAM memory to minimize latency, with internal network bandwidth over 200 times higher than NVIDIA's NVL72 system according to the company.",
+      "published_at": "2026-05-25T00:00:01+09:00",
+      "source": "VentureBeat",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Cerebras"
+    },
+    {
+      "title": "Intel and Qualcomm Eye AI Chip Startup Tenstorrent for Potential Acquisition at $5B+ Valuation",
+      "url": "https://www.gurufocus.com/news/8869156/intel-intc-and-qualcomm-qcom-eye-tenstorrent-acquisition-valued-at-5b",
+      "body": "Intel and Qualcomm are reportedly exploring the possibility of acquiring AI chip startup Tenstorrent, which has been working with investment banks to evaluate strategic options. The company has held separate conversations with Intel and Qualcomm, with those discussions being part of a broader review of potential financing and acquisition pathways.\n\nIf Tenstorrent opts for a sale, it could be valued at $5 billion or more. Tenstorrent, founded by semiconductor veteran Jim Keller, develops AI-focused processors and IP built around a RISC-V-based architecture, with its design approach targeting efficient performance for AI training and inference workloads.\n\nIntel shares were up 6.4% following the report. No deal has been announced, and sources caution that discussions may not lead to a transaction. The company is also speaking to potential investors about a new funding round, keeping both paths open.\n\nThe acquisition interest comes after Tenstorrent announced general availability of its Galaxy Blackhole AI system in early May 2026, delivering 23 PFLOPS Block FP8 of AI compute from 32 Blackhole chips starting at $110,000.",
+      "published_at": "2026-05-19T00:00:01+09:00",
+      "source": "GuruFocus",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "Rebellions AI Chips Drive Next-Generation AI Inference: Rebel100 Technical Deep-Dive and IPO Path",
+      "url": "https://koreatechdesk.com/rebellions-ai-inference-strategy-challenging-nvidia",
+      "body": "Rebellions is advancing its AI inference strategy with the Rebel100 neural processing unit (NPU) engineered specifically for production-scale AI inference. The chip comprises four 320mm² NPU dies, each equipped with a 12Hi HBM3E 36GB memory stack (for 144GB HBM3E per package) and interconnected using a mesh topology built with UCIe interconnects.\n\nAt ISSCC 2026, Rebellions detailed the industry's first quad-chiplet AI solution with UCIe interconnects, claiming the Rebel100 AI accelerator equals the power of an Nvidia H200 with a lower power envelope.\n\nThe company raised $400 million in a pre-IPO round at a $2.34 billion valuation, with the round led by Mirae Asset Financial Group and the Korea National Growth Fund. CEO Sunghyun Park has targeted companies like Meta and xAI as customers.\n\nRebelliions announced two new products: RebelRack and RebelPOD — AI infrastructure platforms where POD represents a production-ready unit of inference compute and Rack integrates multiple racks into a scalable cluster for large-scale AI deployment. The company plans an IPO in late 2026.",
+      "published_at": "2026-05-23T00:00:01+09:00",
+      "source": "KoreaTechDesk",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "FuriosaAI RNGD NPU: 유라클 오르다 플랫폼 연동 완료, K-AI 수출 사업 사우디 아람코 PoC 진행",
+      "url": "https://zdnet.co.kr/view/?no=20260520155509",
+      "body": "유라클이 AI 자원 및 워크로드 관리 플랫폼 '오르다(AURDA)'와 퓨리오사AI의 2세대 NPU '레니게이드(RNGD)' 간 연동을 성공적으로 마쳤다고 5월 20일 발표했다.\n\n현재 유라클과 퓨리오사AI는 K-AI 수출 컨소시엄을 구성해 사우디아라비아 아람코와 기술검증(PoC)을 진행하고 있으며, 해당 컨소시엄은 최근 과학기술정보통신부가 주관하는 '2026년 AI 반도체 해외실증 지원 사업' 서버형 부문에 선정됐다.\n\n퓨리오사AI는 지난 1월 1차 양산 물량 4,000장을 인도받으며 레니게이드의 양산을 개시했으며, 올해 2만장 규모 양산을 목표로 하고 있다. 퓨리오사AI가 공개한 최신 벤치마킹 결과에 따르면 레니게이드는 엔비디아 RTX PRO 6000과 비교해 동일한 전력으로 최대 7.4배 규모의 사용자를 처리할 수 있으며, 기존 GPU 대비 인프라 총소유비용(TCO)을 약 40% 절감할 수 있다.",
+      "published_at": "2026-05-20T15:55:09+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Furiosa"
+    },
+    {
+      "title": "Applied Materials와 Broadcom, AI 패키징 혁신 위해 EPIC 플랫폼 파트너십 체결",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56959",
+      "body": "Applied Materials와 Broadcom이 AI 패키징 혁신을 위한 EPIC(Enabling Packaging Innovation for Compute) 플랫폼 파트너십을 체결했다. 이 협력은 차세대 AI 칩을 위한 고밀도 이종 집적(Heterogeneous Integration) 기술을 가속화하는 것을 목표로 한다.\n\nEPIC 플랫폼은 첨단 패키징 공정에서 전기, 열, 기계적 성능을 동시에 최적화하기 위한 공동 개발 프레임워크다. Applied Materials는 증착·식각·CMP 등 핵심 패키징 장비 및 공정 기술을 제공하고, Broadcom은 자사의 맞춤형 AI ASIC 설계 경험을 바탕으로 실리콘 포토닉스와 2.5D/3D 인터커넥트 기술을 통합한다.\n\n이 파트너십은 AI 모델 규모가 폭발적으로 커지면서 기존 패키징 기술의 한계를 극복하기 위한 업계의 노력을 반영한다. AI 서버 시스템의 비용에서 패키징이 차지하는 비중이 높아지고 있는 상황에서 두 회사의 협력은 업계에 중요한 의미를 가진다.",
+      "published_at": "2026-05-21T00:00:01+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Broadcom"
+    },
+    {
+      "title": "LSEG renews agreement with Broadcom to continue using VMware",
+      "url": "https://www.datacenterdynamics.com/en/news/lseg-renews-agreement-with-broadcom-to-continue-using-vmware/",
+      "body": "London Stock Exchange Group (LSEG) has renewed its agreement with Broadcom to continue using VMware virtualization software across its data center infrastructure. The renewal comes amid widespread industry concerns about Broadcom's post-acquisition VMware licensing and pricing changes that have driven some organizations to consider alternatives.\n\nLSEG's decision to maintain its VMware commitment reflects the complexity of migrating critical financial infrastructure away from established virtualization platforms. The financial services sector has been among the most cautious in responding to Broadcom's VMware pricing restructuring, given regulatory requirements, latency sensitivity, and the interconnected nature of trading systems.\n\nThe agreement represents a significant customer retention win for Broadcom as it continues to defend its VMware customer base against growing migration pressures from alternative hypervisors and cloud-native approaches.",
+      "published_at": "2026-05-25T18:40:26+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Tekcapital forms company to develop offgrid geothermal powered AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/tekcapital-forms-company-to-develop-offgrid-geothermal-powered-ai-data-centers/",
+      "body": "Tekcapital has established a new company dedicated to developing off-grid geothermal powered AI data centers. The initiative targets AI computing facilities that can operate independently from traditional power grid connections, using geothermal energy to address the significant power challenges facing AI infrastructure expansion.\n\nThe company formation reflects growing industry recognition that grid-connected AI data centers face increasing challenges from power availability constraints, transmission costs, and utility rate pressures. Geothermal energy offers consistent baseload power generation that does not depend on weather conditions, unlike solar or wind alternatives.\n\nOff-grid AI data center configurations are gaining interest as hyperscalers and AI companies seek to build capacity in locations where grid infrastructure is insufficient or prohibitively expensive to expand.",
+      "published_at": "2026-05-22T14:20:24+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI 반도체 호황, 사이클 넘어선 '수요 폭발'…대융합 시대 열린다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56446",
+      "body": "SMC Korea 2026 컨퍼런스에서 공유된 업계 시각에 따르면, 현재 AI 칩 호황은 과거 낸드 플래시와 모바일 시대의 확장과 비교할 수 있는 진정한 수요 확장을 나타낸다고 씨티그룹의 이세철 임원은 밝혔다.\n\n분석가는 'AI 에이전트가 이전 시대의 디지털카메라와 스마트폰과 유사한 수요 패턴을 만들어내고 있다'며 전통적 반도체 사이클을 넘어선 지속적인 성장 가능성을 시사했다.\n\nGPU 수요와 더불어 CPU 성장이 전반적인 컴퓨팅 파워 수요를 증가시켜 메모리 제조업체들에게 이익이 되고 있다. 엔비디아, 인텔, ARM 기반 CPU 개발업체들이 모두 시장 입지를 확대하고 있다.\n\n미국의 첨단 장비 수출 규제에도 불구하고 중국 제조업체들은 HBM을 중심으로 한 국내 공급망을 빠르게 구축하고 있다. 기술적 통합 측면에서는 프런트엔드와 백엔드 공정, 메모리와 로직 반도체의 경계가 하이브리드 본딩과 프로세싱인메모리 기술을 통해 점점 흐릿해지고 있다.",
+      "published_at": "2026-05-12T00:00:01+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "'AI 전용 장치' 개발 중인 하크, 1조 규모 시리즈A 투자 유치",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210891",
+      "body": "Figure AI의 CEO 브렛 애드콕이 설립한 AI 스타트업 하크(Hark)가 시리즈A 펀딩에서 7억 달러 이상을 조달해 기업 가치 60억 달러를 기록했다. 이 펀딩 라운드는 파크웨이 벤처 캐피털이 주도했으며, 엔비디아, AMD, 인텔, 퀄컴, 세일즈포스, ARK Invest가 주요 참여자로 이름을 올렸다.\n\n챗봇을 만드는 대신 하크는 사용자를 지속적으로 이해하고 기억하며, 전용 하드웨어로 보완하는 '개인화된 인텔리전스'를 개발하는 것을 목표로 한다. 회사는 현재 AI 서비스가 단일 회전 상호작용이 필요한 구식 인터페이스에 갇혀 있다고 주장한다.\n\n하크는 파운데이션 모델, 소프트웨어, 독자적인 장치, 사용자 인터페이스를 동시에 개발하는 수직 통합을 채택한다. 전략은 AI를 단순한 도구가 아닌 협력 파트너로 기능하게 만드는 것을 추구한다.\n\n회사는 올 여름 첫 멀티모달 AI 모델을 공개하고, 이후 초기 개인 AI 플랫폼을 출시할 계획이다. 또한 AI 최적화 하드웨어 제품도 선보일 예정이다. 현재 약 70명의 직원이 재직 중이며, 엔비디아 B200 GPU를 사용하는 자체 데이터센터를 운영하고 있다.",
+      "published_at": "2026-05-25T17:00:54+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽, FDE 담당할 스타트업 인수로 기업용 AI 시장 공략",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210860",
+      "body": "앤트로픽이 기업용 AI 시장 공략을 위해 필드 배포 엔지니어링(FDE)을 담당할 스타트업을 인수했다. 이번 인수는 앤트로픽이 기업 고객에 대한 기술 지원과 통합 서비스를 강화하기 위한 전략적 움직임으로, 오픈AI, 구글 클라우드 등과의 B2B 기업 AI 시장 경쟁이 치열해지는 가운데 이루어졌다.\n\n앤트로픽은 2026년 2분기에 기업 지출 점유율 34.4%를 기록하며 오픈AI(32.3%)를 처음으로 앞지른 것으로 추정된다. 이번 인수는 특히 AI 에이전트와 복잡한 엔터프라이즈 통합 서비스에서 기업 고객의 기술적 요구를 충족시키기 위한 역량 강화의 일환이다.\n\n해당 스타트업은 기업의 AI 도구 현장 배포와 커스터마이제이션을 전문으로 하는 팀으로, 앤트로픽의 클로드 엔터프라이즈 제품의 기업 내 배포 속도를 높이는 데 핵심 역할을 할 것으로 기대된다.",
+      "published_at": "2026-05-23T17:59:59+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "EU, '미소스' 공유 압박에도 진전 없어…미국 보안 기술 독점 우려",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210859",
+      "body": "EU가 미국에 AI 보안 관련 핵심 기술인 '미소스'의 공유를 압박하고 있지만 진전이 없는 상황이다. 미국이 AI 보안 기술을 독점하는 것에 대한 우려가 커지고 있다.\n\nMisos는 미국이 개발한 AI 보안 및 거버넌스 프레임워크로, AI 시스템의 안전성을 평가하고 검증하는 표준화된 방법론을 포함하고 있다. EU는 이 기술에 대한 접근권을 확보함으로써 자체적인 AI 규제 및 안전 검증 역량을 강화하려 하고 있다.\n\n미국은 이 기술이 국가 안보와 관련된 민감한 정보를 포함하고 있다는 이유로 공유에 신중한 입장을 보이고 있다. 이러한 기술 비공개는 유럽의 AI 자주권 확보 노력에 걸림돌이 되고 있다.",
+      "published_at": "2026-05-23T17:06:37+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Marvell and NVIDIA NVLink Fusion: The $2 Billion Strategic Partnership Reshaping Custom AI Silicon",
+      "url": "https://www.nextplatform.com/connect/2026/03/31/the-2-billion-nvidia-deal-with-marvell-is-about-a-lot-more-than-nvlink-fusion/5213790",
+      "body": "Nvidia's $2 billion strategic investment and partnership with Marvell aims to leverage Marvell's data center networking and custom silicon divisions to accelerate the next generation of Ethernet switches and DPUs. The deal extends far beyond Marvell's headline NVLink Fusion announcement.\n\nOver the coming year, investors should look for higher growth in Marvell's networking ASICs and volume DPU shipments as the partnership with Nvidia ramps up. Marvell's OCTEON 10 DPU family is positioned for hyperscale cloud workloads, 5G transport processing, RAN intelligent controller applications, and carrier and enterprise data center use cases.\n\nThe strategic deal positions Marvell as a core supplier within Nvidia's Vera Rubin ecosystem while also reinforcing Marvell's custom AI ASIC business serving Google, Microsoft, and other hyperscalers. Marvell reported record FY2026 revenue of $8.2 billion, with its AI custom chip business doubling year-over-year.",
+      "published_at": "2026-03-31T00:00:01+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Hudson River Trading selects Lambda for AI compute infrastructure",
+      "url": "https://www.datacenterdynamics.com/en/news/hudson-river-trading-selects-lambda-for-ai-compute-infrastructure/",
+      "body": "Hudson River Trading, one of the world's largest quantitative trading firms, has selected Lambda as its provider for AI compute infrastructure. The selection marks a notable expansion of Lambda's customer base into the financial services sector, which has been increasingly investing in AI capabilities for trading strategy development, risk management, and market analysis.\n\nLambda, a GPU cloud provider specializing in high-performance AI computing, offers infrastructure built around NVIDIA's latest GPU architectures. The partnership demonstrates the growing demand for specialized AI compute infrastructure from sectors beyond traditional technology companies, as quantitative finance increasingly relies on large-scale machine learning models and simulations.",
+      "published_at": "2026-05-22T12:00:26+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}
