@@ -1,0 +1,283 @@
+{
+  "issue_date_kst": "2026-05-26",
+  "main": [
+    {
+      "id": "nvidia-computex-tsmc-vera-rubin",
+      "title": "Nvidia at Computex 2026: Jensen Huang Flies to TSMC as Vera Rubin Ramp Strains Taiwan Supply Chain",
+      "url": "https://www.techtimes.com/articles/317079/20260524/nvidia-computex-2026-jensen-huang-flies-tsmc-vera-rubin-ramp-strains-taiwan-supply-chain.htm",
+      "category": "products",
+      "is_headline": true,
+      "competitor": "NVIDIA",
+      "tldr": "엔비디아 젠슨 황 CEO가 컴퓨텍스 2026 직전 대만으로 날아가 차세대 Vera Rubin 6칩 시스템 양산을 위한 TSMC CoWoS 캐파 락인에 나섰다.",
+      "summary_bullets": [
+        "젠슨 황 CEO는 5월 23일 타이베이 송산공항에 도착해 \"할 일이 많다\"고 짧게 답했다. 6월 1일 GTC 타이베이 기조연설을 앞두고 TSMC의 웨이저자 회장과 만나 차세대 Vera Rubin 플랫폼의 양산 물량을 확보하는 것이 핵심 목적이다. 황 CEO는 이 시스템을 \"대만 역사상 최대 규모의 제품 출시\"라고 표현했다.",
+        "사흘 앞서 발표된 2027 회계연도 1분기 실적은 매출 816억 2,000만 달러로 전년 동기 대비(YoY) 85% 늘어 시장 전망치를 3% 이상 상회했다. 데이터센터 매출이 752억 달러로 전체의 90%를 차지했고, 회사는 800억 달러 자사주 매입을 추가 승인하며 분기 배당도 1센트에서 25센트로 끌어올렸다.",
+        "Vera Rubin은 Vera CPU, Rubin GPU, NVLink 6 스위치, ConnectX-9 SuperNIC, BlueField-4 DPU, Spectrum-X 이더넷 스위치 등 여섯 개 신규 칩으로 구성된 시스템이다. NVL72 한 대당 Vera CPU 36개와 Rubin GPU 72개가 묶이며 부품 수만 약 200만 개에 이르고, 대만 공급망 파트너 약 150곳이 조립에 동원된다. 전작 Blackwell 대비 학습 성능 3.5배, 추론 성능 5배, 추론 비용은 7분의 1 수준이다.",
+        "실제 병목은 실리콘이 아니라 어드밴스드 패키징이다. TSMC는 GPU와 HBM을 한 패키지로 묶는 CoWoS 캐파를 2024년 말 월 3만 5,000장에서 2026년 말 월 12만~14만 장까지 끌어올리는 사상 최대급 증설을 진행 중이지만, 엔비디아가 2027년까지 가용 캐파의 절반 이상을 이미 선점한 것으로 알려졌다.",
+        "한편 중국 시장 점유율은 사실상 0으로 떨어졌다. 약 10개 중국 기업에 H200 라이선스가 명목상 열려 있지만 5월 말까지 단 한 장도 인도되지 않았고, 베이징은 자국 기업들에 화웨이 어센드를 우선 채택하도록 지시했다. 그 자리를 화웨이가 메우며 2026년 AI 칩 매출은 120억 달러로 전년 75억 달러 대비 60% 늘어날 전망이다.",
+        "황 CEO의 대만 방문 사흘 전에는 대만 검찰이 슈퍼마이크로 AI 서버 불법 우회 수출 의혹으로 3명을 수사한다고 공식 발표했다 — 25억 달러 규모 중국 우회 반출을 다룬 3월 뉴욕 연방 기소와 연결된 사건이다."
+      ],
+      "jargon": [
+        {
+          "term": "CoWoS",
+          "explanation": "GPU와 HBM 같은 여러 칩을 하나의 인터포저 위에 함께 얹어 고대역폭으로 연결하는 TSMC 어드밴스드 패키징. AI 가속기 공급의 가장 좁은 병목이며, 엔비디아가 2027년 캐파의 절반 이상을 선점했다는 사실이 곧 산업 전체의 공급 시계가 된다."
+        },
+        {
+          "term": "Vera Rubin / NVL72",
+          "explanation": "엔비디아 차세대 AI 시스템 코드명. Vera는 CPU, Rubin은 GPU이며, 36개 Vera + 72개 Rubin을 NVLink로 묶은 랙 단위가 NVL72다. 200만 개 부품이 들어가는 사실상 '한 대의 거대한 컴퓨터'."
+        },
+        {
+          "term": "BlueField-4 DPU / ConnectX-9 SuperNIC",
+          "explanation": "Vera Rubin 시스템 안에서 데이터 이동·네트워크·스토리지 오프로드를 전담하는 칩들. CPU·GPU가 본업(연산)에만 집중할 수 있도록 옆에서 교통정리를 해주는 데이터센터의 신경망이라고 보면 된다 — MangoBoost가 직접 경쟁하는 영역."
+        }
+      ]
+    },
+    {
+      "id": "amd-venice-2nm-production",
+      "title": "AMD begins production ramp of 256-core EPYC Venice — first 2nm HPC chip claims 70% performance leap",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/amd-begins-production-ramp-of-256-core-epyc-venice-on-tsmcs-2nm-node",
+      "category": "products",
+      "is_headline": true,
+      "competitor": "AMD",
+      "tldr": "AMD가 TSMC 2나노 공정에서 256코어 EPYC Venice 양산에 돌입하며 업계 최초로 2나노 HPC 제품을 손에 넣었다.",
+      "summary_bullets": [
+        "AMD는 6세대 EPYC 프로세서 'Venice'의 양산을 개시했다고 발표했다. TSMC의 N2 공정으로 만들어지며 최대 256개의 Zen 6 코어를 담아 기존 Turin EPYC 대비 약 70% 더 높은 연산 성능을 제공한다 — 업계 최초의 2나노 HPC 양산 사례다.",
+        "리사 수 CEO는 \"AI와 에이전트형(agentic) 워크로드가 빠르게 확산되면서 고객이 혁신을 빠르게 양산으로 옮길 수 있는 플랫폼을 필요로 한다\"고 강조했다. 같은 자리에서 후속작 Verano도 예고했고, Venice 일부 물량은 TSMC 애리조나 팹에서도 만들겠다고 밝혔다.",
+        "성능 지표 가운데 가장 눈에 띄는 부분은 대역폭이다. 소켓당 메모리 대역폭이 614 GB/s에서 1.6 TB/s로 두 배 이상 뛰었고 CPU와 GPU 사이 대역폭도 두 배로 늘었다. AI 학습·추론에서 GPU에 데이터를 끊김 없이 공급해야 하는 시대 흐름과 정확히 맞물린다.",
+        "서버용 프로세서는 스마트폰 칩보다 훨씬 크고 구조가 복잡해 신공정 수율 확보 난도가 높다는 점에서 이번 양산 개시는 의미가 더 크다. 인텔의 경쟁 제품은 2027년까지 등장이 어려운 것으로 알려져, 2026년 한 해 동안 AMD가 N2 서버 시장을 사실상 단독 점유할 가능성이 높다.",
+        "AMD는 이와 별도로 대만 생태계 전반에 100억 달러 이상을 투자해 AI 인프라용 어드밴스드 패키징 캐파를 확대한다고 발표했다. 엔비디아의 TSMC 캐파 선점과 정면으로 충돌하는 행보다."
+      ],
+      "jargon": [
+        {
+          "term": "TSMC N2 (2나노) 공정",
+          "explanation": "TSMC의 2나노급 양산 공정. 동일 면적에 더 많은 트랜지스터를 박아 넣을 수 있어 성능·전력 모두 한 단계 점프한다. Venice는 이 공정으로 양산되는 첫 HPC급 제품이라는 점에서 업계 이정표."
+        },
+        {
+          "term": "에이전트형 AI(Agentic AI)",
+          "explanation": "한 번 답하고 끝나는 챗봇이 아니라 스스로 목표를 쪼개 도구를 호출하며 자율 작업하는 AI. 백그라운드에서 토큰을 수십~수백 번 토해내야 해서 CPU·GPU 모두 수요가 동시에 폭발하는 트리거가 됐다."
+        }
+      ]
+    },
+    {
+      "id": "sk-hynix-ihbm",
+      "title": "SK하이닉스, 발열 낮춘 iHBM 신규 패키징 기술 개발...HBM5부터 적용",
+      "url": "https://zdnet.co.kr/view/?no=20260526084549",
+      "category": "products",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "SK하이닉스가 HBM 패키지 안에 통합 냉각 요소(ICE)를 삽입해 열저항을 30% 이상 낮춘 iHBM 기술을 공개했고, HBM5부터 적용한다.",
+      "summary_bullets": [
+        "SK하이닉스가 5월 26일 iHBM 기술을 공개했다. HBM 패키지 내부에 '통합 냉각 요소(ICE)'를 삽입해 발열을 크게 줄이는 신규 패키징으로, HBM5 제품부터 적용된다. ICE는 전기적으로 비전도성이면서 열은 잘 흘리는 실리콘 소재를 활용해 패키지 안에 별도의 방열 경로를 만든다.",
+        "AI 연산이 폭증하면서 HBM은 적층 단수와 동작 속도를 계속 끌어올려 왔지만, 그만큼 열밀도 관리가 차세대 경쟁의 핵심 변수로 떠올랐다. 특히 HBM과 GPU를 잇는 D2D PHY 인터페이스 구간이 가장 뜨거워지는 지점이다.",
+        "iHBM은 바로 그 D2D PHY 영역에 직접 열 제어 요소를 배치해 전용 방열 경로를 만든다. 그 결과 열저항을 30% 이상 줄이면서도 고온·고부하 환경에서 안정적 동작을 유지한다는 것이 회사 측 설명이다.",
+        "또 한 가지 무게가 실리는 부분은 호환성이다. 기존 Advanced MR-MUF 기반 웨이퍼 레벨 패키징 공정 그리고 고객사들의 기존 SiP 설계와도 잘 맞아, 고객은 최소한의 재설계만으로 iHBM을 채택할 수 있다. 신기술이 곧바로 양산 라인에 올라탈 수 있다는 의미다."
+      ],
+      "jargon": [
+        {
+          "term": "iHBM / ICE(Integrated Cooling Element)",
+          "explanation": "HBM 패키지 안쪽에 직접 냉각 부품을 끼워 넣어 열을 빼내는 SK하이닉스의 새 접근법. 기존에는 패키지 밖에 히트싱크를 붙여 식혔다면, iHBM은 패키지 내부에 '실내 환풍구'를 하나 더 뚫은 셈."
+        },
+        {
+          "term": "D2D PHY (Die-to-Die Physical Layer)",
+          "explanation": "HBM과 GPU처럼 같은 패키지 안의 칩 두 개를 물리적으로 잇는 초고속 인터페이스 회로. 데이터가 가장 빠르게 들락날락하는 곳이라 열이 집중되며, 이 부분의 열 제어가 차세대 HBM 성능을 좌우한다."
+        },
+        {
+          "term": "Advanced MR-MUF",
+          "explanation": "SK하이닉스 HBM 패키징의 핵심 공정. 칩 사이를 액체 보호재로 채워 굳히는 방식으로, 적층 단수를 늘리면서 휨과 발열을 잡는 데 쓰여 왔다. iHBM은 이 공정과 그대로 호환되도록 설계됐다."
+        }
+      ]
+    },
+    {
+      "id": "samsung-900-vnand",
+      "title": "삼성전자, 세계 최초 '900단 V낸드' 구현…1000단 시대 초읽기",
+      "url": "https://www.etnews.com/20260522000306",
+      "category": "products",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "삼성전자가 450단 셀 두 장을 붙이는 'CMB' 기술로 세계 최초 900단 V낸드 시제품을 만들어 1000단 메모리 경쟁에서 한 발 앞서 나갔다.",
+      "summary_bullets": [
+        "삼성전자는 세계 최초로 900단 V낸드 시제품 구현에 성공했다고 밝혔다. 두 개의 450단 셀 웨이퍼를 위아래로 붙이는 '셀 멀티 본딩(CMB)' 기술을 적용한 결과로, 단순히 단수를 끌어올린 점진적 발전이 아니라 적층 공정의 패러다임 자체를 바꾼 시도다.",
+        "현 시점 양산 라인 비교는 격차를 더 분명하게 보여준다. SK하이닉스는 321단 4D 낸드를 양산 중이며, 삼성은 한편으로 10세대 V낸드(V10, 400단대)의 양산을 준비하면서 다른 한편으로는 900단 연구 시제품까지 진전시킨 셈이다.",
+        "물리적 한계 돌파도 함께 보고됐다. 상단 척 설계 강화로 웨이퍼 뒤틀림을 잡았고, 자체 오버레이 교정 기술로 정렬 오류를 극복했다. 새로운 비트라인·워드라인 구조 덕분에 전력 소비와 칩 크기도 의미 있게 줄었으며, 회사는 \"정상적인 셀 동작 특성\"을 검증해 단순 적층 시연이 아닌 실제 기능 동작까지 입증했다고 강조했다.",
+        "전략적 의미는 가격 경쟁 압박과 직결된다. 중국 YMTC가 정부 지원과 국산 장비를 등에 업고 300단 양산을 밀어붙이며 저가 공세를 예고한 가운데, 삼성은 단번에 그 위로 두 세대 이상 올라서며 차세대 시장 선점을 굳혔다."
+      ],
+      "jargon": [
+        {
+          "term": "셀 멀티 본딩(CMB)",
+          "explanation": "두 장의 셀 웨이퍼를 위아래로 정밀하게 붙여 마치 한 장의 일체형 낸드처럼 동작하게 만드는 본딩 기술. 한 번에 너무 높이 쌓다 보면 휨·정렬 문제로 수율이 무너지는데, '반씩 만들어 붙이기' 전략으로 그 한계를 우회했다."
+        },
+        {
+          "term": "V낸드 / 4D 낸드",
+          "explanation": "셀을 평면이 아니라 위로 쌓아 올린 3D 구조 낸드의 삼성 브랜드명이 V낸드. SK하이닉스의 4D 낸드는 셀 위가 아닌 셀 아래에 회로(주변회로)를 깔아 면적을 더 줄인 변형판이다. 두 회사 모두 결국 더 많이 쌓느냐 게임을 하고 있다."
+        }
+      ]
+    },
+    {
+      "id": "rebellions-marok-dc",
+      "title": "리벨리온, '1MW' 규모 데이터센터 직접 운영한다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56994",
+      "category": "projects",
+      "is_headline": false,
+      "competitor": "Rebellions",
+      "tldr": "리벨리온이 서울 마곡에 1MW급 자체 데이터센터를 세워 자사 NPU 검증과 고객 데모용 인프라를 직접 굴리기 시작했다.",
+      "summary_bullets": [
+        "리벨리온이 서울 서쪽 마곡에 769㎡ 규모 3층 건물을 활용한 1MW급 IT 전력 용량의 자체 데이터센터를 구축했다. 1세대 '아톰(Atom)'과 2세대 '레벨100(Rebel100)' NPU를 실제 운영 환경에서 검증하고, 잠재 고객에게 직접 검증 서비스를 제공하는 이중 목적의 시설이다.",
+        "구축은 국내 데이터센터 개발사 DCP와 협력했고, DCP는 GNC에너지와 파트너십을 맺어 부지·전력을 확보했다. 리벨리온은 DCP로부터 공간을 임차하는 형태로 들어갔다. 일반적으로 MW당 약 150억원에 달하는 서버 인프라 비용이 들지만, 리벨리온의 실제 부담은 그보다 낮을 것으로 전해진다.",
+        "재무 체력도 뒷받침된다. 2025년 말 기준 보유 현금이 약 8,560억원이며, 최근 프리IPO 라운드에서 6,400억원을 추가로 조달했다. 칩 한 장 값이 수억 원에서 수천억 원에 이르는 NPU 시장에서, 자체 운영 인프라까지 갖춘다는 선택은 단순한 R&D 시설을 넘어 사업 모델의 무게중심 이동을 시사한다.",
+        "부지로 마곡이 선정된 이유는 안정적인 전력·용수 공급과 행정 편의성이다. 자사 칩을 자사 시설에서 직접 굴리며 고객에게 \"이렇게 돌아간다\"고 보여주는 — 팹리스가 자체 검증 인프라를 내재화하는 — 흐름은 한국 AI 반도체 업계에서는 드문 행보다."
+      ],
+      "jargon": [
+        {
+          "term": "Rebel100 / Atom",
+          "explanation": "리벨리온의 2세대(Rebel100)와 1세대(Atom) AI 추론용 NPU. Rebel100은 ISSCC 2026에서 엔비디아 H200급 성능을 더 낮은 전력으로 낸다고 공개된 신제품이며, Atom은 이미 시장에 배포된 1세대다."
+        },
+        {
+          "term": "프리IPO(Pre-IPO) 라운드",
+          "explanation": "상장 직전 비공개로 진행하는 마지막 대규모 투자 유치 라운드. 기업가치를 거의 상장 시점 수준으로 끌어올려 받기 때문에, 리벨리온의 6,400억원 조달은 곧 \"우리는 상장 준비가 끝났다\"는 신호로 읽힌다."
+        }
+      ]
+    },
+    {
+      "id": "huawei-14nm-logicfolding",
+      "title": "Huawei claims sanctions-busting breakthrough with 1.4nm-class chips by 2031, claims 55% higher transistor density",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/huawei-claims-sanctions-busting-breakthrough-with-1-4nm-class-chips-by-2031-claims-55-percent-higher-transistor-density-firm-claims-new-logicfolding-chip-architecture-can-bypass-euv-restrictions-introduces-tau-scaling-law-to-replace-moores-law",
+      "category": "market",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "화웨이가 ISCAS 2026에서 EUV 없이 1.4나노급을 노린다는 'LogicFolding' 아키텍처와 'Tau Scaling Law'를 공개하며 6년간 비공개로 381개 칩을 양산했다고 밝혔다.",
+      "summary_bullets": [
+        "화웨이가 상하이에서 열린 IEEE ISCAS 2026에서 새로운 칩 설계 프레임워크를 공개했다. 'LogicFolding' 아키텍처와 'Tau Scaling Law'를 앞세워 2031년까지 '1.4나노급' 트랜지스터 밀도를 달성하겠다는 계획이다.",
+        "허팅보 화웨이 이사회 멤버이자 하이실리콘 사장은 \"6년에 걸쳐 이 방법론을 개발해 왔으며, 이 원리를 기반으로 381개의 칩을 비공개로 설계·양산했다\"고 밝혔다. 무어의 법칙으로 대표되는 기존의 기하학적 미세화 대신, 신호 속도 최적화에 무게를 둔 '시간 축 스케일링(temporal scaling)'을 핵심 콘셉트로 내세웠다.",
+        "LogicFolding은 논리 회로를 2층 구조로 쌓아 올려 내부 배선 길이를 줄이고 신호 지연을 낮추는 설계 방식이다. 회사는 이 구조로 트랜지스터 밀도 55% 향상과 전력 효율 41% 개선을 달성했다고 주장하며, 미국의 EUV 노광 장비 수출 통제 아래서도 경쟁력 있는 프로세서를 만들 수 있다고 강조했다.",
+        "첫 상용 적용은 이번 가을 출시되는 차세대 키린(Kirin) 스마트폰 프로세서가 될 전망이다. 공정 노드 미세화 대신 아키텍처 혁신으로 미국 제재를 우회한다는 화웨이의 전략 — 단순한 마케팅 수사가 아니라 \"6년간 381개 양산\"이라는 구체적 숫자로 뒷받침됐다는 점이 이번 발표의 무게를 키운다."
+      ],
+      "jargon": [
+        {
+          "term": "LogicFolding",
+          "explanation": "화웨이가 ISCAS 2026에서 공개한 칩 설계 방식. 논리 회로를 한 층에 평면으로 깔지 않고 2층으로 접어(folding) 쌓아, 칩 안에서 신호가 오가는 길을 짧게 만든다 — 트랜지스터를 더 작게 만들지 않고도 같은 효과를 노리는 우회로다."
+        },
+        {
+          "term": "Tau Scaling Law",
+          "explanation": "무어의 법칙이 \"트랜지스터를 더 작게(공간)\" 게임이라면, Tau Scaling은 \"신호가 더 빨리 도는(시간)\" 게임이라는 화웨이의 새 명제. EUV가 막혀 더 작게 못 만들면 대신 더 빠르게 돌리는 길을 열겠다는 의도다."
+        },
+        {
+          "term": "EUV(극자외선) 노광 / 미국 수출 통제",
+          "explanation": "5나노 이하 첨단 공정 양산에 필수인 ASML 독점 장비. 미국은 2022년부터 대중국 EUV 수출을 사실상 막아 화웨이·SMIC가 직접 5나노 이하로 내려가지 못하게 만들었다 — LogicFolding은 바로 이 봉쇄선 아래에서 짜낸 우회 전략이다."
+        }
+      ]
+    },
+    {
+      "id": "samsung-bonus-hbm-disruption",
+      "title": "Samsung's $400,000 payout for memory workers sparks revolt as other divisions get only $4,000",
+      "url": "https://www.tomshardware.com/tech-industry/samsungs-bonus-dispute-spreads-to-chip-packaging-divisions-threatening-hbm-delivery-schedules",
+      "category": "challenges",
+      "is_headline": false,
+      "competitor": null,
+      "tldr": "삼성전자 메모리 직원과 DX 직원 사이 100배에 이르는 보너스 격차가 패키징·TSP 부서로 번지며 엔비디아 Vera Rubin용 HBM4 공급에 직격탄을 위협하고 있다.",
+      "summary_bullets": [
+        "삼성전자의 최근 임금 합의가 사내 분쟁으로 역풍을 맞고 있다. 메모리 사업부 직원은 약 40만 달러(약 5억 5,000만원)에 달하는 보너스를 받지만, DX(Device Experience) 직원은 4,000달러 수준에 그치는 100배 격차가 드러나며 광범위한 반발이 일고 있다.",
+        "여파는 실제 라인으로 번지고 있다. \"주요 프로젝트 의사결정이 완전히 멈춰 섰다\"는 내부 증언이 나왔고, 파운드리와 TSP(Test & Package) 부서에서 회의가 줄줄이 취소됐으며, 엔비디아 Rubin AI 가속기에 들어갈 HBM4 생산을 맡은 부서에까지 태업 분위기가 확산됐다.",
+        "절차적 갈등도 격화됐다. 1만 3,000명을 대표하는 소규모 DX 노조는 거대 칩 노조의 단체교섭권을 막아달라는 가처분을 법원에 냈고, 한국주주행동본부는 이익 연동 보너스 구조가 주주 승인이 필요하다며 법적 대응을 예고했다.",
+        "5월 27일까지 진행되는 노조 비준 투표에는 약 4만 3,000명의 비메모리 직원이 사실상 결과를 좌우할 가능성이 크다. 시점이 최악인 것은, 엔비디아 Vera Rubin 플랫폼이 가장 결정적인 양산 램프 구간에 막 들어서는 시기와 정확히 겹친다는 점이다 — HBM4 공급 차질은 곧 AI 공급망 전체의 리스크다."
+      ],
+      "jargon": [
+        {
+          "term": "TSP(Test & Package) 부서",
+          "explanation": "삼성에서 칩 테스트와 패키징을 담당하는 후공정 조직. 칩이 완성된 뒤 실제 고객에게 나가기 직전 단계를 책임지는데, 이 라인이 흔들리면 \"칩은 만들어졌는데 보낼 수가 없는\" 상태가 된다."
+        },
+        {
+          "term": "HBM4",
+          "explanation": "엔비디아 Rubin GPU에 짝지어 들어갈 차세대 HBM. Vera Rubin 양산 일정이 곧 HBM4 공급 일정과 동기화돼 있어, 패키징 라인이 한 주만 어긋나도 엔비디아 출하 계획이 흔들린다."
+        }
+      ]
+    },
+    {
+      "id": "cerebras-vb-kimi",
+      "title": "Cerebras says its chips run a trillion-parameter AI model nearly 7 times faster than GPU clouds",
+      "url": "https://venturebeat.com/technology/cerebras-says-its-chips-run-a-trillion-parameter-ai-model-nearly-7-times-faster-than-gpu-clouds",
+      "category": "products",
+      "is_headline": false,
+      "competitor": "Cerebras",
+      "tldr": "Cerebras가 1조 파라미터 모델 Kimi K2.6을 GPU 클라우드 대비 약 6.7배(코딩 작업에서는 29배) 빠르게 처리한다는 검증 결과를 공개하며 엔터프라이즈 시범 서비스를 시작했다.",
+      "summary_bullets": [
+        "AI 추론 칩 기업 Cerebras가 문샷 AI의 1조 파라미터 오픈웨이트 모델 'Kimi K2.6'을 기업 고객 대상으로 서비스하기 시작했다. 벤치마크 기업 Artificial Analysis 측정 기준 초당 981개 출력 토큰을 기록했는데, 이는 GPU 기반 클라우드 경쟁사 대비 6.7배, 추론 제공업체 중간값 대비 23배 빠른 수치다 — 그리고 모두 독립 검증을 거쳤다.",
+        "체감 차이는 더 극적이다. 1만 개 입력 토큰과 500개 출력 토큰이 포함된 표준적인 에이전트 코딩 요청을 처리하는 데 Cerebras에서는 5.6초가 걸렸지만, 키미 공식 엔드포인트에서는 163.7초가 소요됐다 — 약 29배 차이다. 에이전트 워크플로처럼 응답을 받아 다시 모델을 호출해야 하는 작업일수록 격차는 곧장 사용자 경험으로 옮겨붙는다.",
+        "이런 성능을 떠받치는 것은 독특한 하드웨어 구조다. WSE-3(Wafer-Scale Engine 3)는 웨이퍼 한 장을 통째로 하나의 거대한 칩으로 쓰는 방식으로, 대용량 SRAM을 칩 위에 직접 얹어 메모리 접근 지연을 사실상 없앤다. 회사 측은 칩 내부 네트워크 대역폭이 엔비디아 NVL72 시스템 대비 200배 이상 높다고 주장한다.",
+        "기술적 디테일도 흥미롭다. Kimi K2.6의 가중치는 원본 4비트(FP4)로 저장하지만 연산은 16비트 부동소수점으로 수행하며, 가중치를 여러 웨이퍼에 분산시키고 활성값을 그 사이에서 스트리밍하는 구조다. MoE(Mixture-of-Experts) 모델 특유의 전문가 간 통신을 느린 네트워크 패브릭이 아니라 칩 내부 SRAM 속도로 처리한다는 점이 핵심이다.",
+        "현재는 포춘 500대 기업 중심으로 enterprise 시범 운영이 시작됐고, 소프트웨어·금융·헬스케어 분야 주요 기업들이 K2.6 시범 사용 중인 것으로 알려졌다 — IPO 이후 본격적인 상용 가속의 첫 시그널이다."
+      ],
+      "jargon": [
+        {
+          "term": "WSE-3(Wafer-Scale Engine 3)",
+          "explanation": "보통은 한 웨이퍼에서 수백 개의 칩을 잘라내는데, Cerebras는 웨이퍼 한 장 전체를 자르지 않고 통째로 한 칩으로 쓴다. 접시 크기의 단일 칩 위에 대용량 SRAM을 직접 얹어, 메모리를 찾으러 외부로 나갈 일이 거의 없도록 만든 구조다."
+        },
+        {
+          "term": "MoE(Mixture-of-Experts)",
+          "explanation": "거대 모델을 여러 '전문가' 부분 모델로 쪼개고 입력마다 일부만 골라 사용하는 구조. 같은 성능을 더 적은 연산으로 낸다는 장점이 있지만, 전문가 사이 통신이 빠르지 않으면 전체 속도가 무너진다 — Cerebras가 NVL72 대비 200배 대역폭을 강조하는 이유."
+        },
+        {
+          "term": "Kimi K2.6",
+          "explanation": "중국 AI 스타트업 문샷이 공개한 1조 파라미터급 오픈웨이트 모델. GPT-4o 동급 추론 성능을 노리며, 가중치가 공개돼 있어 Cerebras 같은 추론 칩 업체가 자사 하드웨어 우위를 보여주는 벤치마크 모델로 자주 활용된다."
+        }
+      ]
+    }
+  ],
+  "competitor_updates": [
+    {
+      "company": "Rebellions",
+      "tier": "1",
+      "bullets": [
+        "리벨리온은 자체 칩 검증·고객 데모 인프라까지 내재화하는 단계로 진입했다 — 서울 마곡에 1MW급 자체 데이터센터를 세우고 1세대 아톰과 2세대 Rebel100을 실제 환경에서 굴리며, 잠재 고객에게 직접 검증 서비스까지 제공한다. 팹리스가 자기 칩을 자기 시설에서 보여주는 한국 AI 반도체 업계로서는 보기 드문 행보다.",
+        "기술 측면에서도 같은 주에 무게 있는 발표가 이어졌다. ISSCC 2026에서 공개된 Rebel100은 320㎟ NPU 다이 4개를 UCIe 칩렛 인터커넥트로 묶고 패키지당 144GB HBM3E를 얹은 업계 최초의 쿼드 칩렛 AI 가속기로, 엔비디아 H200과 동급 성능을 더 낮은 전력에서 낸다고 주장된다.",
+        "여기에 자금까지 받쳐준다. 최근 23억 4,000만 달러 가치로 4억 달러 규모 프리IPO를 마쳤고 — 리드 투자자는 미래에셋금융그룹과 한국성장금융 — 박성현 CEO는 메타·xAI 같은 빅테크를 타깃 고객으로 직접 지목했다. 2026년 하반기 상장이 다음 분기 핵심 이벤트가 된다."
+      ],
+      "source_article_ids": ["rebellions-marok-dc", "rebellions-rebel100"]
+    },
+    {
+      "company": "Furiosa",
+      "tier": "1",
+      "bullets": [
+        "퓨리오사AI는 2세대 NPU '레니게이드(RNGD)'를 해외 실증 무대로 본격 끌어올리는 모습이다. 유라클의 AI 워크로드 관리 플랫폼 '오르다(AURDA)'와의 연동을 5월 20일 마치고, K-AI 수출 컨소시엄을 구성해 사우디아라비아 아람코와 개념 검증(PoC)을 진행 중이다. 이 컨소시엄은 과기정통부 '2026년 AI 반도체 해외실증 지원 사업' 서버형 부문에도 선정됐다.",
+        "양산 진척도 따라온다. 퓨리오사는 1월 1차 양산 물량 4,000장을 인도받았고 올해 2만 장 양산을 목표로 한다. 자체 벤치마크 기준 RNGD는 엔비디아 RTX PRO 6000과 동일 전력으로 최대 7.4배 사용자를 처리하며 GPU 대비 총소유비용(TCO)을 약 40% 낮춘다는 수치를 내세웠다 — Tier 1 한국 팹리스의 해외 수주 채널이 실제로 작동하기 시작했다는 신호다."
+      ],
+      "source_article_ids": ["furiosa-uracle-aramco"]
+    },
+    {
+      "company": "AMD",
+      "tier": "2",
+      "bullets": [
+        "AMD는 컴퓨텍스 2026 직전 6세대 EPYC 'Venice'의 양산을 개시하며 업계 최초의 2나노 HPC 제품 타이틀을 가져갔다. 256개 Zen 6 코어 + Turin 대비 약 70% 성능 향상 + 소켓당 메모리 대역폭 1.6 TB/s — AI 추론과 에이전트형 워크로드가 CPU 수요를 다시 끌어올리는 흐름과 정확히 맞물린다.",
+        "리사 수 CEO는 \"기업들이 GPU 중심에서 CPU와 시스템 아키텍처 전체를 함께 보기 시작했다\"고 강조하며, 데이터센터의 CPU 대 GPU 비율이 기존 1:4에서 1:1에 가까워질 수 있다고 전망했다 — 서버 CPU 시장이 2030년까지 연평균 35% 이상 성장해 1,200억 달러를 넘어설 것이라는 자신감의 근거다.",
+        "공급망 측면에서는 대만 생태계에 100억 달러 이상을 투자해 TSMC·ASE·위스트론·인벤텍 등과 어드밴스드 패키징·기판·랙 스케일 시스템 캐파를 확대한다. 인텔 경쟁 제품이 2027년 전까지 부재한 상황에서, AMD가 2nm 캐파와 대만 패키징을 동시에 락인하는 행보는 엔비디아의 CoWoS 선점과 정면 충돌하는 그림이다. 흥미로운 대목은 200B 파라미터 LLM을 128GB 통합 RAM 위에서 오프라인으로 돌리는 컴팩트 디바이스 시연도 함께 내놨다는 점 — CPU/GPU/NPU가 한 메모리를 공유하는 통합 아키텍처는 DPU·SmartNIC 인접 영역에도 의미 있는 시그널이다."
+      ],
+      "source_article_ids": ["amd-venice-2nm-production", "amd-taiwan-10b-investment", "amd-trendforce-10b-2nm"]
+    },
+    {
+      "company": "Broadcom",
+      "tier": "2",
+      "bullets": [
+        "브로드컴이 LSEG(London Stock Exchange Group)와의 VMware 계약 갱신을 따냈다. 인수 이후 VMware 라이선스·가격 정책에 대한 시장 반발이 거센 가운데, 금융 인프라 특성상 거래 시스템의 지연·규제 요건 탓에 대체 가상화 플랫폼으로 옮기는 비용이 너무 커 결국 잔류를 택한 사례다 — 가격 인상에도 떨어져 나가지 못하는 락인의 강도를 보여주는 동시에, 클라우드 네이티브·대체 하이퍼바이저 진영의 압박이 어디까지 통할지 시험대가 된다."
+      ],
+      "source_article_ids": ["lseg-broadcom-vmware"]
+    },
+    {
+      "company": "Cerebras",
+      "tier": "2",
+      "bullets": [
+        "Cerebras는 wafer-scale 추론의 우위를 단일 벤치마크가 아닌 실제 엔터프라이즈 서비스로 입증하는 단계에 들어섰다. 문샷 AI의 1조 파라미터 오픈웨이트 모델 Kimi K2.6에서 초당 981 토큰을 기록 — GPU 클라우드 대비 6.7배, 표준 에이전트 코딩 요청 기준으로는 5.6초 대 163.7초(약 29배)로 격차가 벌어지며 독립 검증까지 통과했다.",
+        "비결은 WSE-3 아키텍처다. 웨이퍼 한 장을 통째로 칩으로 쓰면서 대용량 SRAM을 칩 위에 직접 올려, MoE 모델의 전문가 간 통신을 느린 네트워크가 아닌 칩 내부 속도로 처리한다 — 회사 측 주장으로는 엔비디아 NVL72 대비 내부 네트워크 대역폭이 200배 이상 높다. 포춘 500대 기업 중심으로 소프트웨어·금융·헬스케어 분야 시범 운영이 시작됐다는 점은 IPO 이후 첫 본격 상용화 신호로 읽힌다."
+      ],
+      "source_article_ids": ["cerebras-vb-kimi", "cerebras-kimi-k26"]
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "2",
+      "bullets": [
+        "엔비디아는 컴퓨텍스 2026과 GTC 타이베이(6월 1일 키노트)를 무대로 차세대 Vera Rubin 플랫폼을 사실상 산업 표준으로 굳히는 중이다. Vera CPU + Rubin GPU + NVLink 6 스위치 + ConnectX-9 SuperNIC + BlueField-4 DPU + Spectrum-X 광 이더넷 스위치를 한꺼번에 신설계로 갈아 끼운 6칩 시스템이며, NVL72 한 대당 200만 부품 + 대만 파트너 150곳이 동원되는 규모다. 전작 Blackwell 대비 학습 3.5배·추론 5배·추론 비용 7분의 1 — 컴퓨텍스 Best Choice 골든상과 지속가능 특별상도 함께 챙겼다.",
+        "실제 병목은 어드밴스드 패키징이다. 젠슨 황 CEO가 5월 23일 타이베이에 직접 날아간 이유도 TSMC의 CoWoS 캐파 확보였고, 엔비디아는 이미 2027년까지 가용 캐파의 절반 이상을 선점한 것으로 알려졌다. 같은 분기 실적은 매출 816억 달러(YoY +85%)·데이터센터 매출 752억 달러로 전체 매출의 90%를 차지했으며, 800억 달러 자사주 매입과 분기 배당 25배 인상도 함께 발표됐다.",
+        "그늘은 중국이다. 한때 가이던스의 한 축이었던 중국 데이터센터 매출은 0으로 가정됐고, H200 라이선스가 명목상 열려 있어도 단 한 장도 인도되지 않은 채 화웨이 어센드가 그 자리를 메우고 있다. 거기에 대만 검찰의 슈퍼마이크로 AI 서버 우회 수출 수사 + 3월 뉴욕 연방 25억 달러 기소 사건이 겹치며, 황 CEO가 공식적으로 파트너사들에 \"수출 규제 컴플라이언스 강화\"를 압박하는 장면까지 연출됐다."
+      ],
+      "source_article_ids": ["nvidia-computex-tsmc-vera-rubin", "us-nvidia-supermicro-smuggle", "nvidia-gtc-taipei"]
+    }
+  ]
+}

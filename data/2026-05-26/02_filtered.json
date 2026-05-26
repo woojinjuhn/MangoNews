@@ -1,0 +1,396 @@
+{
+  "filter_date_kst": "2026-05-26",
+  "stage": "filter_1",
+  "kept": [
+    {
+      "id": "amd-venice-2nm-production",
+      "title": "AMD begins production ramp of 256-core EPYC Venice — first 2nm HPC chip claims 70% performance leap",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/amd-begins-production-ramp-of-256-core-epyc-venice-on-tsmcs-2nm-node",
+      "category": "products",
+      "competitor": "AMD",
+      "keep_reason": "AMD Venice EPYC 2nm 첫 HPC 양산 개시 + 메모리 BW 2배. MangoBoost AMD 생태계 핵심 협력 신호."
+    },
+    {
+      "id": "amd-taiwan-10b-investment",
+      "title": "\"AI 추론으로 CPU 수요 폭증\"...AMD, 대만 공급망에 15조 투입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210886",
+      "category": "market",
+      "competitor": "AMD",
+      "keep_reason": "AMD 대만 패키징 100억 달러 투자 + CPU:GPU 1:1 ratio shift 전망. AMD 생태계 협업 의미 큼 (한국어 1차)."
+    },
+    {
+      "id": "amd-trendforce-10b-2nm",
+      "title": "[News] AMD's Lisa Su Reportedly to Visit TSMC for 2nm Capacity; Unveils US$10B Taiwan AI Packaging Investment",
+      "url": "https://www.trendforce.com/news/2026/05/21/news-amds-lisa-su-reportedly-to-visit-tsmc-for-2nm-capacity-announces-us10b-taiwan-ai-packaging-investment/",
+      "category": "products",
+      "competitor": "AMD",
+      "keep_reason": "AMD 200B 매개변수 LLM offline + CPU/GPU/NPU 통합 RAM 시연 — DPU/SmartNIC 인접 시그널 (영문 1차)."
+    },
+    {
+      "id": "nvidia-computex-tsmc-vera-rubin",
+      "title": "Nvidia at Computex 2026: Jensen Huang Flies to TSMC as Vera Rubin Ramp Strains Taiwan Supply Chain",
+      "url": "https://www.techtimes.com/articles/317079/20260524/nvidia-computex-2026-jensen-huang-flies-tsmc-vera-rubin-ramp-strains-taiwan-supply-chain.htm",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Vera Rubin 6-chip 시스템 (BlueField-4 DPU + ConnectX-9 SuperNIC 포함) + TSMC CoWoS 공급망 압박. DPU 직접 관련."
+    },
+    {
+      "id": "cerebras-kimi-k26",
+      "title": "\"코딩은 29배, 추론은 7배\"…세레브라스, '키미' 서비스로 GPU 압도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210890",
+      "category": "products",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras WSE-3로 trillion-parameter Kimi K2.6 GPU 대비 6.7배 빠른 추론. 한국어 1차."
+    },
+    {
+      "id": "cerebras-vb-kimi",
+      "title": "Cerebras says its chips run a trillion-parameter AI model nearly 7 times faster than GPU clouds",
+      "url": "https://venturebeat.com/technology/cerebras-says-its-chips-run-a-trillion-parameter-ai-model-nearly-7-times-faster-than-gpu-clouds",
+      "category": "products",
+      "competitor": "Cerebras",
+      "keep_reason": "Cerebras Kimi K2.6 enterprise trial + wafer-scale network 200x NVL72 인용. 영문 1차, 한국어와 보완."
+    },
+    {
+      "id": "rebellions-marok-dc",
+      "title": "리벨리온, '1MW' 규모 데이터센터 직접 운영한다",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=56994",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "리벨리온 마곡 1MW 자체 DC — 자사 NPU 실제 검증/고객 서비스 인프라. Tier 1 경쟁사 전략 핵심."
+    },
+    {
+      "id": "rebellions-rebel100",
+      "title": "Rebellions AI Chips Drive Next-Generation AI Inference: Rebel100 Technical Deep-Dive and IPO Path",
+      "url": "https://koreatechdesk.com/rebellions-ai-inference-strategy-challenging-nvidia",
+      "category": "products",
+      "competitor": "Rebellions",
+      "keep_reason": "Rebel100 ISSCC 발표 — 4 NPU dies + 144GB HBM3E + UCIe chiplet, H200 동급. RebelRack/POD + IPO."
+    },
+    {
+      "id": "sk-hynix-ihbm",
+      "title": "SK하이닉스, 발열 낮춘 iHBM 신규 패키징 기술 개발...HBM5부터 적용",
+      "url": "https://zdnet.co.kr/view/?no=20260526084549",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "iHBM ICE 패키징으로 D2D PHY 열저항 30% 감소 (HBM5부터). AI infra 열관리 핵심 돌파."
+    },
+    {
+      "id": "samsung-900-vnand",
+      "title": "삼성전자, 세계 최초 '900단 V낸드' 구현…1000단 시대 초읽기",
+      "url": "https://www.etnews.com/20260522000306",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "삼성 세계 최초 900단 V낸드 CMB 본딩 — 적층 패러다임 전환. NAND/AI 스토리지 공급망 영향."
+    },
+    {
+      "id": "huawei-14nm-logicfolding",
+      "title": "Huawei claims sanctions-busting breakthrough with 1.4nm-class chips by 2031, claims 55% higher transistor density",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/huawei-claims-sanctions-busting-breakthrough-with-1-4nm-class-chips-by-2031-claims-55-percent-higher-transistor-density-firm-claims-new-logicfolding-chip-architecture-can-bypass-euv-restrictions-introduces-tau-scaling-law-to-replace-moores-law",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Huawei LogicFolding + Tau Scaling Law (EUV 우회 1.4nm급) ISCAS 2026 발표. China sovereign semi 전략."
+    },
+    {
+      "id": "hbm-gpu-optical-separation",
+      "title": "[News] Industry Reportedly Eyes Separating HBM From GPUs to Expand Memory Capacity; Optical Links May Be Key",
+      "url": "https://www.trendforce.com/news/2026/05/25/news-industry-reportedly-eyes-separating-hbm-from-gpus-to-expand-memory-capacity-optical-links-may-be-key/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "HBM 적층 한계로 GPU-HBM 분리 + 광학 링크 구상 — AI infra memory bandwidth/capacity 차세대 아키텍처."
+    },
+    {
+      "id": "ai-cost-tokenmaxxing",
+      "title": "AI cost crisis hits tech giants as employee 'tokenmaxxing' backfires — agentic AI eats up to 1000x more tokens",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Agentic AI가 표준 LLM 대비 1000배 토큰 소비 — MS/Meta/Amazon AI 비용 풀백. AI infra 비용 최적화 핵심."
+    },
+    {
+      "id": "furiosa-uracle-aramco",
+      "title": "FuriosaAI RNGD NPU: 유라클 오르다 플랫폼 연동 완료, K-AI 수출 사우디 아람코 PoC 진행",
+      "url": "https://zdnet.co.kr/view/?no=20260520155509",
+      "category": "projects",
+      "competitor": "Furiosa",
+      "keep_reason": "Furiosa RNGD + 유라클 AURDA 통합 + 아람코 PoC + 과기정통부 'AI 반도체 해외실증' 서버형 선정. Tier 1 경쟁사 수출."
+    },
+    {
+      "id": "samsung-bonus-hbm-disruption",
+      "title": "Samsung's $400,000 payout for memory workers sparks revolt as other divisions get only $4,000",
+      "url": "https://www.tomshardware.com/tech-industry/samsungs-bonus-dispute-spreads-to-chip-packaging-divisions-threatening-hbm-delivery-schedules",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "삼성 보너스 격차로 HBM4 패키징/TSP 부서 작업 마비 — Rubin AI accelerator HBM 공급 직접 위협."
+    },
+    {
+      "id": "micron-virginia-1a-dram-th",
+      "title": "Micron's Virginia fab begins producing America's most advanced DRAM memory",
+      "url": "https://www.tomshardware.com/tech-industry/micron-begins-producing-americas-most-advanced-dram-at-its-virginia-fab",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Micron Manassas 1α DRAM 첫 미국 생산 — DDR4 4배 확장으로 자동차 메모리 70-100% 가격 상승 압력 완화."
+    },
+    {
+      "id": "micron-hbm4-rampup",
+      "title": "마이크론, HBM4 램프업 순항…\"내년 HBM4E 양산\"",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57103",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Micron HBM4 양산 가속 + HBM4E 1γ EUV + TSMC 베이스 다이 outsourcing — HBM 공급 다변화 신호."
+    },
+    {
+      "id": "musk-spacex-xai-customers",
+      "title": "Musk: SpaceX-xAI is actively seeking more AI compute customers, following Anthropic deal",
+      "url": "https://www.datacenterdynamics.com/en/news/musk-spacex-xai-is-actively-seeking-more-ai-compute-customers-following-anthropic-deal/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "xAI Colossus를 hyperscaler급 상업 AI 컴퓨트로 개방 — AWS/GCP/Azure 직접 경쟁. AI infra 시장 재편."
+    },
+    {
+      "id": "anthropic-q2-profit",
+      "title": "앤트로픽 2분기 실적 '첫 분기 흑자 달성' 전망…오픈AI보다 앞서",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57001",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic 첫 분기 흑자 + ARR 430억 + 인프라 계약 3,150억 달러 — AI infra 수요 폭증의 financial 시그널."
+    },
+    {
+      "id": "us-semi-tariff-pressure",
+      "title": "미국, 반도체 관세 카드 다시 만지작…\"미국 내 제조 확대\" 압박 커지나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210870",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "USTR 반도체 관세 카드로 한국 메모리社 미국 내 생산 압박. 한국 반도체 정책/기업 직접 영향."
+    },
+    {
+      "id": "us-nvidia-supermicro-smuggle",
+      "title": "After $2.5 billion Supermicro smuggling bust, Nvidia CEO urges company to fix export control compliance",
+      "url": "https://www.tomshardware.com/tech-industry/jensen-huang-urges-super-micro-to-tighten-compliance",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "대만 첫 AI GPU 밀수출 단속 + NVIDIA CEO compliance 강조 — 중국 AI 칩 통제 supply chain 변수."
+    },
+    {
+      "id": "nvidia-gtc-taipei",
+      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What's Next in AI",
+      "url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "GTC Taipei 06-01 keynote + Vera Rubin NVL72 (ConnectX-9 SuperNIC + BlueField-4 DPU + Spectrum-X) Best Choice 수상."
+    },
+    {
+      "id": "deepseek-v4-price-cut",
+      "title": "딥시크, 'V4-프로' 가격 75% 인하 영구화...중국 AI 가격 경쟁 가속",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210880",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "DeepSeek 1.6T 모델 75% 영구 인하 + Huawei Ascend 950 공급 증가 추정 — 중국 AI 비용/칩 가용성 변화."
+    },
+    {
+      "id": "openai-singapore-imda",
+      "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
+      "url": "https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "OpenAI 첫 해외 Applied AI Lab + Singapore IMDA agentic AI 거버넌스 프레임워크 업데이트 — sovereign AI 사례."
+    },
+    {
+      "id": "openai-anthropic-overseas",
+      "title": "오픈AI·앤트로픽, 해외 거점 확장…싱가포르·밀라노에 신규 기지 마련",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210895",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI Singapore + Anthropic Milano EMEA 9배 성장 통합 — 한국어 종합 1차."
+    },
+    {
+      "id": "naver-kakao-multi-ai",
+      "title": "네카오, '챗GPT+클로드' 멀티 AI 전략…업무 생산성 향상 '집중 투자'",
+      "url": "https://www.etnews.com/20260522000251",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "네이버/카카오 등 한국 플랫폼 ChatGPT Enterprise + Claude Code 병용 — 한국 기업 AI 도구 채택 패턴."
+    },
+    {
+      "id": "ms-fara15-browser-agent",
+      "title": "MS, 차세대 브라우저 에이전트 '파라1.5' 공개…\"오픈AI·구글 성능 추월\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210879",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Microsoft Fara1.5 (4B/9B/27B) Online-Mind2Web 72% — OpenAI Operator/Gemini Computer Use 추월. AI agent 핵심."
+    },
+    {
+      "id": "anthropic-fde-acquisition",
+      "title": "앤트로픽, FDE 담당할 스타트업 인수로 기업용 AI 시장 공략",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210860",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic FDE 스타트업 인수 + 기업 지출 점유율 34.4%로 OpenAI 추월 — B2B AI 경쟁 시그널."
+    },
+    {
+      "id": "gemini-35-flash-cost",
+      "title": "제미나이 3.5 플래시, 성능은 도약했는데…돌리는 비용은 5.5배",
+      "url": "https://zdnet.co.kr/view/?no=20260523104304",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Gemini 3.5 Flash 비용 이전 대비 5.5배 — AI 추론 비용 트렌드, MangoBoost TCO 최적화 가치 강조."
+    },
+    {
+      "id": "pichai-data-flywheel",
+      "title": "피차이 \"구글 코딩, 타사에 뒤져...데이터 선순환 구조로 역전할 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210871",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Google 코딩 AI 열세 인정 + Antigravity 2.0 + Gemini 3.5 Flash 전략 — AI 코딩 시장 경쟁 구도."
+    },
+    {
+      "id": "samsung-mediatek-visit",
+      "title": "이재용 회장, 대만 미디어텍 본사 방문…차이리싱 CEO와 회동",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57102",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "삼성 파운드리 수주 위해 MediaTek 접근 — 메모리/파운드리 번들 + 대만 해협 리스크 다변화 setup."
+    },
+    {
+      "id": "itf-world-2026",
+      "title": "[ITF World 2026] 글로벌 반도체 기술 리더 \"AI 시대 혁신 대전환…생태계 전반과 협력 필수\"",
+      "url": "https://www.etnews.com/20260520000330",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung CTO + imec CMOS 2.0 + TSMC/ASML/NVIDIA — AI 시대 반도체 생태계 협력 트렌드."
+    },
+    {
+      "id": "dell-private-ai-infra",
+      "title": "\"AI를 데이터 가까이로\"…델이 그린 프라이빗 인프라 미래",
+      "url": "https://zdnet.co.kr/view/?no=20260525084556",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Dell AI Factory + 인프라 분리 아키텍처 (HCI 대비 65% 비용 절감) + 삼성/SK/네이버 클라우드 참여."
+    },
+    {
+      "id": "hark-1trillion-funding",
+      "title": "'AI 전용 장치' 개발 중인 하크, 1조 규모 시리즈A 투자 유치",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210891",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Hark 7억 달러 Series A — NVIDIA/AMD/Intel/Qualcomm 모두 참여한 AI 전용 디바이스 + 자체 B200 DC 운영."
+    },
+    {
+      "id": "cisco-merchant-silicon",
+      "title": "Cisco Wins Over AI Customers With Merchant Silicon And Optics",
+      "url": "https://www.nextplatform.com/connect/2026/05/18/cisco-wins-over-ai-customers-with-merchant-silicon-and-optics/5242200",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Cisco FY26 AI 주문 50억→90억 달러 상향 + Acacia 800G photonics 3배 — AI networking 가치사슬 신호."
+    },
+    {
+      "id": "lseg-broadcom-vmware",
+      "title": "LSEG renews agreement with Broadcom to continue using VMware",
+      "url": "https://www.datacenterdynamics.com/en/news/lseg-renews-agreement-with-broadcom-to-continue-using-vmware/",
+      "category": "market",
+      "competitor": "Broadcom",
+      "keep_reason": "LSEG VMware 갱신 — 금융권 가상화 마이그레이션 리스크 vs Broadcom 가격 정책 긴장."
+    },
+    {
+      "id": "tekcapital-geothermal-dc",
+      "title": "Tekcapital forms company to develop offgrid geothermal powered AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/tekcapital-forms-company-to-develop-offgrid-geothermal-powered-ai-data-centers/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Off-grid 지열 AI DC — 전력망 제약 회피 인프라 트렌드. content는 다소 얇음."
+    },
+    {
+      "id": "eu-misos-sovereign",
+      "title": "EU, '미소스' 공유 압박에도 진전 없어…미국 보안 기술 독점 우려",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210859",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "EU의 Misos AI 안전 프레임워크 접근 좌절 — 유럽 sovereign AI 자율성 논쟁."
+    },
+    {
+      "id": "hudson-river-lambda",
+      "title": "Hudson River Trading selects Lambda for AI compute infrastructure",
+      "url": "https://www.datacenterdynamics.com/en/news/hudson-river-trading-selects-lambda-for-ai-compute-infrastructure/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Quant 트레이딩 거대 고객의 Lambda GPU 클라우드 선택 — neocloud의 fintech 진입 시그널."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "aitimes-nvidia-118bil-server",
+      "title": "엔비디아 차세대 AI 서버 한대에 '118억' — 메모리 값만 30억 육박",
+      "discard_reason": "duplicate of Tom's Hardware 'Nvidia's memory costs soar 485%' published in #014 (2026-05-22)"
+    },
+    {
+      "id": "tenstorrent-gurufocus-acquisition",
+      "title": "Intel and Qualcomm Eye AI Chip Startup Tenstorrent for Potential Acquisition at $5B+ Valuation",
+      "discard_reason": "duplicate — same event already published in #012 (2026-05-20) via blockonomi"
+    },
+    {
+      "id": "dell-poweredge-venice-sth",
+      "title": "Dell Showcases Upcoming EPYC Venice PowerEdge Systems, Adds New 5.8PB PowerStore Elite",
+      "discard_reason": "duplicate — same Dell Tech World 2026 PowerEdge/PowerStore Elite announcement already published in #012 (2026-05-20)"
+    },
+    {
+      "id": "applied-broadcom-epic",
+      "title": "Applied Materials와 Broadcom, AI 패키징 혁신 위해 EPIC 플랫폼 파트너십 체결",
+      "discard_reason": "duplicate — already published in #013 (2026-05-21), same URL in published_urls.jsonl"
+    },
+    {
+      "id": "marvell-nvlink-fusion-old",
+      "title": "Marvell and NVIDIA NVLink Fusion: The $2 Billion Strategic Partnership Reshaping Custom AI Silicon",
+      "discard_reason": "stale — article published 2026-03-31, nearly 2 months outside the 2026-05-23+ window"
+    },
+    {
+      "id": "smc-korea-2026-citi",
+      "title": "AI 반도체 호황, 사이클 넘어선 '수요 폭발'…대융합 시대 열린다",
+      "discard_reason": "stale — published 2026-05-12, 14 days outside recency window; content is high-level analyst color, not breaking news"
+    },
+    {
+      "id": "imec-highna-qubit",
+      "title": "Imec builds world's first High-NA EUV-fabricated quantum dot qubit device",
+      "discard_reason": "off-topic — quantum dot qubit fabrication tangential to DPU/AI infra; High-NA EUV node story marginal for MangoBoost"
+    },
+    {
+      "id": "hassabis-einstein-test",
+      "title": "허사비스 \"진정한 AGI는 '아인슈타인 테스트' 통과해야\"",
+      "discard_reason": "off-topic — philosophical AGI benchmark discussion with no infra/product substance"
+    },
+    {
+      "id": "supermicro-1u-soc-review",
+      "title": "Supermicro SYS-112D-36C-FN3P Review: A 36 Core Intel Xeon 6 SoC Server with 2x 100GbE",
+      "discard_reason": "off-topic — single SKU edge server hardware review; no strategic/market signal for DPU or AI infra trends"
+    },
+    {
+      "id": "apc-powerforge-demo",
+      "title": "APC PowerForge with Dell and NVIDIA at DTW 2026",
+      "discard_reason": "off-topic — booth demo of 3D printers driven by AI workstation; not substantive infra news"
+    },
+    {
+      "id": "micron-thelec-virginia",
+      "title": "마이크론, 미국 내 1α DDR4 첫 생산 시작",
+      "discard_reason": "duplicate — same Micron Manassas 1α DRAM event already kept via Tom's Hardware English source (micron-virginia-1a-dram-th)"
+    }
+  ],
+  "summary": {
+    "total_received": 48,
+    "total_kept": 37,
+    "total_discarded": 11,
+    "category_breakdown": {
+      "market": 14,
+      "products": 13,
+      "projects": 4,
+      "challenges": 5,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 12,
+    "by_competitor": {
+      "AMD": 3,
+      "NVIDIA": 3,
+      "Cerebras": 2,
+      "Rebellions": 2,
+      "Furiosa": 1,
+      "Broadcom": 1
+    }
+  }
+}
