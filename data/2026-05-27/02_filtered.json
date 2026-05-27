@@ -1,0 +1,102 @@
+{
+  "filter_date_kst": "2026-05-27",
+  "kept": [
+    {
+      "id": "art_06",
+      "title": "마이크론도 시총 '1조 달러' 돌파…주가 20% 폭등",
+      "url": "https://zdnet.co.kr/view/?no=20260527083456",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AI 메모리 수요로 마이크론 시총 1조달러 돌파 + HBM 2026 완판 — DPU/AI 인프라가 직면한 메모리 공급 제약의 가장 강한 시그널."
+    },
+    {
+      "id": "art_08",
+      "title": "This Artificial Intelligence (AI) Chip Stock Just Joined Nvidia, Broadcom, Taiwan Semiconductor, and Samsung in the $1 Trillion Club. Is It a Buy Now?",
+      "url": "https://www.fool.com/investing/2026/05/26/why-micron-technology-is-soaring-today/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "마이크론 1조달러 사건의 영문 1차 분석 — 매출 196% 증가, 영업마진 67.6%, HBM 2026 완판 등 한국어 기사가 누락한 재무 디테일을 보완하므로 상호보완 keep."
+    },
+    {
+      "id": "art_11",
+      "title": "삼성전자·SK하이닉스, 반도체 랠리 기대감에 프리마켓서 급등",
+      "url": "https://www.newspim.com/news/view/20260527000107",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "마이크론 급등 파급으로 한국 메모리 2사 프리마켓 6~8% 상승 + 단일종목 레버리지 ETF 16종 4조원 신규 상장 — 한국 메모리 시장 변동성/유동성 신호."
+    },
+    {
+      "id": "art_04",
+      "title": "딥시크, V4-프로 API 가격 75% '영구 인하'…GPT-5.5의 34분의 1",
+      "url": "https://zdnet.co.kr/view/?no=20260527075929",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "딥시크가 추론 토큰가를 GPT-5.5의 1/34 수준으로 영구 인하 — AI 추론 비용 구조 파괴 + 중국 AI 가격 전쟁 가속, MangoBoost가 풀려는 인프라 효율/비용 문제의 핵심 시장 시그널."
+    },
+    {
+      "id": "art_03",
+      "title": "앤트로픽코리아 닻 올린다…초대 수장에 최기영",
+      "url": "https://zdnet.co.kr/view/?no=20260527091449",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "앤트로픽 서울 사무소 공식 개설 + 한국 클로드 사용량 인구대비 3.5배 + 금융/제조/IT 엔터프라이즈 도입 집중 — 한국 엔터프라이즈 AI 인프라 수요 가속 신호."
+    },
+    {
+      "id": "art_01",
+      "title": "[5월26일] AI 기업의 IPO 러시…'자금은 충분, 이제는 ROI'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210919",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "스페이스X·오픈AI·앤트로픽 합산 기업가치 2조달러+ IPO 러시 — AI 밸류에이션이 '가능성'에서 '수익성 검증'으로 전환되는 분기점, AI 인프라 자본 흐름 변화."
+    },
+    {
+      "id": "art_09",
+      "title": "삼성전자 잠정합의 투표 결과 오늘 오전 발표…가결될 듯",
+      "url": "https://www.fnnews.com/news/202605270531487629",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "삼성 DS부문 영업이익 10.5% 재원 특별성과급(메모리 인력 최대 5억7천만원) 가결 유력 — 한국 반도체 인재 이동/인건비 구조 시그널, DX-DS 격차 노노 갈등 리스크 동반."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "art_02",
+      "title": "거물 개발자 경고 '클로드 코드는 망가진 도구...'바이브 슬롭' 위기'",
+      "discard_reason": "off-topic — AI 코딩 도구 품질 비평이며 DPU/AI 인프라/데이터센터와 무관한 개발자 생산성 의견 기사."
+    },
+    {
+      "id": "art_05",
+      "title": "샘 올트먼 오픈AI CEO \"AI로 일자리 종말 없을 것\"",
+      "discard_reason": "off-topic — 일자리 전망 의견 코멘트로 AI 제품·인프라·시장 substantive 정보 없음."
+    },
+    {
+      "id": "art_07",
+      "title": "AI 메모리 열풍 폭발…나스닥 또 최고치, 마이크론 시총 1조달러 돌파",
+      "discard_reason": "duplicate of art_06 — 동일 마이크론 1조달러 사건이며 ZDNet 한국어판(art_06) + Motley Fool 영문 1차 분석(art_08)이 더 풍부한 디테일을 제공."
+    },
+    {
+      "id": "art_10",
+      "title": "삼성전자 잠정합의안 투표 오늘 종료···반도체 주도로 '가결' 유력",
+      "discard_reason": "duplicate of art_09 — 동일 삼성 투표 사건이며 파이낸셜뉴스(art_09)가 투표율/투표권자 정확 수치 등 더 풍부한 1차 디테일을 제공."
+    },
+    {
+      "id": "art_12",
+      "title": "DGIST, 단일 레이저 공정으로 2차원 반도체 소재에 고성능 광검출기 구현",
+      "discard_reason": "off-topic — 2D 반도체 광검출기 학술 연구로 이미지 센서/광학 센서 응용이며 DPU/AI 인프라/데이터센터 가치사슬과 무관."
+    }
+  ],
+  "summary": {
+    "total_received": 12,
+    "total_kept": 7,
+    "total_discarded": 5,
+    "category_breakdown": {
+      "market": 6,
+      "products": 0,
+      "projects": 0,
+      "challenges": 1,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 0,
+    "by_competitor": {}
+  }
+}

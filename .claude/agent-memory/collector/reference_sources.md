@@ -417,3 +417,32 @@ type: reference
 - `Microsoft Maia chip supply Anthropic external first May 2026` — surfaces The Information / etnews.com coverage
 - `엔비디아 1분기 실적 5월22일 반응 코스피 반도체` — newspim.com KOSPI reaction article (08:35 KST May 22 in-window)
 - `Prosecutors Taiwan AI chip smuggling Nvidia Super Micro May 22 2026` — Taipei Times accessible
+
+## Source notes (2026-05-26 run — single day window, NVIDIA Taiwan + Computex preview week)
+- **No May 26 English RSS articles before 09:00 KST**: Tom's Hardware, ServeTheHome, DCD, NextPlatform, Blocks&Files all last published May 25; single-day English drought confirmed
+- **Tom's Hardware May 26 articles**: SK hynix iHBM (11:49 UTC = 20:49 KST May 26, out-of-window for May 27 issue); AMD 256-core EPYC Venice (earlier); IBM Anderon quantum (19:05 UTC = 04:05 KST May 27, in-window but stale underlying news from May 21)
+- **Korean outlets primary source again**: ZDNet Korea, AI타임스, thelec.kr, etnews.com, aitimes.kr all published May 26 morning articles
+- **thelec.kr member-only articles**: Some articles at thelec.kr now require login ("회원전용기사"); idxno=56000 (memory substrate price rise, 2026-05-27 08:28) was paywalled; cannot extract body
+- **Taipei Times**: Published NVIDIA Taiwan HQ meeting preview article 2026-05-26 (exact time unknown from JSON-LD); accessible; confirms May 27 employee gathering/groundbreaking
+- **Focus Taiwan**: Published NVIDIA employee meeting article 2026-05-25 20:29; 404 when URL modified to May 27 variant
+- **aimatters.co.kr** — accessible Korean tech news; NVIDIA Jensen Huang/Lisa Su Taiwan arrival May 26; explicit date
+
+## Key observations (2026-05-27 run — single day window)
+- **Single-day window (May 27 only) after May 26 issue remains the leanest pattern**: Almost zero English RSS articles before 09:00 KST; Korean outlets dominate
+- **Micron $1T market cap** was the dominant semiconductor story: ZDNet Korea + Etnews + newspim + Motley Fool all covered it from different angles; three articles kept (avoid full dedup since different outlets/content)
+- **Samsung union vote** (result announced ~10:30 KST May 27): Only pre-result "expected to pass" articles found; no confirmed-pass article available at collection time
+- **NVIDIA Taiwan HQ event** (May 27): Groundbreaking/employee gathering confirmed; only pre-event articles (May 25-26 publication dates) available; post-event coverage not yet indexed
+- **Competitor domain lean**: All Tier 1 Korean AI chip companies had no qualifying May 27 articles; last news for Rebellions was May 14-26 period (pre-IPO NDR, Red Hat OpenShift Dec 2025)
+- **Datacenter domain true zero**: No datacenter-specific articles published May 27 KST; confirmed no-news day for that domain in this window
+- **fnnews.com** — accessible Korean financial news; Samsung union vote article published 05:31 KST May 27; fastest Korean publisher for morning semiconductor news
+- **ajunews.com** — accessible Korean financial/tech news; Samsung union vote 08:05 KST; precise timestamps in URL pattern (/view/YYYYMMDDHHMMSSXXX)
+- **newspim.com** — accessible; Samsung/SK Hynix pre-market rally 08:39 KST; "최종수정" timestamp in article confirms exact KST publish time
+
+## Query patterns (2026-05-27 run)
+- `삼성전자 노조 잠정합의안 가결 결과 10시30분 2026년 5월 27일` — fnnews.com + ajunews.com + newspim.com all accessible
+- `마이크론 시총 1조달러 UBS 목표주가 상향 반도체 2026-05-27` — zdnet.co.kr + etnews.com accessible
+- `앤트로픽코리아 최기영 서울 사무소 2026년 5월 27일` — zdnet.co.kr + heraldcorp.com accessible
+- `딥시크 V4-Pro API 가격 인하 영구 2026` — zdnet.co.kr accessible
+- `삼성전자 SK하이닉스 프리마켓 급등 마이크론 2026-05-27` — newspim.com accessible
+- `샘 올트먼 AI 일자리 종말 없다 시드니 커먼웰스 2026-05-27` — etnews.com accessible
+- `NVIDIA Jensen Huang Taiwan headquarters groundbreaking May 27 2026` — pre-event articles only findable (Taipei Times May 26, Focus Taiwan May 25)
