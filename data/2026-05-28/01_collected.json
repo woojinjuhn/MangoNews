@@ -1,0 +1,165 @@
+{
+  "collection_date_kst": "2026-05-28",
+  "run_summary": {
+    "total": 14,
+    "by_topic": {"ai": 7, "semiconductor": 1, "datacenter": 3, "competitor": 3},
+    "by_competitor": {
+      "Furiosa": 2,
+      "Rebellions": 1,
+      "Broadcom": 1,
+      "Moreh": 0,
+      "FriendliAI": 0,
+      "HyperAccel": 0,
+      "NVIDIA": 0,
+      "Napatech": 0,
+      "Marvell": 0,
+      "Tenstorrent": 0
+    },
+    "competitor_tagged_total": 3,
+    "sources_consulted": 28,
+    "skipped_paywalled": 3,
+    "notes": "Recency window: 2026-05-28 KST only (single-day window; last issue #016 was 2026-05-27). Skipped paywalled: thelec.kr idxno 56051 (TSMC 2nm prison/기밀), thelec.kr idxno 56052 (Nanya-NVIDIA LPDDR), thelec.kr idxno 56053 (Tokyo Electron leak) — all 회원전용기사. Samsung Vietnam chip plant (Reuters/FMT May 27 03:34 UTC = May 27 12:34 KST — out-of-window). Blocks&Files Mn3Sn memory article (May 27 14:21 UTC = May 27 23:21 KST — out-of-window). TechCrunch Google AI spelling article (May 27 12:17 UTC = May 27 21:17 KST — out-of-window). Semiconductor domain thin on May 28 KST — only the Snowflake-AWS AWS Graviton article touches semiconductor supply chain meaningfully. Most May 27 UTC semiconductor stories converted to May 27 KST (last issue date) and were excluded. No articles from HPC Wire (403), NetworkWorld (404), Wired (blocked), SemiAnalysis RSS (stuck Sep 2025), Spectrum IEEE (no May 28 content). Naver News IT/과학 skipped (JS-rendered). Competitor searches for all Tier 1/2 companies executed; no qualifying May 28 articles found for Moreh, FriendliAI, HyperAccel, Napatech, Marvell, Tenstorrent (NVIDIA Computex news predates window). Broadcom co-tagged on FuriosaAI articles as it is primary actor. dropped: zero articles for unverifiable publication time (all have verified precise times)."
+  },
+  "articles": [
+    {
+      "title": "Broadcom's custom ASIC biz adds South Korea's FuriosaAI to its empire",
+      "url": "https://www.theregister.com/ai-ml/2026/05/27/broadcom-lands-furiosaai-as-latest-custom-ai-chip-partner/5246536",
+      "body": "Broadcom has partnered with South Korea-based FuriosaAI to develop advanced AI accelerators using the company's specialized packaging technology. The collaboration represents another significant relationship for Broadcom's increasingly profitable custom silicon business.\n\nFuriosaAI will adapt its Tensor Contraction Processor technology into a multi-die system-on-package designed for high-volume AI inference workloads. The third-generation chips will be fabricated on a 2nm process and incorporate 'dual layer' HBM4 or HBM4e memory enabled by Broadcom's advanced packaging.\n\nThe new processors leverage Broadcom's Extreme Dimension System in Package (3.5D XDSiP) technology, which disaggregates compute, memory, I/O, and logic into distinct chiplets assembled using 3D packaging techniques like hybrid bonding — similar to AMD's MI300 architecture.\n\nBeyond the current eight-chip limitation, FuriosaAI's systems will employ Broadcom's Ethernet and PCIe products, potentially utilizing high-radix switches like the Tomahawk 6 for scaling networks.\n\nFuriosaAI's second-gen RNGD accelerators offer 512 teraFLOPS of FP8 compute, 48GB of HBM3, and consume just 180 watts — significantly less power than competitors like Nvidia's B200, though with correspondingly lower performance. Customers include LG, running its Exaone models on RNGD.\n\nCustom accelerator IP now accounts for 65% of Broadcom's revenue in Q1 2026, reflecting the company's emergence as critical infrastructure behind modern AI chip development. This partnership follows earlier announcements of Broadcom relationships with Meta and Google.\n\nSampling of the third-generation chip is scheduled to begin in the first half of 2028.",
+      "published_at": "2026-05-27T14:00:00+00:00",
+      "source": "The Register",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "Furiosa"
+    },
+    {
+      "title": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era",
+      "url": "https://www.stocktitan.net/news/AVGO/furiosa-ai-partners-with-broadcom-to-build-next-generation-inference-06ivdgtq465f.html",
+      "body": "FuriosaAI announced a strategic partnership with Broadcom to develop a third-generation AI accelerator chip. The collaboration combines FuriosaAI's Tensor Contraction Processor architecture with Broadcom's networking expertise and infrastructure capabilities.\n\nCurrent Product: FuriosaAI's RNGD chip is currently in mass production at TSMC's 5nm process. The device operates at 180W and handles LLM and agentic AI workloads, with validation from companies including Samsung SDS and LG AI Research.\n\nNext-Generation Design: The third-generation chip will feature a 2nm compute die with HBM4/4E memory, utilizing Broadcom's advanced packaging to integrate multiple silicon dies. The system incorporates Broadcom's Ethernet and PCIe technologies for rack-scale networking.\n\nDevelopment Focus: According to leadership, the partnership addresses 'the key bottlenecks of large-scale agentic AI' by prioritizing 'high-bandwidth data movement rather than the thread management required by GPUs.'\n\nTimeline: Sampling is scheduled for the first half of 2028.\n\nSoftware: FuriosaAI's SDK features an automatic compiler mapping PyTorch code to silicon, plus a Virtual ISA for developers requiring granular hardware control.\n\nFuriosaAI was founded in 2017 by veteran engineers from AMD, Qualcomm, and Samsung, with offices in Korea and Silicon Valley. To date, the company has raised approximately $115 million across four funding rounds.",
+      "published_at": "2026-05-27T13:00:00+00:00",
+      "source": "StockTitan (Broadcom IR)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Furiosa"
+    },
+    {
+      "title": "리벨리온, KB금융그룹과 AI 인프라 협력",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57256",
+      "body": "리벨리온(Rebellions)이 KB금융그룹과 금융 AI 인프라 협력을 위한 전략적 파트너십을 체결했다. 양사는 금융권 특화 AI 반도체 추론 인프라 구축에 협력하며, 리벨리온은 AI 반도체 추론 인프라를 공급하고 KB금융은 금융 서비스 지원 및 자금 조달 역할을 맡기로 했다.\n\n금융권은 망분리 규제가 적용돼 내부망을 사용해야 한다. 이에 따라 클라우드 서비스보다 온프레미스 방식의 AI 인프라 수요가 높다. 리벨리온은 이 점을 활용해 금융권 실증 경험을 쌓겠다는 전략이다.\n\nKB금융그룹은 리벨리온의 시리즈 A 투자 이후 꾸준히 지원해 온 투자자로, 리벨리온의 기업 가치를 3조4000억원으로 끌어올리고 국가성장펀드 첫 직접 투자 기업으로 선정되는 데 기여했다.\n\n리벨리온 박성현 대표는 '기술이 금융을 키우고, 금융이 기술 인프라를 바꾸는 선순환의 첫 걸음'이라고 말하며 '한국산 AI 반도체가 금융권에 뿌리내리는 첫 단추'라고 강조했다.\n\n협약은 5월 27일 KB금융그룹 양종희 회장과 리벨리온 박성현 대표 간에 서명됐으며, 구체적인 재무 조건은 공개되지 않았다.",
+      "published_at": "2026-05-28T05:48:00+09:00",
+      "source": "더일렉(THE ELEC)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "GPUs And RAM Are In Short Supply, But The Real Bottleneck For AI Is Electricians",
+      "url": "https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566",
+      "body": "While GPUs and RAM shortages dominate headlines, the article contends that skilled electricians represent the actual constraint limiting AI datacenter expansion. This insight emerges from an examination of TeraWulf's massive Lake Mariner facility near Buffalo, New York.\n\nTeraWulf pivoted from cryptocurrency mining to AI/HPC operations, expanding its Lake Mariner site to 157 acres with targets reaching 750 megawatts of capacity. The facility features:\n- CB-4 building: 330,000 square feet, 200-megawatt capacity with four data halls\n- CB-5 building: 330,000 square feet under construction, with Fluidstack contracted for 160 megawatts\n- Infrastructure investment: $290 million spent with Schneider Electric and Motivair on electrical systems, cooling, and related equipment\n\nThe construction operates continuously with approximately 1,800 tradespeople on-site simultaneously. Critically, '650 to 800 are electricians,' according to operations leadership. This massive electrical workforce requirement reflects the specialized demands of modern AI datacenters.\n\nBuilding expenses differ markedly between mining and AI operations:\n- Bitcoin mining infrastructure: ~$500,000 per megawatt\n- AI/HPC infrastructure: '$7 million to $10 million per megawatt,' reflecting liquid cooling requirements and complexity\n\nDatacenter rental averages '$140 per kilowatt per month' with typical contracts spanning 10-15 years.\n\nThe Lake Mariner site benefits from dual 345-kilovolt power feeds providing Tier 3 equivalence redundancy. Notably, the regional power mix is '89 percent zero carbon,' leveraging Niagara Falls hydropower resources.",
+      "published_at": "2026-05-27T23:18:14+00:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Italian council sets 200% tax on data center development in agricultural zones",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/italian-council-sets-200-percent-tax-on-data-center-development-in-agricultural-zones-aims-to-spur-the-use-of-old-industrial-areas-instead-and-limit-environmental-impact",
+      "body": "Lombardy, Italy's northwestern region, has enacted a tax structure designed to redirect data center development away from agricultural and rural areas. The region imposes a 100% tax on rural developments and a 200% tax specifically for projects in agricultural and green zones.\n\nRegional officials aim to discourage hyperscalers from acquiring rural land without concrete timelines or planning. As Massimo Sertori, a Lombardy councilor, explained: 'We can, however, try to keep the phenomenon under control by avoiding excesses and the exaggerated exploitation of the territory.'\n\nRather than blocking development entirely, lawmakers hope the substantial tax burden will incentivize companies to utilize existing industrial sites, which already possess appropriate infrastructure and pose minimal environmental concerns.\n\nThis initiative reflects growing tensions between AI infrastructure expansion and land preservation across multiple jurisdictions. Rural areas attract data center developers due to lower costs, fewer restrictions, and streamlined permitting processes — factors that have prompted similar regulatory responses in other regions, including parts of Texas.\n\nThe measure represents a middle-ground approach that acknowledges economic development needs while attempting to protect agricultural and natural landscapes from conversion to industrial use.",
+      "published_at": "2026-05-27T16:40:27+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Snowflake to burn $6B on AWS Graviton CPUs and AI infra",
+      "url": "https://www.theregister.com/off-prem/2026/05/27/snowflake-to-burn-6b-on-aws-graviton-cpus-ai-infra/5247475",
+      "body": "Snowflake announced plans to invest $6 billion over five years in Amazon's custom Graviton CPUs and AI accelerators. The commitment amounts to approximately $1.2 billion annually.\n\nCEO Sridhar Ramaswamy stated the goal is to help 'enterprises bring AI directly to governed data' while enabling them to 'move faster, operate with greater density and create measurable impact.'\n\nThe investment focuses on addressing a critical gap in AI infrastructure. While large language models run on GPUs, the supporting tools and functions — such as SQL queries and Python scripts — rely on CPU cores. This has driven renewed demand for processing capacity, as each AI agent's performance depends on how quickly the CPU can handle requests.\n\nUnder this agreement, Snowflake will run and train its GenAI services using combined GPU and Graviton resources. The company's Cortex AI platform converts natural language to SQL queries, summarizes data, and performs sentiment analysis.\n\nSnowflake's stock rallied more than 30 percent in after-hours trading following the announcement. This suggests investor confidence that AI-driven tools will justify the infrastructure spending, given that Snowflake's lifetime AWS marketplace sales have exceeded $7 billion, with $2 billion in 2025 alone.\n\nThe deal places Snowflake alongside Apple and Meta as one of AWS's largest customers for CPU-based computing. Amazon CEO Andy Jassy previously claimed the company's proprietary chips deliver 'better price-performance' than Nvidia's offerings for many workloads.",
+      "published_at": "2026-05-27T22:20:00+00:00",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
+      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+      "body": "Cognition, creator of the autonomous AI coding agent Devin, announced a $1 billion funding round at a $25 billion pre-money valuation. Led by Lux Capital and General Catalyst, the round more than doubled the company's valuation from its $10.2 billion post-money valuation in September 2025.\n\nThe company reports impressive metrics: '$492 million in annualized revenue run-rate' with enterprise customer adoption growing '50% month-over-month for the past six months.' Major clients include Mercedes-Benz, NASA, Goldman Sachs, and Santander.\n\nNew investors Ribbit Capital, Atreides, and Layer Global joined existing backers including Founders Fund and 8VC.\n\nThe funding signals investor confidence that independent AI coding startups can thrive alongside major model makers like Anthropic's Claude Code and OpenAI's Codex. Cognition previously acquired the remaining assets of rival coding platform Windsurf.\n\nThis represents significant growth from their previous round — a major leap from its $10.2 billion post-money valuation when it closed a $400 million funding round just eight months ago in September. Enterprise usage has increased more than ten times over since the beginning of the year.",
+      "published_at": "2026-05-27T16:00:00+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "body": "Meta announced the global rollout of paid subscription tiers for Instagram, Facebook, and WhatsApp on May 27, 2026, while simultaneously beginning tests of additional offerings under its 'Meta One' subscription umbrella.\n\nThe company introduced three basic subscription options: Instagram Plus and Facebook Plus ($3.99/month each) and WhatsApp Plus ($2.99/month). These plans grant access to enhanced features like custom profile settings, animated reactions, and audience insights.\n\nMeta will test AI-focused subscriptions in June, launching initially in Singapore, Guatemala, and Bolivia. The Meta One Plus ($7.99/month) and Meta One Premium ($19.99/month) plans provide tiered access to advanced reasoning and expanded video/image generation capabilities, with Premium offering enhanced computing power for complex tasks.\n\nCreator and business plans begin testing this week across Saudi Arabia, Morocco, Thailand, and Bangladesh. The Meta One Essential plan ($14.99/month) includes verification and enhanced linking tools. The Meta One Advanced plan ($49.99/month) adds search prominence, analytics, and content reposting notifications.\n\nMeta Verified remains separate from these new offerings. This diversification reflects Meta's response to market saturation, as the company seeks revenue sources beyond advertising while consolidating all paid services under a unified 'Meta One' brand.",
+      "published_at": "2026-05-27T18:07:00+00:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI costs begin to bite as agents may increase token demand by 24 times",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-begin-to-bite-as-agents-may-increase-token-demand-by-24-times-says-goldman-sachs-report-uber-and-microsoft-among-companies-feeling-the-bite-of-tokenized-billing",
+      "body": "A Goldman Sachs report warns that agentic AI could increase token demand by 24 times over the next few years, pushing major technology companies to reconsider their AI spending strategies. Microsoft and Uber are among firms experiencing severe cost pressures as they grapple with mounting expenses that don't correlate with tangible productivity gains.\n\nUber's CTO reported the company depleted its entire 2026 AI budget within months. The company's operations chief noted there was 'no link between higher token usage and a proportional increase in consumer features with real benefits.'\n\nMicrosoft revoked developer access to Claude Code and plans to transition users to its internal Copilot CLI tool by June 30 — a move appearing financially motivated ahead of the fiscal year close.\n\nDespite aggressive AI adoption (Uber reported 80% of engineers using agentic AI with 60% AI-generated code), companies struggle to demonstrate measurable returns. Similar adoption rates at Airbnb and Google haven't translated to clear cost justification.\n\nWhile Nvidia's forthcoming Vera Rubin platform promises significant efficiency improvements, over 50% of announced Blackwell data center projects have been cancelled or delayed. Major cloud providers now plan six-year hardware lifecycles, making rapid upgrades unlikely.\n\nThe fundamental problem: token cost increases outpace hardware efficiency gains that remain years away from meaningful deployment.",
+      "published_at": "2026-05-27T20:52:46+00:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "LG에너지솔루션, 북미 ESS 2.4조원 공급 계약 체결…오라클 AI 데이터센터 지원",
+      "url": "https://zdnet.co.kr/view/?no=20260528080803",
+      "body": "LG에너지솔루션이 미국 미시간주 디트로이트 소재 대형 유틸리티 기업 DTE에너지와 6GWh 규모의 ESS(에너지저장장치) 배터리 공급 계약을 체결했다. 계약 규모는 약 16억 달러(약 2조4000억원)이며, 계약 기간은 약 2년이다.\n\n이번 배터리는 오라클의 AI 데이터센터 프로젝트를 포함한 여러 전력망 개발 사업에 활용된다. 오라클은 미시간주 세일라인 타운십에 AI 데이터센터를 구축할 예정이다.\n\nAIDC(AI 데이터센터)는 대규모 서버와 냉각 설비가 24시간 가동돼 전력 사용량이 크고 순간적인 부하 변동도 빈번해 안정적인 전력 공급이 중요하다. ESS는 이러한 대규모 전력 수요를 안정적으로 충당하는 핵심 인프라 역할을 한다.\n\nLG에너지솔루션은 이번 배터리를 주로 미국 미시간주 홀랜드 공장에서 생산할 계획이다. 현재 북미 ESS 생산 거점 5곳을 운영 중이며, 올해 말까지 글로벌 ESS 생산 능력을 60GWh 이상으로 확대하고, 이 중 80% 이상을 북미에 집중 배치할 방침이다.",
+      "published_at": "2026-05-28T08:15:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "메타, AI 서비스 '메타 원' 공개…경쟁사 대비 절반 가격",
+      "url": "https://zdnet.co.kr/view/?no=20260528093636",
+      "body": "메타가 경쟁사 대비 저렴한 가격의 AI 구독 서비스 '메타 원(Meta One)'을 출시했다. 오픈AI와 구글 등 경쟁사보다 절반 수준의 가격으로 책정됐다.\n\n회사는 6월부터 싱가포르, 과테말라, 볼리비아에서 테스트를 시작할 예정이다. 소비자 구독 플랜은 2가지로 '메타 원 플러스(Meta One Plus)'가 월 7.99달러, '메타 원 프리미엄(Meta One Premium)'이 월 19.99달러다. 무료 버전도 제공된다.\n\n구독자는 '더 많은 컴퓨팅 용량'을 통한 정교한 처리 작업에 접근할 수 있다. 프리미엄 플랜은 '복잡한 작업을 위한 강화된 심층 추론 능력'과 함께 이미지·영상 생성 기능이 크게 향상되며, 향후 AR 안경 통합도 계획돼 있다.\n\n메타는 인스타그램 플러스, 페이스북 플러스, 왓츠앱 플러스도 각각 3.99달러, 3.99달러, 2.99달러에 출시했다. 기업 대상 플랜인 '메타 원 에센셜(Meta One Essential)'(14.99달러)과 '메타 원 어드밴스드(Meta One Advanced)'(49.99달러)는 사우디아라비아, 태국에서 테스트가 시작됐다.\n\n이번 다각화는 시장 포화에 대응한 메타의 전략으로, 광고 외 수익원을 확보하면서 모든 유료 서비스를 '메타 원' 브랜드로 통합하는 움직임이다.",
+      "published_at": "2026-05-28T09:38:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SKT, AI 에이전트 서비스 사내 적용…'A.dot Biz Cowork' 베타 운영",
+      "url": "https://zdnet.co.kr/view/?no=20260528090004",
+      "body": "SK텔레콤이 AI 에이전트 서비스 'A.dot Biz Cowork'를 사내에 베타 형태로 도입했다. 이 서비스는 직원들이 AI에게 자신의 업무 방식을 가르치면, AI가 이를 반복 실행해 일상 업무를 자동화해 준다.\n\n주요 기능으로는 자율 실행(AI가 자체 실행 계획을 만들고 코드 작성 및 결과 검증 수행), 문서 처리(수십 개의 사양 문서나 제안서를 읽고 필요 조건을 추출해 비교표 작성), 협업툴 연동(아웃룩, Teams 등 내부 협업 도구와 연결, 추후 점진적 확장 예정) 등이 있다.\n\nSK텔레콤은 또한 AXMS(AX Management System)를 버전 1.5로 업그레이드하고 'AX 챌린지' 이니셔티브를 공식화해 혁신 가속화를 추진하고 있다. 회사는 직원들이 AI 도구를 개발하고 이를 구현해 통합 시스템을 통해 혁신 아이디어를 발굴하는 선순환 구조를 구축하겠다는 목표다.",
+      "published_at": "2026-05-28T09:25:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "[5월27일] 생성 AI 콘텐츠는 어떻게 산업화될 것인가...스포티파이가 주목되는 이유",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210970",
+      "body": "스포티파이가 유니버설 뮤직 그룹(UMG)과 5월 21일 AI 기반 음악 커버·리믹스 제작 기능 도입을 위한 라이선스 계약을 맺었다. 구체적인 서비스 세부 사항과 출시 일정은 공개되지 않았지만, 유료 모델로 운영될 가능성이 높다.\n\n이 파트너십은 중요한 전환점을 나타낸다. 합법적인 AI 생성 콘텐츠의 산업화가 스타트업이 아닌 주요 플랫폼을 통해 마침내 주류로 진입하고 있다.\n\nCEO 알렉스 노르스트롬은 이 접근 방식이 인터넷을 범람하는 비규제 AI 콘텐츠보다 우월한 대안을 제공한다고 강조했다. 그는 회사가 혼란스러운 온라인 AI 생성에 기여하기보다 '합법적이고 통제된 기업'이 되고자 한다고 말했다.\n\n냅스터가 법적 소송 대신 합법적인 스트리밍 플랫폼(아이튠즈, 스포티파이 자체)을 통해 음악 산업을 변화시켰듯, AI 생성 콘텐츠도 금지보다는 합법적인 채널이 필요하다는 역사적 유사점이 있다.\n\nAI 경제의 진정한 승자는 AI 모델 개발자가 아닌 배포 플랫폼일 수 있다. 플랫폼은 사용자 경험, 라이선스 계약, 수익 분배를 통제하기 때문이다. 단, AI 커버는 생산 비용이 거의 없어 플랫폼에 수백만 가지 변형이 쏟아질 수 있어 '합법적인 AI 슬롭' 양적 문제가 도전 과제로 남는다.",
+      "published_at": "2026-05-28T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "모든 휴머노이드의 생애를 추적한다… 디지털 ID 부여하는 중국",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210993",
+      "body": "중국이 모든 휴머노이드 로봇에 디지털 ID를 부여해 전 생애주기를 추적하는 시스템을 구축하고 있다. 중국 당국은 휴머노이드 전 생애주기 관리 서비스 플랫폼(HEIS)을 도입해 로봇 식별, 이력 관리, 안전 모니터링을 통합 관리할 방침이다.\n\n키워드: 디지털 ID, 중국 휴머노이드, 휴머노이드 전 생애주기 관리 서비스 플랫폼, HEIS, 휴머노이드\n\n이 시스템은 휴머노이드 로봇의 생산 단계부터 배포, 운영, 폐기까지 전체 수명 주기에 걸쳐 추적 가능한 디지털 정체성을 부여하는 것을 목표로 한다. 중국 정부의 로봇 산업 정책과 맞물려 AI 물리적 시스템의 규제 기반 마련에 나선 것으로 풀이된다.",
+      "published_at": "2026-05-28T06:55:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}

@@ -446,3 +446,40 @@ type: reference
 - `삼성전자 SK하이닉스 프리마켓 급등 마이크론 2026-05-27` — newspim.com accessible
 - `샘 올트먼 AI 일자리 종말 없다 시드니 커먼웰스 2026-05-27` — etnews.com accessible
 - `NVIDIA Jensen Huang Taiwan headquarters groundbreaking May 27 2026` — pre-event articles only findable (Taipei Times May 26, Focus Taiwan May 25)
+
+## Source notes (2026-05-28 run — single day window)
+- **Single-day KST window (May 28 only)**: Confirmed leanest collection scenario — most semiconductor stories (Samsung Vietnam, SK Hynix/Micron $1T) published May 27 UTC convert to May 27 KST (last issue date) = out-of-window
+- **UTC/KST boundary critical**: Samsung Vietnam chip plant Reuters story = 03:34 UTC May 27 = 12:34 KST May 27 — out-of-window; Lightmatter press release = May 21; Blocks&Files Mn3Sn = 14:21 UTC May 27 = 23:21 KST May 27 — out-of-window
+- **"In-window" articles published May 27 UTC**: Must be AFTER 15:00 UTC May 27 to convert to May 28 KST; all articles before 15:00 UTC are May 27 KST = last issue date
+- **thelec.kr member-only articles**: idxno 56051, 56052, 56053 all "회원전용기사" on TSMC 2nm prison story, Nanya-NVIDIA LPDDR, Tokyo Electron tech leak — skip; record in skipped_paywalled
+- **FuriosaAI-Broadcom partnership**: Major story; The Register (14:00 UTC May 27 = 23:00 KST May 27 ✓ in window), StockTitan (13:00 UTC May 27 = 22:00 KST ✓), DCD (403 on body fetch). ZDNet Korea did NOT publish a separate Korean article on this story.
+- **Snowflake-AWS $6B deal**: The Register (22:20 UTC May 27 = 07:20 KST May 28 ✓); TechCrunch (10:00 PDT May 27 = 17:00 UTC = 02:00 KST May 28 ✓); GeekWire (403); significant AI infrastructure deal; tag semiconductor (AWS Graviton custom chip angle)
+- **thelec.kr Rebellions-KB Financial**: Published May 28 05:48 KST; body accessible and substantive (full article visible); confirmed in-window
+- **aitimes.com**: May 28 articles confirmed at idxno=210970 (07:00 KST) and idxno=210993 (06:55 KST); both fully fetchable
+- **zdnet.co.kr**: 4 May 28 articles found; most relevant: LG ESS (08:15), Meta One (09:38), SKT AI agent (09:25); 보안 article (09:38) is cybersecurity not domain-relevant
+- **HPC Wire** — 403 confirmed; skip
+- **NetworkWorld RSS** — 404 confirmed; skip
+- **Wired RSS** — blocked; skip
+- **SemiAnalysis RSS** — stuck Sep 2025; skip
+- **Spectrum IEEE** — no May 28 content; skip
+- **ServeTheHome** — last article May 27 23:00 UTC = May 28 08:00 KST but it's a PC test bench review — not domain-relevant
+- **Blocks & Files** — last article May 27 14:21 UTC = May 27 23:21 KST (out-of-window); no May 28 articles
+
+## Key observations (2026-05-28 run)
+- **Semiconductor domain truly sparse on May 28 KST**: Almost all big semiconductor stories (Samsung Vietnam, Micron $1T, SK Hynix rally) published May 27 KST; only Snowflake-AWS Graviton article qualifies as semiconductor-adjacent
+- **FuriosaAI-Broadcom partnership** is the biggest competitor story of the day — both English and Korean-language searches confirm; thelec.kr Korean article not found; The Register + StockTitan cover well
+- **Cognition AI $1B raise** ($25B valuation, 12:17 → May 28 01:00 KST) is the AI funding story of the day
+- **Snowflake-AWS Graviton $6B**: Signals shift from GPU-only AI to CPU+GPU hybrid; AWS Graviton gaining major enterprise workloads
+- **Goldman Sachs token demand crisis** (24x agentic increase) is the AI cost/infrastructure anxiety story with high MangoBoost relevance
+- **Italian 200% datacenter tax** (Lombardy agricultural zone) = emerging regulatory trend affecting AI buildout geography
+- **Meta One AI subscription**: Marginal relevance but signals AI monetization shift; included as it shows how major AI providers are pricing inference compute
+
+## Query patterns (2026-05-28 run)
+- `FuriosaAI Broadcom partnership 3rd gen AI chip May 28 2026` — The Register + StockTitan accessible; DCD 403
+- `퓨리오사AI 브로드컴 파트너십 3세대 칩 2026년 5월` — Korean search surfaced no same-day Korean articles; English-only story in Korean press
+- `리벨리온 KB금융 AI 인프라 협력 2026년 5월 28일` — thelec.kr idxno=57256 accessible (thelec.kr articleList showed correct article URL)
+- `Snowflake AWS $6B Graviton CPU deal May 27 2026` — The Register 22:20 UTC; TechCrunch 10:00 PDT; GeekWire 403
+- `Cognition AI Devin $1B funding $25B valuation May 27 2026` — TechCrunch 09:00 PDT = May 28 01:00 KST in-window
+- `Goldman Sachs agentic AI token demand 24x increase cost crisis 2026` — Tom's Hardware 20:52 UTC May 27 = 05:52 KST May 28
+- `Italy Lombardy data center 200% tax agricultural zone May 2026` — Tom's Hardware 16:40 UTC May 27 = 01:40 KST May 28
+- `nextplatform.com RSS May 28 2026 AI datacenter electrician` — only 1 article for May 28 in feed (00:18 BST = 23:18 UTC May 27)

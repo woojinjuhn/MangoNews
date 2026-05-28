@@ -136,6 +136,19 @@ type: reference
 - **Microsoft Maia → Anthropic deal**: Early-stage talks; if closed = first external Maia customer and strategic hyperscaler silicon news
 - **NVIDIA Vera Rubin NVL144 sampling**: Sampling to customers; first shipments Q3 FY2027
 
+## May 26-27 2026 update — competitor developments
+- **NVIDIA Computex/GTC Taipei**: Jensen Huang at Computex 2026 (May 26-June 5); 13 product announcements including Vera Rubin Ultra, Blackwell Ultra; Vera Rubin NVL144 shipping H2 2026; GB300 ramp straining TSMC CoWoS packaging supply chain.
+- **Rebellions**: Operating a 1MW-scale datacenter directly (thelec.kr idxno=56994 May 26); first Korean AI chip startup to run customer-facing inference infrastructure in-house.
+- **FuriosaAI**: RNGD integration confirmed with Yuracle Orda platform (via zdnet.co.kr May 26); Saudi Aramco PoC with AI exports.
+- **Broadcom + Applied Materials EPIC platform**: Applied Materials-Broadcom EPIC packaging platform partnership (May 21); hybrid bonding + InFO; advanced packaging ecosystem.
+- **Samsung Electronics labor**: Union ratification vote started May 22 14:00 KST; result expected May 27; strike threat suspended pending vote.
+
+## May 28 2026 update — competitor developments
+- **FuriosaAI + Broadcom**: Major partnership announcement — FuriosaAI's 3rd-gen TCP architecture paired with Broadcom's 3.5D XDSiP packaging and Ethernet/PCIe interconnect. 2nm TSMC compute die + HBM4/4E memory. Sampling H1 2028. This is the biggest FuriosaAI news since RNGD mass production. Broadcom now has 3 Korean/custom ASIC partnerships (Google TPU, Meta MTIA, FuriosaAI). Custom accelerator IP = 65% of Broadcom Q1 FY2026 revenue. Sources: The Register (14:00 UTC May 27 = 23:00 KST), StockTitan (13:00 UTC May 27 = 22:00 KST).
+- **Rebellions + KB Financial Group**: Strategic AI infrastructure partnership signed May 27; Rebellions to supply AI semiconductor inference infrastructure to KB Financial; addresses financial sector network isolation regulations requiring on-premise deployment; KB has backed Rebellions since Series A. Confirms growing Korean financial sector AI chip adoption. Source: thelec.kr idxno=57256 (05:48 KST May 28).
+- **Moreh, HyperAccel, FriendliAI, Tenstorrent, Napatech, Marvell**: No qualifying May 28 articles found.
+- **NVIDIA**: No standalone May 28 announcement; Computex news flow continuing (see Computex forward calendar).
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform

@@ -1,0 +1,127 @@
+{
+  "filter_date_kst": "2026-05-28",
+  "kept": [
+    {
+      "id": "01_collected.json#9",
+      "title": "AI costs begin to bite as agents may increase token demand by 24 times",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-begin-to-bite-as-agents-may-increase-token-demand-by-24-times-says-goldman-sachs-report-uber-and-microsoft-among-companies-feeling-the-bite-of-tokenized-billing",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Goldman Sachs report on agentic AI token demand exploding 24x, Blackwell project cancellation rate 50%+, hyperscaler 6-year hardware lifecycle — core AI infra cost/efficiency narrative directly relevant to MangoBoost's DPU value prop."
+    },
+    {
+      "id": "01_collected.json#0",
+      "title": "Broadcom's custom ASIC biz adds South Korea's FuriosaAI to its empire",
+      "url": "https://www.theregister.com/ai-ml/2026/05/27/broadcom-lands-furiosaai-as-latest-custom-ai-chip-partner/5246536",
+      "category": "products",
+      "competitor": "Furiosa",
+      "keep_reason": "Tier 1 Korean competitor Furiosa partners with Broadcom for 2nm/HBM4 3rd-gen accelerator using 3.5D XDSiP packaging + Ethernet/PCIe scale-out — direct competitive intel on DPU/SmartNIC adjacent rack-scale inference platform."
+    },
+    {
+      "id": "01_collected.json#1",
+      "title": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era",
+      "url": "https://www.stocktitan.net/news/AVGO/furiosa-ai-partners-with-broadcom-to-build-next-generation-inference-06ivdgtq465f.html",
+      "category": "products",
+      "competitor": "Furiosa",
+      "keep_reason": "Broadcom IR-sourced detail on Furiosa RNGD mass production at TSMC 5nm, Samsung SDS/LG validation, SDK/Virtual ISA, $115M raised — IR-grade primary substance complements The Register angle, dedup not warranted."
+    },
+    {
+      "id": "01_collected.json#2",
+      "title": "리벨리온, KB금융그룹과 AI 인프라 협력",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57256",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "Tier 1 Korean competitor Rebellions enters financial sector with on-prem AI inference infra deal with KB Financial — sovereign AI / 국가성장펀드 첫 직접 투자 기업 angle directly in MangoBoost strategic core."
+    },
+    {
+      "id": "01_collected.json#5",
+      "title": "Snowflake to burn $6B on AWS Graviton CPUs and AI infra",
+      "url": "https://www.theregister.com/off-prem/2026/05/27/snowflake-to-burn-6b-on-aws-graviton-cpus-ai-infra/5247475",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "$6B/5yr Snowflake commitment to AWS Graviton CPUs + AI accelerators signals hyperscaler in-house silicon momentum and CPU-side bottleneck for agentic AI — DPU offload thesis adjacent."
+    },
+    {
+      "id": "01_collected.json#3",
+      "title": "GPUs And RAM Are In Short Supply, But The Real Bottleneck For AI Is Electricians",
+      "url": "https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "TeraWulf Lake Mariner case: AI/HPC datacenter costs $7-10M/MW vs $500K/MW for crypto, 650-800 electricians on-site — concrete AI datacenter power/labor bottleneck data MangoBoost teams need for infra-cost narrative."
+    },
+    {
+      "id": "01_collected.json#9",
+      "title": "LG에너지솔루션, 북미 ESS 2.4조원 공급 계약 체결…오라클 AI 데이터센터 지원",
+      "url": "https://zdnet.co.kr/view/?no=20260528080803",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "LG Energy Solution $1.6B/6GWh ESS supply to DTE for Oracle Michigan AIDC — AI datacenter power supply chain story with Korean industry tie-in, directly tied to AIDC 24/7 부하 변동/안정 전력 challenge."
+    },
+    {
+      "id": "01_collected.json#11",
+      "title": "SKT, AI 에이전트 서비스 사내 적용…'A.dot Biz Cowork' 베타 운영",
+      "url": "https://zdnet.co.kr/view/?no=20260528090004",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "SKT enterprise agentic AI deployment (자율 실행, 문서 처리, Outlook/Teams 연동) + AXMS 1.5 + AX 챌린지 — Korean conglomerate operationalizing AI agents, signals enterprise inference demand."
+    },
+    {
+      "id": "01_collected.json#4",
+      "title": "Italian council sets 200% tax on data center development in agricultural zones",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/italian-council-sets-200-percent-tax-on-data-center-development-in-agricultural-zones-aims-to-spur-the-use-of-old-industrial-areas-instead-and-limit-environmental-impact",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Lombardy 100-200% tax on agricultural/rural DC development — datacenter siting policy headwind in EU mirrors Texas trend, relevant to MangoBoost's global AI infra customers planning expansion."
+    },
+    {
+      "id": "01_collected.json#6",
+      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
+      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Devin maker Cognition $1B/$25B valuation + $492M ARR + 50% MoM enterprise growth — agentic coding demand signal that anchors the broader token-demand story (pairs with Tom's 24x token piece)."
+    },
+    {
+      "id": "01_collected.json#10",
+      "title": "메타, AI 서비스 '메타 원' 공개…경쟁사 대비 절반 가격",
+      "url": "https://zdnet.co.kr/view/?no=20260528093636",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Meta One AI subscription tiered by 'more computing capacity' — consumer AI inference pricing/compute differentiation signal; Korean primary kept, English TechCrunch duplicate dropped."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "01_collected.json#7",
+      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
+      "discard_reason": "duplicate of ZDNet Korea Meta One article (#10); Korean primary retained for newsletter, English version covers same event without added DPU/AI-infra substance."
+    },
+    {
+      "id": "01_collected.json#12",
+      "title": "[5월27일] 생성 AI 콘텐츠는 어떻게 산업화될 것인가...스포티파이가 주목되는 이유",
+      "discard_reason": "off-topic — Spotify-UMG AI music licensing is content/media industry analysis with no AI infrastructure, semiconductor, or datacenter substance relevant to MangoBoost."
+    },
+    {
+      "id": "01_collected.json#13",
+      "title": "모든 휴머노이드의 생애를 추적한다… 디지털 ID 부여하는 중국",
+      "discard_reason": "off-topic + content-thin — China humanoid robot digital ID regulation is robotics policy, no AI compute/inference/DPU angle, body is short and keyword-padded."
+    }
+  ],
+  "summary": {
+    "total_received": 14,
+    "total_kept": 11,
+    "total_discarded": 3,
+    "category_breakdown": {
+      "market": 3,
+      "products": 2,
+      "projects": 2,
+      "challenges": 3,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 3,
+    "by_competitor": {
+      "Furiosa": 2,
+      "Rebellions": 1
+    }
+  }
+}
