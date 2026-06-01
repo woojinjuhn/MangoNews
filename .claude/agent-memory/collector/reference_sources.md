@@ -447,6 +447,15 @@ type: reference
 - `샘 올트먼 AI 일자리 종말 없다 시드니 커먼웰스 2026-05-27` — etnews.com accessible
 - `NVIDIA Jensen Huang Taiwan headquarters groundbreaking May 27 2026` — pre-event articles only findable (Taipei Times May 26, Focus Taiwan May 25)
 
+## Source notes (2026-05-29 to 2026-06-01 run — 4-day weekend+holiday window)
+- **4-day window (Thu May 29 – Mon Jun 1)**: Large window accumulates many articles; GTC Taipei keynote (Jun 1 11 AM Taiwan time = 10 AM KST) is anchor event; most English sources publish Fri/Sat content UTC which converts to KST same-day or +1
+- **Tweaktown** (tweaktown.com) — accessible; covers TSMC, NVIDIA, AMD chip news with explicit URLs; URL pattern /news/NNNNNN/; article /111892/ = TSMC energy efficiency May 31; /111882/ = NVIDIA N1X teaser — check URL carefully before assigning article
+- **bizwatch.co.kr** — Korean business news; /article/market/YYYY/MM/DD/ slug gives publication date; May 28 articles = last issue date = out-of-window; start excluding when slug date == last_issue_date
+- **ajunews.com** — CRITICAL: URL slug date (e.g. /view/20260512HHMMSSXXX) is NOT reliable for publication date; always verify from article body byline; May 12 article with /view/20260512... was May 12 not May 29; body read is mandatory
+- **SiliconAngle** (siliconangle.com) — accessible; covers same datacenter stories as Tom's Hardware; prefer Tom's Hardware as more authoritative when both cover same story; avoid duplicate inclusion
+- **ASUS B300 GPU server ServeTheHome pattern**: STH article returned T00:00:00Z timestamp — no exact time verifiable; dropped per hard gate; STH sometimes returns midnight UTC for new articles; re-fetch later in day or skip
+- **GTC Taipei June 1 keynote**: Articles indexed 10-30 min post-keynote; NVIDIA/Taiwan news in English appears Tom's Hardware, The Register, TechCrunch ~06:00-08:00 KST June 1; Korean outlets (aitimes, zdnet.ko, etnews) follow 08:00-10:00 KST
+
 ## Source notes (2026-05-28 run — single day window)
 - **Single-day KST window (May 28 only)**: Confirmed leanest collection scenario — most semiconductor stories (Samsung Vietnam, SK Hynix/Micron $1T) published May 27 UTC convert to May 27 KST (last issue date) = out-of-window
 - **UTC/KST boundary critical**: Samsung Vietnam chip plant Reuters story = 03:34 UTC May 27 = 12:34 KST May 27 — out-of-window; Lightmatter press release = May 21; Blocks&Files Mn3Sn = 14:21 UTC May 27 = 23:21 KST May 27 — out-of-window

@@ -1,0 +1,321 @@
+{
+  "filter_date_kst": "2026-06-01",
+  "kept": [
+    {
+      "id": 26,
+      "title": "'AI 투게더' 앞세운 컴퓨텍스 2026, 6월 2일 개막",
+      "url": "https://zdnet.co.kr/view/?no=20260531013852",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "COMPUTEX 2026 개막과 엔비디아·인텔·퀄컴·Arm CEO 키노트, SK하이닉스 HBM/DRAM/SSD 전시 등 AI 생태계 전환을 보여주는 핵심 종합 시장 동향."
+    },
+    {
+      "id": 29,
+      "title": "Jensen Huang Korea Visit: NVIDIA CEO to Meet Top Korean Conglomerates on AI, HBM Partnership",
+      "url": "https://en.sedaily.com/finance/2026/05/31/jensen-huang-to-meet-koreas-top-4-conglomerates-on-ai-chips",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "젠슨 황 방한·삼성·SK·현대차·LG 4대 그룹 회동 + HBM4E 공급망 트라이앵글 — NVIDIA·Korean 생태계 핵심 협력 시그널."
+    },
+    {
+      "id": 27,
+      "title": "NVIDIA N1X ARM Laptop Chip Confirmed for Computex: CUDA and RTX 5070 GPU Onboard",
+      "url": "https://www.techtimes.com/articles/317428/20260530/nvidia-arm-laptop-chip-n1x-confirmed-computex-cuda-rtx-5070-gpu-onboard.htm",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA Arm 노트북 SoC N1X 공식 발표 — Arm·Blackwell 통합, MediaTek 공동개발, Windows ARM CUDA 첫 지원, AI on-device 신제품."
+    },
+    {
+      "id": 32,
+      "title": "퓨리오사AI, 국민성장펀드 최종 발탁…8000억 직접투자 승인",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57326",
+      "category": "projects",
+      "competitor": "Furiosa",
+      "keep_reason": "Tier-1 국내 경쟁사 Furiosa의 국민성장펀드 8000억 확정 + HBM4 기반 3세대 칩 개발 자금 투입 — 한국 AI 반도체 정책·경쟁 동향 핵심."
+    },
+    {
+      "id": 1,
+      "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "앤트로픽 650억 달러 시리즈H, 9650억 달러 기업가치 + 삼성·SK하이닉스·마이크론 전략적 인프라 파트너 참여 — 글로벌 AI 인프라 자금/공급망 시그널."
+    },
+    {
+      "id": 2,
+      "title": "IPO 앞둔 앤트로픽, 기업가치 9650억 달러…오픈AI 넘어",
+      "url": "https://zdnet.co.kr/view/?no=20260529101206",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic 라운드의 한국어 1차 보완 — 약 1440조원 환산 단위, 매출배수 등 한국 독자 관점 추가 정보."
+    },
+    {
+      "id": 33,
+      "title": "리벨리온 CEO, 서울포럼 2026서 'K-인퍼런스' 전략 제시",
+      "url": "https://en.sedaily.com/news/2026/05/29/rebellions-ceo-k-inference-strategy",
+      "category": "products",
+      "competitor": "Rebellions",
+      "keep_reason": "Tier-1 국내 경쟁사 Rebellions의 K-Inference 전략·메타·xAI 타깃·TCO 강조 + 국민성장펀드 6000억 납입 — 추론 인프라 시장 경쟁 직접 신호."
+    },
+    {
+      "id": 15,
+      "title": "Samsung Electronics Ships World's First HBM4E 12-High Samples",
+      "url": "https://en.sedaily.com/news/2026/05/29/samsung-unveils-worlds-first-hbm4e-12-high-sample",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "삼성 HBM4E 12-High 세계 최초 샘플 출하, 48GB·3.6 TB/s, SK하이닉스 대비 수 개월 선행 — AI 메모리 공급망 핵심 신호."
+    },
+    {
+      "id": 24,
+      "title": "Installing Out-of-the-Box Ubuntu LTS on Xsight Labs E1 64-Core Arm 800G DPU",
+      "url": "https://www.servethehome.com/installing-out-of-the-box-ubuntu-lts-on-xsight-labs-e1-64-core-arm-800g-dpu",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "800G DPU 신규 경쟁 제품(Xsight Labs E1, BlueField-3/4·Marvell OCTEON 직접 경쟁) — MangoBoost 도메인 직접 인접, 벤더-중립 OS 지원 강조."
+    },
+    {
+      "id": 22,
+      "title": "소프트뱅크, 프랑스에 75조 투자…유럽 AI 데이터센터 허브 구축",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210975",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "유럽 역사상 최대 단일 AI 인프라 투자 €75B — 데이터센터·반도체 공급망 + Stargate 5천억 달러 후속, 글로벌 AI 인프라 자금 흐름."
+    },
+    {
+      "id": 40,
+      "title": "SoftBank €75B France Investment: Macron Signs Europe's Largest AI Infrastructure Deal",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/softbank-commits-eur-75-billion-to-france-ai-infrastructure-in-europe-largest-ai-deal-yet",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "SoftBank/Macron €75B France AI 영문 1차 보완 — 25,000 직접 일자리·5년·원자력 인프라 활용 등 추가 디테일."
+    },
+    {
+      "id": 9,
+      "title": "Amazon Unveils Resilient Network Graphs Data Center Network — Cuts Hardware by 69%, Boosts Throughput by 33%",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/amazon-unveils-resilient-network-graphs-data-center-network-that-cuts-hardware-by-69-percent-and-boosts-throughput-by-33-percent-now-the-default-for-most-aws-workloads",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AWS 데이터센터 네트워크 아키텍처 혁신 — 하드웨어 69% 감소, 전력 40% 감소, AI 인프라 효율/네트워킹 핵심 도전 — DPU 인접 시그널."
+    },
+    {
+      "id": 19,
+      "title": "Dell Technologies Delivers Record Q1 FY2027: AI Server Revenue $16.1B, Up 757% YoY",
+      "url": "https://www.stocktitan.net/news/DELL/dell-technologies-delivers-first-quarter-fiscal-2027-financial-1izlonbdhryh.html",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Dell AI 서버 매출 161억 달러 +757% YoY, FY27 AI 서버 매출 600억 달러 가이던스 — AI 인프라 수요 폭증의 핵심 지표."
+    },
+    {
+      "id": 39,
+      "title": "한국 AI 반도체 생태계 조성 가속…국민성장펀드, AI 2조원 투자 확정",
+      "url": "https://biz.heraldcorp.com/article/10758351",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "국민성장펀드 AI 반도체 누적 2조원 돌파 — 한국 AI 반도체 자립 정책 전략적 프로젝트."
+    },
+    {
+      "id": 4,
+      "title": "ByteDance Developing Custom ARM/RISC-V CPUs to Reduce Dependence on US Chips",
+      "url": "https://www.trendforce.com/news/2026/05/28/bytedance-developing-custom-arm-riscv-cpus-reduce-dependence-us-chips",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "ByteDance 자체 ARM/RISC-V CPU 개발 — 중국 빅테크 in-house 실리콘 트렌드, 데이터센터 CPU·인텔/AMD 의존 탈피, AGI CPU 인접 시그널."
+    },
+    {
+      "id": 21,
+      "title": "Mistral AI Chooses VAST Data for Its AI Data Foundation",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/05/29/mistral-ai-chooses-vast-data-for-its-ai-data-foundation/5248594",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "Mistral 소버린 AI 인프라 + Nvidia GB300 NVL72 + VAST AI OS — 소버린 AI/GPU 클러스터/스토리지 협력 시그널, MangoBoost 전략 코어."
+    },
+    {
+      "id": 36,
+      "title": "NVIDIA Investing $6.5 Billion in Silicon Photonics for AI Data Center Networking",
+      "url": "https://thenextweb.com/news/nvidia-silicon-photonics-investment-ai-data-centers",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA 65억 달러 실리콘 포토닉스 투자 — AI 데이터센터 인터커넥트 병목/네트워킹 핵심 도전, DPU/SmartNIC 직접 인접."
+    },
+    {
+      "id": 38,
+      "title": "TSMC Prioritizes Energy Efficiency in Advanced Packaging as AI Power Demands Surge",
+      "url": "https://www.tweaktown.com/news/111892/tsmc-says-energy-efficiency-has-overtaken-raw-performance-as-the-top-priority-for-ai-chip-customers/index.html",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "TSMC: AI 칩 고객 우선순위가 raw 성능에서 에너지 효율로 전환, A14 노드 30% 전력 절감 — AI 전력/효율 핵심 도전."
+    },
+    {
+      "id": 28,
+      "title": "엔비디아 GTC 타이베이 2026: 젠슨 황, N1X·베라 루빈 발표…블랙웰·베라루빈 수주 1조 달러 전망",
+      "url": "https://zdnet.co.kr/view/?no=20260530000339",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "GTC 타이베이 기조연설 한국어 1차 — 베라 루빈 + N1X + Blackwell 누적 수주 1조 달러 전망, 국내 만찬 회동 디테일 추가."
+    },
+    {
+      "id": 11,
+      "title": "KAIST, LLM 서빙 시뮬레이터 'LLMServingSim 2.0' 공개…추론 인프라 설계 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210985",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "KAIST LLM 서빙 시뮬레이터 — AI 추론 인프라 설계/최적화 도구, 국내 AI 인프라 성능/비용 최적화 협력 기회."
+    },
+    {
+      "id": 34,
+      "title": "삼성·SK하이닉스, 앤트로픽 투자 참여…AI 반도체 공급망 협력 강화",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57310",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "삼성·SK하이닉스 앤트로픽 투자 참여의 공급망 협력 관점 한국어 1차 — HBM·파운드리 직접 공급 기회 분석."
+    },
+    {
+      "id": 17,
+      "title": "DRAM Spot Price Hits Record $20 as AI Demand Surges",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57303",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "DRAM 현물 20달러 사상 최고치 — AI 서버 DDR5 수요 + HBM 전환 따른 일반 DRAM 공급 부족, 메모리 시장 핵심 신호."
+    },
+    {
+      "id": 7,
+      "title": "Google·Meta, TTS 추론 최적화 기술로 실시간 음성 AI 가속",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210949",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "구글/메타 TTS 추론 최적화 3배 가속 — AI 에이전트·실시간 음성 AI 인프라 비용 절감, 추론 최적화 도전."
+    },
+    {
+      "id": 10,
+      "title": "아마존, 베드록 플랫폼에 '그록' 추가 협상 중…주요 모델 다 모은다",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210982",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AWS Bedrock에 xAI Grok 추가 협상 — Trainium 수요/자체 AI 칩 연계, 하이퍼스케일러 AI 모델 마켓플레이스 동향."
+    },
+    {
+      "id": 20,
+      "title": "Data And Storage At The Center Of The AI Stack",
+      "url": "https://www.nextplatform.com/store/2026/05/29/data-and-storage-at-the-center-of-the-ai-stack/5247585",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Dell World 2026: 'GPU를 먹이는' 스토리지·67% AI 워크로드 비클라우드·on-prem 데이터 주권 — AI 스택 스토리지/데이터 흐름 인사이트."
+    },
+    {
+      "id": 23,
+      "title": "NetApp Q4 FY2026 Record Results Driven by AI Storage Demand",
+      "url": "https://www.blocksandfiles.com/vendor-results/2026/05/29/netapp-q4-fy2026-record-results/5247618",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "NetApp AI 스토리지 수요 사상 최대 분기 실적 — AI 인프라 스토리지/데이터 관리 시장 성장 신호."
+    },
+    {
+      "id": 5,
+      "title": "바이트댄스, ARM·RISC-V 기반 자체 CPU 개발…미국 의존 탈피",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210946",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "ByteDance CPU 자체개발 한국어 1차 — 중국 빅테크 in-house 실리콘 트렌드의 한국 독자 관점 보완."
+    },
+    {
+      "id": 18,
+      "title": "검찰, 담합 의혹에 반도체 후공정 소재 업체들 압수수색",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57375",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "삼성·SK하이닉스 납품 본딩와이어/솔더볼 등 후공정 소재 3사 담합 의혹 압수수색 — 한국 반도체 후공정 공급망 동향."
+    },
+    {
+      "id": 13,
+      "title": "화웨이, 반도체 자급자족 역설…외산 장비 여전히 40% 의존",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210980",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "화웨이 반도체 자립 한계 분석 — 미·중 칩 패권 경쟁 + 중국 AI 칩 생산 능력 평가, 글로벌 반도체 지정학."
+    },
+    {
+      "id": 37,
+      "title": "엔비디아, AI 데이터센터 광인터커넥트에 6.5조원 투자",
+      "url": "https://zdnet.co.kr/view/?no=20260530085123",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA 실리콘 포토닉스 65억 달러 한국어 1차 보완 — 약 9조원 환산 단위 추가."
+    },
+    {
+      "id": 12,
+      "title": "오픈소스 모델, 클로즈드 소스 추월 임박…에포크AI '격차 빠르게 좁혀져'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210986",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "오픈소스 모델(라마·미스트랄) GPT-4급 근접·추론 비용 절감 전망 — AI 인프라 민주화/추론 비용 동향."
+    },
+    {
+      "id": 25,
+      "title": "Neocloud, 국내 AI 인프라 시장 공략 가속…클라우드·온프레미스 하이브리드 전략",
+      "url": "https://zdnet.co.kr/view/?no=20260531011000",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "국내 AI 인프라 시장 하이브리드 풀스택 전략 — 데이터 주권·온프레미스 수요 동향, 국내 소버린 AI 공급망 인접."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 3,
+      "title": "앤트로픽 몸값, 오픈AI 추월 … 삼성·하이닉스도 투자 나섰다",
+      "discard_reason": "duplicate of articles 1 (TechCrunch EN) and 2 (ZDNet KR 1차); 동일 사건 3번째 한국어 매체로 추가 정보가 없어 중복."
+    },
+    {
+      "id": 6,
+      "title": "Apple WWDC 2026: On-Device AI Models to Dominate New OS Features",
+      "discard_reason": "off-topic — Apple 소비자 OS/Apple Intelligence 기능 중심으로 DPU·AI 인프라 시그널 부족, 소비자 테크 기대 기사."
+    },
+    {
+      "id": 8,
+      "title": "앤트로픽, 유럽 AI 시장 공략 본격화…영국·독일 거점 확대",
+      "discard_reason": "promotional — 거점 확대 일반 코퍼레이트 뉴스로 인프라·반도체·DPU 시그널 부족; Anthropic 라운드 본 기사로 충분히 커버됨."
+    },
+    {
+      "id": 14,
+      "title": "오픈AI, 챗GPT 광고 소상공인까지 확대…메타·구글에 정면 도전",
+      "discard_reason": "off-topic — ChatGPT 광고 비즈니스 모델 확장, AI 인프라/반도체와 무관한 디지털 광고 시장 뉴스."
+    },
+    {
+      "id": 16,
+      "title": "Samsung Ships Industry-First HBM4E Samples: 3.6 TB/s Bandwidth Beats SK Hynix by Six Months",
+      "discard_reason": "duplicate of article 15 (en.sedaily 1차) — 동일 사건 영문 아울렛 후속, 1차 매체에 비해 추가 디테일 미미."
+    },
+    {
+      "id": 30,
+      "title": "최태원 SK 회장, HBM 동맹 다진다…젠슨 황 재회·깐부회동 시즌2 주목",
+      "discard_reason": "duplicate of article 29 (en.sedaily 1차 Jensen Korea); 동일 만찬·방한 일정으로 추가 정보 미미."
+    },
+    {
+      "id": 31,
+      "title": "글로벌 IT 거물들, 타이베이에 집결…젠슨 황, K기업과 '만찬 회동'",
+      "discard_reason": "duplicate of articles 26/29; COMPUTEX·만찬 동일 사건의 3번째 한국어 매체, 새로운 디테일 없음."
+    },
+    {
+      "id": 35,
+      "title": "삼성전자, 앤트로픽 투자로 파운드리 수주 기회 노린다",
+      "discard_reason": "duplicate of article 34 (thelec 동일 공급망 협력 관점); 파운드리 각도가 약간 다르나 새로운 1차 정보 미미."
+    }
+  ],
+  "summary": {
+    "total_received": 40,
+    "total_kept": 32,
+    "total_discarded": 8,
+    "category_breakdown": {
+      "market": 13,
+      "products": 5,
+      "projects": 4,
+      "challenges": 6,
+      "collaboration": 4
+    },
+    "competitor_kept_total": 8,
+    "by_competitor": {
+      "NVIDIA": 6,
+      "Furiosa": 1,
+      "Rebellions": 1
+    }
+  }
+}

@@ -123,18 +123,32 @@ type: reference
 - **Rebellions, FuriosaAI, FriendliAI, Napatech, Marvell, Tenstorrent**: No standalone May 22 news.
 - **Kioxia**: Record FY2026 results — ¥2.337T revenue (+37%), US ADS listing planned; AI NAND/SSD demand driving growth.
 
-## Forward-looking competitor calendar (as of May 22 2026)
-- **Samsung strike ratification vote**: Voting May 22 14:00 – May 27 10:00 KST; results announced May 27; if rejected, strike may resume
-- **Marvell COMPUTEX 2026 keynote**: June 2; Matt Murphy on AI data center infrastructure
-- **AMD Venice/Helios rack**: H2 2026 launch (EPYC Zen 6 + Instinct MI455X + Pensando DPU); $10B Taiwan ecosystem investment announced
-- **FuriosaAI pre-IPO**: Funding close target mid-June 2026; 2027 IPO
-- **Rebellions KOSPI IPO**: Targeting Q3 2026 (August likely)
-- **Google 8th-gen TPU**: GA planned later in 2026; watch for customer adoption announcements
-- **Tenstorrent acquisition**: Intel/Qualcomm talks ongoing; watch for deal announcement or funding round
-- **SpaceX Starlink IPO (SPCX)**: S-1 filed ~May 21; $1.7T valuation target; $80B raise; Nasdaq
-- **OpenAI IPO**: Confidential S-1 filing imminent; $1T+ valuation target; September 2026 target
-- **Microsoft Maia → Anthropic deal**: Early-stage talks; if closed = first external Maia customer and strategic hyperscaler silicon news
-- **NVIDIA Vera Rubin NVL144 sampling**: Sampling to customers; first shipments Q3 FY2027
+## May 29–Jun 1 2026 update — competitor developments (4-day GTC Taipei window)
+- **NVIDIA GTC Taipei keynote (June 1)**: Jensen Huang revealed N1X chip — NVIDIA's first ARM-based laptop SoC; Windows on ARM + CUDA; 200 TOPS NPU; targets consumer AI PC market. Articles: Tom's Hardware, The Register, TechCrunch. Tag: competitor + AI.
+- **NVIDIA Vera Rubin**: JP Morgan 1조달러 ($1T) procurement forecast for Vera Rubin generation (May 30 KST article); Taiwan partner night (May 29-30 KST articles); NVIDIA market cap $4.5T+ during GTC week.
+- **NVIDIA COMPUTEX presence**: NVIDIA confirmed as major COMPUTEX 2026 player alongside AMD, Marvell; keynote details emerging; BlueField DPU ecosystem articles circulating.
+- **Rebellions**: Seoul AI Forum article (en.sedaily.com May 29 09:07 KST) covering Rebellions' presentation on NPU ecosystem. Tag: competitor. Rebellions + KB Financial May 28 article already published in issue #017 (in published_urls); do not re-collect.
+- **FuriosaAI**: No standalone May 29–Jun 1 articles found (Broadcom partnership from May 28 in prior issue). FuriosaAI Broadcom 3rd-gen chip sampling H1 2028.
+- **Marvell**: COMPUTEX keynote June 2 — out of window for Jun 1 issue. No qualifying May 29–Jun 1 articles found.
+- **Tenstorrent**: No qualifying May 29–Jun 1 articles. Intel/Qualcomm acquisition talks ongoing (Bloomberg May 18 origin).
+- **Napatech**: No qualifying May 29–Jun 1 articles.
+- **HyperAccel, FriendliAI, Moreh**: No qualifying May 29–Jun 1 standalone articles found.
+- **Google (TPU/Axion)**: TPU 8t/8i architecture follow-up articles circulating from I/O; Blackstone JV datacenter construction updates.
+- **AWS (Graviton/Trainium)**: Snowflake $6B Graviton deal (May 28 issue); no new May 29–Jun 1 AWS silicon articles.
+
+## Forward-looking competitor calendar (as of June 1 2026)
+- **Marvell COMPUTEX 2026 keynote**: June 2; Matt Murphy on AI data center infrastructure — articles expected June 2 KST
+- **NVIDIA Vera Rubin NVL144**: Sampling to customers confirmed; first shipments Q3 FY2027; JP Morgan $1T procurement forecast
+- **NVIDIA N1X ARM laptop chip**: Announced June 1 GTC Taipei keynote; Windows on ARM + CUDA; expect follow-up benchmark/OEM articles June 2+
+- **AMD Venice/Helios rack**: H2 2026 launch (EPYC Zen 6 + Instinct MI455X + Pensando DPU); AMD also at COMPUTEX
+- **FuriosaAI pre-IPO**: Funding close target mid-June 2026; Broadcom 3rd-gen chip sampling H1 2028
+- **Rebellions KOSPI IPO**: Targeting Q3 2026 (August likely); KB Financial partnership confirmed
+- **Google 8th-gen TPU**: GA planned later in 2026; Blackstone $25B JV datacenter construction ongoing
+- **Tenstorrent acquisition**: Intel/Qualcomm talks ongoing from May 18; watch for deal announcement or new funding round
+- **Samsung strike**: Ratification vote completed ~May 27; result = passed; 18-day strike averted
+- **OpenAI IPO**: Confidential S-1 imminent; $1T+ valuation target; September 2026
+- **Microsoft Maia → Anthropic deal**: Early-stage talks (The Information May 21); watch for confirmation
+- **FuriosaAI 2027 IPO**: Pre-IPO funding mid-June 2026 close; KOSDAQ listing 2027 target
 
 ## May 26-27 2026 update — competitor developments
 - **NVIDIA Computex/GTC Taipei**: Jensen Huang at Computex 2026 (May 26-June 5); 13 product announcements including Vera Rubin Ultra, Blackwell Ultra; Vera Rubin NVL144 shipping H2 2026; GB300 ramp straining TSMC CoWoS packaging supply chain.
