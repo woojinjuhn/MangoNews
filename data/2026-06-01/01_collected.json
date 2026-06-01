@@ -1,0 +1,429 @@
+{
+  "collection_date_kst": "2026-06-01",
+  "run_summary": {
+    "total": 40,
+    "by_topic": {
+      "ai": 10,
+      "semiconductor": 11,
+      "datacenter": 10,
+      "competitor": 9
+    },
+    "by_competitor": {
+      "NVIDIA": 8,
+      "Furiosa": 1,
+      "Rebellions": 1,
+      "Marvell": 0,
+      "Tenstorrent": 0,
+      "Napatech": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Moreh": 0
+    },
+    "competitor_tagged_total": 10,
+    "sources_consulted": 38,
+    "skipped_paywalled": 2,
+    "notes": "Acceptance window: 2026-05-29 through 2026-06-01 KST (4-day window: Thu-Sun + Mon, as last issue was #017 on 2026-05-28). DCD article bodies return 403 — skipped body fetch, used metadata only. Samsung Newsroom news.samsung.com timed out — used semiconductor.samsung.com and en.sedaily.com for HBM4E coverage. ASUS XA NB3I-E12 B300 GPU server article (STH May 30) dropped: only T00:00:00Z timestamp available, no exact time verifiable. Naver News section/105 JS-rendered — not directly fetched. SemiAnalysis RSS stuck at Sep 2025 — supplemented with search. HPCwire returns 403. NetworkWorld RSS returns 404. Wired RSS blocked. GTC Taipei June 1 keynote (11 AM Taiwan time = 10 AM KST) happened within window; post-keynote coverage articles captured. Marvell COMPUTEX keynote is June 2 — out of window; prior press release (May 26) also out of window. Tier 1 domestic competitors with no qualifying window articles: HyperAccel, FriendliAI, Moreh (no standalone news May 29–Jun 1). Tier 2: Tenstorrent, Napatech — no qualifying articles. Rebellions standalone news (KB Financial May 28) already in published_urls — not re-collected; Rebellions Seoul Forum (en.sedaily May 29) captured. dropped: https://www.servethehome.com/asus-xa-nb3i-e12-review-a-massive-8x-nvidia-b300-gpu-server/ — publication time unverifiable (T00:00:00Z only)."
+  },
+  "articles": [
+    {
+      "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo",
+      "body": "Anthropic closed a Series H round raising $65 billion at a $965 billion post-money valuation. Co-led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, with participation from Blackstone, Brookfield, Fidelity, and institutional investors. Samsung, SK Hynix, and Micron joined as strategic infrastructure partners. The round includes $15 billion from hyperscalers, including Amazon's previously announced $5 billion commitment. The company reported crossing a $47 billion annual run-rate revenue in May 2026 and expects a 130% revenue surge to reach first operating profit. Anthropic simultaneously released Claude Opus 4.8 featuring improved agentic capabilities and coding performance. This fundraise positions Anthropic ahead of its anticipated IPO, following OpenAI's $122 billion Series round. At $965 billion post-money, Anthropic surpasses OpenAI's $852 billion valuation from March. The round features 'a 130% revenue surge to bring it to its first operating profit.' Lead investor commitments signal strong conviction in Anthropic's constitutional AI approach and enterprise Claude adoption. Samsung, SK Hynix, and Micron participation reflects the semiconductor industry's strategic interest in AI compute infrastructure. Amazon's $5B commitment ties into its multi-year deal for AWS compute.",
+      "published_at": "2026-05-29T03:52:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "IPO 앞둔 앤트로픽, 기업가치 9650억 달러…오픈AI 넘어",
+      "url": "https://zdnet.co.kr/view/?no=20260529101206",
+      "body": "앤트로픽은 최근 시리즈H 투자 라운드에서 650억 달러를 조달했으며, 투자 후 기업가치는 9650억 달러로 평가되었다. 기업가치: 9650억 달러(약 1440조원). 3개월간 약 2.5배 성장(2월 평가액 3800억 달러 기준). 연 환산 매출액: 470억 달러 돌파. 기업가치 대비 매출 배수: 약 20배. 오픈AI의 기업가치 8520억 달러(2026년 3월)를 초과했으나, 두 회사 모두 연내 상장을 추진 중이어서 상장 후 기업가치 역전 가능성도 있다. 삼성전자, SK하이닉스, 마이크론 등 세계 3대 메모리 반도체 제조사가 '전략적 인프라 파트너'로 참여했으며, 이는 단순 재무 투자가 아닌 공급망 차원의 협력이다. 앤트로픽은 클로드 오퍼스4.8을 공개했으며, '클로드 미토스'는 수주 내 출시 예정이다.",
+      "published_at": "2026-05-29T10:13:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽 몸값, 오픈AI 추월 … 삼성·하이닉스도 투자 나섰다",
+      "url": "https://www.newdaily.co.kr/site/data/html/2026/05/29/2026052900037.html",
+      "body": "앤트로픽이 650억 달러 시리즈H 투자를 유치하며 기업가치 9650억 달러를 기록, 오픈AI를 제치고 세계 최고 가치 비상장 AI 기업에 올랐다. 이번 투자에는 삼성전자, SK하이닉스, 마이크론이 전략적 인프라 파트너로 참여해 메모리·저장장치·로직 칩 공급망과의 연결고리를 강화했다. 앤트로픽 측은 '삼성전자, SK하이닉스, 마이크론의 기술은 전 세계 메모리, 저장장치, 로직 칩 공급망의 핵심 축을 담당하고 있다'며 이들과의 긴밀한 협력을 강조했다. 이번 투자 명단에는 블랙스톤, 브룩필드, 피델리티, 제너럴 카탈리스트, 인사이트 파트너스, 제인 스트리트, 라이트스피드, 테마섹, T. 로우 프라이스 등 글로벌 주요 기관투자자들이 대거 포함됐다. 앤트로픽은 올해 5월 기준 연간 반복 매출(ARR)이 470억 달러를 넘어섰다고 밝혔다.",
+      "published_at": "2026-05-29T08:37:00+09:00",
+      "source": "뉴데일리",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "ByteDance Developing Custom ARM/RISC-V CPUs to Reduce Dependence on US Chips",
+      "url": "https://www.trendforce.com/news/2026/05/28/bytedance-developing-custom-arm-riscv-cpus-reduce-dependence-us-chips",
+      "body": "ByteDance is developing custom ARM and RISC-V based CPUs to reduce its reliance on US-made processors, according to sources familiar with the matter. The Chinese tech giant is working on in-house server chips designed to power its data centers, including those running TikTok and its AI services. The initiative is part of a broader trend among Chinese tech companies to develop domestic chip capabilities amid ongoing US export restrictions. ByteDance's custom CPU development mirrors strategies adopted by Alibaba, Baidu, and Tencent, which have all launched server chip programs. The ARM-based chip is designed for general computing workloads while the RISC-V variant targets more specialized inference and edge applications. Mass production timelines remain unclear, but development is reportedly at an advanced stage. The move signals a longer-term strategy to diversify away from Intel and AMD server processors.",
+      "published_at": "2026-05-29T09:00:00+09:00",
+      "source": "TrendForce",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "바이트댄스, ARM·RISC-V 기반 자체 CPU 개발…미국 의존 탈피",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210946",
+      "body": "바이트댄스가 미국산 반도체 의존도를 줄이기 위해 ARM과 RISC-V 기반의 자체 서버용 CPU를 개발 중인 것으로 알려졌다. 틱톡과 AI 서비스를 구동하는 데이터센터에 활용할 인하우스 칩 개발이 진행 중이다. 이번 움직임은 알리바바, 바이두, 텐센트 등 중국 주요 테크 기업들이 잇따라 서버 칩 개발에 나선 흐름과 맥을 같이한다. 미국의 수출 규제가 강화되는 상황에서 인텔·AMD 서버 프로세서 의존에서 벗어나려는 중장기 전략으로 풀이된다.",
+      "published_at": "2026-05-29T17:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Apple WWDC 2026: On-Device AI Models to Dominate New OS Features",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210948",
+      "body": "Apple's upcoming WWDC 2026 is expected to center on significant on-device AI capabilities across iOS, iPadOS, and macOS. The company is reportedly preparing a suite of edge AI features powered by its Apple Intelligence system, with stronger privacy protections and local processing. New neural engine optimizations in the A-series and M-series chips will enable larger on-device models without cloud connectivity. Third-party app integration through expanded APIs will allow developers to leverage Apple's on-device LLM capabilities. The focus on edge inference reflects Apple's differentiated strategy from cloud-centric AI providers and positions the company to compete on privacy and latency.",
+      "published_at": "2026-05-29T17:19:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Google·Meta, TTS 추론 최적화 기술로 실시간 음성 AI 가속",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210949",
+      "body": "구글과 메타가 텍스트-음성 변환(TTS) 추론 최적화 기술을 공개하며 실시간 음성 AI 개발을 가속화하고 있다. 구글의 AutoTTS는 기존 대비 추론 속도를 3배 이상 개선했으며, 메타도 유사한 경량화 접근법을 채택해 모바일 기기에서도 고품질 TTS를 구현할 수 있도록 했다. 이 기술들은 AI 에이전트, 실시간 번역, 음성 인터페이스 등 다양한 응용 분야에서 인프라 비용을 대폭 절감할 것으로 기대된다. 추론 최적화가 AI 서비스 확산의 핵심 병목을 해소하는 방향으로 발전하고 있음을 보여주는 사례다.",
+      "published_at": "2026-05-29T17:27:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "앤트로픽, 유럽 AI 시장 공략 본격화…영국·독일 거점 확대",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210947",
+      "body": "앤트로픽이 유럽 AI 시장 공략을 본격화한다. 영국과 독일에 거점을 확대하며 유럽 내 클로드 서비스 제공 역량을 강화할 방침이다. 이번 확장은 앤트로픽이 시리즈H에서 650억 달러를 유치한 직후 발표됐으며, 유럽 AI 규제 환경에 맞춘 데이터 주권 및 프라이버시 컴플라이언스를 강조한다. EU AI Act 시행을 앞두고 현지 인프라와 팀을 구축해 기업 고객의 요구에 대응하겠다는 전략이다.",
+      "published_at": "2026-05-29T17:04:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Amazon Unveils Resilient Network Graphs Data Center Network — Cuts Hardware by 69%, Boosts Throughput by 33%, Now Default for Most AWS Workloads",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/amazon-unveils-resilient-network-graphs-data-center-network-that-cuts-hardware-by-69-percent-and-boosts-throughput-by-33-percent-now-the-default-for-most-aws-workloads",
+      "body": "Amazon has made Resilient Network Graphs (RNG) the default network architecture for most AWS workloads, replacing hierarchical switching stacks that defined data center design for decades. RNG uses quasi-random graphs to create a flat network where data can take many different paths between any two points, replacing the traditional hierarchical fat-tree topology. The result includes 69% less networking hardware, 33% higher throughput, and 40% lower power consumption. Cost savings range between 9% and 45% compared to traditional fat-tree designs. The architecture relies on a custom distributed routing protocol called Spraypoint that spreads traffic efficiently across the randomized mesh, and passive optical devices called ShuffleBoxes that handle physical connections without power-hungry electronics. AWS has been quietly deploying the design in its data centers since last year and confirms it is now the default data center network for most AWS workloads. The technology is operational across data centers in Ireland, Germany, and Spain. Amazon plans approximately $200 billion in data center and AI infrastructure investment in 2026. The architecture represents the first large-scale deployment of a flat network based on random graph theory.",
+      "published_at": "2026-05-29T06:05:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "아마존, 베드록 플랫폼에 '그록' 추가 협상 중…주요 모델 다 모은다",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210982",
+      "body": "아마존이 엑스AI의 그록(Grok) 모델을 아마존 베드록(Amazon Bedrock) 플랫폼에 추가하기 위한 협상을 진행 중인 것으로 알려졌다. 성사될 경우 베드록은 오픈AI, 앤트로픽, 구글, 메타, 미스트랄에 이어 그록까지 주요 AI 모델을 모두 포함하는 원스톱 AI 마켓플레이스로 자리매김하게 된다. 아마존은 AWS 인프라 위에서 다양한 AI 모델을 호스팅함으로써 클라우드 고객의 AI 도입을 촉진하는 전략을 강화하고 있다. 그록의 베드록 합류는 트레이니움(Trainium) 등 아마존 자체 AI 칩 수요와도 연계될 수 있어 주목된다.",
+      "published_at": "2026-05-31T12:26:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "KAIST, LLM 서빙 시뮬레이터 'LLMServingSim 2.0' 공개…추론 인프라 설계 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210985",
+      "body": "KAIST 연구팀이 대규모 언어모델(LLM) 서빙 인프라 설계를 지원하는 오픈소스 시뮬레이터 'LLMServingSim 2.0'을 공개했다. 이 도구는 다양한 하드웨어 구성과 배치 전략에 따른 LLM 추론 성능을 사전 예측할 수 있어, 실제 장비 투자 전 최적 인프라 구성을 도출하는 데 유용하다. 기업과 연구기관이 AI 추론 서버 구성, 배치 정책, 메모리 관리 전략을 시뮬레이션할 수 있도록 설계됐다. AI 서비스 확산에 따라 추론 인프라 최적화 수요가 높아지는 시점에 공개돼 주목받고 있다.",
+      "published_at": "2026-05-31T19:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "오픈소스 모델, 클로즈드 소스 추월 임박…에포크AI '격차 빠르게 좁혀져'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210986",
+      "body": "AI 연구기관 에포크AI(Epoch AI)는 오픈소스 AI 모델과 클로즈드 소스 모델 간의 성능 격차가 빠르게 줄어들고 있다고 분석했다. 에포크AI는 메타의 라마(LLaMA) 시리즈와 미스트랄 등 오픈소스 모델들이 벤치마크 기준으로 GPT-4급 성능에 근접하고 있으며, 향후 1~2년 내 역전도 가능하다고 전망했다. 오픈소스 생태계의 빠른 성장은 AI 인프라 민주화와 함께 추론 비용 절감에 기여할 것으로 기대된다.",
+      "published_at": "2026-05-31T20:12:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "화웨이, 반도체 자급자족 역설…외산 장비 여전히 40% 의존",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210980",
+      "body": "미국의 수출 규제에 맞서 반도체 자립을 추진해온 화웨이가 여전히 외산 장비에 40% 의존하고 있다는 분석이 나왔다. 화웨이의 기린(Kirin) 칩 생산에 핵심적인 첨단 공정 장비 일부를 여전히 해외에서 조달하고 있으며, 완전한 자급자족까지는 상당한 시간이 필요하다는 평가다. 미국의 제재에도 불구하고 화웨이가 AI 칩과 스마트폰 칩을 생산하고 있지만, 고성능 공정의 핵심 장비 국산화는 여전히 난제로 남아 있다.",
+      "published_at": "2026-05-31T09:59:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "오픈AI, 챗GPT 광고 소상공인까지 확대…메타·구글에 정면 도전",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210960",
+      "body": "오픈AI가 챗GPT 광고 서비스를 소상공인까지 확대하며 메타·구글의 디지털 광고 시장에 도전장을 던졌다. 자체 서비스 플랫폼을 통해 전환 중심 광고 기능을 선보이고, 소규모 사업자도 이용할 수 있는 셀프서비스형 광고 플랫폼을 출시한다. 오픈AI의 광고 사업 확대는 AI 서비스 수익화의 새로운 방향으로 주목받고 있으며, ChatGPT의 방대한 사용자 기반을 활용해 기존 광고 강자들과의 경쟁에 나서는 전략이다.",
+      "published_at": "2026-06-01T09:23:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Electronics Ships World's First HBM4E 12-High Samples",
+      "url": "https://en.sedaily.com/news/2026/05/29/samsung-unveils-worlds-first-hbm4e-12-high-sample",
+      "body": "Samsung Electronics announced it has begun shipping the industry's first 12-layer HBM4E samples to major global customers. The 12-layer HBM4E supports per-pin speeds of 14 to 16 gigabits per second and delivers up to 3.6 TB/s bandwidth per stack. The 48 GB capacity represents more than 30% increase from the previous generation. The HBM4E includes Samsung's 6th-generation 10-nanometer-class DRAM process (1c) and Samsung Foundry's 4nm logic base die. Advanced low-power design technologies and optimized packaging structures improved energy efficiency by 16% and thermal resistance characteristics by more than 14% compared to the previous generation. The announcement came only three months after Samsung started mass production of HBM4. SK Hynix's own guidance placed its HBM4E sample shipments in the second half of 2026, with mass production targeting 2027 — placing Samsung at least several months ahead in the qualification race.",
+      "published_at": "2026-05-29T17:41:00+09:00",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Ships Industry-First HBM4E Samples: 3.6 TB/s Bandwidth Beats SK Hynix by Six Months",
+      "url": "https://www.techtimes.com/articles/317400/20260530/samsung-ships-industry-first-hbm4e-samples-36-tb-s-bandwidth-beats-sk-hynix-six-months.htm",
+      "body": "Samsung has begun shipping samples of its HBM4E memory chips, positioning itself ahead of competitors in the AI accelerator supply race. The new chips deliver 3.6 TB/s bandwidth and operate at 14-16 Gbps, representing over 20% performance gains compared to HBM4. Key specifications include: 48 GB per 12-layer stack (30% more capacity than HBM4), 16% improved energy efficiency, 14% better thermal resistance. Samsung's Vice President stated: 'Following the successful mass production of HBM4, Samsung has once again demonstrated its distinct technological edge with HBM4E.' SK Hynix, which commands 57% of the HBM market, had targeted HBM4E samples for late 2026 — placing Samsung several months ahead. Neither SK Hynix nor Micron had publicly announced HBM4E deliveries as of publication. Mass production timing remains tied to customer qualification schedules, primarily Nvidia and other hyperscale providers.",
+      "published_at": "2026-05-31T05:43:00+09:00",
+      "source": "TechTimes",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "DRAM Spot Price Hits Record $20 as AI Demand Surges",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57303",
+      "body": "DRAM 현물 가격이 개당 20달러를 돌파하며 사상 최고치를 경신했다. AI 서버 수요 폭증과 HBM 생산 증가에 따른 일반 DRAM 공급 감소가 맞물리며 가격이 급등했다. DDR5 규격을 중심으로 한 서버 DRAM 수요는 하이퍼스케일러들의 AI 인프라 투자 확대에 따라 지속적으로 증가하고 있다. 시장에서는 하반기에도 공급 부족 기조가 이어질 것으로 전망하고 있다.",
+      "published_at": "2026-05-29T17:56:00+09:00",
+      "source": "디일렉 (The Elec)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "검찰, 담합 의혹에 반도체 후공정 소재 업체들 압수수색",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57375",
+      "body": "서울중앙지검 범죄수익환수부(소정수 부장검사)는 29일 공정거래법 위반(담합) 혐의로 엠케이전자, 엘티메탈, 덕산하이메탈 등 반도체 소재·부품·장비(소부장) 업체 3곳에 대해 압수수색을 진행했다. 이들 업체는 SK하이닉스, 삼성전자에 납품되는 반도체 후공정 핵심 소재의 납품 가격과 공급 물량 등을 사전에 조율한 혐의를 받고 있다. 엠케이전자는 본딩 와이어, 솔더볼, 솔더 페이스트를 제조하고, 덕산하이메탈은 솔더볼·솔더 페이스트를, LG그룹 계열사인 엘티메탈은 본딩 와이어, 솔더볼, 솔더 페이스트를 생산한다. MK전자는 '수사에 투명하고 성실하게 임하겠다'고 밝혔다.",
+      "published_at": "2026-05-29T17:05:00+09:00",
+      "source": "디일렉 (The Elec)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Dell Technologies Delivers Record Q1 FY2027: AI Server Revenue $16.1B, Up 757% YoY",
+      "url": "https://www.stocktitan.net/news/DELL/dell-technologies-delivers-first-quarter-fiscal-2027-financial-1izlonbdhryh.html",
+      "body": "Dell Technologies delivered exceptional first-quarter fiscal 2027 results driven by surging demand for AI infrastructure. Record revenue of $43.8 billion, up 88% year over year. Record diluted earnings per share of $5.24. The standout performer was the Infrastructure Solutions Group, which generated $16.1 billion in AI-optimized server revenue — a remarkable 757% increase year-over-year. Dell booked $24.4 billion in AI orders during the quarter alone. Operating cash flow reached a record $4.1 billion for the first quarter, while adjusted free cash flow increased 42% to $3.165 billion. The company returned $2.1 billion to shareholders through buybacks and dividends. Dell raised full-year guidance substantially, now expecting approximately $167 billion in revenue (up nearly 50% year-over-year). Management increased AI server revenue expectations to roughly $60 billion for fiscal 2027 — a 144% increase from the prior year. Dell exited the quarter with a record $51.3 billion backlog, demonstrating strong future revenue visibility. CFO David Kennedy stated the company 'entered FY27 with clear momentum.'",
+      "published_at": "2026-05-29T06:05:00+09:00",
+      "source": "StockTitan",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Data And Storage At The Center Of The AI Stack",
+      "url": "https://www.nextplatform.com/store/2026/05/29/data-and-storage-at-the-center-of-the-ai-stack/5247585",
+      "body": "Based on insights from Dell Technologies World 2026 in Las Vegas, storage infrastructure has become central to AI deployment. Dell executives emphasize that 'storage is what keeps the GPUs fed,' and with massive GPU investments, maintaining consistent data flow is essential. Multiple storage tiers — clustered, near-cluster, and in data lakes — are necessary for optimal performance. Organizations can differentiate themselves by applying advanced AI models to their proprietary on-premises data. One executive noted that 'GPUs without data are just hardware burning electricity,' highlighting that actual business value comes from processing meaningful information. A Dell survey indicates 67% of AI workloads operate outside cloud environments, driven by data sovereignty and security concerns. Dell introduced PowerStore Elite storage systems offering three times the performance of predecessors and improved data reduction ratios. The company also enhanced its AI Data Platform with better orchestration and search capabilities for unstructured data discovery. Dell's approach emphasizes storage-agnostic orchestration, allowing integration of data across multiple platforms — cloud, on-premises databases, and various storage systems — for comprehensive data visibility. Dell introduced the Lightning File System, a parallel file system with performance of as much as 150 GB/s per rack, and Dell Exascale Storage, a 3-in-1 storage system for PowerEdge servers.",
+      "published_at": "2026-05-29T21:43:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Mistral AI Chooses VAST Data for Its AI Data Foundation",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/05/29/mistral-ai-chooses-vast-data-for-its-ai-data-foundation/5248594",
+      "body": "French AI company Mistral AI has selected VAST Data's storage and AI Operating System software to support its sovereign AI infrastructure. The partnership will power Mistral's GPU cloud services using Nvidia GB300 NVL72 systems with all-flash storage. Mistral Compute operates as an Nvidia Cloud Partner, deploying VAST's platform across two planned European data centers: France (Eclairon facility, Paris/Bruyères-le-Châtel, targeting June 2026 launch with ~13,800 GPUs and 44 MW capacity) and Sweden (Borlänge with EcoDataCenter partnership, expected 2027). The company aims for 200 MW of European capacity by end of 2027, including a potential larger Paris campus joint venture with Nvidia, MGX, and Bpifrance. VAST's platform manages data access, governance, and performance across training and inference operations. The relationship involves two components: infrastructure services for Mistral Compute's customers and internal support for Mistral's own AI model development and products like Voxtral and Ministral.",
+      "published_at": "2026-05-30T01:29:00+09:00",
+      "source": "Blocks and Files",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "소프트뱅크, 프랑스에 75조 투자…유럽 AI 데이터센터 허브 구축",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210975",
+      "body": "소프트뱅크가 프랑스에 75조원(€75B) 규모의 AI 인프라 투자를 발표했다. 에마뉘엘 마크롱 프랑스 대통령과의 회담에서 마사요시 손 회장이 직접 서명한 이번 투자는 데이터센터, AI 연구시설, 반도체 공급망 구축에 활용된다. 유럽 역사상 단일 AI 인프라 투자로는 최대 규모로, 프랑스를 유럽 AI 허브로 육성하겠다는 전략이다. 미국 스타게이트에 5,000억 달러를 약속한 데 이어 소프트뱅크가 유럽 시장에서도 대규모 AI 인프라 투자에 나선 것이다.",
+      "published_at": "2026-05-31T10:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "NetApp Q4 FY2026 Record Results Driven by AI Storage Demand",
+      "url": "https://www.blocksandfiles.com/vendor-results/2026/05/29/netapp-q4-fy2026-record-results/5247618",
+      "body": "NetApp reported record fourth-quarter fiscal 2026 results driven by strong AI storage demand. The company's all-flash array business achieved record revenue as enterprises increasingly deploy flash-based storage for AI training and inference workloads. Hybrid cloud storage solutions saw strong adoption, with cloud-connected storage revenue growing significantly year-over-year. The company highlighted that AI data management capabilities, including its ONTAP platform's integration with vector databases and LLM pipelines, drove deals with hyperscalers and enterprise customers. NetApp raised its fiscal 2027 guidance citing sustained AI storage momentum. The results reflect the broader trend of storage becoming a critical and growing component of AI infrastructure spend.",
+      "published_at": "2026-05-29T22:47:00+09:00",
+      "source": "Blocks and Files",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Installing Out-of-the-Box Ubuntu LTS on Xsight Labs E1 64-Core Arm 800G DPU",
+      "url": "https://www.servethehome.com/installing-out-of-the-box-ubuntu-lts-on-xsight-labs-e1-64-core-arm-800g-dpu",
+      "body": "ServeTheHome successfully installed vanilla Ubuntu LTS directly onto the Xsight Labs E1 64-core ARM DPU with 800Gbps networking capability, demonstrating vendor-neutral OS support for the next-generation DPU. The E1 features 64 ARM Neoverse-N2 cores, DDR5-5200 memory, PCIe Gen5 lanes, and dual 400G network interfaces. The installation used minimal hardware: a USB flash drive with Ubuntu 24.04 LTS arm64, a basic Realtek 1GbE NIC, and a USB-to-serial console connection at 115200 baud. They navigated the BIOS via serial connection and completed a standard Ubuntu installation without requiring custom drivers or specialized vendor builds. Geekbench 5 comparisons showed substantial improvements over NVIDIA BlueField-2 DPUs. The system subsequently upgraded successfully to Ubuntu 26.04 LTS without complications. The article notes that many other Linux-running DPUs cannot support standard vendor-neutral OS installation. The E1 was validated with SONiC-DASH Hero 800G test, validating 800Gbps of traffic with 120 million connections and 12 million connections per second with zero dropped packets. Supporting standard operating systems extends hardware utility and independence from manufacturer support lifecycles. The E1 is a direct competitor to NVIDIA BlueField-3/4 and Marvell OCTEON DPUs in the 800G segment.",
+      "published_at": "2026-05-29T23:33:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "Neocloud, 국내 AI 인프라 시장 공략 가속…클라우드·온프레미스 하이브리드 전략",
+      "url": "https://zdnet.co.kr/view/?no=20260531011000",
+      "body": "네오클라우드가 국내 AI 인프라 시장 공략을 본격화하고 있다. 클라우드와 온프레미스를 결합한 하이브리드 AI 인프라 전략을 내세우며, 국내 기업들의 AI 도입 수요에 대응한다. AI 서버, 스토리지, 네트워킹을 통합 제공하는 풀스택 솔루션을 강점으로 내세우고 있으며, 특히 데이터 주권 이슈가 부각되면서 온프레미스 수요가 늘고 있는 상황을 겨냥하고 있다.",
+      "published_at": "2026-05-31T11:00:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "'AI 투게더' 앞세운 컴퓨텍스 2026, 6월 2일 개막",
+      "url": "https://zdnet.co.kr/view/?no=20260531013852",
+      "body": "아시아 최대 정보기술 박람회 컴퓨텍스 2026이 6월 2일 개막한다. 행사 테마는 'AI TOGETHER'로, PC 중심에서 AI 생태계 중심으로의 산업 전환을 반영한다. 주요 CEO 키노트로는 젠슨 황(엔비디아), 크리스티아노 아몬(퀄컴), 르네 하스(Arm), 립부 탄(인텔)이 나선다. 엔비디아는 미디어텍과 공동 개발한 Arm 기반 윈도 PC 프로세서 N1X 공식 발표 예정이다. SK하이닉스는 데이터센터용 HBM, DRAM, SSD를 전시한다. 삼성디스플레이는 31.5인치 QD-OLED 4K 360Hz 패널을 공개한다. 한미반도체가 처음으로 전시회에 참가한다. 컴퓨텍스 신설 'AI 로보틱스 존'에서는 자율주행, 산업용 로봇, 휴머노이드 기술이 전시된다.",
+      "published_at": "2026-05-31T09:30:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA N1X ARM Laptop Chip Confirmed for Computex: CUDA and RTX 5070 GPU Onboard",
+      "url": "https://www.techtimes.com/articles/317428/20260530/nvidia-arm-laptop-chip-n1x-confirmed-computex-cuda-rtx-5070-gpu-onboard.htm",
+      "body": "Nvidia is preparing to unveil its first ARM-based laptop processor, the N1X, at GTC Taipei on June 1, 2026. CEO Jensen Huang will deliver a keynote, with coordinated announcements from Nvidia, Microsoft, and Arm hinting at 'a new era of PC.' The N1X pairs a 20-core ARM CPU with a Blackwell GPU containing 6,144 CUDA cores equivalent to a desktop RTX 5070. This marks the first time full CUDA support comes to Windows ARM laptops, enabling developers to run AI models locally without cloud infrastructure. Dell, Lenovo, Asus, and MSI are preparing launch models expected before the 2026 holiday season. The chip delivers roughly 31 TFLOPs of FP32 performance and 1,000 TOPS at NVFP4 precision, supporting AI inference tasks up to 200 billion parameters. Pricing estimates range from $1,000–$1,500 for consumer variants. The N1X is co-developed with MediaTek on TSMC 3nm process.",
+      "published_at": "2026-05-30T21:22:00+09:00",
+      "source": "TechTimes",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아 GTC 타이베이 2026: 젠슨 황, N1X·베라 루빈 발표…블랙웰·베라루빈 수주 1조 달러 전망",
+      "url": "https://zdnet.co.kr/view/?no=20260530000339",
+      "body": "엔비디아 젠슨 황 CEO가 6월 1일 오전 11시(대만 시각) GTC 타이베이 2026 기조연설에서 Arm 노트북칩 N1X와 차세대 AI 플랫폼 베라 루빈을 공식 발표했다. 황 CEO는 블랙웰과 베라 루빈 합산 2025~2027년 누적 수주 예상액을 '최소 1조 달러'로 상향 제시했다고 밝혔다. N1X는 20코어 Arm CPU와 블랙웰 아키텍처 GPU(CUDA 6,144개)를 탑재한 SoC로, 미디어텍과 공동 개발됐다. 엔비디아 파트너스 행사에서는 삼성전자, SK하이닉스, 현대차, LG전자, 두산, 네이버 등 국내 주요 기업 경영진과의 만찬 회동이 예정됐다. 젠슨 황 CEO는 방한 일정도 가져 6월 5일께 서울을 방문할 예정이다.",
+      "published_at": "2026-05-30T10:22:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Jensen Huang Korea Visit: NVIDIA CEO to Meet Top Korean Conglomerates on AI, HBM Partnership",
+      "url": "https://en.sedaily.com/finance/2026/05/31/jensen-huang-to-meet-koreas-top-4-conglomerates-on-ai-chips",
+      "body": "NVIDIA CEO Jensen Huang will meet executives from Samsung, SK, Hyundai Motor, and LG at 'Korea Partner Night' during GTC and Computex Taipei 2026, expanding AI chip and robotics alliances. The event is held on June 1–2 in Taipei, Taiwan. A meeting between Huang and SK Chairman Choi Tae-won after the GTC opening on June 1 is drawing keen attention. Chairman Choi is expected to attend Huang's opening keynote and meet to strengthen an AI chip triangle alliance that includes TSMC. After Computex concludes, Huang plans to visit Korea around June 5 to meet again with Hyundai Motor Group Executive Chairman Euisun Chung, LG Group Chairman Kwang-mo Koo, and Naver Chairman Lee Hae-jin to expand AI alliances spanning robotics, autonomous vehicles, and manufacturing. Samsung CTO Song Jae-hyuk will host a briefing on next-generation memory technologies, seeking to capture demand for HBM4E. Samsung shipped the world's first HBM4E samples on May 29.",
+      "published_at": "2026-05-31T17:45:00+09:00",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "최태원 SK 회장, HBM 동맹 다진다…젠슨 황 재회·깐부회동 시즌2 주목",
+      "url": "https://www.fnnews.com/news/202606010500156023",
+      "body": "최태원 SK그룹 회장이 6월 1일 대만 타이베이에서 열리는 엔비디아 개발자 행사 'GTC 타이베이 2026'에 참석해 젠슨 황 엔비디아 CEO와 만남을 가졌다. 올해 2월 실리콘밸리 치맥 회동, 3월 GTC 참석에 이어 세 번째 만남이다. 이번 만남에서는 HBM4 공급, AI 인프라 확대, 차세대 메모리 협력 논의가 이어졌다. SK하이닉스는 엔비디아 주력 GPU 블랙웰·베라 루빈 시스템에 HBM을 공급하며 AI 반도체 공급망의 핵심 파트너로 자리매김했다. 황 CEO는 방한 일정도 가져 6월 5일께 서울을 방문, 최 회장을 비롯해 현대차 정의선 회장, LG그룹 구광모 회장, 네이버 이해진 의장과의 '2차 깐부 회동'이 예상된다.",
+      "published_at": "2026-06-01T05:00:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "글로벌 IT 거물들, 타이베이에 집결…젠슨 황, K기업과 '만찬 회동'",
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01636726645454496",
+      "body": "아시아 최대 정보기술 박람회인 컴퓨텍스 2026이 6월 2일 개막을 앞두고 글로벌 IT 거물들이 대만 타이베이에 집결하고 있다. 젠슨 황 엔비디아 CEO는 6월 1일 기조연설을 통해 '차세대 AI 칩과 AI 인프라 전략'을 공개했다. 최태원 SK그룹 회장이 이 자리에 참석했다. 특히 주목할 점은 1일 저녁의 비즈니스 미팅이다. 황 CEO는 대만 현지 해산물 식당에서 삼성전자, SK하이닉스, 현대차그룹, LG전자, 두산, 네이버 등 국내 주요 기업 경영진들과 만찬을 가졌다. AI 연산 수요 증가로 메모리 반도체 수요가 폭증하는 상황에서 삼성전자와 SK하이닉스의 고대역폭메모리(HBM) 경쟁이 주요 화제가 됐다.",
+      "published_at": "2026-05-31T13:35:00+09:00",
+      "source": "이데일리",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "퓨리오사AI, 국민성장펀드 최종 발탁…8000억 직접투자 승인",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57326",
+      "body": "퓨리오사AI가 국민성장펀드 최종 수혜 대상으로 선정되며, 첨단전략산업기금 3700억원을 포함한 총 8000억원 규모의 직접투자가 승인됐다. 이는 리벨리온에 이어 두 번째 K-엔비디아 지정이다. 금융위원회는 5월 28일 국민성장펀드 기금운용심의회에서 이를 결정했다. 퓨리오사AI는 2세대 NPU '레니게이드(RNGD)' 양산을 지속하는 가운데, HBM4 기반 3세대 칩(가칭 스토크) 개발에 자금을 투입할 계획이다. 재원은 첨단전략산업기금 3700억원, 산업은행 본체 300억원, 네이버·한국투자파트너스·산은캐피탈 등 민간 4000억원으로 구성된다. 퓨리오사AI는 삼성SDS, LG AI연구원 등이 주요 고객사이며, 올해 2만장 생산을 목표로 하고 있다.",
+      "published_at": "2026-05-29T07:55:00+09:00",
+      "source": "디일렉 (The Elec)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Furiosa"
+    },
+    {
+      "title": "리벨리온 CEO, 서울포럼 2026서 'K-인퍼런스' 전략 제시",
+      "url": "https://en.sedaily.com/news/2026/05/29/rebellions-ceo-k-inference-strategy",
+      "body": "리벨리온의 박성현 CEO가 서울포럼 2026에서 한국형 AI 추론(K-Inference) 전략을 발표했다. 리벨리온은 차세대 AI 추론 칩 '리벨 100'을 기반으로 메타, xAI 등 글로벌 빅테크를 목표 고객으로 설정하고 있다. 박 CEO는 추론 인프라 시장이 훈련 시장을 앞지를 것으로 전망하며, 전력 효율과 비용 대비 성능(TCO)에서 NVIDIA GPU 대비 경쟁력을 갖추고 있다고 강조했다. 리벨리온은 올해 코스닥 상장을 목표로 하고 있으며, 국민성장펀드 6000억원 투자금 납입도 완료됐다.",
+      "published_at": "2026-05-29T08:57:00+09:00",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "삼성·SK하이닉스, 앤트로픽 투자 참여…AI 반도체 공급망 협력 강화",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57310",
+      "body": "삼성전자와 SK하이닉스가 앤트로픽의 시리즈H 투자 라운드에 '전략적 인프라 파트너'로 참여했다. 이는 단순 재무 투자를 넘어 AI 컴퓨팅 인프라 공급망 차원의 협력이다. 앤트로픽 측은 '삼성전자, SK하이닉스, 마이크론의 기술은 전 세계 메모리, 저장장치, 로직 칩 공급망의 핵심 축'이라며 긴밀한 협력을 강조했다. 삼성전자 입장에서는 앤트로픽의 AI 모델 개발·운영에 필요한 HBM, 메모리, 파운드리 서비스 공급 기회를 선점하는 전략적 포석이 된다. SK하이닉스도 엔비디아향 HBM 공급에 이어 앤트로픽과의 직접 파트너십을 통해 AI 생태계 내 위상을 높일 수 있을 것으로 기대된다.",
+      "published_at": "2026-05-29T18:35:00+09:00",
+      "source": "디일렉 (The Elec)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "삼성전자, 앤트로픽 투자로 파운드리 수주 기회 노린다",
+      "url": "https://www.sedaily.com/article/20049843",
+      "body": "삼성전자가 앤트로픽의 시리즈H 투자에 참여하면서 파운드리 사업 수주 기회를 동시에 노리고 있다. 삼성은 앤트로픽의 AI 모델 구동에 필요한 맞춤형 AI 반도체 제조를 위한 파운드리 공급자로 자리잡겠다는 전략이다. 앤트로픽이 향후 자체 AI 가속기를 개발할 경우 삼성 파운드리가 제조 파트너가 될 수 있다는 기대감도 반영됐다. 삼성은 HBM4E 세계 최초 샘플 공급에 이어 파운드리·메모리 투트랙으로 앤트로픽과의 관계를 심화시키고 있다.",
+      "published_at": "2026-05-29T17:30:00+09:00",
+      "source": "서울경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA Investing $6.5 Billion in Silicon Photonics for AI Data Center Networking",
+      "url": "https://thenextweb.com/news/nvidia-silicon-photonics-investment-ai-data-centers",
+      "body": "NVIDIA is investing $6.5 billion in silicon photonics technology to address bandwidth bottlenecks in AI data centers. The investment targets the development of optical interconnects to replace copper-based connections between GPUs, switches, and memory in AI server clusters. Silicon photonics promises significantly higher bandwidth density and lower power consumption compared to traditional electrical interconnects. NVIDIA's investment reflects the growing recognition that as AI cluster sizes scale to millions of GPUs, conventional electrical interconnects will become the primary bottleneck. The technology is being developed for both within-rack and rack-to-rack connectivity in large-scale AI training and inference deployments.",
+      "published_at": "2026-05-29T15:59:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아, AI 데이터센터 광인터커넥트에 6.5조원 투자",
+      "url": "https://zdnet.co.kr/view/?no=20260530085123",
+      "body": "엔비디아가 AI 데이터센터 네트워킹의 병목을 해소하기 위해 실리콘 포토닉스(광학 인터커넥트) 기술에 65억 달러(약 9조원)를 투자한다고 밝혔다. 기존 구리 기반 연결을 광학 연결로 대체해 GPU·스위치·메모리 간 대역폭과 전력 효율을 대폭 개선하는 게 목표다. 수백만 개의 GPU로 구성된 대규모 AI 클러스터에서는 전기 인터커넥트가 핵심 병목이 될 것으로 전망된다.",
+      "published_at": "2026-05-30T08:51:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "TSMC Prioritizes Energy Efficiency in Advanced Packaging as AI Power Demands Surge",
+      "url": "https://www.tweaktown.com/news/111892/tsmc-says-energy-efficiency-has-overtaken-raw-performance-as-the-top-priority-for-ai-chip-customers/index.html",
+      "body": "TSMC's Senior Vice President of Business Development Kevin Zhang revealed that energy efficiency has overtaken computing performance as the defining priority across all customer segments, from smartphones to data centers. This shift was announced at an Amsterdam conference. The company's forthcoming A14 process node (arriving around 2028) will deliver more than 20% higher computing performance while cutting power consumption by up to 30% compared to current N2 technology. Beyond traditional scaling, TSMC plans to leverage advanced packaging, 3D chip stacking, and photonics to achieve efficiency gains. The manufacturer targets a 30% efficiency improvement per generation and expects 55% of all chips produced by 2030 to support AI and high-performance computing applications. The shift underscores mounting pressure from surging AI demands — data centers require solutions that balance raw performance with manageable power consumption and operational costs.",
+      "published_at": "2026-05-31T09:30:00+09:00",
+      "source": "Tweaktown",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "한국 AI 반도체 생태계 조성 가속…국민성장펀드, AI 2조원 투자 확정",
+      "url": "https://biz.heraldcorp.com/article/10758351",
+      "body": "국민성장펀드가 퓨리오사AI에 8000억원 투자를 결정하면서, AI 반도체 분야 누적 투자액이 2조원을 돌파했다. 리벨리온, 업스테이지에 이어 퓨리오사AI까지 세 번째 AI 반도체 투자로, 한국 AI 반도체 생태계 조성이 본격화되고 있다. 정부는 이를 통해 미국과 중국의 AI 반도체 패권 경쟁 속에서 한국의 AI 인프라 자립도를 높이겠다는 전략이다. 퓨리오사AI는 2세대 NPU 레니게이드 양산을 이어가면서 HBM4 기반 3세대 칩 개발에 박차를 가할 계획이다.",
+      "published_at": "2026-05-29T10:00:00+09:00",
+      "source": "헤럴드경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "SoftBank €75B France Investment: Macron Signs Europe's Largest AI Infrastructure Deal",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/softbank-commits-eur-75-billion-to-france-ai-infrastructure-in-europe-largest-ai-deal-yet",
+      "body": "SoftBank's Masayoshi Son signed a €75 billion AI infrastructure investment deal with French President Emmanuel Macron at the Elysee Palace, the largest single AI infrastructure commitment in European history. The investment will fund data centers, AI research, and semiconductor supply chain development across France over five years. The announcement follows SoftBank's $500 billion Stargate commitment with the US government. The deal signals France's ambition to become the leading European AI hub, leveraging existing nuclear power infrastructure for low-carbon AI computing. The investment is expected to create 25,000 direct jobs and position France competitively against the UK and Germany in the race to attract AI investment post-Brexit.",
+      "published_at": "2026-05-31T15:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    }
+  ]
+}
