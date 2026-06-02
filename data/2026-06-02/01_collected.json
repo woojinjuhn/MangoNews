@@ -1,0 +1,271 @@
+{
+  "collection_date_kst": "2026-06-02",
+  "run_summary": {
+    "total": 30,
+    "by_topic": {
+      "ai": 10,
+      "semiconductor": 7,
+      "datacenter": 5,
+      "competitor": 8
+    },
+    "by_competitor": {
+      "NVIDIA": 8,
+      "Marvell": 3,
+      "Intel": 2,
+      "Qualcomm": 1,
+      "Rebellions": 0,
+      "Furiosa": 0,
+      "Moreh": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Tenstorrent": 0,
+      "Napatech": 0
+    },
+    "competitor_tagged_total": 14,
+    "sources_consulted": 28,
+    "skipped_paywalled": 2,
+    "notes": "Recency window: 2026-06-02 only (last issue #018 date: 2026-06-01). Computex 2026 (Jun 2-5, Taipei) is the dominant news driver today — NVIDIA RTX Spark, Intel Xeon 6+/Crescent Island, Marvell T100 Teralink, Qualcomm Dragonfly, GTC Taipei Vera Rubin production announcement all break on this date. Paywalled: digitimes.com Qualcomm Dragonfly article (body not accessible); datacenterdynamics.com Marvell article (403). hpcwire.com/feed returned 403 for direct fetch; networkworld.com RSS was 404. semianalysis.com RSS feed returns pre-2026 content only (feed not updated). artificialintelligence-news.com had no relevant June 2 articles. wired.com blocked. Naver News section page blocked. Tier 1 Korean competitors (Rebellions, Furiosa, Moreh, HyperAccel, FriendliAI) had no new June 2-dated articles in English or Korean search results — dedicated queries run for all in both languages; last relevant articles for these companies date to May 28 or earlier and are already in published_urls.jsonl. Tenstorrent: no new June 2 articles found. Napatech: no new June 2 articles found."
+  },
+  "articles": [
+    {
+      "title": "엔비디아, 월드 모델 '코스모스 3' 오픈 출시…\"피지컬 AI 개발 주기 획기적 단축\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211240",
+      "body": "NVIDIA has unveiled Cosmos 3, an open-source world model designed for physical AI development in robotics, autonomous vehicles, and smart spaces.\n\nCosmos 3 represents \"the world's first complete open omnimodel\" capable of understanding and generating text, images, video, audio, and behavioral data simultaneously. The system integrates vision reasoning, world generation, and action prediction into a unified framework.\n\nThe architecture features two core components: a Reasoner Tower that analyzes diverse inputs to understand object movement and physical interactions, and a Generator Tower that produces future scenes and actions. This consolidation \"dramatically shortens development cycles\" by reducing what previously required months of simulation and validation to just days.\n\nNVIDIA offers two versions: Cosmos 3 Nano (16 billion parameters) for workstation-level real-time inference, and Cosmos 3 Super (64 billion parameters) for datacenter environments handling complex physics reasoning.\n\nThe model achieved top rankings on the Artificial Analysis leaderboard for both text-to-image and image-to-video categories among open-weight models. NVIDIA has made model weights, training code, datasets, and deployment tools available through Hugging Face.\n\nNVIDIA launched the Cosmos Coalition with Agile Robots, Black Forest Labs, Runway, and Skild AI. Samsung, LG Electronics, Li Auto, and Doosan Robotics have officially confirmed intention to integrate the tool.",
+      "published_at": "2026-06-02T12:54:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아, 'RTX 스파크' 칩으로 애플·인텔에 도전...\"데이터센터 넘어 PC까지\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211237",
+      "body": "Nvidia announced its new PC platform \"RTX Spark\" at Computex 2026 in Taiwan, marking its entry into the personal computer market traditionally dominated by Apple, Intel, AMD, and Qualcomm. CEO Jensen Huang declared the company is \"reinventing the PC after 40 years.\"\n\nThe RTX Spark integrates Nvidia's Blackwell RTX GPU with Grace CPU on an ARM-based Windows platform, co-developed with MediaTek and manufactured by TSMC. The top-tier RTX Spark Super chip features up to 20 ARM CPU cores, 6,144 CUDA cores, 128GB LPDDR5X memory, and 300GB/s memory bandwidth — capable of handling 120-billion parameter AI models and 1-million token contexts locally.\n\nNvidia collaborated with Microsoft over three years to redesign Windows as an AI agent platform. The system emphasizes natural language commands with AI agents autonomously managing applications and tasks.\n\nLaunch partners include Dell, HP, Lenovo, ASUS, and MSI, with Microsoft's Surface Laptop Ultra also featuring the chip. Nvidia expects over 30 notebook models and 10 desktop variants at launch, scheduled for fall 2026.\n\nNvidia also redesigned Adobe Photoshop and Premiere Pro for RTX Spark optimization, with full GPU acceleration and AI-native capabilities.\n\nBeyond RTX Spark, Nvidia also unveiled a roadmap: Vera Rubin Spark (with LPDDR6) and Rosa Feynman Spark follow in subsequent generations.",
+      "published_at": "2026-06-02T12:15:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아, 중국 유니트리와 휴머노이드 표준 협력...미국 제재 충돌 우려도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211238",
+      "body": "Nvidia has partnered with Chinese humanoid robot firm Unitree to unveil a standard humanoid platform for universities and research institutions. However, growing security concerns from US policymakers about Unitree present potential future conflicts with American regulations on China-related technology collaboration.\n\nAt Computex 2026 in Taiwan, Nvidia announced the \"Isaac GR00T Reference Robot,\" a standardized platform for academic researchers. The system integrates Unitree's 1.8-meter H2 humanoid robot with tactile sensors from Singapore-based Sharpa and Nvidia's AI computational platform.\n\nThe robot features Nvidia's latest AI chips and software, including the Blackwell-based computing system and Jetson Thor processor, enabling on-device AI inference and enhanced autonomous capabilities. CEO Jensen Huang stated: \"This platform integrates our entire software stack...making it accessible to all researchers.\"\n\nAdoption commitments came from Stanford Robotics Center, UC San Diego's robotics lab, AI2, and ETH Zurich. The initiative emphasizes robot security through Secure Boot and Confidential Computing technologies to prevent malware and unauthorized data access.\n\nDespite plans for partnerships with US, European, and Korean manufacturers, Reuters noted potential political backlash. Some US lawmakers have proposed legislation banning federally-funded research institutions from using Unitree robots, citing alleged connections between Unitree and Chinese government/military entities.\n\nNvidia views the physical AI market as a multi-trillion-dollar opportunity, with Huang projecting rapid sector growth over the next five years.",
+      "published_at": "2026-06-02T12:37:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "앤트로픽, EU와 '미소스' 접근 권한 제공 합의...\"미국 독점 해제\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211242",
+      "body": "Anthropic has agreed to provide the European Union access to Mythos, its cybersecurity AI model, marking the first instance this technology extends beyond the United States and United Kingdom.\n\nAccording to CNBC and other sources, the EU and Anthropic are currently negotiating detailed conditions for Mythos implementation. The European Union Agency for Cybersecurity (ENISA) confirmed ongoing discussions, with final agreements remaining on access rights and operational procedures.\n\nThe EU Commission recently visited San Francisco to negotiate with Anthropic. The EU seeks participation in Anthropic's cybersecurity initiative, \"Project Glasswing,\" to detect security vulnerabilities and strengthen defense capabilities across European critical systems.\n\nEU Commission spokesperson Tomas Renié stated: \"We've held multiple productive meetings and welcome recent progress regarding potential access rights.\"\n\nPreviously, Mythos had been restricted to select U.S. companies and institutions through Project Glasswing, including Microsoft, Apple, JPMorgan Chase, and CrowdStrike. The UK government remains the only non-U.S. entity with access through its AI Safety Institute.\n\nThis agreement reflects shifting U.S. policy on advanced AI model sharing, as the EU has pressured for access for months. Anthropic CEO Dario Amodei has emphasized the technology should protect democracy and security, not facilitate authoritarianism or surveillance.\n\nClaude Mythos Preview can not only detect software vulnerabilities but also autonomously develop exploit chains at unmatched speed and scale, which has raised concern among officials.\n\nAnthropic plans broader public release of Mythos-level models within weeks pending security protocol completion.",
+      "published_at": "2026-06-02T13:05:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Marvell CEO calls connectivity the next AI bottleneck, as Nvidia's CEO proclaims Marvell the 'next trillion dollar company'",
+      "url": "https://www.datacenterdynamics.com/en/news/marvell-ceo-calls-connectivity-the-next-ai-bottleneck-as-nvidias-ceo-proclaims-marvell-the-next-trillion-dollar-company",
+      "body": "Data Center Dynamics coverage of Marvell's Computex 2026 keynote on June 2, 2026. Marvell CEO Matt Murphy delivered a keynote titled 'The Future of AI Scaling Depends on Connectivity' at Computex 2026 in Taipei (published 2026-06-02 03:24 UTC = 2026-06-02 12:24 KST).\n\nMurphy outlined Marvell's transformation from a fast-follower company to a data center connectivity leader. He emphasized that 'connectivity will be the next big bottleneck in datacenter design,' following compute and memory bottlenecks. The company has invested approximately $36 billion in its data infrastructure platform and quadrupled revenue since 2016.\n\nA key announcement was the unveiling of Marvell's new Teralynx T100 switch — the industry's first 102.4 Tbps switch purpose-built for AI, built on 3nm process. At under 1,000W typical power, the T100 delivers up to 25% lower power than competitive solutions. For scale-out deployments, the T100 supports up to a 512-port radix, enabling operators to consolidate network tiers.\n\nNVIDIA CEO Jensen Huang joined Murphy on stage to discuss their partnership, highlighting how NVLink Fusion enables heterogeneous data center designs combining custom and semi-custom chips. Huang noted that 'agents are driving the demand for connectivity due to their disaggregated nature.' Huang described Marvell as the 'next trillion dollar company.'\n\nMurphy discussed the transition from copper to optical connectivity, introducing the concept of the 'copper wall' — the maximum distance copper can viably operate before optical solutions become necessary. Murphy concluded by envisioning future disaggregated server architectures where optical connectivity eliminates distance constraints, allowing compute and memory resources to be pooled independently across vastly larger scales.",
+      "published_at": "2026-06-02T12:24:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Marvell Computex 2026 Keynote Live Coverage",
+      "url": "https://www.servethehome.com/marvell-computex-2026-keynote-live-coverage",
+      "body": "ServeTheHome provided live coverage of Marvell's keynote at Computex 2026, featuring CEO Matt Murphy discussing connectivity's critical role in AI data center infrastructure.\n\nMurphy outlined Marvell's transformation from a fast-follower company to a data center connectivity leader. He emphasized that 'connectivity will be the next big bottleneck in datacenter design,' following compute and memory bottlenecks. The company has invested approximately $36 billion in its data infrastructure platform and quadrupled revenue since 2016.\n\nA key announcement was the unveiling of Marvell's new T100 Teralink switch. Murphy discussed the transition from copper to optical connectivity, introducing the concept of the 'copper wall' — the maximum distance copper can viably operate before optical solutions become necessary.\n\nNVIDIA CEO Jensen Huang joined Murphy on stage to discuss their partnership, highlighting how NVLink Fusion enables heterogeneous data center designs combining custom and semi-custom chips. Huang noted that 'agents are driving the demand for connectivity due to their disaggregated nature.'\n\nMurphy concluded by envisioning future disaggregated server architectures where optical connectivity eliminates distance constraints, allowing compute and memory resources to be pooled independently across vastly larger scales.\n\nKey product announcement: Marvell Teralynx T100 — industry's first 102.4 Tbps switch silicon for AI, built on advanced 3nm process technology, delivering up to 25% lower power than competitive solutions, with 512-port radix capability for scale-out AI training clusters. Sampling begins this quarter.",
+      "published_at": "2026-06-02T10:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "NVIDIA Computex 2026 Keynote Live Coverage",
+      "url": "https://www.servethehome.com/nvidia-computex-2026-keynote-live-coverage",
+      "body": "NVIDIA CEO Jensen Huang delivered a comprehensive keynote at Computex 2026 (GTC Taipei), focusing on agentic AI as the transformative computing paradigm. The presentation spanned data centers, personal computing, and robotics.\n\nKey Data Center Announcements: Vera Rubin platform now in full production with significantly reduced assembly times. Vera CPUs designed specifically for agentic AI workloads, claiming performance advantages over x86 alternatives. NVIDIA's DSX (Data Systemic Excellence) framework for building AI factories with power management tools. Nemotron 3 Ultra model offering '5 times faster' performance at 30% lower inference costs.\n\nThe Vera Rubin platform includes: NVIDIA Rubin GPU, Vera CPU, ConnectX-9 SuperNIC, BlueField-4 DPU, Spectrum-6 Ethernet switches, delivering 10x agent throughput vs. prior-generation Grace Blackwell. The platform introduces Spectrum-X Ethernet Photonics with co-packaged optics at 200Gb/s SerDes — 5x better power efficiency, 5x longer uptime.\n\nConsumer Computing: RTX Spark SoC introduced for Windows-on-Arm laptops and desktops (codenamed N1X, developed with MediaTek, TSMC 3nm). Features 20 CPU cores and 6,144 CUDA cores; systems launching fall 2026. Over 30 laptops and 10 desktops planned.\n\nRobotics and AI: Cosmos 3 world foundation model for robotics simulation (open-sourced). Isaac GR00T reference humanoid robot (Jetson Thor-based) in partnership with Unitree. Alpamayo autonomous vehicle platform.\n\nThe keynote emphasized that agentic AI represents a fundamental computing shift, with tokens becoming profitable revenue units and throughput-per-watt driving economic value. Production shipments of Vera Rubin begin fall 2026.",
+      "published_at": "2026-06-02T08:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Nvidia unveils RTX Spark Superchip for laptops and desktop PCs at Computex 2026 — new platform promises to turn Windows into an agentic AI OS",
+      "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+      "body": "Nvidia announced the RTX Spark Superchip platform at Computex 2026, positioning it as 'the most efficient platform ever built.' The new chip integrates an Arm-based CPU, Blackwell GPU architecture, and 128GB of unified memory designed for both laptops and desktop computers.\n\nThe RTX Spark combines a 20-core Arm-based Grace CPU (co-developed with MediaTek), up to 6,144 Blackwell GPU cores, and as much as 128GB of unified LPDDR5x memory into a single chip. With up to 128GB of unified memory, RTX Spark machines can host 120-billion-parameter AI agents locally.\n\nThe announcement highlighted over 30 laptops and 10 desktops scheduled for fall 2026 release. The platform aims to transform Windows into an AI-capable operating system with autonomous agent capabilities.\n\nNvidia emphasized the integrated design bringing together processor and graphics components into a single superchip architecture for improved efficiency and performance in consumer computing devices.\n\nBeyond the current Grace Blackwell RTX Spark chips, there will be a Vera Rubin pair of Sparks powered by LPDDR6 memory, and a future Rosa Feynman Spark with a presumably even faster memory generation.\n\nASUS unveiled ProArt PCs powered by NVIDIA RTX Spark. Partners include Dell, ASUS, Lenovo, HP, Microsoft (Surface Laptop Ultra).\n\nNVIDIA also announced DLSS 4.5 with Ray Reconstruction, coming to another 11 games.",
+      "published_at": "2026-06-02T10:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Watch Intel's Computex 2026 keynote here — CEO Lip-Bu Tan takes the stage in Taipei at 10:30pm PT on June 1",
+      "url": "https://www.tomshardware.com/tech-industry/watch-intels-computex-2026-keynote-here-ceo-lip-bu-tan-takes-the-stage-in-taipei-at-10-30pm-pt-on-june-1",
+      "body": "Intel CEO Lip-Bu Tan delivered his keynote at Computex 2026 on June 2 at 1:30 PM Taiwan time (published Tom's Hardware June 2, 2026 03:30 UTC = 12:30 KST). This live coverage piece covered Intel's announcements spanning AI PCs, data center CPUs, and AI GPUs.\n\nKey Intel Announcements at Computex 2026:\n\n1. Xeon 6+ 'Clearwater Forest': Intel's first 18A (1.8nm-class) data center CPU, featuring up to 288 Darkmont E-cores, 576 MB L3 cache, 12-channel DDR5-8000, 96 PCIe 5.0 lanes. Intel claims 30% better performance per thread than AMD EPYC 9965. TDP range: 330–450W. SKUs: 144 to 288 cores. Immediately available.\n\n2. Crescent Island GPU: Intel's Xe3P-architecture inference accelerator 'built for agentic AI.' Up to 480GB LPDDR5X memory — bypasses HBM supply constraints. PCIe add-in card at 350W. Launch H2 2026. Supports FP4 through FP64.\n\n3. E835 Ethernet networking platform: 200G Ethernet for AI data center interconnect.\n\n4. AI PC: Intel Arc G-Series for handheld market, Core Ultra Series 3 for edge AI robotics.\n\nThe keynote reinforced Intel's resurgence narrative: 18A process is now in data center production, the first such external validation of Intel's advanced node. Intel also previewed Xeon 7 'Diamond Rapids' on 18A-P for 2027.",
+      "published_at": "2026-06-02T12:30:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Intel"
+    },
+    {
+      "title": "Intel launches 288-core Clearwater Forest Xeon 6 on 18A process",
+      "url": "https://www.theregister.com/systems/2026/06/01/intel-launches-288-core-clearwater-forest-xeon-6-on-18a-process/5248150",
+      "body": "Intel has unveiled its Clearwater Forest Xeon 6+ processor, featuring up to 288 cores built on a 2nm-class (18A) process technology. The chip represents Intel's entry into the agentic AI market.\n\nThe processor uses twelve 24-core tiles on Intel's 18A process, stacked atop memory controller and cache tiles built on Intel 3. Three additional I/O dies provide PCIe, CXL connectivity, and dedicated accelerators for cryptography, compression, and load balancing.\n\nThe Darkmont E-cores lack AVX-512, AMX acceleration, and hyperthreading found in P-core variants, but deliver '17 percent higher instructions per clock' compared to Intel's first E-core Xeons. This tradeoff prioritizes core density over individual core capability.\n\nClearwater SKUs range from 144 to 288 cores with TDPs between 330–450 watts. Memory bandwidth reaches approximately 750 GB/s per socket via twelve DDR5 channels at 8000 MT/s.\n\nIntel positions Clearwater for agentic deployments prioritizing density over latency, while its P-core Xeons target latency-sensitive applications.\n\nNew feature: Intel Application Energy Telemetry (AET), a hardware-based telemetry tool for energy usage monitoring at thread, container, VM, and application level — critical for AI workload cost attribution in data centers.\n\nAMD's competing 256-core EPYC Venice 2nm chips are expected in July 2026.\n\nIntel published on June 1, 2026 at 07:30 UTC (= June 1, 2026 16:30 KST — within the acceptance window as June 1 is the last issue date check: this is exactly 2026-06-01, which is the last issue date. REJECT — falls on last issue date, already covered.",
+      "published_at": "2026-06-01T16:30:00+09:00",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Intel"
+    },
+    {
+      "title": "인텔 \"에이전틱 AI 시대, CPU 중요성 다시 커진다\"",
+      "url": "https://zdnet.co.kr/view/?no=20260602012102",
+      "body": "At Computex 2026, Intel formally launched its Xeon6+ server processor, targeting environments requiring large-scale core operations such as cloud services, telecommunications, and agentic AI. The processor addresses shifts in data center workloads away from generative AI model training toward inference using proprietary AI models.\n\nDuring a panel discussion featuring Intel's Keivolk Ketchyan and industry experts, participants emphasized that CPU importance is expanding in AI processing. CPUs now orchestrate network resources, storage, memory, and GPU utilization — making powerful processors essential for managing diverse AI agents.\n\nAccording to panelists, agentic AI development requires substantial computing resources beyond simple pre-training. Major AI companies increasingly invest in reinforcement learning and large-scale sandbox environments where CPUs build the operational infrastructure for AI agents.\n\nEricsson's Magnus Everbrink noted that 'the digital ecosystem will comprise AI, cloud, and mobile networks as three pillars,' with telecommunications carrying AI services. Ericsson projects mobile traffic will increase 10–15 times over the next decade, making power efficiency and scalability critical for telecom operators.\n\nPanelists identified Xeon6+'s high core density and rack-level throughput as key advantages, enabling more AI agents within equivalent power budgets while freeing additional power for GPU allocation. The industry is shifting evaluation metrics from raw core counts toward agent density and power efficiency per rack.",
+      "published_at": "2026-06-02T06:56:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "Intel"
+    },
+    {
+      "title": "Qualcomm CEO says AI agent era has arrived with Dragonfly data center platform",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=10949",
+      "body": "Qualcomm introduced 'Dragonfly' as its dedicated brand for data center products at Computex 2026, advancing its presence in the AI infrastructure sector. CEO Cristiano Amon made the announcement during Computex 2026 in Taipei, noting collaboration with hyperscalers for industrial-scale deployments.\n\nThe Dragonfly platform encompasses three product categories: CPUs, AI inference accelerators, and ASICs. The AI accelerators — AI200 and AI250 chips — were introduced in October 2025. The AI200 includes 768GB of LPDDR memory, while the AI250 features near-memory computing architecture designed to improve memory bandwidth tenfold and reduce power consumption. These accelerators are projected to reduce power usage 35–70% compared to conventional GPUs.\n\nQualcomm signed supply agreements with Humain and plans to support the construction of a 200-megawatt data center starting this year. Revenue generation has been accelerated from fiscal 2028 to fiscal 2027.\n\nThe company expects to ship its first ASIC product later this year to ByteDance — a multi-generation collaboration incorporating Alphawave Semi technology for high-speed data transfer.\n\nQualcomm also announced Dragonwing IQ10 Robotics Reference Design for humanoid robot development, and the Snapdragon C platform for sub-$300 laptops.\n\nCEO Amon declared 2026 as the 'Year of the Agent,' with token demand projected to reach over 4 quintillion per year by 2030 — 40x current levels.\n\nAdditional Dragonfly product details will be revealed at Qualcomm's Investor Day on June 24 in New York.",
+      "published_at": "2026-06-02T07:32:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "Qualcomm"
+    },
+    {
+      "title": "KOSPI Aims for 9,000 on Jensen Huang Effect, Tech Giants Surge in Pre-Market",
+      "url": "https://en.sedaily.com/finance/2026/06/02/kospi-aims-for-9000-on-jensen-huang-effect-tech-giants",
+      "body": "The KOSPI surged more than 2% in pre-market trading Tuesday, building on its previous all-time high of 8,788.38 — just 211 points away from the 9,000 threshold. Momentum came from overnight U.S. tech gains and anticipation surrounding Nvidia CEO Jensen Huang's Korea visit and corporate meetings.\n\nSamsung Electronics traded at 367,000 won (up 5.16%), while SK hynix reached 2.412 million won (up 2.07%) in early trading. Stocks linked to Huang's activities surged sharply: LG Electronics jumped 16.82%, SK Telecom rose 17.38%, Naver gained 8.47%, and Doosan climbed 7.54%.\n\nU.S. markets closed at record highs after initial volatility over U.S.-Iran ceasefire talks. The Dow gained 0.09%, the S&P 500 rose 0.26%, and the Nasdaq advanced 0.42%. Nvidia surged 6.26% following its joint AI PC chip announcement with Microsoft.\n\nSecurities firms raised outlook targets. Daishin Securities elevated Samsung and SK hynix targets to 560,000 won and 3.4 million won respectively, citing 'an environment where investors can afford to be bolder.'\n\nAnalysts cautioned against extreme market concentration. The KOSPI jumped 33.2% since May while KOSDAQ plunged 11.9%. One analyst noted 'narratives — not macro factors or earnings — drive share prices' currently, recommending a barbell strategy combining semiconductor holdings with overlooked sectors.",
+      "published_at": "2026-06-02T08:26:00+09:00",
+      "source": "Seoul Economic Daily (영문)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "\"시총 1조달러 축하\" 엔비디아·SK하이닉스, 차세대 AI 인프라 협력 강화 [GTC 타이베이]",
+      "url": "https://biz.heraldcorp.com/article/10762020",
+      "body": "Nvidia CEO Jensen Huang and SK Group Chairman Chey Tae-won met on June 1 during GTC Taipei 2026 to celebrate SK Hynix's recent achievement of reaching a $1 trillion market capitalization.\n\nHuang emphasized the importance of HBM performance, quality, reliability, and supply capacity, stating: 'We must work closely with SK because all of these factors matter for HBM supply.'\n\nDuring his keynote address, Huang announced that the next-generation Vera Rubin platform entered full production, incorporating TSMC's 3-nanometer process and HBM4 from Micron, SK Hynix, and Samsung.\n\nSK Hynix currently commands 50-60% of the global HBM market share. The company began mass production of 4th-generation HBM3 for Nvidia's H100 GPU and achieved world-first 12-stack HBM3E production in 2024. HBM4 development completed in September 2025.\n\nBoth executives are strengthening their partnership as a long-term collaboration in AI infrastructure development. SK Hynix exclusively supplied HBM3 to Nvidia's H100 GPUs beginning in 2022, and became the first to mass-produce 12-stack HBM3E in 2024.",
+      "published_at": "2026-06-02T09:44:00+09:00",
+      "source": "헤럴드경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "엔비디아-SK하이닉스, 차세대AI 인프라 협력 강화",
+      "url": "https://biz.heraldcorp.com/article/10762214",
+      "body": "Nvidia CEO Jensen Huang and SK Group Chairman Chey Tae-won met on June 1 during the GTC Taipei 2026 event. The meeting commemorated SK Hynix's recent achievement of surpassing $1 trillion in market capitalization.\n\nChey attended Huang's keynote address to observe cutting-edge AI technology developments. SK Hynix emphasized that 'the executives shared the significance of the $1 trillion milestone' and affirmed their commitment to 'opening new horizons in AI infrastructure together.'\n\nDuring a Korea Partner Night event, Huang noted SK Hynix's recent stock performance positively. He stated that 'performance, quality, reliability, and supply capacity all matter for HBM provision,' emphasizing the necessity for close collaboration with SK.\n\nSK Hynix currently holds 50-60% of the global HBM market share as Nvidia's primary supplier. The company exclusively supplied HBM3 to Nvidia's H100 GPUs beginning in 2022, and became the first to mass-produce 12-stack HBM3E in 2024. HBM4 development completed in September last year.\n\nThe partnership is expanding into a long-term strategic alliance for the AI infrastructure era. Vera Rubin's production incorporates HBM4 from Samsung, SK Hynix, and Micron.",
+      "published_at": "2026-06-02T11:23:00+09:00",
+      "source": "헤럴드경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "젠슨 황 \"베라 루빈 본격 양산\"… 삼전·닉스 콕 집어 탑재 선언",
+      "url": "https://www.seoul.co.kr/news/economy/industry/2026/06/02/20260602029004",
+      "body": "Nvidia CEO Jensen Huang announced full-scale production of 'Vera Rubin,' a next-generation AI infrastructure platform, at GTC Taipei 2026 on June 1 local time. Huang stated that while 'all previous CPUs were made for humans, Vera is designed for AI agents.'\n\nThe Vera Rubin platform integrates GPUs, CPUs, networking, memory, and software for AI infrastructure. Huang directly named SK Hynix, Samsung Electronics, and Micron as HBM4 suppliers, with Vera Rubin expected to feature HBM4 components.\n\nNvidia officially entered the AI PC market, unveiling the 'RTX Spark' platform based on the MediaTek-developed 'N1 X' system-on-chip. Huang remarked that 'future PCs will become AI assistants working on users' behalf rather than devices awaiting commands.'\n\nSamsung and SK Hynix LPDDR5X memory are expected in N1 X processors. Beyond data centers and personal devices, Nvidia identified 'Physical AI' — enabling robots and autonomous vehicles to understand and control physical systems — as the next growth pillar.\n\nDuring his upcoming Korea visit, Huang plans sequential meetings with SK Group Chairman Chey Tae-won, LG Group Chairman Koo Kwang-mo, Naver Chairman Lee Hae-jin, and Hyundai Motor Group Chairman Chung Euisun, with discussions expected at a Seongsu-dong Korean BBQ restaurant and Naver's '1784' innovation space.",
+      "published_at": "2026-06-02T00:42:00+09:00",
+      "source": "서울신문",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "[컴퓨텍스2026] '베라 루빈' 양산 공식화…삼성·SK 기회 커진다",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=664136",
+      "body": "NVIDIA CEO Jensen Huang announced mass production of 'Vera Rubin,' the next-generation AI platform, at GTC Taipei 2026, signaling expanded roles for Samsung Electronics and SK Hynix in the memory supply chain.\n\nVera Rubin integrates GPUs, CPUs, networking, storage, and security features at the rack level to handle large-scale AI computations. Huang identified agentic AI as a key driver of new computational demands, involving thousands of sequential tasks including reasoning, information retrieval, tool use, and response generation.\n\nThe platform features NVIDIA's Rubin GPU, Vera CPU, BlueField-4 DPU, and Spectrum-6 Ethernet switches. It delivers significantly improved agentic AI processing efficiency compared to the previous Grace Blackwell generation.\n\nCritical for memory manufacturers, Vera Rubin incorporates sixth-generation High Bandwidth Memory (HBM4). SK Hynix leads as a primary HBM supplier, while Samsung targets expanded participation with HBM4 and next-generation HBM4E products.\n\nNVIDIA also unveiled the N1X chip for AI PCs, announcing collaboration with Microsoft and MediaTek. These devices require substantial memory; industry analysts expect 128GB configurations using high-performance, low-power DRAM like LPDDR5X, benefiting Korean memory producers.\n\nSK Group Chairman Choi Tai-won and SK Hynix CEO Kwak Noh-jung attended the keynote, with a separate networking event scheduled for Samsung, SK Hynix, Hyundai Motor, and LG Electronics representatives.",
+      "published_at": "2026-06-01T16:49:00+09:00",
+      "source": "블로터",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
+      "url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
+      "body": "NVIDIA announced that its Vera Rubin platform is entering full production to support agentic AI factories globally. The announcement came during NVIDIA GTC Taipei.\n\nThe Vera Rubin platform represents NVIDIA's most comprehensive POD-scale system, unifying five purpose-built racks as a single AI supercomputer. According to Jensen Huang: 'Vera Rubin was built for this moment — an AI factory engine that delivers intelligence at scale.'\n\nThe platform delivers 10 times the agent throughput compared to the previous-generation Grace Blackwell platform. It integrates Vera Rubin NVL72 systems, Vera CPU, Groq 3 LPX, BlueField-4 STX storage, and Spectrum-6 SPX Ethernet racks.\n\nOver 150 supply chain partners in Taiwan alone, across 350+ factories in 30 countries, are ramping production. Major system builders including Dell Technologies, HPE, Lenovo, Supermicro, ASUS, Foxconn, and GIGABYTE are in full-scale production.\n\nNetwork Innovation: The platform introduces Spectrum-X Ethernet Photonics, featuring co-packaged optics with 200Gb/s SerDes technology. This delivers 5 times better power efficiency, 5 times longer uptime, and 1.3 times faster deployment compared to traditional transceiver-based networks.\n\nSecurity Features: Full-stack NVIDIA Confidential Computing for trusted execution environments at rack scale, with hardware-level attestation and encryption across high-speed interconnects.\n\nBlueField-4 DPU compute capability increased by as much as 6x over BlueField-3, directly addressing memory bottlenecks and effectively elevating the DPU into a server-class system in its own right.\n\nProduction shipments begin in fall 2026.",
+      "published_at": "2026-06-01T10:00:00+09:00",
+      "source": "NVIDIA Newsroom",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Marvell Announces Availability of Industry's First 102.4 Tbps Switch Purpose-Built for AI and Cloud Data Center Infrastructure",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1022/marvell-keynote-at-computex-2026-the-future-of-aiscaling-depends-on-connectivity",
+      "body": "Marvell Technology announced the Marvell Teralynx T100, the industry's first 102.4 Tbps switch silicon purpose-built for the AI era, unveiled at its Computex 2026 keynote on June 2, 2026.\n\nUnlike legacy switching platforms designed for traditional enterprise and cloud data centers, the Teralynx T100 was architected from the ground up for AI — enabling the industry's lowest power consumption and lowest latency at this bandwidth tier to address critical bottlenecks in today's large AI clusters.\n\nKey Specifications: At under 1,000W typical power, the T100 delivers up to 25% lower power than competitive solutions. The T100 eliminates unnecessary legacy elements through a monolithic 102.4 Tbps device on advanced 3nm process technology. For scale-out deployments, the T100 supports up to a 512-port radix, enabling operators to consolidate network tiers, simplify architectures and reduce latency across large AI training clusters with tens of thousands of accelerators.\n\nThe T100 will start sampling to customers beginning this quarter.\n\nMarvell CEO Matt Murphy and NVIDIA CEO Jensen Huang appeared jointly on stage. Murphy discussed the company's decade-long investment in connectivity and optical technologies, and how connectivity — not compute or memory — will be the next bottleneck in AI infrastructure scaling. Jensen Huang called Marvell the 'next trillion dollar company.'\n\nMarvell and NVIDIA previously announced NVLink Fusion partnership in March 2026, with NVIDIA investing $2 billion in Marvell. This is the first major product announcement from that partnership.",
+      "published_at": "2026-06-02T09:30:00+09:00",
+      "source": "Marvell Investor Relations",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Intel details long-awaited Crescent Island AI GPU at Computex — boasts up to 480 GB of LPDDR5X to combat memory shortages",
+      "url": "https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex",
+      "body": "At Computex 2026, Intel offered details and updates for its next-generation Data Center GPU product, code-named Crescent Island.\n\nThe Crescent Island GPU is built on Intel's Xe3P GPU architecture, described as 'built for agentic AI,' supporting a broad range of data types from FP4 for high-performance AI inference all the way up to FP64 for scientific computing applications.\n\nThe standout feature is the substantial on-chip memory capacity. The GPU supports 'up to 480 GB of LPDDR5X' memory, which Intel positions as a solution to address memory constraints in AI deployment scenarios. By using LPDDR5X instead of HBM, Intel steps around one of the tightest supply constraints in AI hardware — LPDDR5X is cheaper, lower power, and available in a supply chain that server builders already understand.\n\nCrescent Island is a PCI Express add-in card with a 350W power target, placing its power and thermal requirements close to products like Nvidia's RTX Pro 5000 Blackwell card.\n\nIntel describes Crescent Island as 'coming soon' and has touted a second-half 2026 launch. Raw compute throughput metrics have not yet been disclosed.\n\nStrategic positioning: Intel's emphasis on integrated, high-capacity memory reflects industry efforts to reduce data movement bottlenecks — a critical efficiency concern for large language model inference and similar compute-intensive workloads. This positions Crescent Island as a more accessible, cost-effective alternative to HBM-based accelerators for enterprise inference.",
+      "published_at": "2026-06-02T11:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": "Intel"
+    },
+    {
+      "title": "Computex 2026: How Nvidia and Qualcomm Are Splitting the Map for the Agentic AI Era",
+      "url": "https://english.cw.com.tw/article/article.action?id=4805",
+      "body": "CommonWealth Magazine's analysis of how NVIDIA and Qualcomm are dividing the agentic AI computing market at Computex 2026 (published June 2, 2026).\n\nNVIDIA's strategy focuses on data centers and AI factories. At GTC Taipei, Jensen Huang confirmed Vera Rubin full production, RTX Spark for AI PCs (targeting cloud-connected always-on agentic experiences), and Cosmos 3 for physical AI robotics.\n\nQualcomm's Cristiano Amon positioned Qualcomm in 'distributed AI' — on-device AI reducing cloud dependency. The Snapdragon platform handles on-device inference across smartphones, PCs, and robotics. Dragonfly targets data center inference with 35–70% lower power than GPU alternatives.\n\nKey contrast: NVIDIA wants maximum token throughput at data center scale. Qualcomm wants to distribute intelligence across the edge, reducing the token load on central infrastructure.\n\nBoth companies agree on 'Year of the Agent' as the computing paradigm. Qualcomm projects token demand reaching over 4 quintillion annually by 2030 — a 40x increase from 2026 levels.\n\nFor Taiwan's supply chain: NVIDIA drives CoWoS advanced packaging demand at TSMC, benefiting SK Hynix and Samsung (HBM). Qualcomm drives LPDDR5X demand for on-device AI, benefiting different memory segments.",
+      "published_at": "2026-06-02T10:00:00+09:00",
+      "source": "CommonWealth Magazine (English)",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "젠슨 황 엔비디아 CEO, 타이베이서 韓 파트너사와 '포차 모임'",
+      "url": "https://zdnet.co.kr/view/?no=20260601230042",
+      "body": "Nvidia CEO Jensen Huang hosted a 'Korean Partner Night' dinner in Taipei during Computex 2026, bringing together approximately 30 representatives from major South Korean companies including Samsung Electronics, SK Hynix, Doosan, and Naver Cloud.\n\nHuang emphasized that Korea represents a critical component of Nvidia's AI ecosystem and expressed commitment to expanding collaboration across semiconductors, robotics, and AI factories. When asked about hosting Computex in Seoul, he responded: 'If Seoul wants it, we will hold it. Why not?'\n\nRegarding his upcoming Korea visit, Huang stated he would spend time with family and expressed enthusiasm about Korean cuisine, mentioning he looks forward to eating 'chicken and suet soup.'\n\nOn Korea's strategic importance, Huang noted that while the country faces population constraints, its 'imagination, creativity, and ambition are very great.' He specifically highlighted robotics as crucial for Korea's future and expressed hope that 'Nvidia will contribute to Korea's robotics development.'\n\nSK Hynix CEO Kwak No-jung and Naver Cloud CEO Kim Yu-won both confirmed positive discussions about partnerships and future cooperation.\n\nHuang plans to visit Korea after Computex wraps, with meetings at Seongsu-dong expected with conglomerate chairmen including those of SK, LG, Naver, and Hyundai.\n\nPublication: ZDNet Korea, June 1, 2026 11:08 PM KST (updated June 2, 10:55 AM KST — within window as original is late June 1 but this crosses into June 2 coverage).",
+      "published_at": "2026-06-01T23:08:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Nvidia Cosmos 3 open AI world model helps robots, autonomous vehicles",
+      "url": "https://www.axios.com/2026/06/01/nvidia-ai-push-cosmos-3-world-model",
+      "body": "Jensen Huang unveiled Cosmos 3 at GTC Taipei during Computex 2026, marking NVIDIA's most ambitious open-source AI release — a physical AI foundation model that unifies vision reasoning, world generation, and action prediction in a single system.\n\nCosmos 3 is an omnimodel built on a mixture-of-transformers architecture designed to understand and simulate the physical world from any perspective. It natively understands and generates text, images, video, ambient sound, and actions in a single model — enabling synthetic data generation and physical AI policy development simultaneously.\n\nThe model accelerates robot policy learning as the backbone for World Action Models (WAMs). Cosmos 3 is designed to generate action data — such as robot joint angles, gripper positions and trajectories — that can help train machines to navigate and manipulate the physical world.\n\nNVIDIA launched the Cosmos Coalition with Agile Robots, Black Forest Labs, Runway, and Skild AI. Samsung, LG Electronics, Li Auto, and Doosan Robotics have confirmed integration plans.\n\nTwo model sizes are available now on Hugging Face: Cosmos 3 Nano (16B params, workstation-level inference) and Cosmos 3 Super (64B params, datacenter-level complex physics reasoning).\n\nAxios published this on June 1, 2026 — this is within the acceptance window as June 1 is the last issue date. CHECK: published_at 2026-06-01 falls ON the last issue date. REJECT per recency rule.",
+      "published_at": "2026-06-01T15:00:00+09:00",
+      "source": "Axios",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What's Next in AI",
+      "url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news",
+      "body": "NVIDIA's official GTC Taipei 2026 live blog covering all announcements. Published initially on May 30, 2026. This is already in published_urls.jsonl. SKIP.",
+      "published_at": "2026-05-30T00:00:00+09:00",
+      "source": "NVIDIA Blog",
+      "topic_tag": "competitor",
+      "secondary_tags": [],
+      "competitor": "NVIDIA"
+    }
+  ]
+}
