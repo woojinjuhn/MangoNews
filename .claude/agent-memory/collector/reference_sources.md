@@ -492,3 +492,40 @@ type: reference
 - `Goldman Sachs agentic AI token demand 24x increase cost crisis 2026` — Tom's Hardware 20:52 UTC May 27 = 05:52 KST May 28
 - `Italy Lombardy data center 200% tax agricultural zone May 2026` — Tom's Hardware 16:40 UTC May 27 = 01:40 KST May 28
 - `nextplatform.com RSS May 28 2026 AI datacenter electrician` — only 1 article for May 28 in feed (00:18 BST = 23:18 UTC May 27)
+
+## Source notes (2026-06-02 run — single day window, Computex 2026 day 1)
+
+- **Computex 2026 keynote timing critical**: NVIDIA keynote was June 1 11AM Taiwan = June 1 10AM KST = LAST ISSUE DATE; most RTX Spark/Vera Rubin/Cosmos 3 English coverage (Tom's Hardware RTX Spark, Tom's Hardware Crescent Island, ServeTheHome NVIDIA keynote, ServeTheHome Marvell keynote, notebookcheck.net, xda-developers.com, all dated June 1) = out-of-window. Only Jun 2 KST Korean outlet articles and the Tom's Hardware "Watch Intel Computex Keynote" (published June 2) qualify.
+- **Marvell Teralynx T100 announcement**: Made at Marvell keynote June 2 10:30 AM Taiwan = June 2 09:30 KST; but press releases (businesswire, investor.marvell.com) were pre-staged May 26; Yahoo Finance/InvestingNews body dates show June 1 22:00 KST (= June 1 in Korea); DCD article confirmed June 2 12:24 KST in prior session but 403 on re-fetch; treat DCD Marvell with caution — include but note.
+- **ServeTheHome live coverage articles**: Always have keynote night publication; Marvell keynote was June 1 7:30PM PT = June 2 11:30 KST but article published June 1 by Ryan Smith; NVIDIA keynote was May 31 8PM PT, article published May 31. STH live articles = publication date of article, NOT keynote date.
+- **Tom's Hardware**: RTX Spark (June 1), Crescent Island (June 1), "Watch Intel Keynote" (June 2) — the watch/live articles publish on the keynote day. Always verify tomshardware.com byline: "published X June 2026".
+- **aitimes.com**: Very high yield; Korean Computex coverage at 12:00-13:00 KST June 2; confirmed 4 relevant articles (idxno=211237, 211238, 211240, 211242). AI타임스 consistently publishes Korean summaries of all major Computex announcements within 1-2 hours.
+- **Korean financial press** (ebn.co.kr, fnnews.com, heraldcorp.com, sedaily.com): Published June 2 morning 06:50-12:13 KST; HBM4/Vera Rubin/SK Hynix NVIDIA partnership stories dominate.
+- **ddaily.co.kr** (디지털데일리): Accessible; June 2 07:00 KST Intel Computex article confirmed; URL pattern /page/view/YYYYMMDDXXXXX.
+- **thelec.net**: English edition confirmed June 2 07:32 KST Qualcomm Dragonfly article (idxno=10949); good coverage of Korean and international chip news in English.
+- **en.sedaily.com**: URL /markets/2026/06/02/ prefix confirms June 2 publication; KOSPI 9000 article confirmed 08:26 KST.
+- **ebn.co.kr**: URL /news/articleView.html?idxno=1710939; June 2 06:50 KST confirmed; good for Samsung/SK Hynix memory supply chain angle.
+- **NextPlatform RSS**: No June 2 content visible; feed shows May 2 as most recent item (publishing cadence inconsistent).
+- **HPC Wire feed**: 403 confirmed.
+- **NetworkWorld RSS**: 404 confirmed.
+- **Wired RSS**: Blocked.
+- **SemiAnalysis RSS**: Still stuck Sep 2025.
+- **Naver News section/105**: Still JS-rendered, blocked.
+
+## Key observations (2026-06-02 run)
+- **Computex 2026 single-day window problem**: Most Computex day-0 announcements (NVIDIA GTC keynote June 1) published June 1 KST = last issue date = excluded. Day 1 (June 2) has fewer NEW announcements; Intel keynote is the major June 2 event.
+- **Intel Computex 2026 keynote**: Took place June 2 1:30 PM Taiwan = 12:30 KST; coverage articles confirmed published June 2 (Tom's Hardware watch article, ddaily.co.kr Intel strategy article).
+- **Marvell keynote**: June 2 10:30 AM Taiwan = 09:30 KST; Murphy + Jensen Huang shared stage; major connectivity/T100 announcement; but most press coverage dated June 1 KST.
+- **Qualcomm Dragonfly**: Announced Computex June 2; thelec.net English article confirmed June 2 07:32 KST; paywalled on digitimes.
+- **CommonWealth Magazine** (english.cw.com.tw): Taiwan business magazine; excellent analysis articles on NVIDIA/Qualcomm strategy; published date confirmed June 2 from article URL (2026-06-02 web only); 403 on direct fetch in some sessions — try direct URL.
+- **Korean market articles**: KOSPI AI-driven surge is a recurring secondary story when Jensen Huang/NVIDIA keynote drives Korean semiconductor stock rally; always check en.sedaily.com and heraldcorp.com for these.
+
+## Query patterns (2026-06-02 run)
+- `컴퓨텍스 2026 6월 2일 AI 반도체 뉴스 ddaily fnnews ebn` — ddaily.co.kr + fnnews.com + ebn.co.kr accessible; June 2 morning articles
+- `Intel Computex 2026 Lip-Bu Tan keynote Xeon 6+ Crescent Island June 2` — Tom's Hardware + ddaily.co.kr accessible
+- `Qualcomm Dragonfly data center AI inference Computex 2026 announcement June 2` — thelec.net idxno=10949 confirmed June 2 07:32 KST
+- `KOSPI 9000 Jensen Huang AI semiconductor rally June 2 2026` — en.sedaily.com + heraldcorp.com accessible
+- `SK하이닉스 HBM4 엔비디아 베라 루빈 협력 2026-06-02` — ebn.co.kr + biz.heraldcorp.com accessible June 2
+- `라이칭더 대만 총통 컴퓨텍스 AI 공급망 June 2 2026` — fnnews.com June 2 12:13 KST exclusive
+- `Marvell Teralynx T100 102.4 Tbps AI switch Computex June 2 2026` — DCD 403; investor.marvell.com May 26 (pre-event); hpcwire 403; stocktitan.net/seekingalpha 403; use search summaries only for this story
+- `Computex 2026 NVIDIA vs Qualcomm agentic AI analysis` — english.cw.com.tw article.action?id=4805 confirmed June 2 (Industry | 2026-06-02 | web only in URL)

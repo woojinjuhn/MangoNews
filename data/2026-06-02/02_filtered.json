@@ -1,0 +1,145 @@
+{
+  "filter_date_kst": "2026-06-02",
+  "kept": [
+    {
+      "id": 15,
+      "title": "Marvell CEO calls connectivity the next AI bottleneck, as Nvidia's CEO proclaims Marvell the 'next trillion dollar company'",
+      "url": "https://www.datacenterdynamics.com/en/news/marvell-ceo-calls-connectivity-the-next-ai-bottleneck-as-nvidias-ceo-proclaims-marvell-the-next-trillion-dollar-company",
+      "category": "products",
+      "competitor": "Marvell",
+      "keep_reason": "Marvell Teralynx T100 102.4Tbps AI switch + NVIDIA NVLink Fusion partnership — directly central to DPU/SmartNIC connectivity bottleneck thesis MangoBoost competes in."
+    },
+    {
+      "id": 11,
+      "title": "Watch Intel's Computex 2026 keynote here — CEO Lip-Bu Tan takes the stage in Taipei at 10:30pm PT on June 1",
+      "url": "https://www.tomshardware.com/tech-industry/watch-intels-computex-2026-keynote-here-ceo-lip-bu-tan-takes-the-stage-in-taipei-at-10-30pm-pt-on-june-1",
+      "category": "products",
+      "competitor": "Intel",
+      "keep_reason": "Comprehensive Intel Computex keynote rundown: Xeon 6+ Clearwater Forest on 18A, Crescent Island GPU with 480GB LPDDR5X (HBM-alternative), E835 200G Ethernet — all DPU/AI infra adjacent."
+    },
+    {
+      "id": 6,
+      "title": "Qualcomm CEO says AI agent era has arrived with Dragonfly data center platform",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=10949",
+      "category": "products",
+      "competitor": "Qualcomm",
+      "keep_reason": "Qualcomm Dragonfly DC brand launch (AI200/AI250 accelerators, 768GB LPDDR, near-memory compute, 35-70% power reduction vs GPU, ByteDance ASIC) — new DC inference competitor entry directly relevant to MangoBoost's space."
+    },
+    {
+      "id": 2,
+      "title": "엔비디아, 'RTX 스파크' 칩으로 애플·인텔에 도전...\"데이터센터 넘어 PC까지\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211237",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA RTX Spark AI PC platform (Blackwell GPU + Grace CPU on ARM Windows, MediaTek/TSMC) — major NVIDIA strategic expansion + Vera Rubin Spark/Rosa Feynman Spark roadmap."
+    },
+    {
+      "id": 8,
+      "title": "\"시총 1조달러 축하\" 엔비디아·SK하이닉스, 차세대 AI 인프라 협력 강화 [GTC 타이베이]",
+      "url": "https://biz.heraldcorp.com/article/10762020",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Vera Rubin full production + HBM4 supplier confirmation (SK Hynix/Samsung/Micron) at GTC Taipei — central AI memory supercycle signal for Korean semi ecosystem."
+    },
+    {
+      "id": 5,
+      "title": "인텔 \"에이전틱 AI 시대, CPU 중요성 다시 커진다\"",
+      "url": "https://zdnet.co.kr/view/?no=20260602012102",
+      "category": "products",
+      "competitor": "Intel",
+      "keep_reason": "Intel Xeon6+ agentic AI positioning: CPU orchestrates network/storage/memory/GPU for AI agents — directly relevant to DPU/SmartNIC value proposition (CPU offload narrative)."
+    },
+    {
+      "id": 13,
+      "title": "[컴퓨텍스 2026] 아닐 난두리 인텔 \"AI 인프라, 더 넣는 시대 끝났다…제온6+·18A로 효율 승부\"",
+      "url": "https://www.ddaily.co.kr/page/view/2026060201005341422",
+      "category": "challenges",
+      "competitor": "Intel",
+      "keep_reason": "Intel heterogeneous computing thesis: 'era of just adding more compute is over' — AI infra efficiency/cost narrative is core MangoBoost positioning; Crescent Island 480GB LPDDR5X vs HBM constraint angle."
+    },
+    {
+      "id": 16,
+      "title": "Computex 2026: How Nvidia and Qualcomm Are Splitting the Map for the Agentic AI Era",
+      "url": "https://english.cw.com.tw/article/article.action?id=4805",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Strategic analysis of NVIDIA (centralized DC) vs Qualcomm (distributed edge) agentic AI vision split — high-signal market intelligence for AI infra competitive landscape."
+    },
+    {
+      "id": 1,
+      "title": "엔비디아, 월드 모델 '코스모스 3' 오픈 출시…\"피지컬 AI 개발 주기 획기적 단축\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211240",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA Cosmos 3 open world model (16B/64B params) for physical AI — major AI model release with Korean adopters (Samsung, LG, Doosan Robotics)."
+    },
+    {
+      "id": 3,
+      "title": "엔비디아, 중국 유니트리와 휴머노이드 표준 협력...미국 제재 충돌 우려도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211238",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA Isaac GR00T humanoid reference platform with Unitree (Jetson Thor + Blackwell) — physical AI infra play with US-China policy risk angle."
+    },
+    {
+      "id": 10,
+      "title": "젠슨 황 \"베라 루빈 본격 양산\"… 삼전·닉스 콕 집어 탑재 선언",
+      "url": "https://www.seoul.co.kr/news/economy/industry/2026/06/02/20260602029004",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Vera Rubin production + Huang Korea visit itinerary (SK/LG/Naver/Hyundai meetings) — Korean AI ecosystem positioning signal; complements article 8 with Korea-visit detail not in Herald piece."
+    },
+    {
+      "id": 4,
+      "title": "앤트로픽, EU와 '미소스' 접근 권한 제공 합의...\"미국 독점 해제\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211242",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Anthropic Mythos cybersecurity AI extending to EU — sovereign AI / cross-jurisdiction model access policy signal relevant to MangoBoost's sovereign AI customer conversations."
+    },
+    {
+      "id": 14,
+      "title": "[단독] 라이칭더 대만 총통, 컴퓨텍스 찾는다…AI 공급망 직접 점검",
+      "url": "https://www.fnnews.com/news/202606021206364957",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Taiwan presidential involvement in Computex underscores AI supply chain geopolitics; 1,500 companies/6,000 booths context for the show driving this week's news cycle."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 9,
+      "title": "엔비디아-SK하이닉스, 차세대AI 인프라 협력 강화",
+      "discard_reason": "duplicate of article 8 (same Herald outlet, same Huang-Chey GTC Taipei meeting, near-identical content; article 8 is the more detailed primary)"
+    },
+    {
+      "id": 12,
+      "title": "젠슨 황 \"베라 루빈 본격 생산 단계\"…삼성·SK하닉 메모리 탑재 [컴퓨텍스2026]",
+      "discard_reason": "duplicate of articles 8+10 (Vera Rubin/HBM4 Samsung/SK Hynix coverage already represented by Herald primary + 서울신문 Korea-visit angle; EBN adds no new angle)"
+    },
+    {
+      "id": 7,
+      "title": "KOSPI Aims for 9,000 on Jensen Huang Effect, Tech Giants Surge in Pre-Market",
+      "discard_reason": "stock price movement piece without strategic substance — Huang visit context already covered in articles 8/10 with semi/AI infra angle"
+    }
+  ],
+  "summary": {
+    "total_received": 16,
+    "total_kept": 13,
+    "total_discarded": 3,
+    "category_breakdown": {
+      "market": 4,
+      "products": 7,
+      "projects": 1,
+      "challenges": 1,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 11,
+    "by_competitor": {
+      "NVIDIA": 6,
+      "Marvell": 1,
+      "Intel": 3,
+      "Qualcomm": 1
+    }
+  }
+}
