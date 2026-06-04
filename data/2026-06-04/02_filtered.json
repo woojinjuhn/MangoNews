@@ -1,0 +1,384 @@
+{
+  "filter_date_kst": "2026-06-04",
+  "kept": [
+    {
+      "id": 4,
+      "title": "AI Memory Shortage Locked Through 2030: Computex 2026 Brings Agent Economy, HBM Crisis",
+      "url": "https://www.techtimes.com/articles/317695/20260603/ai-memory-shortage-locked-through-2030-computex-2026-brings-agent-economy-hbm-crisis.htm",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "HBM supply gap locked through 2030 with CoWoS expansion data — central AI infra cost/availability narrative spanning SK Hynix/Samsung/Micron and Qualcomm Dragonfly."
+    },
+    {
+      "id": 2,
+      "title": "Marvell Keynote at COMPUTEX 2026: The Future of AI Scaling Depends on Connectivity",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1022/marvell-keynote-at-computex-2026-the-future-of-aiscaling-depends-on-connectivity",
+      "category": "products",
+      "competitor": "Marvell",
+      "keep_reason": "Marvell primary source on Teralynx T100 102.4Tbps switch and CPO/disaggregated-architecture vision — direct DPU/networking competitive intelligence."
+    },
+    {
+      "id": 1,
+      "title": "The tech that could make Marvell the next trillion dollar company",
+      "url": "https://www.theregister.com/networks/2026/06/03/the-tech-that-could-make-marvell-the-next-trillion-dollar-company/5250472",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "English deep-dive on Jensen's endorsement + Marvell's photonics M&A history (Inphi/Celestial AI) — strategic context for the optical-interconnect pivot affecting MangoBoost's DPU adjacencies."
+    },
+    {
+      "id": 25,
+      "title": "Intel launches Xeon 6+ CPU, pitches it for agentic AI boom",
+      "url": "https://www.datacenterdynamics.com/en/news/intel-launches-xeon-6-cpu-pitches-it-for-agentic-ai-boom/",
+      "category": "products",
+      "competitor": "Intel",
+      "keep_reason": "First 18A data center CPU (288 cores) explicitly pitched for agentic AI CPU-orchestration — directly relevant to DPU+CPU AI-infra positioning."
+    },
+    {
+      "id": 7,
+      "title": "Alphabet raises record $85B in equity for AI infrastructure",
+      "url": "https://thenextweb.com/news/alphabet-just-raised-85-billion-for-ai-smashing-the-largest-equity-offering-in-history",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Largest equity offering in history funding $180-190B 2026 capex for AI compute infra — defines the magnitude of hyperscaler AI investment cycle."
+    },
+    {
+      "id": 8,
+      "title": "K-온디바이스 AI 반도체 예산 8000억 확정",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57558",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Korean government AI semiconductor program budget finalized at 8000억원 with Hyundai/LG/Doosan/KAI as demand companies — core Korean AI/semi policy."
+    },
+    {
+      "id": 18,
+      "title": "Qualcomm Announces Dragonfly Brand for Data Center Products, More Info to Come June 24th",
+      "url": "https://www.servethehome.com/qualcomm-announces-dragonfly-brand-for-data-center-products/",
+      "category": "products",
+      "competitor": "Qualcomm",
+      "keep_reason": "Qualcomm formally entering DC server CPU/AI accelerator market with AI200/AI250 roadmap — new competitor in DPU/server-silicon adjacency."
+    },
+    {
+      "id": 40,
+      "title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Micron simultaneous HBM4/PCIe Gen6 SSD/SOCAMM2 launch — direct AI-infrastructure memory+storage stack signal across GPU/CPU/SSD layers MangoBoost touches."
+    },
+    {
+      "id": 20,
+      "title": "Astera Labs showcases 320-lane PCIe 6.0 switch for vendor-agnostic scaling in data centers",
+      "url": "https://www.tomshardware.com/desktops/servers/astera-labs-showcases-320-lane-pcie-6-0-switch-for-vendor-agnostic-scaling-in-data-centers-up-to-80-accelerators-can-be-scaled-up-using-pcie-alone",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Vendor-agnostic 320-lane PCIe 6.0 fabric for 80-accelerator scale-up — DPU/SmartNIC-adjacent open-interconnect alternative to NVLink/UALink relevant to AMD ecosystem."
+    },
+    {
+      "id": 27,
+      "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
+      "url": "https://www.globenewswire.com/news-release/2026/06/01/3304000/0/en/NVIDIA-and-TSMC-Bring-AI-Into-Fabs-to-Advance-Semiconductor-Design-and-Manufacturing.html",
+      "category": "collaboration",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA cuLitho/Metropolis/Omniverse FabTwin integrated into TSMC operations — strategic semiconductor manufacturing AI-stack alliance."
+    },
+    {
+      "id": 11,
+      "title": "Microsoft unveils Project Solara AI, a chip-to-cloud platform built to power a new generation of 'agent-first' enterprise devices",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Microsoft chip-to-cloud agent-first platform with Qualcomm/MediaTek silicon — agentic edge device architecture shaping AI infra demand."
+    },
+    {
+      "id": 28,
+      "title": "Jensen Huang hosts Korea Partner Night in Taipei; eyes Korea visit June 4-5",
+      "url": "https://www.benzinga.com/markets/tech/26/06/52928914/jensen-huang-korean-tech-power-dinner-taipei-samsung-sk-hynix-ai",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA-Korea partnership intensifying with Jensen's Seoul trip — HBM4 supplier confirmation (Samsung/SK/Micron) and partner ecosystem signal."
+    },
+    {
+      "id": 10,
+      "title": "한국 정부, Anthropic '프로젝트 글래스윙' 참여…삼성·SK·KISA 동참",
+      "url": "https://zdnet.co.kr/view/?no=20260603132322",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Korean government + Samsung/SK Hynix/SKT join Anthropic's national infrastructure AI security initiative — sovereign AI critical-infrastructure linkage."
+    },
+    {
+      "id": 9,
+      "title": "구글, AI 데이터센터 전력 수요 대응 위해 발전 사업 직접 진출",
+      "url": "https://zdnet.co.kr/view/?no=20260604091919",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Google's $4.75B Intersect Power acquisition makes it the first big-tech direct power generator — exemplifies AI-DC power constraint as the dominant infrastructure bottleneck."
+    },
+    {
+      "id": 5,
+      "title": "Samsung shows first HBM5 mockup at Computex with Heat Path Block cooling",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Samsung HBM5 with 2nm base die + Heat Path Block cooling for NVIDIA post-Vera-Rubin — memory roadmap critical to AI accelerator generation."
+    },
+    {
+      "id": 6,
+      "title": "The rise of local agentic computing faces a brutal reality: rising DRAM prices — RTX Spark, Gorgon Halo chips subject to 63% DRAM contract price hike this quarter",
+      "url": "https://www.tomshardware.com/pc-components/dram/amds-gorgon-halo-pushes-on-device-ai-memory-to-192gb-as-dram-prices-hit-15-year-high",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "DRAM 63% additional hike on top of Q1's 90-95%, 15-year-high pricing — memory cost crisis directly shaping AI-PC and inference infra economics."
+    },
+    {
+      "id": 38,
+      "title": "Vista Equity Partners launches Vector Core Compute, an inference 'agentic neocloud' with SambaNova and Intel compute",
+      "url": "https://www.datacenterdynamics.com/en/news/vista-equity-partners-launches-vector-core-computer-an-inference-agentic-neocloud-with-sambanova-and-intel-compute/",
+      "category": "collaboration",
+      "competitor": "Intel",
+      "keep_reason": "Heterogeneous inference cloud combining Intel Xeon 6+, SambaNova SN-50 RDU, NVIDIA Blackwell — validates non-pure-GPU inference stacks MangoBoost competes alongside."
+    },
+    {
+      "id": 41,
+      "title": "TSMC 3nm price hikes of up to 15% in H2 2026 as AI demand tightens foundry capacity",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tsmc-weighs-ai-pricing-power-against-overseas-fab-margin-pre",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "TSMC passing through 15% 3nm price hike to AI customers — propagates into NVIDIA/AMD/Google/AWS BOM costs, AI-infra cost-curve signal."
+    },
+    {
+      "id": 37,
+      "title": "Lambda offers glimpse into Nvidia's CPO switch, enabling 'more tokens' through substantial power savings",
+      "url": "https://www.sdxcentral.com/news/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more-tokens-through-substantial-power-savings/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA Quantum-X CPO switch in full production — 5M→1M laser reduction for 128K-GPU clusters, key DC networking shift overlapping with Marvell story."
+    },
+    {
+      "id": 16,
+      "title": "MS, AI로 설계한 양자 칩 '마요라나 2' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211277",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Microsoft Majorana 2 quantum chip with AI-designed materials/process — agentic AI in semi R&D plus 2029 commercial roadmap."
+    },
+    {
+      "id": 19,
+      "title": "Cisco Preps For A World Of AI Agent Coworkers, Frontier Model Threats",
+      "url": "https://www.nextplatform.com/ai/2026/06/03/cisco-preps-for-a-world-of-ai-agent-coworkers-frontier-model-threats/5250406",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Cisco AgenticOps + 450% traffic-per-task data — AI agent infrastructure scaling implications relevant to DPU/SmartNIC workload trends."
+    },
+    {
+      "id": 3,
+      "title": "젠슨 황 '1조달러 기업' 전망에 마벨 주가 33% 폭등",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211286",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "Korean primary source adding 33% surge, 26-year record, $254.5B market cap, NVIDIA's prior $2B Marvell investment — complementary to English coverage."
+    },
+    {
+      "id": 24,
+      "title": "모델 라우팅 넘어 실행 위치까지 자동 배분...퍼플렉시티 하이브리드 추론",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211287",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "Perplexity Hybrid Inference Orchestrator routes between local PC and cloud based on data-security + hardware — distributed compute approach relevant to sovereign AI / cost optimization."
+    },
+    {
+      "id": 14,
+      "title": "MS, 기업 전용 자체 모델 7종 공개...앤트로픽과 격차 좁혔다",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211273",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Microsoft launches 7 MAI models with Frontier Tuning achieving GPT-5.4 perf at 90% cost reduction — reduces hyperscaler AI-cost via efficiency story."
+    },
+    {
+      "id": 15,
+      "title": "MS, 상시 실행형 AI 비서 '스카우트' 발표",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211274",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Microsoft Scout autonomous always-on AI agent integrated into Copilot superapp — agent-economy demand-side signal driving inference compute."
+    },
+    {
+      "id": 45,
+      "title": "AMD EXPO Ultra Low Latency DDR5 memory at same price as current kits",
+      "url": "https://www.tomshardware.com/pc-components/ram/amd-says-new-expo-ultra-low-latency-ddr5-memory-should-be-effectively-the-same-price-as-current-kits-feature-will-work-on-existing-chipsets-but-will-require-new-dimms",
+      "category": "products",
+      "competitor": "AMD",
+      "keep_reason": "AMD competitor-tagged DDR5 latency improvement targeting AI inference — MangoBoost's AMD ecosystem adjacency."
+    },
+    {
+      "id": 36,
+      "title": "Google signs 100MW Bring Your Own Capacity agreement with Voltus",
+      "url": "https://www.datacenterdynamics.com/en/news/google-signs-100mw-bring-your-own-capacity-agreement-with-voltus/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Google 100MW BYOC demand-response agreement complements Intersect acquisition — multi-pronged DC power management approach."
+    },
+    {
+      "id": 17,
+      "title": "Microsoft's Majorana 2 quantum chip is also a case study for agentic AI in R&D",
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-discovery-agentic-ai-majorana-2/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Complementary English deep-dive on Microsoft Discovery agentic-AI platform's role in Majorana 2 fabrication automation."
+    },
+    {
+      "id": 29,
+      "title": "Google Gemma 4 12B: encoder-free multimodal model that runs locally on 16GB laptop",
+      "url": "https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Encoder-free unified multimodal model running locally on 16GB — local inference/edge AI architecture signal."
+    },
+    {
+      "id": 43,
+      "title": "CoolIT designs 15kW coldplate to future-proof liquid cooling for GPUs",
+      "url": "https://www.datacenterdynamics.com/en/news/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-for-gpus/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "15kW per-GPU coldplate targeting 1000W+ next-gen accelerators — DC thermal density bottleneck for Vera Rubin / MI455X-class systems."
+    },
+    {
+      "id": 21,
+      "title": "Github Copilot customers report up to 100-fold price hikes — AI sticker shock bites as Microsoft switches to usage-based pricing",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Token-based pricing shift causing 100x bills — illustrates AI compute economics and token-maxing trend driving inference demand."
+    },
+    {
+      "id": 23,
+      "title": "우버, '클로드 코드' 과다 지출에 제동...월 한도 230만원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211290",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Uber capping employee AI coding spend at $1500/mo — concrete enterprise AI-cost ceiling data complementing GitHub Copilot pricing story."
+    },
+    {
+      "id": 39,
+      "title": "IBM announces five-year, $10bn quantum investment",
+      "url": "https://www.datacenterdynamics.com/en/news/ibm-announces-five-year-10bn-quantum-investment/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "IBM $10B/5yr quantum commitment alongside Microsoft Majorana 2 — broader infrastructure-grade quantum investment signal."
+    },
+    {
+      "id": 32,
+      "title": "Jensen Huang says Seoul National University visit scheduled June 8",
+      "url": "https://en.sedaily.com/society/2026/06/03/nvidias-jensen-huang-to-visit-seoul-national-university-on",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Specific Korea itinerary including SNU visit June 8 — adds discrete schedule detail to Korea Partner Night coverage."
+    },
+    {
+      "id": 44,
+      "title": "Iren targets Australia for 800MW data center campus",
+      "url": "https://www.datacenterdynamics.com/en/news/iren-targets-australia-for-800mw-data-center-campus/",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "Iren NVIDIA-partnered AI infra expansion to Australia with 800MW campus — sovereign AI / global AI-infra build-out."
+    },
+    {
+      "id": 12,
+      "title": "Trump signs AI executive order seeking 30-day government access to frontier models before release",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-signs-ai-executive-order-seeking-30-day-government-access-to-frontier-models-before-release",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "US AI policy framework for pre-release frontier model review — affects global AI model regulatory landscape (Anthropic Claude Mythos cited)."
+    },
+    {
+      "id": 46,
+      "title": "OpenAI updates Codex for office workers; Anthropic expands Misos to 150 organizations globally",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211275",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "OpenAI Codex broadens to office workers + Anthropic Misos to 150 orgs — AI agent enterprise expansion driving inference workloads."
+    },
+    {
+      "id": 34,
+      "title": "Core42 expands AI cluster by 42MW in Buffalo, New York",
+      "url": "https://www.datacenterdynamics.com/en/news/core42-expands-ai-cluster-by-42mw-in-buffalo-new-york/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "G42-backed AI cluster expansion in US — sovereign-AI-adjacent (UAE-origin) infrastructure expansion signal."
+    },
+    {
+      "id": 47,
+      "title": "알리바바, 하이브리드 에이전트 '큐원3.7-플러스' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211279",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Alibaba Qwen3.7-Plus hybrid agent + DeepSeek 75% API price cut — China AI model price war shaping global AI economics."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 13,
+      "title": "트럼프, AI '사전 검토' 행정명령 서명...90일서 30일로 축소",
+      "discard_reason": "duplicate of #12 (Tom's Hardware) — same Trump AI EO event; English source has equal Korean-readable depth plus Claude Mythos technical context"
+    },
+    {
+      "id": 26,
+      "title": "Marvell Announces Availability of Industry's First 102.4 Tbps Switch Purpose-Built for AI and Cloud Data Center Infrastructure",
+      "discard_reason": "duplicate of #2 (Marvell investor newsroom keynote) — same Teralynx T100 launch, #2 contains the equivalent product specs plus broader CEO vision/disaggregation narrative"
+    },
+    {
+      "id": 22,
+      "title": "Korean tech workers splash cash on luxury brands after bumper bonus payouts",
+      "discard_reason": "off-topic — consumer/lifestyle spending coverage, no semi/AI infrastructure substance"
+    },
+    {
+      "id": 30,
+      "title": "Computex 2026 Day Two Wrap-Up: Intel atones for Arrow Lake, Wi-Fi 8 comes into focus",
+      "discard_reason": "duplicate — synthesized roundup whose substantive content (Xeon 6+, DRAM crisis, Strix Halo) is already covered by primary articles #25, #6, #5"
+    },
+    {
+      "id": 31,
+      "title": "Intel Launches 1.8nm Xeon 6+ and AI Infrastructure Stack at Computex 2026",
+      "discard_reason": "duplicate of #25 (Data Center Dynamics) — same Xeon 6+ launch, DCD is more authoritative source"
+    },
+    {
+      "id": 33,
+      "title": "EdgeConneX files to build two 730,000 sq ft data centers in Bastrop County, Texas",
+      "discard_reason": "content-thin — DC construction filing with no power capacity, timeline, or strategic detail"
+    },
+    {
+      "id": 35,
+      "title": "Amazon plans nine-building data center campus in Wheatfield, Indiana",
+      "discard_reason": "content-thin — generic hyperscaler DC filing, no power capacity or investment figures disclosed"
+    },
+    {
+      "id": 42,
+      "title": "UCAR wins injunction against US gov't's attempts to transition management of Wyoming supercomputing center",
+      "discard_reason": "off-topic — research-computing legal/governance dispute with no DPU/AI-infra commercial substance"
+    },
+    {
+      "id": 48,
+      "title": "스페이스X, IPO서 '1.75조달러' 몸값 도전",
+      "discard_reason": "off-topic — SpaceX IPO valuation news; Terafab semi-fab is speculative reporting, Starlink-DC angle is tangential"
+    }
+  ],
+  "summary": {
+    "total_received": 48,
+    "total_kept": 39,
+    "total_discarded": 9,
+    "category_breakdown": {
+      "market": 8,
+      "products": 17,
+      "projects": 5,
+      "challenges": 6,
+      "collaboration": 4
+    },
+    "competitor_kept_total": 14,
+    "by_competitor": {
+      "NVIDIA": 7,
+      "Marvell": 3,
+      "Intel": 2,
+      "AMD": 1,
+      "Qualcomm": 1
+    }
+  }
+}

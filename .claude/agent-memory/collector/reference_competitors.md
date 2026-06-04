@@ -163,6 +163,16 @@ type: reference
 - **Moreh, HyperAccel, FriendliAI, Tenstorrent, Napatech, Marvell**: No qualifying May 28 articles found.
 - **NVIDIA**: No standalone May 28 announcement; Computex news flow continuing (see Computex forward calendar).
 
+## June 3-4 2026 update — competitor developments (Computex Day 3-4 / GTC Taipei finale)
+- **Marvell**: COMPUTEX keynote June 2 delivered (articles June 3-4 KST) — Teralynx T100: industry-first 102.4 Tbps switch silicon (3nm monolithic, <1000W, 512-port scale-out, co-packaged optics option). Jensen Huang declared Marvell "the next trillion-dollar company." Stock +33% single day (26-year record). Market cap $254B. NVIDIA $2B equity investment context confirmed. Vision: "data center without distance" via CPO. Q2 2026 sampling.
+- **NVIDIA**: Jensen Huang Korea Partner Night Taipei (June 1) with 30+ Korean companies (Samsung, SK Hynix, LG, Doosan, Naver). Korea visit arriving June 4 evening; meetings June 5+. Seoul National University visit June 8. Vera Rubin in full production; Samsung/SK Hynix/Micron all confirmed HBM4 suppliers. NVIDIA + TSMC fab AI collaboration (cuLitho, Metropolis FabTwin) announced at GTC Taipei.
+- **Intel**: Xeon 6+ Clearwater Forest launched at Computex — world's first datacenter CPU on Intel 18A (1.8nm-class) process. Flagship Xeon 6990E+: 288 Darkmont E-cores, 576MB L3, 12-ch DDR5 @8000MT/s, 96 PCIe 5.0 lanes, 330-450W TDP. Intel-SambaNova rackscale AI infrastructure partnership announced (SN-50 RDU + Xeon 6+ combo). Crescent Island datacenter GPU preview (2027).
+- **Qualcomm**: Dragonfly brand announced for datacenter products (Computex June 3). More details June 24 investor day. AI200 accelerator H2 2026, AI250 2027. CEO Amon declared 2026 "Year of Agents."
+- **AMD**: EXPO Ultra Low Latency DDR5 announced at Computex. Gorgon Halo (Ryzen AI Max PRO 400, up to 192GB unified) positioned vs NVIDIA RTX Spark. AMD executives: "You're just wrong if you don't get a Strix Halo notebook."
+- **Tier 1 Korean (Rebellions/FuriosaAI/Moreh/HyperAccel/FriendliAI)**: No standalone June 3-4 articles found. FuriosaAI pre-IPO round still open (mid-June close target). Rebellions KOSPI IPO Q3 2026 target unchanged.
+- **Astera Labs**: Scorpio X-Series 320-lane PCIe 6.0 switch (20 Tbps) at Computex — vendor-agnostic AI cluster scale-up.
+- **SambaNova**: SN-50 RDU confirmed in Intel rackscale AI + Vector Core Compute neocloud (Vista/Cambium Capital).
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform

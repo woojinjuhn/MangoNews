@@ -1,16 +1,16 @@
 {
   "collection_date_kst": "2026-06-04",
   "run_summary": {
-    "total": 45,
+    "total": 48,
     "by_topic": {
-      "ai": 18,
-      "semiconductor": 11,
-      "datacenter": 10,
-      "competitor": 6
+      "ai": 16,
+      "semiconductor": 14,
+      "datacenter": 14,
+      "competitor": 4
     },
     "by_competitor": {
-      "NVIDIA": 4,
-      "Marvell": 3,
+      "NVIDIA": 8,
+      "Marvell": 4,
       "Rebellions": 0,
       "FuriosaAI": 0,
       "Moreh": 0,
@@ -18,14 +18,14 @@
       "FriendliAI": 0,
       "Tenstorrent": 0,
       "Napatech": 0,
-      "AMD": 2,
-      "Intel": 1,
+      "AMD": 1,
+      "Intel": 3,
       "Qualcomm": 1
     },
-    "competitor_tagged_total": 11,
+    "competitor_tagged_total": 17,
     "sources_consulted": 28,
     "skipped_paywalled": 3,
-    "notes": "Recency window: 2026-06-03 ~ 2026-06-04 KST (last issue #019 was 2026-06-02). Tier 1 Korean competitors (Rebellions, FuriosaAI, Moreh, HyperAccel, FriendliAI) yielded no qualifying new articles in the Jun 3-4 window — confirmed via dedicated WebSearch in both English and Korean. Last major Rebellions news was the March 30 $400M pre-IPO / RebelRack/RebelPOD launch (already covered in prior issues). FuriosaAI pre-IPO round is still pending close (mid-June target). Tenstorrent acquisition talks (Intel/Qualcomm) remain status quo from May 18 Bloomberg report — no new developments. Napatech: no new Jun 3-4 news. HyperAccel Bertha 500 samples still Q1-end target (no new Jun 3-4 news). Moreh: no Jun 3-4 standalone news. FriendliAI: no Jun 3-4 standalone news. sdxcentral lambda CPO article dated June 2 — dropped (out of window). en.sedaily.com Jensen Huang article dated June 2 — dropped. RSS feed semianalysis.com: last build date Sep 2025, no 2026 content. hpcwire.com: returned 403. networkworld.com RSS: 404. wired.com: blocked. The Register networks section yielded 2 qualifying articles. Computex 2026 Day 3 (June 4) Tom's Hardware live blog was truncated — captured via individual article searches. DCD June 3 feed had 20 articles but most were datacenter real-estate/construction; selected highest-relevance items."
+    "notes": "Recency window: 2026-06-03 ~ 2026-06-04 KST (last issue #019 was 2026-06-02). Tier 1 Korean competitors (Rebellions, FuriosaAI, Moreh, HyperAccel, FriendliAI) yielded no qualifying new articles in the Jun 3-4 window — confirmed via dedicated WebSearch in both English and Korean. Last major Rebellions news was the March 30 $400M pre-IPO / RebelRack/RebelPOD launch (already covered in prior issues). FuriosaAI pre-IPO round is still pending close (mid-June target). Tenstorrent acquisition talks (Intel/Qualcomm) remain status quo from May 18 Bloomberg report — no new developments. Napatech: no new Jun 3-4 news. HyperAccel Bertha 500 samples still Q1-end target (no new Jun 3-4 news). Moreh: no Jun 3-4 standalone news. FriendliAI: no Jun 3-4 standalone news. sdxcentral lambda CPO article dated June 2 — dropped (out of window). en.sedaily.com Jensen Huang article dated June 2 — dropped. RSS feed semianalysis.com: last build date Sep 2025, no 2026 content. hpcwire.com: returned 403. networkworld.com RSS: 404. wired.com: blocked. The Register networks section yielded 2 qualifying articles. Computex 2026 Day 3 (June 4) Tom's Hardware live blog was truncated — captured via individual article searches. DCD June 3 feed had 20 articles but most were datacenter real-estate/construction; selected highest-relevance items. dropped: https://www.tomshardware.com/pc-components/cpus/amd-executives-react-to-nvidias-rtx-spark-youre-just-wrong-if-you-dont-get-a-strix-halo-notebook — publication time unverifiable (Tom's Hardware JSON-LD not surfaced; byline says Jun 3 but exact time unknown; T00:00:00+09:00 hard gate applied). Duplicate Iren Australia entry removed."
   },
   "articles": [
     {
@@ -429,16 +429,6 @@
       "competitor": "NVIDIA"
     },
     {
-      "title": "AMD executives react to Nvidia's RTX Spark: 'You're just wrong if you don't get a Strix Halo notebook'",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-executives-react-to-nvidias-rtx-spark-youre-just-wrong-if-you-dont-get-a-strix-halo-notebook",
-      "body": "AMD executives responded directly to Nvidia's RTX Spark laptop AI chip announcement at Computex 2026, aggressively defending their Ryzen AI Max PRO 400 (Gorgon Halo) platform. An AMD executive stated: 'You're just wrong if you don't get a Strix Halo notebook.' The Gorgon Halo offers up to 192GB of unified memory for on-device AI inference, compared to the shared memory architecture of Nvidia's RTX Spark system.\n\nThe competitive dynamic is significant: Nvidia's RTX Spark marks its first entry into the laptop CPU/SoC market, directly challenging AMD's Ryzen AI franchise. AMD counters that its Strix Halo platform offers superior memory bandwidth and capacity for AI workloads at a given price point.\n\nThe memory debate is complicated by the DRAM price crisis: 32GB of DDR5 now costs $375 minimum (up from ~$90 pre-AI memory shortage), making the 192GB Gorgon Halo configurations significantly more expensive to build. Both AMD and Nvidia are launching on-device AI platforms into the most expensive memory environment in 15 years.",
-      "published_at": "2026-06-04T00:00:00+09:00",
-      "source": "Tom's Hardware",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["competitor", "ai"],
-      "competitor": "AMD"
-    },
-    {
       "title": "TSMC 3nm price hikes of up to 15% in H2 2026 as AI demand tightens foundry capacity",
       "url": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tsmc-weighs-ai-pricing-power-against-overseas-fab-margin-pre",
       "body": "TSMC is implementing 3 nanometer process price hikes of up to 15% in the second half of 2026, underscoring how central TSMC is to the AI chip supply chain for Nvidia, AMD, Google, AWS and others. The price increases reflect TSMC's dominant position in advanced node manufacturing and the insatiable demand from AI chip developers.\n\nContext: TSMC's CoWoS advanced packaging capacity is expanding from 35,000 to 120,000-130,000 monthly wafer starts by end-2026, but remains constrained relative to demand. The 3nm node hosts some of the most critical AI chips including NVIDIA's Blackwell/Vera Rubin GPUs, Apple's A18 series, and AMD's EPYC Venice (2nm). Price hikes at TSMC propagate directly to AI infrastructure costs downstream.\n\nThe price increase signals TSMC's confidence in its monopoly-like position at the advanced node frontier and its ability to pass rising packaging and substrate costs through to customers. NVIDIA and AMD have already built TSMC pricing into their product roadmaps through long-term supply agreements.",
@@ -515,16 +505,6 @@
       "published_at": "2026-06-03T19:49:00+09:00",
       "source": "AI타임스",
       "topic_tag": "ai",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "Iren targets Australia for 800MW data center campus",
-      "url": "https://www.datacenterdynamics.com/en/news/iren-targets-australia-for-800mw-data-center-campus/",
-      "body": "Placeholder — merged into earlier entry",
-      "published_at": "2026-06-04T01:42:00+09:00",
-      "source": "Data Center Dynamics",
-      "topic_tag": "datacenter",
       "secondary_tags": [],
       "competitor": null
     }
