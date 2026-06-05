@@ -173,6 +173,15 @@ type: reference
 - **Astera Labs**: Scorpio X-Series 320-lane PCIe 6.0 switch (20 Tbps) at Computex — vendor-agnostic AI cluster scale-up.
 - **SambaNova**: SN-50 RDU confirmed in Intel rackscale AI + Vector Core Compute neocloud (Vista/Cambium Capital).
 
+## June 5 2026 update — competitor developments
+- **NVIDIA**: Jensen Huang arrived Seoul June 5 via chartered flight at Gimpo Business Aviation Center. Evening dinner at Hongdae BBQ restaurant ('형님저어요') with SK Chairman Choi Tae-won, LG Chairman Koo Kwang-mo, Naver Chairman Lee Hae-jin. Hyundai Chairman Chung Euisun meeting separate. Doosan Bears baseball (June 7 Jamsil Stadium) — Huang pitches (jersey #93/Nvidia founding year), Doosan Chairman Park Jeongwon bats (#96/Doosan founding year). Seoul National University visit June 8. Discussion: HBM supply, AI datacenter, robotics, physical AI, autonomous driving. This is the dominant Korean news story of the day.
+- **NVIDIA + Samsung/SK Hynix HBM4**: At Computex June 2 SK Hynix booth, Huang signed "Please make more" on HBM4E wafer; SK Hynix SK Chairman Choi pledged 2x wafer capacity in 5 years; Samsung showed HBM5 prototype with 2nm base die + Heat Path Block cooling.
+- **KOSPI circuit breaker**: June 5 KOSPI dropped 6%+, circuit breaker triggered (KOSPI 200 futures -5%). Samsung -7%, SK Hynix -9%. Cause: Broadcom Q2 FY2026 earnings miss — guided AI chip Q3 at $16B vs $17.2B expected. AVGO dropped 15%. Philadelphia Semiconductor Index -5.45%.
+- **Broadcom Q2 FY2026**: Revenue $22.19B (+48% YoY, beat). AI chip Q3 guidance $16B (miss). Full-year AI guidance $56B (miss vs $57.6B expected). Custom ASIC/XPU business strong but not enough to offset market disappointment. Broadcom at June 5 competitor tag level.
+- **Marvell Teralynx T100**: The Elec covered on June 5 (07:30 KST) — 102.4 Tbps AI switch chip in 3nm, <1000W, 512-port scale-out; Q2 2026 sampling. Jensen Huang "next trillion-dollar company" comment still reverberating.
+- **FuriosaAI, Rebellions, Moreh, HyperAccel, FriendliAI, Tenstorrent, Napatech**: No standalone June 5 dedicated news found. Monitor June 6+.
+- **Anthropic IPO**: Filed preliminary IPO paperwork (June 1 NPR); $965B valuation; leading round Altimeter/Dragoneer/Greenoaks/Sequoia. SpaceX targeting $75B IPO proceeds in June. OpenAI year-end listing expected.
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform

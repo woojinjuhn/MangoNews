@@ -1,0 +1,160 @@
+{
+  "filter_date_kst": "2026-06-05",
+  "kept": [
+    {
+      "id": 3,
+      "title": "\"제발 더 만들어줘\" 젠슨 황의 간청…SK하이닉스·삼성전자, HBM 공급 '속도'",
+      "url": "https://www.fnnews.com/news/202606050530068152",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "HBM4E 웨이퍼 'Please make more' 사인, 삼성 HBM5 시제품 첫 공개, AMD 차세대 가속기용 HBM 공급사 지명까지 — AI 메모리 공급망의 핵심 product 업데이트 (products)."
+    },
+    {
+      "id": 14,
+      "title": "Kospi Index Slumps Over 6% at One Point, Samsung Electronics Falls Over 7%, SK Hynix Drops More Than 9%, AI Bubble Fears Partially Erupt",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261947500-kospi-korea-crash-samsung-sk-hynix-broadcom-ai-chip-guidance-miss-foreign-outflow-circuit-breaker-tradingkey",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Broadcom Q3 AI 칩 가이던스 미스($16B vs $17.2B 기대)로 KOSPI 회로차단기 발동, 외국인 $22B 순매도 — AI 사이클 신호 (market)."
+    },
+    {
+      "id": 1,
+      "title": "Chip Capacity Constraints Put A Governor On AI Spending Growth",
+      "url": "https://www.nextplatform.com/ai/2026/06/05/chip-capacity-constraints-put-a-governor-on-ai-spending-growth/5251474",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Gartner $725B capex/2026 75% AI 인프라 + CoWoS/HBM 제약 2027까지 — AI 인프라 공급 병목 (challenges)."
+    },
+    {
+      "id": 8,
+      "title": "DDR5 RAM Hits $375 Floor for PC Builders: HBM Takes Three Times More Wafers",
+      "url": "https://www.techtimes.com/articles/317789/20260604/ddr5-ram-hits-375-floor-pc-builders-hbm-takes-three-times-more-wafers.htm",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "HBM:DDR5 웨이퍼 3:1 변환, 데이터센터 2026년 메모리 70% 소비, DRAM 가격 +58~63% QoQ — DPU 시스템 메모리 수급 직격 (challenges)."
+    },
+    {
+      "id": 12,
+      "title": "Marvell Unveils 'Teralynx T100' Ultra-High-Speed AI Switch Chip",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11006",
+      "category": "products",
+      "competitor": "Marvell",
+      "keep_reason": "Marvell 102.4Tbps 3nm AI 데이터센터 스위치, CPO/CPC 패키지, Broadcom Tomahawk 6와 직접 경쟁 — DPU/SmartNIC 인접 경쟁사 핵심 product (products)."
+    },
+    {
+      "id": 2,
+      "title": "젠슨 황 오늘 최태원·정의선·구광모·이해진과 '삼소회동'",
+      "url": "https://www.fnnews.com/news/202606050530185398",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "젠슨황 4일 방한(6/5~8) SK·현대·LG·네이버 총수 만찬, HBM/AI 데이터센터/피지컬 AI 협력 의제 — 한국 AI 생태계 핵심 이벤트 (market)."
+    },
+    {
+      "id": 4,
+      "title": "Jensen Huang to Meet South Korea's Business Leaders in Seoul for AI Alliance Talks",
+      "url": "https://en.bloomingbit.io/feed/news/113581",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "젠슨황 방한 영문 1차 종합 — Vera Rubin 양산+Samsung/SK/Micron HBM4 공급 컨텍스트 보완 (market)."
+    },
+    {
+      "id": 18,
+      "title": "코스피 장 초반 4%대 급락…매도 사이드카 발동",
+      "url": "https://www.etnews.com/20260605000030",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "코스피200 선물 5% 급락 사이드카 발동, 삼성·SK하이닉스 주도 — Broadcom 충격 한국 시장 1차 보도 (market)."
+    },
+    {
+      "id": 17,
+      "title": "[금융·헬스케어 강세에 다우지수 875포인트 급등...마이크론 7.74% 급락]",
+      "url": "https://www.etnews.com/20260605000007",
+      "category": "market",
+      "competitor": "Broadcom",
+      "keep_reason": "Micron 7.74% 급락, Broadcom -15%, 필라델피아 반도체지수 -5.45% — 미국 측 반도체 섹터 로테이션 신호 (market)."
+    },
+    {
+      "id": 7,
+      "title": "UN proposes users skip politeness to AI chatbots to cut energy use",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211314",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "데이터센터 448TWh/년 소비, 차세대 GPU 랙 전력 4~5배 증가 전망 — AI 인프라 전력 효율 challenges (challenges)."
+    },
+    {
+      "id": 6,
+      "title": "GlobalFoundries acquires Synopsys ARC processor IP business",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11008",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "GF가 MIPS 산하로 ARC/RISC-V IP 통합, 피지컬 AI/embedded AI 타겟 — 파운드리·IP 생태계 재편 (products)."
+    },
+    {
+      "id": 5,
+      "title": "Doosan Chairman Park Jeongwon to Meet Nvidia CEO Jensen Huang at Jamsil Baseball Stadium",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11012",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "두산-NVIDIA 잠실 시구 이벤트(7/jersey 93/96) — 별도 사업 미팅 가능성, 두산-NVIDIA B2B 관계 신호 (market)."
+    },
+    {
+      "id": 16,
+      "title": "[AI·우주기업 상장 광풍…140년 된 은광도 뉴욕증시 달궜다]",
+      "url": "https://www.etnews.com/20260605000008",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SpaceX $75B IPO, Anthropic $96.5B 밸류 시리즈H + 예비 IPO 서류, OpenAI 연말 상장 검토 — AI 자본시장 사이클 (market)."
+    },
+    {
+      "id": 9,
+      "title": "OpenAI Is Fixing ChatGPT's Short-Term Memory Loss — Even for Free Users",
+      "url": "https://www.iclarified.com/101066/openai-launches-dreaming-v3-memory-system-for-chatgpt",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "ChatGPT 'dreaming' 메모리 아키텍처, compute 5x 감소로 무료 티어 확장 — AI 모델 업데이트 (products)."
+    },
+    {
+      "id": 13,
+      "title": "'AI가 사람부터 정리했다'…美 IT업계, 5월 감원규모 21개월 만에 '최대'",
+      "url": "https://www.etnews.com/20260605000014",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "美 IT 5월 감원 8,242명(21개월 최대), Meta 8,000명 감원+7,000명 AI 재배치 — AI 자동화발 산업 구조조정 (market)."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 10,
+      "title": "젠슨 황, 오늘 SK·LG·네이버 총수와 홍대서 '삼겹살' 회동",
+      "discard_reason": "duplicate of article 2 (fnnews 삼소회동) and article 4 (bloomingbit 영문) — 만찬 명단/일정 동일하며 T1 게임 베이스캠프 추가만으로는 별도 각도 부족."
+    },
+    {
+      "id": 11,
+      "title": "Infineon to Exit Mexico Backend Semiconductor Operations, Reviews Site Sale",
+      "discard_reason": "off-topic — Infineon 자동차/embedded power semi 백엔드 footprint 재편으로 DPU/AI 인프라 가치사슬과 무관 (자동차 power semi discard doctrine)."
+    },
+    {
+      "id": 15,
+      "title": "[AI MY 증시전망] 코스피, 반도체 숨고르기 속 순환매 장세…코스닥 반등 주목",
+      "discard_reason": "duplicate of articles 14/17/18 — Broadcom 충격/사이드카/순환매 정보 모두 다른 기사에 포함되어 있고 추가 신호 약함."
+    }
+  ],
+  "summary": {
+    "total_received": 18,
+    "total_kept": 15,
+    "total_discarded": 3,
+    "category_breakdown": {
+      "market": 8,
+      "products": 4,
+      "projects": 0,
+      "challenges": 3,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 7,
+    "by_competitor": {
+      "NVIDIA": 5,
+      "Marvell": 1,
+      "Broadcom": 1
+    }
+  }
+}

@@ -58,6 +58,21 @@ type: reference
 ## Updated source notes (2026-05-03 run)
 - **NetworkWorld** index.rss returns 404 — remove from working feeds
 - **HPC Wire** feed returns 403 — unreliable; use direct article URLs surfaced via WebSearch instead
+
+## Updated source notes (2026-06-05 run)
+- **전자신문 (etnews.com)**: Mobile homepage (m.etnews.com) lists same-day articles with sequential IDs; example June 5 articles: /20260605000007, /20260605000008, /20260605000014, /20260605000023, /20260605000030. Accessible via direct URL; JSON-LD or byline gives publication time. Good for Korean-language daily market news + AI sector news.
+- **뉴스핌 (newspim.com)**: Same-day articles accessible; URL pattern news/view/20260605000NNN. Korean market/semiconductor analysis.
+- **TradingKey**: Accessible; publishes Korean market crash analysis with precise timestamps; good for KOSPI/semiconductor stock events.
+- **파이낸셜뉴스 (fnnews.com)**: URL pattern YYYYMMDDHHMMID; accessible; good for Korean conglomerate/Jensen Huang visit coverage.
+- **bloomingbit.io/feed/news**: Korea Economic Daily English-language wire; accessible; good for Jensen Huang Korea visit English coverage.
+- **iClarified.com**: Accessible; covers Apple ecosystem and AI product announcements with June 5 timestamps visible; no JSON-LD but header date visible.
+- **TechCrunch**: June 5 KST articles not visible on category page on June 5 morning (articles timestamped June 4 KST visible); fetch late in collection window.
+- **ServeTheHome**: No June 5 articles in site index; primarily publishes Mon-Fri US daytime hours.
+- **NextPlatform**: Single June 5 article confirmed in feed; 00:26 UTC = 09:26 KST; reliable for analytical/weekly AI infrastructure pieces.
+- **AnySilicon**: WSTS June 2 forecast article — do NOT use for June 5 collection; out-of-window.
+- **Tom's Hardware custom AI ASIC article**: "May 2026" title signals older date; always verify JSON-LD datePublished before including TH articles.
+- **en.sedaily.com (Seoul Economic Daily English)**: Preview/preview articles often dated days before the event; always verify JSON-LD or byline before including.
+- **Naver News (news.naver.com)**: Claude Code unable to fetch — confirmed JS-rendered, skip direct fetch; use WebSearch to surface individual article URLs from Naver then fetch those directly.
 - **DataCenterDynamics RSS** works but body fetch returns 403; use headlines from feed, supplement with search
 - **Wired** RSS blocked entirely by WebFetch tool
 - **indexbox.io/blog/** — good for Tenstorrent/competitor product launches; same-day explicit dates; accessible
