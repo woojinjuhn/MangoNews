@@ -98,6 +98,30 @@ type: reference
 - **TrendForce** (trendforce.com/news/) — accessible; TSMC CoWoS/advanced packaging pricing data; explicit dated articles
 - **prnewswire.com** — accessible for Korean company press releases (Moreh, Rebellions PRs often syndicated here)
 - **thenextweb.com** — accessible; good for Google/Marvell/hyperscaler custom silicon news; explicit dates
+
+## Source notes (2026-06-08 run — weekend collection window)
+- **SemiAnalysis RSS** (semianalysis.com/feed/): Feed is effectively dead — latest items are September 2025. Do not rely on RSS; check site directly via WebSearch.
+- **NetworkWorld RSS**: Confirmed 404. Do not attempt.
+- **HPC Wire RSS**: Confirmed 403. Skip.
+- **Wired RSS**: Blocked by WebFetch. Skip.
+- **DataCenterDynamics RSS**: Works but weekend-only articles (Jun 6-7) were peripheral (orbital power stations, Argentina DC launch) — low relevance for MangoBoost domains.
+- **AI타임스 RSS**: Highest yield Korean source — Jun 6-8 window produced 7+ directly relevant articles.
+- **Korea Herald (koreaherald.com)**: Excellent for Jensen Huang Korea visit coverage and KOSPI semiconductor news; accessible; no paywall on standard articles.
+- **TradingKey**: Good for KOSPI circuit-breaker / stock market analysis; accessible; publishes with precise timestamps.
+- **파이낸셜뉴스 (fnnews.com)**: Accessible; breaks Korean pre-market stock news earliest (8AM KST articles).
+- **bloomingbit.io**: English-language Korea Economic Daily wire; good for Jensen Huang / NVIDIA Korea ecosystem articles.
+- **Tom's Hardware**: article bodies accessible; June 7 articles confirmed fetchable (ASML, Google/SpaceX deal, Huawei/DeepSeek).
+- **TechCrunch RSS**: Weekend articles (Jun 6-7) well covered; OpenAI super app, lockdown mode, tokenpocalypse all June 6-7.
+- **더일렉 (thelec.kr)**: Weekend articles confirmed; thelec.kr article list page shows June 6-8 items directly.
+- **ZDNet Korea**: June 7 articles confirmed; accessible for LGU+ datacenter strategy.
+
+## Query patterns that surfaced novel stories (2026-06-08 run)
+- `"Black Monday" Korea KOSPI semiconductor June 8 2026 Samsung SK Hynix selloff` — surfaced Korea Herald, TradingKey circuit-breaker articles
+- `chip sector semiconductor selloff June 6 2026 Broadcom Marvell Micron` — confirmed selloff scope; congress.net byline June 5 (window-out)
+- `Jensen Huang Seoul Korea visit June 8 2026 SNU` — surfaced Korea Herald, bloomingbit, aitimes comprehensive itinerary
+- `Huawei Ascend 910C DeepSeek V4 post-training China AI chips June 7 2026` — surfaced Tom's Hardware June 6 article
+- `ASML EUV Europe most valuable company June 2026` — surfaced Tom's Hardware June 7 article
+- `LGU+ AI datacenter 2030 5조 계약 June 2026` — surfaced ZDNet Korea June 7 article + AITimes
 - **fortune.com** — accessible for big tech capex/data center articles; explicit dates; good heat island / sustainability coverage
 - **topnews.in** — accessible; republishes Korea semiconductor export analysis; explicit dates; easier access than Bloomberg
 - **TrendForce** beat: TSMC CoWoS wafer ASP approaching $10K (same as 7nm); key pricing signal for quarterly tracking

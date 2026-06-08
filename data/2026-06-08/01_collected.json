@@ -1,0 +1,261 @@
+{
+  "collection_date_kst": "2026-06-08",
+  "run_summary": {
+    "total": 21,
+    "by_topic": {
+      "ai": 10,
+      "semiconductor": 5,
+      "datacenter": 3,
+      "competitor": 3
+    },
+    "by_competitor": {
+      "NVIDIA": 4,
+      "Broadcom": 3,
+      "Marvell": 0,
+      "Rebellions": 0,
+      "Furiosa": 0,
+      "Moreh": 0,
+      "FriendlyAI": 0,
+      "HyperAccel": 0,
+      "Napatech": 0,
+      "Tenstorrent": 0,
+      "Huawei": 0
+    },
+    "competitor_tagged_total": 7,
+    "sources_consulted": 14,
+    "skipped_paywalled": 2,
+    "notes": "수집 윈도우: 2026-06-06 ~ 2026-06-08 KST (last issue #021 date: 2026-06-05). 주말+월요일 3일치 수집. 누락/이슈: (1) networkworld.com RSS 404 오류로 접근 불가. (2) wired.com RSS 접근 차단. (3) semianalysis.com RSS 최신 항목이 2025-09월로 피드 업데이트 중단 상태. (4) hpcwire.com RSS 403 오류. (5) Digitimes WSTS 기사 페이월로 본문 미추출 후 제외. (6) congress.net 반도체 셀오프 기사 byline June 5 — window 밖 제외. (7) startuphub.ai 반도체 셀오프 기사 June 5 — window 밖 제외. (8) Next Platform chip capacity 기사 June 5 KST — window 밖 제외. (9) TradingKey KOSPI 기사 Korea Herald와 중복 — Korea Herald 유지. (10) KT Cloud/Rebellions NPU 공공기관 서비스 발표 June 4 — window 밖 제외. (11) SoftBank France €75B 데이터센터 발표 May 30-31 — window 밖. (12) Moreh/FriendlyAI/HyperAccel/Rebellions/Furiosa/Napatech/Tenstorrent: June 6-8 신규 특정 발표 없음. dropped: https://www.digitimes.com/news/a20260605VL208/ — paywall. Huawei DeepSeek V4 기사는 Tom's Hardware에서 커버되어 AITimes 한국어 버전과 병존 (다른 언어, 내용 보완적)."
+  },
+  "articles": [
+    {
+      "title": "Kospi slides 8% on US chip sell-off",
+      "url": "https://www.koreaherald.com/article/10765666",
+      "body": "The South Korean benchmark Kospi plunged more than 8 percent Monday, mirroring a rout in US semiconductor stocks on Wall Street, which triggered a circuit breaker.\n\nThe Kospi opened 1.38 percent lower at 8,048.09. Soon after the opening bell, selling accelerated, pushing the index below the 8,000 mark. It stood at 7,477.46, down 8.37 percent, as of 9:12 a.m.\n\nA circuit breaker was triggered, halting program trading for 20 minutes after the benchmark index plunged more than 8 percent.\n\nForeign investors were net sellers of 352.7 billion won ($227.3 million) worth of shares, while retail and institutional investors purchased a net 247.5 billion won and 112.8 billion won, respectively.\n\nSemiconductor stocks paced the decline, with Samsung Electronics slumping 9.27 percent to 298,500 won. SK hynix fell 8.02 percent to 1.9 million won, slipping below the 2 million won threshold. SK Square tumbled 11.13 percent to 1.11 million won, while Hyundai Motor dropped 9.86 percent to 631,000 won.\n\nAll three major US stock indexes ended the session sharply lower Friday, with plunging chip stocks dragging the tech-heavy Nasdaq Composite down 4.18 percent. The S&P 500 fell 2.64 percent, snapping its nine-week streak of Friday-to-Friday gains.\n\nThe selloff stemmed from Broadcom's disappointing AI chip guidance miss and stronger-than-expected US non-farm payrolls data, which triggered fears of Federal Reserve rate hike resumption. The 10-year Treasury yield climbed above 4.5%, pressuring risk asset valuations. The iShares Semiconductor ETF dropped 10% — its worst day since March 2020. South Korean financial authorities pledged immediate intervention against excessive market volatility.",
+      "published_at": "2026-06-08T09:12:00+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": "Broadcom"
+    },
+    {
+      "title": "'검은 월요일' 오나…프리마켓서 삼전 10% 급락…SK하닉도 8%↓",
+      "url": "https://www.fnnews.com/news/202606080821209391",
+      "body": "지난 주말 뉴욕 증시 급락 여파에 반도체 대장주 삼성전자와 SK하이닉스가 프리마켓에서 급락하고 있다.\n\n8일 오전 8시 기준 삼성전자는 전거래일 대비 11.2% 하락한 292,500원에 거래되고 있으며, SK하이닉스는 9.7% 하락한 1,868,000원에 거래 중이다.\n\n이번 급락은 미국 증시가 연준의 금리 인상 우려와 반도체 주 하락으로 급락한 여파다. 미국의 5월 고용지표가 시장 예상을 크게 웃돌면서 연준이 통화 긴축 기조로 전환할 것이라는 우려가 커졌다. 여기에 브로드컴 실적 악재가 더해지면서 미국 3대 지수가 모두 하락했다: 다우존스 -1.35%, S&P500 -2.65%, 나스닥 -4.18%.\n\nAI 관련주는 더 큰 낙폭을 보였다. 마이크론 -13.25%, 샌디스크 -11.39%, 웨스턴디지털 -11.06%, 인텔 -11.28%, AMD -10.86% 등이다.\n\n반도체 업종 하락은 브로드컴이 최근 실적 발표 컨퍼런스 콜에서 AI 반도체 매출 전망을 올리지 않은 것에서 촉발됐다는 분석이 많다. 이로 인해 AI 데이터센터 투자의 '피크아웃'이 이미 발생했다는 우려가 확산됐다. 필라델피아 반도체 지수(SOXX)는 10.4% 하락해 6년 최대 낙폭을 기록했다.",
+      "published_at": "2026-06-08T08:21:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": "Broadcom"
+    },
+    {
+      "title": "Jensen Huang to Cap Korea Visit With Stops at LG, Seoul National University, Hyundai and Naver",
+      "url": "https://en.bloomingbit.io/feed/news/113721",
+      "body": "Nvidia's CEO Jensen Huang will conclude his South Korea visit on June 8 by meeting with major corporations, an academic institution, and emerging tech companies to explore collaboration opportunities.\n\nHuang's schedule includes visits to LG Twin Towers in Seoul's Yeouido district, Seoul National University, Hyundai Motor Group's Seoul headquarters, and Naver's 1784 facility in Gyeonggi Province. These discussions will focus on 'AI infrastructure, robotics, physical AI, cloud computing and digital twins.'\n\nAt LG, conversations will address manufacturing AI, robotics capabilities, and cooling infrastructure for data centers. LG has prioritized robotics development and invested in companies like AgiBot.\n\nSeoul National University will host tours of AI research facilities, with Huang requesting direct engagement with students to discuss physical AI and robot-control technology.\n\nHyundai Motor Group expects to discuss commercializing Boston Dynamics' humanoid robot Atlas and autonomous vehicle development. Hyundai Motor Group is deploying 50,000 Nvidia Blackwell GPUs for these initiatives, with the companies committed to a $3 billion joint investment in physical AI.\n\nAt Naver's headquarters, topics will encompass sovereign AI, cloud services, and robotics applications.\n\nThe evening of June 8 will feature a meeting with South Korean AI startup leaders at the Shilla Hotel, where Huang will deliver remarks around 6:50 p.m.",
+      "published_at": "2026-06-08T09:00:00+09:00",
+      "source": "BloomingBit",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "\"깐부 어게인\"...젠슨 황, 유퀴즈·야구장 시구 넘나든 종횡무진 행보",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211434",
+      "body": "NVIDIA CEO 젠슨 황이 한국 방문 기간 동안 tvN '유 퀴즈 온 더 블럭' 출연과 잠실야구장 시구 등 다양한 문화·비즈니스 행보를 이어갔다.\n\n젠슨 황은 6일 tvN 예능 프로그램 유 퀴즈에 출연한 후 종로구의 한 삼계탕 전문점에서 저녁 식사를 즐겼다. 이 자리에는 국내 반도체·AI 관련 기업 관계자들도 동석했다.\n\n7일에는 정의선 현대자동차그룹 회장과 점심 식사를 갖고 피지컬 AI 솔루션의 모빌리티 제조 접목 방안과 자율주행 기술 협력을 논의했다. 이후 강남의 한 PC방에서 배틀그라운드 모바일 개발사 크래프톤의 백경훈 의장, NC소프트 김택진 대표와 연이어 회동하며 피지컬 AI 개발 및 게임 분야 협력을 모색했다.\n\n같은 날 잠실야구장에서는 두산 베어스 유니폼을 입고 시구에 나섰다. 등번호는 NVIDIA 창업 연도인 '93'번이었다. 박정원 두산 회장과도 만나 두산로보틱스의 휴머노이드·협동로봇 역량을 논의했다.\n\n이후 강남에서 최태원 SK그룹 회장과 재회하며 차세대 가속기, CPU, AI 노트북, 휴머노이드 슈퍼컴퓨터 등 '4가지 선물'을 통한 파트너십 강화를 강조했다.",
+      "published_at": "2026-06-08T06:51:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Jensen Huang courts Korea's AI ecosystem on packed Seoul tour",
+      "url": "https://www.koreaherald.com/article/10765416",
+      "body": "Nvidia's CEO Jensen Huang conducted an extensive Seoul visit combining celebrity appeal with strategic business engagement across Korea's technology sector. His itinerary spanned gaming establishments, corporate dinners, and meetings with major industry figures.\n\nThe trip commenced at T1 Base Camp, a gaming cafe, where Huang met esports legend Lee 'Faker' Sang-hyeok. Huang highlighted Nvidia's 25-year relationship with Korea's gaming community through its GeForce graphics card line.\n\nA significant moment occurred at Hyeongnim Jeoyo restaurant in Hongdae, where Huang dined with SK Group Chair Chey Tae-won, LG Group Chairman Koo Kwang-mo, and Naver founder Lee Hae-jin. The gathering featured traditional Korean barbecue and drinks, with Huang stating: 'Business is booming!' He emphasized that his Korean partners held substantial importance to him.\n\nHuang announced four technological offerings: Vera Rubin, Vera, RTX Spark, and Jetson series chips. These utilize high-bandwidth memory and LPDDR5 components from Samsung Electronics and SK hynix.\n\nNvidia plans to establish a research and development facility in Korea, capitalizing on local expertise in AI, robotics, and semiconductors. The company is developing robotics partnerships with Hyundai Motor Group alongside collaborations with LG, SK, Samsung, and Naver.\n\nAdditional engagements included appearances at PC bangs with Krafton and NC gaming companies, a baseball stadium first pitch wearing a Doosan Bears jersey numbered 93 (Nvidia's founding year), and a television appearance on 'YouQuiz on the Block.'\n\nMonday's scheduled activities encompassed meetings with Seoul National University's AI Institute, robotics laboratories, and startup executives from Upstage, Nota, RLWRLD, and Aei Robot at The Shilla Seoul. Huang planned discussions with Science and ICT Minister Bae Kyung-hoon regarding AI cooperation and GPU supply.",
+      "published_at": "2026-06-07T15:29:15+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "젠슨 황, 최태원과 '깐부' 맺었다…내일 삼성전자와도 회동",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57718",
+      "body": "NVIDIA CEO 젠슨 황이 7일 강남의 한 치킨 전문점에서 최태원 SK그룹 회장과 만남을 가졌다. 이 자리는 이틀 전 홍대 삼겹살 회동에 이어 두 번째 만남이다.\n\n최태원 회장은 젠슨 황이 작년 유사한 자리에 부재했던 것에 대해 아쉬움을 표했다고 전했다. 두 리더는 모인 미디어와 팬들에게 직접 치킨을 나눠주는 모습도 보였다.\n\n젠슨 황은 SK하이닉스의 고대역폭메모리(HBM) 제품을 '세계 최고 HBM'이라고 치켜세우며 NVIDIA AI 슈퍼컴퓨터에서의 핵심 역할을 강조했다. 올해 출시 예정인 베라 루빈, 베라 CPU, RTX 스파크, 젯슨 토르 등 4가지 제품 모두 한국 파트너들이 관여하고 있다고 밝혔다.\n\n메모리 공급 부족 현황에 대해서는 웨이퍼, 고급 패키징, 실리콘 포토닉스, 커넥터 등 전반에 걸쳐 수년간 지속될 것으로 내다봤다.\n\n8일에는 삼성전자 조성훈 부회장과도 만날 계획임을 확인했다. 이 자리에는 곽노정 SK하이닉스 사장, 정재헌 SK텔레콤 사장, 황씨 가족 등도 참석했으며, 계산은 곽 사장이 했다.",
+      "published_at": "2026-06-07T12:00:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "ASML becomes Europe's most valuable company ever as analysts bet on higher EUV output",
+      "url": "https://www.tomshardware.com/tech-industry/asml-beocmes-europes-most-valuable-company-ever-as-analysts-bet-on-higher-euv-output",
+      "body": "ASML achieved a historic market capitalization milestone of $674 billion this week, surpassing the previous European record of approximately $650 billion set by Novo Nordisk in June 2024. The Dutch maker of chipmaking gear became Europe's most valuable company ever.\n\nASML shares rose as much as 2.3% on Wednesday June 3, giving the company a market capitalization equivalent to $674 billion. The 60% year-to-date advance was fueled by a clamor for stocks with exposure to the buildout of artificial intelligence data centers.\n\nThe achievement reflects analyst confidence in the company's ability to increase EUV (extreme ultraviolet) lithography output. JPMorgan and Morgan Stanley published near-identical notes arguing ASML can manufacture far more machines than the market had assumed. Both firms argued ASML's installed base of EUV tools is significantly under-utilized and that incremental capacity — particularly High-NA EUV tooling scheduled to ramp in 2026 — positions the company for sustained order momentum.\n\nASML is the sole supplier of extreme ultraviolet lithography machines used by TSMC, Samsung, and Intel Foundry to print leading-edge logic. Each High-NA EUV machine costs approximately $380 million, and demand is tied directly to the global race to build AI data center infrastructure. The company's unique monopoly position in advanced lithography makes it an irreplaceable node in the semiconductor supply chain.",
+      "published_at": "2026-06-07T10:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Huawei-led team claims it post-trained DeepSeek's 1.6-trillion-parameter model — 1,000 Ascend 910C chips used in training",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips",
+      "body": "A research group including Huawei Technologies has completed full-parameter post-training of DeepSeek's V4-Pro, a 1.6-trillion-parameter AI model, using a cluster of at least 1,000 Huawei Ascend 910C chips. The announcement was made through the Shenzhen municipal government.\n\nHuawei carried out the work with the Shenzhen Loop Area Institute, the Shenzhen campus of Harbin Institute of Technology, and the Shenzhen Research Institute of Big Data.\n\nThe training cluster completed more than 1,500 training iterations without a single interruption or error, while the process also improved the model's mathematical capabilities.\n\nThe revelation is evidence that Chinese accelerators can now handle a training-class workload on domestic silicon — the part of the AI pipeline Chinese firms have had the most trouble moving off Nvidia hardware under U.S. export controls.\n\nPost-training is essentially the 'tuning' stage that follows the much larger pre-training phase. It shapes behavior through instruction-following, safety alignment, and task-specific data. Completing it on Ascend silicon is a genuine result for the platform, but it does not demonstrate that the chips can pre-train a frontier model from scratch, which is the heavier and costlier job.\n\nThe Ascend 910C previously demonstrated 60% of Nvidia's H100 performance in inference tasks. While Chinese AI chips have established competitive footing in inference applications, learning phases require substantially greater computational power and stability. DeepSeek has not issued an official statement about the announcement.",
+      "published_at": "2026-06-06T10:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "화웨이·선전 연구진 \"중국산 AI 칩으로 '딥시크 V4-프로' 사후학습 성공\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211428",
+      "body": "화웨이와 중국 연구기관들이 1,000개 이상의 화웨이 AI 가속기를 활용해 딥시크의 AI 모델 'V4-프로' 사후학습을 완료했다고 발표했다. 이번 성과는 중국산 AI 칩이 기존에 취약점으로 지목됐던 학습 워크로드를 처리할 수 있음을 입증하는 사례다.\n\n화웨이, 선전 루프 지역 연구소, 하얼빈 공과대학교 선전 캠퍼스, 선전 빅데이터 연구소 등으로 구성된 연구팀은 화웨이의 '어센드 910C' 칩을 활용했다. 팀 측은 이번 작업이 단순한 경량화 튜닝이 아닌 '전체 파라미터 사후학습'이라며 모든 모델 가중치를 업데이트했다고 강조했다.\n\n다만 전문가들은 신중한 반응을 보이고 있다. 학습 소요 시간, 처리 효율, 엔비디아 하드웨어와의 비교 벤치마크 등 핵심 성능 지표가 공개되지 않았으며, 발표가 중국 정부 채널을 통해 이뤄진 반면 딥시크는 공식 성명을 내놓지 않았다.\n\n어센드 910C는 기존 추론 작업에서 엔비디아 H100의 60% 수준의 성능을 보인 바 있다. 중국산 AI 칩은 추론 분야에서 경쟁력 있는 입지를 확보한 반면, 학습 단계에서는 훨씬 큰 연산력과 안정성이 요구된다.",
+      "published_at": "2026-06-07T16:16:17+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "EU, 반도체·AI '기술 주권' 전략 공개...\"미국 빅테크 의존 줄인다\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211430",
+      "body": "EU는 반도체, AI, 클라우드 컴퓨팅 분야에서 미국 및 아시아 기술 기업에 대한 의존도를 낮추기 위한 포괄적인 '기술 주권' 전략을 발표했다.\n\nEU 집행위의 이니셔티브는 외부 공급업체에 대한 의존도를 낮추면서 유럽의 기술 역량을 강화하는 것을 목표로 한다. 이 전략은 도널드 트럼프 미국 대통령의 복귀 이후 미국 기술 기업에 대한 과도한 의존이 보안·경제적 주권에 위협을 준다는 우려가 유럽 전역에서 고조된 것을 배경으로 한다.\n\n핵심은 '클라우드·AI 개발법(CADA)'으로, 5~7년 내 유럽 데이터센터 용량을 3배 확장하는 것을 목표로 한다. 현재 AWS, 마이크로소프트 애저, 구글 클라우드가 EU 클라우드 시장의 70% 이상을 장악하고 있다.\n\n이 전략은 클라우드 운영자에 대한 의무적 '주권 위험 평가'를 포함하며, EU 감독과의 운영 통제, 공급망, 데이터 처리, 물리적 인프라 정렬에 따라 4단계 주권 등급으로 분류한다.\n\n반도체 분야에서는 개정된 반도체법 2.0이 주요 프로젝트에 대한 직접적인 국경 초월 투자를 가능하게 하며, 2035년까지 1,200억 유로(약 217조 원)가 필요하다. 공식 성명은 이것이 보호주의나 기술 고립을 의미하지 않는다고 강조하지만, 전문가들은 과도한 규제가 역효과를 낼 수 있다고 경고한다.",
+      "published_at": "2026-06-07T16:58:33+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "LGU+ \"2030년 AIDC 5조원 계약…AI 인프라 표준 제시\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211423",
+      "body": "LG U+가 경기 파주시 AI 데이터센터 건설 현장에서 차세대 AI 데이터센터 인프라 전략을 공개하고 2030년까지 누적 계약 5조 원 달성을 선언했다.\n\n회사는 LG그룹의 'One LG' 생태계 내 기술 협력을 통해 차세대 AI 인프라 표준을 수립하고, 국내 AI 인프라의 글로벌 시장 경쟁력을 입증하는 것을 목표로 삼고 있다.\n\n핵심 전략은 'The ACE on Trust'로 민첩성(Agility), 용량(Capacity), 효율성(Efficiency), 신뢰성(Trust)을 강조한다. LGU+는 단순 공간 임대를 넘어 GPU 자원 관리, 전력, 냉각 시스템을 통합 관리하는 'AI 팩토리 오퍼레이터'로 사업 모델을 확장하고 있다.\n\n안형균 LGU+ 엔터프라이즈 AI 사업 그룹 부사장은 '데이터센터 경쟁력은 이제 시설 규모보다 안정적인 인프라 운영에 달려있다'고 밝혔다.\n\n파주 시설은 LG전자 냉각 솔루션, LG에너지솔루션 배터리, LS일렉트릭과 공동 개발한 DC 800V 배전 시스템을 적용한다. 자체 AI 기반 DCIM(데이터센터 인프라 관리) 시스템도 개발 중이다.\n\nLGU+는 2030년까지 연 15~20% 매출 성장을 전망하고 있으며, 2027년 6월 완공 예정인 파주 1동(15만㎡)은 이미 모든 계약이 완료됐다.",
+      "published_at": "2026-06-07T09:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "LGU+, 2030년까지 AIDC 수주 누적 5조원 목표",
+      "url": "https://zdnet.co.kr/view/?no=20260607084528",
+      "body": "LG유플러스가 2030년까지 AI 데이터센터(AIDC) 누적 수주 5조 원을 목표로 삼고 경기 파주에 수도권 최대 규모의 AI 데이터센터를 구축한다.\n\n회사는 연간 수주 1조 원 이상을 달성할 계획이며, 현재 공사 중인 파주 1동은 이미 모든 계약이 완료됐다. 파주 AIDC는 총 200MW 규모의 전력 공급이 확정됐다.\n\nAI 워크로드가 학습에서 추론으로 이동하면서 전력 소비, 변동성, 발열이 증가하고 있다. 월 토큰 처리량은 2024년 5월 9.7조 건에서 2026년 5월 3.2경 건으로 성장했다. 2028년까지 서버 랙은 1MW의 전력 용량이 필요할 전망이다.\n\n회사는 LG전자의 냉각 솔루션, LG에너지솔루션의 UPS 배터리, LS일렉트릭의 DC 800V 시스템, LG이노텍의 반도체 등 LG그룹 계열사의 전문성을 활용한다. 파주 시설은 에어와 액체 방식을 결합한 하이브리드 냉각 방식을 적용하며, 테스트 결과 에너지 효율이 24% 향상됐다.",
+      "published_at": "2026-06-07T09:00:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Google signs $920M monthly compute deal with SpaceX",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025",
+      "body": "Google has agreed to pay SpaceX $920 million a month for computing power as part of a cloud services deal that runs through mid-2029. The deal provides Google with access to approximately 110,000 NVIDIA GPUs, CPUs, memory, and other related components at xAI's Colossus data centers.\n\nGoogle will pay SpaceX the monthly fee from October 2026 through June 2029, amounting to about $30 billion through the time of the agreement. Google's access to the data center will ramp up through September at a reduced fee, and both SpaceX and Google have the option to terminate the agreement with 90 days' notice after December 31, 2026.\n\nA Google representative described the deal as a result of unexpected demand for its recently launched AI products. The deal was announced just one week before SpaceX's stock is expected to start trading on the Nasdaq exchange.\n\nThis follows SpaceX's earlier compute deal with Anthropic and positions xAI's Colossus infrastructure as a third-party compute provider to major AI companies. SpaceX's projected annual data center revenue from these contracts is expected to exceed its combined proceeds from Starlink, launch services, and AI in 2025.\n\nThe arrangement represents a significant shift in SpaceX's business model, with data center operations now projected to become the company's largest revenue stream within a few years.",
+      "published_at": "2026-06-07T09:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "손정의 \"차세대 AI, 인간 아닌 AI가 설계…2년 내 초지능 올 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211431",
+      "body": "소프트뱅크 회장 손정의가 CNBC 인터뷰에서 오픈AI의 차세대 모델이 인간이 아닌 AI 시스템에 의해 설계되고 있다며 AGI가 이전 예측보다 빠르게 도달할 것이라고 주장했다.\n\n손 회장은 오픈AI CEO 샘 올트먼, 핵심 엔지니어들과의 최근 대화 내용을 공유하며 '그들의 차세대 모델은 더 이상 인간이 아닌 AI 모델이 설계하고 있다'고 단언했다. 그는 이러한 패턴이 현재 세대 모델에서 이미 진행되며 주요 AI 개발에 전반적으로 나타날 것이라고 강조했다.\n\n'모델이 다음 모델을 생성하고, 다음 모델이 또 그 다음을 생성하면 기하급수적으로 우리보다 훨씬 똑똑해질 것이다. 이것이 바로 초지능이다'라고 설명했다.\n\n오픈AI는 이미 AI를 모델 개발에 활용하고 있음을 확인했다. 2월에 출시된 GPT-5.3-Codex는 '자체 개발에 중요한 역할을 한 첫 번째 모델'로 설명됐으며, 디버깅 자가 학습, 배포 관리, 테스트 결과 진단에 활용됐다.\n\n앤스로픽과 구글도 최근 모델 출시에서 재귀적 자기 개선(RSI) 사례를 보고했다. 손 회장은 AGI 타임라인을 크게 앞당겨, 이전에는 10년 내 초인공지능을 예측했지만 이제 '2년 내'에 실현될 것으로 전망했다.",
+      "published_at": "2026-06-07T11:47:33+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"채팅은 죽었다\"...챗GPT, '에이전트 슈퍼 앱' 개편 초읽기",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211437",
+      "body": "오픈AI가 2022년 11월 출시 이후 최대 규모의 챗GPT 개편을 준비 중이다. 파이낸셜타임스가 복수 소식통을 인용한 보도에 따르면, 회사는 IPO를 앞두고 수 주 내 챗GPT를 에이전트 중심의 '슈퍼 앱'으로 단계적으로 재설계할 계획이다.\n\n이번 전환은 챗GPT, 코덱스, AI 브라우저를 통합 플랫폼으로 합친다. 사용자는 더 이상 서드파티 앱을 수동으로 검색할 필요 없이, 챗GPT가 자연어 지시를 자동으로 이해하고 캔바, 부킹닷컴 등 파트너 애플리케이션을 통해 자율적으로 작업을 실행한다.\n\n오픈AI 임원은 '채팅은 죽었다'고 선언하며 수동적 챗봇 인터랙션이 구시대적이고 수익성이 없다는 점을 시사했다. 회사는 코덱스의 코딩 역량에 자원을 집중하면서 소라와 같은 저수익 서비스는 중단하고 있다.\n\n코덱스는 주간 활성 사용자 500만 명을 돌파했으며 매출이 빠르게 증가 중이다. 코덱스 사용자의 대부분은 유료 서비스에 가입하는 반면, 챗GPT 사용자의 95%는 무료 이용자다. 기업 고객 200만 명이 전체 매출의 40%를 차지한다.\n\n이번 재편은 오픈AI의 월간 활성 사용자 10억 명을 대상으로, 여행 예약부터 일정 관리까지 스마트폰, 데스크톱, 웹 플랫폼에서 다양한 작업을 처리하는 개인 에이전트로 챗GPT를 자리매김하는 것을 목표로 한다.",
+      "published_at": "2026-06-07T21:46:28+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Is this the dawn of the Tokenpocalypse?",
+      "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+      "body": "Microsoft recently announced major pricing changes for GitHub Copilot — changes drastic enough that a Reddit user began calling it the 'Tokenpocalypse.' On TechCrunch's Equity podcast, Kirsten Korosec, Sean O'Kane, and Anthony Ha discussed what these changes mean for the broader AI ecosystem.\n\nAs Anthropic and other major AI companies prepare for public offerings, they face awkward questions about profitability. Similar price increases for other AI products are likely, along with usage restrictions as businesses attempt to manage costs.\n\nThe conversation explored how investor-subsidized AI services have masked true expenses. As these costs shift to consumers, the question remains whether customer spending appetite can sustain current pricing models.\n\nSean O'Kane raised concerns about how many token-related risk factors will appear in Anthropic's IPO filing, noting that 'Uber has done like the full arc in the span of a month and a half' of budget overruns and usage restrictions.\n\nKirsten observed that 'the whole tokenmaxxxing thing has become a thing, peaked, and now is seen disfavorably, within six months,' illustrating how rapidly the landscape is changing. She questioned how companies could adequately document evolving risks in regulatory filings.\n\nThe panelists debated whether AI companies could reduce costs through operational efficiency like Uber did, with O'Kane questioning whether sufficient 'squishy' cost reductions exist compared to Uber's driver-focused approaches.",
+      "published_at": "2026-06-07T20:26:13+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI is still working on that 'super app'",
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "body": "OpenAI plans to launch a redesigned ChatGPT in the coming weeks as a 'super app' incorporating coding tools and AI agents, according to Financial Times reporting. The initiative aims to strengthen OpenAI's competitive position against Anthropic, particularly for business clients, while advancing profitability goals ahead of a potential IPO.\n\nThe strategy involves transforming ChatGPT into a hub that directs free users toward paid offerings like the Codex coding product. A senior OpenAI employee stated: 'Chat is dead.'\n\nThibault Sottiaux, leading OpenAI's core product division, described the vision as creating 'your own personal agent that is capable of helping you across everything in your life, be it personally or at work.'\n\nThis represents a significant strategic pivot after the company launched multiple standalone products in 2025. OpenAI executives have since shifted focus, discontinuing what they call 'side quests' — including the video generator Sora. Earlier Wall Street Journal reporting indicated this major directional change in March 2026.\n\nThe super app concept has been under development since at least 2025, with previous coverage documenting OpenAI's ambitions in this space. Developer documentation accidentally published to a public repository points to June 9, 2026 as the target for general availability.",
+      "published_at": "2026-06-07T16:23:22+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "body": "President Donald Trump stated Friday that he's been discussing deals with AI companies 'where the American people can benefit from the success of AI.' Though Trump didn't name specific companies, CNBC reported the administration is indeed considering taking an equity stake in OpenAI.\n\nAccording to reporting, some equity could fund OpenAI's proposed 'Public Wealth Fund,' which would distribute proceeds directly to citizens. Trump told reporters on Air Force One he's been talking to AI executives about 'concepts where pieces could be given to the American public.'\n\nCEO Sam Altman has reportedly been discussing government stakes in major AI companies since early 2025. This aligns with Trump's broader pattern of government investment in private companies, including a 10% stake in Intel last year.\n\nThe proposal has also gained support from Senator Bernie Sanders, who this week proposed a one-time 50% tax on companies like OpenAI, Anthropic, and xAI, payable in stock. Sanders argued this would 'give the public a direct role in determining the future of this technology.'\n\nHowever, some observers expressed concerns. David Sacks warned Sanders' approach would 'accelerate the corporate-government fusion,' while former Microsoft employee Dare Obasanjo suggested 'groundwork is already being laid for a government bailout of OpenAI.' OpenAI is currently valued at more than $850 billion and prepares for a potential IPO as early as September 2026.",
+      "published_at": "2026-06-06T20:32:24+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "body": "OpenAI has introduced Lockdown Mode, a security feature designed to defend against prompt injection attacks — malicious instructions embedded in web content and other sources.\n\nThe feature restricts several capabilities when activated: live web browsing (limiting access to cached content only), image retrieval from the web (though image generation remains available), deep research functionality, and agent mode.\n\nOpenAI acknowledges that Lockdown Mode is not a complete solution. The company states that 'ChatGPT could still be vulnerable to prompt injections' even with protection enabled, as threats may 'appear in cached web content or in an uploaded file.'\n\nThe primary objective is reducing the risk of sensitive data exposure during injection attacks. OpenAI emphasizes that 'Lockdown Mode is not intended for everyone,' targeting instead 'people and organizations that handle sensitive data.'\n\nThe rollout is currently underway for ChatGPT Business self-serve accounts and eligible personal accounts. To activate it, open ChatGPT's settings menu and select Safety and security. Under Advanced security, tap Lockdown mode and flip on the toggle.",
+      "published_at": "2026-06-06T20:32:24+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "구글, '젬마 4' 온디바이스 버전 QAT 공개…\"메모리 1GB로 압축\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211418",
+      "body": "구글 딥마인드가 젬마 4 양자화 인식 학습(QAT) 체크포인트를 공개했다. 이를 통해 젬마 4 E2B 모델의 메모리 풋프린트가 1GB 미만으로 줄어들었다.\n\nBF16 전체 정밀도 기준으로 같은 모델은 9.6GB가 필요했지만, QAT 기술을 통해 90% 이상 압축됐다. 이는 모델을 고성능 노트북에서 벗어나 스마트폰에서도 실행할 수 있게 해준다.\n\nQAT는 학습 중 양자화를 시뮬레이션하여 모델을 압축할 때 품질 손실을 최소화한다. 이번 릴리즈에는 인기 있는 Q4_0 양자화 형식 및 모바일 사용 사례에 특화된 새로운 양자화 형식의 QAT 체크포인트가 포함됐다.\n\n가중치는 허깅페이스에서 제공되며, llama.cpp와 함께 사용할 수 있는 GGUF 형식과 vLLM용 압축 텐서도 제공된다. 사용자는 구글의 경량 LiteRT-LM 런타임을 통해 최적화된 엣지 배포로 온디바이스에서 실행하거나, Transformers.js로 웹에서 직접 모델을 실행할 수 있다.",
+      "published_at": "2026-06-06T19:14:05+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "\"한국, AI 비싸게 쓴다\"…한국어 토큰 소모, 영어 최대 2.59배 높아",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211350",
+      "body": "글로벌 AI 기업들이 토큰 소비량 기반의 종량제 요금제를 점점 더 많이 도입하면서 사용자 비용이 증가하고 있다. 연구에 따르면 언어 간 격차가 두드러진다: 동일한 AI 모델을 사용할 때 한국어는 영어보다 최대 3.5배 더 많은 토큰을 소비하여 '비영어권 세금' 문제를 야기한다.\n\n연구자 아란 코마츠자키가 에세이를 다양한 언어로 번역해 6가지 주요 언어 모델을 테스트한 결과, 한국어 토큰 소비량이 영어보다 평균 1.6배 높았고, 앤스로픽 모델에서는 최대 2.59배에 달했다. 앤스로픽이 최근 토크나이저 업데이트로 소비량이 최대 1.35배 증가한 점을 고려하면, 한국어 사용자는 영어보다 최대 3.5배 높은 비용을 부담할 수 있다.\n\n한국어의 교착어적 구조 — 어근과 조사, 어미의 결합 — 는 영어보다 더 세밀한 토큰 분절을 요구한다. 동음이의어가 많아 문맥 오류를 최소화하기 위해 더 작은 단위가 필요하다. 결정적으로 한국어는 전체 모델 학습 데이터의 약 1%에 불과해 과도한 토큰 분절을 초래한다.\n\n전문가들은 토큰 수 증가가 지수적으로 복합될 수 있다고 지적한다: 토큰이 두 배로 늘어나면 연산 부담과 인프라 비용이 최대 4배 증가할 수 있다. 해결책으로는 모델 설계 단계부터 고품질 한국어 데이터를 포함시키고, 형태소를 보존하는 토크나이저 알고리즘 최적화가 있다.",
+      "published_at": "2026-06-06T19:48:21+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "미 하원, 초당적 AI 법안 초안 공개…'주정부 규제 무력화' 논란",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211419",
+      "body": "미국 하원이 연방 안전 기준을 수립하면서 주(州) 정부의 AI 개발 감독 권한을 크게 제한하는 초당적 AI 규제 법안을 공개했다. 공화당 의원 제이 오버놀테와 민주당 의원 로리 트라핸이 2026년 6월 4일 269페이지 분량의 법안 초안을 발의했다.\n\n이 법안은 오픈AI, 앤스로픽, 구글 등 주요 AI 개발사에 새로운 안전 및 보안 의무를 부과한다. 기업들은 위험 평가 계획을 수립하고 독립적인 제3자 감사를 받아야 한다. 상무부의 국립표준기술연구소(NIST)가 새롭게 법제화된 AI 표준 혁신 센터(CAISI)를 통해 3년간 3억 달러의 예산으로 규정 준수를 감독한다.\n\n가장 논란이 되는 부분은 주 정부가 AI 모델 개발 자체를 규제하는 것을 제한하는 조항이다. 이 조항은 사전 배포 안전 테스트를 요구하는 캘리포니아, 뉴욕, 일리노이 등의 규정을 사실상 무효화할 것이다. 다만, 주는 사기, 차별, 소비자 피해를 다루는 AI 애플리케이션 규정에 대한 권한은 유지한다. 제한 조항에는 3년 후 자동 만료되는 일몰 조항이 포함됐다.\n\n안전 지지자들은 핵심 기업 감독 메커니즘이 제거된다며 강력히 반대하는 반면, 기술 업계는 중복 준수 부담 제거와 혁신 가속화를 위한 연방 표준화를 지지하고 있다.",
+      "published_at": "2026-06-06T18:24:23+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "NXP Computex Keynote 2026 Coverage",
+      "url": "https://www.servethehome.com/nxp-computex-keynote-2026-coverage/",
+      "body": "NXP's CEO Rafael Sotomayor delivered the final keynote at Computex 2026, focusing on artificial intelligence for edge devices and robotics. The presentation, titled 'Bringing AI into the Real World: The Future of Physical Intelligence,' explored how NXP positions itself to advance AI deployment in real-world applications.\n\nSotomayor introduced the concept of Moravec's Paradox, explaining that tasks humans perform instinctively prove most challenging for robots. The keynote outlined NXP's 'neural axis architecture,' comprising three layers: reasoning, coordination, and reflex responses. Sotomayor illustrated this framework through drones, autonomous vehicles, and humanoid robots, each requiring sub-40-millisecond response times for critical actions.\n\nThe presentation addressed how robots learn physics and understanding through Vision Language Action (VLA) models and simulation-based training rather than costly physical testing. NXP's eIQ toolkit enables deploying complex AI models to constrained edge devices.\n\nTrust and safety emerged as central themes. Sotomayor outlined NXP's framework: contain failures, protect through hardware security, verify systems, and adapt through field updates. 'No system can be designed where nothing goes wrong. But they can be designed so that they gracefully handle the failure.'\n\nSotomayor highlighted factory automation and healthcare robotics as near-term applications where physical AI can safely create measurable value today. The keynote underscored how semiconductor companies are expanding their positioning beyond silicon into full-stack AI platform vendors for edge and robotic workloads.",
+      "published_at": "2026-06-07T15:00:20+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    }
+  ]
+}
