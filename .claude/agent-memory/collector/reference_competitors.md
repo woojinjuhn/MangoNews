@@ -182,6 +182,32 @@ type: reference
 - **FuriosaAI, Rebellions, Moreh, HyperAccel, FriendliAI, Tenstorrent, Napatech**: No standalone June 5 dedicated news found. Monitor June 6+.
 - **Anthropic IPO**: Filed preliminary IPO paperwork (June 1 NPR); $965B valuation; leading round Altimeter/Dragoneer/Greenoaks/Sequoia. SpaceX targeting $75B IPO proceeds in June. OpenAI year-end listing expected.
 
+## June 9 2026 update — competitor developments (Jensen Huang Korea visit conclusion)
+- **NVIDIA**: Jensen Huang departed Seoul June 9 morning via Gimpo Business Aviation Center (Gimpo BAC); bound for Aberdeen, UK. 4박5일(4-night/5-day) Korea visit completed. Exit statement: "We had a great time with all of our partners; our business is growing very well so we need more supply; I want to come back to Korea." Full partnership announcement summary:
+  - SK Telecom: GW-scale AI factory built on NVIDIA DSX platform (confirmed partnership)
+  - NAVER: AI infrastructure scale-up 55MW → GW-scale (NCP partnership + AI factory)
+  - LG Group: Isaac GR00T physical AI ecosystem, humanoid robotics, GW-scale AI factory with liquid cooling + 800V DC power management
+  - Samsung Electronics DS (전영현 VP meeting): HBM4 supply, SOCAMM, foundry cooperation, co-development roadmap for HBM4E/HBM5
+  - SK Hynix: Multi-year memory co-development agreement for next-gen memory (HBM4/4E/5 roadmap)
+  - Hyundai Motors: Autonomous driving + physical AI
+  - Korea AI Ecosystem Reception (신라호텔 June 8): "Korea is unrivaled in heavy industry, manufacturing, electronics, AI software; $수천억 revenue into Korea over next 5 years"
+  - Seoul National University lecture June 8 (마지막 방문)
+  - Doosan Bears baseball June 7 (피칭 #93, Park Jeongwon batting #96)
+  - AI Semiconductor Forum June 4 (attended/keynoted)
+  - NVIDIA stock near all-time high during Korea visit; BlueField-4 DPU integral to Vera Rubin rack
+- **Samsung Electronics (HBM/Foundry)**: Groq LP40 Samsung foundry confirmation denied — Samsung DS VP 전영현 denied Groq LP40 is Samsung-made in press Q&A (June 8); TSMC rumored as actual foundry partner. Samsung showed HBM4 progress; Huang meeting outcome = co-development roadmap with no signed contract disclosed publicly.
+- **SK Hynix**: Multi-year co-development agreement signed with NVIDIA (June 8 confirmed); covers HBM4, HBM4E, HBM5 memory and next-gen interconnect; "NVIDIA's memory partner of choice" narrative reinforced. SK Chairman Choi Tae-won pledged 2x HBM wafer capacity in 5 years.
+- **Tier 1 Korean AI semiconductor (K-AI Forum)**: K-AI Semiconductor Forum held June 4 (or 4-5); reporting published ~June 8-9:
+  - **Rebellions**: Representative at forum; Rebel 100 NPU commercialization updates presented
+  - **FuriosaAI**: Forum participant; pre-IPO status — targeting early 2027 KOSDAQ; funding round 7500억→8500억 KRW
+  - **HyperAccel**: Forum participant; Bertha 500 LPU (Samsung 4nm, 768 TOPS INT8) update
+  - **Moreh, FriendliAI**: No standalone June 9 articles found; forum presence not confirmed in sources
+- **ASML**: TeraFab initiative — consortium involving Elon Musk (reported June 9-10 conference context); ASML CEO Pete Wennink at "Innovate To Zero" Paris summit; context: €107B ($119B) ultra-high-NA EUV capacity buildout with semiconductor customers. Watch June 9-10 for TeraFab/Musk deal details.
+- **OpenAI (IPO)**: Confidential S-1 IPO filing confirmed June 8 (TechCrunch: "as early as October 2026"); $852B+ implied valuation from SoftBank investment terms; listing window H2 2026. Major AI industry event regardless of OpenAI's non-chip status.
+- **Apple (Silicon/AI)**: WWDC 2026 — Apple Intelligence 2.0 (M5/A19 SoC) revealed; enhanced Siri with GPT-4o integration; on-device AI improvements. A19 chip advancing 3nm → next-gen node roadmap.
+- **Samsung (Groq LP40 + NVIDIA)**: Per Samsung DS VP Jun Young-hyun: Groq LP40 inference chip is NOT Samsung-made (TSMC is actual foundry per credible reports); Samsung meeting with Huang June 7-8 covered ongoing HBM4 supply negotiations.
+- **Marvell, Tenstorrent, Napatech**: No standalone June 9 articles found.
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform

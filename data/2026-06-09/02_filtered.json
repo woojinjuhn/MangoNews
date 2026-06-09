@@ -1,0 +1,314 @@
+{
+  "filter_date_kst": "2026-06-09",
+  "kept": [
+    {
+      "id": "art_037",
+      "title": "퓨리오사AI 8500억원 프리IPO, 6월 중순 현금 납입 마무리 예정",
+      "url": "https://www.datacenterdynamics.com/en/news/furiosaai-seeking-a-500m-funding-round-ahead-of-anticipated-ipo-report/",
+      "category": "market",
+      "competitor": "FuriosaAI",
+      "keep_reason": "Tier-1 국내 경쟁사 퓨리오사AI의 메가 라운드(8500억원, 기업가치 3조원), 삼성SDS NPUaaS 출시, Broadcom 3세대 TCP 파트너십, 2027 KOSDAQ 상장 로드맵 등 다층 정보 — 오늘 가장 전략적 단일 기사"
+    },
+    {
+      "id": "art_001",
+      "title": "젠슨 황, 韓 AI 생태계 훑고 출국...\"공급 더 필요\"",
+      "url": "https://www.newspim.com/news/view/20260609000230",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "젠슨 황 4박5일 방한 총결산(한국어 1차) — SK/현대차/LG/네이버/삼성 모든 대기업 회동, 향후 5년 수천억 달러 한국 유입 발언 등 가장 포괄적 출국 시점 종합 보도"
+    },
+    {
+      "id": "art_009",
+      "title": "Jensen Huang wraps up South Korea visit, stresses physical AI cooperation and startup support",
+      "url": "https://www.digitaltoday.co.kr/en/view/61516/jensen-huang-wraps-up-south-korea-visit-stresses-physical-ai-cooperation-and-startup-support",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "방한 종합 영문 보도 — Vera Rubin 우선 공급, 260K GPU, GPU 가격 혜택, GTC Korea 개최, KAIST/POSTECH 등 학계 협력까지 가장 디테일이 풍부한 wrap-up"
+    },
+    {
+      "id": "art_005",
+      "title": "Nvidia and SK Hynix seal multi-year HBM4 AI memory deal",
+      "url": "https://thenextweb.com/news/nvidia-locks-in-sk-hynix-for-the-ai-memory-race-as-the-chip-industrys-toughest-bottleneck-gets-its-own-multi-year-deal",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "SK하이닉스-NVIDIA 다년 HBM4 공동개발 영문 1차 — Vera Rubin 3.5x training/5x inference, 메모리 슈퍼사이클 2028~2030 지속, 60-70% HBM4 점유율"
+    },
+    {
+      "id": "art_003",
+      "title": "Samsung memory chief, Nvidia CEO discuss next-generation HBM cooperation",
+      "url": "https://www.koreaherald.com/article/10766605",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "삼성 전영현-젠슨 황 회동 영문 1차 — HBM4/SOCAMM 단기, HBM4E/HBM5 장기, Groq LP30→LP40 파운드리 핵심 디테일"
+    },
+    {
+      "id": "art_004",
+      "title": "전영현 삼성전자 부회장 \"엔비다아와 그록 4세대 논의\"... TSMC 수주설 일축",
+      "url": "https://www.sedaily.com/article/20053260",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "삼성-NVIDIA 회동 한국어 1차 — Groq LP40 삼성 파운드리 확정, Drive AGX Thor 4/8nm 생산 확인 등 KH(art_003)와 보완적 한국 시각"
+    },
+    {
+      "id": "art_015",
+      "title": "Demand for data center CPUs has surged, and AI agents are responsible — why the CPU to GPU ratio is more important than ever for hyperscalers",
+      "url": "https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Agentic AI가 데이터센터 CPU 수요 폭증 견인 — CPU가 inference 응답 시간 지연의 91% 차지, Arm 기반 Graviton/Axion/Cobalt가 절반 점유 — DPU/SmartNIC 가치 명제와 직결되는 가장 전략적 인프라 인사이트"
+    },
+    {
+      "id": "art_038",
+      "title": "Marvell posts record Q1 FY2027 data center revenue — $1.83B, 76% of total",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "Tier-2 경쟁사 Marvell 기록적 분기 실적(데이터센터 76%), Teralynx T100 102.4Tbps AI 스위치(CPO 기반), NVIDIA $2B 지분투자 + NVLink Fusion 컨텍스트 — DPU/스위치 시장 인접 핵심 동향"
+    },
+    {
+      "id": "art_014",
+      "title": "South Korea Holds K-AI Semiconductor Forum to Showcase Domestic AI Chip Commercialization",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11029",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "Rebellions/FuriosaAI/HyperAccel 3사 국내 AI칩 상용화 성과 + K-Perf 벤치마크 + $30M+ 수출 — 국내 AI 반도체 정책/상용화 한국어 1차"
+    },
+    {
+      "id": "art_010",
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI SEC 비공개 S-1 제출 영문 1차 — $852B 기업가치, 2028 데이터센터 spend $122B/년 — AI 인프라 자본 사이클 핵심 시그널"
+    },
+    {
+      "id": "art_011",
+      "title": "오픈AI, IPO 신청서 제출...\"상장 시점은 미정\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211500",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI IPO 한국어 1차 — 약 1,170조원 기업가치 환산 등 한국 독자에 보완적, 영문(art_010)과 함께 한쌍 유지"
+    },
+    {
+      "id": "art_002",
+      "title": "젠슨 황, '반도체'부터 '로보틱스'까지 韓산업계와 동맹 \"글로벌 AI 판도 흔든다\"",
+      "url": "https://www.fnnews.com/news/202606090500341342",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "방한 전략적 프레이밍 한국어 1차 — LG 800V DC 전력관리/액체냉각 협력, Isaac GR00T 등 art_001/009와 보완적 기술 디테일"
+    },
+    {
+      "id": "art_032",
+      "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA-LG AI Factory 1차 발표(NVIDIA 공식 블로그) — LG Uplus 파주 200MW 데이터센터, Isaac Sim/Lab, EXAONE 모델 협력, M.A.P. 프레임워크"
+    },
+    {
+      "id": "art_022",
+      "title": "Naver Cloud Emerges as Nvidia's Key AI Partner",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11066",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "네이버 클라우드 60K Blackwell GPU 배치 + 2조원 국가 AI 컴퓨팅 인프라 사업 우선 협상자 선정 — 소버린 AI 및 국가 사업 핵심 정보"
+    },
+    {
+      "id": "art_018",
+      "title": "Elon Musk In Direct Talks With ASML For $119B TeraFab Chip Plant: CEO Calls Him 'Very Serious'",
+      "url": "https://www.benzinga.com/news/topics/26/06/53049336/elon-musk-in-direct-talks-with-asml-for-119b-terafab-chip-plant-ceo-calls-him-very-serious",
+      "category": "market",
+      "competitor": "ASML",
+      "keep_reason": "Musk-ASML TeraFab $119B 직접 협상 — 글로벌 반도체 시장 2030년 $1.5T 전망, AI demand supply-limited 발언, 2030 글로벌 반도체 시장 전망"
+    },
+    {
+      "id": "art_021",
+      "title": "AI chip race lifts semiconductor equipment sales to record US$36.55bn in Q1 2026",
+      "url": "https://www.digitimes.com/news/a20260608VL214/equipment-sales-ai-chip-capacity-investment.html",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Q1 2026 반도체 장비 매출 $36.55B 기록 — AI 인프라 capex 사이클이 여전히 풀스케일임을 입증, CoWoS/HBM4 패키징 병목 신호"
+    },
+    {
+      "id": "art_006",
+      "title": "SK Hynix and Nvidia co-developing memory and memory manufacturing tech",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/06/08/sk-hynix-and-nvidia-co-developing-memory-and-memory-manufacturing-tech/5252117",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "SK하이닉스-NVIDIA 협력 기술 디테일(CUDA-X, PhysicsNeMo, Omniverse 디지털 트윈) — art_005 보완, 제조 최적화 측면"
+    },
+    {
+      "id": "art_007",
+      "title": "NAVER Expands AI Infrastructure With NVIDIA to Serve Surging Global AI Demand",
+      "url": "https://www.globenewswire.com/news-release/2026/06/07/3307753/0/en/NAVER-Expands-AI-Infrastructure-With-NVIDIA-to-Serve-Surging-Global-AI-Demand.html",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "NAVER DSX AI 팩토리 55MW→200MW(2028)→GW급 영문 1차 발표 — Nemotron Coalition, HyperCLOVA X Next, 소버린 AI 핵심 사례"
+    },
+    {
+      "id": "art_008",
+      "title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea's AI Innovation",
+      "url": "https://www.globenewswire.com/news-release/2026/06/07/3307750/0/en/SK-Telecom-and-NVIDIA-Build-AI-Infrastructure-to-Power-Koreas-AI-Innovation.html",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "SK텔레콤 GW급 AI Cloud(목표 5GW) DSX 기반 영문 1차 — 통신망=국가 AI 인프라 프레이밍, 소버린/피지컬/엔터프라이즈 AI 한국 확장"
+    },
+    {
+      "id": "art_017",
+      "title": "New York state legislature passes data center moratorium, awaits governor Hochul's approval",
+      "url": "https://www.theregister.com/legal/2026/06/05/new_york_advances_one-year_datacenter_permit_moratorium/5251911",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "NY 주 20MW+ 데이터센터 1년 모라토리엄 통과(주지사 서명 대기) — 미국 데이터센터 규제 전환점, 5MW+ 시설 재생에너지 의무화 단계"
+    },
+    {
+      "id": "art_023",
+      "title": "HPE Catches Its First GenAI Wave With Enterprises, Sovereigns, And Neoclouds",
+      "url": "https://www.nextplatform.com/compute/2026/06/04/hpe-catches-its-first-genai-wave-with-enterprises-sovereigns-and-neoclouds/5250944",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "HPE Q2 FY26 GenAI 인프라 매출 급증 — 소버린 AI(유럽/아시아 정부 계약) + 네오클라우드 GPUaaS — 엔터프라이즈/소버린 시장 구조 신호"
+    },
+    {
+      "id": "art_020",
+      "title": "Chinese startup claims photonic chip production without DUV lithography, says nanoimprint process cuts costs by 90%",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/chinese-startup-claims-photonic-chip-production-without-duv-lithography-says-nanoimprint-process-cuts-costs-by-90-percent-8-inch-wafers-produced-without-conventional-optical-lithography",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "중국 스타트업 나노임프린트 광자칩 양산 주장 — US-중국 반도체 디커플링/수출통제 우회 가능성, 실리콘 포토닉스 인접"
+    },
+    {
+      "id": "art_016",
+      "title": "Most new U.S. AI data centers are being built in drought zones — two-thirds of 809 planned projects set for areas with water shortages",
+      "url": "https://www.tomshardware.com/tech-industry/most-new-us-ai-data-centers-are-going-up-on-drought-land",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "미국 AI 데이터센터 809건 중 2/3가 가뭄 지역 — 냉각/물 인프라 지속가능성 이슈, 데이터센터 효율 최적화 시장 신호"
+    },
+    {
+      "id": "art_027",
+      "title": "Cisco Preps For A World Of AI Agent Coworkers, Frontier Model Threats",
+      "url": "https://www.nextplatform.com/ai/2026/06/03/cisco-preps-for-a-world-of-ai-agent-coworkers-frontier-model-threats/5250406",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Cisco Silicon One/Hypershield 등 AI 에이전트 네트워킹 — agentic AI의 동적 트래픽/저지연 요구, DPU/SmartNIC 인접 분야"
+    },
+    {
+      "id": "art_034",
+      "title": "네이버, 엔비디아 DSX로 'AI 팩토리' 키운다…55MW에서 GW급 인프라로 확대",
+      "url": "https://www.newspim.com/news/view/20260608000073",
+      "category": "projects",
+      "competitor": "NVIDIA",
+      "keep_reason": "NAVER DSX 한국어 1차 — 주권 AI 전략 프레이밍 + 유럽/중동 확장, art_007 영문 보완"
+    },
+    {
+      "id": "art_013",
+      "title": "애플, 2년 만에 실체 드러낸 '시리 AI' 공개…새로운 것은 없어",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211499",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Apple Siri AI/iOS 27 한국어 1차 — Apple Foundation + Google Gemini 협력, 온디바이스 AI 칩셋 종속 — 빅테크 AI 동향"
+    },
+    {
+      "id": "art_028",
+      "title": "Apple unveils next generation of Apple Intelligence, Siri AI, and more",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Apple WWDC 2026 공식 1차 발표 — Apple Intelligence + Gemini 협력 디테일, art_013 한국어와 영문 1차 보완"
+    },
+    {
+      "id": "art_033",
+      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA 공식 블로그 방한 종합 — Korea AI Ecosystem Reception 200+ 파트너, 10x 생태계 성장 비전, 1차 자료"
+    },
+    {
+      "id": "art_024",
+      "title": "CyrusOne breaks ground on 380MW data center in Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/cyrusone-breaks-ground-on-380mw-data-center-in-texas/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "CyrusOne 380MW Texas 데이터센터 착공 — 2026 단일 사이트 최대급, 콜로케이션 시장 AI 수요 시그널"
+    },
+    {
+      "id": "art_025",
+      "title": "Stark Power lands 5.6GW data center development portfolio in Sagebrush acquisition",
+      "url": "https://www.datacenterdynamics.com/en/news/stark-power-lands-56gw-data-center-development-portfolio-in-sagebrush-acquisition/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Stark Power-Sagebrush 인수로 5.6GW 데이터센터 포트폴리오 — 전력 capacity가 새로운 병목, 데이터센터 M&A 트렌드"
+    }
+  ],
+  "discarded": [
+    {
+      "id": "art_012",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "discard_reason": "duplicate of art_013 (한국어 1차) + art_028 (Apple 공식 1차) — 동일 WWDC 이벤트, 영문 보조 보도는 중복"
+    },
+    {
+      "id": "art_019",
+      "title": "Disgruntled ASML employees threaten to boycott Elon Musk conference appearance — staff express ire at political involvement and 'Nazi sympathies'",
+      "discard_reason": "off-topic — Musk 정치적 논란/직원 보이콧은 DPU/AI 인프라 기술/시장 전략 substance 없음, art_018에서 TeraFab 핵심은 이미 커버"
+    },
+    {
+      "id": "art_026",
+      "title": "광폭황보, 삼성·SK·현대차·LG·네이버 다 만났다 — 젠슨 황, 한국 방문 성과 총정리",
+      "discard_reason": "duplicate of art_001/art_009 — 방한 종합 한국어 wrap 3건 중복, 가장 풍부한 art_001(뉴스핌)와 art_009(영문 종합) 유지"
+    },
+    {
+      "id": "art_029",
+      "title": "리벨리온 Rebel-100 K-Perf 벤치마크 검증 완료…SKT A.Dot 콜 요약 서비스 상용화",
+      "discard_reason": "duplicate — art_014와 동일 URL(thelec.net/11029) Rebellions 부분 cross-reference, art_014에 통합 커버됨"
+    },
+    {
+      "id": "art_030",
+      "title": "하이퍼엑셀, K-AI반도체 성장포럼서 LLM 기반 민원분석 서비스 시연",
+      "discard_reason": "duplicate — art_014와 동일 URL(thelec.net/11029) HyperAccel 부분 cross-reference, art_014에 통합 커버됨"
+    },
+    {
+      "id": "art_031",
+      "title": "AI drives semiconductor equipment sales to record $36.55 billion in Q1 2026",
+      "discard_reason": "duplicate of art_021 — collector가 명시적으로 'Duplicate entry — already captured above. Skipped' 표시한 빈 body 항목"
+    },
+    {
+      "id": "art_035",
+      "title": "HPE Catches Its First GenAI Wave With Enterprises, Sovereigns, And Neoclouds",
+      "discard_reason": "duplicate of art_023 — 동일 NextPlatform URL, 동일 본문 내용 중복 수집"
+    },
+    {
+      "id": "art_036",
+      "title": "Rubrik beats revenue guidance as it rides cyber-resilience wave",
+      "discard_reason": "off-topic — Rubrik 사이버 복원력/백업 SaaS 실적은 AI 인프라/DPU/반도체 가치사슬과 무관, 단순 보안 SW 기업 실적"
+    }
+  ],
+  "summary": {
+    "total_received": 38,
+    "total_kept": 30,
+    "total_discarded": 8,
+    "category_breakdown": {
+      "market": 9,
+      "products": 8,
+      "projects": 6,
+      "challenges": 3,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 18,
+    "by_competitor": {
+      "NVIDIA": 13,
+      "FuriosaAI": 1,
+      "Rebellions": 1,
+      "Marvell": 1,
+      "ASML": 1,
+      "HyperAccel": 0,
+      "Samsung": 0,
+      "SK Hynix": 0,
+      "Moreh": 0,
+      "FriendliAI": 0,
+      "Napatech": 0,
+      "Tenstorrent": 0
+    }
+  }
+}
