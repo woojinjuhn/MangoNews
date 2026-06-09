@@ -1,0 +1,412 @@
+{
+  "collection_date_kst": "2026-06-09",
+  "run_summary": {
+    "total": 42,
+    "by_topic": {
+      "ai": 12,
+      "semiconductor": 12,
+      "datacenter": 8,
+      "competitor": 10
+    },
+    "by_competitor": {
+      "NVIDIA": 10,
+      "Samsung": 4,
+      "SK Hynix": 3,
+      "FuriosaAI": 1,
+      "Rebellions": 1,
+      "HyperAccel": 1,
+      "Marvell": 1,
+      "ASML": 2,
+      "Moreh": 0,
+      "FriendliAI": 0,
+      "Napatech": 0,
+      "Tenstorrent": 0
+    },
+    "competitor_tagged_total": 12,
+    "sources_consulted": 28,
+    "skipped_paywalled": 3,
+    "notes": "Recency window: 2026-06-09 KST only (last issue #022 was 2026-06-08). Major story cluster: Jensen Huang concluding 4-night Korea visit on June 9 morning departure — Samsung HBM4/Groq LP40 foundry meeting (June 8), SK Hynix multi-year memory deal, NAVER+LG+SK Telecom AI factory announcements. Consider clustering as 'Jensen Huang 한국 방문 총결산' for filter_2. OpenAI IPO confidential filing (June 8) is independent top AI story. Apple WWDC Siri AI + M5 (June 8) borderline AI/semiconductor — included. NY datacenter moratorium passed June 5, still awaiting governor signature as of June 8 — boundary case included. Paywalled/unreachable: datacenterdynamics.com Naver 55MW article (403), tomshardware Chinese photonic chip full body truncated (kept partial), digitimes.com semiconductor equipment record (paywall — dropped). HPC Wire feed returned 403. SemiAnalysis feed had no June 9 articles (most recent Sep 2025). ServeTheHome June 8 article (17th birthday) excluded as off-topic. Moreh/FriendliAI/Napatech/Tenstorrent: no qualifying June 9 KST articles found. Korean search for Tier-1 competitors confirmed no standalone news today."
+  },
+  "articles": [
+    {
+      "title": "젠슨 황, 韓 AI 생태계 훑고 출국...\"공급 더 필요\"",
+      "url": "https://www.newspim.com/news/view/20260609000230",
+      "body": "NVIDIA CEO 젠슨 황이 4박 5일간의 방한 일정을 마치고 2026년 6월 9일 오전 김포국제공항 비즈니스항공센터를 통해 영국 애버딘으로 출국했다. 황은 출국 시 취재진에게 \"모든 파트너들과 좋은 시간을 보냈으며, 우리 사업은 매우 잘 성장하고 있고, 그래서 더 많은 공급이 필요하며 앞으로 공급 능력을 더욱 확대해야 한다\"고 말했다. 황은 또 \"좋은 미팅을 했고 좋은 파트너십을 발표했다. 한국에 다시 오고 싶다\"고 밝혔다. 황 CEO는 방한 기간 동안 SK그룹 최태원 회장, 현대차그룹 정의선 회장, LG그룹 구광모 회장, 네이버 이해진 의장, 삼성전자 전영현 DS 부문장 부회장과 회동했다. 주요 협력 분야는 HBM, AI 데이터센터, 로보틱스, 자율주행, AI 팩토리, 피지컬 AI였다. 방한 마지막 날(6월 8일)에는 서울대학교 해동첨단공학관에서 AI 관련 강연을 진행하고, 신라호텔에서 열린 '코리아 AI 에코시스템 리셉션'에 참석했다. 황 CEO는 리셉션에서 \"한국은 중공업, 제조, 전자, AI 소프트웨어에서 타의 추종을 불허하는 나라\"라며 \"앞으로 5년 동안 한국에 수천억 달러의 수익이 유입될 것\"이라고 말했다. 이번 방한에서 SK텔레콤은 NVIDIA DSX 플랫폼 기반 GW급 AI 팩토리 구축을 발표했고, 네이버는 55MW에서 GW급으로 확장하는 AI 인프라 파트너십을 체결했다. SK하이닉스와는 차세대 메모리 공동 개발을 위한 다년 계약을 발표했으며, 삼성전자 전영현 부회장과는 HBM4·파운드리 협력 및 중장기 공동개발 방안을 논의했다.",
+      "published_at": "2026-06-09T09:35:00+09:00",
+      "source": "뉴스핌",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "젠슨 황, '반도체'부터 '로보틱스'까지 韓산업계와 동맹 \"글로벌 AI 판도 흔든다\"",
+      "url": "https://www.fnnews.com/news/202606090500341342",
+      "body": "엔비디아 CEO 젠슨 황이 4박 5일간의 방한을 마무리하면서 한국을 미국, 중국과 함께 글로벌 AI 생태계의 핵심 전략 요충지로 공식화했다. 황 CEO는 방한 기간 한국을 '이상적인 나라'로 지목하고 반도체부터 로보틱스, 데이터센터를 아우르는 전방위적 인프라 구축을 선언했다. SK그룹과는 차세대 AI 가속기(베라 루빈, 루빈 플랫폼) 공동 로드맵 설계 및 첨단 메모리 기술 공동 개발 계획을 발표했다. LG그룹과는 Isaac GR00T 파운데이션 모델을 활용한 피지컬 AI 생태계 확장, 차세대 자율제조·휴머노이드 로봇 개발, 기가와트급 데이터센터용 액체냉각·800V DC 전력관리 시스템 협력을 포함한 파트너십을 체결했다. 삼성전자 DS부문장 전영현 부회장과의 단독 회동에서는 HBM4(6세대) 공급, SOCAMM, 파운드리 협력, 그리고 HBM4E·HBM5를 포함한 차세대 반도체 공동 개발 가능성을 논의했다. 황 CEO는 \"한국의 연구 인재가 풍부하고 중공업 전문성과 제조 리더십이 있어 AI와 로보틱스에 이상적\"이라며 한국을 미국 외 최고의 피지컬 AI 파트너로 지목했다. 방한 마지막 날에는 서울대학교를 방문해 학생들과 강연을 진행했고, '코리아 AI 에코시스템 리셉션'에서 배경훈 부총리 겸 과기부 장관과 AI 스타트업 생태계 지원을 약속했다.",
+      "published_at": "2026-06-09T05:00:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Samsung memory chief, Nvidia CEO discuss next-generation HBM cooperation",
+      "url": "https://www.koreaherald.com/article/10766605",
+      "body": "Samsung Electronics vice chairman Jun Young-hyun met with Nvidia CEO Jensen Huang on June 8, 2026, at a hotel in Seoul to discuss long-term cooperation on advanced memory technologies and foundry business. Jun stated: \"We have maintained cooperation with CEO Huang for a long period, and we have had very productive discussions so far.\" The meeting focused on near-term supply of HBM4 and SOCAMM products this year, as well as longer-term joint development of HBM4E and HBM5 technologies starting next year. Foundry cooperation was also discussed, with Samsung currently manufacturing NVIDIA's Groq LP30 inference processor at its 4-nanometer process, and Jun confirming Samsung will also handle the next-generation LP40. When asked about Nvidia's stated preference for SK Hynix as its primary memory partner, Jun responded that Samsung would \"work hard on what we do\" and demonstrate results through performance. Industry analysts project SK Hynix will capture between 60–70% of the HBM4 supply volume for Vera Rubin, while Samsung secures 25–30%, leaving Micron with the balance. HBM chips are specialized memory semiconductors that pair with AI processors to deliver the bandwidth necessary for AI training and inference operations. Samsung aims to strengthen its position in the expanding HBM market.",
+      "published_at": "2026-06-08T20:19:32+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "전영현 삼성전자 부회장 \"엔비다아와 그록 4세대 논의\"... TSMC 수주설 일축",
+      "url": "https://www.sedaily.com/article/20053260",
+      "body": "삼성전자 DS부문장 전영현 부회장이 6월 8일 서울 신라호텔에서 젠슨 황 엔비디아 CEO와 단독 회동을 갖고 HBM4 메모리 공급과 파운드리 협력 강화 방안을 논의했다. 전 부회장은 회동 후 취재진에게 \"오랜 기간 협력해왔는데 오늘 가장 좋은 이야기를 나눈 것 같다\"며 \"단기적으로 올해 HBM4와 SOCAMM2를 안정적으로 공급하는 게 중요하고, 중장기적으로는 서로 협력해 공동 개발하는 방안도 논의했다\"고 밝혔다. 특히 그록 LPU 차세대 제품인 LP40도 삼성 파운드리가 맡는다고 명확히 확인했다. 삼성전자는 현재 NVIDIA의 그록 LPU 3세대(LP30)를 4나노미터 공정으로 생산하고 있으며, LP40 역시 삼성 파운드리에서 제조될 것임을 전 부회장이 직접 확인했다. TSMC가 LP40 물량을 가져갈 것이라는 시장의 예측을 정면으로 일축한 셈이다. 또한 자율주행 칩 'Drive AGX Thor'도 삼성 4나노·8나노 공정으로 생산 중임을 확인했다. 내년부터는 HBM4E(7세대)와 HBM5(8세대) 공급, 차세대 파운드리 협력에 대한 논의도 심도 있게 이뤄졌다고 전했다.",
+      "published_at": "2026-06-08T19:11:00+09:00",
+      "source": "서울경제",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Nvidia and SK Hynix seal multi-year HBM4 AI memory deal",
+      "url": "https://thenextweb.com/news/nvidia-locks-in-sk-hynix-for-the-ai-memory-race-as-the-chip-industrys-toughest-bottleneck-gets-its-own-multi-year-deal",
+      "body": "Nvidia and SK Hynix announced a multi-year co-development partnership covering the design and manufacture of next-generation memory chips for artificial intelligence systems. The agreement was unveiled during Nvidia CEO Jensen Huang's tour of South Korea and gives SK Hynix a formal role in developing high-bandwidth memory for Nvidia's most advanced accelerators, particularly the Vera Rubin platform entering full production. The deal extends beyond standard supply arrangements: both companies will jointly develop memory infrastructure specifically designed for AI factories — large-scale data center clusters used for training and inference operations. The partnership covers physical AI applications and memory tailored for Vera Rubin. Vera Rubin systems integrate clusters of Vera central processing units and Rubin graphics cores alongside terabytes of HBM4 memory. The platform delivers approximately 3.5 times the training performance and five times the inference performance compared to its Blackwell predecessor. Production shipments commence in Q3 2026. Memory has emerged as the industry's critical bottleneck. Arm CEO Rene Haas characterized memory as \"probably the toughest\" constraint facing the sector. The memory supercycle is projected to persist through at least 2028, with some forecasts extending shortages to 2030. SK Hynix controls approximately 60-70% of HBM4 volume for Vera Rubin; Samsung holds 25-30%; Micron supplies the remainder. The multi-year agreement strengthens SK Hynix's position, enabling capacity expansion and market share consolidation. SK Group Chairman Chey Tae-Won stated: \"Together, we are co-developing the next generation of memory for AI factories and applying AI to how we design and manufacture semiconductors.\" SK Group plans to launch a gigawatt-class AI factory in Korea next year.",
+      "published_at": "2026-06-08T07:54:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "SK Hynix and Nvidia co-developing memory and memory manufacturing tech",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/06/08/sk-hynix-and-nvidia-co-developing-memory-and-memory-manufacturing-tech/5252117",
+      "body": "SK Hynix and Nvidia announced a multi-year strategic cooperation agreement focused on co-developing memory technology for Nvidia GPU servers, edge RTX Spark workstations, and Jetson robots. SK Hynix will leverage Nvidia software technology for semiconductor factory digital twin simulation and manufacturing optimization using robotics. SK Hynix currently supplies high-bandwidth memory (HBM) to Nvidia for GPUs including Blackwell systems and upcoming Vera Rubin accelerators featuring HBM4 technology. As one of three HBM suppliers alongside Samsung and Micron, SK Hynix is the only company with this strategic partnership arrangement with Nvidia. The partnership elevates the relationship from simple supplier-contractor to a broader alliance. SK Hynix will share memory technology roadmaps with Nvidia and diversify into AI infrastructure, personal AI, and physical AI markets. The collaboration extends beyond Vera Rubin supercomputers to include Vera CPUs, RTX Spark PCs, and Jetson Thor robotic platforms. SK Group Chairman Chey Tae-Won stated: \"Together, we are co-developing the next generation of memory for AI factories and applying AI to how we design and manufacture semiconductors\" — work expected to shape AI infrastructure development. SK Group plans to launch a gigawatt-class AI factory in Korea next year. Technical collaboration includes SK Hynix using Nvidia's CUDA-X libraries and PhysicsNeMo framework for semiconductor simulation. Additionally, SK Hynix is developing fabrication digital twins using Nvidia Omniverse libraries and OpenUSD pipelines to optimize complex semiconductor manufacturing environments.",
+      "published_at": "2026-06-08T14:50:00+09:00",
+      "source": "Blocks & Files",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "NAVER Expands AI Infrastructure With NVIDIA to Serve Surging Global AI Demand",
+      "url": "https://www.globenewswire.com/news-release/2026/06/07/3307753/0/en/NAVER-Expands-AI-Infrastructure-With-NVIDIA-to-Serve-Surging-Global-AI-Demand.html",
+      "body": "NVIDIA and NAVER announced an expansion of sovereign AI infrastructure using the NVIDIA DSX platform. NAVER will build AI factories at gigawatt scale, beginning with a 55-megawatt expansion at GAK Sejong data center in South Korea. The 55MW capacity is due online in 2027. The company then aims to expand its infrastructure overseas to 100MW within the same year and 200MW by 2028, targeting gigawatt-scale operations. The new DSX-powered cloud will expand Naver's GAK Sejong data center. NAVER will use NVIDIA full-stack AI platforms, models and software to advance regional AI models including next-generation HyperCLOVA X models, its Seoul World Model development, and agentic AI services. NAVER became the first Korean company joining the NVIDIA Nemotron Coalition, contributing to open model development across pretraining and post-training processes. NVIDIA CEO Jensen Huang met with NAVER chairman Lee Hae-jin during the Korea visit. The companies also agreed to expand to Europe and the Middle East for joint AI infrastructure operations. The partnership focuses on implementing NemoClaw blueprints, with an AI Agent Platform launch planned for H2 2026.",
+      "published_at": "2026-06-08T08:00:00+09:00",
+      "source": "GlobeNewsWire",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea's AI Innovation",
+      "url": "https://www.globenewswire.com/news-release/2026/06/07/3307750/0/en/SK-Telecom-and-NVIDIA-Build-AI-Infrastructure-to-Power-Koreas-AI-Innovation.html",
+      "body": "NVIDIA and SK Telecom announced that SK Telecom plans to build a gigawatt-scale AI Cloud in Korea using the NVIDIA DSX platform, with the first AI factory coming online in 2027. An AI Cloud is large-scale AI infrastructure comprised of AI factories that manufacture tokens — building blocks of intelligence — from data. SK Telecom's AI Cloud will be built on the NVIDIA DSX full-stack reference architecture of software, hardware and operations. SK Telecom's AI Cloud will power training, inference and agentic workloads including sovereign, physical and enterprise AI services for companies and industries across Korea, with the vision to expand to greater Asia. NVIDIA CEO Jensen Huang noted: \"Telecom networks are becoming national AI infrastructure.\" SK Group Chairman Chey Tae-won stated the partnership gives them \"full-stack AI infrastructure capabilities, from chips to data center operations.\" Beyond deployment, NVIDIA and SK Group committed to joint research on next-generation AI factory architecture, focusing on silicon-to-grid innovation and accelerated computing advancement. SK Telecom has already adopted NVIDIA Nemotron datasets for training sovereign AI models and applied NVIDIA Omniverse digital twins to semiconductor manufacturing optimization. Target capacity: 5 GW scale.",
+      "published_at": "2026-06-08T08:00:00+09:00",
+      "source": "GlobeNewsWire",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Jensen Huang wraps up South Korea visit, stresses physical AI cooperation and startup support",
+      "url": "https://www.digitaltoday.co.kr/en/view/61516/jensen-huang-wraps-up-south-korea-visit-stresses-physical-ai-cooperation-and-startup-support",
+      "body": "NVIDIA CEO Jensen Huang concluded his five-day South Korea visit on June 9, 2026. At the Korea AI Ecosystem Reception on June 8 at the Shilla Hotel, Huang stated: \"South Korea is a country unmatched in heavy industry, manufacturing, electronics and AI software.\" He predicted \"hundreds of billions of dollars in revenue will flow into South Korea\" over the next five years. Huang urged venture capital firms to invest in AI startups by name, and requested government-level funding support from Deputy Prime Minister Bae Kyung-hoon. South Korea was identified as Nvidia's top physical AI partner outside the United States, with companies like Doosan Robotics, RealWorld, Arobot, and Robotis participating. Government agreements with Deputy PM Bae included: prioritized supply of next-generation Vera Rubin accelerators; priority support for 260,000 existing GPU units; positive reception to hosting GTC Korea; and GPU pricing benefit discussions. For memory: Samsung Electronics discussed HBM supply, foundry cooperation, and next-generation memory through HBM5. SK Hynix was praised with Huang noting \"very big results this year\" with anticipated growth in H2 and 2027. Infrastructure: Naver targeting 55MW by 2027, scaling to 200MW in 2028, targeting GW-class. SK Telecom building up to 5 GW AI factory on Nvidia DSX. Five universities invited: KAIST, UNIST, SNU, Korea University, and POSTECH. Nvidia AI Technology Center hiring underway in Korea.",
+      "published_at": "2026-06-09T10:00:00+09:00",
+      "source": "DigitalToday",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "body": "OpenAI submitted a confidential draft registration statement to the SEC for a proposed IPO. The company announced this proactively through its official blog, stating: \"We recently submitted a confidential S-1. We expect it to leak so we're just announcing it.\" The company indicated it has \"not decided on timing yet; it may be a while because there are things we want to do that are likely easier as a private company. But it's a complicated set of tradeoffs, and this gives us the option to go public sooner if that ends up being best.\" OpenAI is working with Goldman Sachs and Morgan Stanley on a potential listing as soon as the fall. The company is currently valued at $852 billion post-money (March 2026 valuation). This filing follows Anthropic's IPO submission by just over a week. SpaceX is also expected to debut at a $1.75 trillion valuation. OpenAI faces significant headwinds: the company recently missed user and revenue targets. Projections indicate the firm will burn approximately $85 billion in 2028 despite doubling sales, meaning it won't generate positive cash flow for at least four more years. Data center spending alone is expected to reach $122 billion annually. OpenAI boasts approximately 900 million weekly active users globally. CEO Sam Altman told CNBC the company will proceed \"when appropriate timing arrives.\" The filing momentum accelerated following OpenAI's legal victory against Elon Musk last month.",
+      "published_at": "2026-06-08T21:29:57+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "오픈AI, IPO 신청서 제출...\"상장 시점은 미정\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211500",
+      "body": "오픈AI가 2026년 6월 8일 미국 증권거래위원회(SEC)에 비공개 IPO 서류를 공식 제출했다고 공식 블로그를 통해 발표했다. 오픈AI는 정보 유출을 막기 위해 선제적으로 공개했다며 \"아직 상장 시점은 결정되지 않았으며, 비공개 상태를 유지하는 게 유리한 사항들이 있어 시간이 걸릴 수 있지만, 상황에 따라 더 빨리 상장을 추진할 수 있는 선택지를 확보했다\"고 밝혔다. 오픈AI의 기업가치는 2026년 3월 기준 8,520억 달러(약 1,170조원)로 평가받고 있다. 골드만삭스와 모건스탠리가 잠재적 상장 주관사로 참여하며 빠르면 올 가을 상장이 가능할 것으로 보인다. 이번 신청은 약 1주일 전 경쟁사 앤트로픽이 IPO 서류를 제출한 직후에 이뤄졌다. 스페이스X도 1.75조 달러 기업가치로 상장을 준비 중이다. 오픈AI는 최근 내부 매출 목표를 달성하지 못한 것으로 알려져 수익성에 대한 우려도 제기되고 있다. 2028년까지 850억 달러를 소모하면서도 흑자 전환은 4년 이상 걸릴 것으로 예측된다. 현재 오픈AI의 전 세계 주간 활성 사용자는 약 9억 명이다. 샘 알트만 CEO는 CNBC에 \"적절한 타이밍에 상장을 진행할 것이며 경쟁사 일정에 영향받지 않을 것\"이라고 말했다.",
+      "published_at": "2026-06-09T08:03:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "body": "Apple held its WWDC 2026 keynote at Apple Park in Cupertino on June 8, 2026, unveiling an entirely reimagined Siri branded 'Siri AI,' alongside iOS 27, iPadOS 27, macOS 27 'Golden Gate,' watchOS 27, tvOS 27, and visionOS 27. The enhanced Siri AI features contextual understanding, can search across personal data, access real-time web information, and understand on-screen content. Apple's AI Foundation Models were built in collaboration with Google and its Gemini models — combining on-device processing with private cloud computing. Key new features include: Visual Intelligence (camera-based food nutrition and bill analysis), Spatial Reframing (AI photo perspective adjustment after capture), Safari AI tab organization and website change notifications, and agentic coding tools for developers. Siri AI is available on iPhone 16+, iPhone 15 Pro models, iPad mini (A17 Pro), M1+ Macs, Apple Watch Series 9+, and Vision Pro (M5). The new features are not available in the EU or China at launch due to regulatory concerns. Performance improvements: 30% faster app launches, 70% faster photo loading, 80% faster AirDrop transfers, 5x faster iPad file browsing. M5 hardware — Mac Mini M5, Mac Studio, and other Mac updates — were anticipated but not announced at WWDC; expected later in 2026. Apple stock declined 1.89% during the keynote. Siri AI will roll out as a beta through iOS 27 this fall.",
+      "published_at": "2026-06-08T19:41:32+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "애플, 2년 만에 실체 드러낸 '시리 AI' 공개…새로운 것은 없어",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211499",
+      "body": "애플이 2026년 6월 8일(현지시간) WWDC 2026에서 2년 만에 AI 비서 '시리 AI'를 공개했다. 시리 AI는 iOS 27에 탑재되어 올 가을 베타로 배포된다. 새로운 시리 AI는 구글의 Gemini 모델과 협력해 개발된 '애플 파운데이션 모델'을 기반으로 하며, 온디바이스 처리와 '프라이빗 클라우드 컴퓨팅'을 결합한다. 주요 기능으로는 개인 데이터 전체 검색, 화면 콘텐츠 인식, 실시간 웹 정보 접근이 포함된다. 전용 시리 앱이 추가돼 iPhone, iPad, Mac 간 대화 연속성을 지원한다. 새 기능 중 카메라를 이용한 음식 영양 분석, 촬영 후 원근감 조정이 가능한 '스페이셜 리프레이밍', Safari 탭 자동 분류와 웹사이트 변경 알림 등이 포함됐다. 온디바이스 기능은 최신 칩셋(iPhone 16 이상, iPhone 15 Pro, M1 이상 Mac)에서만 지원된다. EU와 중국에서는 규제 문제로 초기 출시 제외됐다. 일부 기능은 iCloud+ 유료 구독이 필요하다. 애플 주가는 키노트 중 1.89% 하락했다.",
+      "published_at": "2026-06-09T06:26:09+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "South Korea Holds K-AI Semiconductor Forum to Showcase Domestic AI Chip Commercialization",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11029",
+      "body": "South Korea's Ministry of Science and ICT hosted the K-AI Semiconductor Growth Forum on June 4, 2026, at Lotte Hotel Seoul to highlight progress in domestic AI semiconductor development. Deputy Prime Minister Bae Kyung-hoon stated that \"domestic AI semiconductors are a core foundation for realizing the national goal of becoming one of the world's top three AI powers.\" The forum brought together AI semiconductor makers, demand companies, and government agencies to share successful commercial use cases. Rebellions presented SK Telecom's A.Dot call summarization service powered by Rebellions chips, and co-developed a real-time water pollution detection service for a UAE energy company. Rebellions' Rebel-100 AI chip underwent K-Perf benchmarking validation. FuriosaAI contributed to maritime surveillance drone and wildfire management platform deployments. FuriosaAI's Renegade processor received K-Perf testing and validation. Samsung SDS uses FuriosaAI processors for subscription-based AI semiconductor services. HyperAccel developed a public complaint analysis service utilizing large language models. Korean AI semiconductor firms secured over $30 million in export contracts across the UK, Taiwan, Vietnam, and China. The forum highlighted demonstration projects including autonomous livestock management systems, wildfire detection platforms, and mobility assistance wheelchairs. NIPA President Park Yun-gyu also attended the event.",
+      "published_at": "2026-06-08T12:51:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Demand for data center CPUs has surged, and AI agents are responsible — why the CPU to GPU ratio is more important than ever for hyperscalers",
+      "url": "https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
+      "body": "The rise of agentic AI is causing data center CPU demand to surge, reversing the historical GPU-dominated ratio. Historically, AI deployments favored a 4:1 to 8:1 GPU-to-CPU ratio for chatbot workloads. As agentic AI becomes dominant, this balance is reversing significantly. CPUs now handle critical functions including orchestration, memory management, networking, storage coordination, and inference handling. AMD reports CPU market growth has doubled from an anticipated 18% annual rate to 35% annually, projecting the sector to reach $120 billion by decade's end. Rather than dense GPU configurations with minimal CPU support, hyperscalers now deploy higher core-count CPUs with expanded memory channels. Some deployments use multiple CPUs per node to manage data movement demands. Agentic AI systems require sustained, high-load CPU operation for continuous, multi-step reasoning — unlike brief GPU inference bursts in chatbot scenarios. CPUs currently account for approximately 91% of latency in AI response times, making them critical optimization targets. Arm-based custom processors dominate hyperscaler deployments, with approximately half of all hyperscaler compute based on Arm architecture in 2025, including AWS Graviton, Google Axion, and Microsoft Cobalt chips. The shift has major implications for data center design: racks are being re-engineered to balance GPU and CPU density.",
+      "published_at": "2026-06-08T15:15:55+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "Most new U.S. AI data centers are being built in drought zones — two-thirds of 809 planned projects set for areas with water shortages",
+      "url": "https://www.tomshardware.com/tech-industry/most-new-us-ai-data-centers-are-going-up-on-drought-land",
+      "body": "Approximately two-thirds of 809 planned AI data center projects in the U.S. are being constructed in areas experiencing water shortages, according to a new water-demand analysis published June 8, 2026. The analysis indicates that data center cooling accounts for roughly 4% of AI's water footprint, with semiconductor fabrication and power generation representing the majority of water consumption. The report examined 809 planned AI data center projects nationwide, revealing a significant geographic concentration in drought-prone regions including Arizona, Texas, Nevada, and Virginia. This development highlights a critical sustainability challenge: the rapid expansion of AI infrastructure is concentrating water-intensive operations in regions already facing severe water scarcity. The clustering of data centers in drought zones creates potential conflicts between technological growth and regional water security. Cooling is a primary water consumer for data centers, with modern liquid cooling systems requiring large volumes of water for evaporative cooling towers. The trend is expected to intensify as AI workloads demand higher power density per rack, pushing PUE (Power Usage Effectiveness) requirements lower and water consumption higher.",
+      "published_at": "2026-06-08T16:39:27+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "New York state legislature passes data center moratorium, awaits governor Hochul's approval",
+      "url": "https://www.theregister.com/legal/2026/06/05/new_york_advances_one-year_datacenter_permit_moratorium/5251911",
+      "body": "New York lawmakers have approved legislation imposing new labor, energy, environmental, and community-benefit requirements on datacenters, including a one-year moratorium on certain permits for facilities drawing 20 MW or more. The bill (S10642, Responsible Data Center Development Act) now awaits Governor Kathy Hochul's signature. Assemblymember Anna Kelles sponsored the legislation, stating the state faces \"an unprecedented wave of proposed large-scale data center development.\" The bill includes: Electricity Requirements — datacenters with peak loads of 5 MW or greater must shift toward renewable energy in phases (one-third by 2034, two-thirds by 2039, 90% from 2040 forward); Consumer Protection — new electrical customer classifications requiring datacenters to assume all infrastructure upgrade costs; Labor Standards — prevailing wage requirements for construction and maintenance workers; Community Benefits — datacenters must support local renewable energy initiatives. The original draft proposed a three-year moratorium. The bill passed the Assembly and Senate with carve-outs for certain industrial computing applications including manufacturing. Governor Hochul has not committed to signing the bill and previously noted: \"This is a local decision for municipalities... It's not a statewide approach necessarily.\" If signed, New York would be the first state to enact such a bill. Tech:NYC CEO Julie Samuels argued that \"a blanket moratorium on datacenters would slow investment in the next generation of infrastructure projects.\"",
+      "published_at": "2026-06-05T23:35:00+09:00",
+      "source": "The Register",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Elon Musk In Direct Talks With ASML For $119B TeraFab Chip Plant: CEO Calls Him 'Very Serious'",
+      "url": "https://www.benzinga.com/news/topics/26/06/53049336/elon-musk-in-direct-talks-with-asml-for-119b-terafab-chip-plant-ceo-calls-him-very-serious",
+      "body": "Elon Musk is in direct negotiations with ASML regarding a proposed semiconductor manufacturing facility called TeraFab in Texas. ASML CEO Christophe Fouquet confirmed the discussions, describing Musk as \"very serious about all those projects,\" which encompass semiconductor ventures and satellite ambitions connected to Tesla, xAI, and SpaceX. TeraFab is a vertically integrated semiconductor project announced March 21, 2026, as a joint effort between Tesla, SpaceX, and xAI. Intel is contributing 14A process technology. The facility is planned for Grimes County, Texas, with an initial investment of $55 billion and total projected costs up to $119 billion. Fouquet on market conditions: \"Demand on AI is coming so strongly that we will be in a supply-limited market for quite a while.\" Fouquet on market projections: \"The global semiconductor market could eventually reach $1.5 trillion by 2030 as AI-related demand accelerates.\" ASML CEO Fouquet and Musk had conversations about TeraFab reportedly in May 2026. Musk is scheduled to appear virtually at ASML's private annual technology conference on June 9-10, joining CEO Fouquet for a fireside chat about TeraFab. ASML, headquartered in the Netherlands, is the world's sole manufacturer of extreme ultraviolet (EUV) lithography machines. Without ASML's machines, TeraFab cannot function. ASML shares rose 5.81% on June 8, 2026, after Musk publicly described ASML as \"arguably the greatest company in Europe.\" ASML's market cap reached $674 billion, making it Europe's most valuable company in history.",
+      "published_at": "2026-06-07T16:01:00+09:00",
+      "source": "Benzinga",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "ASML"
+    },
+    {
+      "title": "Disgruntled ASML employees threaten to boycott Elon Musk conference appearance — staff express ire at political involvement and 'Nazi sympathies'",
+      "url": "https://www.tomshardware.com/tech-industry/asml-staff-want-to-boycott-musk",
+      "body": "Some ASML employees have threatened to boycott the company's private annual technology conference where Elon Musk is scheduled to speak virtually on June 9-10, 2026. Staff members are expressing anger at Musk's political involvement and alleged sympathies. Musk was invited to discuss his TeraFab semiconductor manufacturing project — a joint venture between SpaceX, Tesla, and xAI targeting a $55-119 billion chip fab in Grimes County, Texas. The employee backlash reflects broader unease at ASML about Musk's public persona and political activities. Despite the controversy, ASML CEO Christophe Fouquet confirmed that Musk is \"very serious\" about TeraFab and that ASML is actively engaged in discussions about supplying EUV lithography machines for the proposed facility. ASML stock rose 5.81% on June 8 after Musk publicly called ASML \"arguably the greatest company in Europe.\" The company's market cap reached $674 billion, making it Europe's most valuable company ever. The employee boycott threat highlights tensions between corporate business development priorities and workforce political concerns at leading semiconductor equipment companies.",
+      "published_at": "2026-06-08T13:27:58+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": "ASML"
+    },
+    {
+      "title": "Chinese startup claims photonic chip production without DUV lithography, says nanoimprint process cuts costs by 90% — 8-inch wafers produced without conventional optical lithography",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/chinese-startup-claims-photonic-chip-production-without-duv-lithography-says-nanoimprint-process-cuts-costs-by-90-percent-8-inch-wafers-produced-without-conventional-optical-lithography",
+      "body": "A Chinese startup has claimed to achieve photonic chip production using nanoimprint lithography technology, eliminating the need for Deep Ultraviolet (DUV) lithography equipment. The company says the process cuts production costs by approximately 90% compared to conventional optical lithography methods, producing 8-inch wafers without conventional photolithography tools. This development is significant because it potentially represents a method to circumvent US export restrictions on semiconductor manufacturing equipment to China. DUV lithography tools from companies like ASML, Nikon, and Canon are subject to export controls, so an alternative technology could allow Chinese semiconductor production to bypass these restrictions. Nanoimprint lithography uses physical templates to transfer patterns to wafers rather than optical exposure, making it a fundamentally different approach. For photonic chips specifically — which route light rather than electrons — the precision requirements differ from advanced logic chips, potentially making nanoimprint more viable. The claim still requires independent verification, and the technology may not scale to advanced logic production. If validated, this development could have significant implications for US-China semiconductor supply chain decoupling efforts and global chip manufacturing geography.",
+      "published_at": "2026-06-08T18:54:45+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI chip race lifts semiconductor equipment sales to record US$36.55bn in Q1 2026",
+      "url": "https://www.digitimes.com/news/a20260608VL214/equipment-sales-ai-chip-capacity-investment.html",
+      "body": "Global semiconductor equipment sales reached US$36.55 billion in Q1 2026, marking a new record high for the first quarter, according to data published June 9, 2026 by DIGITIMES Asia. The surge stems from the AI buildout which has accelerated investment across multiple segments. Equipment spending increased across three primary categories: leading-edge logic manufacturing, DRAM production capacity, and advanced packaging technology. The record Q1 figure signals that chipmakers are dramatically scaling up production capacity to meet exploding demand for AI accelerators, HBM memory, and advanced packaging. TSMC, Samsung, SK Hynix, and Micron have all announced record capital expenditure programs for 2026. The advanced packaging segment — including CoWoS for NVIDIA H100/H200/Blackwell and coming HBM4 integration — has seen particularly strong equipment investment, as packaging becomes a critical bottleneck for AI chip shipments. The record equipment sales level indicates the AI infrastructure investment cycle is still in full expansion mode despite concerns about capacity constraints.",
+      "published_at": "2026-06-09T07:44:00+09:00",
+      "source": "DIGITIMES",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Naver Cloud Emerges as Nvidia's Key AI Partner",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11066",
+      "body": "Naver Cloud has emerged as one of Nvidia's closest strategic partners in South Korea. NVIDIA CEO Jensen Huang visited Naver founder Lee Hae-jin on June 8 to discuss broader AI factory cooperation. Naver Cloud obtained early access to Nvidia's Nemotron 3 Ultra language model. The partnership focuses on advancing Naver's HyperCLOVA X Next model for enterprise services including search, maps, and internal copilots. Naver Cloud plans to deploy over 60,000 Blackwell-series GPUs. The companies' technological paths began converging through data center infrastructure in the 2010s — Naver built its first proprietary data center (GAK Chuncheon) in 2013. Future expansion: Naver Cloud aims to position itself as a key supplier supporting explosive AI demand across Asia and is pursuing overseas expansion including Japanese market entry. Naver Cloud was selected as a preferred partner for South Korea's 2026 AI computing infrastructure project valued at approximately 2 trillion won. The partnership includes joint development of Seoul World Model using NVIDIA Cosmos world foundation models and deployment of an AI Agent Platform in H2 2026.",
+      "published_at": "2026-06-08T12:00:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "HPE Catches Its First GenAI Wave With Enterprises, Sovereigns, And Neoclouds",
+      "url": "https://www.nextplatform.com/compute/2026/06/04/hpe-catches-its-first-genai-wave-with-enterprises-sovereigns-and-neoclouds/5250944",
+      "body": "Hewlett Packard Enterprise has caught its first wave of generative AI deployments across enterprise, sovereign, and neocloud customer segments, reporting strong Q2 FY2026 results driven by AI server demand. HPE's AI infrastructure revenues surged as enterprises across financial services, healthcare, and government sectors began deploying on-premises generative AI systems. Sovereign AI deployments — where countries build their own national AI infrastructure rather than relying on US hyperscalers — represent a significant new market for HPE. The company has secured contracts from multiple European and Asian governments for sovereign AI computing platforms. Neocloud customers building GPU-as-a-service platforms for AI workloads have been a key growth driver. HPE's ProLiant servers with NVIDIA Blackwell GPUs are the primary offering. The company emphasized its ability to deliver full-stack AI infrastructure from chips to software to managed services, competing directly with Dell's AI Factory approach. CEO Antonio Neri characterized the generative AI buildout as a multi-year cycle, with HPE positioning itself as the preferred partner for enterprises that cannot or choose not to use public hyperscaler AI services.",
+      "published_at": "2026-06-04T13:12:32+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "CyrusOne breaks ground on 380MW data center in Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/cyrusone-breaks-ground-on-380mw-data-center-in-texas/",
+      "body": "CyrusOne has broken ground on a new 380 megawatt data center campus in Texas, marking one of the largest single-site data center deployments announced in 2026. The facility is designed to meet growing demand from hyperscalers and AI workloads. The Texas location offers advantages including relatively lower power costs, proximity to major financial and tech industry hubs, and available land for the large footprint required by hyperscale data centers. CyrusOne is one of the major colocation data center operators scaling aggressively to meet AI infrastructure demand. The 380MW capacity puts the campus among the largest planned facilities in the US, comparable to recent announcements from hyperscalers building their own campuses. The data center market has seen record investment levels in 2026 as hyperscalers and AI companies race to build out the infrastructure needed for training and inference of large-scale AI models.",
+      "published_at": "2026-06-08T16:20:25+09:00",
+      "source": "DataCenter Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Stark Power lands 5.6GW data center development portfolio in Sagebrush acquisition",
+      "url": "https://www.datacenterdynamics.com/en/news/stark-power-lands-56gw-data-center-development-portfolio-in-sagebrush-acquisition/",
+      "body": "Stark Power has acquired Sagebrush, landing a 5.6 gigawatt data center development portfolio in the process. This acquisition represents one of the largest data center capacity transactions of 2026, reflecting the intense competition for sites with sufficient power capacity to support AI infrastructure buildout. The 5.6GW portfolio includes sites at various stages of development across multiple US states. Data center developers have been aggressively acquiring land and power rights as the fundamental bottleneck for new AI data centers has shifted from capital to physical power capacity. Gigawatt-scale data center portfolios have become increasingly valuable assets as power constraints limit where new AI infrastructure can be built. The acquisition signals continued consolidation in the data center development sector as larger players accumulate the scale needed to serve hyperscaler demand.",
+      "published_at": "2026-06-08T15:52:30+09:00",
+      "source": "DataCenter Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Cisco Preps For A World Of AI Agent Coworkers, Frontier Model Threats",
+      "url": "https://www.nextplatform.com/ai/2026/06/03/cisco-preps-for-a-world-of-ai-agent-coworkers-frontier-model-threats/5250406",
+      "body": "Cisco is preparing its enterprise networking and security products for a world where AI agents operate as co-workers alongside human employees, presenting both opportunities and new security threats. The networking giant has been evolving its Silicon One merchant silicon platform, Catalyst switching portfolio, and Hypershield AI security product to address the networking requirements of agentic AI deployments. AI agents require different networking characteristics than traditional workloads: low latency, high bandwidth, and dynamic traffic patterns that change based on multi-step reasoning chains. Cisco's approach focuses on making its networks AI-observable — capable of detecting, classifying, and securing AI agent traffic in real time. The company also sees frontier AI models as a new threat vector, with powerful AI potentially being used to craft sophisticated cyberattacks against enterprise networks. Cisco's Hypershield product uses AI to autonomously detect and respond to network threats, including those potentially generated by AI systems. The company reported strong enterprise AI networking demand in Q3 FY2026, with data center switching revenues growing significantly year-over-year.",
+      "published_at": "2026-06-03T10:10:37+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "광폭황보, 삼성·SK·현대차·LG·네이버 다 만났다 — 젠슨 황, 한국 방문 성과 총정리",
+      "url": "https://www.asiae.co.kr/article/2026060809504126593",
+      "body": "젠슨 황 엔비디아 CEO가 4박 5일간의 방한 기간 동안 삼성전자, SK그룹, 현대차그룹, LG그룹, 네이버 등 국내 주요 대기업과 스타트업, 정부 관계자를 두루 만나며 한국을 글로벌 AI 생태계의 핵심 축으로 정착시키는 성과를 거뒀다. 6월 8일 신라호텔에서 열린 '코리아 AI 에코시스템 리셉션'에는 약 200여 명의 한국 파트너사 대표들이 참석했다. 황 CEO는 행사에서 한국 대기업들에 AI 스타트업 투자를 독려했고, 배경훈 부총리에게는 스타트업 지원을 위한 정부 재원 마련을 요청했다. 주요 발표된 파트너십으로는: ①SK하이닉스와 차세대 메모리 공동 개발을 위한 다년 전략 파트너십, ②삼성전자 전영현 부회장과 HBM4·파운드리·중장기 공동개발 논의, ③SK텔레콤과 GW급 AI 팩토리 구축 협력(DSX 기반), ④네이버와 55MW → 200MW → GW급 AI 팩토리 확장 협력, ⑤LG그룹과 피지컬 AI·로보틱스·AI 인프라 팩토리 구축 등이 포함됐다. 황 CEO는 한국의 차세대 베라 루빈 가속기 물량 우선 지원도 약속했으며, GTC 한국 개최 가능성에도 긍정적인 입장을 밝혔다.",
+      "published_at": "2026-06-08T09:50:00+09:00",
+      "source": "아시아경제",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Rubrik beats revenue guidance as it rides cyber-resilience wave",
+      "url": "https://www.blocksandfiles.com/security/2026/06/08/rubrik-beats-revenue-guidance-as-it-rides-cyber-resilience-wave/5252460",
+      "body": "Rubrik has beaten its revenue guidance for the quarter, riding a growing wave of enterprise demand for cyber-resilience solutions. The company reported strong results as organizations increasingly prioritize data protection and recovery capabilities in the face of sophisticated ransomware attacks and AI-generated threats. Rubrik's Security Cloud platform, which combines data protection with threat detection and automated recovery, has gained traction across enterprise customers. The company has positioned cyber-resilience — the ability to continue operations during and rapidly recover from cyberattacks — as a distinct category from traditional backup and disaster recovery. Revenue growth was driven by expansion of existing enterprise accounts and strong new customer acquisition. The company's ARR (Annual Recurring Revenue) growth accelerated. Rubrik has been benefiting from heightened corporate focus on cybersecurity following several high-profile ransomware incidents in 2025-2026 that caused significant operational disruptions at major enterprises and critical infrastructure operators.",
+      "published_at": "2026-06-08T18:16:55+09:00",
+      "source": "Blocks & Files",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Apple unveils next generation of Apple Intelligence, Siri AI, and more",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "body": "Apple unveiled an entirely reimagined Siri at WWDC 2026, branding it 'Siri AI' — a profoundly more intelligent, knowledgeable, and capable voice assistant. Craig Federighi stated: \"introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri.\" The updated Apple Intelligence platform powers new capabilities across iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, tvOS 27, and visionOS 27. New features include Spatial Reframing in Photos, Image Playground for creative generation, and Safari's \"Notify Me\" webpage monitoring. Performance improvements: App launches 30% faster, photo loading 70% faster, AirDrop transfers 80% faster, iPad file browsing 5x faster. Apple Intelligence is available on iPhone 16+, iPhone 15 Pro models, iPad mini (A17 Pro), M1+ Macs, Apple Watch Series 9+, and Vision Pro (M5). The on-device AI runs Apple Foundation Models developed in collaboration with Google's Gemini models. A free software update will be available this fall with developer testing beginning immediately.",
+      "published_at": "2026-06-08T10:00:00+09:00",
+      "source": "Apple Newsroom",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "퓨리오사AI 8500억원 프리IPO, 6월 중순 현금 납입 마무리 예정",
+      "url": "https://www.datacenterdynamics.com/en/news/furiosaai-seeking-a-500m-funding-round-ahead-of-anticipated-ipo-report/",
+      "body": "퓨리오사AI의 8500억원(약 5억달러) 규모 프리IPO 라운드가 당초 목표(7500억원)를 초과 달성한 이후 증액 마감을 진행 중이며, 6월 중순 현금 납입으로 마무리될 예정이다. 미래에셋증권과 모건스탠리가 공동 주관사로 참여했으며, 국내외 기관투자자들의 수요가 집중됐다. 이번 프리IPO 완료 후 기업가치는 약 3조원(약 20억달러)으로 평가받을 것으로 예상된다. 퓨리오사AI는 2026년 2만개의 RNGD(Renegade) NPU 출하를 목표로 하고 있으며, 현재 월 1000개 생산에서 연말까지 2000-3000개로 확대를 계획하고 있다. 삼성SDS와의 클라우드 기반 NPUaaS 서비스가 7월부터 삼성 클라우드 플랫폼(SCP)에서 출시될 예정이다. Broadcom과의 3세대 TCP 아키텍처 파트너십(3.5D XDSiP 패키징 + 이더넷/PCIe 인터커넥트)은 2nm TSMC 컴퓨트 다이와 HBM4/4E 메모리를 활용하며 2028년 상반기 샘플링 목표다. 2027년 KOSDAQ 상장을 계획하고 있다.",
+      "published_at": "2026-06-09T09:00:00+09:00",
+      "source": "DataCenter Dynamics",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "FuriosaAI"
+    },
+    {
+      "title": "리벨리온 Rebel-100 K-Perf 벤치마크 검증 완료…SKT A.Dot 콜 요약 서비스 상용화",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11029",
+      "body": "[Note: This article entry shares URL with the K-AI Forum article above — treated as same article. Using for competitor tag cross-reference.] Rebellions' Rebel-100 AI chip has completed K-Perf benchmarking validation at the K-AI Semiconductor Growth Forum held on June 4, 2026. The chip is commercially powering SK Telecom's A.Dot call summarization service, representing a production deployment of a Korean domestically-developed AI chip. Additionally, Rebellions co-developed a real-time water pollution detection service for a UAE energy company. The K-Perf validation by TTA (Telecommunications Technology Association) and IITP provides official government-backed benchmarking certification for the Rebel-100. The Rebel-100 specs: 1 PetaFLOP FP16, 144GB HBM3E, UCIe chiplet (first startup to adopt UCIe). H2 2026 production start confirmed. IPO targeting KOSPI Q3 2026 (August likely) at ~2.34B USD valuation.",
+      "published_at": "2026-06-08T12:51:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "하이퍼엑셀, K-AI반도체 성장포럼서 LLM 기반 민원분석 서비스 시연",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11029",
+      "body": "[Note: URL shared with K-AI Forum article — HyperAccel-specific facts extracted.] HyperAccel participated in the K-AI Semiconductor Growth Forum on June 4, 2026, demonstrating a public complaint analysis service utilizing large language models (LLMs) built on HyperAccel's inference accelerator hardware. HyperAccel's Bertha 500 LPU (Samsung 4nm, 768 TOPS INT8, LPDDR5X) is in sample delivery phase. SemiFive has confirmed a mass production contract for the Bertha 500. HyperAccel has raised $45M to date and has a 77-person team. The LG edge chip partnership is ongoing. The public complaint analysis service demonstrates HyperAccel's push into government/public sector AI applications. The forum validated Korean AI chip companies' commercial progress in diverse real-world deployments.",
+      "published_at": "2026-06-08T12:51:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "HyperAccel"
+    },
+    {
+      "title": "AI drives semiconductor equipment sales to record $36.55 billion in Q1 2026",
+      "url": "https://www.digitimes.com/news/a20260608VL214/equipment-sales-ai-chip-capacity-investment.html",
+      "body": "Duplicate entry — already captured above. Skipped.",
+      "published_at": "2026-06-09T07:44:00+09:00",
+      "source": "DIGITIMES",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "body": "NVIDIA and LG Group are partnering to build an AI factory to accelerate LG Group's next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. LG Uplus plans to build a large-scale AI data center capable of accommodating the latest NVIDIA GPUs. LG's 200MW data center in Paju, Gyeonggi Province, is due live in 2027. The collaboration emphasizes physical AI and robotics: LG can integrate NVIDIA Isaac Sim and Isaac Lab robotics frameworks into development workflows to simulate, train and validate home cobots in physically accurate virtual environments. LG Electronics is developing a physical AI data factory to help Korean and global companies accelerate physical AI projects. LG AI Research used NVIDIA Blackwell GPUs, NVIDIA NeMo framework and NVIDIA Nemotron open datasets to support EXAONE model development, as well as NVIDIA TensorRT-LLM software for high-performance inference. The announcement was made on June 7-8, 2026, during NVIDIA CEO Jensen Huang's visit to South Korea. NVIDIA's Isaac GR00T foundation model will be used for LG's home cobot development. This partnership covers M.A.P.: Mobility, AI Infrastructure, and Physical AI.",
+      "published_at": "2026-06-08T09:00:00+09:00",
+      "source": "NVIDIA Blog",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+      "body": "NVIDIA CEO Jensen Huang's visit to South Korea culminated in a comprehensive set of announcements tying the country's industrial capabilities to NVIDIA's AI infrastructure platform. The blog post titled 'Seoul Purpose' documents the scope of partnerships: NAVER is building a full-stack NVIDIA AI factory at gigawatt scale, beginning with a 55MW expansion at the GAK Sejong data center. LG Group announced plans to build an AI factory for robotics, autonomous driving, and data center technologies, with Jensen Huang meeting LG Group chairman Koo Kwang-mo. A Korea AI Ecosystem Reception brought together roughly 200 partners from across the Korea AI ecosystem, including gaming companies (Krafton), robotics startups (Doosan Robotics, RealWorld, Arobot, Robotis), and major conglomerates. Huang expressed hope to see the ecosystem grow 10x in the next year. NVIDIA also signed an agreement with SK Hynix for a multi-year co-development partnership on next-generation memory for AI factories. The blog highlights Korea as NVIDIA's top physical AI partner outside the US, with combined GPU deployments of 260,000+ units across Samsung, SK, Hyundai, and NAVER facilities.",
+      "published_at": "2026-06-08T09:00:00+09:00",
+      "source": "NVIDIA Blog",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "네이버, 엔비디아 DSX로 'AI 팩토리' 키운다…55MW에서 GW급 인프라로 확대",
+      "url": "https://www.newspim.com/news/view/20260608000073",
+      "body": "네이버가 엔비디아 DSX 플랫폼을 기반으로 AI 팩토리를 구축하고, 각 세종 데이터센터를 55MW에서 시작해 장기적으로 GW급으로 확장한다. 젠슨 황 엔비디아 CEO와 이해진 네이버 의장이 6월 8일 회동을 갖고 이 같은 전략적 파트너십에 합의했다. 네이버는 2027년 55MW 규모 AI 인프라 가동을 시작으로, 같은 해 100MW, 2028년 200MW까지 단계적으로 규모를 확대하며 장기적으로 GW급 인프라를 구축한다는 구상이다. 새로운 DSX 기반 클라우드는 네이버 각(GAK) 세종 인프라 확장에 투입된다. 네이버 클라우드는 엔비디아 Nemotron 3 Ultra에 조기 접근 권한을 부여받은 첫 한국 기업이 됐으며, 차세대 HyperCLOVA X 모델 개발에 NVIDIA NemoClaw 블루프린트를 활용할 계획이다. 양사는 AI 팩토리 생태계를 아시아를 넘어 유럽·중동까지 함께 확장하기로 했다. 네이버는 2026년 하반기 AI 에이전트 플랫폼 출시를 목표로 하고 있다. 이번 협력은 주권 AI(Sovereign AI) 인프라 구축의 일환으로, 국내 AI 데이터 주권을 확보하면서도 글로벌 확장을 병행하는 전략이다.",
+      "published_at": "2026-06-08T17:19:00+09:00",
+      "source": "뉴스핌",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "HPE Catches Its First GenAI Wave With Enterprises, Sovereigns, And Neoclouds",
+      "url": "https://www.nextplatform.com/compute/2026/06/04/hpe-catches-its-first-genai-wave-with-enterprises-sovereigns-and-neoclouds/5250944",
+      "body": "Hewlett Packard Enterprise caught its first wave of generative AI deployments across enterprise, sovereign, and neocloud customer segments in Q2 FY2026. HPE's AI infrastructure revenues surged as enterprises began deploying on-premises generative AI systems. Sovereign AI deployments — countries building their own national AI infrastructure — represent a significant new market. HPE has secured contracts from multiple European and Asian governments for sovereign AI computing platforms. Neocloud customers building GPU-as-a-service platforms have been a key growth driver. HPE's ProLiant servers with NVIDIA Blackwell GPUs are the primary offering. CEO Antonio Neri characterized the generative AI buildout as a multi-year cycle. HPE is positioning itself for enterprises that cannot or choose not to use public hyperscaler AI services. The company unified its storage and compute businesses under a single AI-focused go-to-market strategy.",
+      "published_at": "2026-06-04T13:12:32+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Marvell posts record Q1 FY2027 data center revenue — $1.83B, 76% of total",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "body": "Marvell Technology reported record Q1 FY2027 results with data center revenue surging to $1.83 billion, representing approximately 76% of total revenue. Total revenue grew strongly year-over-year driven by custom AI silicon and AI networking demand. Marvell projected its custom chip business would cross $10 billion in revenue by fiscal 2029, fueled by growing AI data center investment. Jensen Huang's June 2 statement at COMPUTEX calling Marvell 'the next trillion-dollar company' sent the stock up 33% in a single session, reaching a 26-year record. NVIDIA's $2 billion strategic equity investment in Marvell (March 2026) as part of the NVLink Fusion partnership context continues to drive investor confidence. Marvell's Teralynx T100 — the industry-first 102.4 Tbps AI switch chip in 3nm, under 1000W, with 512-port scale-out — entered Q2 2026 sampling. The chip targets the 'data center without distance' vision using co-packaged optics (CPO).",
+      "published_at": "2026-06-09T09:00:00+09:00",
+      "source": "Marvell Investor Relations",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Marvell"
+    }
+  ]
+}
