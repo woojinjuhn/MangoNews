@@ -568,3 +568,40 @@ type: reference
 - `라이칭더 대만 총통 컴퓨텍스 AI 공급망 June 2 2026` — fnnews.com June 2 12:13 KST exclusive
 - `Marvell Teralynx T100 102.4 Tbps AI switch Computex June 2 2026` — DCD 403; investor.marvell.com May 26 (pre-event); hpcwire 403; stocktitan.net/seekingalpha 403; use search summaries only for this story
 - `Computex 2026 NVIDIA vs Qualcomm agentic AI analysis` — english.cw.com.tw article.action?id=4805 confirmed June 2 (Industry | 2026-06-02 | web only in URL)
+
+## Source notes (2026-06-10 run — single day window, Anthropic Claude Fable 5 / WWDC 2026 follow-up)
+
+- **Single-day window (June 10 KST only)**: Many major stories (China $295B AI datacenter plan, Samsung AX declaration, Apple WWDC) broke June 9 KST — all excluded. Lean English RSS; Korean outlets + TechCrunch provide bulk of volume.
+- **AI타임스 RSS** — highest yield again; 4 confirmed June 10 articles: Anthropic Fable 5 (06:32 KST), Samsung AX (06:58), Apple/Siri WWDC (06:55), WWDC summary (07:00). Always run first; RSS timestamps are KST-precise.
+- **TechCrunch**: 3 June 10 KST articles confirmed: WWDC summary (03:04 KST), Claude Fable 5 (02:00 KST), Google AI subscription price (09:26 KST). TechCrunch publishes UTC articles that translate to June 10 KST from June 9 evening US time; always check category page for same-day KST articles.
+- **전자신문 (etnews.com)**: 4 confirmed June 10 articles via homepage fetch: Gemini 3.5 번역 모델 (07:28), 앤트로픽 Fable 5 (07:28), 삼성전자 Element Biosciences 투자 (07:48), 강원도 의료 AX (09:20). High-yield Korean source; fetch m.etnews.com for same-day discovery.
+- **뉴스핌 (newspim.com)**: 2 confirmed June 10 articles: Samsung/SK 호남·충청 반도체 투자 (07:25), Apollo/Blackstone $35B AI infrastructure (02:57).
+- **머니투데이 (mt.co.kr)**: Accessible; Anthropic Fable 5 article (06:16 KST June 10); good Korean financial press backup for AI news.
+- **아시아경제 (asiae.co.kr)**: Accessible; Samsung/SK Hynix Honam semiconductor investment article (06:59 KST June 10); covers Korean industry investment stories well.
+- **The Next Platform**: Single article June 10 01:58 KST (Broadcom/Marvell AI chip economics); body accessible via direct fetch; feed published 16:58 UTC June 9 = 01:58 KST June 10.
+- **Winbuzzer (winbuzzer.com)**: Accessible; publishes same-day AI recaps (Claude Fable 5 June 10 07:52 KST); URL pattern /YYYY/MM/DD/<slug>-xcxwbn/; 404 errors are common when URL slug is wrong — verify slug carefully.
+- **Tom's Hardware**: Bodies fetchable; June 10 articles confirmed: Anthropic AI self-improvement warning (02:03 KST), Claude Fable 5 Mythos (05:34 KST). JSON-LD datePublished remains mandatory — times confirmed as 17:03 UTC and 20:34 UTC June 9.
+- **DataCenterDynamics**: Articles all dated June 9 KST; 403 on body fetch. No June 10 DCD articles collected.
+- **HPCWire RSS**: 403 confirmed again. Skip.
+- **NetworkWorld RSS**: 404 confirmed again. Skip.
+- **Wired RSS**: Blocked confirmed again. Skip.
+- **Naver News section/105**: JS-rendered, blocked. Relied on web search for Korean content.
+- **SemiAnalysis RSS**: Still stuck at 2025 content. Skip.
+- **NVIDIA blog (blogs.nvidia.com)**: June 9 PCC article dropped — no extractable exact time for T00:00:00 hard gate compliance; blog.nvidia.com posts often lack JSON-LD precision. Always apply hard gate.
+
+## Key observations (2026-06-10 run)
+- **Anthropic Claude Fable 5 / Mythos 5 launch** (June 9 evening US time = June 10 early KST) was the day's dominant AI story; 6+ articles across outlets. Filter_2 should select 1-2 most distinctive angles.
+- **WWDC 2026 follow-up**: Apple Siri AI backed by Google Gemini AND NVIDIA Blackwell GPUs; this dual NVIDIA/competitor angle is important for MangoBoost.
+- **Google AI subscription price war** ($4.99/month): Major AI monetization inflection; signals inference compute commoditization.
+- **Samsung/SK Hynix HBM site review** (호남·충청): Regional investment news signals next-gen HBM packaging capacity expansion; high MangoBoost relevance.
+- **Total 19 articles**: Below 40-80 target due to strict single-day window after June 9 issue. Honest volume — do not pad.
+- **Major stories missed (June 9 KST)**: China $295B AI datacenter plan, Samsung AX declaration, Bloomberg China story — all confirmed June 9 KST; excluded correctly.
+- **Tier 1 Korean competitors**: Zero qualifying June 10 articles for Moreh, FuriosaAI, HyperAccel, FriendliAI, Rebellions.
+
+## Query patterns (2026-06-10 run)
+- `Anthropic Claude Fable 5 Mythos release June 10 2026` — TechCrunch, Tom's Hardware, Winbuzzer, etnews all yielded June 10 KST articles
+- `WWDC 2026 Apple Siri AI NVIDIA Blackwell Google Gemini June 10` — AI타임스 (idxno 211518, 211533), TechCrunch WWDC summary
+- `Google AI Pro subscription price cut $4.99 June 10 2026` — TechCrunch June 10 09:26 KST confirmed
+- `Apollo Blackstone Broadcom AI infrastructure $35B deal June 2026` — 뉴스핌 June 10 02:57 KST; English source confirms June 9 Bloomberg original
+- `삼성전자 SK하이닉스 호남 충청 HBM 반도체 투자 2026-06-10` — 뉴스핌 07:25 + 아시아경제 06:59 confirmed
+- `Broadcom Marvell custom AI ASIC hyperscaler economics nextplatform June 10` — The Next Platform 01:58 KST June 10 confirmed

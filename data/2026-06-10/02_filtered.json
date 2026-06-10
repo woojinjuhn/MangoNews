@@ -1,0 +1,155 @@
+{
+  "filter_date_kst": "2026-06-10",
+  "kept": [
+    {
+      "id": "18",
+      "title": "AI Chip Shepherds Broadcom And Marvell Have Skinned The Golden Fleece",
+      "url": "https://www.nextplatform.com/compute/2026/06/09/ai-chip-shepherds-broadcom-and-marvell-have-skinned-the-golden-fleece/5253011",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "Tier 2 competitor (Marvell) deep-dive with substantive financials (Broadcom Q2 $22.19B, Marvell $2.42B), hyperscaler custom-silicon economics (40% of NVIDIA/AMD GPU cost), and TPU/MediaTek Zebrafish competitive dynamics — core market intel for a DPU/SmartNIC company."
+    },
+    {
+      "id": "19",
+      "title": "[미국 특징주] 아폴로·블랙스톤, 브로드컴과 손잡고 앤스로픽에 350억달러 AI 인프라 투자",
+      "url": "https://www.newspim.com/news/view/20260610000016",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Massive $35B / 1GW AI infrastructure deal using Broadcom custom AI chips for Anthropic — directly relevant to NVIDIA-alternative AI infrastructure economics and AI datacenter capital flows."
+    },
+    {
+      "id": "16",
+      "title": "용인 다음은 호남·충청?...삼성·SK, 반도체 신규 투자 검토",
+      "url": "https://www.newspim.com/news/view/20260610000048",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Samsung/SK HBM and advanced packaging capacity expansion (Honam/Chungcheong) driven by AI infrastructure demand — Korean semiconductor supply-side intel highly relevant to MangoBoost."
+    },
+    {
+      "id": "17",
+      "title": "Samsung and SK Consider Semiconductor Investments in Honam and Chungcheong",
+      "url": "https://www.asiae.co.kr/en/article/enterprise-CEO/2026061006595623932",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "English-language primary coverage of Samsung/SK HBM4 packaging investment with additional context on US export controls and supply chain diversification — complements Korean source with HBM4 detail."
+    },
+    {
+      "id": "2",
+      "title": "삼성, 'AI 대전환' 선언...챗GPT·클로드 등 업무에 본격 도입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211537",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Samsung Group-wide AX (AI Transformation) declaration with formal adoption of Gemini/ChatGPT/Claude — major Korean enterprise AI infrastructure signal driving downstream compute and infra demand."
+    },
+    {
+      "id": "1",
+      "title": "앤트로픽, 미소스급 '페이블 5' 출시…'위험시 하위 모델 자동 전환'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211536",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Anthropic Claude Fable 5 / Mythos 5 release (Korean primary) with Samsung/SK Hynix/SKT/KISA consortium access detail — flagship AI model release with direct Korean enterprise relevance."
+    },
+    {
+      "id": "6",
+      "title": "Anthropic's Claude Fable 5 is a version of Mythos the public can access today",
+      "url": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "TechCrunch primary coverage of Fable 5 with pricing ($10/$50 per M tokens), 95% on-model retention, and 80% recursive code merge stat — substantive English complement to Korean source."
+    },
+    {
+      "id": "9",
+      "title": "Anthropic's warning over AI self-improvement has a hidden message — accelerating development requires more compute before companies ever risk losing control of frontier AI models",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-warning-over-ai-self-improvement-has-a-hidden-message",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Tom's Hardware analytical angle framing Anthropic's recursive self-improvement warning as a compute-expansion argument — directly relevant to AI compute demand and frontier model infrastructure economics."
+    },
+    {
+      "id": "3",
+      "title": "'똑똑해진' 시리 보여주겠다던 애플…2년 만의 결과는?",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211533",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "Apple Siri AI runs complex reasoning on Google Cloud NVIDIA Blackwell B200 GPUs with NVIDIA confidential computing — Tier 2 competitor (NVIDIA) substantive AI-infra win, plus a major hyperscaler partnership model."
+    },
+    {
+      "id": "5",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "TechCrunch primary with technical depth on Apple's 3-tier inference architecture (on-device → Apple PCC → Google Cloud Blackwell B200), 1.2T-param custom Gemini model, and $1B/yr Google deal — concrete NVIDIA hyperscaler infrastructure detail."
+    },
+    {
+      "id": "7",
+      "title": "Google just fired a warning shot in the AI subscription price wars",
+      "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Google AI Plus price cut to $4.99 and Ultra to $100, framed as 'commoditization era for AI infrastructure' by a venture investor — direct AI infra economics signal relevant to MangoBoost's value-prop positioning."
+    },
+    {
+      "id": "12",
+      "title": "구글, 제미나이3.5 기반 번역 모델 출시…70여개 언어 실시간 통역",
+      "url": "https://www.etnews.com/20260610000017",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Google Gemini 3.5 Live Translate streaming speech-to-speech model release with Google Meet integration roadmap — AI product update with multilingual workload implications."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "4",
+      "title": "[6월9일] 애플은 왜 '미래'를 말하지 않았나...WWDC 2026, 팀 쿡 시대의 결산",
+      "discard_reason": "duplicate of articles 3 and 5 (Apple WWDC) — opinion/column framing without new technical detail beyond what the primary coverage already provides."
+    },
+    {
+      "id": "8",
+      "title": "Anthropic Unveils Claude Fable 5 as a Mythos Class AI Model With Safety Routing",
+      "discard_reason": "duplicate of articles 1 and 6 (Fable 5) — Winbuzzer is lower-authority aggregator with no unique angle beyond what TechCrunch and AI타임스 already cover."
+    },
+    {
+      "id": "10",
+      "title": "Claude Fable 5 brings Mythos to the masses — Anthropic's new frontier model is 'state-of-the-art on nearly all tested benchmarks'",
+      "discard_reason": "duplicate of articles 1 and 6 (Fable 5) — Tom's Hardware product summary overlaps with TechCrunch primary; article 9's analytical angle is the more differentiated Tom's Hardware contribution."
+    },
+    {
+      "id": "11",
+      "title": "앤트로픽, 미토스급 AI모델 '페이블5' 출시…안전장치 도입",
+      "discard_reason": "duplicate of article 1 (Fable 5 Korean) — 머니투데이 coverage adds no detail beyond AI타임스 primary."
+    },
+    {
+      "id": "13",
+      "title": "미토스급 AI 모델 일반에 공개…앤트로픽, 페이블5 출시",
+      "discard_reason": "duplicate of article 1 (Fable 5 Korean) — 전자신문 secondary; benchmark numbers already in AI타임스 and TechCrunch coverage."
+    },
+    {
+      "id": "14",
+      "title": "삼성전자, 美 유전자 분석 장비 기업 최대 주주됐다",
+      "discard_reason": "off-topic — Samsung biotech/DNA-sequencing M&A (Element Biosciences) is healthcare strategic investment, not AI infrastructure or semiconductor value chain."
+    },
+    {
+      "id": "20",
+      "title": "강원도, 의료 AX 실증허브 본격 가동…AI 기반 암 특화 의료산업 육성 속도",
+      "discard_reason": "off-topic — provincial medical AI/oncology demonstration hub with 45B KRW budget; no semiconductor, DPU, sovereign-AI infrastructure, or competitor substance."
+    }
+  ],
+  "summary": {
+    "total_received": 19,
+    "total_kept": 12,
+    "total_discarded": 7,
+    "category_breakdown": {
+      "market": 3,
+      "products": 5,
+      "projects": 3,
+      "challenges": 1,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 3,
+    "by_competitor": {
+      "Marvell": 1,
+      "NVIDIA": 2
+    }
+  }
+}
