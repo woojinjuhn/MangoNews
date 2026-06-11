@@ -208,6 +208,18 @@ type: reference
 - **Samsung (Groq LP40 + NVIDIA)**: Per Samsung DS VP Jun Young-hyun: Groq LP40 inference chip is NOT Samsung-made (TSMC is actual foundry per credible reports); Samsung meeting with Huang June 7-8 covered ongoing HBM4 supply negotiations.
 - **Marvell, Tenstorrent, Napatech**: No standalone June 9 articles found.
 
+## June 11 2026 update — competitor developments
+- **NVIDIA**: 6G RU (Radio Unit) GPU development confirmed — targeting 6G base station antenna unit (1,024 MIMO antennas vs 128 in 5G); AI-RAN expansion from CU/DU layer to antenna layer; 32x compute increase estimated; power draw concerns noted. Earlier invested $2B in Marvell for AI-RAN ecosystem. Source: ZDNet Korea June 11 07:33 KST.
+- **Samsung Electronics**: DX division officially adopts 3 external GenAI services (ChatGPT, Gemini Enterprise, Claude) simultaneously from June 12; multi-vendor strategy (임직원 선택형); 2,500-person pilot validated; Sam Altman visiting Suwon Digital City June 15 for 'DX Insight Talk.' Sources: ZDNet Korea, 전자신문 June 11.
+- **SK Hynix**: 375단 낸드플래시 year-end 2026 mass production confirmed — molybdenum (Mo) word-line replacing tungsten (W) for first time; TEL furnace adopted over Lam Research; Cheongju M15 fab conversion (no new fab). Sources: 더일렉 June 10 20:59 KST.
+- **SK Group / NVIDIA** (2026 뉴 이천포럼): Forum June 11-13; Jensen Huang Korea visit follow-ups being executed — SK Hynix next-gen memory co-dev, SK Telecom GW-scale AI factory 2027; SK-NVIDIA axis shifting from HBM supply → AI infrastructure design+operations. Sources: ZDNet Korea, 인사이트 코리아.
+- **FriendliAI**: SF SoMa 7,000 sq ft office opened at 20 Hawthorne St; revenue 10x YoY target; Web agent products (Qwen WebWorld with Alibaba Cloud); AI Engineer World's Fair June 25-27 participation. Source: TipRanks June 11 09:00 KST.
+- **Rebellions, FuriosaAI, HyperAccel, Moreh, Tenstorrent, Napatech, Marvell**: No standalone June 11 articles found.
+- **Intel**: +11% stock surge confirmed June 9-10 KST on Google 3M+ TPU order report (The Information); Intel EMIB packaging for Google TPU 2028; SK Hynix evaluating Intel EMIB for HBM stacks. Confirms Intel re-entering high-end packaging as TSMC alternative.
+- **Broadcom**: EPYC Venice/AMD/Broadcom article (June 10) — Broadcom chip sector recovery after June 5 guidance miss; custom ASIC $100B FY2027 revenue forecast maintained.
+- **Amazon (Trainium/Graviton)**: $17.5B delayed draw loan facility (June 10 22:19 KST) — custom chip annual revenue run rate >$20B; Trainium 3 targeted H2 2026; $200B AI capex plan.
+- **Google TPU**: Google-Intel TPU deal — 3M+ TPUs for 2028 from Intel foundry (EMIB packaging); JP Morgan skeptical (packaging only, not fabrication); deal unconfirmed by either party but Intel stock moved +11%. DiffusionGemma open model released June 10-11 (H100 1000 tokens/sec).
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform

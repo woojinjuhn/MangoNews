@@ -1,17 +1,17 @@
 {
   "collection_date_kst": "2026-06-11",
   "run_summary": {
-    "total": 42,
+    "total": 40,
     "by_topic": {
-      "ai": 14,
-      "semiconductor": 11,
-      "datacenter": 10,
-      "competitor": 7
+      "ai": 10,
+      "semiconductor": 16,
+      "datacenter": 8,
+      "competitor": 6
     },
     "by_competitor": {
-      "NVIDIA": 5,
+      "NVIDIA": 7,
       "Samsung": 4,
-      "SK Hynix": 2,
+      "SK Hynix": 1,
       "FuriosaAI": 0,
       "Rebellions": 0,
       "Moreh": 0,
@@ -20,16 +20,16 @@
       "Marvell": 0,
       "Tenstorrent": 0,
       "Napatech": 0,
-      "Intel": 2,
-      "Google TPU": 1,
-      "Amazon Trainium/Graviton": 1,
+      "Intel": 3,
+      "Google TPU": 2,
+      "Amazon Trainium/Graviton": 2,
       "AMD Pensando": 0,
       "Broadcom": 1
     },
-    "competitor_tagged_total": 13,
+    "competitor_tagged_total": 21,
     "sources_consulted": 38,
     "skipped_paywalled": 3,
-    "notes": "Recency window: 2026-06-11 only (last issue 2026-06-10). RSS feeds for NextPlatform, ServeTheHome, BlocksAndFiles, ArtificialIntelligence-News, DataCenterDynamics, TechCrunch, Tom's Hardware, IEEE Spectrum had no June 11 articles at collection time (feeds not yet updated for the day); June 10 articles from those feeds were used where publication time converts to within the window via timezone. SemiAnalysis feed returned stale September 2025 data — skipped. NetworkWorld RSS returned 404. Wired.com blocked. LightReading returned 403. TipRanks returned 403. SIA report dated June 1 was excluded (outside window). No standalone June 11 news found for: Rebellions, FuriosaAI, HyperAccel, Moreh, Tenstorrent, Napatech. Digitimes Google-Intel article behind paywall — used TechTimes/Tom's Hardware versions instead. Paywalled items: Digitimes AI chip equipment sales, Digitimes Samsung-TSMC, LightReading NVIDIA 6G RU chip."
+    "notes": "Recency window: 2026-06-11 only (last issue 2026-06-10). RSS feeds for NextPlatform, ServeTheHome, BlocksAndFiles, ArtificialIntelligence-News, DataCenterDynamics, TechCrunch, Tom's Hardware, IEEE Spectrum had no June 11 articles at collection time (feeds not yet updated for the day); June 10 articles from those feeds were used where publication time converts to within the window via timezone. SemiAnalysis feed returned stale September 2025 data — skipped. NetworkWorld RSS returned 404. Wired.com blocked. LightReading returned 403. TipRanks returned 403. SIA report dated June 1 was excluded (outside window). No standalone June 11 news found for: Rebellions, FuriosaAI, HyperAccel, Moreh, Tenstorrent, Napatech. Digitimes Google-Intel article behind paywall — used TechTimes/Tom's Hardware versions instead. Paywalled items: Digitimes AI chip equipment sales, Digitimes Samsung-TSMC, LightReading NVIDIA 6G RU chip. Dropped: https://www.thelec.kr/news/articleView.html?idxno=57910 — publication time unverifiable (T00:00:00 hard gate)."
   },
   "articles": [
     {
@@ -253,16 +253,6 @@
       "competitor": null
     },
     {
-      "title": "Samsung, SK hynix Q2 2026 Record Earnings Preview — AI Memory Supercycle Drives Operating Margins Toward Historic Highs",
-      "url": "https://en.sedaily.com/finance/2026/06/10/samsung-sk-hynix-set-for-record-q2-earnings-on-memory-boom",
-      "body": "Note: This article is a duplicate of the Korea Herald/Seoul Economic Daily article already collected. Excluding.",
-      "published_at": "2026-06-10T07:24:00+09:00",
-      "source": "Seoul Economic Daily",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": "SK Hynix"
-    },
-    {
       "title": "Intel surges 11% on Alphabet AI-chip order as chip stocks recover",
       "url": "https://www.interactivecrypto.com/intel-surges-11-on-an-alphabet-ai-chip-order-as-chip-stocks-pull-spy-higher-jun-2026",
       "body": "Intel (INTC) experienced an 11.19% single-day surge on June 9, 2026, following reports that Alphabet placed a substantial AI-chip order with the company — specifically, over 3 million TPUs for 2028 production. This signaled that major cloud infrastructure buyers are diversifying their semiconductor supply chains beyond dominant vendors.\n\nThe positive momentum extended across the semiconductor sector, with AMD climbing 5.14% and Broadcom gaining 2.82%. The technology ETF (XLK) rose 2.15% to $184.18, while the broader SPY index gained 0.23%.\n\nThe recovery follows the June 5 semiconductor selloff triggered by Broadcom's Q2 FY2026 earnings guidance miss, which erased over $1.3 trillion in market capitalization from the global chip sector. Broadcom guided AI chip Q3 revenue at $16 billion versus $17.2 billion expected.\n\nThe Intel-Google TPU deal, if confirmed, would be among Intel's largest-ever external foundry customer arrangements, representing a potential multi-billion-dollar revenue stream from Google's AI infrastructure buildout.",
@@ -281,16 +271,6 @@
       "topic_tag": "competitor",
       "secondary_tags": ["semiconductor", "datacenter"],
       "competitor": "NVIDIA"
-    },
-    {
-      "title": "서울대-실리콘카탈리스트 맞손…한국 반도체 스타트업 세계 무대로",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=57910",
-      "body": "서울대학교 시스템반도체산업진흥센터(SIPC)가 글로벌 반도체 액셀러레이터 '실리콘카탈리스트 재팬(SCJ)'과 MOU를 체결하고, 한국 반도체·딥테크 스타트업의 세계 시장 진출을 지원한다.\n\n이번 협약에 따라 SIPC는 유망 국내 기업을 발굴해 실리콘카탈리스트에 추천하고, 실리콘카탈리스트는 이들 기업을 평가해 투자 포트폴리오로 선발한다. 선발된 기업에는 최소 2년간 맞춤형 지원 프로그램이 제공된다. TSMC, 지멘스, ARM 등 70여개 기업과의 파트너십을 통해 EDA 툴·MPW 서비스·IP 라이선스 등 현물 지원이 이루어진다.\n\n이날 행사에는 국내 스타트업 10개사가 기술 발표에 참여했으며, 그 중 3곳(게노스큐브, 잇다반도체, 바이탈IC)이 잠재 포트폴리오 기업으로 추천됐다. 실리콘카탈리스트 매니징 파트너 폴 피커링은 \"투자와 기술 지원을 통해 한국 산업에 기여하겠다\"고 밝혔다.",
-      "published_at": "2026-06-10T00:00:00+09:00",
-      "source": "더일렉(THE ELEC)",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
     },
     {
       "title": "Elon Musk to pitch Terafab chip project at ASML conference June 11-12 — $55B Texas fab targets 2nm AI chips",
@@ -361,16 +341,6 @@
       "topic_tag": "semiconductor",
       "secondary_tags": ["competitor"],
       "competitor": "Intel"
-    },
-    {
-      "title": "Samsung Electronics Adopts External Generative AI for DX Division — ChatGPT, Gemini, Claude Simultaneously Deployed",
-      "url": "https://www.etnews.com/20260611000032",
-      "body": "Note: English version of article already captured above. This is a duplicate entry — excluding.",
-      "published_at": "2026-06-11T09:11:00+09:00",
-      "source": "전자신문",
-      "topic_tag": "ai",
-      "secondary_tags": [],
-      "competitor": null
     },
     {
       "title": "ETRI, 차세대 AI·XR 디스플레이용 '초미세 접합 기술' 개발 — HBM4보다 정밀한 본딩 실현",
@@ -450,16 +420,6 @@
       "source": "Blocks and Files",
       "topic_tag": "datacenter",
       "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
-      "title": "Anthropic 경고: AI 자기개선 기술의 위험성 — Claude Fable 5 안전 설계 배경",
-      "url": "https://www.thelec.net/news/articleView.html?idxno=57911",
-      "body": "Note: This is a duplicate of the Fable 5 article captured above (different URL but same content). Excluding.",
-      "published_at": "2026-06-11T08:00:00+09:00",
-      "source": "더일렉",
-      "topic_tag": "ai",
-      "secondary_tags": [],
       "competitor": null
     },
     {

@@ -165,6 +165,37 @@ type: reference
 - **전자신문** (etnews.com) — confirmed working for Samsung strike/foundry articles; URL pattern /YYYYMMDDXXXXXX
 - **더일렉 article list** (thelec.kr/news/articleList.html) — directly shows same-day articles with timestamps; use to discover URLs
 
+## Source notes (2026-06-11 run)
+- **ZDNet Korea** — highest-yield Korean source for June 11 window: 4 directly relevant articles (삼성 GenAI 도입, NVIDIA 6G RU, Oracle Q4, DiffusionGemma); article IDs follow /view/?no=YYYYMMDDHHMMSS pattern; JSON-LD present.
+- **전자신문 (etnews.com)** — 3 qualifying articles June 11 (Samsung/OpenAI, Oracle 분석, ETRI 초미세 접합); article list at /news/YYYYMMDDXXXXXX.
+- **더일렉 (thelec.kr)** — 2 qualifying articles June 10 evening (375단 낸드플래시, Claude Fable 5); published 20:59 KST (well within window for June 11 issue).
+- **TipRanks** — 403 on direct fetch; article body inaccessible; use search result summary to reconstruct (low confidence for exact quotes).
+- **인사이트코리아 (insight.co.kr)** — accessible; good for SK그룹/대기업 strategic announcements.
+- **Korea Herald (koreaherald.com)** — accessible; June 10-11 articles well covered.
+- **Tom's Hardware** — excellent for June 10 articles (TSMC fab expansion, AMD Venice, Samsung floating DC, China AI grid); all June 10 bodies accessible; JSON-LD present.
+- **뉴시스 (newsis.com)** — accessible for semiconductor equipment market articles; URL /view/NISX+date pattern.
+- **MarkTechPost** — accessible for AI model release articles (DiffusionGemma); explicit June 10 dates.
+- **TechTimes** — accessible; good for Google-Intel TPU order, ASML, Anthropic; JSON-LD present.
+- **InteractiveCrypto / GuruFocus** — accessible; publish Intel-Google TPU market reaction articles; lower-tier outlets but good for stock market angle.
+- **Oracle Investor Relations** — accessible; official IR press releases have precise timestamps.
+- **AsiaE Business Daily (asiae.co.kr/en/)** — accessible; Korean business news English edition; SK Telecom Anthropic stake article.
+- **Motley Fool (fool.com)** — accessible; TSMC supply/demand analysis; semiconductor stock analysis.
+- **HostingJournalist** — accessible; SIA-Deloitte semiconductor AI rack value report.
+- **Technetbook (technetbooks.com)** — accessible; AMD Venice benchmark synthesis articles.
+- **Blockonomi** — accessible; Terafab/ASML conference articles; June 8 articles (outside window but accessible for reference).
+
+## Query patterns (2026-06-11 run)
+- `Samsung Electronics ChatGPT Gemini Claude AI 도입 2026년 6월` — surfaced ZDNet Korea + 전자신문 June 11 articles
+- `NVIDIA 6G antenna GPU AI-RAN wireless base station June 2026` — surfaced ZDNet Korea June 11 07:33 KST
+- `Oracle Q4 FY2026 results cloud infrastructure IaaS revenue June 2026` — surfaced ZDNet Korea + 전자신문 + Oracle IR
+- `Google DiffusionGemma diffusion language model open source June 2026` — surfaced ZDNet Korea + MarkTechPost June 10
+- `SK하이닉스 375단 낸드 몰리브덴 양산 2026년 6월` — surfaced 더일렉 June 10 20:59 KST
+- `FriendliAI San Francisco office expansion AI inference June 2026` — surfaced TipRanks June 11
+- `Amazon 17.5 billion loan AI infrastructure June 2026` — surfaced TechCrunch + The Next Web June 10
+- `Google Intel TPU packaging 2028 order June 2026` — surfaced Tom's Hardware + TechTimes + GuruFocus June 10
+- `TSMC fab N2 CoWoS expansion roadmap 2026` — surfaced Tom's Hardware June 10
+- `AMD EPYC Venice benchmark Zen 6 NVIDIA Vera 2026` — surfaced Tom's Hardware + Technetbook June 10
+
 ## Query patterns (2026-05-06 run)
 - `Broadcom AI custom ASIC XPU news May 2026` — surfaced NextPlatform 5/5 Broadcom 3.5D article + Motley Fool analysis
 - `Astera Labs CXL PCIe connectivity AI infrastructure news May 2026` — surfaced GlobeNewswire Scorpio X-Series 320-lane announcement + Q1 results
