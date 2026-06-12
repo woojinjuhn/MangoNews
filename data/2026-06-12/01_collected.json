@@ -1,0 +1,206 @@
+{
+  "collection_date_kst": "2026-06-12",
+  "run_summary": {
+    "total": 18,
+    "by_topic": {"ai": 7, "semiconductor": 4, "datacenter": 4, "competitor": 3},
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Marvell": 2,
+      "FuriosaAI": 1,
+      "Rebellions": 1,
+      "AWS (Graviton)": 1,
+      "Cerebras": 0,
+      "Tenstorrent": 0,
+      "Napatech": 0,
+      "Moreh": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0
+    },
+    "competitor_tagged_total": 5,
+    "sources_consulted": 28,
+    "skipped_paywalled": 3,
+    "notes": "Recency window: 2026-06-12 KST only (last issue #025 dated 2026-06-11). Primary news driver today: SpaceX SPCX IPO first trading day on Nasdaq. NVIDIA has no new press releases dated June 12 (last was June 11 — stockholder meeting announcement). Marvell CFO transition (June 11) falls just outside window. Naver News IT/과학 section was unreachable (Claude Code unable to fetch from news.naver.com). The Register datacenter/networks RSS returned no June 12 articles. TechCrunch feed showed no June 12 articles. Tom's Hardware RSS showed no June 12 articles. servethehome.com feed showed no June 12 articles. artificialintelligence-news.com feed showed no June 12 articles. semianalysis.com feed appears stale (last articles from Sept 2025). Gemini 3.5 Pro not yet released as of June 12. K-Perf validation article (Nate/eDaily) is dated June 7 — out of window. Several articles on SpaceX AI1 satellite were dated June 8-10 KST — those are before window. AWS Graviton5 Next Platform article published June 11 22:42 UTC = June 12 07:42 KST, included. 247wallst.com Marvell analysis published June 11 14:38 EDT = June 12 03:38 KST, included."
+  },
+  "articles": [
+    {
+      "title": "우주 데이터센터 본격화… 머스크의 꿈은 현실이 되나?",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211622",
+      "body": "스페이스X가 'AI1' 위성을 최초 공개하며 우주 데이터센터 구축이 본격화되고 있다. 일론 머스크는 AI1 위성에 대해 '우주에 있는 컴퓨팅 랙'이라고 표현했다. AI1 위성은 70미터 날개 폭을 지닌 대형 위성으로, 150kW 피크/120kW 지속 컴퓨팅 용량을 목표로 한다. 위성은 태양광 어레이(250W/m²)와 배열 가능한 액체 라디에이터 열 관리 시스템을 갖추고 있다.\n\n머스크는 이 위성이 스타링크 위성보다 훨씬 단순한 구조라고 강조했다. 스페이스X는 텍사스 주 배스트롭에 1,000에이커 이상 규모의 '기가샛(Gigasat)' 공장을 신설해 AI 위성을 생산할 계획이며, 2027년 말부터 가동을 시작할 예정이다.\n\n스페이스X는 2027년 초 프로토타입 AI1 위성 2기를 발사한 후 상업용 별자리를 구성할 계획이다. 궁극적으로는 최대 100만 기의 위성으로 이루어진 메가별자리를 추진한다는 계획도 담겨 있다.\n\n우주 데이터센터 개념은 지상 전력망의 한계와 데이터센터 용량 부족을 해결하는 방안으로 제시되고 있다. 앤트로픽은 xAI 데이터센터 공간 임차 비용으로 스페이스X에 월 약 12.5억 달러를 지불하고 있으며, 구글도 월 약 9.2억 달러의 AI 컴퓨팅 계약을 체결했다고 보도된 바 있다.\n\n그러나 업계 전문가들은 경제성 측면의 우려를 제기한다. 궤도에서 서버 하드웨어를 발사·배치·유지하는 비용이 텍사스에 서버를 설치하는 것보다 훨씬 높다는 지적이다. 스페이스X의 IPO 일정(6월 12일 나스닥 상장)과 맞물려 투자자용 내러티브가 아니냐는 의문도 있다.\n\n스페이스X는 이번 IPO에서 주당 135달러에 5억 5,556만 주를 매각, 약 750억 달러를 조달하고 1조 7,500억 달러의 기업가치를 목표로 하고 있다.",
+      "published_at": "2026-06-12T06:55:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "[6월11일] '미소스'에 이어 '페이블'까지...AI 모델 이름에 숨은 의미",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211607",
+      "body": "앤트로픽이 6월 9일 출시한 Claude Mythos 5와 Claude Fable 5의 이름에 담긴 철학적 의미를 분석한 기사. 'Mythos'는 그리스어로 '신화' 또는 '이야기'를 뜻하며 강력한 원본 모델을 나타내고, 'Fable'은 라틴어 'fabula'에서 유래해 '전해지는 이야기'를 의미하며 더 안전한 기능 제한판을 뜻한다.\n\nFable은 Mythos와 동일한 기반 모델이지만 사이버보안·생물학·화학·증류 등 고위험 도메인에서의 응답을 차단하고 Claude Opus 4.8로 폴백하는 강화된 안전 장치가 적용됐다. 레딧 사용자들은 Fable을 'Mythos의 제거 버전'이라 묘사했다.\n\n기사는 AI 모델 이름이 기술적 설명자에서 브랜드 아이덴티티로 진화했다고 분석한다. Claude는 정보이론의 아버지 Claude Shannon의 이름에서, Grok는 로버트 하인라인의 SF 소설 용어(깊이 이해하다)에서, Llama는 개방성을 의도한 동물 이미지와 약어에서, Gemini는 라틴어로 '쌍둥이'에서 유래했다.\n\nAI 모델들이 독특한 성격을 지닌 디지털 캐릭터로 기능하게 되면서, 이름이 사용자의 기대와 상호작용 방식을 형성하는 중요한 브랜드 마커가 되고 있다고 결론짓는다.\n\nClaude Fable 5 주요 스펙: SWE-bench Verified 95%, SWE-bench Pro 80%, 입력 토큰당 10달러/출력 50달러(Opus 4.8의 2배). 6월 22일까지 Pro·Max·Team·Enterprise 플랜에 무료 포함 후 사용 크레딧 방식으로 전환 예정.",
+      "published_at": "2026-06-12T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SpaceX IPO Goes Live: $SPCX Begins Trading on Nasdaq at $1.75 Trillion Valuation",
+      "url": "https://www.basenor.com/blogs/news/spacex-ipo-goes-live-spcx-begins-trading-on-nasdaq",
+      "body": "SpaceX officially became a publicly traded company with the $SPCX ticker launching on Nasdaq on June 12, 2026, following an IPO priced at $135 per share. This represents one of the space industry's most significant public offerings and the largest IPO in history.\n\nThe IPO offered 555,555,555 shares of Class A common stock, targeting approximately $75 billion in proceeds and valuing SpaceX between $1.75–$1.8 trillion at debut. Investor demand was exceptional, with total demand exceeding $250 billion and the offering oversubscribed roughly 3.5–4 times.\n\nSpaceX uniquely reserved up to 30% of shares for retail investors—significantly higher than typical allocations of 5–10%. Fidelity lowered its minimum account requirement to $2,000 specifically for this offering.\n\nThe company operates three distinct divisions:\n- Starlink (Connectivity): $11.4 billion in 2025 revenue with 63% EBITDA margin, ~10.3 million subscribers across 164 countries\n- Space Services: Falcon 9 launches, over 60% global commercial launch market share\n- AI Division (xAI): $3.2 billion in revenue but $6.4 billion operating loss in 2025\n\nThe 4% initial float and MSCI inclusion starting June 13 are expected to create structural buying pressure during early trading. Week 1 price range projected at $140–$175. The formal closing was expected on June 15, 2026.\n\nSpaceX's public status creates new transparency around Starlink's growth trajectory, Starship commercial development, and government contract revenue through quarterly earnings disclosures.",
+      "published_at": "2026-06-12T00:00:00+09:00",
+      "source": "Basenor",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "AWS Tunes Up Graviton5 For Agentic AI, Boosts Bang For The Buck Bigtime",
+      "url": "https://www.nextplatform.com/compute/2026/06/11/aws-tunes-up-graviton5-for-agentic-ai-boosts-bang-for-the-buck-bigtime/5254538",
+      "body": "AWS has made Amazon EC2 M9g and M9gd instances powered by Graviton5 generally available as of June 10, 2026. The Graviton5 processor represents a major architectural shift from previous generations, purpose-built for the demands of agentic AI workloads.\n\nThe Graviton5 chip is built on TSMC's 3-nanometer manufacturing process and features a chiplet architecture rather than a monolithic design. It comprises four CPU blocks, each with 48 V3 cores, connected via die-to-die interconnects operating at 420 GB/sec, yielding 192 total cores. The chip includes 12 DDR5 memory controllers running at 8.8 GHz and eight PCI-Express 6.0 controllers with CXL 3.0 support. Power consumption is approximately 650 watts per socket.\n\nPerformance gains are substantial: M9g instances deliver between 31.9% and 33.6% better bang for the buck than the most equivalent R8g instances. Memory bandwidth is prioritized over raw capacity to support databases and agentic AI workloads requiring low latency.\n\nMeta has announced an agreement with AWS to bring tens of millions of AWS Graviton cores into Meta's compute portfolio, making Meta one of the largest Graviton customers in the world. The rise of agentic AI is creating massive demand for CPU-intensive workloads—real-time reasoning, code generation, search, and orchestrating multi-step tasks, all of which Graviton5 is purpose-built for.\n\nOther early Graviton5 customers include Uber and Snowflake, deploying the chips for their respective agentic workloads.\n\nAuthor: Timothy Prickett Morgan, Co-Editor and Co-Founder of The Next Platform",
+      "published_at": "2026-06-12T07:42:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "AWS (Graviton)"
+    },
+    {
+      "title": "Marvell Just Ripped 57% in a Month. Will the June 22 S&P 500 Listing Be a Sell-the-News Event?",
+      "url": "https://247wallst.com/investing/2026/06/11/marvell-just-ripped-57-in-a-month-will-the-june-22-sp-500-listing-be-a-sell-the-news-event/",
+      "body": "Marvell Technology (NASDAQ: MRVL) has surged 57% over the past month ahead of its June 22 S&P 500 debut, raising the question of whether the index inclusion will prove to be a sell-the-news event. The stock gained an additional 8% on June 11, trading around $273 per share, representing a 210% year-to-date gain.\n\nKey catalysts behind the surge:\n- Strong Q1 FY2027 results: 28% year-over-year revenue growth to $2.4 billion, with CEO citing 'exceptional AI-related bookings' across custom processors and networking products\n- NVIDIA CEO Jensen Huang called Marvell the 'next trillion-dollar company,' triggering a 24% single-day jump after his Computex keynote on June 2\n- Analyst price targets raised significantly: Citi raised to $215, Stifel to $210\n- S&P 500 inclusion announcement on June 5 (effective June 22)\n- NVIDIA's $2 billion strategic equity investment in Marvell (March 2026)\n- NVLink Fusion partnership enabling Marvell to supply custom XPUs and scale-up networking for NVIDIA's AI infrastructure\n\nHistorical context: Analysis of 1,926 S&P 500 additions since 1957 reveals nearly 60% underperform the index after one year, with median additions trailing the index by approximately 8%.\n\nMarvell's AI product portfolio includes: Teralynx T100 (102.4 Tbps AI data center switch with 25% lower power than competitors, sampling Q2 2026), custom XPUs for hyperscalers, NVLink Fusion-compatible networking, and OCTEON DPU/SmartNIC products.\n\nThe company's Teralynx T100 switch chip features the industry's lowest latency for AI training and inference workloads. Matt Murphy reaffirmed Q2 FY2027 guidance alongside the CFO transition announcement.\n\nAuthor: David Moadel, 247 Wall St.",
+      "published_at": "2026-06-12T03:38:00+09:00",
+      "source": "247 Wall St.",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "Anthropic Releases Claude Fable 5, First Mythos-Class Model Available to the Public",
+      "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+      "body": "Anthropic launched Claude Fable 5 on June 9, 2026, making its powerful Mythos-class model available to the general public for the first time. The release comes with significant safety restrictions that represent a landmark approach to powerful AI deployment.\n\nFable 5 is the same underlying model as the restricted Claude Mythos 5, but with safety guardrails applied. The model declines to respond in high-risk domains including cybersecurity, biology, chemistry, and distillation, falling back to Claude Opus 4.8 instead. Anthropic stress-tested these safeguards extensively: internally, the company ran an external bug bounty that produced no universal jailbreaks in over 1,000 hours of testing.\n\nKey metrics: SWE-bench Verified 95%, SWE-bench Pro 80%. The model excels at software engineering, knowledge work, vision, scientific research, and long-context tasks.\n\nAvailability and pricing:\n- Available through Claude API and Enterprise plans immediately\n- Initially included free in Pro, Max, Team, and Enterprise subscriptions through June 22\n- Pricing: $10 per million input tokens, $50 per million output tokens (double Opus 4.8 rates)\n- Early data shows approximately 95% of sessions run entirely on Fable without safety deferral\n\nData retention policy: Anthropic now mandates 30-day traffic retention for all Fable and Mythos 5 access, citing security defense needs — potentially setting industry precedent for powerful model access.\n\nFor a small group of cyberdefenders and infrastructure providers, Anthropic is also launching Claude Mythos 5 with safety guardrails lifted in some areas, deployed through Project Glasswing. This represents the most capable model Anthropic has made generally available.\n\nAuthor: Rebecca Bellan, TechCrunch. Published June 9, 2026 10:00 AM PDT = June 10, 2026 02:00 AM KST.",
+      "published_at": "2026-06-10T02:00:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SpaceX IPO Debut at $135: $1.75 Trillion Valuation — Bull, Base, and Bear Cases for the First 90 Days",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261960721-spacex-ipo-is-live-at-135-bull-base-and-bear-cases-for-the-first-90-days-tradingkey",
+      "body": "SpaceX's IPO priced at $135 per share on June 12, 2026, marking the largest initial public offering in history. The offering raised approximately $75 billion at a $1.75 trillion valuation.\n\nBusiness segment overview:\n\n1. Starlink (Connectivity): The profitable core, generating $11.4 billion in revenue during 2025 with an operating profit of $4.4 billion, achieving a 63% adjusted EBITDA margin. Subscriber growth accelerated from 4.5 million at 2025's start to over 10.3 million by early 2026, operating across 164 countries.\n\n2. Space Services: Falcon 9 division achieved profitability in 2025, completing approximately 130 missions at $67-97 million per launch. SpaceX captured over 60% of the global commercial launch market.\n\n3. AI Division (xAI): Presents the primary financial concern, generating $3.2 billion in revenue while recording a $6.4 billion operating loss in 2025. SpaceX announced the AI1 orbital data center satellite in June 2026, targeting 150 kW peak compute capacity per unit. Gigasat factory in Bastrop, Texas (1,000+ acres) will produce AI satellites with production targeted for late 2027.\n\nTrading structure: Only 4% initial float, with MSCI inclusion starting June 13 creating structural buying pressure. IPO was oversubscribed 3.5-4x, with total investor demand exceeding $250 billion.\n\nScenario projections:\n- Bull: $185 (Week 1), $165 (Month 1), $200 (90 days) — driven by Starlink revenue acceleration and xAI losses narrowing\n- Base: $155 (Week 1), $148 (Month 1), $160 (90 days) — steady Starlink growth, xAI losses persist\n- Bear: $140 (Week 1), $130 (Month 1), $120 (90 days) — Starlink subscriber churn or regulatory setback\n\nAuthor: Arslan Ali, TradingKey. Published June 11, 2026 1:00 PM = June 12, 2026 KST.",
+      "published_at": "2026-06-12T03:00:00+09:00",
+      "source": "TradingKey",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Meta's Four MTIA Chip Generations in Two Years: Scaling AI Experiences for Billions",
+      "url": "https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/",
+      "body": "Meta announced an accelerated roadmap for its custom AI chip family, the Meta Training and Inference Accelerator (MTIA), deploying four successive generations within approximately two years.\n\nThe four generations:\n- MTIA 300: Currently in production for ranking and recommendation training. Establishes the foundation for subsequent designs.\n- MTIA 400: Completed lab testing, headed to data center deployment. Balances GenAI and R&R workload support. In testing with performance competitive with leading commercial products.\n- MTIA 450: Scheduled for mass deployment early 2027. Doubles HBM bandwidth from MTIA 400. Optimized specifically for generative AI inference.\n- MTIA 500: Scheduled for 2027. Offers 50% additional HBM bandwidth, enhanced low-precision capabilities.\n\nCumulative improvements from MTIA 300 to 500: 4.5x increases in HBM bandwidth, 25x compute FLOPS improvements.\n\nMeta's approach emphasizes:\n1. High-velocity development: New chip every six months rather than every 1-2 years.\n2. Inference-first optimization: Designed for content ranking, recommendation, image/video generation.\n3. Native PyTorch integration for seamless adoption.\n\nStrategic partnership: Meta signed an agreement with Broadcom where the initial commitment exceeds 1GW — the first phase of a sustained, multi-gigawatt rollout. This makes Meta one of Broadcom's largest custom ASIC customers.\n\nMeta also signed an agreement with AWS to bring tens of millions of AWS Graviton cores into Meta's compute portfolio for agentic CPU workloads.\n\nAuthors: Yee Jiun Song, Andrew Tulloch, Harikrishna Reddy, CQ Tang, Vijay Thakkar. Published March 11, 2026.",
+      "published_at": "2026-03-11T00:00:00+09:00",
+      "source": "Meta AI Blog",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA Vera BlueField-4 STX Brings Agentic AI Storage Processing With In-Silicon Security",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-vera-bluefield-4-stx-brings-agentic-ai-storage-processing-with-in-silicon-security",
+      "body": "NVIDIA introduced new DOCA security innovations for NVIDIA Vera BlueField-4 STX, defining a new class of secure-by-design storage for agentic AI factories. The announcement was made at GTC Taipei / Computex 2026 (May 31-June 1, 2026).\n\nNew security capabilities:\n- NVIDIA DOCA Vault: Microservices ensuring only authorized AI workloads can access files with correct permissions (zero-trust file access)\n- NVIDIA DOCA Argus: Visibility into agent behavior and AI workload activity\n- NVIDIA DOCA Flow: Network traffic isolation and sensitive data protection across multi-tenant AI environments\n\nPerformance claims:\n- Runtime threat detection up to 1,000x faster than existing agentless runtime solutions\n- Network and file access enforcement at speeds up to 800Gb/s\n- BlueField-4 features 64 Arm cores, 800Gb/s throughput, 6x compute power of BlueField-3\n\nEcosystem: Over 50 partners across cybersecurity, storage, manufacturing, and systems integration are building STX-based platforms. Cybersecurity leaders including Akamai, Armis (ServiceNow), Check Point, Cisco, CrowdStrike are integrating enterprise security solutions.\n\nStorage partners building next-gen AI storage platforms: Dell, HPE, NetApp, Pure Storage, VAST Data, WEKA, Cloudian, DDN, Hitachi Vantara, IBM, Nutanix, Supermicro, AIC.\n\nAvailability: STX-based platforms expected from partners in H2 2026.\n\nContext: BlueField-4 is NVIDIA's latest DPU, positioning it as the 'operating system of AI factories.' It addresses the KV-cache storage bottleneck limiting agentic AI inference performance. Published May 31, 2026.",
+      "published_at": "2026-05-31T00:00:00+09:00",
+      "source": "NVIDIA Newsroom",
+      "topic_tag": "competitor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Marvell Announces CFO Transition — Dan Durn Appointed as New CFO Effective June 15",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1025/marvell-announces-cfo-transition",
+      "body": "Marvell Technology announced the appointment of Dan Durn to Chief Financial Officer, effective June 15, 2026. Dan resigned from Marvell's Board of Directors effective June 10, 2026, to transition to the CFO role.\n\nDan succeeds Willem Meintjes, who will remain available in an advisory capacity through April 2027 to support a seamless transition. Meintjes had served as Chief Financial Officer since January 2023.\n\nDan Durn's background: He joins Marvell from Adobe Inc., where he served as CFO and EVP of Finance, Technology, Security and Operations from October 2021 to June 2026. Prior to Adobe, he served as SVP and CFO of Applied Materials, and earlier as EVP and CFO at NXP Semiconductors.\n\nIn conjunction with the announcement, Marvell reaffirmed its Second Quarter of Fiscal 2027 financial outlook.\n\nContext: Marvell Technology is set to join the S&P 500 on June 22, 2026. The company's stock has surged approximately 210% year-to-date in 2026, driven by strong AI data center demand. Q1 FY2027 revenue was $2.4 billion (28% YoY growth), with AI-related bookings described as 'exceptional.' NVIDIA invested $2 billion in Marvell in March 2026 as part of the NVLink Fusion partnership. Announced June 11, 2026.",
+      "published_at": "2026-06-11T20:00:00+09:00",
+      "source": "Marvell Technology",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "How Agentic AI Chip Design Built a Full RISC-V Core — Verkor.io's Design Conductor in 12 Hours",
+      "url": "https://spectrum.ieee.org/ai-chip-design",
+      "body": "Verkor.io, an AI chip design startup, has achieved a significant milestone: an agentic AI system designed a complete RISC-V CPU core called VerCore entirely from a 219-word natural language prompt. The system, named Design Conductor, operates as a software harness for large language models.\n\nTechnical specifications of VerCore:\n- Architecture: 5-stage pipelined, in-order, single-issue core\n- Clock speed: 1.48 GHz (ASAP7 7nm academic PDK)\n- Benchmark: CoreMark score of 3,261\n- Performance comparable to Intel's Celeron SU2300 (2011 era)\n- Instruction set: RV32I and ZMMUL\n\nDesign Conductor workflow:\n1. Natural language specification analysis\n2. Register-transfer level (RTL) file writing\n3. Iterative subtasks: power delivery, signal timing verification\n4. Synthesis to GDSII layout\nTotal time: 12 hours\n\nVerkor co-founder Suresh Krishna: 'What we learned is that the better approach is to let the AI agent solve the whole problem.'\n\nHistorical significance: This is the first autonomous agent to produce a working CPU from spec to GDSII layout file. VerCore is the first RISC-V CPU core designed entirely by an AI agent.\n\nLimitations: VerCore exists in simulation only (verified using Spike simulator). Human chip design teams of 5-10 experts remain necessary for production-ready implementations. The AI 'can fall down rabbit holes that a human engineer would avoid.'\n\nAuthor: Matthew S. Smith, IEEE Spectrum. Published April 22, 2026.",
+      "published_at": "2026-04-22T00:00:00+09:00",
+      "source": "IEEE Spectrum",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Oracle Q4 FY2026 AI 클라우드 실적 93% 급증에도 시간외 주가 6%↓ — 대규모 설비투자 부담",
+      "url": "https://zdnet.co.kr/view/?no=20260611091813",
+      "body": "오라클이 FY2026 4분기 실적에서 클라우드 인프라 매출 93% 급증(전년비)으로 58억 달러를 기록했다. 총 클라우드 매출은 99억 달러(47% 증가)에 달했고, 전체 매출 191.8억 달러·조정 EPS 2.11달러로 시장 예상치를 상회했다.\n\n그러나 시장 반응은 냉담했다. 대규모 AI 계약 증가와 클라우드 인프라 수요 확대에 대응하기 위한 데이터센터 투자 지속 계획이 부담으로 작용하며 시간외 주가가 약 5~6% 하락했다.\n\n주요 우려 사항은 자본 지출이다. 연간 설비투자(CapEx)가 162% 급증해 556.6억 달러로, 당초 제시한 500억 달러 가이던스를 초과했다. 잉여 현금 흐름(Free Cash Flow)은 -237억 달러로 마이너스 전환됐다.\n\n오라클은 FY2027에도 부채와 주식 발행을 통해 400억 달러를 추가 조달할 계획이라고 밝혔다. 전년도에도 430억 달러를 조달한 바 있다.\n\n시장의 핵심 우려는 AI 인프라 투자가 언제 수익으로 전환될지에 대한 불확실성이다. 데이터센터 경쟁이 심화되는 상황에서 막대한 투자를 지속하는 오라클의 전략에 투자자들이 신중한 입장을 보이고 있다.\n\n작성: 한정호, ZDNet Korea. 2026-06-11 09:35 KST.",
+      "published_at": "2026-06-11T09:35:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "US Firms Still Dominate Chip Subsidies as OECD Reports Global Semiconductor Support Reaches Record Levels",
+      "url": "https://www.theregister.com/systems/2026/06/01/us-firms-still-dominate-chip-subsidies/5249668",
+      "body": "According to an OECD report published June 1, 2026, semiconductor firms based in the United States received the largest absolute government support globally, while China's subsidies were disproportionately large relative to domestic firm revenues.\n\nKey findings from the OECD MAGIC database of industrial subsidies:\n\n- The global semiconductor market was worth $631 billion in 2024\n- US semiconductor firms dominated in absolute subsidy terms, including support received in Asian jurisdictions where US firms operate\n- OECD Asia-Pacific region firms also received steadily expanding support\n- China: Subsidies were modest in absolute terms but represented approximately 10% of Chinese semiconductor firm revenue in the early 2020s — a proportionally significant amount\n- Industrial subsidies reached their highest level since the global financial crisis in 2023 and 2024\n\nSupport mechanisms measured: Tax concessions, grants, and subsidized borrowing. Government equity stakes were excluded from measurements.\n\nThe OECD database covered between 64-83% of global semiconductor sales, with significant representation from Asia, the US, and Europe.\n\nContext: The report was released as the US CHIPS and Science Act continues to distribute funding, with TSMC's Arizona fabs, Intel foundry investments, and Samsung/SK Hynix US fab expansions all receiving federal support. China's semiconductor industry has received sustained policy backing through the National Integrated Circuit Industry Investment Fund (Big Fund) series.\n\nAuthor: Lindsay Clark, The Register. Published June 1, 2026 17:21 UTC.",
+      "published_at": "2026-06-02T02:21:00+09:00",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "What Rising AI Model Prices and Semiconductor Cycles Mean for Investors",
+      "url": "https://www.fool.com/investing/2026/06/11/what-rising-ai-model-prices-and-semiconductor-cycl/",
+      "body": "A pivotal transition is underway in the artificial intelligence sector as the 'land grab' era ends and unit economics become critical for evaluating AI and semiconductor investments.\n\nThe article highlights that AI is shifting from rapid, inexpensive expansion toward a mature phase where pricing power, operational expenses, and cash flow generation matter substantially.\n\nKey dynamics:\n1. AI pricing pressure: Anthropic's Claude Fable 5 pricing at $10/$50 per million input/output tokens (double Opus 4.8) signals that frontier model providers are beginning to charge premium prices as capabilities improve.\n2. Semiconductor cycles: The chip industry's historically cyclical nature—boom-and-bust patterns—is complicated by AI's structural demand, but the Broadcom guidance miss in June suggests not all growth paths are smooth.\n3. Investor considerations: Companies investing in semiconductors and AI infrastructure must carefully evaluate whether mounting computing expenses can be justified by revenue generation.\n4. The Broadcom effect: Q3 AI chip sales guidance of $16 billion fell short of $17.2 billion analyst estimate, triggering sector-wide selloff (SOXX -10.4%, Broadcom -14%, ARM -12.8%, AMD -10.9% on June 5).\n\nThe Broadcom guidance miss catalyzed over $1.3 trillion in semiconductor market cap erasure in a single trading session, demonstrating that AI infrastructure economics matter more in 2026 than in prior years. Companies now need to show ROI on massive capex commitments.\n\nPublished June 11, 2026 1:45 PM EST = June 12, 2026 KST.",
+      "published_at": "2026-06-12T03:45:00+09:00",
+      "source": "The Motley Fool",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-stockholder-meeting-set-for-june-24-individuals-can-participate-online",
+      "body": "NVIDIA has announced its 2026 Annual Meeting of Stockholders will be held online on Wednesday, June 24, 2026, at 9 a.m. Pacific Time at https://www.virtualshareholdermeeting.com/NVDA2026.\n\nStockholders of record as of April 30, 2026 will need their control number from proxy materials to vote and submit questions. Non-stockholders are welcome to attend by registering under 'Guest Login.'\n\nA replay of the 2026 annual meeting webcast will be available until June 24, 2027.\n\nContext: NVIDIA has reported FY2026 annual revenue of $215.9 billion, a market value above $5 trillion, and over 7.5 million developers using its platforms. Key topics expected at the shareholder meeting include:\n- Vera Rubin NVL72 platform ramp timeline (H2 2026)\n- BlueField-4 DPU availability and AI factory OS ecosystem\n- China export situation and H200 shipment status\n- NVIDIA's $2 billion investment in Marvell and NVLink Fusion partnership\n- The company's equity investment portfolio (exceeding $40 billion in 2026)\n\nThe press release was published on June 11, 2026, with Manila Times republishing on June 12, 2026.",
+      "published_at": "2026-06-11T09:00:00+09:00",
+      "source": "NVIDIA Newsroom",
+      "topic_tag": "competitor",
+      "secondary_tags": [],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AI chip boom fuels Korea's fastest growth in 5 years — Q1 2026 GDP up 1.8%",
+      "url": "https://www.koreaherald.com/article/10767484",
+      "body": "South Korea's economy expanded 1.8 percent in the first quarter of 2026, marking its strongest quarterly performance since Q3 2020. The growth was primarily driven by surging semiconductor exports amid artificial intelligence demand.\n\nKey data points:\n- Exports climbed 5.9%, with IT products (particularly chips) leading the increase\n- Manufacturing output advanced 3.9%\n- Facility investment grew 6.6%\n- Nominal GDP surge reached 10.5%, the sharpest rise since 1976\n- Real gross national income rose 9.2% quarterly\n\nA Bank of Korea official noted this growth 'has been driven not by domestic inflation, but by an improvement in the earnings of Korean exporters.' JPMorgan subsequently raised its full-year forecast to 3.7% from 3% after the data.\n\nSemiconductor sector context:\n- SK Hynix rose roughly 263% year-to-date by June 2026\n- Samsung Electronics gained approximately 191% over the same period\n- KOSPI index surged more than 100% year-to-date as of early June\n- Combined Q2 2026 operating profit for Samsung + SK Hynix expected to exceed 150 trillion won\n\nThe growth reflects the structural shift in demand: AI data centers require massive quantities of HBM (High Bandwidth Memory) and DRAM, with Korea's two memory giants as primary beneficiaries. Samsung's HBM5 and SK Hynix's HBM4/HBM4E are next-generation products in active development.\n\nAuthor: Im Eun-byel, Korea Herald. Published June 9, 2026 15:19 KST.",
+      "published_at": "2026-06-09T15:19:00+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "SpaceX IPO June 12: How the SPCX Listing Impacts Tech & Aerospace Stocks — AI Satellite Strategy Detailed",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261924211-spacex-spcx-ipo-starlink-xai-nasdaq100-valuation-aerospace-etf-tradingkey",
+      "body": "SpaceX begins trading on Nasdaq under ticker SPCX on June 12, 2026, at a fixed IPO price of $135 per share, raising $75 billion in the largest IPO in history. The $1.75 trillion valuation makes SpaceX roughly the seventh-largest US company at debut.\n\nAI data center strategy — SpaceX's AI1 orbital compute satellite:\n- Unveiled June 8, 2026 via Elon Musk video on X\n- 70-meter wingspan (wider than a Boeing 747-8)\n- 150 kW peak, 120 kW sustained compute capacity\n- Solar array generates ~150 kW electricity at 250 W/m²\n- Thermal management: 110 m² liquid radiator\n- Laser inter-satellite links for connectivity\n- SpaceX filed plans for up to 1 million satellites total (Gigasat factory in Bastrop, TX)\n- Timeline: Prototype launches early 2027, commercial constellation to follow\n- Compute equivalent: Approximately one NVIDIA GB300 rack in orbit\n\nIPO-AI intersection: SpaceX's AI division (xAI) generated $3.2 billion revenue but posted $6.4 billion operating loss in 2025. The orbital data center strategy is positioned as the long-term solution to terrestrial power and land constraints.\n\nMarket impact of SPCX listing:\n- 4% float means minimal selling pressure from existing investors\n- MSCI inclusion beginning June 13 creates forced index fund buying\n- Retail allocation 30% (3x typical) — broad participation expected\n- Week 1 projected range: $140-$175\n\nInvestor concern: The xAI losses and speculative nature of orbital data centers create valuation uncertainty beyond the highly profitable Starlink unit.",
+      "published_at": "2026-06-12T02:00:00+09:00",
+      "source": "TradingKey",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Marvell Joins the S&P 500 on June 22, 2026: What Every Index-Fund Investor Now Automatically Owns",
+      "url": "https://www.techtimes.com/articles/318123/20260610/marvell-joins-sp-500-june-22-2026what-every-index-fund-investor-now-automatically-owns.htm",
+      "body": "Marvell Technology and Flex will join the S&P 500 on June 22, 2026, replacing Pool Corp and Campbell's Company in a quarterly rebalance affecting 20+ companies across market-cap tiers.\n\nMarvell's AI portfolio that drove S&P inclusion:\n- Infrastructure chips for data centers, AI, 5G, and automotive systems\n- Stock surged approximately 210% year-to-date as of early June, reaching ~$230 billion market cap\n- Four consecutive quarters of profitability — required for S&P 500 eligibility\n- NVIDIA invested $2 billion in Marvell in March 2026; Jensen Huang called it 'a potential next trillion-dollar company'\n- NVLink Fusion partnership: Marvell supplies custom XPUs and scale-up networking for NVIDIA's AI infrastructure\n- New Teralynx T100: 102.4 Tbps AI data center switch with 25% lower power vs competitors\n\nIndex mechanics: When stocks join the S&P 500, index funds must mechanically purchase shares proportional to market weight. The three largest S&P 500 trackers (Vanguard VOO, BlackRock IVV, State Street SPY) collectively held nearly $2.7 trillion as of early June.\n\nHistorical pattern: Median additions outperform the index by 3.3% in the 25 trading days before joining, then typically underperform by 1-8% afterward. The 'index effect' creates forced buying regardless of valuation.\n\nNote: Marvell's substantial pre-announcement gains (57% surge in past month) suggest much of the upside may already be priced in before June 22.\n\nAuthor: Richard L. Wells, TechTimes. Published June 10, 2026 09:30 AM EDT.",
+      "published_at": "2026-06-10T22:30:00+09:00",
+      "source": "TechTimes",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Marvell"
+    }
+  ]
+}
