@@ -133,6 +133,16 @@ type: reference
 - `퓨리오사AI 삼성SDS 레니게이드 클라우드 파트너십` — surfaced multiple Korean outlets covering the Samsung SDS cloud deal
 - `AI Inferencing Will Define 2026 market wide open` — SDxCentral piece names all inference chip competitors including FriendliAI
 
+## Source notes (2026-06-12 run — very sparse IPO day)
+- **Friday IPO day pattern**: When a major event (SpaceX IPO June 12) dominates the calendar, most analytical articles were published June 11 (US time zones = out of window). Expect very low article counts on IPO first-trading-day Fridays.
+- **Confirmed June 12 sources**: AI타임스 (06:55, 07:00 KST articles), asiae.co.kr (08:28 KST), 247wallst.com (03:38 KST = Jun 11 EDT), TradingKey (02:00, 03:00 KST), The Motley Fool (03:45 KST = Jun 11 EST), The Next Platform (07:42 KST = Jun 11 UTC). All accessible.
+- **NVIDIA Newsroom confirmed no June 12 press releases** — verified by fetching /news/latest; last was June 11 (stockholder meeting, GeForce NOW sale).
+- **asiae.co.kr (Asia Business Daily English)**: Good for Korean market morning-open analysis; accessible; publishes before 9 AM KST.
+- **Tom's Hardware SpaceX AI1 article**: Paywalled/JS-rendered — cannot extract body on June 12. Skip and use AI타임스 Korean version instead.
+- **DataCenterDynamics SpaceX AI1**: 403. Use AI타임스 Korean coverage or TradingKey instead.
+- **qz.com (Quartz)**: 403 on direct fetch. Use WebSearch summary as fallback.
+- **Rebellions/FuriosaAI/HyperAccel/Moreh**: No new June 12 articles found after exhaustive search. Latest coverage is June 11 (Rebellions Middle East advisor, sedaily.com).
+
 ## Source notes (2026-05-07 run)
 - **ServeTheHome RSS** — very high yield on May 7 window: NVIDIA Spectrum-X MRC (published UTC May 6, 11:30) and PCIe 8.0 spec article; both fully fetchable
 - **thelec.net (THE ELEC English)** — confirmed working for May 7 articles; Intel/Terafab article idxno=6806; DEEPX revenue article idxno=6557; Tesla AI6 Samsung idxno=5646

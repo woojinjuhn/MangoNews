@@ -1,0 +1,81 @@
+{
+  "filter_date_kst": "2026-06-12",
+  "kept": [
+    {
+      "id": "4",
+      "title": "AWS Tunes Up Graviton5 For Agentic AI, Boosts Bang For The Buck Bigtime",
+      "url": "https://www.nextplatform.com/compute/2026/06/11/aws-tunes-up-graviton5-for-agentic-ai-boosts-bang-for-the-buck-bigtime/5254538",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Hyperscaler in-house silicon launch — Graviton5 on TSMC 3nm with chiplet design, PCIe 6.0 + CXL 3.0, Nitro DPU offload, and Meta committing to tens of millions of cores; core MangoBoost adjacent territory."
+    },
+    {
+      "id": "5",
+      "title": "Marvell Just Ripped 57% in a Month. Will the June 22 S&P 500 Listing Be a Sell-the-News Event?",
+      "url": "https://247wallst.com/investing/2026/06/11/marvell-just-ripped-57-in-a-month-will-the-june-22-sp-500-listing-be-a-sell-the-news-event/",
+      "category": "market",
+      "competitor": "Marvell",
+      "keep_reason": "Tier 2 competitor update — Marvell S&P 500 inclusion, NVIDIA $2B equity stake, NVLink Fusion custom XPU partnership, Teralynx T100 102.4 Tbps switch and OCTEON DPU portfolio directly intersect MangoBoost's space."
+    },
+    {
+      "id": "1",
+      "title": "우주 데이터센터 본격화… 머스크의 꿈은 현실이 되나?",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211622",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 인프라 전력/냉각/공간 제약을 우주로 풀려는 시도 — SpaceX AI1 위성(150kW 컴퓨팅, 액체 라디에이터 냉각), 지상 데이터센터 용량 부족 맥락에서 AI 인프라 challenges 카테고리 정조준."
+    },
+    {
+      "id": "8",
+      "title": "What Rising AI Model Prices and Semiconductor Cycles Mean for Investors",
+      "url": "https://www.fool.com/investing/2026/06/11/what-rising-ai-model-prices-and-semiconductor-cycl/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AI 인프라 ROI 전환점 — Broadcom 가이던스 미스로 단일 세션 $1.3T 시총 증발, training→inference 이행, 유닛 이코노믹스 부각으로 DPU/cost-efficient 칩 포지셔닝 강화 시그널."
+    },
+    {
+      "id": "6",
+      "title": "SpaceX IPO Debuts at $135 at a $1.75 Trillion Valuation on June 12 — Where Could SPCX Trade in the First 90 Days?",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261960721-spacex-ipo-is-live-at-135-bull-base-and-bear-cases-for-the-first-90-days-tradingkey",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "역사상 최대 IPO (1조 7,500억 달러 밸류, 750억 달러 조달) + xAI 부문 60억 4천만 달러 영업적자 + AI1 궤도 데이터센터 전략 — AI 인프라 자본 구조와 비용 경제 맥락에서 핵심 배경 사건."
+    },
+    {
+      "id": "3",
+      "title": "U.S. Rallies on Hopes for U.S.-Iran Deal... Korea Expected to Attempt KOSPI 8,000 Breakthrough",
+      "url": "https://www.asiae.co.kr/en/article/stock-etc/2026061208252356331",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "한국 반도체 6월 초순 수출 +205.8% YoY (110.68억 달러), HBM AI 칩 슈퍼사이클로 삼성/SK하이닉스 합산 Q2 영업이익 150조원 전망 — 메모리/AI 인프라 시장 상황의 핵심 매크로 데이터."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "2",
+      "title": "[6월11일] '미소스'에 이어 '페이블'까지...AI 모델 이름에 숨은 의미",
+      "discard_reason": "off-topic — AI 모델 이름의 어원/브랜딩 분석 기사로 반도체/인프라/경쟁사 substance 없음."
+    },
+    {
+      "id": "7",
+      "title": "SpaceX IPO June 12: How the SPCX Listing Impacts Tech & Aerospace Stocks — AI Satellite Strategy Detailed",
+      "discard_reason": "duplicate of article 6 — 동일 매체(TradingKey) 동일 사건(SpaceX IPO + AI1), article 6이 bull/base/bear 시나리오 포함 더 포괄적."
+    }
+  ],
+  "summary": {
+    "total_received": 8,
+    "total_kept": 6,
+    "total_discarded": 2,
+    "category_breakdown": {
+      "market": 4,
+      "products": 1,
+      "projects": 0,
+      "challenges": 1,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 1,
+    "by_competitor": {
+      "Marvell": 1
+    }
+  }
+}
