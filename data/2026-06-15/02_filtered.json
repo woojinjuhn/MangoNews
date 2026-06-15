@@ -1,0 +1,268 @@
+{
+  "kept": [
+    {
+      "id": 4,
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic 공식 1차 성명: 미 정부의 외국인 접근 전면 차단 수출통제 지침, defense-in-depth 입장 등 1차 디테일 — 주말 사이 AI 인프라/소버린 AI 지형을 바꾼 핵심 사건의 원전"
+    },
+    {
+      "id": 26,
+      "title": "美, 앤트로픽 최상위 AI 모델 '외국인 접근' 전면 차단…'사실상 허가제'",
+      "url": "https://www.etnews.com/20260615000003",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "한국어 1차 정리본(6/15) — Anthropic 공식 성명 인용 + '사실상 허가제' 프레이밍으로 한국 독자 컨텍스트 보강 (한국어/영문 1차 보완)"
+    },
+    {
+      "id": 2,
+      "title": "美, 앤트로픽 최신 모델 전면 차단…'소버린 AI' 논의 다시 불붙나",
+      "url": "https://zdnet.co.kr/view/?no=20260614125412",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "삼성·SK하이닉스·SK텔레콤·KISA가 참여한 Project Glasswing 영향 + 소버린 AI 논의 재점화 각도 — MangoBoost 전략 코어(소버린 AI)에 정확히 부합"
+    },
+    {
+      "id": 12,
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "글로벌 소버린 AI 토론 확산(인도): TCS 파트너십 영향, 5,000억 루피 국가 AI 전략 요구 — Korea sovereign AI와 평행 비교축으로 가치"
+    },
+    {
+      "id": 5,
+      "title": "Anthropic Halts Access to Fable 5 and Mythos 5",
+      "url": "https://www.servethehome.com/anthropic-halts-access-to-fable-5-and-mythos-5/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "ServeTheHome 인프라 관점 분석: 단일 모델 의존성 리스크, 로컬·redundancy 솔루션 중요성 강조 — AI 인프라 회복탄력성 각도"
+    },
+    {
+      "id": 14,
+      "title": "엔비디아, 차세대 '베라' CPU로 중국 공략…GPU 규제 우회할 돌파구",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211689",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "엔비디아 Arm 기반 Vera 데이터센터 CPU 8월 출시·중국 주문 개시 + Intel/AMD CPU 6개월 공급 부족 — DPU/AI 인프라 CPU 시장 구도 직접 시그널"
+    },
+    {
+      "id": 15,
+      "title": "하드웨어 벤치마크 'AA-에이전트퍼프' 등장...블랙웰, 전력 효율 1위",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211703",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "메가와트당 에이전트 수 신규 벤치마크 — Blackwell GB300 61,354 vs MI355X 3,551 vs H200 2,594 정량 비교, AI 인프라 전력 효율(MangoBoost 핵심 가치 명제) 직결"
+    },
+    {
+      "id": 16,
+      "title": "AMD challenges Nvidia's DGX Spark with $3,999 Ryzen AI Halo — $700 cheaper with Windows support",
+      "url": "https://www.tomshardware.com/desktops/mini-pcs/amd-challenges-nvidias-dgx-spark-with-usd3-999-ryzen-ai-halo-with-windows-11-support-strix-halo-desktop-undercuts-nvidia-by-usd700-packs-128gb-of-unified-memory",
+      "category": "collaboration",
+      "competitor": "AMD",
+      "keep_reason": "AMD Ryzen AI Halo($3,999) vs NVIDIA DGX Spark($4,679) 직접 대결, 128GB 통합 메모리·ROCm 생태계 — MangoBoost AMD 인접 전략의 핵심 시그널"
+    },
+    {
+      "id": 22,
+      "title": "This is an Intel Xeon 6 SoC DPU on a PCIe Card from Senao at Computex 2026",
+      "url": "https://www.servethehome.com/this-is-an-intel-xeon-6-soc-dpu-on-a-pcie-card-from-senao-at-computex-2026/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Senao SX906 Intel Xeon 6 기반 DPU/SmartNIC: 200Gbps, 24-38 P-core, DPU 시장 직접 경쟁 제품 — MangoBoost 본업 카테고리"
+    },
+    {
+      "id": 30,
+      "title": "AWS rolls the dice for faster, more efficient networking",
+      "url": "https://www.theregister.com/networks/2026/06/13/aws-rolls-the-dice-for-faster-more-efficient-networking/5253248",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AWS Nitro 시스템·custom networking ASIC·Graviton5 확장 — 하이퍼스케일러 자체 DPU/네트워킹 실리콘 트렌드 (MangoBoost 가치사슬 직접 인접)"
+    },
+    {
+      "id": 17,
+      "title": "AI costs spike as subscriptions hit pricing wall — firms turn towards Chinese LLMs, open-source models",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-spike-as-subscriptions-hit-pricing-wall-firms-turn-towards-chinese-llms-open-source-models-to-extend-budget",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Claude Max 20x $200→실제 $8,000 / ChatGPT Pro $200→$14,000 SemiAnalysis 분석 — AI 추론 비용 한계, 오픈소스/중국 모델 회피 트렌드 (인프라 비용 효율화 화두)"
+    },
+    {
+      "id": 25,
+      "title": "션 헤히르 브레인칩 CEO '뉴로모픽 반도체 급성장…韓과 오픈이노베이션 검토'",
+      "url": "https://www.etnews.com/20260615000010",
+      "category": "products",
+      "competitor": "BrainChip",
+      "keep_reason": "BrainChip Akida 뉴로모픽 NPU 한국 EdgeAI 진출 + 한국 팹리스 협력 — NPU 카테고리·한국 반도체 생태계 동향"
+    },
+    {
+      "id": 24,
+      "title": "최태원 회장, AX 가속화 주문…'1인 1에이전트 도입 해야'",
+      "url": "https://zdnet.co.kr/view/?no=20260614095638",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "SK 최태원 회장 AX 비전 + full-stack(메모리·DC·에너지·전력) 자평 — 한국 대기업 AI 컨소시움/소버린 AI 전략 신호"
+    },
+    {
+      "id": 23,
+      "title": "'메모리' 키옥시아, 도요타 제치고 일본 시총 1위…올해 670% 폭등",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211694",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "키옥시아 시총 일본 1위(도요타 추월), 올해 +670% — AI 데이터센터 메모리(NAND) 수요 폭증의 시장 신호, HBM/D램 인접"
+    },
+    {
+      "id": 18,
+      "title": "Grassroots opposition blocked $130 billion in US data center projects in Q1 2026",
+      "url": "https://thenextweb.com/news/data-center-opposition-75-projects-blocked-q1-2026",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Q1에 $1,300억 75개 DC 프로젝트 차단, 반대 단체 833개로 2배 — AI 데이터센터 입지·전력·물 갈등 구조화 (DC 공급 차질 리스크)"
+    },
+    {
+      "id": 21,
+      "title": "Nvidia raises RTX Pro 6000 Blackwell GPU pricing to $13,250 — 55% above launch price",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "GDDR7 96GB 글로벌 공급 부족 + AI 수요로 RTX Pro 6000 가격 +55% — 메모리/GPU 공급망 시그널, 엔터프라이즈 로컬 추론·파인튜닝 시장 동학"
+    },
+    {
+      "id": 19,
+      "title": "Amazon says its data centers are 7x more water-efficient than industry average",
+      "url": "https://www.tomshardware.com/desktops/servers/amazon-says-its-data-centers-consume-only-0-075-percent-of-the-water-americans-use-for-watering-their-lawns-and-gardens-company-also-boasts-of-its-improvements-in-water-efficiency",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AWS 최초 절대 물 사용량 공개(2.5B 갤런), 0.12 L/kWh — DC 냉각·물 효율 PR 게임의 산업 표준 셋팅"
+    },
+    {
+      "id": 28,
+      "title": "Vertiv completes ThermoKey acquisition to expand AI data center heat rejection portfolio",
+      "url": "https://www.datacenterdynamics.com/en/news/vertivs-acquisition-of-thermokey-closes/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Vertiv의 ThermoKey 인수 완료, AI factory 100kW/rack+ 고밀도 DC 열관리 — DC 인프라 공급망 M&A"
+    },
+    {
+      "id": 11,
+      "title": "알트먼, 다음주 방한 연기하고 프랑스 G7 정상회의 참석",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211685",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "알트먼 방한 연기 + Anthropic·Google 딥마인드 CEO 동반 G7 참석 — 한국 AI 협력(삼성·네이버·카카오) 일정 조정, MangoBoost 시장 시그널"
+    },
+    {
+      "id": 31,
+      "title": "Sam Altman to Meet Kakao, Naver and Samsung Electronics During Korea Visit",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11261",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "방한 예정이었던 알트먼 일정의 세부(Naver Cloud DC 인프라, Samsung DX 사내 ChatGPT/Gemini/Claude 도입) — 한국어/영문 1차 보완"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI is under investigation by 42 state attorneys general, days after filing for its IPO",
+      "url": "https://thenextweb.com/news/openai-state-attorneys-general-investigation-ipo",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "42개 주 법무장관 OpenAI 조사 + $852B IPO 가치 + S-1 disclosure 의무 — OpenAI IPO 가도 리스크, AI 시장 자본 재배분의 핵심 변수"
+    },
+    {
+      "id": 29,
+      "title": "미국 주정부 연합, 오픈AI 전격 조사…취약계층 보호·기술 결함 검증",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211704",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "한국어 1차 정리본: OpenAI 주정부 조사 + 852억 달러 IPO 가치 (한국어/영문 1차 보완)"
+    },
+    {
+      "id": 8,
+      "title": "As AI companies race to go public, who else is along for the ride?",
+      "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SpaceX IPO 후 MANGOS(Meta/Anthropic/NVIDIA/Google/OpenAI/SpaceX) 프레임, 오토메이커 배터리→DC 에너지 피벗 — AI 자본·인프라 거시 트렌드"
+    },
+    {
+      "id": 13,
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing's demand",
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Meta-Manus $2B M&A 해체 + 중국 AI 해외투자 정부 승인 의무화 — 미·중 AI 자본 분리, AI agent 생태계 지정학"
+    },
+    {
+      "id": 27,
+      "title": "베이조스의 AI 스타트업 프로메테우스, 몸값 62조 기록…'인공 일반 엔지니어 개발 중'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211708",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Bezos Prometheus $12B 펀딩 $41B 밸류에이션, AGI 엔지니어 비전 — AI 응용 산업 확장, OpenAI/딥마인드/엔비디아 인재 채용 자금"
+    },
+    {
+      "id": 20,
+      "title": "AI cryptomining network's 320,000 RTX 3090-class GPUs burn 112 megawatts on 'zero useful AI computation'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Pearl AI 마이닝 GPU 320,000장·112MW가 실제 AI 워크로드 미수행 + GPU 렌탈 가격 +38% — GPU 공급 부족·전력 낭비 이슈"
+    },
+    {
+      "id": 9,
+      "title": "스페이스X 상장 첫날 20% 급등…머스크, 세계 최초 '조만장자' 등극",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211688",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "SpaceX IPO 첫날 +20%, 시총 $2.1조 — AI/우주 자본시장 재편 한국어 1차 정리(한국어/영문 1차 보완)"
+    },
+    {
+      "id": 10,
+      "title": "메타, 무리한 AI 인력 재편에 내부 반발 폭발…저커버그 '실수 인정'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211705",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Meta Applied AI 팀 6,500명 재편 내홍, 저커버그 실수 인정 — 빅테크 AI 조직 동학 (간접 시장 신호)"
+    }
+  ],
+  "discarded": [
+    {
+      "id": 0,
+      "title": "페이블 5·미소스 5 해외 서비스 중단...미국, 외국인 차단 명령",
+      "discard_reason": "duplicate (Anthropic Fable/Mythos 차단 첫 보도 — id 4 공식 성명 + id 26 한국어 최신 정리본에 동일 정보 흡수, same-angle cluster compression)"
+    },
+    {
+      "id": 1,
+      "title": "앤트로픽, 미국 정부 지침에 '페이블 5' 서비스 전면 중단",
+      "discard_reason": "duplicate (Anthropic 차단 초기 보도 6/13 — id 4·5·26과 동일 각도, 한국어 정리는 id 26이 6/15로 최신·우위)"
+    },
+    {
+      "id": 3,
+      "title": "미국 정부 '앤트로픽 제재, 타 AI 기업 확대 안 해'…원인은 '비협조적 태도'",
+      "discard_reason": "duplicate (Anthropic 클러스터 부속 각도 — 백악관 확대 부인 입장은 id 4 본문에 흡수되어 cluster compression 적용; 6각도 초과는 cut)"
+    },
+    {
+      "id": 7,
+      "title": "OpenAI faces investigation from state attorneys general",
+      "discard_reason": "duplicate of id 6 (TheNextWeb이 더 자세 — IPO $852B 가치, S-1 disclosure 의무, Goldman Sachs 등 명시); 한국어 보완은 id 29로 충족"
+    }
+  ],
+  "summary": {
+    "total_received": 32,
+    "total_kept": 28,
+    "total_discarded": 4,
+    "category_breakdown": {
+      "market": 13,
+      "products": 5,
+      "projects": 3,
+      "challenges": 5,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 5,
+    "by_competitor": {
+      "NVIDIA": 3,
+      "AMD": 1,
+      "BrainChip": 1
+    }
+  }
+}

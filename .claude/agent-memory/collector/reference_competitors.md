@@ -220,6 +220,17 @@ type: reference
 - **Amazon (Trainium/Graviton)**: $17.5B delayed draw loan facility (June 10 22:19 KST) — custom chip annual revenue run rate >$20B; Trainium 3 targeted H2 2026; $200B AI capex plan.
 - **Google TPU**: Google-Intel TPU deal — 3M+ TPUs for 2028 from Intel foundry (EMIB packaging); JP Morgan skeptical (packaging only, not fabrication); deal unconfirmed by either party but Intel stock moved +11%. DiffusionGemma open model released June 10-11 (H100 1000 tokens/sec).
 
+## June 13-15 2026 update — competitor developments
+- **Anthropic**: US government (Defense Dept) issued export control directive blocking all foreign-national access to Fable 5 (Claude 4) and Mythos 5 (Claude 4.5). Applies to both overseas remote access and on-site foreign employees at Anthropic. Government cited jailbreaking risk; Anthropic contested the characterization. White House AI advisor David Sacks stated restriction is Anthropic-specific due to non-cooperation; no plans to expand to other AI firms. Samsung, SK Hynix, SK Telecom, KISA (~150 organizations in 15 countries) affected via "Project Glasswing" cybersecurity program. Sources: AI타임스, ZDNet Korea (3 articles), TechCrunch, ServeTheHome. Also: Anthropic official statement published Jun 12 5:21 PM ET = Jun 13 06:21 KST confirming export restrictions. Tag: competitor (Anthropic not a chip company but its AI model restrictions are MangoBoost-relevant for enterprise AI infrastructure planning).
+- **Sam Altman** (OpenAI): Postponed Korea visit to G7 France instead; was scheduled Jun 14-15 for Samsung Suwon DX Insight Talk. Sources: AI타임스 Jun 13, The Elec Jun 12.
+- **AMD**: Ryzen AI Halo (RX 9060 XT variant with 128GB unified memory — desktop DGX Spark competitor) announced — 73% of NVIDIA DGX Spark AI performance at <50% cost; reviewed by Tom's Hardware as "surprisingly strong" for mixed inferencing+gaming workload. Also: subscription model friction in AI apps analyzed in Tom's Hardware article featuring AMD and NVIDIA both.
+- **NVIDIA**: Vera CPU — Chinese customers reportedly ordered despite US restrictions workaround attempts (AI타임스 Jun 13 07:07 KST). AWS networking article (The Register Jun 13): NVIDIA's InfiniBand vs AWS Graviton-based homegrown networking comparison. RTX Pro 6000 Blackwell price raised to $13,250 (Tom's Hardware Jun 13-14 KST). AA-AgentPerf benchmark analysis showing Blackwell GPU dominance in agentic AI workloads.
+- **Kioxia**: Surpassed Toyota as Japan's largest market-cap company on Jun 12 Japan close; AI NAND/SSD demand driving valuation. Source: AI타임스 Jun 13.
+- **Intel**: Xeon 6 SoC DPU spotlight at Computex follow-up (ServeTheHome Jun 13) — N100 class SoC DPU/SmartNIC target applications for edge/embedded datacenter.
+- **BrainChip**: CEO interviewed by 전자신문 (Jun 14); neuromorphic chip technology for Korea AI inference market; not a direct DPU competitor but Korean deployment angle.
+- **Rebellions, FuriosaAI, HyperAccel, Moreh, FriendliAI, Tenstorrent, Napatech, Marvell**: No standalone June 13-15 articles found after exhaustive English + Korean search. Marvell S&P 500 addition is June 22 (forward event). Tenstorrent acquisition talks (Bloomberg May 18 origin) — no new June 13-15 update.
+- **OpenAI**: 42-state attorney general investigation into corporate restructuring (NPR / TechCrunch Jun 13-14). Meta Manus acquisition talks unwinding per TechCrunch Jun 14.
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform

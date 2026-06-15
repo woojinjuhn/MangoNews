@@ -156,6 +156,35 @@ type: reference
 - **Wired RSS** — blocked; skip
 - **Naver News section/105** — blocked (JS-rendered); skip
 
+## Source notes (2026-06-15 run — Jun 13-15 window)
+- **AI타임스 RSS**: Highest-yield source again — 8 articles in window; most published 06:00-08:00 KST (reliable early morning cadence). Timestamps from RSS confirm exact KST publication time. Always run first.
+- **ZDNet Korea**: 4 articles in window; accessible; Anthropic export control coverage was comprehensive (3 angles in 2 days). `zdnet.co.kr/view/?no=YYYYMMDDHHMM` URL pattern. Good for US/Korea policy intersections.
+- **TechCrunch RSS**: 3 articles confirmed (Anthropic statement, OpenAI AG investigation, Meta Manus). RSS gives UTC times; convert +9h for KST.
+- **Tom's Hardware RSS**: 5 articles in window (Jun 13-14 confirmed via RSS dates). RSS provides day but not exact time. Approximate KST time used (~14:00) since JSON-LD unretrievable. Articles: AMD Ryzen AI Halo, AI subscription pricing, water efficiency, AI cryptomining, RTX Pro 6000.
+- **ServeTheHome**: 2 articles confirmed (Anthropic export restriction policy, Intel Xeon 6 SoC DPU Computex). Accessible; publishes primarily Mon-Fri US hours but Jun 13 Fri (US) articles visible.
+- **전자신문 (etnews.com)**: 2 articles (BrainChip CEO interview Jun 14, Anthropic export ban national AI policy angle Jun 14). Accessible; ID pattern `/2026061N000NNN`.
+- **The Next Web (thenextweb.com)**: Data center opposition $130B blocked article — confirmed timestamp 2026-06-14T10:44:00Z. Accessible with JSON-LD.
+- **DataCenterDynamics RSS**: Works (feed accessible) but body fetch still returns 403. Vertiv-ThermoKey acquisition article (Jun 14) was an exception — body accessible for that specific article. When DCD body fetch fails, check alternative sources.
+- **hpcwire.com RSS**: 403 again. Confirmed persistent.
+- **networkworld.com RSS**: 404 again. Confirmed persistent.
+- **wired.com RSS**: Blocked by WebFetch. Confirmed persistent.
+- **Naver News (news.naver.com/section/105)**: Still JS-rendered; Claude Code unable to fetch. Use WebSearch to surface individual naver.com article links.
+- **The Elec (thelec.kr)**: Jun 12 Sam Altman postponement article (thelec.kr/news/articleView.html?idxno=60204). Accessible; good for Korean enterprise AI strategy news.
+- **blocksandfiles.com RSS**: Accessible; Jun 13-14 articles focused on NAS/storage (lower relevance for Jun 15 issue). Check if datacenter storage angle appears.
+- **The Register RSS**: AWS networking article Jun 13 confirmed (InfiniBand vs homegrown). Accessible.
+
+## Query patterns (2026-06-15 run)
+- `Anthropic Fable 5 Mythos 5 export ban June 2026 government directive` — surfaced TechCrunch, AI타임스, ZDNet Korea, ServeTheHome, 전자신문
+- `앤트로픽 페이블 미소스 수출 통제 6월 2026` — surfaced ZDNet Korea 3 separate angles, AI타임스
+- `Sam Altman Korea visit postponed G7 France June 2026` — surfaced AI타임스 Jun 13, The Elec Jun 12
+- `AMD Ryzen AI Halo desktop AI chip June 2026` — surfaced Tom's Hardware Jun 14
+- `OpenAI attorney general 42 states investigation June 2026` — surfaced TechCrunch Jun 14, The Next Web
+- `NVIDIA Vera CPU China orders June 2026` — surfaced AI타임스 Jun 13
+- `data center opposition $130 billion blocked June 2026` — surfaced The Next Web Jun 14
+- `Kioxia Japan largest market cap Toyota surpass June 2026` — surfaced AI타임스 Jun 13
+- `BrainChip neuromorphic chip Korea 2026 인터뷰` — surfaced 전자신문 Jun 14
+- `Intel Xeon 6 SoC DPU Computex June 2026` — surfaced ServeTheHome Jun 13
+
 ## Query patterns (2026-05-07 run)
 - `NVIDIA Corning optical fiber 300 million investment AI infrastructure` — surfaced NVIDIA Newsroom press release + Tom's Hardware + CNBC coverage
 - `AMD EPYC Zen 7 data center CPU record revenue Q1 2026` — surfaced Data Center Dynamics + Tom's Hardware same-day; AMD Q1 earnings ($10.25B, +38% YoY; data center $5.8B, +57%)
