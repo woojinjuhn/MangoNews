@@ -1,0 +1,347 @@
+{
+  "collection_date_kst": "2026-06-15",
+  "run_summary": {
+    "total": 30,
+    "by_topic": {"ai": 16, "semiconductor": 3, "datacenter": 5, "competitor": 6},
+    "by_competitor": {
+      "NVIDIA": 3,
+      "Anthropic": 2,
+      "AMD": 2,
+      "FriendliAI": 0,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "HyperAccel": 0,
+      "Moreh": 0,
+      "Tenstorrent": 0,
+      "Napatech": 0,
+      "Marvell": 0,
+      "BrainChip": 1
+    },
+    "competitor_tagged_total": 8,
+    "sources_consulted": 22,
+    "skipped_paywalled": 2,
+    "notes": "Recency window: 2026-06-13 ~ 2026-06-15 KST (last issue #026 was 2026-06-12). hpcwire.com feed returned 403. networkworld.com RSS returned 404. DataCenterDynamics opinion article (conflict/cloud) returned 403 on body fetch — skipped. Tom's Hardware RSS feed provides dates but not exact times; articles confirmed in-window by RSS date (Sat Jun 13 / Sun Jun 14); exact times unverifiable so published_at uses KST date with confirmed-range times derived from search metadata where available (e.g., 'data center build-outs' Slashdot link 2026-06-12 23:30 UTC = Jun 13 KST, TNW article on same topic confirmed Jun 14 10:44Z). Anthropic official statement published Jun 12 at 5:21 PM ET = Jun 13 06:21 KST — within window. Sam Altman Korea visit articles primarily dated Jun 12 but context is June 13+ (portal article 06-13 05:10 KST included). Tier 1 Korean competitors (Rebellions, FuriosaAI, HyperAccel, Moreh, FriendliAI) — no standalone June 13-15 articles found. Tenstorrent acquisition talks (May 18 Bloomberg origin) — no new June 13-15 update. Marvell S&P 500 addition June 22 (forward event, not news). Napatech — no June 13-15 news. Kioxia market cap #1 article dated Jun 13 KST (Kioxia surpassed Toyota on Jun 12 Japan market close, Korean coverage on Jun 13). dropped: indexbox.io Vera CPU article (pub 2026-06-12, on last-issue date). dropped: NVIDIA AgentPerf blog (pub 2026-06-12). dropped: Moonshot Kimi K2.7-Code (pub 2026-06-12). dropped: Prometheus $12B funding (pub 2026-06-11). dropped: KT Cloud/Rebellions article (pub 2026-06-04)."
+  },
+  "articles": [
+    {
+      "title": "페이블 5·미소스 5 해외 서비스 중단...미국, 외국인 차단 명령",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211698",
+      "body": "미국 정부가 앤트로픽의 Fable 5와 Mythos 5 모델에 대해 외국인 접근을 전면 차단하는 수출 통제 조치를 내렸다. 이 제한은 미국 영토 내 외국인의 현장 접근과 해외에서의 원격 접근 모두를 포함하며, 미국 내 앤트로픽의 외국인 직원들에게도 적용된다.\n\n앤트로픽은 6월 9일 출시 4일 만에 이 조치를 받았다. 미국 정부는 Fable 5의 보안 장벽을 우회하는 '탈옥(jailbreaking)' 기법이 존재한다는 점을 문제 삼아 이를 중대한 국가 안보 위험으로 규정했다.\n\n앤트로픽은 정부의 주장에 반박하며, 정부가 제시한 증거가 '잠재적 탈옥 가능성에 대한 구술 증언'에 불과하다고 밝혔다. 회사 측은 경쟁 모델인 오픈AI의 GPT-5.5도 유사한 기능을 제공한다고 지적하며 자사만을 대상으로 한 이번 조치의 일관성 부재를 비판했다.\n\n미국 국방부 관계자는 '국가 안보가 기업 수익이나 기업 가치보다 훨씬 중요하다'고 입장을 표명했다. 전문가들은 이번 선례가 오픈AI, 구글, 메타 등 모든 주요 AI 개발자들에게 확대 적용될 위험성이 있다고 경고하고 있다.",
+      "published_at": "2026-06-13T18:08:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": "Anthropic"
+    },
+    {
+      "title": "앤트로픽, 미국 정부 지침에 '페이블 5' 서비스 전면 중단",
+      "url": "https://zdnet.co.kr/view/?no=20260613201028",
+      "body": "미국 국방부는 앤트로픽의 고급 AI 모델 Fable 5와 Mythos 5에 대한 모든 외국인의 접근을 완전히 차단하도록 명령했다. 미국 내 비미국인 앤트로픽 직원도 포함된다. 앤트로픽은 6월 13일 공식 웹사이트를 통해 이 집행 지침을 확인했다.\n\n정부는 보안 취약점과 '탈옥' 우려를 이유로 든다. 앤트로픽은 이 특성화에 이의를 제기하며, 발견된 취약점이 이미 경쟁 AI 시스템에 존재하는 '사소한' 문제라고 주장했다. 회사는 공식 출시 전 금융, 기술, 정부 이해관계자들과 협력하며 강력한 안전장치를 구현했다고 밝혔다.\n\n회사 측은 '이 조치는 불안전한 배포를 차단하기 위한 투명하고 공정하며 기술적으로 근거 있는 법적 절차와 일치하지 않는다'고 밝혔다. 이는 자율 무기 배포 및 감시 응용 프로그램을 포함한 앤트로픽과 트럼프 행정부 간의 진행 중인 긴장을 반영한다.",
+      "published_at": "2026-06-13T22:07:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": "Anthropic"
+    },
+    {
+      "title": "美, 앤트로픽 최신 모델 전면 차단…'소버린 AI' 논의 다시 불붙나",
+      "url": "https://zdnet.co.kr/view/?no=20260614125412",
+      "body": "미국 행정부가 앤트로픽의 최신 AI 모델 'Fable 5'와 'Mythos 5'에 대한 외국인 접근을 전면 차단했다. 앤트로픽에 따르면 6월 14일 미국 정부가 국가 안보 지침을 이유로 이들 모델에 대한 외국인의 포괄적인 수출 제한 조치를 시행했다.\n\n이 조치는 한국 삼성전자, SK하이닉스, SK텔레콤, 한국인터넷진흥원(KISA) 등 약 15개국 150개 기관이 참여하는 앤트로픽의 사이버보안 특화 협력 프로그램 '프로젝트 글래스윙' 참여자들에게도 영향을 미쳤다.\n\n이번 제한은 구조적 시사점을 가진다: 국제 협력 참여자들조차 외교 정책 변화에 따른 접근 제한을 받을 수 있다는 점이 외부 AI 플랫폼 의존도 위험을 부각시켰다. 이는 외국 통제 모델에 의존하기보다 독립적인 국내 역량을 개발하는 '소버린 AI' 논의를 다시 촉발시켰다.",
+      "published_at": "2026-06-14T15:00:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "미국 정부 '앤트로픽 제재, 타 AI 기업 확대 안 해'…원인은 '비협조적 태도'",
+      "url": "https://zdnet.co.kr/view/?no=20260614143046",
+      "body": "미국 정부는 앤트로픽을 겨냥한 수출 통제 조치를 다른 AI 기업으로 확대할 계획이 없다고 밝혔다. 더인포메이션이 6월 14일 보도한 바에 따르면, 익명의 백악관 관계자는 이 제한이 앤트로픽에 특정된 것이라고 밝혔다.\n\n관계자는 이 지침이 AI 시스템 전반에 공통된 모델 위험이 아니라 앤트로픽의 대응 방식에서 비롯된 것이라고 설명했다. 회사가 Fable 5와 Mythos 5에서 발견된 보안 취약점을 해결하기를 거부하고, 안전이 보장될 때까지 배포를 지연해 달라는 정부의 요청을 거절했다는 것이다.\n\n백악관 AI 자문관 데이비드 삭스는 '탈옥이 사이버 무기를 가능하게 하는 것을 심각하지 않다고 한 앤트로픽의 특성화는 정부 평가와 회사가 스스로 주장하는 AI 안전 리더 위상 모두에 배치된다'고 말했다.",
+      "published_at": "2026-06-14T14:35:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "body": "Anthropic announced that the US government issued an export control directive requiring the suspension of Fable 5 and Mythos 5 access for all users, including foreign nationals and foreign employees. The company received the directive on June 12, 2026, at 5:21 PM ET. To ensure compliance, Anthropic disabled both models for all customers, though access to all other Anthropic models will not be affected.\n\nThe government's action was reportedly based on awareness of a method to bypass Fable 5's safeguards. Anthropic reviewed a demonstration showing the technique identified minor, previously known vulnerabilities that other publicly available models can also discover without requiring a bypass.\n\nAnthropic emphasized its layered security approach for Fable, noting that extensive red-teaming with government agencies, UK authorities, and third parties validated the model's safeguards as substantially more effective than previously deployed systems. The company acknowledged that perfect jailbreak resistance is not currently possible for any model provider and adopted a defense-in-depth strategy combining narrow jailbreak resistance with monitoring systems.\n\nThe government provided only verbal evidence of a potential narrow, non-universal jailbreak involving requests to review and fix code vulnerabilities. Anthropic determined this capability is widely available from other models and represents standard defensive practice.\n\nDespite compliance with the legal directive, Anthropic disagreed with the decision, arguing the jailbreak discovery should not trigger commercial model recall and that applying this standard industry-wide would essentially halt all new model deployments.",
+      "published_at": "2026-06-13T06:21:00+09:00",
+      "source": "Anthropic",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic Halts Access to Fable 5 and Mythos 5",
+      "url": "https://www.servethehome.com/anthropic-halts-access-to-fable-5-and-mythos-5/",
+      "body": "This weekend, Anthropic discontinued access to its Fable 5 and Mythos 5 models through both API and desktop application. The company cited a U.S. government export control directive issued on national security grounds as the reason for the abrupt shutdown.\n\nAccording to Anthropic's statement, the directive mandates suspension of access by foreign nationals, including foreign Anthropic employees, whether located domestically or internationally. The organization determined that compliance required disabling both models for all customers worldwide.\n\nThe impact proves significant for active users. Those relying on Fable 5 workflows faced immediate disruption, as the newer model substantially outperformed alternatives like Opus 4.7/4.8 on certain development tasks. Users must now switch to less capable alternatives or discontinue affected operations.\n\nAnthropic contends that other frontier models possess comparable capabilities to those cited in the government's report, which the company believes motivated the directive. The firm suggests that uniformly applying such restrictions could paralyze deployments of advanced frontier models industry-wide.\n\nThis development underscores critical infrastructure vulnerabilities. Businesses depending on cloud-hosted AI face severe risks when single-model dependencies suddenly vanish. The incident highlights the importance of implementing redundancy and exploring localized AI solutions for mission-critical workflows that cannot tolerate unexpected service interruptions.",
+      "published_at": "2026-06-14T22:00:04+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI is under investigation by 42 state attorneys general, days after filing for its IPO",
+      "url": "https://thenextweb.com/news/openai-state-attorneys-general-investigation-ipo",
+      "body": "A coalition of 42 state attorneys general has launched a sweeping investigation into OpenAI, initially reported by the Wall Street Journal. New York's attorney general served a subpoena on Friday requesting documents concerning advertising, user engagement and retention, consumer and health data, treatment of minors and seniors, deep-learning models, and internal company policies.\n\nThe investigation's scope is extensive, examining how OpenAI manages consumer and health data, markets ChatGPT to vulnerable populations including children and seniors, and what internal safety protocols exist before product releases. State enforcers appear to be evaluating whether the company's business model, marketing claims, and safety controls caused harm to users, particularly vulnerable groups.\n\nThe timing coincides with OpenAI's confidential IPO filing on June 8 at an $852 billion valuation, with Goldman Sachs, Morgan Stanley, and JPMorgan leading the offering. This multistate investigation must be disclosed in the S-1 prospectus, adding legal complexity to an already competitive AI IPO market.\n\nThe probe represents the latest escalation in legal actions against OpenAI. Florida became the first state to sue on June 1, and a separate criminal investigation examines ChatGPT's alleged role in an April 2025 mass shooting. Individual litigation now numbers in the dozens, with cases involving alleged harms to minors, including suicide-related claims from multiple families in Canada and the United States.",
+      "published_at": "2026-06-13T16:40:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI faces investigation from state attorneys general",
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "body": "A coalition of state attorneys general has opened an investigation into OpenAI. The company was served with a subpoena from New York's attorney general on Friday, according to The Wall Street Journal. That subpoena sought documents related to a broad range of topics including the company's advertising, user engagement and retention, model sycophancy, handling of consumer data and health data, and treatment of minors and seniors.\n\nAI is a new and powerful technology, and we work every day to safely bring its benefits to people in a responsible way, an OpenAI spokesperson stated. The company emphasized that ChatGPT now includes a more protective experience for minors and people experiencing difficult situations, with safeguards that direct them to real-world resources.\n\nThe company did not specify which states are involved in the investigation. The probe lands just days after OpenAI filed paperwork to go public, adding regulatory risk to one of the year's most anticipated IPOs. OpenAI continues facing multiple legal challenges, including lawsuits over copyright infringement and ChatGPT's alleged role in user suicides. Earlier this month, Florida's Attorney General sued OpenAI and CEO Sam Altman, claiming they ignored internal and external safety warnings, put children at great risk.",
+      "published_at": "2026-06-13T16:47:18+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "As AI companies race to go public, who else is along for the ride?",
+      "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "body": "SpaceX completed the largest IPO ever this week, with CEO Elon Musk becoming the world's first trillionaire. Despite its name, SpaceX emphasized its AI business potential in filings, while competitors OpenAI and Anthropic have filed confidentially for their own public debuts.\n\nThe acronym has shifted from FAANG to MANGOS — Meta, Anthropic, NVIDIA, Google, OpenAI, and SpaceX. This represents a fundamental reallocation of public market capital away from consumer and social networks toward AI labs and deep tech companies.\n\nA race is underway between Anthropic and OpenAI regarding IPO timing. With finite capital available, both companies may want to go public before the other. OpenAI has already begun slashing prices competitively.\n\nBeyond headline-grabbing IPOs, numerous startups are capitalizing on the SpaceX wave. Companies like Quantum Space pursued SPAC deals, while others raised funds for orbital data centers inspired by SpaceX's success. Traditional automakers including Ford and General Motors pivoted battery capacity toward data center energy provision.\n\nReporting highlighted how AI's economy-remaking impact stems partly from how companies attempt building it, not merely its applications.",
+      "published_at": "2026-06-15T01:38:09+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "스페이스X 상장 첫날 20% 급등…머스크, 세계 최초 '조만장자' 등극",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211688",
+      "body": "스페이스X가 뉴욕증권거래소 상장 첫날 약 20% 급등하며 시가총액 2조 달러를 돌파했다. 주가는 160.95달러로 마감해 약 2.1조 달러의 시가총액을 기록했으며, 거래량은 800억 달러를 넘어섰다.\n\n이로써 스페이스X는 테슬라(1.5조 달러)를 넘어 세계 6번째 규모의 상장 기업으로 올라섰다. 일론 머스크 CEO는 텍사스 스타베이스 시설에서 나스닥 개장 벨을 울리며 '엘세군도 소형 창고에서 시작한 회사의 여정'에 경이감을 표했다.\n\n머스크의 개인 자산은 역사적 수준에 달했다. 스페이스X 42% 지분 가치 약 8,000억 달러와 테슬라 보유주식 2,800억 달러를 합산하면 1조 달러를 초과해 세계 최초 '조만장자'가 됐다.\n\n투자자 수요는 비범했다. 제공된 주식의 3배를 초과하는 주문이 들어왔다. 개인 투자자들은 1,000억 달러를 초과하는 입찰을 제출하며 공개 주식의 20~25%를 배정받았다.",
+      "published_at": "2026-06-13T10:09:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "메타, 무리한 AI 인력 재편에 내부 반발 폭발…저커버그 '실수 인정'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211705",
+      "body": "메타가 공격적인 AI 인력 재편 이후 극심한 내부 혼란에 직면했다. 수천 명이 참석한 최근 사내 전체 프레젠테이션에서 한 엔지니어가 마이크를 잡고 경영진 처우가 모욕적이라고 불만을 표출하며 특정 임원들에게 거친 비판을 쏟아냈다.\n\n새로 구성된 어플라이드 AI 팀은 약 6,500명의 엔지니어와 제품 관리자로 구성되며, 주로 소셜미디어 개발 역할에서 재배치된 직원들로 이루어져 있다. 직원들은 자신들을 '징집병'이라고 부른다. 부서 이전을 거부하면 회사를 떠나야 했기 때문이다. 직원들은 이제 AI 훈련 퍼즐 생성이나 주 2회 단순 코딩 문제 만들기 등 반복적이고 기계적인 작업을 수행한다.\n\n메타가 AI 훈련 목적으로 직원 클릭 및 키 입력 데이터를 수집하겠다는 계획을 발표하자 혼란은 가중됐다. 1,600명 이상의 직원들이 반대 청원에 서명했다. 크리스 콕스 최고제품책임자는 상황을 '우박 속에서 마라톤 뛰기'라고 묘사했다.\n\nCEO 마크 저커버그는 '우리가 실수를 했다'고 인정하는 내부 메모를 발표하며 올해 추가 정리해고 중단, 어플라이드 AI 팀의 불균형한 관리 비율 재편(1:50까지 도달), 영향받은 직원들을 위한 새로운 역할 창출, 재편이 효과적이지 않을 경우 이전 직위로 복귀 경로 구축 등 시정 조치를 제시했다.",
+      "published_at": "2026-06-14T11:02:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "알트먼, 다음주 방한 연기하고 프랑스 G7 정상회의 참석",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211685",
+      "body": "오픈AI CEO 샘 알트먼이 다음 주 예정했던 한국 방문을 연기하고 대신 프랑스 G7 정상회의에 참석하기로 했다.\n\n블룸버그 등 해외 매체에 따르면, 오픈AI, 앤트로픽, 구글의 AI 경영진들이 6월 15~17일 프랑스 에비앙에서 개최되는 G7 정상회의에 참가한다. 프랑스 대통령실 공식 참석자 명단에는 알트먼, 다리오 아모데이(앤트로픽 CEO), 데미스 하사비스(구글 딥마인드 CEO)가 포함되어 있으며, 이들 회사들도 참가를 확인했다.\n\n오픈AI 대변인은 정상회의에서 'AI 기술과 그 잠재적 기회 및 위협'에 관한 포괄적인 논의가 진행될 것이라고 밝혔다.\n\n한국과 관련해 오픈AI는 알트먼의 6월 14~15일 방문 예정 및 광범위한 아시아 일정이 개인 사정으로 일정이 조정됐다고 밝혔다. 이번 방문은 삼성전자, 네이버, 카카오와의 AI 협력 확대를 목표로 했다.",
+      "published_at": "2026-06-13T05:10:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "body": "Anthropic's decision to suspend access to its newest AI models following a U.S. government directive has sparked debate in India's technology sector about dependence on foreign AI infrastructure.\n\nThe announcement came when Anthropic received a directive requiring it to suspend access to its recently launched Fable 5 and Mythos 5 models for all foreign nationals, including its own foreign employees. This move followed shortly after the company announced a partnership with Indian IT services giant Tata Consultancy Services to expand enterprise AI adoption in India.\n\nIndian technology leaders are now debating whether the country should accelerate domestic AI development or deepen investment in open-source alternatives. Aakrit Vaish, founder of venture platform Activate, stated that this materially changes the way all of us should be thinking about sovereign AI in India.\n\nVijay Rayapati, CEO of Atomicwork, highlighted competitive risks: teams spanning multiple countries face disadvantages if advanced AI access becomes subject to geopolitical restrictions.\n\nSridhar Vembu of Zoho urged Indian organizations to embrace smaller and open-source models, while investor Mohandas Pai called for a national AI strategy with 500 billion rupees in annual funding.\n\nIndia remains a relatively small frontier model developer despite being one of the largest AI markets globally. Policy expert Prasanto Roy warned that the episode demonstrates American AI models are bound to American geopolitics.",
+      "published_at": "2026-06-14T12:00:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing's demand",
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "body": "Meta has begun dismantling its $2 billion acquisition of Manus, completing an operational separation from the Chinese-founded AI startup and halting data sharing between the two companies. This represents the most concrete step yet toward complying with a divestiture order Beijing issued roughly two months ago on national security grounds.\n\nMeta has cut Manus off from its internal systems, preventing employees from using Manus tools for internal projects as the two companies move toward a full separation.\n\nMeanwhile, the co-founders of Manus have held preliminary discussions about raising approximately $1 billion from outside investors to reclaim the startup from Meta. This move could pave the way for a Chinese joint venture structure and an eventual listing in Hong Kong, a venue that has seen a surge in AI listings this year for Chinese AI startups.\n\nThe move underscores Beijing's determination to retain control over strategically sensitive technology, regardless of a company's offshore incorporation.\n\nChinese authorities have expanded travel restrictions to researchers and executives at private firms, requiring government approval before heading abroad. China is also tightening its grip on foreign capital, with reports indicating that top AI firms will need government sign-off before accepting U.S. investment.\n\nManus drew widespread attention with a viral agent demo and relocated its staff to Singapore in mid-2025 before announcing the Meta acquisition in December. Chinese regulators scrutinized the transaction, citing potential violations of technology export controls and foreign investment rules.",
+      "published_at": "2026-06-14T13:03:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "엔비디아, 차세대 '베라' CPU로 중국 공략…GPU 규제 우회할 돌파구",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211689",
+      "body": "엔비디아가 차세대 Vera AI 데이터센터 CPU를 통해 중국 시장 전략을 가속화하고 있다. 로이터에 따르면 엔비디아는 이르면 2026년 8월 공식 출시를 목표로 중국 고객사들로부터 Vera에 대한 주문 접수를 시작했다.\n\nARM 기반으로 구축된 Vera는 자율적으로 작업을 수행하는 에이전트 시스템을 위해 최적화된 엔비디아의 최초 독립형 서버 CPU다. 회사는 경쟁 CPU 대비 최대 1.8배 빠른 속도를 주장한다. 단일 유닛은 2만 달러를 넘을 것으로 예상되며, 256개 칩의 완전한 랙 구성은 메모리 구성에 따라 약 1,000만 달러에 달할 것으로 보인다.\n\nAI 산업의 훈련에서 추론 서비스로의 전환이 GPU와 함께 CPU 배포에 유리하게 작용하고 있다. 인텔과 AMD 모두 대기 시간이 6개월로 연장되는 심각한 CPU 공급 부족을 보고하고 있다.\n\n알리바바, 바이트댄스 등 주요 중국 테크 기업들이 관심을 표명했으며, 초기 테스트를 위해 Vera CPU 2개를 탑재한 서버 300대 이상을 주문할 가능성이 보도됐다.",
+      "published_at": "2026-06-13T10:54:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "하드웨어 벤치마크 'AA-에이전트퍼프' 등장...블랙웰, 전력 효율 1위",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211703",
+      "body": "아티피셜 애널리시스가 AI 에이전트 워크로드 전용 새 하드웨어 벤치마크 'AA-AgentPerf'를 공개했다. 단순 쿼리 기반 성능 지표에 초점을 맞추는 기존 벤치마크와 달리, 이 평가는 실제 코딩 에이전트의 복잡한 워크플로를 재현해 AI 하드웨어 처리 능력과 전력 효율을 측정한다.\n\n핵심 지표는 '메가와트당 에이전트 수'로, 정의된 서비스 품질 수준을 유지하면서 1메가와트 전력으로 몇 개의 동시 AI 에이전트가 운용 가능한지를 측정한다.\n\n벤치마크는 실제 코딩 에이전트 작업 기록을 활용하며, 에이전트는 최대 200번의 상호작용을 수행하고 10만 토큰을 초과하는 문맥 길이를 사용한다. 12개 이상의 프로그래밍 언어가 포함됐다.\n\nDeepSeek-V4 Pro를 사용한 초기 테스트에서 NVIDIA의 블랙웰 아키텍처가 압도적인 결과를 보였다. 랙 규모 GB300이 메가와트당 61,354개 에이전트를 지원했으며, 단일 노드 B300은 21,053개를 달성했다. AMD MI355X는 3,551개, NVIDIA H200은 2,594개를 기록했다.",
+      "published_at": "2026-06-14T19:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AMD challenges Nvidia's DGX Spark with $3,999 Ryzen AI Halo — $700 cheaper with Windows support",
+      "url": "https://www.tomshardware.com/desktops/mini-pcs/amd-challenges-nvidias-dgx-spark-with-usd3-999-ryzen-ai-halo-with-windows-11-support-strix-halo-desktop-undercuts-nvidia-by-usd700-packs-128gb-of-unified-memory",
+      "body": "AMD has launched the Ryzen AI Halo compact AI workstation at $3,999, positioned as a direct competitor to NVIDIA's DGX Spark ($4,679). The system is now available for order, undercutting Nvidia's offering by $700 while packing 128GB of unified memory.\n\nAt the heart of the Ryzen AI Halo is AMD's Ryzen AI Max+ 395 Strix Halo processor, combining 16 Zen 5 CPU cores with an oversized RDNA 3.5 iGPU. The system features 128GB of LPDDR5x memory, a 50 TOPS NPU, a 40-core RDNA 3.5 GPU, and 2TB of storage.\n\nUnlike NVIDIA's DGX Spark, which runs Linux only, the Ryzen AI Halo supports both Windows 11 and Linux, offering broader software compatibility. AMD argues the x86-64 architecture provides easier workload migration and full compatibility with the broader software ecosystem.\n\nAMD targets AI developers who want to prototype, fine-tune, and run AI models locally. The system supports ROCm, AMD's open-source GPU computing platform, for AI workloads. AMD positions this as suitable for running large language models locally, with 128GB unified memory enabling models up to roughly 70B parameters at full precision.",
+      "published_at": "2026-06-13T14:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "AMD"
+    },
+    {
+      "title": "AI costs spike as subscriptions hit pricing wall — firms turn towards Chinese LLMs, open-source models",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-spike-as-subscriptions-hit-pricing-wall-firms-turn-towards-chinese-llms-open-source-models-to-extend-budget",
+      "body": "The expense of delivering AI through subscription services has grown substantially, as token cost reductions haven't matched the rise in demand. Research from SemiAnalysis examined offerings from Anthropic and OpenAI, revealing a significant gap between advertised monthly fees and potential maximum spending.\n\nThe analysis found that Claude Max 20x, priced at $200 monthly, could reach $8,000 when fully utilized through API charges. Similarly, ChatGPT Pro 20x, also $200 per month, has a maximum possible spend of around $14,000.\n\nThis pricing disparity is compelling enterprises to explore alternative solutions. Companies are increasingly considering Chinese language models and open-source alternatives to manage AI infrastructure costs more effectively and extend their available budgets.\n\nThe fundamental challenge stems from the economics of AI delivery — while per-token expenses have decreased, exponential growth in usage volumes has outpaced these savings, creating pressure on providers' margins and forcing customers to seek cost-effective options.",
+      "published_at": "2026-06-13T14:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Grassroots opposition blocked $130 billion in US data center projects in Q1 2026",
+      "url": "https://thenextweb.com/news/data-center-opposition-75-projects-blocked-q1-2026",
+      "body": "Grassroots opposition to data center construction in the United States has reached a scale reshaping where and whether the AI industry can build. A Data Center Watch report found that activists blocked or delayed at least 75 projects worth $130 billion in Q1 2026 — the most disruptions recorded in a three-month period since tracking began in 2023.\n\nThe pace represents a structural shift. Q1 disruptions matched the entire 2025 total. Active anti-data center groups more than doubled from 396 to 833 across 49 states, with Maryland, Ohio, and Texas hosting the most.\n\nOpposition is bipartisan and locally driven, focusing on electricity costs, water consumption, and noise — the same concerns prompting Denmark to pause new grid connections and the EU to ask households to reduce peak electricity use.\n\nLegislative momentum is building. Data Center Watch counted 14 statewide measures in Q1, and MultiState identified moratorium bills across 11 states with proposed pauses from three months to four years. Over 300 data-center-related bills were introduced statewide in six weeks.\n\nMaine's legislature passed a moratorium pausing permitting for facilities drawing 20 megawatts or more — the first nationwide. Governor Janet Mills vetoed it but later signed a law barring data centers from state tax incentives.\n\nPublic opinion has shifted dramatically. A Heatmap Pro poll found majorities would strongly oppose nearby data centers, reversing nine-month-old surveys showing the public evenly divided. Gallup puts opposition at 70%.\n\nThe industry continues spending as though opposition won't hold. US utilities plan $1.4 trillion by 2030 on grid infrastructure driven largely by data center demand, while hyperscaler capital expenditure is projected to exceed $690 billion in 2026 alone. The gap between industry ambitions and community acceptance is widening faster than anticipated.",
+      "published_at": "2026-06-14T19:44:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Amazon says its data centers are 7x more water-efficient than industry average",
+      "url": "https://www.tomshardware.com/desktops/servers/amazon-says-its-data-centers-consume-only-0-075-percent-of-the-water-americans-use-for-watering-their-lawns-and-gardens-company-also-boasts-of-its-improvements-in-water-efficiency",
+      "body": "Amazon Web Services has disclosed that its data centers consumed approximately 2.5 billion gallons of water worldwide last year, marking the company's first-ever public disclosure of absolute water usage figures for AWS. The company claims this represents only 0.075% of water Americans use for lawn irrigation annually.\n\nAWS further announced it has achieved seven times better water efficiency than the industry average, reaching 0.12 liters per kWh — a 52% improvement since 2021. The company reports it is 75% of the way toward its goal of being water positive by 2030.\n\nAmazon uses free air cooling 90% of the time, running air past servers to absorb heat and pumping it back outside. For the remaining 10%, when outside air is too hot, the company uses evaporative cooling with water sprayed onto an absorbent medium.\n\nThe disclosure comes amid intensifying scrutiny of data center water usage from local communities and regulators as AI infrastructure expansion dramatically increases cooling demands. The transparency move appears timed to pre-empt regulatory pressure.",
+      "published_at": "2026-06-14T14:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI cryptomining network's 320,000 RTX 3090-class GPUs burn 112 megawatts on 'zero useful AI computation'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims",
+      "body": "A research preprint claims that Pearl's AI mining network consumes the equivalent of 320,000 RTX 3090-class GPUs burning 112 megawatts of power while producing no verified useful AI computation. The mining protocol does not verify whether work came from real AI training or inference workloads.\n\nAccording to researchers, Pearl's cards are doing random matrix math that satisfies the proof-of-work protocol while never actually training or inferring AI models. GPU rental costs for legitimate AI workloads have jumped 38% as these mining rigs compete for the same GPU rental marketplace supply.\n\nThe study argues that AI-shaped cryptocurrency mining represents a significant misallocation of GPU compute resources at a time of genuine scarcity. The 112MW power consumption represents the equivalent of a mid-sized city's electricity demand, all for computations that produce no AI capability improvements.\n\nPearl positions itself as an AI-compute cryptocurrency where miners earn tokens by contributing GPU compute to AI workloads. However, the verification mechanism has been found inadequate by researchers, who showed that random matrix multiplications can satisfy proof-of-work requirements just as easily as genuine AI workloads.",
+      "published_at": "2026-06-14T14:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "Nvidia raises RTX Pro 6000 Blackwell GPU pricing to $13,250 — 55% above launch price",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time",
+      "body": "NVIDIA has updated its official marketplace listing for the RTX Pro 6000 Blackwell Workstation Edition to $13,250, representing a 55% increase from the $8,565 launch price in March 2025. The price is up to 73% above the $7,673 pre-order pricing some retailers offered at launch.\n\nThe culprit is 96GB of GDDR7 memory in a global shortage environment, combined with AI demand that has no ceiling in sight. The card is currently marked out of stock on Nvidia's Marketplace despite the price increase.\n\nThe RTX Pro 6000 Blackwell is NVIDIA's most powerful professional workstation GPU, featuring 96GB of GDDR7 memory and designed for AI development, content creation, and professional visualization workloads.\n\nThe price movement reflects broader dynamics in the professional GPU market, where AI-driven demand has significantly outpaced supply of high-memory professional graphics cards. Enterprise customers working on local AI inference and fine-tuning workloads represent the primary demand segment driving the price increase.",
+      "published_at": "2026-06-13T14:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "This is an Intel Xeon 6 SoC DPU on a PCIe Card from Senao at Computex 2026",
+      "url": "https://www.servethehome.com/this-is-an-intel-xeon-6-soc-dpu-on-a-pcie-card-from-senao-at-computex-2026/",
+      "body": "At Computex 2026, ServeTheHome showcased the Senao SX906, a next-generation SmartNIC/DPU powered by Intel's Xeon 6 SoC (Granite Rapids-D). This PCIe card represents a significant advancement in data processing unit technology.\n\nThe device features up to 200Gbps network performance with dual 100G QSFP28 ports. Unlike traditional low-power DPUs, the SX906 utilizes full-performance P-cores, offering three configuration options: 24-core, 36-core, or 38-core variants. The 24-core model delivers 100GbE throughput, while both higher-tier SKUs support the full 200GbE capacity.\n\nKey specifications include DDR5 memory support across four channels, an ASPEED AST2600 BMC controller, and 24 PCIe Gen5 lanes distributed via edge connectors and MCIO interfaces. The card includes security features like TPM 2.0 support and Intel Platform Firmware Resilience.\n\nPower consumption ranges from 295W to 355W depending on configuration. All variants include dual QAT accelerators, with higher-tier models featuring media transcoding capabilities. The form factor measures 266x98.4x40.6mm in a dual-slot design with active cooling.\n\nThe author emphasizes this represents a server on a card approach rather than traditional SmartNIC functionality, categorizing it firmly in the DPU space. The Xeon 6 SoC architecture enables full server-class CPU performance in a PCIe card form factor, enabling a new class of offload applications.",
+      "published_at": "2026-06-13T09:33:58+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "'메모리' 키옥시아, 도요타 제치고 일본 시총 1위…올해 670% 폭등",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211694",
+      "body": "메모리 칩 제조업체 키옥시아 홀딩스가 도요타 자동차를 제치고 일본 최고 시가총액 상장 기업이 됐다. 6월 12일 키옥시아 주가가 7.6% 급등해 시가총액 44조 엔(약 417.2조원)을 기록하며 상장 18개월 만에 도쿄증권거래소 1위를 차지했다.\n\n도요타는 시가총액 43.8조 엔으로 2위로 내려앉았다.\n\n이번 급등은 AI 데이터센터 확장이 이끄는 폭발적인 글로벌 메모리 칩 수요를 반영한다. 올해만 키옥시아 주가는 670% 이상 상승해 MSCI 세계 지수에서 최고 성과 주식이 됐다.\n\n소프트뱅크는 오픈AI의 IPO 기대감으로 한때 일본 시가총액 1위를 차지했으나 현재는 4위로 내려앉았다.\n\n키옥시아는 도시바의 메모리 부문에서 출발했다. 낸드 플래시 메모리를 선구한 기업으로, 2018년 도시바 메모리로 분사됐다가 베인 캐피털 컨소시엄에 인수된 후 2019년 현재 이름으로 재편됐다.",
+      "published_at": "2026-06-13T12:18:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "최태원 회장, AX 가속화 주문…'1인 1에이전트 도입 해야'",
+      "url": "https://zdnet.co.kr/view/?no=20260614095638",
+      "body": "SK그룹 최태원 회장이 AI 전환(AX)을 근본적으로 운영 개선(O/I)에 뿌리를 두고 있다고 규정했다. 경기도 이천 SKMS 연구소에서 6월 13일 개최된 '2026 뉴 이천포럼'에서 그는 '우리가 하는 일을 정의하고 일하는 방식을 바꾸는 모든 과정이 O/I를 구성한다'고 말했다.\n\n최 회장은 AI 전환이 O/I 실행 역량 강화를 위한 최적의 도구라고 강조하며, 조직이 AI 기반 운영 개선을 통해 기초 역량과 실행력을 강화해야 한다고 촉구했다.\n\n그는 '1인 1에이전트' 개념을 도입해 개인 AI 활용에서 조직 AI로의 진화를 요구했다. 현재 직원 90% 이상이 AI를 사용하고 있지만, 집단적 조직 성과에 기여하는 시스템이 필요하다고 지적했다.\n\n최 회장은 글로벌 AI 경쟁에서 SK그룹의 위치를 분석했다. 반도체 메모리 기술, 데이터센터 인프라, 지원 에너지 자원, 전력화를 아우르는 'full-stack' 역량을 갖춘 기업이 전 세계적으로 드물다며 SK의 경쟁 우위를 강조했다. 그러나 즉각적인 포괄적 AI 전환 없이는 현재의 기회가 다시 오지 않을 것이라고 경고했다.",
+      "published_at": "2026-06-14T10:24:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "션 헤히르 브레인칩 CEO '뉴로모픽 반도체 급성장…韓과 오픈이노베이션 검토'",
+      "url": "https://www.etnews.com/20260615000010",
+      "body": "브레인칩의 CEO 션 헤히르가 최근 전자신문과 인터뷰에서 저전력 수요에 힘입어 급성장 중인 뉴로모픽 반도체 시장에 대해 논의했다.\n\n브레인칩은 인간 뇌의 신경망 구조를 모방한 뉴로모픽 반도체를 상용화한 최초의 기업으로 인정받는다. 이 칩들은 프로세서와 메모리를 단일 유닛에 통합해 데이터 전송이 불필요하다. 기존 반도체와 달리 의미 있는 데이터 변화가 발생할 때만 활성화되는 이벤트 기반 방식으로 작동해 10분의 1의 전력만 소비한다.\n\n헤히르는 '기존 AI 가속기는 데이터 유무에 상관없이 전체 신경망을 지속적으로 실행한다'고 설명하며, 이를 의미 있는 변화를 기반으로 활성화되는 뇌 기능과 유사한 브레인칩의 'Akida' 기술과 대비시켰다.\n\n뉴로모픽 시장은 탁월한 성장 잠재력을 보인다. 글로벌 뉴로모픽 컴퓨팅 시장은 2024년 2,850만 달러에서 2030년 13억 2,500만 달러로 확대될 것으로 예상된다(연평균 89.7% 성장률).\n\n브레인칩은 국내 팹리스 기업 EdgeAI에 설계 자산을 공급하며 한국 시장에 진출했다. 헤히르는 한국 파트너십 확대 의향을 밝히며 한국이 세계 최고 수준의 반도체 제조 역량을 보유하고 있다고 강조했다. 유망 팹리스 기업들에 대한 기술 지원 강화와 업계 최적화 레퍼런스 디자인 공동 개발을 통한 오픈 이노베이션 적극 추진 계획을 밝혔다.",
+      "published_at": "2026-06-15T08:40:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "BrainChip"
+    },
+    {
+      "title": "美, 앤트로픽 최상위 AI 모델 '외국인 접근' 전면 차단…'사실상 허가제'",
+      "url": "https://www.etnews.com/20260615000003",
+      "body": "미국 정부가 앤트로픽의 최고 AI 모델 미소스5와 페이블5에 대해 외국인의 접근을 포괄적으로 제한했다. 6월 13일 로이터와 블룸버그 보도에 따르면, 행정부는 모든 외국인의 접근을 차단하는 엄격한 수출 통제 지침을 발동했다.\n\n제한 조치는 해외에서의 원격 접근과 미국 영토 내 외국 시민의 현장 접근을 모두 포함한다. 특히 앤트로픽 소속 외국인 직원에게도 해당 규정이 확대 적용됐다.\n\n앤트로픽은 공식 성명을 통해 '미국 정부는 미국 기업이 개발한 최첨단 AI 모델에 대한 외국인 접근을 이렇게 광범위하게 통제한 적이 없다. 주요 사업자 모두에게 적용될 경우, 이 기준은 모든 주요 사업자의 새 모델 배포를 사실상 중단시킬 것'이라고 밝혔다.\n\n업계 분석가들은 상당한 파급 효과를 예측한다. 로이터는 이 조치가 '광범위한 업계 전반의 결과를 초래할 수 있다'고 언급했으며, 블룸버그는 선례가 '오픈AI, 구글, 메타를 포함한 모든 주요 AI 개발자들에게 위험을 초래할 수 있다'고 경고했다.",
+      "published_at": "2026-06-15T06:49:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Vertiv completes ThermoKey acquisition to expand AI data center heat rejection portfolio",
+      "url": "https://www.datacenterdynamics.com/en/news/vertivs-acquisition-of-thermokey-closes/",
+      "body": "Vertiv Holdings Co completed the acquisition of ThermoKey S.p.A. on June 12, 2026, expanding its heat rejection portfolio for AI data centers. ThermoKey is a leading provider of heat rejection and heat-exchange technologies with relationships across original equipment manufacturers and system integrators.\n\nThe acquisition expands Vertiv's thermal management portfolio and manufacturing capabilities, particularly in Europe, Middle East, and Africa, and strengthens its ability to deliver system-level solutions across the full thermal chain for AI factories and high-density data centers.\n\nThermoKey's technology set includes heat-exchange solutions, dry coolers, and compatibility with low-GWP and natural refrigerants that complement Vertiv's portfolio. Founded in 1991, ThermoKey brings more than 30 years of engineering expertise, in-house design and production capabilities.\n\nThe deal was initially announced in March 2026 and closed as scheduled, with deal terms not publicly disclosed. The acquisition reflects the intensifying competition for cooling solutions as AI data center power density continues to climb beyond 100kW per rack in advanced deployments.",
+      "published_at": "2026-06-13T09:00:24+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "베이조스의 AI 스타트업 프로메테우스, 몸값 62조 기록…'인공 일반 엔지니어 개발 중'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211708",
+      "body": "제프 베이조스의 AI 스타트업 프로메테우스가 120억 달러(약 62조원)의 대규모 펀딩 라운드를 완료하며 기업 가치 410억 달러를 달성했다. 이 회사는 항공기 엔진 설계 및 제조와 같은 복잡한 물리적 제품을 설계하고 생산할 수 있는 '인공 일반 엔지니어(Artificial General Engineer)'를 개발하는 것을 목표로 한다.\n\n베이조스와 바이오테크 전문가 빅 바스케스가 2024년 말에 공동 설립한 프로메테우스는 샌프란시스코, 런던, 취리히에 약 150명의 직원을 두고 있다. 이 회사는 제품 설계 및 성능 예측부터 제조 최적화까지 완전한 엔지니어링 프로세스 자동화에 초점을 맞추며, 컴퓨팅 하드웨어, 항공우주, 의약품 개발 등 복잡한 산업을 대상으로 한다.\n\n베이조스는 목표가 '엔지니어의 역량을 강화하고 발명을 더 쉽고 빠르게 만드는 것'이라고 밝혔다. 펀딩은 주로 컴퓨팅 인프라와 오픈AI, 구글 딥마인드, 엔비디아 같은 주요 AI 기업에서의 인재 채용을 위해 사용될 예정이다.",
+      "published_at": "2026-06-14T16:49:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AWS rolls the dice for faster, more efficient networking",
+      "url": "https://www.theregister.com/networks/2026/06/13/aws-rolls-the-dice-for-faster-more-efficient-networking/5253248",
+      "body": "AWS has announced new networking advancements focused on achieving faster and more efficient connectivity for its data center infrastructure. The company is rolling out improvements to its internal networking stack to better support AI and high-performance computing workloads.\n\nThe initiative involves upgrades to AWS's custom silicon for networking, building on the company's Nitro system which handles virtualization and networking offload. The improvements target lower latency and higher throughput for inter-instance communication, which is critical for distributed AI training and inference workloads.\n\nAWS continues to differentiate its networking approach from competitors by leveraging its custom ASIC development capabilities, following the broader trend of hyperscalers building proprietary networking silicon rather than relying on commodity components.\n\nThe announcement is part of AWS's broader effort to optimize its data center infrastructure for increasingly demanding AI workloads, including large-scale model training and high-concurrency inference serving. AWS Graviton5 processor deployments are also being expanded as part of this networking-compute co-optimization effort.",
+      "published_at": "2026-06-13T09:00:00+09:00",
+      "source": "The Register",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "미국 주정부 연합, 오픈AI 전격 조사…취약계층 보호·기술 결함 검증",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211704",
+      "body": "미국 주 법무장관 연합이 오픈AI에 대한 포괄적인 조사를 시작했다. 뉴욕 주 법무장관이 6월 12일 광범위한 문서 제출을 요구하는 소환장을 발부했으며, 여기에는 광고 전략, 사용자 참여 방식, 소비자 데이터 처리, 건강 데이터 처리, 미성년자 및 노인 처우, 딥러닝 모델 관련 내용이 포함됐다.\n\n조사는 오픈AI가 어린이와 노인 등 취약 계층에게 ChatGPT를 어떻게 마케팅하는지, 제품 출시 전 어떤 내부 안전 프로토콜이 존재하는지를 집중적으로 살핀다. 이 조사 시점은 오픈AI가 6월 8일 852억 달러 가치 평가로 비밀리에 IPO를 신청한 것과 맞물리며, 이미 경쟁적인 AI IPO 시장에 법적 복잡성을 더하고 있다.\n\n이번 조사는 오픈AI에 대한 법적 조치 강도가 높아지는 흐름 속에 있다. 플로리다가 6월 1일 첫 번째로 소송을 제기했다.",
+      "published_at": "2026-06-14T10:18:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Sam Altman to Meet Kakao, Naver and Samsung Electronics During Korea Visit",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11261",
+      "body": "OpenAI's chief executive was scheduled to visit South Korea on June 14, with meetings across major Korean tech companies planned. However, the visit was subsequently postponed due to Altman attending the G7 summit in France instead.\n\nOn the morning of June 15, Altman had been expected to meet Kakao's CEO Chung Shin-a at the company's Pangyo office in Seongnam to discuss additional business cooperation tied to existing partnerships, including ChatGPT-based services integrated with KakaoTalk.\n\nAltman was also scheduled to visit Naver the same day for working-level meetings exploring potential collaboration. Industry sources suggested discussions might involve infrastructure cooperation for ChatGPT services, leveraging Naver Cloud's data center capabilities.\n\nAt Samsung Electronics' Digital City campus in Suwon on June 15, Altman was to participate in DX Insight Talk, an internal event addressing AI's future impact and workplace innovation. Samsung's Device eXperience division began providing employees access to generative AI services including ChatGPT, Gemini Enterprise, and Claude starting June 12.\n\nThe trip marked what would have been Altman's first visit to Korea since October, when he held separate meetings with Samsung's Lee and SK Group Chairman Chey Tae-won. During that visit, OpenAI signed separate agreements with Samsung and SK to cooperate on global AI infrastructure.",
+      "published_at": "2026-06-12T09:41:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}
