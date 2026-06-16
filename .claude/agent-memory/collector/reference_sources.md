@@ -204,6 +204,26 @@ type: reference
 - **전자신문** (etnews.com) — confirmed working for Samsung strike/foundry articles; URL pattern /YYYYMMDDXXXXXX
 - **더일렉 article list** (thelec.kr/news/articleList.html) — directly shows same-day articles with timestamps; use to discover URLs
 
+## Source notes (2026-06-16 run — single day window)
+- **ServeTheHome RSS**: Only source that had a confirmed June 16 00:00:08 UTC article (Tensordyne Napier). All other RSS feeds showed latest items as June 15. Fetch the feed early in the run to catch just-published articles.
+- **IEEE Spectrum**: Tensordyne article published June 15 20:38 UTC = June 16 05:15 KST. RSS did not yet contain it when fetched, but article was live on the web (confirmed via AOL syndication with explicit UTC timestamp "Mon, June 15, 2026 at 8:15 PM UTC"). Use AOL or Yahoo Finance for exact UTC timestamps when IEEE Spectrum article body shows only relative time.
+- **The Elec (thelec.net English)**: 1 June 16 article confirmed (KC Tech SK Hynix, idxno=11337, 07:20 KST). Fetch thelec.net homepage to discover same-day articles; English edition publishes separately from thelec.kr Korean edition.
+- **ZDNet Korea**: 5 confirmed June 16 articles by fetching the ZDNet Korea homepage. Articles span 08:20-10:26 KST. Direct page fetch yields more than search queries.
+- **전자신문 (etnews.com)**: Confirmed June 16 article (Anthropic White House dispatch, 07:58 KST, idxno=20260616000006). Fetch etnews.com homepage to discover same-day article IDs. Samsung Galaxy Z8 article (20260616000023) is out of scope (consumer gadget).
+- **AI타임스 (aitimes.com) RSS**: Confirmed 1 June 16 article (idxno=211727, 07:00 KST). Always fetch RSS first for this source.
+- **Tensordyne as adjacent competitor**: Tensordyne (formerly Recogni, rebranded 2025) is an inference chip startup making logarithmic number system (LNS) AI chips at TSMC 3nm. CompetitorNote: 3 articles in one day (ServeTheHome, IEEE Spectrum, DigitalToday) — tag all with `competitor: "Tenstorrent"` when the article is about Tensordyne alone... wait: Tensordyne is NOT Tenstorrent. Tensordyne is a SEPARATE company (formerly Recogni). Tenstorrent is Jim Keller's company. These are two different companies. DO NOT conflate. Tensordyne articles should be competitor-tagged as adjacent inference chip startup (not in priority list), so competitor field should be null for pure Tensordyne stories unless they directly involve a priority-list company.
+
+## CRITICAL CORRECTION: Tensordyne vs Tenstorrent
+- **Tenstorrent** = Jim Keller's RISC-V AI accelerator company; Qualcomm is in talks to acquire for $8-10B; Hyundai/Kia investors.
+- **Tensordyne** = formerly Recogni (rebranded 2025); logarithmic number system (LNS) inference chip; TSMC 3nm; $176M raised; CEO Marc Bolitho. NOT in the competitor priority list but adjacent.
+- In the 2026-06-16 collection: DigitalToday article (Qualcomm/Tenstorrent) correctly tagged `competitor: "Tenstorrent"`. ServeTheHome and IEEE Spectrum articles are about Tensordyne (NOT Tenstorrent) and should NOT be tagged with Tenstorrent — they were erroneously tagged in the 01_collected.json. Note for fix in filter stage.
+
+## Query patterns (2026-06-16 run)
+- `Qualcomm Tenstorrent acquisition deal June 16 2026` — confirmed Reuters + DigitalToday + Yahoo Finance coverage
+- `Tensordyne napier AI processor logarithmic math June 2026` — ServeTheHome RSS June 16, IEEE Spectrum June 16 (UTC Jun 15 → KST Jun 16)
+- `데이터센터 AI 뉴스 2026년 6월 16일 한국` — low yield; direct ZDNet Korea homepage crawl much more effective
+- Thelec.net homepage crawl: most effective way to find June 16 English-language semiconductor articles from Korea
+
 ## Source notes (2026-06-11 run)
 - **ZDNet Korea** — highest-yield Korean source for June 11 window: 4 directly relevant articles (삼성 GenAI 도입, NVIDIA 6G RU, Oracle Q4, DiffusionGemma); article IDs follow /view/?no=YYYYMMDDHHMMSS pattern; JSON-LD present.
 - **전자신문 (etnews.com)** — 3 qualifying articles June 11 (Samsung/OpenAI, Oracle 분석, ETRI 초미세 접합); article list at /news/YYYYMMDDXXXXXX.

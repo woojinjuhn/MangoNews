@@ -1,0 +1,118 @@
+{
+  "filter_date_kst": "2026-06-16",
+  "kept": [
+    {
+      "id": 3,
+      "title": "Qualcomm in talks to buy Jim Keller's AI chip startup Tenstorrent",
+      "url": "https://www.digitaltoday.co.kr/en/view/63718/qualcomm-in-talks-to-buy-jim-keller-ai-chip-startup-tenstorrent",
+      "category": "market",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Tier 2 priority competitor (Tenstorrent) potential $8-10B acquisition by Qualcomm — major AI chip M&A reshaping the non-NVIDIA accelerator landscape."
+    },
+    {
+      "id": 2,
+      "title": "Tensordyne's Wild Log Math Aims to Leave Nvidia's AI Chips In the Dust",
+      "url": "https://spectrum.ieee.org/tensordyne-inference-claim",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "New inference accelerator architecture (logarithmic math, 4x speed / 5x power efficiency claim vs GB300) directly relevant to AI infrastructure efficiency — MangoBoost's strategic terrain."
+    },
+    {
+      "id": 1,
+      "title": "Tensordyne Napier AI Processor Announced with Logarithmic Math",
+      "url": "https://www.servethehome.com/tensordyne-napier-ai-processor-announced-with-logarithmic-math",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Companion deep-dive on Tensordyne Napier (138B transistors, 144GB HBM3E, custom TDN Link interconnect) — complements IEEE Spectrum framing with chip/rack-level specs relevant to inference accelerator competitive set."
+    },
+    {
+      "id": 8,
+      "title": "[AI 리더스] HPE \"데이터 주권은 국가 경쟁력…한국형 소버린 AI 시작됐다\"",
+      "url": "https://zdnet.co.kr/view/?no=20260616101418",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "Sovereign AI thesis tied to balanced infra beyond GPUs (CPU/storage/network/orchestration, agentic AI compute/memory bandwidth) — directly aligns with MangoBoost DPU positioning and Korean sovereign AI strategy."
+    },
+    {
+      "id": 10,
+      "title": "[6월15일] 소버린 AI가 아니라 '첨단 모델 접근권'이 냉정한 현실",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211727",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Analytical column on the limits of sovereign AI vs frontier model access given Anthropic export controls — strategic context for Korean sovereign AI discourse."
+    },
+    {
+      "id": 9,
+      "title": "앤트로픽, 최첨단 AI '페이블' 수출 제한 해결 위해 기술진 백악관 급파",
+      "url": "https://www.etnews.com/20260616000006",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "US export controls on Anthropic Fable5/Mythos5 reshape global frontier AI access — direct policy input to sovereign AI strategies relevant to Korean buyers."
+    },
+    {
+      "id": 4,
+      "title": "More Power To You – And To The Datacenters",
+      "url": "https://www.nextplatform.com/compute/2026/06/15/more-power-to-you-and-to-the-datacenters/5255892",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Gartner datacenter power forecast (387 TWh → 1,200+ TWh by 2030, 20.8% CAGR) — core AI infrastructure power/efficiency challenge narrative."
+    },
+    {
+      "id": 6,
+      "title": "MS, 집단소송 당해…투자자 \"AI·클라우드 성장 둔화 사실 숨겨\"",
+      "url": "https://zdnet.co.kr/view/?no=20260616081924",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Azure capacity constraints from AI infra investment surfacing as $357B market-cap event and shareholder suit — material signal about hyperscaler AI infra bottlenecks."
+    },
+    {
+      "id": 7,
+      "title": "KT, 셋톱박스 협력사에 메모리 확보용 선금 지급",
+      "url": "https://zdnet.co.kr/view/?no=20260616094648",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Memory chipflation cascading to Korean telco supply chain (KT prepayment for 6-month inventory) — concrete signal of AI-driven memory supply tightness."
+    },
+    {
+      "id": 5,
+      "title": "SKT, AI에이전트에 사번 부여...사내 AX 가속",
+      "url": "https://zdnet.co.kr/view/?no=20260616100324",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Korean enterprise AI agent adoption case (SKT AX Innovation 2.0 — agent IDs/onboarding/offboarding) relevant to AI Agent ecosystem demand drivers."
+    },
+    {
+      "id": 11,
+      "title": "KC Tech Breaks Into SK hynix Supply Chain for Supercritical Cleaning Equipment",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11337",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Korean equipment supplier displaces TEL in SK hynix advanced-node cleaning — relevant Korean semi ecosystem signal tied to HBM/DRAM capacity doubling plan."
+    },
+    {
+      "id": 12,
+      "title": "FAANG 가고 'MANGOS' 온다…스페이스X 상장이 연 'AI 상장의 여름'",
+      "url": "https://zdnet.co.kr/view/?no=20260616082017",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Capital rotation narrative (FAANG → MANGOS: Meta/Anthropic/NVIDIA/Google/OpenAI/SpaceX) and OpenAI/Anthropic IPO build-up — relevant AI market structure signal."
+    }
+  ],
+  "discarded": [],
+  "summary": {
+    "total_received": 12,
+    "total_kept": 12,
+    "total_discarded": 0,
+    "category_breakdown": {
+      "market": 6,
+      "products": 3,
+      "projects": 0,
+      "challenges": 2,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 1,
+    "by_competitor": {
+      "Tenstorrent": 1
+    }
+  }
+}
