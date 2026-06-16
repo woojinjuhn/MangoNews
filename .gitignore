@@ -20,3 +20,7 @@ venv/
 
 # Claude Code local overrides (machine-specific hook paths, etc.)
 .claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Scheduled-run logs (run_daily.ps1)
+logs/
