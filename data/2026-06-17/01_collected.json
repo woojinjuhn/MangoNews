@@ -1,0 +1,103 @@
+{
+  "collection_date_kst": "2026-06-17",
+  "run_summary": {
+    "total": 8,
+    "by_topic": {"ai": 4, "semiconductor": 2, "datacenter": 2, "competitor": 0},
+    "by_competitor": {
+      "NVIDIA": 1,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "Moreh": 0,
+      "FriendliAI": 0,
+      "HyperAccel": 0,
+      "Marvell": 0,
+      "Tenstorrent": 0,
+      "Napatech": 0
+    },
+    "competitor_tagged_total": 1,
+    "sources_consulted": 14,
+    "notes": "수집 윈도우: 2026-06-17 KST 하루 (마지막 이슈 #028 발행일 2026-06-16). 오늘 하루 수집만 해당. 주요 6/16 UTC 발행 기사들(The Register Qualcomm/Tenstorrent 12:15 UTC = 21:15 KST 6/16, NVIDIA MLPerf training blog 6/16 날짜 UTC 시간 불명, Coherent Texas 6/16 UTC 시간 불명)은 수집 윈도우 밖이거나 정확 KST 확인 불가로 제외. HPCwire 피드 403 오류, NetworkWorld RSS 404 오류, Wired 차단으로 수집 불가 — 모두 Channel B 검색으로 보완 시도. SemiAnalysis 최신 기사 없음. 오늘 이른 시간대(KST 기준 오전)라 전반적으로 기사 수가 적음."
+  },
+  "articles": [
+    {
+      "title": "삼성 파운드리, 美클라로스와 맞손…AI 데이터센터용 전력반도체 양산",
+      "url": "https://zdnet.co.kr/view/?no=20260617092919",
+      "body": "Samsung Electronics' Foundry Division has entered a strategic manufacturing partnership with American power management startup Claros to mass-produce next-generation power semiconductors for AI data centers.\n\nClaros announced on June 16 (local time) that it has agreed to establish large-scale production of its flagship \"Integrated Voltage Regulator (IVR)\" product using Samsung Foundry's process technology. This collaboration addresses a critical challenge facing global hyperscalers: data center power consumption.\n\nThe IVR precisely controls data center power immediately before the processor stage. In traditional 800VDC data center environments, power transmission incurs significant losses. By applying this technology, power can be regulated directly millimeters from the processor unit, reducing energy loss by up to 30%.\n\nSamsung will provide its 14-nanometer FinFET advanced process line located in the United States to manufacture Claros' next-generation IVR products.\n\nMargaret Han, Vice President of Samsung Electronics' U.S. Foundry Division, stated: \"Processor-level power delivery represents a key challenge for current AI infrastructure,\" emphasizing expectations that this technology will expand beyond data centers into industrial and automotive semiconductor sectors.\n\nClaros, which recently secured $30 million in seed funding, aims to accelerate resolution of power infrastructure bottlenecks in the AI accelerator market.",
+      "published_at": "2026-06-17T09:37:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "\"데이터는 21세기 원유\"…조현준, AI 데이터센터 승부수",
+      "url": "https://zdnet.co.kr/view/?no=20260617090455",
+      "body": "Hyosung Group Chairman Cho Hyun-jun has launched a data center venture that marks the company's pivot toward AI and cloud infrastructure. The joint venture between Hyosung and Singapore-based ST Telemetry Global Data Center (STT GDC) opened \"STT Seoul 1\" in the Gasan Digital Complex in Geumcheon-gu, Seoul.\n\nThe facility operates as a hyperscale data center with 30MW IT capacity, designed to handle power-intensive operations like large-scale cloud services and AI computing. Its urban location near major business districts offers customers reduced latency and improved service accessibility compared to data centers typically built outside Seoul.\n\nThe infrastructure combines Hyosung Heavy Industries' power equipment technology with STT GDC's data center design and operations expertise. The facility achieved Tier 3 TCDD certification from the Uptime Institute.\n\nCho emphasized that \"data will become the crude oil of the 21st century,\" noting the facility reflects his vision of AI competitiveness becoming national competitiveness. He directed the group to develop data center operations as a core growth engine.\n\nHyosung plans to leverage its three-decade IT operations experience alongside its power systems and construction capabilities. Hyosung Heavy Industries will supply power equipment and handle construction, while Hyosung ITX will manage traffic, security, and operational systems using cloud expertise gained over decades.\n\nThe company intends to expand data center operations to meet growing domestic AI and cloud demand, establishing long-term revenue streams by connecting traditional power equipment business with data center construction, operations, and IT services.",
+      "published_at": "2026-06-17T09:04:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "구글, '안드로이드 17' 출시…\"AI로 멀티태스킹 강화\"",
+      "url": "https://zdnet.co.kr/view/?no=20260617084443",
+      "body": "구글이 최신 AI 모델을 앞세워 기기 내 인공지능 기능을 확대했다. 16일(현지시간) 구글은 '안드로이드 17' 운영체제와 스마트워치용 '웨어 OS 7'을 공식 출시했으며, 이번 업데이트는 구글 '픽셀' 기기에 먼저 적용된다.\n\n픽셀 드롭에는 음악 생성 모델 '리리아 3'와 멀티모달 모델 '제미나이 옴니'가 포함됐다. 제미나이 옴니는 대화 중 동영상 편집을 지원하며, 리리아 3는 텍스트 프롬프트나 이미지를 활용해 음악 트랙 생성을 돕는다.\n\n픽셀 10a에는 오디오LM 기반 음성 번역 기능도 개선되어 제공된다. 안드로이드 17의 새로운 사용자 인터페이스인 '버블 바'는 화면 하단에 최근 앱을 버블 형태로 정리하여 빠른 접근을 가능하게 한다.\n\n추가 기능으로는 셀피 카메라와 휴대전화 화면을 동시에 녹화하는 화면 녹화 기능, 긴급 감지 기능, 실시간 위협 탐지 강화 등이 포함됐다. 올여름에는 웨어 OS에 더 많은 제미나이 인텔리전스 기능이 도입될 예정이다.",
+      "published_at": "2026-06-17T09:40:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI 칩 임대비용도 원유처럼 선물시장서 거래 추진",
+      "url": "https://www.etnews.com/20260617000005",
+      "body": "AI computing power is moving toward commoditized futures trading. Silicon Data, an AI market research firm, is collaborating with the Chicago Mercantile Exchange (CME) to launch futures contracts based on data center computing capacity needed for AI model training and operation.\n\nThe initiative standardizes rental fees for high-performance GPUs like Nvidia's H100 chip, enabling them to trade on futures markets similarly to crude oil, precious metals, and agricultural products.\n\nSilicon Data has developed a GPU price index tracking hourly rental costs across various AI chips. As data center infrastructure demand surges, GPU rental volatility has increased significantly. Both data center users and providers seek to hedge against future price uncertainty.\n\nThese AI computing power futures contracts currently undergo regulatory review by the U.S. Commodity Futures Trading Commission (CFTC). ETF operators including ProShares and Grayscale have already submitted ETF product proposals based on Silicon Data's proposed futures contracts.\n\nAccording to CNBC, \"This movement suggests some investors increasingly view AI computing not merely as a tech cost item but as a potentially tradable asset class.\" CME Group and Silicon Data announced their partnership on May 12, 2026, with the futures contracts pending regulatory review. Major financial institutions Goldman Sachs and JPMorgan are also exploring strategies centered around GPU rental price futures to hedge against potential oversupply risks while enabling clients to lock in costs.",
+      "published_at": "2026-06-17T07:01:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "수출입은행, 두산 태국 AI 반도체 소재 거점에 1억1000만달러 지원",
+      "url": "https://www.etnews.com/20260617000010",
+      "body": "The Korea Export-Import Bank is providing $110 million to support Doosan Group's establishment of a high-performance copper clad laminate (CCL) production facility in Thailand, in response to the global AI semiconductor supply chain reorganization.\n\nThis funding initiative aligns with global IT enterprises' supply chain shifts to help Korean companies secure market leadership. Doosan plans to secure a production base in Thailand's Arayal Industrial Complex as AI semiconductor supply chains expand into Southeast Asia, with construction beginning within the year.\n\nThe core materials—copper clad laminates—are experiencing surging demand due to expanded global AI data center investments.\n\nThe Export-Import Bank intends to broaden financial support across the entire AI value chain, starting with semiconductor materials and extending to physical AI and energy infrastructure. The bank will support export-import financing and overseas investments for Doosan Tesna (semiconductor back-end processing) and Doosan Robotics, while discussing financial support with Doosan Enerbility (small modular reactors).\n\nThis represents the first outcome of an April business agreement between the Export-Import Bank and Doosan Group. The initiative reflects South Korea's strategic push to secure AI semiconductor supply chains amid global competition between the U.S., China, and other major economies.",
+      "published_at": "2026-06-17T08:16:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "[6월16일] 나델라가 경고한 'AI 공동화'…\"AI는 소수 모델이 아닌 모든 기업의 문제\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211764",
+      "body": "Microsoft CEO Satya Nadella warned against \"AI hollowing out\" of industries, arguing that concentration of value in a few AI models poses systemic risks similar to 20th-century outsourcing.\n\nNadella stated: \"A frontier without an ecosystem is not stable\" and expressed concern that \"all value concentrated in a few models\" would be \"politically and economically untenable.\"\n\nHe drew parallels to manufacturing offshoring, where short-term productivity gains preceded long-term erosion of industrial ecosystems. Similarly, companies over-reliant on external AI models risk losing accumulated expertise and decision-making capabilities.\n\nNadella emphasized \"cognitive loops\"—iterative human-AI interactions—as the real competitive advantage. Companies should build \"token capital\" from their business processes: data, documents, prompts, and domain knowledge processed by AI systems.\n\nThe key distinction: enterprises must retain intellectual property while improving agent-based systems over time, avoiding vendor lock-in. This requires architectural approaches enabling model portability without sacrificing specialized knowledge.\n\nHe argued the future competition shifts from \"model development\" by a few AI firms to \"learning competitions\" among enterprises using AI, making human expertise and organizational learning critical again. This positions AI as a broadly distributed enterprise tool rather than a product controlled by a small number of frontier model providers.",
+      "published_at": "2026-06-17T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "메타 내부 회의서 갈등 폭발… '가혹한 환경'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211794",
+      "body": "Meta CEO Mark Zuckerberg acknowledged in an internal memo dated June 12, 2026, that the company had made mistakes while restructuring its workforce around artificial intelligence. Around 8,000 employees were laid off in May, while approximately 7,000 others were transferred to AI-related initiatives. Together, the layoffs and transfers affected nearly one-fifth of Meta's workforce.\n\nSeveral employees reportedly described themselves as \"draftees\" because they had little choice over their transfer, with assignments including developing coding problems, puzzles, and other material used to train and evaluate AI models. Some employees described the environment as a \"gulag\" and \"soul-crushing.\"\n\nZuckerberg reiterated that Meta does not expect further company-wide layoffs in 2026. Meta is also introducing measures to address employee morale and improve collaboration, including higher budgets for team events and offsites, as well as a company-wide hackathon planned for July to accelerate work on the company's latest AI models.\n\nThe restructuring reflects a broader industry trend where hyperscalers are reorganizing human capital around AI development priorities. Meta's aggressive AI workforce pivot has generated significant internal friction, with employees questioning the rapid pace of change and limited individual agency in the reassignment process. The company plans to spend up to $135 billion on AI infrastructure in 2026.",
+      "published_at": "2026-06-17T06:55:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "HPE Discover 2026 Keynote Coverage",
+      "url": "https://www.servethehome.com/hpe-discover-2026-keynote-coverage/",
+      "body": "Patrick Kennedy attended HPE Discover 2026 in Las Vegas to cover CEO Antonio Neri's keynote presentation. The event showcased HPE's integration of Juniper Networks and focused heavily on networking and AI infrastructure announcements.\n\nThe keynote opened with emphasis on HPE's self-driving network capabilities rather than compute, signaling a strategic messaging shift. Kennedy noted this differed from competing vendors' approaches, observing that \"this felt like a networking company doing AI compute, versus a compute company selling networking.\"\n\nKey Product Announcements:\n\nHPE introduced several networking solutions optimized for AI workloads:\n- QFS5252 Scale-up Switch: A liquid-cooled switch supporting UALink over Ethernet and SONiC operations, featuring dual Broadcom Tomahawk 6 architecture\n- QFX5250 Scale-out Switch: Delivering 102.5Tbps capacity with liquid cooling for distributed deployments\n- PTX Routing Family: Supporting 800Gbps routing with ZR/ZR+ coherent optics for data center interconnection\n- SRX4700 Firewall: A quantum-safe 1.4Tbps firewall in 1U form factor\n- MX301 Router: Providing 1.6Tbps full-duplex capacity for inference edge deployments\n- QFX5140 Inference Switch: A 16Tbps switch optimized for inference workloads\n\nAI and Enterprise Solutions:\n\nHPE announced the AMD Helios AI rack solution integrated with Juniper networking components. The company detailed three AI deployment models: HPE Private Cloud AI for enterprises, HPE AI Factory at Scale for neoclouds and hyperscalers, and HPE AI Factory Sovereign for government and defense sectors.\n\nThe Private Cloud AI platform incorporates NVIDIA integration, real-time data enrichment, and native MCP (Model Context Protocol) capabilities through the HPE Alletra Storage MP X10000 file and object storage system.\n\nAgentic AI Capabilities:\n\nHPE emphasized its Agentic Enterprise initiatives, including agent governance, registration, and security frameworks. The company announced support for NVIDIA OpenShell and NemoClaw standards for AI agent interoperability.\n\nHPE AI Factory With NVIDIA Expands: HPE Private Cloud AI adds HPE ProLiant Compute DL394 Gen12 with NVIDIA Vera CPU as a compute-optimized foundation for agentic AI. NVIDIA Agent Toolkit software — including NVIDIA Nemotron open models, NVIDIA NemoClaw, and the NVIDIA OpenShell secure runtime — provide an agent operating system that efficiently reasons, with policy enforcement and behavioral monitoring.\n\nAdditional Announcements:\n\nOther highlighted topics included HPE ProLiant Gen12 compute systems, HPE Nonstop updates with Intel Xeon 6, HPE CloudOps bringing VMware Morpheus to broader ecosystems, cyber resilience features, and expanded GreenLake cloud services with integrated AIOps capabilities. The event was HPE's first major Discover since its $14 billion acquisition of Juniper Networks.",
+      "published_at": "2026-06-17T03:55:18+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    }
+  ]
+}
