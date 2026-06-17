@@ -1,0 +1,146 @@
+{
+  "filter_date_kst": "2026-06-17",
+  "kept": [
+    {
+      "id": 8,
+      "title": "HPE Discover 2026 Keynote Coverage",
+      "url": "https://www.servethehome.com/hpe-discover-2026-keynote-coverage/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "UALink-over-Ethernet/Tomahawk 6 스위치, AMD Helios AI rack, NVIDIA Vera CPU, MCP/에이전트 OS 등 DPU/네트워킹/AI 인프라 가치사슬 전반의 핵심 발표 — MangoBoost 전략 영역과 직접 연결."
+    },
+    {
+      "id": 1,
+      "title": "삼성 파운드리, 美클라로스와 맞손…AI 데이터센터용 전력반도체 양산",
+      "url": "https://zdnet.co.kr/view/?no=20260617092919",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 데이터센터 프로세서 직근 전력 변환(IVR)으로 30% 손실 절감 — DPU가 다루는 인프라 전력/효율 병목과 직결되는 솔루션이며 삼성 14nm US 팹 활용까지 포함."
+    },
+    {
+      "id": 4,
+      "title": "AI 칩 임대비용도 원유처럼 선물시장서 거래 추진",
+      "url": "https://www.etnews.com/20260617000005",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "H100 등 GPU 임대료 선물·ETF 상품화 추진 — AI 컴퓨트의 자산화는 인프라 비용/효율을 다루는 MangoBoost 시장 환경의 구조적 변화."
+    },
+    {
+      "id": 15,
+      "title": "Tensordyne Converts AI Matrix Math To Logs To Crank Up Inference Oomph",
+      "url": "https://www.nextplatform.com/compute/2026/06/16/tensordyne-converts-ai-matrix-math-to-logs-to-crank-up-inference-oomph/5256558",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "추론 전용 신생 가속기(48 로그 코어·138B 트랜지스터, B300 대비 1/4 전력) 발표 — AI 가속기 신규 진입자로 경쟁 지형에 직접 영향."
+    },
+    {
+      "id": 14,
+      "title": "Intel Foundry Details Process Milestones and Future Innovation at VLSI Symposium — Intel 18A-P Enters Risk Production",
+      "url": "https://www.businesswire.com/news/home/20260616740562/en/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Intel 18A-P 리스크 생산 진입(iso-power 대비 +9%, BSPD 11% 면적 축소) — 첨단 노드/외부 파운드리 전략의 1차 자료로 AI 칩 공급망 동향에 핵심."
+    },
+    {
+      "id": 10,
+      "title": "애플, 2028년 아이폰에 1.4nm A22 Pro 칩…인텔 파운드리 일부 위탁",
+      "url": "https://zdnet.co.kr/view/?no=20260617080400",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "TSMC A14(1.4nm) 도입과 동시에 애플이 인텔 14A 일부 위탁 검토 — TSMC AI 서버 칩 캐파 제약 시그널과 Intel Foundry 외부 고객 전략 검증, 한국어 1차 보도로 14번과 상호 보완."
+    },
+    {
+      "id": 16,
+      "title": "VAST Data and the evolving neoclouds",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/06/16/vast-data-and-the-evolving-neoclouds/5256380",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Neocloud 시장 규모(2025년 $23–25B), CoreWeave $5.13B, InfiniBand/Spectrum X·액체냉각 요구 — DPU/스마트NIC가 핵심인 AI 클라우드 인프라 진화 분석."
+    },
+    {
+      "id": 9,
+      "title": "LG이노텍 베트남 FC-BGA 라인 증설 고객사와 협의 중",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=58172",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI 서버용 FC-BGA 기판 1조원 증설·하이퍼스케일러 커스텀 ASIC 공급망 대응 — AI 가속기 패키징 생태계의 한국 핵심 공급사 동향."
+    },
+    {
+      "id": 12,
+      "title": "AI 인프라 플랫폼 텐, 과기부 '글로벌 ICT 미래 유니콘' 선정…리벨리온도 포함",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211793",
+      "category": "market",
+      "competitor": "Rebellions",
+      "keep_reason": "경쟁사 Rebellions(ATOM NPU·2.3조 밸류·중동 확장) 정부 선정 + GPU 오케스트레이션 스타트업 Ten(AIPub) 부상 — Tier 1 경쟁사와 GPU 최적화 인접 플레이어 동시 신호."
+    },
+    {
+      "id": 5,
+      "title": "수출입은행, 두산 태국 AI 반도체 소재 거점에 1억1000만달러 지원",
+      "url": "https://www.etnews.com/20260617000010",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "AI 반도체 공급망 동남아 재편에 한국 정책금융 1.1억 달러 투입 — 두산 CCL·Tesna·SMR까지 한국 AI 가치사슬 수출 전략 신호."
+    },
+    {
+      "id": 2,
+      "title": "\"데이터는 21세기 원유\"…조현준, AI 데이터센터 승부수",
+      "url": "https://zdnet.co.kr/view/?no=20260617090455",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "효성+STT GDC 30MW 가산 하이퍼스케일 DC 가동, Tier 3 인증 — 한국 AI 데이터센터 수도권 인프라 확장 사례."
+    },
+    {
+      "id": 6,
+      "title": "[6월16일] 나델라가 경고한 'AI 공동화'…\"AI는 소수 모델이 아닌 모든 기업의 문제\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211764",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "MS CEO가 모델 집중·벤더 락인 리스크 경고하며 'cognitive loops·token capital' 제시 — 소버린 AI/멀티벤더 전략 정당화 담론으로 MangoBoost 포지셔닝과 직접 연결."
+    },
+    {
+      "id": 13,
+      "title": "Anthropic's latest feud with the Trump admin may actually help it, sales data suggests",
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Anthropic 41% 기업 AI 점유율·$965B 밸류·IPO·美 정부 모델 수출 규제 — AI 모델 시장 1위 교체와 수출통제가 AI 인프라 수요/규제에 영향."
+    },
+    {
+      "id": 11,
+      "title": "AI안전연구소-오픈AI, 'AI 안전 협력 강화' MOU 체결",
+      "url": "https://zdnet.co.kr/view/?no=20260617093724",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "한국 AI안전연구소·OpenAI MOU(美·英·日 이후 4번째) — 한국어/사회 맥락 반영 평가체계로 소버린 AI 안전 거버넌스 인프라."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 3,
+      "title": "구글, '안드로이드 17' 출시…\"AI로 멀티태스킹 강화\"",
+      "discard_reason": "off-topic — 안드로이드 OS·Pixel 소비자 기능 업데이트로 AI 인프라/반도체/DC와 무관."
+    },
+    {
+      "id": 7,
+      "title": "메타 내부 회의서 갈등 폭발… '가혹한 환경'",
+      "discard_reason": "off-topic — Meta 직원 사기·구조조정 HR 내부 갈등 위주로, $135B AI 인프라 투자 언급 외 DPU/AI 인프라 실질 정보 부재."
+    }
+  ],
+  "summary": {
+    "total_received": 16,
+    "total_kept": 14,
+    "total_discarded": 2,
+    "category_breakdown": {
+      "market": 6,
+      "products": 4,
+      "projects": 3,
+      "challenges": 1,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 2,
+    "by_competitor": {
+      "NVIDIA": 1,
+      "Rebellions": 1
+    }
+  }
+}

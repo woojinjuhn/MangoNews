@@ -224,6 +224,29 @@ type: reference
 - `데이터센터 AI 뉴스 2026년 6월 16일 한국` — low yield; direct ZDNet Korea homepage crawl much more effective
 - Thelec.net homepage crawl: most effective way to find June 16 English-language semiconductor articles from Korea
 
+## Source notes (2026-06-17 run — single day window, post-#028)
+- **thelec.kr (디일렉)**: High-yield June 17 morning — LG Innotek Vietnam FC-BGA article (idxno=58172, 08:00 KST). Direct homepage fetch showed June 17 articles; SK Hynix ADR (idxno=58201, 22:49 KST June 16 = out of window). ID range 58xxx for June 16-17.
+- **ZDNet Korea homepage**: Most reliable for Korean June 17 coverage — Apple 1.4nm Intel foundry (no=20260617080400, 08:24 KST), Korea-OpenAI AI Safety MOU (no=20260617093724, 10:00 KST) both confirmed via direct page crawl.
+- **전자신문 homepage**: Most same-day articles are semiconductor/AI trade news with IDs 20260617000005+; fetching homepage directly shows all June 17 articles by publication time.
+- **AI타임스 articleList.html**: Confirmed June 17 articles — Ten/Rebellion ICT unicorn (idxno=211793, 09:10 KST). Always check articleList.html for same-day items.
+- **TechCrunch RSS**: Articles after 15:00 UTC June 16 are June 17 KST. Confirmed: Anthropic feud (22:34 UTC = 07:34 KST), Qualcomm AR chip (18:22 UTC = 03:22 KST). Fetch RSS feed to get exact timestamps.
+- **NextPlatform RSS**: June 16 19:52 UTC (+0100 BST) = June 17 03:52 KST. Tensordyne logarithmic chip article confirmed in window.
+- **Blocks and Files RSS**: June 16 16:14 UTC (+0100 BST) = June 17 00:14 KST. VAST Data neoclouds article confirmed in window. Feed accessible.
+- **DataCenterDynamics RSS**: Feed accessible; all June 16 UTC articles from 18:00 onward = June 17 KST. However, body fetch still returns 403. Use RSS headlines to confirm article existence then source body from BusinessWire/PRNewswire if press release, or substitute with NextPlatform/BlocksandFiles coverage.
+- **Tom's Hardware**: Intel 18A-P article at 21:00 UTC June 16 = 06:00 KST June 17. Body behind paywall (JS-rendered, subscription required). Use Business Wire / StockTitan as canonical source for Intel press releases; SemiWiki as secondary.
+- **Intel / Business Wire**: Intel VLSI Symposium 18A-P announcement sourced from BusinessWire (https://www.businesswire.com/news/home/20260616740562/en/). StockTitan confirms exact timestamp (June 17, 07:00 UTC = 16:00 KST).
+- **StockTitan (stocktitan.net)**: Accessible for Intel/semiconductor press releases; exact timestamps; full body text available.
+- **CNBC**: 403 on direct fetch — persistent. Use Investing.com Canada (ca.investing.com) or Guru Focus for Intel/chip news.
+
+## Query patterns (2026-06-17 run)
+- `zdnet.co.kr view no=202606170 반도체 AI` — surfaced Apple 1.4nm article (no=20260617080400)
+- `ZDNet Korea 6월 17일 AI 데이터센터 반도체 2026` — surfaced CIS2026 event (out of window), Lenovo AI infra article (out of window)
+- `더일렉 thelec.kr 2026년 6월 17일 반도체` — surfaced LG Innotek Vietnam FC-BGA (idxno=58172)
+- `Intel 18A-P risk production VLSI symposium June 2026` — surfaced Tom's Hardware (paywalled), StockTitan, SemiWiki, CNBC (403)
+- `Anthropic Claude surpass OpenAI business spending June 2026` — surfaced TechCrunch (22:34 UTC June 16 = in window), VentureBeat analysis
+- `Samsung Electronics global strategy meeting June 17 2026` — surfaced the June 17 DS division meeting context; AI/HBM agenda for June 18 (not June 17)
+- BST timezone note: RSS feeds with "+0100" offset (UK-based servers like NextPlatform, Blocks and Files) publish in BST. Convert to UTC: subtract 1 hour, then add 9 for KST.
+
 ## Source notes (2026-06-11 run)
 - **ZDNet Korea** — highest-yield Korean source for June 11 window: 4 directly relevant articles (삼성 GenAI 도입, NVIDIA 6G RU, Oracle Q4, DiffusionGemma); article IDs follow /view/?no=YYYYMMDDHHMMSS pattern; JSON-LD present.
 - **전자신문 (etnews.com)** — 3 qualifying articles June 11 (Samsung/OpenAI, Oracle 분석, ETRI 초미세 접합); article list at /news/YYYYMMDDXXXXXX.

@@ -1,12 +1,12 @@
 {
   "collection_date_kst": "2026-06-17",
   "run_summary": {
-    "total": 8,
-    "by_topic": {"ai": 4, "semiconductor": 2, "datacenter": 2, "competitor": 0},
+    "total": 16,
+    "by_topic": {"ai": 7, "semiconductor": 5, "datacenter": 3, "competitor": 1},
     "by_competitor": {
       "NVIDIA": 1,
       "Furiosa": 0,
-      "Rebellions": 0,
+      "Rebellions": 1,
       "Moreh": 0,
       "FriendliAI": 0,
       "HyperAccel": 0,
@@ -14,9 +14,10 @@
       "Tenstorrent": 0,
       "Napatech": 0
     },
-    "competitor_tagged_total": 1,
-    "sources_consulted": 14,
-    "notes": "수집 윈도우: 2026-06-17 KST 하루 (마지막 이슈 #028 발행일 2026-06-16). 오늘 하루 수집만 해당. 주요 6/16 UTC 발행 기사들(The Register Qualcomm/Tenstorrent 12:15 UTC = 21:15 KST 6/16, NVIDIA MLPerf training blog 6/16 날짜 UTC 시간 불명, Coherent Texas 6/16 UTC 시간 불명)은 수집 윈도우 밖이거나 정확 KST 확인 불가로 제외. HPCwire 피드 403 오류, NetworkWorld RSS 404 오류, Wired 차단으로 수집 불가 — 모두 Channel B 검색으로 보완 시도. SemiAnalysis 최신 기사 없음. 오늘 이른 시간대(KST 기준 오전)라 전반적으로 기사 수가 적음."
+    "competitor_tagged_total": 2,
+    "sources_consulted": 22,
+    "skipped_paywalled": 2,
+    "notes": "수집 윈도우: 2026-06-17 KST 하루 (마지막 이슈 #028 발행일 2026-06-16). HPCwire 피드 403 오류, NetworkWorld RSS 404 오류, Wired 차단, Naver News 차단으로 수집 불가. Tom's Hardware Intel 18A-P 본문 페이월로 접근 불가 — Business Wire 원본 사용. DataCenterDynamics 403 오류. 주요 제외 기사: Qualcomm/Tenstorrent M&A (21:15 KST 6/16 → 윈도우 밖), NVIDIA MLPerf Training 6.0 블로그 (6/16 UTC 시간 미확인 → T00:00 하드 게이트), Samsung-OpenAI 전략적 파트너십 (6/15), SK Hynix ADR (6/16 22:49 KST → 윈도우 밖), Upstage 소버린AI (6/16 17:59 KST → 윈도우 밖). 경쟁사(Rebellions): AI타임스 기사에서 '리벨리온'이 과기부 글로벌 ICT 미래 유니콘 선정으로 확인."
   },
   "articles": [
     {
@@ -98,6 +99,86 @@
       "topic_tag": "datacenter",
       "secondary_tags": ["ai", "competitor"],
       "competitor": "NVIDIA"
+    },
+    {
+      "title": "LG이노텍 베트남 FC-BGA 라인 증설 고객사와 협의 중",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=58172",
+      "body": "LG Innotek announced plans to invest approximately 1 trillion won in Vietnam's Hai Phong to expand semiconductor substrate production. The company is in active discussions with customers regarding a second phase of investment focused on FC-BGA (flip-chip ball grid array) line expansion for AI server applications.\n\nAccording to Jo Ji-tae, head of the Package Solution Business Division, the company is \"in concrete discussions with multiple customers on investment methods\" and expects to announce the scale \"soon.\"\n\nThe first investment phase targets PS (Package Substrate) business expansion, including RF-SiP and FC-CSP products. The second phase would establish dedicated FC-BGA substrate production facilities, as these require specialized equipment using ABF (Ajinomoto Build-up Film) instead of standard BT resin.\n\nDomestically, LG Innotek is considering additional FC-BGA capacity expansion at its Gumi facility in Gyeongbuk, positioning both locations as major production hubs.\n\nThe company targets 1 trillion won in FC-BGA revenues by 2030, representing one-third of its 3 trillion won Package Solution business goal. Network AI server substrates are planned for mass production in H2 2026, with learning and inference substrates targeting 2027.\n\nThe expansion responds to new CPU-based semiconductor ecosystems emerging among U.S. and Taiwanese customers developing custom ASIC supply chains. LG Innotek is positioning itself as a diversified substrate supplier beyond GPU-focused networks, meeting demand from hyperscalers and AI server manufacturers requiring high-density FC-BGA packages for next-generation AI inference and training processors.",
+      "published_at": "2026-06-17T08:00:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "애플, 2028년 아이폰에 1.4nm A22 Pro 칩…인텔 파운드리 일부 위탁",
+      "url": "https://zdnet.co.kr/view/?no=20260617080400",
+      "body": "Apple plans to equip its 2028 flagship iPhone with a 1.4-nanometer A22 Pro chip, according to Bloomberg. While Taiwan Semiconductor Manufacturing Company (TSMC) will primarily handle production, Apple is exploring options to assign some volume to Intel.\n\nThe current iPhone 17 series uses TSMC's third-generation 3-nanometer process (N3P). The upcoming iPhone 18 Pro, iPhone 18 Pro Max, and foldable iPhone launching this fall are expected to feature next-generation 2-nanometer chips. The 2-nanometer process will continue for 2027 products, with a planned transition to 1.4-nanometer for certain 2028 models.\n\nTSMC's A14 process (1.4-nanometer class) is projected to deliver up to 15% improved performance compared to 2-nanometer, while reducing power consumption by up to 30% at equivalent performance levels.\n\n\"As processes become more advanced, production costs increase significantly and yield assurance becomes challenging,\" the report notes. TSMC's capacity is further constrained by surging artificial intelligence server chip demand.\n\nTo mitigate supply chain risks, Apple is diversifying its semiconductor partners. Intel, currently developing its 14A node (1.4-nanometer class) with 2028 mass production goals, may manufacture ARM-based chips designed by Apple — a notable shift from Apple's historical reliance on Intel-designed processors for Mac products.\n\nThis development coincides with Intel's announcement at the 2026 VLSI Symposium that its 18A-P process has entered risk production, demonstrating the company's progress in advanced semiconductor manufacturing. A potential Apple deal would validate Intel Foundry's external customer strategy.",
+      "published_at": "2026-06-17T08:24:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI안전연구소-오픈AI, 'AI 안전 협력 강화' MOU 체결",
+      "url": "https://zdnet.co.kr/view/?no=20260617093724",
+      "body": "The South Korean government has expanded its cooperation with OpenAI to strengthen artificial intelligence safety verification for cutting-edge models.\n\nThe Ministry of Science and ICT announced that the AI Safety Research Institute signed a memorandum of understanding with OpenAI on June 17 at ETRI's Seoul office to enhance safety collaboration in high-risk AI domains.\n\nThis agreement builds upon a previous memorandum between the ministry and OpenAI from October of the previous year, extending cooperation specifically to AI safety. The initiative emerged from discussions during two separate meetings between ministry officials and OpenAI executives.\n\nThe AI Safety Research Institute and OpenAI will share knowledge regarding safety assessment methodologies, benchmarks, and best practices across high-risk sectors. They will also exchange technical information for developing evaluation systems that reflect Korean language and societal context.\n\nAs high-performance and autonomous agent AI systems expand into critical areas including finance, healthcare, security, and public services, the importance of pre-deployment safety assessments has increased substantially. Evaluation frameworks must now examine not only model performance but also potential malfunctions, societal biases, and misuse risks.\n\nSouth Korea is the fourth country — following the United States, United Kingdom, and Japan — where OpenAI has established such a partnership with a national AI safety research institute.\n\nThe two organizations plan to continue collaborating on establishing internationally applicable AI safety evaluation standards, with specific cooperation projects and timelines to be finalized through subsequent technical discussions.",
+      "published_at": "2026-06-17T10:00:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI 인프라 플랫폼 텐, 과기부 '글로벌 ICT 미래 유니콘' 선정…리벨리온도 포함",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211793",
+      "body": "AI infrastructure platform company Ten (CEO Oh Se-jin) has been selected as a supporting company for the \"2026 Global ICT Future Unicorn Development Project (ICT GROWTH)\" organized by the Ministry of Science and ICT and the National IT Industry Promotion Agency (NIPA).\n\nThis national initiative aims to discover and nurture ICT companies into unicorn enterprises. Fifteen companies, including Ten and Rebellion, were selected based on evaluations of technological excellence, market expansion potential, and investment achievements.\n\nThrough this selection, Ten will receive growth support including global market entry programs, investment and financing connections, and startup/venture support linkages. The company plans to expand operations in the United States and Singapore through global expansion initiatives.\n\nTen developed \"AIPub,\" an AI infrastructure platform based on GPU optimization and AI workload orchestration technology. The platform can subdivide GPU resources into units of up to 100 and allocate them according to AI workloads, with goals to enhance operational efficiency through GPU monitoring, scheduling, autoscaling, and usage-based analysis (FinOps) capabilities.\n\nCEO Oh emphasized that the selection \"recognizes Ten's AI infrastructure optimization technology and global growth potential,\" adding the company will \"continuously improve GPU optimization and workload orchestration technologies.\"\n\nRebellions, the domestic AI accelerator startup also selected in this cohort, has been expanding its ATOM NPU ecosystem following its $400 million pre-IPO round and a 2.3 trillion won valuation. The company's NPU is already deployed in KT Cloud's public-sector cloud services and recently announced renewed Middle East expansion efforts.",
+      "published_at": "2026-06-17T09:10:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Anthropic's latest feud with the Trump admin may actually help it, sales data suggests",
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "body": "Anthropic is experiencing remarkable momentum despite regulatory friction. The company surpassed OpenAI in business spending market share for the first time in May, raised $65 billion at a $965 billion valuation, and filed confidential IPO paperwork while reporting its first profitable quarter.\n\nHowever, the Trump administration sent a letter Friday demanding Anthropic ban non-Americans — including its own employees — from accessing its advanced models: the limited-release Mythos 5 and publicly available Fable 5. This forced the company to withdraw its latest model entirely.\n\nDespite this government pressure, business adoption continues accelerating. According to Ramp data from over 70,000 companies, Anthropic captured 41% of AI subscription spending in May, compared to OpenAI's 39.5%. Ramp's lead economist notes: \"If anything, it'll probably boost them. Anthropic's best month on record...was the month that the Department of Defense labeled them a supply-chain risk.\"\n\nBusinesses primarily use Claude Opus models and the company's Claude Code tool for AI-powered development work. While exact financial impact from the model withdrawal remains unclear, available models show stronger business popularity than ever.\n\nThe article also notes that Claude has \"gained a strong reputation for productivity use cases\" and approaches ChatGPT's retention rates. Gemini benefits from integration with Google's ecosystem, capturing 27.7% market share with 662 million users.\n\nIndustry-wide metrics show maturation. H1 2026 projects 2.3 billion AI app downloads and $4.2 billion spending, compared to $1.83 billion in H1 2025. Claude demonstrates strongest monetization, with 13% of users paying for subscriptions — \"a conversion rate that leads the field.\"",
+      "published_at": "2026-06-17T07:34:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Intel Foundry Details Process Milestones and Future Innovation at VLSI Symposium — Intel 18A-P Enters Risk Production",
+      "url": "https://www.businesswire.com/news/home/20260616740562/en/",
+      "body": "Intel Foundry announced progress on its Intel 18A-P process node at the 2026 VLSI Symposium. Intel 18A-P, described as \"the first performance enhancement in the Intel 18A family,\" has entered risk production, meeting previously communicated timelines.\n\nPerformance Improvements:\nIntel 18A-P delivers 9% higher performance at iso-power or 18% lower power at iso-performance compared to Intel 18A, alongside enhanced thermal characteristics and expanded design flexibility. Specific improvements include:\n- Power Boost technology: a dual contact, low resistance transistor option enabling increased drive current and greater frequency at matched capacitance\n- 20-40% improved thermal resistance through both materials and design innovations\n- 10-30% improved via resistance using geometric and materials optimizations\n- Full design rule compatibility with Intel 18A, allowing straightforward IP reuse\n- Two cell heights (180nm and 160nm) with 50nm contacted poly pitch\n- New fifth logic threshold voltage option for balancing speed and power\n\nBackside Power Delivery Results: Intel demonstrated 11% routed area reduction and 10x dynamic voltage droop reduction, enabling up to 6% frequency uplift or greater than 15% dynamic power reduction.\n\nFuture Research: Intel presented work on complementary FET (CFET) inverters achieving 45nm contacted poly pitch, gallium nitride plus silicon integration on 300mm wafers for power management, and subtractive ruthenium interconnect technology achieving up to 35% capacitance reduction.\n\nIntel 18A is now ramping in two U.S. fabrication facilities with declining defect density. The node integrates RibbonFET gate-all-around transistors and PowerVia backside power delivery.\n\nAnalysts noted that the 18A-P announcement — alongside reports of Apple exploring Intel Foundry for 1.4nm production — marks a potential inflection point for Intel's external foundry business, which has struggled to win major customers against TSMC.",
+      "published_at": "2026-06-17T06:00:00+09:00",
+      "source": "Business Wire / Intel Foundry",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Tensordyne Converts AI Matrix Math To Logs To Crank Up Inference Oomph",
+      "url": "https://www.nextplatform.com/compute/2026/06/16/tensordyne-converts-ai-matrix-math-to-logs-to-crank-up-inference-oomph/5256558",
+      "body": "Tensordyne, an AI inference chip startup, has developed the Napier computing engine that converts matrix multiplication operations into logarithmic addition operations, dramatically improving inference performance and efficiency.\n\nThe Napier chip features 48 logarithmic cores, vector processing units, and RISC-V processors, implementing 138 billion transistors in a 3-nanometer process. It consumes only 300 watts compared to 1,200 watts for Nvidia's Blackwell B300 GPU.\n\nFounders RK Anand (Chief Product Officer) and Gilles Backhus (VP of AI) previously collaborated at Kumu Networks on full-duplex wireless technology. The company, which raised $176 million across three funding rounds, pivoted from automotive AI to datacenter inference around 2022. Founded in 2017 as Recogni, the startup rebranded to Tensordyne last year.\n\nPerformance Claims:\nA single rack of 288 Napier devices delivers 608 petaflops at FP8 precision while consuming 120 kilowatts and supporting air cooling. Tensordyne claims comparable token throughput to GPU systems using one-sixth the rack space and 30% less power.\n\nThe company expects more than $200 million in orders for its system, with over a dozen letters of intent from companies planning to evaluate beta systems. AI infrastructure providers Cirrascale and BlueSky Compute have expressed interest.\n\nTechnical approach: Traditional matrix multiplication requires multiplying pairs of numbers and summing results — a compute-intensive process. Tensordyne's approach converts numbers to their logarithmic equivalents, allowing multiplications to become additions, which are less compute-intensive. The downside is potential precision loss, which the company claims to handle through architectural innovations.\n\nThe chip is produced by TSMC and was developed in partnership with Broadcom and HPE-owned Juniper Networks.\n\nTimeline: Cloud access expected by end of 2026; customer shipments begin Q1 2027.",
+      "published_at": "2026-06-17T03:52:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "VAST Data and the evolving neoclouds",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/06/16/vast-data-and-the-evolving-neoclouds/5256380",
+      "body": "VAST Data dominates neocloud storage, cementing its position with a 600 PB capacity deployment at Australia's Sharon AI. The neoclouds — emerging competitors to traditional hyperscalers — are expanding beyond GPU-intensive AI services into managed service provider (MSP) offerings and sovereign datacenters.\n\nNeoclouds originated from cryptocurrency mining operations that pivoted to GPU-based cloud services after the 2018 crypto crash. The ChatGPT launch in late 2022 catalyzed explosive growth in AI model training demand. Neocloud revenues reached $23-25 billion in 2025, more than triple their 2024 figures, with market leader CoreWeave reporting $5.13 billion in 2025 revenues — surpassing AWS's $15 billion AI revenue run rate.\n\nVAST Data CTO Alon Horev explains that neoclouds prioritize all-flash storage to prevent GPU idle time: \"We're getting two to one data reduction\" through efficient flash utilization. Unlike traditional tiered architectures, keeping data on flash ensures continuous GPU availability, which proves economically critical given hardware costs.\n\nNeoclouds are transitioning from dedicated customer environments toward multi-tenant, hyperscaler-like infrastructure models. This shift enables flexible consumption-based pricing — \"pay per gig\" rather than three-year prepaid commitments — and improves margins.\n\nTraditional MSPs and telecom providers are exploring neocloud transitions, though significant expertise gaps remain. AI inferencing demands differ substantially from virtual machine services, requiring knowledge of specialized networking (InfiniBand, Spectrum X), liquid cooling, and containerization technologies.\n\nVAST assists neoclouds transitioning toward enterprise customers by implementing security features essential for inference workloads: FIPS compliance, multi-tenancy isolation, encryption protocols, and external key manager support.\n\nThe convergence creates expansion opportunities: neoclouds move toward MSP-type services while MSPs gradually adopt AI capabilities. The analysis suggests the neocloud sector will increasingly resemble traditional hyperscalers over the next three to five years.",
+      "published_at": "2026-06-17T00:14:00+09:00",
+      "source": "Blocks and Files",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
     }
   ]
 }
