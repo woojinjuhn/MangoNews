@@ -231,6 +231,17 @@ type: reference
 - **Rebellions, FuriosaAI, HyperAccel, Moreh, FriendliAI, Tenstorrent, Napatech, Marvell**: No standalone June 13-15 articles found after exhaustive English + Korean search. Marvell S&P 500 addition is June 22 (forward event). Tenstorrent acquisition talks (Bloomberg May 18 origin) — no new June 13-15 update.
 - **OpenAI**: 42-state attorney general investigation into corporate restructuring (NPR / TechCrunch Jun 13-14). Meta Manus acquisition talks unwinding per TechCrunch Jun 14.
 
+## June 17 2026 update — competitor developments
+- **NVIDIA**: Inference market share rose to 74% from 70% YoY (이데일리 via Nate, Jun 17 13:19 KST); ChatGPT falling below 50% web/AI assistant market share for first time (AI타임스 Jun 17 18:57 KST — platform fragmentation narrative). No standalone NVIDIA product news on Jun 17.
+- **Intel**: 18A-P process node enters limited-volume risk production at VLSI Symposium 2026 Hawaii (The Register Jun 17 22:14 KST); 9% better perf vs 18A or 18% lower power; 18A-PT (TSV variant for chiplet stacking / AI accelerators) disclosed; Apple negotiation context confirmed.
+- **FuriosaAI**: Named as one of 4 Korean NPU companies supported in IITP AX 2.0 국가 AI 컴퓨팅 지원 program (ZDNet Korea Jun 17 17:13 KST). The 4 supported NPU companies = FuriosaAI, Rebellions, DEEPX, HyperAccel. AX 2.0 expands from 60PF→420PF compute; supported chips include NVIDIA GPUs and 4 Korean NPUs. competitor: Furiosa tagged.
+- **Rebellions**: Included in IITP AX 2.0 program as supported NPU (ZDNet Korea Jun 17 article above). No standalone Jun 17 Rebellions article beyond the IITP mention.
+- **HyperAccel**: Included in IITP AX 2.0 program as supported NPU (same source). No standalone Jun 17 HyperAccel article.
+- **DEEPX**: Included in IITP AX 2.0 program as supported NPU — distinct from HyperAccel. Added to watchlist. Korean NPU for edge/embedded inference (DX-M1, Samsung 5nm, 91.1% yield, mass production).
+- **DeepSeek**: First external funding round — $11조 KRW (~$75억 USD) at $75조 KRW (~$500억 USD) valuation (ZDNet Korea Jun 17 10:29 KST). Not a chip company but AI model competitor with direct inference market relevance.
+- **Moreh, FriendliAI, Tenstorrent, Marvell, Napatech**: No standalone Jun 17 articles found.
+- **Qualcomm**: Investor Day June 24 (forward calendar) — expected Tenstorrent acquisition update and Dragonfly datacenter product details.
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform
