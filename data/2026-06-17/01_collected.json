@@ -1,69 +1,69 @@
 {
   "collection_date_kst": "2026-06-17",
   "run_summary": {
-    "total": 16,
-    "by_topic": {"ai": 7, "semiconductor": 5, "datacenter": 3, "competitor": 1},
+    "total": 18,
+    "by_topic": {"ai": 9, "semiconductor": 5, "datacenter": 3, "competitor": 1},
     "by_competitor": {
-      "NVIDIA": 1,
-      "Furiosa": 0,
-      "Rebellions": 1,
+      "NVIDIA": 0,
+      "Furiosa": 1,
+      "Rebellions": 0,
+      "Tenstorrent": 0,
+      "Marvell": 0,
       "Moreh": 0,
       "FriendliAI": 0,
       "HyperAccel": 0,
-      "Marvell": 0,
-      "Tenstorrent": 0,
       "Napatech": 0
     },
-    "competitor_tagged_total": 2,
-    "sources_consulted": 22,
-    "skipped_paywalled": 2,
-    "notes": "수집 윈도우: 2026-06-17 KST 하루 (마지막 이슈 #028 발행일 2026-06-16). HPCwire 피드 403 오류, NetworkWorld RSS 404 오류, Wired 차단, Naver News 차단으로 수집 불가. Tom's Hardware Intel 18A-P 본문 페이월로 접근 불가 — Business Wire 원본 사용. DataCenterDynamics 403 오류. 주요 제외 기사: Qualcomm/Tenstorrent M&A (21:15 KST 6/16 → 윈도우 밖), NVIDIA MLPerf Training 6.0 블로그 (6/16 UTC 시간 미확인 → T00:00 하드 게이트), Samsung-OpenAI 전략적 파트너십 (6/15), SK Hynix ADR (6/16 22:49 KST → 윈도우 밖), Upstage 소버린AI (6/16 17:59 KST → 윈도우 밖). 경쟁사(Rebellions): AI타임스 기사에서 '리벨리온'이 과기부 글로벌 ICT 미래 유니콘 선정으로 확인."
+    "competitor_tagged_total": 1,
+    "sources_consulted": 31,
+    "skipped_paywalled": 3,
+    "notes": "수집 윈도우: 2026-06-17 KST 하루 (마지막 이슈 #029 발행일 2026-06-17). HPCwire 403, Wired 차단, Naver News 차단, DCD 403, NetworkWorld 404, Tom's Hardware JS 렌더 이슈로 수집 불가. 제외 기사: NVIDIA 회사채 25조 (Yahoo Finance 6/16 21:24 KST), Qualcomm/Tenstorrent The Register (6/16 21:15 KST), Qualcomm/Tenstorrent AI타임스 (6/16 18:39 KST), TechCrunch Anthropic Claude (6/16 19:30 KST), KAIST 냉각 기술 sedaily (6/16 09:45 KST), NextPlatform Server Boom (6/17 23:03 UTC = 6/18 KST), NextPlatform HPE Networking (6/17 21:02 UTC = 6/18 KST), Coherent NVIDIA 광학 wafer (6/17 19:12 UTC = 6/18 KST), DataCenterKnowledge HPE (6/16), Marvell S&P500 techtimes (6/14), Digitimes 반도체 장비 (6/16 대만 현지), Rebellions sedaily (6/4~6/11), SKT-NVIDIA Globe Newswire (6/7), ZDNet 애플 A22 (published_urls issue #029에 중복). T00:00:00+09:00 없음 — 모든 기사 정확한 시간 포함. Tier1 경쟁사: Moreh, FriendliAI, HyperAccel — 2026-06-17 해당 기사 없음. IITP 기사에서 퓨리오사AI 국가 지원 4개사 포함 확인 → competitor: Furiosa 태깅."
   },
   "articles": [
     {
-      "title": "삼성 파운드리, 美클라로스와 맞손…AI 데이터센터용 전력반도체 양산",
-      "url": "https://zdnet.co.kr/view/?no=20260617092919",
-      "body": "Samsung Electronics' Foundry Division has entered a strategic manufacturing partnership with American power management startup Claros to mass-produce next-generation power semiconductors for AI data centers.\n\nClaros announced on June 16 (local time) that it has agreed to establish large-scale production of its flagship \"Integrated Voltage Regulator (IVR)\" product using Samsung Foundry's process technology. This collaboration addresses a critical challenge facing global hyperscalers: data center power consumption.\n\nThe IVR precisely controls data center power immediately before the processor stage. In traditional 800VDC data center environments, power transmission incurs significant losses. By applying this technology, power can be regulated directly millimeters from the processor unit, reducing energy loss by up to 30%.\n\nSamsung will provide its 14-nanometer FinFET advanced process line located in the United States to manufacture Claros' next-generation IVR products.\n\nMargaret Han, Vice President of Samsung Electronics' U.S. Foundry Division, stated: \"Processor-level power delivery represents a key challenge for current AI infrastructure,\" emphasizing expectations that this technology will expand beyond data centers into industrial and automotive semiconductor sectors.\n\nClaros, which recently secured $30 million in seed funding, aims to accelerate resolution of power infrastructure bottlenecks in the AI accelerator market.",
-      "published_at": "2026-06-17T09:37:00+09:00",
+      "title": "Intel starts cooking up enhanced 18A-P silicon for would-be foundry customers",
+      "url": "https://www.theregister.com/systems/2026/06/17/intel-starts-cooking-up-enhanced-18a-p-silicon-for-would-be-foundry-customers/5257487",
+      "body": "Intel has begun limited-volume risk production of its 18A-P process node, an enhanced variant of its base 18A manufacturing technology. The announcement came during the IEEE's 2026 VLSI Symposium in Hawaii.\n\nThe company claims 18A-P delivers 9 percent better performance than 18A while consuming the same power, or alternatively provides 18 percent lower power consumption at equivalent performance levels. These gains stem from transistor, interconnect, and design technology co-optimizations.\n\nA critical advantage is that 18A-P maintains full design rule compatibility with 18A. This means semiconductor designs created for the base process can transfer to 18A-P production without requiring redesign, potentially allowing foundry customers to skip directly to the enhanced node rather than using the base version.\n\nIndustry observers suggest Intel's initial foundry customers may adopt 18A-P as their first production node. Previously, the company planned to offer its more advanced 14A node for mainstream commercial customers, but leadership changed this direction.\n\nSpecific improvements delivered by 18A-P include:\n- Power Boost technology: a dual contact, low resistance transistor option enabling increased drive current\n- 20-40% improved thermal resistance through both materials and design innovations\n- 10-30% improved via resistance using geometric and materials optimizations\n- Full design rule compatibility with Intel 18A, allowing straightforward IP reuse\n- Two cell heights (180nm and 160nm) with 50nm contacted poly pitch\n\nBackside Power Delivery results: Intel demonstrated 11% routed area reduction and 10x dynamic voltage droop reduction, enabling up to 6% frequency uplift or greater than 15% dynamic power reduction.\n\nIntel also disclosed work on 18A-PT, optimized for through-silicon vias used in chiplet stacking, particularly for AI accelerator designs. The company is reportedly negotiating with Apple regarding potential silicon manufacturing on either 18A or 18A-P, a deal that would validate Intel Foundry's external customer strategy against TSMC.\n\nIntel Foundry EVP Naga Chandrasekaran stated the company remains 'fully committed to leading edge process innovation over the long term.' Intel 18A is now ramping in two U.S. fabrication facilities with declining defect density.",
+      "published_at": "2026-06-17T22:14:00+09:00",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "IITP \"새로운 생산성 혁명 시대...AX 2.0 7대 기술로 선도\"",
+      "url": "https://zdnet.co.kr/view/?no=20260617171323",
+      "body": "한국 정보통신기획평가원(IITP)은 17일 서울 마포구 AI·SW 마에스트로 연수원에서 '2026 성과 미디어데이'를 개최하고, AI 민족주의 시대를 항해할 AI·ICT 핵심 7대 주권 기술을 공개했다.\n\n홍진배 IITP 원장은 'AX 2.0이 본격화되면서 새로운 생산성 혁명이 시작됐다'고 선언하며 에이전트형 AI와 피지컬 AI를 AX 2.0의 주요 키워드로 제시했다. 개별 AI 기술 간 성능 경쟁에서 AI 구현을 위한 AI 모델, AI 반도체, 네트워크, 사이버보안을 연결하는 풀스택 경쟁으로 확대되고 있다고 강조했다.\n\nIITP는 올해 기술개발 1조1370억원, 인재양성 5740억원, 인프라 구축·기술사업화 1706억원 등 총 1조8816억원을 투자할 계획이다.\n\n7대 핵심 기술 분야:\n1. AI 반도체: 리벨리온, 딥엑스, 퓨리오사AI, 모빌린트 등 국내 4개 NPU 기업을 지원, 리벨리온과 딥엑스가 글로벌 시장으로 확대 중.\n2. AI 모델: Saltlux와 코난테크 등을 통해 경량 멀티모달 비전-언어 모델 개발, '4개 국가 에이전트형 AI' 이니셔티브 출범.\n3. 피지컬 AI: 자율 지능 플랫폼과 휴머노이드 양산 능력 확보.\n4. 차세대 네트워크: 5G에서 6G로 인프라 확장, 저궤도 위성통신에 2030년까지 3000억원 지원.\n5. 사이버보안: 4세대 동형암호(크립토랩) 구현, 경쟁사 대비 약 8.4배 빠른 처리 속도 시연.\n6. AX 확장: 국방·공공·산업 부문에 AI 배치, 2027년까지 군-민 협력에 4000억원 배정.\n7. AI·ICT 인재: AI 중심 대학·대학원 프로그램 지원, 한국의 글로벌 AI 인재 순위 28위(2019년)에서 13위(2025년)로 향상.",
+      "published_at": "2026-06-17T17:13:00+09:00",
       "source": "ZDNet Korea",
       "topic_tag": "semiconductor",
-      "secondary_tags": ["datacenter", "ai"],
-      "competitor": null
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "Furiosa"
     },
     {
-      "title": "\"데이터는 21세기 원유\"…조현준, AI 데이터센터 승부수",
-      "url": "https://zdnet.co.kr/view/?no=20260617090455",
-      "body": "Hyosung Group Chairman Cho Hyun-jun has launched a data center venture that marks the company's pivot toward AI and cloud infrastructure. The joint venture between Hyosung and Singapore-based ST Telemetry Global Data Center (STT GDC) opened \"STT Seoul 1\" in the Gasan Digital Complex in Geumcheon-gu, Seoul.\n\nThe facility operates as a hyperscale data center with 30MW IT capacity, designed to handle power-intensive operations like large-scale cloud services and AI computing. Its urban location near major business districts offers customers reduced latency and improved service accessibility compared to data centers typically built outside Seoul.\n\nThe infrastructure combines Hyosung Heavy Industries' power equipment technology with STT GDC's data center design and operations expertise. The facility achieved Tier 3 TCDD certification from the Uptime Institute.\n\nCho emphasized that \"data will become the crude oil of the 21st century,\" noting the facility reflects his vision of AI competitiveness becoming national competitiveness. He directed the group to develop data center operations as a core growth engine.\n\nHyosung plans to leverage its three-decade IT operations experience alongside its power systems and construction capabilities. Hyosung Heavy Industries will supply power equipment and handle construction, while Hyosung ITX will manage traffic, security, and operational systems using cloud expertise gained over decades.\n\nThe company intends to expand data center operations to meet growing domestic AI and cloud demand, establishing long-term revenue streams by connecting traditional power equipment business with data center construction, operations, and IT services.",
-      "published_at": "2026-06-17T09:04:00+09:00",
-      "source": "ZDNet Korea",
-      "topic_tag": "datacenter",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "구글, '안드로이드 17' 출시…\"AI로 멀티태스킹 강화\"",
-      "url": "https://zdnet.co.kr/view/?no=20260617084443",
-      "body": "구글이 최신 AI 모델을 앞세워 기기 내 인공지능 기능을 확대했다. 16일(현지시간) 구글은 '안드로이드 17' 운영체제와 스마트워치용 '웨어 OS 7'을 공식 출시했으며, 이번 업데이트는 구글 '픽셀' 기기에 먼저 적용된다.\n\n픽셀 드롭에는 음악 생성 모델 '리리아 3'와 멀티모달 모델 '제미나이 옴니'가 포함됐다. 제미나이 옴니는 대화 중 동영상 편집을 지원하며, 리리아 3는 텍스트 프롬프트나 이미지를 활용해 음악 트랙 생성을 돕는다.\n\n픽셀 10a에는 오디오LM 기반 음성 번역 기능도 개선되어 제공된다. 안드로이드 17의 새로운 사용자 인터페이스인 '버블 바'는 화면 하단에 최근 앱을 버블 형태로 정리하여 빠른 접근을 가능하게 한다.\n\n추가 기능으로는 셀피 카메라와 휴대전화 화면을 동시에 녹화하는 화면 녹화 기능, 긴급 감지 기능, 실시간 위협 탐지 강화 등이 포함됐다. 올여름에는 웨어 OS에 더 많은 제미나이 인텔리전스 기능이 도입될 예정이다.",
-      "published_at": "2026-06-17T09:40:00+09:00",
-      "source": "ZDNet Korea",
-      "topic_tag": "ai",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "AI 칩 임대비용도 원유처럼 선물시장서 거래 추진",
-      "url": "https://www.etnews.com/20260617000005",
-      "body": "AI computing power is moving toward commoditized futures trading. Silicon Data, an AI market research firm, is collaborating with the Chicago Mercantile Exchange (CME) to launch futures contracts based on data center computing capacity needed for AI model training and operation.\n\nThe initiative standardizes rental fees for high-performance GPUs like Nvidia's H100 chip, enabling them to trade on futures markets similarly to crude oil, precious metals, and agricultural products.\n\nSilicon Data has developed a GPU price index tracking hourly rental costs across various AI chips. As data center infrastructure demand surges, GPU rental volatility has increased significantly. Both data center users and providers seek to hedge against future price uncertainty.\n\nThese AI computing power futures contracts currently undergo regulatory review by the U.S. Commodity Futures Trading Commission (CFTC). ETF operators including ProShares and Grayscale have already submitted ETF product proposals based on Silicon Data's proposed futures contracts.\n\nAccording to CNBC, \"This movement suggests some investors increasingly view AI computing not merely as a tech cost item but as a potentially tradable asset class.\" CME Group and Silicon Data announced their partnership on May 12, 2026, with the futures contracts pending regulatory review. Major financial institutions Goldman Sachs and JPMorgan are also exploring strategies centered around GPU rental price futures to hedge against potential oversupply risks while enabling clients to lock in costs.",
-      "published_at": "2026-06-17T07:01:00+09:00",
+      "title": "\"AI 반도체 패키징 화두는 대면적화·발열관리\"",
+      "url": "https://www.etnews.com/20260617000326",
+      "body": "반도체 기판·패키징 업계는 AI 시대 경쟁력 유지를 위해 대면적 패키징과 발열 관리를 핵심 과제로 꼽았다. 17일 서울 서초구 엘타워에서 열린 전자신문 테크데이에서 'AI 반도체 시대: 판이 바뀐다'를 주제로 업계 전문가들이 논의했다.\n\n패키지 크기 확대 동향: 전통적인 반도체 패키지는 100×100mm 이하였으나, 업계는 현재 AI 칩과 메모리·수동소자 등을 수용하기 위해 120×120mm를 초과하는 설계를 추진 중이다.\n\nLG이노텍 임원 명세호는 'AI 성능이 고도화될수록 반도체 기판은 초대형·고층 구조를 지원해야 한다'며 '확장되는 기판 크기에 대응하는 것이 핵심 기술 역량'이라고 밝혔다. LG이노텍은 패키지 사이즈 변경으로 인해 변화하는 공정을 선제적으로 대응할 수 있는 역량을 갖춘 기업이 시장 주도권을 잡을 것이라고 진단했다.\n\n발열 관리 과제: AI 반도체의 높은 전력 소비는 상당한 발열 문제를 야기한다. 발열 제어가 부적절하면 성능 저하나 소자 손상 위험이 있다. StatsChipPack Korea 이사 최준영은 발열 관리가 '고성능 AI와 패키지-시스템 설계의 고도화 이종 집적을 가능하게 하는 주요 과제'가 됐다고 밝혔다.\n\n장비 개발 요구: 더 큰 패키지 형태를 처리하기 위한 맞춤형 제조 장비 개발이 필요하며, 장비 적응 역량이 경쟁 차별화 요소가 된다. 반도체 기업, 학계, 연구기관, 투자사 200여 명 이상이 참여한 컨퍼런스에서 이러한 기술 동향이 집중 논의됐다.",
+      "published_at": "2026-06-17T17:00:00+09:00",
       "source": "전자신문",
-      "topic_tag": "ai",
-      "secondary_tags": ["datacenter"],
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "LG이노텍 베트남 FC-BGA 라인 증설 고객사와 협의 중",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=58172",
+      "body": "LG Innotek announced plans to invest approximately 1 trillion won in Vietnam's Hai Phong to expand semiconductor substrate production. The company is in active discussions with customers regarding a second phase of investment focused on FC-BGA (flip-chip ball grid array) line expansion for AI server applications.\n\nAccording to Jo Ji-tae, head of the Package Solution Business Division, the company is 'in concrete discussions with multiple customers on investment methods' and expects to announce the scale 'soon.'\n\nThe first investment phase targets PS (Package Substrate) business expansion, including RF-SiP and FC-CSP products. The second phase would establish dedicated FC-BGA substrate production facilities, as these require specialized equipment using ABF (Ajinomoto Build-up Film) instead of standard BT resin.\n\nDomestically, LG Innotek is considering additional FC-BGA capacity expansion at its Gumi facility in Gyeongbuk, positioning both locations as major production hubs.\n\nThe company targets 1 trillion won in FC-BGA revenues by 2030, representing one-third of its 3 trillion won Package Solution business goal. Network AI server substrates are planned for mass production in H2 2026, with learning and inference substrates targeting 2027.\n\nThe expansion responds to new CPU-based semiconductor ecosystems emerging among U.S. and Taiwanese customers developing custom ASIC supply chains. LG Innotek is positioning itself as a diversified substrate supplier beyond GPU-focused networks, meeting demand from hyperscalers and AI server manufacturers requiring high-density FC-BGA packages for next-generation AI inference and training processors.",
+      "published_at": "2026-06-17T08:00:00+09:00",
+      "source": "디일렉(THE ELEC)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
       "competitor": null
     },
     {
       "title": "수출입은행, 두산 태국 AI 반도체 소재 거점에 1억1000만달러 지원",
       "url": "https://www.etnews.com/20260617000010",
-      "body": "The Korea Export-Import Bank is providing $110 million to support Doosan Group's establishment of a high-performance copper clad laminate (CCL) production facility in Thailand, in response to the global AI semiconductor supply chain reorganization.\n\nThis funding initiative aligns with global IT enterprises' supply chain shifts to help Korean companies secure market leadership. Doosan plans to secure a production base in Thailand's Arayal Industrial Complex as AI semiconductor supply chains expand into Southeast Asia, with construction beginning within the year.\n\nThe core materials—copper clad laminates—are experiencing surging demand due to expanded global AI data center investments.\n\nThe Export-Import Bank intends to broaden financial support across the entire AI value chain, starting with semiconductor materials and extending to physical AI and energy infrastructure. The bank will support export-import financing and overseas investments for Doosan Tesna (semiconductor back-end processing) and Doosan Robotics, while discussing financial support with Doosan Enerbility (small modular reactors).\n\nThis represents the first outcome of an April business agreement between the Export-Import Bank and Doosan Group. The initiative reflects South Korea's strategic push to secure AI semiconductor supply chains amid global competition between the U.S., China, and other major economies.",
+      "body": "한국수출입은행은 글로벌 AI 반도체 공급망 재편에 발맞춰 두산그룹의 태국 고성능 CCL(동박적층판) 생산거점 구축을 위한 1억1000만달러(약 1500억원) 지원에 나선다.\n\n이번 지원은 글로벌 IT 기업들의 공급망 다변화 흐름에 맞춰 국내 기업의 시장 선점을 돕기 위한 취지로, AI 반도체 공급망이 동남아시아로 확장되는 흐름에 대응한다. 두산은 태국 아라야산업단지 내 생산거점 확보를 목표로 올해 안에 착공에 들어갈 계획이다. 핵심 소재인 동박적층판은 글로벌 AI 데이터센터 투자 확대로 수요가 급증하고 있다.\n\n수출입은행은 AI 가치사슬 전반에 걸쳐 금융 지원 범위를 확대할 방침이다. 반도체 소재로 시작해 피지컬 AI, 에너지 인프라로 지원 영역을 넓히고, 두산테스나(반도체 후공정), 두산로보틱스에 대한 수출입 금융·해외투자 지원을 강화하는 한편, 두산에너빌리티(SMR)와의 금융 지원도 협의 중이다.\n\n이번 지원은 지난 4월 수출입은행과 두산그룹의 사업협력 협약의 첫 결과물로, 미·중 등 주요국 간 패권 경쟁 속에서 AI 반도체 공급망 확보를 위한 한국의 전략적 움직임을 반영한다.",
       "published_at": "2026-06-17T08:16:00+09:00",
       "source": "전자신문",
       "topic_tag": "semiconductor",
@@ -71,9 +71,59 @@
       "competitor": null
     },
     {
+      "title": "AI 칩 임대비용도 원유처럼 선물시장서 거래 추진",
+      "url": "https://www.etnews.com/20260617000005",
+      "body": "AI 컴퓨팅 파워가 원자재처럼 선물(futures) 시장에서 거래되는 시대를 향해 나아가고 있다. AI 시장조사업체 실리콘데이터(Silicon Data)는 시카고상업거래소(CME)와 협력해 AI 모델 학습·운영에 필요한 데이터센터 컴퓨팅 용량 기반의 선물 계약을 출시할 계획이다.\n\n이 계획은 엔비디아의 H100 칩 등 고성능 GPU 임대 비용을 표준화해 원유·귀금속·농산물과 유사한 방식으로 선물 시장에서 거래 가능하게 한다.\n\n실리콘데이터는 다양한 AI 칩의 시간당 임대 비용을 추적하는 GPU 가격 지수를 개발했다. 데이터센터 인프라 수요가 급증하면서 GPU 임대 가격의 변동성이 크게 확대됐고, 데이터센터 이용자와 공급자 모두 미래 가격 불확실성을 헤지하려는 니즈가 생겼다.\n\n해당 AI 컴퓨팅 파워 선물 계약은 현재 미국 상품선물거래위원회(CFTC)의 규제 검토를 받고 있다. ProShares와 Grayscale 등 ETF 운영사들은 이미 실리콘데이터의 제안된 선물 계약을 기반으로 한 ETF 상품 신청서를 제출했다.\n\nCNBC에 따르면 '이 움직임은 일부 투자자들이 AI 컴퓨팅을 단순한 기술 비용 항목이 아닌 잠재적으로 거래 가능한 자산 클래스로 보기 시작했음을 시사한다.' CME 그룹과 실리콘데이터는 2026년 5월 12일 파트너십을 발표했으며, 선물 계약은 규제 검토를 거치고 있다. 골드만삭스와 JP모건도 공급 과잉 리스크 헤지를 통해 고객이 비용을 고정할 수 있도록 GPU 임대 가격 선물을 중심으로 한 전략을 탐색 중이다.",
+      "published_at": "2026-06-17T07:01:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "'챗GPT' 독주 흔들…글로벌 점유율 사상 첫 50% 아래로",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211810",
+      "body": "오픈AI의 챗GPT가 글로벌 AI 어시스턴트 시장에서 역사상 처음으로 점유율 50% 선이 무너졌다. 센서타워의 2026년 AI 마켓 리포트에 따르면 챗GPT의 시장 점유율은 2026년 1월 50% 이상을 유지했으나, 5월 말 기준 46.4%로 하락했다.\n\n현재 시장 점유율 현황: 챗GPT는 여전히 월간 활성 사용자 11억 명 이상으로 최대 사용자 기반을 보유하고 있으나, 구글 Gemini(27.7%, 6억6200만 명)와 앤트로픽 Claude(10.3%, 2억4500만 명)가 맹추격 중이다.\n\n변화 요인: 'AI 어시스턴트 간 전환이 더욱 빈번해지고 있다'는 점이 핵심으로, 기능 외에도 기업 가치와 브랜드 신뢰가 사용자 충성도에 영향을 미친다. 오픈AI가 2026년 2월 미국 국방부(DoD)와 협력을 발표한 이후 챗GPT 삭제가 눈에 띄게 증가했다.\n\nClaude의 약진: 2025년 12월 6020만 명에서 2026년 5월 2억4500만 명으로 불과 5개월간 약 4배 성장했다. Claude는 전문 생산성 분야에서 특히 두각을 나타내며 13%의 유료 구독 전환율로 업계 최고 수준을 기록하고 있다.\n\n시장 성장세: 2026년 상반기 AI 앱 총 사용 시간이 약 360억 시간으로 거의 두 배 증가했으며, 소비자 지출은 42억 달러로 2025년 상반기(18억3000만 달러)에 비해 크게 늘었다.",
+      "published_at": "2026-06-17T18:57:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "추론도 엔비디아 천하…국산 AI반도체 '최대 승부처' 더 높아진 벽",
+      "url": "https://news.nate.com/view/20260617n16750?mid=n0100",
+      "body": "AI 추론 칩 시장에서도 엔비디아의 독점이 심화되고 있어 국산 AI 반도체 스타트업들의 도전이 더욱 어려워졌다. 더인포메이션(The Information) 보고서에 따르면 엔비디아의 AI 추론 칩 시장 점유율은 지난 분기 66%에서 74%로 상승했다.\n\n시장 규모와 구조: 글로벌 AI 추론 칩 시장은 분기 기준 약 560억 달러(약 84조원) 규모로, 이 중 엔비디아가 약 410억 달러를 차지한다. 2026년 4월 기준 엔비디아 데이터센터 매출의 약 55%가 추론 GPU에서 나왔으며, 이는 전년 대비 10%포인트 상승한 수치다.\n\n경쟁사 대응: 구글(TPU), 아마존(인퍼렌시아), 마이크로소프트(마이아), 메타(MTIA), 애플 등 주요 빅테크들이 추론 최적화를 위해 자체 칩을 개발하고 있다. AMD와 세레브라스 시스템즈, 브로드컴이 설계한 맞춤형 AI 가속기(XPU)도 주요 빅테크에 공급 중이다.\n\n국내 기업의 도전: 리벨리온과 퓨리오사AI는 데이터센터용 AI 추론 반도체를, 딥엑스와 모빌린트는 엣지 AI와 비전 AI 분야를 중심으로 GPU 대체 시장을 공략하고 있다. 엔비디아의 경쟁력은 CUDA 중심 소프트웨어 생태계, 개발 도구, AI 프레임워크 지원, 공급망 역량이 복합적으로 작동하는 점에서 기인한다.",
+      "published_at": "2026-06-17T13:19:00+09:00",
+      "source": "이데일리 (via Nate)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "딥시크, 첫 외부 투자로 11조원 확보…中 AI 대표주자 부상",
+      "url": "https://zdnet.co.kr/view/?no=20260617102717",
+      "body": "중국 AI 스타트업 딥시크(DeepSeek)가 창사 이래 첫 외부 투자 라운드를 완료하며 약 74억 달러(약 11조1000억원)를 확보했다. 기업 가치는 500억 달러(약 75조원)를 초과해 중국 최고 가치의 AI 스타트업이 됐다.\n\n투자 구조와 참여자: 설립자 겸 CEO 량원펑이 개인적으로 약 30억 달러를 투자해 최대 기여자가 됐다. 기타 참여 투자자는 텐센트, 배터리 제조사 CATL, IDG캐피탈, 국가 AI산업투자기금(1억 위안 투자) 등이다.\n\n독특한 투자 구조: 정부 펀드를 제외한 대부분의 투자자들은 딥시크에 직접 투자하지 않고 CEO가 관리하는 유한 파트너십에 자금을 납입했다. 투자자들은 5년 락업 기간을 수용하고 의결권을 포기하는 구조로, 설립자의 지배권을 유지하기 위해 설계됐다.\n\n전략적 의미: 딥시크의 이번 자금 조달은 연구 조직에서 '본격적인 글로벌 AI 기업'으로의 전환점으로 평가된다. 조달 자금은 AI 연구, 컴퓨팅 인프라 확장, 에이전트 기반 AI 서비스 개발에 투입될 예정이다.",
+      "published_at": "2026-06-17T10:29:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "미국 정부, AI 기업 '외국인 직원' 첨단 모델 접근 금지 검토...\"중국 기술 유출 우려\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211809",
+      "body": "미국 상무부가 앤트로픽에 최신 AI 모델 '페이블 5'와 '미소스 5'를 외국인에게 제공하려면 정부 허가를 받아야 한다고 통보했다. 외국인의 범위에는 해외 이용자뿐 아니라 미국 내에서 근무하는 비미국인 직원까지 포함된다.\n\n규제 배경: 아마존 CEO 앤디 재시가 자사 연구원들이 앤트로픽의 '페이블5' 모델이 사이버 공격에 활용될 수 있는 우회로를 발견했다고 정부 측에 알렸고, 이에 따라 정부가 차단 지침을 내렸다. 미국 국방부는 이전에 앤트로픽의 외국인 연구원 고용이 중국 국가정보법에 따른 잠재적 국가 안보 위험이 있다고 지적했다.\n\n업계 반응: 오픈AI 최고전략책임자 제이슨 권은 '최고 수준의 AI 개발에는 글로벌 인재가 필요하다'고 우려를 표명하며 더 광범위한 파급 영향에 대한 불확실성을 경고했다. 2024년 주요 컨퍼런스 논문 저자의 38%가 중국에서 학부를 마쳤으며, 그 중 75%가 현재 미국에서 일하고 있어 규제 시 AI 연구 인재 공백 우려가 크다.\n\n법적 근거: 상무부는 수출관리규정(EAR) 및 수출통제개혁법(ECRA) 산하의 산업보안국(BIS)을 통해 적용하고 있으며, AI 모델 접근에 수출 통제를 적용한 첫 사례로 향후 선례가 될 수 있다는 전문가 분석이다.",
+      "published_at": "2026-06-17T16:29:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
       "title": "[6월16일] 나델라가 경고한 'AI 공동화'…\"AI는 소수 모델이 아닌 모든 기업의 문제\"",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=211764",
-      "body": "Microsoft CEO Satya Nadella warned against \"AI hollowing out\" of industries, arguing that concentration of value in a few AI models poses systemic risks similar to 20th-century outsourcing.\n\nNadella stated: \"A frontier without an ecosystem is not stable\" and expressed concern that \"all value concentrated in a few models\" would be \"politically and economically untenable.\"\n\nHe drew parallels to manufacturing offshoring, where short-term productivity gains preceded long-term erosion of industrial ecosystems. Similarly, companies over-reliant on external AI models risk losing accumulated expertise and decision-making capabilities.\n\nNadella emphasized \"cognitive loops\"—iterative human-AI interactions—as the real competitive advantage. Companies should build \"token capital\" from their business processes: data, documents, prompts, and domain knowledge processed by AI systems.\n\nThe key distinction: enterprises must retain intellectual property while improving agent-based systems over time, avoiding vendor lock-in. This requires architectural approaches enabling model portability without sacrificing specialized knowledge.\n\nHe argued the future competition shifts from \"model development\" by a few AI firms to \"learning competitions\" among enterprises using AI, making human expertise and organizational learning critical again. This positions AI as a broadly distributed enterprise tool rather than a product controlled by a small number of frontier model providers.",
+      "body": "Microsoft CEO 사티아 나델라는 'AI 공동화'에 대해 경고하며, 소수의 AI 모델에 가치가 집중되는 것이 20세기 외주화와 유사한 시스템적 위험을 초래한다고 주장했다.\n\n나델라는 '생태계 없는 프런티어는 안정적이지 않다'고 밝히며 '소수의 모델에 모든 가치가 집중'되는 상황이 '정치·경제적으로 지속 불가능'하다고 우려했다. 제조업 외주화와의 유사성을 들어, 단기 생산성 향상이 산업 생태계의 장기적 침식에 선행했던 것처럼 외부 AI 모델에 지나치게 의존하는 기업은 축적된 전문성과 의사결정 역량을 잃을 수 있다고 경고했다.\n\n나달라는 '인지 루프(cognitive loops)'—반복적 인간-AI 상호작용—를 진정한 경쟁 우위로 강조했다. 기업은 비즈니스 프로세스에서 AI 시스템이 처리하는 데이터, 문서, 프롬프트, 도메인 지식 등 '토큰 자본(token capital)'을 구축해야 한다고 역설했다.\n\n핵심 구분은 모델 이식성을 유지하면서 전문 지식을 희생하지 않는 아키텍처 접근이다. AI 미래 경쟁은 소수 AI 기업의 '모델 개발'에서 AI를 사용하는 기업들의 '학습 경쟁'으로 전환되어, 인적 전문성과 조직적 학습이 다시 핵심이 된다는 주장이다.",
       "published_at": "2026-06-17T07:00:00+09:00",
       "source": "AI타임스",
       "topic_tag": "ai",
@@ -83,7 +133,7 @@
     {
       "title": "메타 내부 회의서 갈등 폭발… '가혹한 환경'",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=211794",
-      "body": "Meta CEO Mark Zuckerberg acknowledged in an internal memo dated June 12, 2026, that the company had made mistakes while restructuring its workforce around artificial intelligence. Around 8,000 employees were laid off in May, while approximately 7,000 others were transferred to AI-related initiatives. Together, the layoffs and transfers affected nearly one-fifth of Meta's workforce.\n\nSeveral employees reportedly described themselves as \"draftees\" because they had little choice over their transfer, with assignments including developing coding problems, puzzles, and other material used to train and evaluate AI models. Some employees described the environment as a \"gulag\" and \"soul-crushing.\"\n\nZuckerberg reiterated that Meta does not expect further company-wide layoffs in 2026. Meta is also introducing measures to address employee morale and improve collaboration, including higher budgets for team events and offsites, as well as a company-wide hackathon planned for July to accelerate work on the company's latest AI models.\n\nThe restructuring reflects a broader industry trend where hyperscalers are reorganizing human capital around AI development priorities. Meta's aggressive AI workforce pivot has generated significant internal friction, with employees questioning the rapid pace of change and limited individual agency in the reassignment process. The company plans to spend up to $135 billion on AI infrastructure in 2026.",
+      "body": "메타 CEO 마크 저커버그가 2026년 6월 12일자 내부 메모에서 인공지능을 중심으로 한 인력 구조조정 과정에서 실수가 있었음을 인정했다. 5월에 약 8000명이 해고됐고 약 7000명이 AI 관련 부서로 전환 배치되어, 해고와 전환 배치를 합하면 메타 전체 인력의 약 5분의 1에 해당한다.\n\n직원들은 의지와 무관하게 배치된 '징집병'이라고 스스로를 묘사하며, AI 모델 학습·평가에 사용되는 코딩 문제, 퍼즐 등 자료 개발 업무를 맡게 됐다고 전했다. 일부 직원은 환경을 '구라그', '영혼을 짓밟는 곳'이라고 표현했다.\n\n저커버그는 2026년 내 전사적인 추가 해고는 없다고 재확인했으며, 팀 이벤트와 오프사이트 예산 확대, 7월 전사 해커톤(최신 AI 모델 개발 가속화 목적) 등 사기 진작과 협업 개선을 위한 조치를 도입 중이라고 밝혔다.\n\n이번 구조조정은 하이퍼스케일러들이 AI 개발 우선순위에 맞춰 인적 자본을 재편하는 업계 전반의 흐름을 반영한다. 메타는 2026년 AI 인프라에 최대 1350억 달러를 지출할 계획이다.",
       "published_at": "2026-06-17T06:55:00+09:00",
       "source": "AI타임스",
       "topic_tag": "ai",
@@ -91,39 +141,9 @@
       "competitor": null
     },
     {
-      "title": "HPE Discover 2026 Keynote Coverage",
-      "url": "https://www.servethehome.com/hpe-discover-2026-keynote-coverage/",
-      "body": "Patrick Kennedy attended HPE Discover 2026 in Las Vegas to cover CEO Antonio Neri's keynote presentation. The event showcased HPE's integration of Juniper Networks and focused heavily on networking and AI infrastructure announcements.\n\nThe keynote opened with emphasis on HPE's self-driving network capabilities rather than compute, signaling a strategic messaging shift. Kennedy noted this differed from competing vendors' approaches, observing that \"this felt like a networking company doing AI compute, versus a compute company selling networking.\"\n\nKey Product Announcements:\n\nHPE introduced several networking solutions optimized for AI workloads:\n- QFS5252 Scale-up Switch: A liquid-cooled switch supporting UALink over Ethernet and SONiC operations, featuring dual Broadcom Tomahawk 6 architecture\n- QFX5250 Scale-out Switch: Delivering 102.5Tbps capacity with liquid cooling for distributed deployments\n- PTX Routing Family: Supporting 800Gbps routing with ZR/ZR+ coherent optics for data center interconnection\n- SRX4700 Firewall: A quantum-safe 1.4Tbps firewall in 1U form factor\n- MX301 Router: Providing 1.6Tbps full-duplex capacity for inference edge deployments\n- QFX5140 Inference Switch: A 16Tbps switch optimized for inference workloads\n\nAI and Enterprise Solutions:\n\nHPE announced the AMD Helios AI rack solution integrated with Juniper networking components. The company detailed three AI deployment models: HPE Private Cloud AI for enterprises, HPE AI Factory at Scale for neoclouds and hyperscalers, and HPE AI Factory Sovereign for government and defense sectors.\n\nThe Private Cloud AI platform incorporates NVIDIA integration, real-time data enrichment, and native MCP (Model Context Protocol) capabilities through the HPE Alletra Storage MP X10000 file and object storage system.\n\nAgentic AI Capabilities:\n\nHPE emphasized its Agentic Enterprise initiatives, including agent governance, registration, and security frameworks. The company announced support for NVIDIA OpenShell and NemoClaw standards for AI agent interoperability.\n\nHPE AI Factory With NVIDIA Expands: HPE Private Cloud AI adds HPE ProLiant Compute DL394 Gen12 with NVIDIA Vera CPU as a compute-optimized foundation for agentic AI. NVIDIA Agent Toolkit software — including NVIDIA Nemotron open models, NVIDIA NemoClaw, and the NVIDIA OpenShell secure runtime — provide an agent operating system that efficiently reasons, with policy enforcement and behavioral monitoring.\n\nAdditional Announcements:\n\nOther highlighted topics included HPE ProLiant Gen12 compute systems, HPE Nonstop updates with Intel Xeon 6, HPE CloudOps bringing VMware Morpheus to broader ecosystems, cyber resilience features, and expanded GreenLake cloud services with integrated AIOps capabilities. The event was HPE's first major Discover since its $14 billion acquisition of Juniper Networks.",
-      "published_at": "2026-06-17T03:55:18+09:00",
-      "source": "ServeTheHome",
-      "topic_tag": "datacenter",
-      "secondary_tags": ["ai", "competitor"],
-      "competitor": "NVIDIA"
-    },
-    {
-      "title": "LG이노텍 베트남 FC-BGA 라인 증설 고객사와 협의 중",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=58172",
-      "body": "LG Innotek announced plans to invest approximately 1 trillion won in Vietnam's Hai Phong to expand semiconductor substrate production. The company is in active discussions with customers regarding a second phase of investment focused on FC-BGA (flip-chip ball grid array) line expansion for AI server applications.\n\nAccording to Jo Ji-tae, head of the Package Solution Business Division, the company is \"in concrete discussions with multiple customers on investment methods\" and expects to announce the scale \"soon.\"\n\nThe first investment phase targets PS (Package Substrate) business expansion, including RF-SiP and FC-CSP products. The second phase would establish dedicated FC-BGA substrate production facilities, as these require specialized equipment using ABF (Ajinomoto Build-up Film) instead of standard BT resin.\n\nDomestically, LG Innotek is considering additional FC-BGA capacity expansion at its Gumi facility in Gyeongbuk, positioning both locations as major production hubs.\n\nThe company targets 1 trillion won in FC-BGA revenues by 2030, representing one-third of its 3 trillion won Package Solution business goal. Network AI server substrates are planned for mass production in H2 2026, with learning and inference substrates targeting 2027.\n\nThe expansion responds to new CPU-based semiconductor ecosystems emerging among U.S. and Taiwanese customers developing custom ASIC supply chains. LG Innotek is positioning itself as a diversified substrate supplier beyond GPU-focused networks, meeting demand from hyperscalers and AI server manufacturers requiring high-density FC-BGA packages for next-generation AI inference and training processors.",
-      "published_at": "2026-06-17T08:00:00+09:00",
-      "source": "디일렉(THE ELEC)",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
-      "title": "애플, 2028년 아이폰에 1.4nm A22 Pro 칩…인텔 파운드리 일부 위탁",
-      "url": "https://zdnet.co.kr/view/?no=20260617080400",
-      "body": "Apple plans to equip its 2028 flagship iPhone with a 1.4-nanometer A22 Pro chip, according to Bloomberg. While Taiwan Semiconductor Manufacturing Company (TSMC) will primarily handle production, Apple is exploring options to assign some volume to Intel.\n\nThe current iPhone 17 series uses TSMC's third-generation 3-nanometer process (N3P). The upcoming iPhone 18 Pro, iPhone 18 Pro Max, and foldable iPhone launching this fall are expected to feature next-generation 2-nanometer chips. The 2-nanometer process will continue for 2027 products, with a planned transition to 1.4-nanometer for certain 2028 models.\n\nTSMC's A14 process (1.4-nanometer class) is projected to deliver up to 15% improved performance compared to 2-nanometer, while reducing power consumption by up to 30% at equivalent performance levels.\n\n\"As processes become more advanced, production costs increase significantly and yield assurance becomes challenging,\" the report notes. TSMC's capacity is further constrained by surging artificial intelligence server chip demand.\n\nTo mitigate supply chain risks, Apple is diversifying its semiconductor partners. Intel, currently developing its 14A node (1.4-nanometer class) with 2028 mass production goals, may manufacture ARM-based chips designed by Apple — a notable shift from Apple's historical reliance on Intel-designed processors for Mac products.\n\nThis development coincides with Intel's announcement at the 2026 VLSI Symposium that its 18A-P process has entered risk production, demonstrating the company's progress in advanced semiconductor manufacturing. A potential Apple deal would validate Intel Foundry's external customer strategy.",
-      "published_at": "2026-06-17T08:24:00+09:00",
-      "source": "ZDNet Korea",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
       "title": "AI안전연구소-오픈AI, 'AI 안전 협력 강화' MOU 체결",
       "url": "https://zdnet.co.kr/view/?no=20260617093724",
-      "body": "The South Korean government has expanded its cooperation with OpenAI to strengthen artificial intelligence safety verification for cutting-edge models.\n\nThe Ministry of Science and ICT announced that the AI Safety Research Institute signed a memorandum of understanding with OpenAI on June 17 at ETRI's Seoul office to enhance safety collaboration in high-risk AI domains.\n\nThis agreement builds upon a previous memorandum between the ministry and OpenAI from October of the previous year, extending cooperation specifically to AI safety. The initiative emerged from discussions during two separate meetings between ministry officials and OpenAI executives.\n\nThe AI Safety Research Institute and OpenAI will share knowledge regarding safety assessment methodologies, benchmarks, and best practices across high-risk sectors. They will also exchange technical information for developing evaluation systems that reflect Korean language and societal context.\n\nAs high-performance and autonomous agent AI systems expand into critical areas including finance, healthcare, security, and public services, the importance of pre-deployment safety assessments has increased substantially. Evaluation frameworks must now examine not only model performance but also potential malfunctions, societal biases, and misuse risks.\n\nSouth Korea is the fourth country — following the United States, United Kingdom, and Japan — where OpenAI has established such a partnership with a national AI safety research institute.\n\nThe two organizations plan to continue collaborating on establishing internationally applicable AI safety evaluation standards, with specific cooperation projects and timelines to be finalized through subsequent technical discussions.",
+      "body": "한국 정부가 최첨단 AI 모델의 인공지능 안전 검증을 강화하기 위해 오픈AI와의 협력을 확대했다.\n\n과학기술정보통신부는 17일 ETRI 서울사무소에서 AI 안전연구소와 오픈AI가 고위험 AI 분야의 안전 협력 강화를 위한 업무협약(MOU)을 체결했다고 밝혔다. 이번 협약은 전년도 10월 과기부-오픈AI 간 MOU를 기반으로 AI 안전에 특화해 협력을 확대한 것이다.\n\nAI 안전연구소와 오픈AI는 고위험 분야에서의 안전 평가 방법론, 벤치마크, 우수 사례에 관한 지식을 공유하고, 한국어 및 한국 사회적 맥락을 반영한 평가 시스템 개발을 위한 기술 정보도 교환할 예정이다.\n\n금융·의료·보안·공공서비스 등 핵심 영역에 고성능·자율 에이전트형 AI 시스템이 확산됨에 따라 사전 배포 안전 평가의 중요성이 크게 높아졌다. 한국은 미국, 영국, 일본에 이어 오픈AI가 국가 AI 안전 연구 기관과 이러한 파트너십을 체결한 네 번째 국가다.\n\n두 기관은 향후 기술 협의를 통해 구체적인 협력 프로젝트와 일정을 확정하고, 국제적으로 적용 가능한 AI 안전 평가 기준 수립에 지속 협력할 계획이다.",
       "published_at": "2026-06-17T10:00:00+09:00",
       "source": "ZDNet Korea",
       "topic_tag": "ai",
@@ -131,52 +151,52 @@
       "competitor": null
     },
     {
-      "title": "AI 인프라 플랫폼 텐, 과기부 '글로벌 ICT 미래 유니콘' 선정…리벨리온도 포함",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=211793",
-      "body": "AI infrastructure platform company Ten (CEO Oh Se-jin) has been selected as a supporting company for the \"2026 Global ICT Future Unicorn Development Project (ICT GROWTH)\" organized by the Ministry of Science and ICT and the National IT Industry Promotion Agency (NIPA).\n\nThis national initiative aims to discover and nurture ICT companies into unicorn enterprises. Fifteen companies, including Ten and Rebellion, were selected based on evaluations of technological excellence, market expansion potential, and investment achievements.\n\nThrough this selection, Ten will receive growth support including global market entry programs, investment and financing connections, and startup/venture support linkages. The company plans to expand operations in the United States and Singapore through global expansion initiatives.\n\nTen developed \"AIPub,\" an AI infrastructure platform based on GPU optimization and AI workload orchestration technology. The platform can subdivide GPU resources into units of up to 100 and allocate them according to AI workloads, with goals to enhance operational efficiency through GPU monitoring, scheduling, autoscaling, and usage-based analysis (FinOps) capabilities.\n\nCEO Oh emphasized that the selection \"recognizes Ten's AI infrastructure optimization technology and global growth potential,\" adding the company will \"continuously improve GPU optimization and workload orchestration technologies.\"\n\nRebellions, the domestic AI accelerator startup also selected in this cohort, has been expanding its ATOM NPU ecosystem following its $400 million pre-IPO round and a 2.3 trillion won valuation. The company's NPU is already deployed in KT Cloud's public-sector cloud services and recently announced renewed Middle East expansion efforts.",
-      "published_at": "2026-06-17T09:10:00+09:00",
-      "source": "AI타임스",
-      "topic_tag": "competitor",
-      "secondary_tags": ["ai"],
-      "competitor": "Rebellions"
-    },
-    {
-      "title": "Anthropic's latest feud with the Trump admin may actually help it, sales data suggests",
-      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
-      "body": "Anthropic is experiencing remarkable momentum despite regulatory friction. The company surpassed OpenAI in business spending market share for the first time in May, raised $65 billion at a $965 billion valuation, and filed confidential IPO paperwork while reporting its first profitable quarter.\n\nHowever, the Trump administration sent a letter Friday demanding Anthropic ban non-Americans — including its own employees — from accessing its advanced models: the limited-release Mythos 5 and publicly available Fable 5. This forced the company to withdraw its latest model entirely.\n\nDespite this government pressure, business adoption continues accelerating. According to Ramp data from over 70,000 companies, Anthropic captured 41% of AI subscription spending in May, compared to OpenAI's 39.5%. Ramp's lead economist notes: \"If anything, it'll probably boost them. Anthropic's best month on record...was the month that the Department of Defense labeled them a supply-chain risk.\"\n\nBusinesses primarily use Claude Opus models and the company's Claude Code tool for AI-powered development work. While exact financial impact from the model withdrawal remains unclear, available models show stronger business popularity than ever.\n\nThe article also notes that Claude has \"gained a strong reputation for productivity use cases\" and approaches ChatGPT's retention rates. Gemini benefits from integration with Google's ecosystem, capturing 27.7% market share with 662 million users.\n\nIndustry-wide metrics show maturation. H1 2026 projects 2.3 billion AI app downloads and $4.2 billion spending, compared to $1.83 billion in H1 2025. Claude demonstrates strongest monetization, with 13% of users paying for subscriptions — \"a conversion rate that leads the field.\"",
-      "published_at": "2026-06-17T07:34:00+09:00",
-      "source": "TechCrunch",
-      "topic_tag": "ai",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "Intel Foundry Details Process Milestones and Future Innovation at VLSI Symposium — Intel 18A-P Enters Risk Production",
-      "url": "https://www.businesswire.com/news/home/20260616740562/en/",
-      "body": "Intel Foundry announced progress on its Intel 18A-P process node at the 2026 VLSI Symposium. Intel 18A-P, described as \"the first performance enhancement in the Intel 18A family,\" has entered risk production, meeting previously communicated timelines.\n\nPerformance Improvements:\nIntel 18A-P delivers 9% higher performance at iso-power or 18% lower power at iso-performance compared to Intel 18A, alongside enhanced thermal characteristics and expanded design flexibility. Specific improvements include:\n- Power Boost technology: a dual contact, low resistance transistor option enabling increased drive current and greater frequency at matched capacitance\n- 20-40% improved thermal resistance through both materials and design innovations\n- 10-30% improved via resistance using geometric and materials optimizations\n- Full design rule compatibility with Intel 18A, allowing straightforward IP reuse\n- Two cell heights (180nm and 160nm) with 50nm contacted poly pitch\n- New fifth logic threshold voltage option for balancing speed and power\n\nBackside Power Delivery Results: Intel demonstrated 11% routed area reduction and 10x dynamic voltage droop reduction, enabling up to 6% frequency uplift or greater than 15% dynamic power reduction.\n\nFuture Research: Intel presented work on complementary FET (CFET) inverters achieving 45nm contacted poly pitch, gallium nitride plus silicon integration on 300mm wafers for power management, and subtractive ruthenium interconnect technology achieving up to 35% capacitance reduction.\n\nIntel 18A is now ramping in two U.S. fabrication facilities with declining defect density. The node integrates RibbonFET gate-all-around transistors and PowerVia backside power delivery.\n\nAnalysts noted that the 18A-P announcement — alongside reports of Apple exploring Intel Foundry for 1.4nm production — marks a potential inflection point for Intel's external foundry business, which has struggled to win major customers against TSMC.",
-      "published_at": "2026-06-17T06:00:00+09:00",
-      "source": "Business Wire / Intel Foundry",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "Tensordyne Converts AI Matrix Math To Logs To Crank Up Inference Oomph",
-      "url": "https://www.nextplatform.com/compute/2026/06/16/tensordyne-converts-ai-matrix-math-to-logs-to-crank-up-inference-oomph/5256558",
-      "body": "Tensordyne, an AI inference chip startup, has developed the Napier computing engine that converts matrix multiplication operations into logarithmic addition operations, dramatically improving inference performance and efficiency.\n\nThe Napier chip features 48 logarithmic cores, vector processing units, and RISC-V processors, implementing 138 billion transistors in a 3-nanometer process. It consumes only 300 watts compared to 1,200 watts for Nvidia's Blackwell B300 GPU.\n\nFounders RK Anand (Chief Product Officer) and Gilles Backhus (VP of AI) previously collaborated at Kumu Networks on full-duplex wireless technology. The company, which raised $176 million across three funding rounds, pivoted from automotive AI to datacenter inference around 2022. Founded in 2017 as Recogni, the startup rebranded to Tensordyne last year.\n\nPerformance Claims:\nA single rack of 288 Napier devices delivers 608 petaflops at FP8 precision while consuming 120 kilowatts and supporting air cooling. Tensordyne claims comparable token throughput to GPU systems using one-sixth the rack space and 30% less power.\n\nThe company expects more than $200 million in orders for its system, with over a dozen letters of intent from companies planning to evaluate beta systems. AI infrastructure providers Cirrascale and BlueSky Compute have expressed interest.\n\nTechnical approach: Traditional matrix multiplication requires multiplying pairs of numbers and summing results — a compute-intensive process. Tensordyne's approach converts numbers to their logarithmic equivalents, allowing multiplications to become additions, which are less compute-intensive. The downside is potential precision loss, which the company claims to handle through architectural innovations.\n\nThe chip is produced by TSMC and was developed in partnership with Broadcom and HPE-owned Juniper Networks.\n\nTimeline: Cloud access expected by end of 2026; customer shipments begin Q1 2027.",
-      "published_at": "2026-06-17T03:52:00+09:00",
-      "source": "The Next Platform",
-      "topic_tag": "ai",
-      "secondary_tags": ["semiconductor"],
-      "competitor": null
-    },
-    {
-      "title": "VAST Data and the evolving neoclouds",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/06/16/vast-data-and-the-evolving-neoclouds/5256380",
-      "body": "VAST Data dominates neocloud storage, cementing its position with a 600 PB capacity deployment at Australia's Sharon AI. The neoclouds — emerging competitors to traditional hyperscalers — are expanding beyond GPU-intensive AI services into managed service provider (MSP) offerings and sovereign datacenters.\n\nNeoclouds originated from cryptocurrency mining operations that pivoted to GPU-based cloud services after the 2018 crypto crash. The ChatGPT launch in late 2022 catalyzed explosive growth in AI model training demand. Neocloud revenues reached $23-25 billion in 2025, more than triple their 2024 figures, with market leader CoreWeave reporting $5.13 billion in 2025 revenues — surpassing AWS's $15 billion AI revenue run rate.\n\nVAST Data CTO Alon Horev explains that neoclouds prioritize all-flash storage to prevent GPU idle time: \"We're getting two to one data reduction\" through efficient flash utilization. Unlike traditional tiered architectures, keeping data on flash ensures continuous GPU availability, which proves economically critical given hardware costs.\n\nNeoclouds are transitioning from dedicated customer environments toward multi-tenant, hyperscaler-like infrastructure models. This shift enables flexible consumption-based pricing — \"pay per gig\" rather than three-year prepaid commitments — and improves margins.\n\nTraditional MSPs and telecom providers are exploring neocloud transitions, though significant expertise gaps remain. AI inferencing demands differ substantially from virtual machine services, requiring knowledge of specialized networking (InfiniBand, Spectrum X), liquid cooling, and containerization technologies.\n\nVAST assists neoclouds transitioning toward enterprise customers by implementing security features essential for inference workloads: FIPS compliance, multi-tenancy isolation, encryption protocols, and external key manager support.\n\nThe convergence creates expansion opportunities: neoclouds move toward MSP-type services while MSPs gradually adopt AI capabilities. The analysis suggests the neocloud sector will increasingly resemble traditional hyperscalers over the next three to five years.",
-      "published_at": "2026-06-17T00:14:00+09:00",
-      "source": "Blocks and Files",
+      "title": "\"데이터는 21세기 원유\"…조현준, AI 데이터센터 승부수",
+      "url": "https://zdnet.co.kr/view/?no=20260617090455",
+      "body": "효성그룹 조현준 회장이 AI와 클라우드 인프라로의 전환을 알리는 데이터센터 합작 투자를 출범시켰다. 효성과 싱가포르 기반 STT GDC(ST 텔레미디아 글로벌 데이터 센터)의 합작사가 서울 금천구 가산디지털단지에 'STT Seoul 1'을 개관했다.\n\n이 시설은 30MW IT 용량의 하이퍼스케일 데이터센터로, 대규모 클라우드 서비스와 AI 컴퓨팅 등 전력 집약적 운영을 처리하도록 설계됐다. 주요 비즈니스 지구와 인접한 도심 입지로 외곽에 주로 위치한 데이터센터 대비 낮은 레이턴시와 향상된 서비스 접근성을 제공한다.\n\n인프라는 효성중공업의 전력 장비 기술과 STT GDC의 데이터센터 설계·운영 역량을 결합했으며, 업타임 인스티튜트로부터 Tier 3 TCDD 인증을 획득했다.\n\n조 회장은 '데이터가 21세기 원유가 될 것'이라며 AI 경쟁력이 국가 경쟁력이 된다는 비전을 밝혔다. 회사는 3개 사업 부문에 걸친 30년간의 IT 운영 경험을 활용해 데이터센터 운영을 핵심 성장 동력으로 육성할 계획이다.",
+      "published_at": "2026-06-17T09:04:00+09:00",
+      "source": "ZDNet Korea",
       "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Hyosung opens first AI data center in Seoul with Singapore's STT GDC",
+      "url": "https://www.koreaherald.com/article/10773717",
+      "body": "South Korean industrial conglomerate Hyosung and Singapore's ST Telemedia Global Data Centers (STT GDC) have launched Seoul's first hyperscale-ready AI data center, marking a pivotal moment in Korea's digital infrastructure buildout.\n\nThe STT Seoul 1 facility, located in the Gasan Digital Complex in Geumcheon-gu, offers up to 30 megawatts of IT load capacity. The carrier-neutral site was developed through a joint venture established in 2021, with STT GDC holding a 60 percent stake and Hyosung Heavy Industries holding 40 percent.\n\nHyosung Group Chairman Cho Hyun-jun presided over the opening ceremony alongside STT GDC CEO Chung Kwong-Meng, emphasizing the facility's role in supporting Korea's AI transformation. 'This data center will serve as the foundation for Korea's next wave of AI-driven innovation,' said Cho.\n\nThe facility has achieved Tier 3 TCDD certification from the Uptime Institute and is designed to support cloud and AI workloads, combining Hyosung Heavy Industries' power infrastructure expertise with STT GDC's international data center design standards.\n\nAccording to Research and Markets, South Korea's data center market is projected to grow from $5.04 billion in 2025 to $16.23 billion by 2031, a compound annual growth rate of over 21 percent. The opening is seen as a signal of accelerating enterprise AI adoption and hyperscaler interest in Korea as a hub for regional AI infrastructure.",
+      "published_at": "2026-06-17T14:48:00+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "구글, '안드로이드 17' 출시…\"AI로 멀티태스킹 강화\"",
+      "url": "https://zdnet.co.kr/view/?no=20260617084443",
+      "body": "구글이 최신 AI 모델을 앞세워 기기 내 인공지능 기능을 대폭 확대했다. 16일(현지시간) 구글은 '안드로이드 17' 운영체제와 스마트워치용 '웨어 OS 7'을 공식 출시했으며, 이번 업데이트는 구글 '픽셀' 기기에 먼저 적용된다.\n\n픽셀 드롭에는 음악 생성 모델 '리리아 3'와 멀티모달 모델 '제미나이 옴니'가 포함됐다. 제미나이 옴니는 대화 중 동영상 편집을 지원하며, 리리아 3는 텍스트 프롬프트나 이미지를 활용해 음악 트랙 생성을 돕는다.\n\n픽셀 10a에는 오디오LM 기반 음성 번역 기능도 개선되어 제공된다. 안드로이드 17의 새로운 사용자 인터페이스인 '버블 바'는 화면 하단에 최근 앱을 버블 형태로 정리하여 빠른 접근을 가능하게 한다.\n\n추가 기능으로는 셀피 카메라와 화면 동시 녹화, 긴급 감지 기능, 실시간 위협 탐지 강화 등이 포함됐다. 올여름에는 웨어 OS에 더 많은 제미나이 인텔리전스 기능이 도입될 예정이다.",
+      "published_at": "2026-06-17T09:40:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Commentary: US delays DeepSeek blacklist, exposing AI export-control dilemma",
+      "url": "https://www.digitimes.com/news/a20260617VL216/deepseek-cxmt-entity-list-security-usa.html",
+      "body": "A US interagency committee approved adding Chinese AI startup DeepSeek, memory chipmaker CXMT (ChangXin Memory Technologies), and more than 100 other companies flagged as national-security risks to the Commerce Department's Entity List — but the Trump administration has held off on actually listing them, wary of escalating tensions with Beijing.\n\nThe Entity List is the workhorse of American export control, functioning as a soft blacklist that requires US suppliers to obtain hard-to-get licences before selling to a named firm.\n\nReasons for the Delay: The administration is trying to keep relations with Beijing from deteriorating, and a blacklist sweeping up more than 100 firms at once would be read in China as a major escalation. The delay highlights the tension between national security objectives and diplomatic considerations in the AI era.\n\nDeepSeek Background: DeepSeek's low-cost AI model sent shockwaves through the technology world in January 2025. The company has supported China's military and intelligence operations according to a senior US State Department official. The startup tried to use Southeast Asian shell companies to illegally access advanced US chips. Anthropic identified a campaign by DeepSeek and two other Chinese AI labs to illicitly extract capabilities from its Claude AI platform.\n\nCXMT Context: ChangXin Memory Technologies is a Chinese DRAM manufacturer that has been ramping domestic memory production. Chinese memory buyers have reportedly been shifting orders to CXMT and YMTC as domestic alternatives to Samsung and Micron become more viable.\n\nPolicy Implications: The delay exposes what analysts call an AI export-control dilemma — US officials must balance security objectives against economic and diplomatic costs of confrontation with China.",
+      "published_at": "2026-06-17T17:11:00+09:00",
+      "source": "Digitimes",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "June 2026 semiconductor news roundup: US chip controls, SandboxAQ funding and Intel 18A-P",
+      "url": "https://ts2.tech/en/june-2026-semiconductor-news-roundup-u-s-chip-controls-sandboxaq-funding-and-intel-18a-p/",
+      "body": "A roundup of key semiconductor and AI policy news from the week of June 17, 2026:\n\n1. Intel 18A-P in Risk Production: Intel pushed 18A-P into limited risk production, representing the first performance enhancement to the 18A process family. As smaller AI-chip challengers keep testing Nvidia's hold on data-center hardware, Intel's foundry progress is closely watched as an alternative supply source.\n\n2. US Chip Export Control Delays: US officials have held off adding China's DeepSeek, memory chipmaker CXMT, and more than 100 other firms to a trade blacklist despite being flagged as security risks. Washington is trying to build more of the chip supply chain at home while keeping advanced technology away from China.\n\n3. SandboxAQ Funding for AI Materials: The US Commerce Department's CHIPS Research and Development Office signed a definitive agreement with SandboxAQ for a $500 million award to develop AI-aided materials discovery. The initiative aims to accelerate semiconductor materials research using AI techniques.\n\n4. Tensordyne AI Inference Chip: AI inference chip startup Tensordyne expects more than $200 million in orders for a new AI inference system using its Napier chip, which converts matrix multiplication to logarithmic operations. The chip is made by TSMC and was developed with Broadcom and HPE-owned Juniper Networks.\n\n5. Marvell S&P 500: Marvell Technology is set to join the S&P 500 on June 22, completing a year where its AI-driven rally approximately tripled the stock's value. Marvell's market cap reached approximately $230 billion, with AI custom silicon (XPUs for hyperscalers) driving its growth.",
+      "published_at": "2026-06-17T21:46:00+09:00",
+      "source": "ts2.tech",
+      "topic_tag": "semiconductor",
       "secondary_tags": ["ai"],
       "competitor": null
     }
