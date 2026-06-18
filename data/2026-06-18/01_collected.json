@@ -1,0 +1,191 @@
+{
+  "collection_date_kst": "2026-06-18",
+  "run_summary": {
+    "total": 16,
+    "by_topic": {
+      "ai": 6,
+      "semiconductor": 4,
+      "datacenter": 4,
+      "competitor": 2
+    },
+    "by_competitor": {
+      "NVIDIA": 2,
+      "SK hynix": 0,
+      "Tenstorrent": 0,
+      "Marvell": 0,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Moreh": 0,
+      "Napatech": 0,
+      "AMD Pensando": 0
+    },
+    "competitor_tagged_total": 2,
+    "sources_consulted": 14,
+    "skipped_paywalled": 0,
+    "notes": "Recency window: 2026-06-18 KST only (last issue #029 was 2026-06-17). Most RSS feeds published June 17 UTC which equals June 18 KST — included. The Register data_centre/networks feed had no June 18 KST articles beyond optics vendor story (Jun 17 19:12 UTC = Jun 18 04:12 KST — included). DCD feed had multiple Jun 18 UTC items. HPCwire feed returned 403. Tom's Hardware Intel fab roadmap article could not get precise timestamp via page fetch (client-side rendered byline) — dropped per hard gate rather than guessing. KAIST liquid cooling story was June 16 publication — outside window, dropped. ServeTheHome '81920 Cores' RSS timestamp Jun 18 01:48 UTC = Jun 18 10:48 KST — included. Qualcomm/Tenstorrent story is Jun 16 — outside window. Coherent Texas groundbreaking Jun 16 — outside window. MLPerf 6.0 Jun 16 — outside window. DeepSeek blacklist story: thenextweb Jun 17 09:57 UTC = Jun 17 18:57 KST (outside window). Taipei Times version dated Jun 18 found. Tier 1 competitors (Moreh, FriendliAI, HyperAccel, Furiosa, Rebellions) yielded no June 18 KST specific articles. Tier 2: NVIDIA bond sale priced Jun 15/16 — outside window; DCD coverage item dated Jun 17 18:11 UTC = Jun 18 03:11 KST — included. Samsung DS global strategy meeting was held June 18 but advance-notice articles were Jun 11-15 — only the etnews June 18 06:07 KST Anthropic Seoul article is new today."
+  },
+  "articles": [
+    {
+      "title": "STT GDC Opens First Data Center in South Korea",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11417",
+      "body": "ST Telemedia Global Data Centres (STT GDC) has launched its inaugural South Korean facility, STT Seoul 1, located in Gasan-dong, Geumcheon-gu, Seoul. The operation is managed by STT GDC Korea, a joint venture formed in 2021 with STT GDC holding 60% ownership and Hyosung Heavy Industries holding 40%.\n\nThe facility will function as a regional infrastructure hub supporting artificial intelligence and cloud services across Northeast Asia. STT GDC Korea's CEO stated: \"STT Seoul 1 will be a key hub for STT GDC's presence in Korea and for expansion into major Northeast Asian markets.\"\n\nHyosung Group's chairman emphasized the synergy: \"It will serve as critical infrastructure for South Korea's AI industry and become a new growth driver for Hyosung.\"\n\nThe 40,000-square-meter facility supports up to 30 megawatts of IT load capacity and has obtained Uptime Institute Tier III Design Certification, ensuring continuous operation during maintenance of power and cooling systems. The facility features dual power feeds, distributed redundant UPS systems, and 24-hour generator capability. The cooling system maintains efficiency through a design power usage effectiveness (PUE) below 1.3 and thermal energy storage technology. The center achieved LEED Gold certification.\n\nKorea's data center construction market is projected to grow from $6.99 billion this year to $14.63 billion by 2031, according to Mordor Intelligence. STT GDC operates over 100 data centers across 12 countries with 2.3 gigawatts of IT capacity.",
+      "published_at": "2026-06-18T00:03:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "SK하이닉스, 주요 고객사에 HBM4E 12단 샘플 공급",
+      "url": "https://zdnet.co.kr/view/?no=20260618085052",
+      "body": "SK Hynix announced it has delivered 12-layer HBM4E samples to major customers. The new generation product represents significant improvements over its HBM4 predecessor. The company achieves maximum data processing speeds of 16Gbps per pin while simultaneously improving energy efficiency by over 20 percent.\n\nSK Hynix applied an Advanced MR-MUF process to create 48GB capacity in the 12-layer configuration while enhancing structural stability. Thermal resistance decreased by approximately 17 percent compared to HBM4, enabling stable operation in high-performance computing environments.\n\nAccording to the company, the latest interface design and optimized architecture reduce data transmission latency and ensure reliable operation in high-bandwidth settings, potentially enhancing processing efficiency for next-generation AI data centers and large-scale computing systems.\n\nAn SK Hynix executive stated the company will continue leveraging its technological capabilities and manufacturing competence to drive AI innovation while establishing its position as a full-stack AI memory technology leader.",
+      "published_at": "2026-06-18T08:55:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "SK hynix ships HBM4E samples, joining Samsung in next-gen AI memory race",
+      "url": "https://www.koreaherald.com/article/10774401",
+      "body": "SK hynix announced Thursday that it has begun shipping samples of its 12-layer HBM4E high-bandwidth memory chips to major customers, entering the customer-qualification phase roughly three weeks after Samsung Electronics announced similar shipments.\n\nThe 12-layer HBM4E delivers 48 gigabytes of capacity with pin speeds up to 16 gigabits per second. The company claims a 20% improvement in energy efficiency compared to the previous HBM4 generation, achieved through its Advanced MR-MUF packaging process that fills gaps between stacked chips with protective material.\n\nThe thermal resistance decreased approximately 17% versus HBM4, which matters as faster memory generates more heat in dense computing environments. SK hynix leveraged its track record across HBM3, HBM3E, and HBM4 generations rather than claiming a first-mover advantage.\n\nAccording to Counterpoint Research, SK hynix holds roughly 58% of the HBM market, ahead of Samsung at approximately 21% and Micron. HBM4E is expected to support Nvidia's Rubin Ultra accelerator platform launching next year. The company did not disclose which customers received samples or commit to a specific mass-production timeline.",
+      "published_at": "2026-06-18T09:16:18+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "앤트로픽 서울 사무소 공식 개소...\"수출 통제 리스크 없을 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211840",
+      "body": "Anthropic officially opened its Seoul office on June 18th at the Conrad Hotel in Yeouido, unveiling its domestic business strategy. The event marked the recent appointment of Choi Ki-young as Korea Country Representative, with Chris Chowdhury, Anthropic's International head, attending from headquarters.\n\nExport control concerns dominated the briefing, particularly regarding U.S. restrictions on Fable 5 and Mistral 5 models. Anthropic remained circumspect on this matter. Tom Brown, Chief Computing Officer, did not attend as originally scheduled. Chowdhury stated that \"this matter appears to be resolving soon\" and assured that operations would proceed without disruption.\n\nThe company highlighted Korea's significance, noting Claude ranks 12th among 66 countries by usage volume, with expectations to enter the top 10 soon. The Seoul office focuses on enterprise customization through \"Claude for Enterprise,\" supporting developer communities and expanding government relations.\n\nChoi emphasized Korea's importance, stating the nation \"shares Anthropic's AI safety values\" and noted being among select countries establishing comprehensive AI legislation. The office hosted hackathons engaging startups and enterprise clients during the launch event series.",
+      "published_at": "2026-06-18T05:31:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic Seoul office faces early test as export controls seen easing within days",
+      "url": "https://www.digitaltoday.co.kr/en/view/66935/anthropic-seoul-office-faces-early-test-as-export-controls-seen-easing-within-days",
+      "body": "Anthropic has established its third Asian office in Seoul, arriving amid U.S. government AI export controls that immediately tested its coordination capabilities with South Korea. The company's head of international, Chris Chaoui, expressed confidence during a June 17 press briefing that the restrictions would be lifted \"within days.\"\n\nThe export controls, imposed June 12, barred foreign nationals from accessing Anthropic's latest models, Fable5 and Mythos5, for national security reasons. This blocked access for South Korean organizations including KISA, Samsung Electronics, SK Hynix, and SK Telecom, which were participating in Project Glasswing, a Mythos-based cybersecurity initiative.\n\nChaoui noted that the jailbreak scope was \"at a level that could commonly appear in models released over the past six months,\" suggesting confidence in near-term resolution.\n\nThe Seoul office, led by Ki-young Choi, a 30-year IT veteran, will operate four divisions: sales, technology, policy, and operations. The organization plans to pursue enterprise partnerships with cloud providers like AWS, Google Cloud, and Microsoft Azure, plus system integrators including LG CNS.\n\nAnthropic is also establishing research partnerships with the National AI Research Leading Lab, providing free Claude access to approximately 60 researchers across major universities.",
+      "published_at": "2026-06-18T12:00:00+09:00",
+      "source": "Digital Today (EN)",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "과기부-앤트로픽, 글로벌 AI 안전·보안 협력 MOU",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211839",
+      "body": "The Ministry of Science and ICT (Minister Bae Kyung-hoon) announced on the 18th that it has signed an MOU with Anthropic for cooperation in securing AI safety and cybersecurity fields.\n\nThis follows substantive follow-up measures from cooperation discussions that occurred when Deputy Prime Minister and Minister Bae Kyung-hoon attended the \"2026 India AI Impact Summit\" in February with Dario Amodei, CEO of Anthropic.\n\nThrough this MOU, the ministry plans to conduct in-depth analysis of AI's impact on cyber attacks and defense. It will strengthen the cooperation framework with Anthropic for ensuring safety of advanced AI, including evaluating AI model safety in Korean language contexts, assessing misuse risks, and conducting red team evaluations of autonomous AI agents.\n\nFollowing the MOU signing, Information and Communications Policy Director Lee Do-gyu and Anthropic's Global Director Chris Chowdhury discussed the direction of AI safety and cybersecurity cooperation. The AI Safety Institute and Anthropic will promote AI safety evaluations through their partnership.\n\nAnthropic formally opened its Korean office on the 17th, marking its fourth regional hub after Japan, India, and Australia.",
+      "published_at": "2026-06-18T11:30:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "메모리 값 폭등에 애플도 백기…\"가격 인상 불가피\"",
+      "url": "https://zdnet.co.kr/view/?no=20260618081155",
+      "body": "Apple CEO Tim Cook acknowledged that rising memory and storage chip prices may necessitate product price increases. In an interview with the Wall Street Journal, Cook stated: \"Unfortunately, price increases are unavoidable\" and explained that Apple has previously absorbed cost increases to minimize consumer burden, but current conditions make this unsustainable.\n\nThe price surge stems from soaring AI-driven demand for memory semiconductors. As AI server chip demand exploded, memory supply tightened and prices surged significantly. Cook described the situation as \"a once-in-a-hundred-year flood,\" noting he hasn't witnessed such conditions in his 40+ year industry career.\n\nMarket research firm TechInsight projects iPhone 18 Pro prices could rise approximately $270 (roughly 410,000 Korean won) to maintain current profit margins. Cook confirmed Apple will leverage its cash reserves to expand memory supply but declined to specify implementation details.\n\nThough Apple ranks among the world's largest memory purchasers, it has shown reluctance toward large-scale advance payment supply contracts favored by certain AI firms. Samsung Electronics, Microsoft, Sony, and Dell have already implemented price increases reflecting component cost pressures.",
+      "published_at": "2026-06-18T09:14:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "MS, '코파일럿 코워크' 출시…\"직접 업무하는 에이전트\"",
+      "url": "https://zdnet.co.kr/view/?no=20260618105641",
+      "body": "Microsoft has officially launched Copilot Cowork, an agentic AI system designed to perform complex business tasks across multiple stages. The system connects various tools and delivers final work products, marking a shift in enterprise AI from chatbots toward autonomous work execution.\n\nCopilot Cowork completed a three-month preview in Microsoft's Frontier Program and is now adopted by over half of Fortune 500 companies, including Accenture, Avanade, Capital Group, and Zurich Insurance.\n\nThe service's key features include cloud-based execution and context understanding based on \"business IQ,\" enabling it to continue tasks even when devices are offline. It leverages existing organizational documents, emails, meeting records, and business system data to maintain contextual awareness.\n\nReal-world applications include one engineering team automating spreadsheet modifications and dependency flow diagrams, while another team completed file comparison across 4,000 files in half a day — work normally requiring weeks.\n\nMicrosoft emphasizes integration with existing enterprise environments, operating within Microsoft 365 with maintained security policies and compliance frameworks. The system connects with Fabric, Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 ERP applications.\n\nCost management uses a Copilot Credits system based on model usage, context searches, tool calls, and runtime duration. Administrators can set spending limits and receive usage notifications at organizational and group levels.",
+      "published_at": "2026-06-18T10:56:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"밀리초 단위 분석\"…데이터브릭스, '레이크하우스 RT' 베타 출시",
+      "url": "https://zdnet.co.kr/view/?no=20260618110401",
+      "body": "Databricks has introduced Lakehouse RT (Real-time), a beta version that integrates real-time data analysis capabilities into its lakehouse platform. The service enables direct real-time analysis on Delta Lake and Apache Iceberg tables with applied governance.\n\nLakehouse RT operates on a new computing engine called Raiden, designed to support thousands of concurrent users and AI agents while delivering sub-millisecond response times. Previously, organizations had to build separate real-time serving layers alongside their lakehouse, creating challenges with data duplication, additional infrastructure, governance fragmentation, and vendor lock-in.\n\nThe new solution eliminates these issues. Users can query the latest data within the lakehouse without copying or moving data, and they don't need separate synchronization or CDC pipelines.\n\nPerformance benchmarks show Lakehouse RT can process 12,000 queries per second while maintaining latency under 100 milliseconds. Customers report up to 16 times better performance compared to existing real-time serving stacks. The Raiden engine provides response times as low as 10 milliseconds for small datasets while maintaining sub-100 millisecond performance on large datasets.\n\nAll queries execute within the Unity Catalog governance framework, enabling data control without separate systems. Lakehouse RT also supports direct querying of Delta and Iceberg tables without format conversion.",
+      "published_at": "2026-06-18T11:04:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic Opens Seoul Office, Partners with Naver, Nexon, LG CNS",
+      "url": "https://www.etnews.com/20260618000002",
+      "body": "Anthropic, the US-based AI company behind the Claude model, has officially opened its Seoul office, marking a significant expansion into the Korean market. The company designated Korea as a crucial global market and announced strategies to broaden partnerships with major corporations, startups, and research institutions.\n\nAt a press conference on June 17 at the Conrad Hotel in Yeouido, Anthropic's Korea Representative Choi Ki-young stated: \"Korea is one of the few countries globally that has created comprehensive AI legislation and possesses full-stack AI capabilities.\" He emphasized the company's commitment to growing alongside Korean enterprises and research organizations in the rapidly evolving AI ecosystem.\n\nThe Seoul office, led by Choi, will support domestic customers and partners while serving as a key hub for collaboration with major Korean companies and research institutions.\n\nKorea's market demonstrates impressive growth metrics. According to Anthropic's March economic index report, Claude usage in Korea ranks among the top globally, exceeding expected levels by 3.5 times relative to population size.\n\nNotable Korean partnerships include: Naver (full deployment of Claude Code across all engineering teams), Nexon (Claude Code for live game service development and code reviews), LG CNS (supporting thousands of employees with Claude for software development), Hanwha Solutions (providing Claude to global employees via AWS Bedrock).\n\nAnthropic plans to strengthen ties with Korea's AI research ecosystem by partnering with the National AI Research Institute (NAIRL), offering free Claude accounts to up to 60 researchers.\n\nHowever, recent US export controls on Anthropic's advanced models — Mithos5 and Fable5 — restrict Korean access, raising questions about future collaboration directions, particularly regarding Project Glasswing involving KISA, Samsung Electronics, SK Hynix, and SK Telecom.",
+      "published_at": "2026-06-18T06:07:00+09:00",
+      "source": "Electronic Times (전자신문)",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SK하이닉스, HBM4E 12단 샘플 공급",
+      "url": "https://www.etnews.com/20260618000019",
+      "body": "SK Hynix announced it has supplied samples of \"HBM4E,\" a next-generation high-performance DRAM for AI applications, to major customers.\n\nThe new product achieves improved performance and power efficiency compared to its predecessor, HBM4. It delivers maximum data processing speeds of 16Gbps per pin and enhances energy efficiency by over 20%, significantly boosting data processing capabilities essential for AI training and inference tasks.\n\nThe company stated: \"Based on accumulated HBM advancement expertise and production knowledge, we successfully presented HBM4E 12-stack samples to customers and will collaborate closely with key partners for timely mass production.\"\n\nSK Hynix applied Advanced MR-MUF process technology to achieve 48GB capacity at 12-stack configuration while improving structural stability. Thermal resistance was reduced approximately 17% compared to HBM4, enabling stable memory operation in high-performance computing environments.\n\nAn Hyun, president of SK Hynix Development, remarked the company would \"proactively implement market-demanded value through partner collaboration, solidifying technical leadership as a full-stack AI memory creator.\"",
+      "published_at": "2026-06-18T08:41:00+09:00",
+      "source": "Electronic Times (전자신문)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "81920 Cores Per Rack with AMD EPYC Venice at HPE Discover 2026",
+      "url": "https://www.servethehome.com/81920-cores-per-rack-with-amd-epyc-venice-at-hpe-discover-2026/",
+      "body": "At HPE Discover 2026, the company unveiled next-generation computing hardware featuring the HPE Cray GX250a compute blade. This system houses eight AMD EPYC \"Venice\" CPUs per blade, achieving \"81,920 cores per rack\" in a liquid-cooled configuration.\n\nThe blade features innovative design elements including centralized power distribution, integrated liquid cooling with hot/cool mating points, and 16-channel memory per CPU. Four nodes include Samsung E1.S SSDs mounted on CPU coldplates for \"local fast scratch storage.\"\n\nMemory uses standard DIMM form factors (likely MRDIMMs) with dedicated liquid cooling throughout. Networking employs \"Slingshot 400, with two NICs on either side,\" with future Slingshot 800 compatibility planned. The connectors resemble OCP NIC 3.0 standards.\n\nHPE demonstrated a 1.6MW-capable cooling distribution unit (CDU) alongside the hardware. The displayed system showed a \"Vanover VP1-01 node\" label, indicating a functioning prototype rather than a static display model. The article notes this represents significant advancement from November 2025 demonstrations.\n\nThe system targets supercomputing applications, with references to Los Alamos' \"Mission\" supercomputer destined to use this architecture. AMD EPYC Venice (6th Gen) is the first HPC product to achieve production ramp on TSMC's 2nm process technology, delivering 256 cores per socket and 70% performance uplift over the 5th Gen Turin.",
+      "published_at": "2026-06-18T10:48:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "The Server Boom Balances Price Increases Against Chip Shortages",
+      "url": "https://www.nextplatform.com/compute/2026/06/17/the-server-boom-balances-price-increases-against-chip-shortages/5258066",
+      "body": "The server market experienced only modest sequential decline in Q1 2026 despite component supply constraints. According to IDC data, worldwide server spending reached $122.62 billion, representing 30.4% year-over-year growth but a 2.1% sequential decline — a marked contrast to historical Q4-to-Q1 patterns.\n\nRising component costs have substantially offset supply-demand imbalances. GPU-accelerated servers generated $68.9 billion in revenue (56.2% of total server revenues), while newly tracked XPU systems accounted for $17.1 billion (13.9% share). Combined, accelerator systems represented 70.2% of overall server revenues, up from 62.2% year-over-year.\n\nThe architectural landscape shifted dramatically. Non-X86 systems achieved 47.1% revenue share compared to X86's 52.1%, driven largely by Arm-based processors from hyperscalers and Nvidia's Grace server CPU. X86 server sales declined 2.9% year-over-year, potentially constrained by component availability rather than demand weakness.\n\nDell dominates the OEM market, bolstered by its Nvidia partnership and enterprise contracts, generating 5.5 times HPE's server revenue. Original Design Manufacturers serving hyperscalers report being constrained primarily by component supply availability, suggesting underlying demand significantly exceeds current market output.",
+      "published_at": "2026-06-18T07:03:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": null
+    },
+    {
+      "title": "HPE's Datacenter Networking Picture Comes Into Clearer Focus",
+      "url": "https://www.nextplatform.com/connect/2026/06/17/hpes-datacenter-networking-picture-comes-into-clearer-focus/5258015",
+      "body": "Hewlett Packard Enterprise CEO Antonio Neri reflected on HPE's $14 billion acquisition of Juniper Networks, which closed nearly a year ago following extended negotiations with the US Justice Department. A decade prior, HPE had acquired Aruba Networks to strengthen its branch and campus networking capabilities.\n\nNeri emphasized that \"the networking layer of the stack – is going to be the next opportunity\" for innovation as enterprises increasingly adopt cloud solutions and AI technologies expand.\n\nThe Juniper acquisition proved strategically important to compete with rivals Cisco Systems and Arista Networks. The growth of AI inference workloads and emerging AI agents made such consolidation particularly timely. According to Neri, \"we have a complete edge to core to cloud portfolio, perfectly tuned for the AI transition.\"\n\nAt HPE Discover 2026 in Las Vegas, the company announced several integration initiatives combining Juniper's Mist AI technology with Aruba Central to advance its \"self-driving network\" strategy — embedding AI throughout network infrastructure to enable autonomous configuration, optimization, and self-healing with minimal human intervention.\n\nKey announcements included integrating Marvis AI Engine, Juniper's network assistant technology, into Aruba Central for automated troubleshooting. Marvis Actions autonomously identifies and resolves network issues. HPE also added predictive analytics to Mist for proactive failure prevention and introduced new hardware including the QFX5140 switch for AI inference clusters and the QFX5250 Switch tray for AMD's Helios AI server infrastructure.\n\nOn security, HPE introduced the SASE Orchestrator, unifying SD-WAN and Security Service Edge capabilities.\n\nNeri asserted the combined portfolio was \"equal or better than Cisco in many ways because our architectures are modern, cloud-native and AI-driven.\"\n\nCisco similarly emphasized networking's foundational importance at its June 2026 event, noting that AI agents generate \"450 percent more traffic per task\" than traditional tools, fundamentally changing traffic patterns and requiring network adaptations.",
+      "published_at": "2026-06-18T06:02:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Nvidia-backed optics vendor to boost wafer output by 4x to meet AI interconnect demand",
+      "url": "https://www.theregister.com/networks/2026/06/17/nvidia-backed-optics-vendor-to-boost-wafer-output-by-4x-to-meet-ai-interconnect-demand/5257909",
+      "body": "Coherent, an Nvidia-backed photonics manufacturer, plans to quadruple indium phosphide wafer production at its Sherman, Texas facility to address surging demand for optical interconnects in AI systems. The expansion represents a strategic move by Nvidia to secure semiconductor supply chains critical to its growth trajectory.\n\nThe company will invest $650 million in the project, supplemented by $20 million from the Texas Semiconductor Innovation Fund and up to $50 million through the CHIPS and Science Act. This follows Nvidia's March investment of $2 billion in Coherent to enhance production capacity.\n\nAs AI infrastructure scales from dozens to thousands of accelerators per system, optical components have become essential where copper connections prove insufficient. Coherent's Sherman expansion will double the facility's footprint and create approximately 1,000 jobs, with roughly 550 in advanced manufacturing and technical roles.\n\nThe investment aligns with Nvidia's broader photonics strategy. The company previously invested $2 billion each in optical suppliers Lumentum and Marvell to accelerate their silicon photonics development, demonstrating commitment to ensuring adequate optical component availability for next-generation AI datacenters.",
+      "published_at": "2026-06-18T04:12:00+09:00",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "KAIST, \"전력 10분의 1\" 액체 냉각 기술 개발…데이터센터 적용 가능",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211836",
+      "body": "KAIST announced that Professor Kim Sung-jin's mechanical engineering team and Professor Lee Ik-jin's AX department team jointly developed ultra-efficient liquid cooling technology that overcomes limitations of existing Manifold Microchannel (MMC) cooling systems.\n\nThe research focused on optimizing structural design so cooling fluid flows evenly across all channels, rather than concentrating in some. They integrated the MMC structure into silicon chips to reduce coolant travel distance, lower pressure, and maintain uniform chip temperature.\n\nTesting on silicon wafers achieved a coefficient of performance (COP) of 106,000 — over 10 times higher than 2020 world-record levels reported in Nature. The breakthrough used only room-temperature water without expensive nanomaterial coatings or diamond substrates.\n\nThe technology requires no additional semiconductor manufacturing equipment, enabling practical commercialization. It's applicable to GPUs and TPUs used in AI data centers. Professor Kim stated that \"thermal management effectiveness matters more than semiconductor performance in the AI era.\"",
+      "published_at": "2026-06-18T05:10:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": null
+    }
+  ]
+}
