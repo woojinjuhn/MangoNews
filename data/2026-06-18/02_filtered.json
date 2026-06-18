@@ -1,0 +1,148 @@
+{
+  "filter_date_kst": "2026-06-18",
+  "kept": [
+    {
+      "id": "12",
+      "title": "81920 Cores Per Rack with AMD EPYC Venice at HPE Discover 2026",
+      "url": "https://www.servethehome.com/81920-cores-per-rack-with-amd-epyc-venice-at-hpe-discover-2026/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AMD EPYC Venice (TSMC 2nm, 256-core, 6th Gen) production ramp at HPE Discover — AMD ecosystem is MangoBoost's strategic core and this defines next-gen HPC/AI server compute architecture."
+    },
+    {
+      "id": "3",
+      "title": "SK hynix ships HBM4E samples, joining Samsung in next-gen AI memory race",
+      "url": "https://www.koreaherald.com/article/10774401",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "HBM4E 12-stack samples to customers — directly feeds NVIDIA Rubin Ultra accelerator platform; HBM is the binding constraint on AI accelerator scaling and central to DPU-adjacent memory/compute economics."
+    },
+    {
+      "id": "14",
+      "title": "HPE's Datacenter Networking Picture Comes Into Clearer Focus",
+      "url": "https://www.nextplatform.com/connect/2026/06/17/hpes-datacenter-networking-picture-comes-into-clearer-focus/5258015",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Juniper/Aruba integration, QFX5250 switch tray for AMD Helios AI servers, AI agents driving 450% more network traffic — directly adjacent to MangoBoost's DPU/SmartNIC space."
+    },
+    {
+      "id": "15",
+      "title": "Nvidia-backed optics vendor to boost wafer output by 4x to meet AI interconnect demand",
+      "url": "https://www.theregister.com/networks/2026/06/17/nvidia-backed-optics-vendor-to-boost-wafer-output-by-4x-to-meet-ai-interconnect-demand/5257909",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA $2B Coherent investment plus $650M expansion (with Lumentum/Marvell parallel investments) — optical interconnect supply chain is critical for AI infrastructure scaling and DPU networking ecosystem."
+    },
+    {
+      "id": "13",
+      "title": "The Server Boom Balances Price Increases Against Chip Shortages",
+      "url": "https://www.nextplatform.com/compute/2026/06/17/the-server-boom-balances-price-increases-against-chip-shortages/5258066",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Q1 2026 IDC server market: accelerator systems 70.2% of revenue, non-X86 hits 47.1% revenue share driven by Arm/Grace — key market structure intel for DPU/AI infrastructure positioning."
+    },
+    {
+      "id": "10",
+      "title": "Anthropic Opens Seoul Office, Partners with Naver, Nexon, LG CNS",
+      "url": "https://www.etnews.com/20260618000002",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Most complete partner roster (Naver, Nexon, LG CNS, Hanwha via AWS Bedrock) plus NAIRL research deal — frontier AI lab landing in Korea reshapes enterprise AI demand including DPU-relevant infrastructure."
+    },
+    {
+      "id": "6",
+      "title": "과기부-앤트로픽, 글로벌 AI 안전·보안 협력 MOU",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211839",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "MSIT-Anthropic government MOU on AI safety/cybersecurity including Korean-language model evaluation and agent red-teaming — sovereign AI policy substance directly relevant to Korean AI infrastructure roadmap."
+    },
+    {
+      "id": "16",
+      "title": "KAIST, \"전력 10분의 1\" 액체 냉각 기술 개발…데이터센터 적용 가능",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211836",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "KAIST silicon-integrated MMC liquid cooling achieves COP 106,000 (10x prior world record) for GPU/TPU AI datacenter thermal management — direct AI infrastructure efficiency breakthrough applicable to GPU/DPU cooling."
+    },
+    {
+      "id": "1",
+      "title": "STT GDC Opens First Data Center in South Korea",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11417",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "STT Seoul 1 (30MW, Tier III, PUE<1.3) as Northeast Asia AI/cloud hub; Korea data center market projected to grow $6.99B→$14.63B by 2031 — Korean AI infrastructure buildout context."
+    },
+    {
+      "id": "7",
+      "title": "메모리 값 폭등에 애플도 백기…\"가격 인상 불가피\"",
+      "url": "https://zdnet.co.kr/view/?no=20260618081155",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Apple capitulates on memory pricing — Cook calls it 'once-in-a-hundred-year flood' from AI server demand; validates magnitude of AI-driven memory squeeze affecting all hardware including DPU/SmartNIC BOM."
+    },
+    {
+      "id": "8",
+      "title": "MS, '코파일럿 코워크' 출시…\"직접 업무하는 에이전트\"",
+      "url": "https://zdnet.co.kr/view/?no=20260618105641",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Microsoft Copilot Cowork agentic AI GA with 50%+ Fortune 500 adoption — substantive AI agent product launch indicating enterprise inference workload growth (DPU-relevant tail demand)."
+    },
+    {
+      "id": "9",
+      "title": "\"밀리초 단위 분석\"…데이터브릭스, '레이크하우스 RT' 베타 출시",
+      "url": "https://zdnet.co.kr/view/?no=20260618110401",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Databricks Lakehouse RT with Raiden engine — 12K QPS sub-100ms designed to serve thousands of AI agents concurrently; AI infra real-time data layer relevant to AI workload patterns."
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Seoul office faces early test as export controls seen easing within days",
+      "url": "https://www.digitaltoday.co.kr/en/view/66935/anthropic-seoul-office-faces-early-test-as-export-controls-seen-easing-within-days",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "English authoritative complement to etnews piece — focused on Project Glasswing (KISA/Samsung/SK Hynix/SK Telecom) Mythos5/Fable5 export controls; sovereign AI access constraints."
+    },
+    {
+      "id": "4",
+      "title": "앤트로픽 서울 사무소 공식 개소...\"수출 통제 리스크 없을 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211840",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Korean briefing angle on Anthropic Seoul launch with Claude usage ranking (12th of 66) and export-control posture — sovereign AI ecosystem context."
+    },
+    {
+      "id": "2",
+      "title": "SK하이닉스, 주요 고객사에 HBM4E 12단 샘플 공급",
+      "url": "https://zdnet.co.kr/view/?no=20260618085052",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Korean-language coverage of HBM4E sample shipments — complementary to Korea Herald primary; same event but Korean source useful for domestic readers (filter_2 will pick best)."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "11",
+      "title": "SK하이닉스, HBM4E 12단 샘플 공급",
+      "discard_reason": "duplicate of article id 3 (Korea Herald) and id 2 (ZDNet KR) — same SK Hynix HBM4E event with least incremental detail among the three Korean/English versions."
+    }
+  ],
+  "summary": {
+    "total_received": 16,
+    "total_kept": 15,
+    "total_discarded": 1,
+    "category_breakdown": {
+      "market": 2,
+      "products": 6,
+      "projects": 5,
+      "challenges": 2,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 2,
+    "by_competitor": {
+      "NVIDIA": 2
+    }
+  }
+}

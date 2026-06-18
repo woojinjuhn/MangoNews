@@ -278,6 +278,30 @@ type: reference
 - `TSMC fab N2 CoWoS expansion roadmap 2026` — surfaced Tom's Hardware June 10
 - `AMD EPYC Venice benchmark Zen 6 NVIDIA Vera 2026` — surfaced Tom's Hardware + Technetbook June 10
 
+## Source notes (2026-06-18 run — single day window, post-#029)
+- **thelec.net (THE ELEC English)**: High-yield — STT GDC Seoul 1 datacenter article (idxno=11417, 00:03 KST). Homepage crawl shows same-day articles with timestamps; best early-morning source for Korean semiconductor/datacenter English coverage.
+- **ZDNet Korea homepage**: 4 confirmed June 18 articles via homepage crawl (HBM4E 12단 samples, Apple memory demand, MS Copilot Cowork, Databricks LakehouseRT). URL pattern /view/?no=202606180NNNNN; range 085052–110400+ for June 18.
+- **AI타임스 articleList.html**: 3 confirmed June 18 articles (Anthropic Seoul opening, KAIST liquid cooling, MoST-Anthropic MOU). All 05:00-11:30 KST. Always first to cover Korean AI policy milestones.
+- **전자신문 (etnews.com)**: 2 confirmed June 18 articles (Anthropic Seoul partnerships 06:07, SK hynix HBM4E 08:41). IDs 20260618000003, 20260618000009.
+- **Korea Herald (koreaherald.com)**: SK hynix HBM4E article (09:16:18 KST). Use JSON-LD from page for precise timestamps. Important for distinguishing Jun 17 vs Jun 18 articles (JH STT GDC article was 14:48 KST June 17 — outside single-day window).
+- **ServeTheHome RSS**: AMD EPYC Venice HPE Discover 2026 article (RSS Jun 18 01:48 UTC = 10:48 KST). Byline said "June 17" but RSS timestamp was June 18 UTC — RSS is canonical for ServeTheHome.
+- **NextPlatform RSS**: 2 confirmed June 18 articles (server boom article 21:03 UTC Jun 17 = 06:03 KST Jun 18; HPE datacenter networking 22:02 UTC Jun 17 = 07:02 KST Jun 18). Feed uses "+0100 BST" offset; convert: subtract 1h for UTC then +9h for KST.
+- **The Register RSS**: NVIDIA-backed optics vendor (Coherent) article (19:12 UTC Jun 17 = 04:12 KST Jun 18). Confirmed via JSON-LD `datePublished`.
+- **DataCenterDynamics RSS**: Feed accessible; articles have June 18 UTC dates but body fetch still returns 403 persistently. Skip body fetch; use headlines only.
+- **Tom's Hardware**: Intel fab roadmap article was client-side rendered (byline showed date only, no time), so JSON-LD datePublished was unavailable. Dropped per hard gate rule.
+- **Tier 1 Korean competitors (Moreh, FriendliAI, HyperAccel, Furiosa, Rebellions)**: Zero articles on June 18 KST in entire run. Last notable coverage: Rebellions/Furiosa — June 12-16; HyperAccel/Moreh — older. Normal for a single-day window.
+- **HPCwire**: 403 again. Persistent — skip.
+- **DeepSeek blacklist story (thenextweb.com)**: Published Jun 17 09:57 UTC = Jun 17 18:57 KST — outside Jun 18 window. Taipei Times version dated Jun 18 was found but body not extractable.
+
+## Query patterns (2026-06-18 run)
+- `SK하이닉스 HBM4E 12단 샘플 공급 2026년 6월 18일` — surfaced ZDNet Korea + 전자신문 + Korea Herald triple coverage
+- `Anthropic Seoul office opening Korea AI June 18 2026` — surfaced AI타임스, 전자신문, DigitalToday.co.kr/en
+- `HPE Discover 2026 datacenter AMD EPYC networking June 18 2026` — surfaced ServeTheHome (EPYC Venice), NextPlatform (HPE networking), NextPlatform (server boom pricing)
+- `Coherent optics NVIDIA photonics wafer capacity June 2026` — surfaced The Register (Jun 18 04:12 KST)
+- `MS Copilot Cowork collaborative AI agent June 18 2026` — surfaced ZDNet Korea
+- `Databricks LakehouseRT real-time inference June 2026` — surfaced ZDNet Korea
+- `STT GDC Korea data center launch Seoul June 2026` — surfaced thelec.net 00:03 KST
+
 ## Query patterns (2026-05-06 run)
 - `Broadcom AI custom ASIC XPU news May 2026` — surfaced NextPlatform 5/5 Broadcom 3.5D article + Motley Fool analysis
 - `Astera Labs CXL PCIe connectivity AI infrastructure news May 2026` — surfaced GlobeNewswire Scorpio X-Series 320-lane announcement + Q1 results
