@@ -1,0 +1,119 @@
+{
+  "collection_date_kst": "2026-06-19",
+  "run_summary": {
+    "total": 9,
+    "by_topic": {
+      "ai": 3,
+      "semiconductor": 3,
+      "datacenter": 3,
+      "competitor": 0
+    },
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Tenstorrent": 0,
+      "Marvell": 0,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Moreh": 0,
+      "Napatech": 0
+    },
+    "competitor_tagged_total": 2,
+    "sources_consulted": 18,
+    "skipped_paywalled": 3,
+    "notes": "수집 윈도우: 2026-06-19 KST 단 하루 (마지막 이슈 2026-06-18). PDT 기사들은 +9h 변환 후 06-19 KST에 해당하는 것만 포함. SK Hynix HBM4E 기사들(thenextweb, korea herald)은 Jun 18 KST 발행이거나 이미 published_urls에 등록되어 제외. FERC 그리드 주제 2건(TechCrunch, TheNextWeb) 포함 — 각각 독립 관점 (규제 정책 vs 전력 공급 모순). Tom's Hardware Chinese Memory 기사: article body 미추출(paywall/JS), 제외. Google Brazos 기사(Jun 17), Qualcomm-Tenstorrent Register (Jun 16), FriendliAI GLM-5.2 (Jun 17), NVIDIA HPE blog (Jun 16) 모두 윈도우 밖 제외. semianalysis.com RSS 2025년 9월 데이터 반환 — 피드 broken. spectrum.ieee.org 및 wired.com 해당 기간 기사 없음 또는 접근 불가. Tier 1 경쟁사(Moreh, FriendliAI, HyperAccel, Furiosa, Rebellions) June 19 단일일 기사 없음. Tier 2 중 Amazon Trainium 1건 태그. 뉴스 볼륨이 적은 이유: 수집 윈도우가 하루뿐이고 이전일(06-18) 기사 다수가 published_urls에 이미 등재되어 있음."
+  },
+  "articles": [
+    {
+      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "body": "Amazon Web Services is exploring the sale of its Trainium AI chips to other companies and data centers, according to AWS AI chief Peter DeSantis. This represents a significant shift in strategy, as the company has historically kept chips for internal use.\n\nCEO Andy Jassy indicated in his April shareholder letter that if AWS's chip business operated independently, it could generate approximately \"$50 billion in annual run rate,\" positioning it as a major competitor to Nvidia's current $326 billion revenue trajectory.\n\nThe move presents operational challenges. AWS has previously reported that Trainium chip capacity sells out rapidly, with even future generations like Trainium4 fully allocated. Manufacturing constraints exist, particularly given Nvidia's dominant position with TSMC, the primary foundry partner.\n\nJassy framed the opportunity strategically: \"If our chips business was a standalone business...our annual run rate would be ~$50 billion.\" However, AWS traditionally profits from ancillary services—storage, security, networking—alongside chip sales, creating tension between direct chip sales and existing revenue models.\n\nThis initiative directly counters Nvidia's expansion into CPU manufacturing beyond GPUs, expanding the competitive battlefield in AI infrastructure.\n\nAmazon is reportedly targeting Europe's 'sovereign cloud' demand—where companies require local control of computing resources—for this external sales initiative. Regarding concerns about cannibalizing AWS business, DeSantis stated there is 'far too much underconsumption in the AI sector.'\n\nWith $225 billion in sales commitments from clients including OpenAI and Anthropic, and costs 80% lower than Nvidia's H100, this is the most direct challenge to Nvidia's monopoly yet. Amazon shares gained as much as 2.5% on Thursday, reaching an intraday high of $243 on the news.",
+      "published_at": "2026-06-19T03:22:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AI data centers just got a government-mandated fast lane to the grid",
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+      "body": "The Federal Energy Regulatory Commission (FERC) directed six major grid operators to fast-track interconnection requests from data centers and other large electricity users. Under these orders, data centers must be \"able to connect to the transmission system in a timely and orderly manner,\" with data centers covering interconnection costs. The commission unanimously approved the directives.\n\nFERC also encouraged grid operators to consider \"alternative transmission technologies\" such as solid-state transformers or superconducting transmission lines. Grid operators must submit reports within 30 days detailing available generating capacity and within 60 days to \"defend or revise\" regional electricity rates. They're also directed to be more accommodating to behind-the-meter power solutions for data centers.\n\nHowever, the directives don't address the underlying shortage of generating capacity. Power plant connection requests exceeded total existing capacity at the end of 2023. Data center electricity demand is expected to nearly triple through 2035, straining grid operators unprepared for such growth.\n\nWholesale electricity rates have increased up to 267% compared with five years ago. The Trump administration simultaneously canceled offshore wind leases valued at $2.6 billion combined, redirecting investments toward natural gas and geothermal projects instead.\n\nNVIDIA welcomed the action, arguing that AI factories, semiconductor support systems and advanced manufacturing facilities need faster routes to electricity supply while also helping to fund grid upgrades, add generation and operate more flexibly. NVIDIA is partnering with Emerald AI to develop flexible AI facilities designed as 'grid assets' that bring their own generation and stabilize local power systems.",
+      "published_at": "2026-06-19T02:49:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "body": "Baseten, an AI inference company, is nearing completion of a $1.5 billion funding round at a $13 billion valuation, according to Wall Street Journal reporting. This comes just five months after the startup raised $300 million in Series E funding at a $5 billion valuation, and nine months following a $150 million Series D round.\n\nThe latest round represents a 160% valuation increase in under six months. However, this utilizes a split-priced structure where some investors participate at $13 billion while others at $11 billion—a tactic used to enhance headline valuations. Co-leaders include Spark Capital, Sands Capital, Altimeter Capital, and Wellington Management.\n\nFounded in 2019, Baseten capitalizes on what observers call the \"inference gold rush,\" where venture capital flows toward companies building inference infrastructure. The platform handles post-prompt model processing efficiently by routing requests to optimal models, including cost-effective open-source alternatives.\n\nThe funding round reflects surging investor interest in AI inference infrastructure as the market shifts from training-focused investments to serving inference workloads at scale. Baseten's growth mirrors broader trends where AI inference platforms have become critical bottlenecks in enterprise AI deployment.",
+      "published_at": "2026-06-19T06:20:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "FERC orders a fast lane for data centre grid connections, but the electricity to fill them is another matter",
+      "url": "https://thenextweb.com/news/ferc-data-centre-grid-fast-lane-ai",
+      "body": "The Federal Energy Regulatory Commission issued a unanimous directive requiring six major grid operators to expedite data centre interconnection requests. Under this order, grid operators must demonstrate that data centres can \"connect to the transmission system in a timely and orderly manner.\" Data centres will bear their own interconnection costs, while operators are encouraged to explore alternative transmission technologies like solid-state transformers and superconducting lines.\n\nThe directive addresses a critical bottleneck in grid access. By late 2023, pending power plant connection requests exceeded the existing grid's total capacity, creating backlogs longer than the infrastructure could theoretically support. Grid operators now have 30 days to report spare capacity and 60 days to justify or adjust regional electricity rates.\n\nHowever, the orders do not address electricity supply shortages. On the same day, the Trump administration paid $765 million to cancel four offshore wind leases near California, Maine, and New York. One cancelled project would have generated up to 2.4 gigawatts—sufficient capacity to power approximately 1.8 million homes at peak output.\n\nEnergy Secretary Chris Wright emphasized in October that connection delays threatened U.S. AI competitiveness. Data centre electricity demand is projected to nearly triple through 2035, with wholesale rates surging up to 267% compared to five years ago.\n\nThe central tension remains unresolved: federal regulators mandate faster data centre grid access while simultaneously dismantling renewable energy sources that could supply them.",
+      "published_at": "2026-06-19T03:36:00+09:00",
+      "source": "The Next Web",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "아마존, AI칩 '트레이니엄' 외부 판매 추진…\"엔비디아 시장 지배력 줄인다\"",
+      "url": "https://www.etnews.com/20260619000005",
+      "body": "아마존은 엔비디아(Nvidia)에 대한 의존도를 줄이려는 기업들을 대상으로 자체 인공지능(AI) 칩을 아마존웹서비스(AWS) 외부에 판매하는 방안을 추진 중이다.\n\n블룸버그에 따르면 아마존은 자체 개발한 AI 반도체를 외부 기업 데이터센터에 직접 판매하는 방안을 협상 중이다. 아마존의 AI 사업을 총괄하는 피터 드산티스(Peter DeSantis) 부사장은 인터뷰에서 트레이니엄 칩 구매에 관심 있는 잠재 고객과 논의를 시작했다고 밝혔다.\n\n트레이니엄은 2020년 출시 이후 오픈AI, 앤트로픽, 우버 테크놀로지스 등이 AWS를 통해 활용해왔다. 아마존에 따르면 이들 칩이 창출한 매출 약정액은 지난 4월 기준 2250억달러(약 3240조원)를 넘어섰다.\n\n올해 초부터 고객사에 공급되기 시작한 3세대 트레이니엄 칩은 이미 대부분 판매 완료됐으며, 내년 출시 예정인 4세대 버전에도 조기 관심이 쏠리고 있다고 회사는 밝혔다.\n\n앤디 재시 최고경영자(CEO)는 지난 4월 주주서한에서 아마존이 잠재적으로 자사 칩을 제3자에게 판매할 수 있다고 시사한 바 있다. 회사는 기업들이 컴퓨팅 자원에 대한 로컬 통제를 요구하는 유럽의 '소버린 클라우드' 수요를 이번 외부 판매 이니셔티브의 주요 대상으로 삼고 있는 것으로 알려졌다.",
+      "published_at": "2026-06-19T07:26:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "메타, 크루소 에너지와 AI 데이터센터 계약…1.6GW 용량 확보",
+      "url": "https://www.etnews.com/20260619000008",
+      "body": "메타(Meta)가 데이터센터 개발업체 크루소 에너지(Crusoe Energy)와 AI 컴퓨팅 역량 확보를 위한 계약을 체결했다. 메타는 크루소가 운영하는 두 곳의 데이터센터에서 AI 컴퓨팅 용량을 구매하기로 했다.\n\n블룸버그에 따르면 해당 데이터센터는 텍사스주 차일드레스와 미주리주 워렌턴에 위치한다. 두 시설을 합산하면 메타는 약 1.6기가와트(GW)의 전력 용량을 확보하게 되며, 이는 미국 가정 약 75만 가구에 동시 전력을 공급할 수 있는 규모다.\n\n회사 측은 구체적인 투자 금액이나 컴퓨팅 용량 공급 일정은 공개하지 않았다.\n\n2018년 설립된 크루소 에너지는 AI 워크로드에 최적화된 대규모 데이터센터를 개발·운영하는 기업이다. 이번 파트너십은 메타가 AI 인프라 확보에 공격적으로 나서는 전략과 맞닿아 있다.\n\n메타는 동시에 루이지애나주에 약 166평방킬로미터 규모의 거대 데이터센터 캠퍼스를 건설 중이며, 이 시설은 최대 5GW의 전력 용량을 갖출 예정이다. 이 소셜미디어 기업은 향후 수년간 AI 인프라에 최소 6000억달러(약 864조원)를 투자하겠다고 공개적으로 밝혔다.",
+      "published_at": "2026-06-19T08:00:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "롯데화학군, 반도체 클러스터 겨냥…평택에 핵심소재 공장 착공",
+      "url": "https://zdnet.co.kr/view/?no=20260619083612",
+      "body": "롯데화학군 계열사 한덕화학이 19일 경기도 평택시 포승읍에 반도체·디스플레이용 광레지스트 현상액(TMAH) 생산 시설 착공식을 진행했다.\n\nTMAH는 반도체·디스플레이 포토리소그래피 공정에 사용되는 핵심 소재다. 회사는 약 3만2216㎡ 부지에 약 1300억원을 투자해 생산 시설을 건립할 계획이다.\n\n한덕화학은 반도체용 광레지스트 현상액 생산 능력에서 글로벌 1위를 차지하며, 국내 유일 국산 생산 기업이다. 1995년 롯데파인케미칼과 일본 도쿠야마코퍼레이션이 50대 50 지분으로 설립한 합작회사다.\n\n이번 평택 시설은 기존 울산 공장과 함께 이원화 생산 거점 역할을 담당하게 된다. 이원화 전략은 글로벌 공급 불안정성에 대응하고 물류 효율과 공급 대응력을 높이기 위한 것이다.\n\n착공식에는 롯데그룹 경영진과 지자체 관계자 등 약 70여명이 참석했다.",
+      "published_at": "2026-06-19T08:45:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "[6월18일] 반도체 다음은 AI 모델...G7서 떠오른 '접근권 외교'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211859",
+      "body": "G7 정상회의에서 첨단 AI 모델이 단순 기술 자산이 아닌 핵심 지정학적 쟁점으로 부상했다. 트럼프 대통령은 주요 미국 AI 기업 경영진을 대동해 참석함으로써 이 분야의 전략적 중요성을 드러냈다.\n\n핵심 쟁점은 앤트로픽(Anthropic)의 최신 AI 모델이었다. 미국 정부는 최근 이 시스템에 대한 수출 제한 조치를 부과했고, 이로 인해 외교적 긴장이 고조됐다. 프랑스 에마뉘엘 마크롱 대통령은 '하룻밤 사이에 켰다 껐다 할 수 있는 모델은 절대 구매하지 않겠다'고 밝히며 미국이 통제하는 AI 인프라에 대한 유럽의 불안감을 표출했다.\n\n논의는 '신뢰 파트너(Trusted Partners)' 프레임워크 수립에 초점이 맞춰졌다. 이 방식은 동맹국과 승인된 기업에 고급 모델에 대한 우선 접근권을 부여하는 구조다. EU 집행위원회 위원장 우르줄라 폰 데어 라이엔은 책임 있는 AI 배포를 지지했고, 기술 담당 위원 헤나 비르쿠넨은 차별적 조치를 피해야 한다고 강조했다.\n\n이번 전환은 근본적인 변화를 상징한다. 프런티어 AI 모델이 기술 혁신에서 반도체 수출 통제와 비견되는 지정학적 레버리지 수단으로 탈바꿈했다는 것이다. 미국의 전략은 중국에 대한 기술 우위를 유지하면서 AI 접근권을 동맹국 간 외교적 협상 카드로 활용하는 방향으로 보인다.\n\n'AI 접근권 외교'라는 새로운 패러다임이 형성되면서, 어떤 국가가 '신뢰 파트너'로 지정되느냐가 새로운 지정학적 카테고리가 될 수 있다는 우려도 제기되고 있다.",
+      "published_at": "2026-06-19T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "구글이 선보이는 '안드로이드 17'… AI 기능 어떤지 봤더니",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211878",
+      "body": "구글이 안드로이드 17을 공식 출시하며 '제미나이 옴니(Gemini Omni)'와 'Llaria 3' 기술을 통해 강화된 AI 경험을 강조했다. 안드로이드 17은 기기 내 AI 처리 능력을 크게 강화하고, 온디바이스와 클라우드 AI를 자연스럽게 연결하는 방향으로 설계됐다.\n\n구글은 안드로이드 17과 함께 제미나이 옴니 통합을 대폭 확대해 스마트폰 사용자가 보다 자연스러운 대화형 AI 인터페이스를 활용할 수 있도록 했다. Llaria 3 모델은 기기 내 경량 추론에 최적화되어 온디바이스 처리를 가능하게 한다.\n\n안드로이드 17의 주요 AI 기능으로는 실시간 번역 및 요약 강화, 화면 내용을 이해하고 작업을 수행하는 에이전틱 AI 기능, 카메라와 통합된 시각 AI 분석, 개인화된 AI 비서 기능 등이 포함됐다.\n\n이번 출시는 구글이 모바일 환경에서 온디바이스 AI와 클라우드 AI의 시너지를 극대화하려는 전략의 일환으로, 엣지 AI 반도체 및 추론 효율화에 대한 수요를 더욱 높일 것으로 관측된다.",
+      "published_at": "2026-06-19T06:55:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}
