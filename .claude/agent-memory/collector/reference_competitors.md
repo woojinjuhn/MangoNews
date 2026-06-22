@@ -254,3 +254,13 @@ type: reference
 - NVIDIA Vera Rubin platform: BlueField-4 DPU (64-core, 800Gbps ConnectX-9) integral component; available H2 2026
 - AMD Pensando Silina 400 DPU (3rd gen) in Helios rack; Pollara 400 AI NIC in Oracle Cloud partnership
 - Cerebras IPO: S-1 filed April 17 2026; CBRS; $23B valuation; mid-May Nasdaq listing target
+
+## June 19-22 2026 update — competitor developments (4-day weekend window)
+- **Marvell**: Officially joined S&P 500 on June 22 (replacing Juniper Networks after HPE acquisition). Announcement from S&P Dow Jones Indices on June 5/6; stock appreciation ~+7% on announcement. Confirmed within window: June 21 TIKR.com analysis article collected. Story context: S&P 500 inclusion triggers passive fund buying (ETFs) estimated $5-8B inflow. Also: Marvell-Google custom AI chip talks ongoing (MPU + inference TPU, 2 chips), not yet signed.
+- **Amazon (Trainium)**: Amazon confirmed Trainium chips now available for external customers (not just AWS-internal) — first time; announcement tied to broader hyperscaler-custom-silicon-as-product trend. Source: AI타임스 June 20. aitimes.com/211938 collected.
+- **ARD (Asynchronous Request/Dispatch) standard**: Google + Microsoft jointly proposed new AI accelerator communication standard to replace RDMA for AI training; targeted as complement/alternative to Ultra Ethernet Consortium standards. Significant for DPU/SmartNIC offload implications (MangoBoost direct relevance). Collected via aitimes.com.
+- **NVIDIA**: No standalone June 19-22 press releases from newsroom. Appeared as secondary in collected Everpure/datacenter article. Next major NVIDIA event: Vera Rubin platform GA (H2 2026 per roadmap).
+- **Qualcomm + Tenstorrent**: No new in-window (June 19-22) coverage found. Original Bloomberg story (May 18) still source; last Korea coverage in published_urls via digitaltoday (issue #023). Qualcomm Investor Day June 24 is next catalyst — expected acquisition update and Dragonfly product details.
+- **Rebellions**: Mentioned as secondary subject in KED Global "Korean AI unicorns attract investors" article (June 19, collected). No standalone Rebellions-specific June 19-22 article found.
+- **Moreh, FriendliAI, HyperAccel, Furiosa, Napatech**: No standalone June 19-22 articles found after exhaustive English + Korean search (12+ queries each Tier 1 Korean competitor).
+- **DEEPX**: Watch — included in IITP AX 2.0 as 4th Korean NPU alongside Rebellions/Furiosa/HyperAccel (June 17 update); may emerge as competitor to tag in future issues.
