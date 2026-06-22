@@ -1,5 +1,6 @@
 - [메인셋 dedup — content overlap + same-event + ongoing saga cap](feedback_main_set_dedup.md) — 같은 회사·같은 비트 겹치면 약한 쪽 drop; ETNews 동일 사건 op-ed/심층 중 1개만; multi-day saga는 메인 1+보완 1로 cap
 - [Registry 재확인 — collector dedup 실패 대비](feedback_check_registry_for_dupes.md) — Stage-2가 published_urls.jsonl을 다시 확인하는 마지막 방어선; 정확 URL 매칭으로 drop
+- [Restart after aborted same-day run — clean registry tail](feedback_restart_after_aborted_run.md) — 같은 issue_date_kst 행이 registry에 있지만 sent_log에 없으면 aborted run 잔여; dedup 적용 금지·tail 재작성
 - [Competitor 기사는 main + competitor 양쪽 허용](feedback_competitor_overlap_in_main.md) — competitor != null이 top-8급이면 둘 다에 포함; designer가 dedup; main_competitor_overlap_count 추적
 - [Stale published_at = drop, demote 아님](feedback_stale_date_drop_not_demote.md) — recency window 밖이면 메인/헤드라인/competitor 어디에도 안 넣음; "recycled context"라는 rationalization이 tell
 - [User-specified main_cap이 동적 공식 override](feedback_user_override_main_cap.md) — 프롬프트에 "최대 N개" 명시되면 동적 공식값보다 우선; selection_notes에 둘 다 기록
