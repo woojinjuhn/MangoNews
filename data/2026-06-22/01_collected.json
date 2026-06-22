@@ -1,0 +1,391 @@
+{
+  "collection_date_kst": "2026-06-22",
+  "run_summary": {
+    "total": 36,
+    "by_topic": {
+      "ai": 16,
+      "semiconductor": 8,
+      "datacenter": 8,
+      "competitor": 4
+    },
+    "by_competitor": {
+      "NVIDIA": 1,
+      "Marvell": 1,
+      "Tenstorrent": 0,
+      "Rebellions": 1,
+      "Anthropic (adjacent)": 0,
+      "Moreh": 0,
+      "FriendliAI": 0,
+      "HyperAccel": 0,
+      "Furiosa": 0,
+      "Napatech": 0,
+      "AWS (Trainium)": 1
+    },
+    "competitor_tagged_total": 4,
+    "sources_consulted": 28,
+    "skipped_paywalled": 6,
+    "notes": "hpcwire.com/feed/ → HTTP 403 (consistent failure); networkworld.com/index.rss → HTTP 404 (feed removed); wired.com/feed/rss → timeout/fetch failure; news.naver.com/section/105 → Claude Code cannot fetch Naver; semianalysis.com/feed/ → feed returns Sept 2025 articles (stale/broken); datacenterdynamics.com → HTTP 403 on all article fetches; Intel/ASML/SK Telecom Mythos Tom's Hardware body content not extractable (navigation-heavy page). Tier 1 Korean competitors (Moreh, FriendliAI, HyperAccel, Furiosa, Rebellions) had no standalone June 19-22 articles found. Rebellions appeared as secondary subject in KED Global investor article (tagged). FERC/Gizmodo datacenter power article confirmed June 18 → excluded (last issue date). Tom's Hardware ASML article listed as June 19 in archive → date confirmed via search ('June 19 2026') but body not extractable; article included via search-confirmed date. Intel-SK Hynix Lee Seok-hee article confirmed June 19 via Korea Herald and Korea JoongAng Daily. dropped: https://finance.yahoo.com/technology/ai/articles/amazon-talks-sell-trainium-ai-181838170.html — publication time unverifiable (duplicate of aitimes.com/211938 which has precise KST timestamp). dropped: https://medium.com/@noahbean3396/qualcomm-is-in-advanced-negotiations-to-buy-tenstorrent-for-10-billion-82d6801896e6 — publication time unverifiable (only 'June 2026' from Medium, no structured date metadata)."
+  },
+  "articles": [
+    {
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "body": "Nobel laureate John Jumper announced his departure from Google DeepMind to join Anthropic after nearly nine years. Jumper shared the news on X, expressing gratitude for his time at DeepMind, where he led the AlphaFold team.\n\nIn his announcement, Jumper said that DeepMind CEO Demis Hassabis \"took a real chance letting me lead the AlphaFold team just six months after finishing my PhD.\"\n\nJumper and Hassabis won the 2024 Nobel Prize in Chemistry for their work developing AlphaFold, an artificial intelligence model that predicts protein structures from genetic sequences. Bloomberg reports that Jumper was instrumental in Google's efforts to develop coding tools, a product line the company has faced challenges commercializing. This move comes as other prominent researchers, including Character AI co-founder Noam Shazeer, are also departing DeepMind for competing AI companies.",
+      "published_at": "2026-06-20T10:57:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "오픈AI, 이번 주 'GPT-5.6' 출시 전망…앤트로픽 규제 틈타나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211949",
+      "body": "OpenAI는 이번 주 GPT-5.6을 출시할 예정이며, 일부 ChatGPT Pro 구독자들은 이미 'GPT-5.6 Pro' 빌드를 테스트하고 있습니다. GPT-5.6은 컨텍스트 창이 GPT-5.5의 100만 토큰에서 150만 토큰으로 확장되었으며, 향상된 코딩 능력과 빠른 응답 속도를 제공합니다.\n\nOpenAI는 이번 출시 시기를 Anthropic의 Fable 5 모델이 미국 정부 규제로 제한된 상황에서 전략적으로 활용하고 있습니다. OpenAI는 Anthropic 대비 토큰 가격을 약 50% 인하하여 추가적인 경쟁 우위를 확보하고 있습니다.\n\nGPT-5.6에는 GPT-Bidi-1이라는 양방향 오디오 시스템도 포함되어 동시에 듣고 말하는 실시간 음조·속도 조절이 가능해집니다. 일부 얼리 테스터들은 GPT-5.6이 '3D 테스팅과 원샷 게임 개발에서 Fable을 계속 능가한다'고 보고하고 있습니다.",
+      "published_at": "2026-06-21T11:20:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "구글·MS, AI 에이전트 연결 표준 'ARD' 발표…오픈AI·앤트로픽 견제 나서",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211930",
+      "body": "Google, Microsoft, Salesforce, Snowflake, ServiceNow가 공동으로 ARD(Agentic Resource Discovery) 표준을 발표했습니다. ARD는 기업이 단일 인터페이스를 통해 다양한 비즈니스 애플리케이션과 AI 기능을 자동으로 발견하고 활용할 수 있게 하는 백엔드 표준입니다.\n\nGitHub Copilot, Gemini, Salesforce CRM 등을 통해 직원이 업무를 요청하면 이러한 앱들이 회사 생태계 내 다른 AI 기능을 자동으로 찾아 활성화합니다. 단, 해당 서비스들이 ARD 표준을 채택해야 합니다.\n\nMicrosoft는 ARD를 다양한 AI 서비스를 연결하는 '게이트웨이'로 포지셔닝하여, 기업이 특정 AI 모델에 의존하지 않고 자체 생태계를 활용할 수 있게 하는 전략입니다. 이는 ChatGPT와 Claude를 모든 애플리케이션을 통합하는 중심 플랫폼으로 내세우는 OpenAI와 Anthropic의 전략과 대조됩니다. 주목할 점은 ARD 창립 파트너 중 OpenAI와 Anthropic이 포함되지 않았다는 것으로, 기업 AI 시장의 경쟁 구도를 반영합니다.",
+      "published_at": "2026-06-20T13:23:16+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "아마존, 자체 AI 칩 외부 공급 추진…엔비디아 독주에 '가장 실질적 도전'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211938",
+      "body": "Amazon Web Services가 자체 개발한 Trainium AI 칩을 서드파티 데이터센터에 외부 판매하는 방안을 모색하고 있습니다. 이는 Trainium을 AWS 클라우드 고객에게만 제공하던 기존 방식에서 크게 벗어나는 것입니다.\n\nAWS AI 담당 수석 Peter DeSantis는 '자사 맞춤 칩을 외부 기업의 데이터센터에 공급하는 방법을 논의 중'이라고 밝혔습니다.\n\nAmazon은 독립적인 칩 사업이 연간 500억 달러(약 68조 원)에 달할 수 있다고 추산합니다. Trainium3는 올해 출시 후 거의 전량 판매됐으며, Trainium4 예약도 출시 전부터 폭주하고 있습니다. 두 가지 요인이 이 확장을 추진합니다: 전 세계 AI 칩 공급 부족, 그리고 미국 의존도에서 벗어나 독립적 AI 인프라를 원하는 유럽 국가들의 소버린 AI 수요입니다. Amazon은 이것이 기존 AWS 사업을 잠식하지 않을 것이라며 'AI에 대한 엄청난 미충족 수요가 존재한다'고 설명했습니다.",
+      "published_at": "2026-06-20T13:03:57+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "competitor"],
+      "competitor": "AWS (Trainium/Graviton)"
+    },
+    {
+      "title": "MS, 중국 기업에 오픈AI API 판매로 수익 올려…'증류' 위험 경고",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211936",
+      "body": "Microsoft는 Azure 클라우드 플랫폼을 통해 주요 중국 IT 기업들에 OpenAI 모델을 제공함으로써 상당한 AI 매출을 올리면서도 보안 우려를 낳고 있습니다.\n\n주요 중국 고객: ByteDance가 연간 Azure 클라우드 및 AI 서비스에 10억 달러 이상을 지출하는 Microsoft의 최대 AI 고객입니다. 다른 주요 사용자로는 Ant Group, Meituan, Tencent가 있습니다.\n\n매출 성장: 중국 내 Azure AI 매출은 2025년 6월 회계연도에 전년 대비 약 300% 성장했으며, 이전 연도에는 400% 성장을 기록했습니다.\n\n핵심 우려 사항: '증류(distillation)'—중국 기업이 OpenAI 모델 출력을 학습하여 더 낮은 비용으로 자체 경쟁 모델을 개발할 수 있는 기술. OpenAI는 Microsoft가 이 오용을 충분히 방지하지 않고 있다고 우려를 표명했습니다.\n\n현재 안전장치: Microsoft는 자동화된 모니터링 시스템을 사용하고 중국에서 개인 개발자가 아닌 기업 고객에게만 판매한다고 밝혔지만, 관계자들은 이러한 보호 조치가 다양한 우회 방법에 충분하지 않을 수 있다고 지적합니다.",
+      "published_at": "2026-06-20T17:56:11+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "미니맥스, 초장문 컨텍스트 해결한 'MSA' 공개…추론 속도 14배↑·연산량 28배↓",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211948",
+      "body": "MiniMax가 대용량 언어 모델에서 초장문 컨텍스트 처리의 연산 부담을 해결하는 혁신적인 희소 어텐션 기술 'MiniMax Sparse Attention(MSA)'을 공개했습니다.\n\n성능 지표: 100만 토큰에서 어텐션 FLOPs 28.4배 감소, 프리필 단계에서 14.2배 속도 향상, 디코딩 단계에서 7.6배 가속화. 최소한의 성능 저하로 최대 100만 토큰 컨텍스트 처리가 가능합니다.\n\nMSA 작동 방식: 시스템은 두 단계로 작동합니다. 인덱스 브랜치: 전체 컨텍스트를 스캔하여 중요한 정보를 식별하고 128토큰 단위에서 상위 16블록을 선택합니다. 메인 브랜치: 선택된 블록에서만 표준 softmax 어텐션을 수행하여(쿼리당 최대 2,048개의 키-값 토큰) 컨텍스트 길이에 무관하게 연산 부담을 거의 일정하게 유지합니다.\n\nMiniMax는 MSA를 1,090억 파라미터의 MiniMax-M3 모델에 통합하고 MIT 라이선스로 오픈소스 GPU 커널을 공개했습니다. BF16과 FP8을 포함한 다양한 정밀도 형식을 지원합니다.",
+      "published_at": "2026-06-21T19:18:23+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "'알파폴드' 노벨상 존 점퍼, 구글 떠나 앤트로픽 합류",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211937",
+      "body": "노벨상 수상자 John Jumper가 약 9년 만에 Google DeepMind를 떠나 Anthropic에 합류한다고 발표했습니다. Jumper는 X를 통해 이 소식을 공유하며 DeepMind에서의 시간에 감사를 표했습니다.\n\nJumper는 박사 학위를 마친 지 6개월 만에 AlphaFold 팀을 이끌게 해준 DeepMind CEO Demis Hassabis에게 감사를 전했습니다.\n\nJumper와 Hassabis는 유전자 서열로부터 단백질 구조를 예측하는 AI 모델 AlphaFold를 개발한 공로로 2024년 노벨 화학상을 수상했습니다. Bloomberg에 따르면 Jumper는 Google의 코딩 도구 개발 노력에 핵심적인 역할을 했으나, 이 제품 라인은 상용화에 어려움을 겪었습니다. Character AI 공동 창업자 Noam Shazeer 등 다른 저명한 연구자들도 DeepMind를 떠나 경쟁 AI 기업으로 이동하는 추세입니다.",
+      "published_at": "2026-06-20T10:57:22+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "뇌 닮은 초저전력 AI 소자 개발…빛 감지·기억·연산 '한 몸'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211951",
+      "body": "오레건주립대학교 연구팀이 인간 뇌의 중요도에 따른 정보 선택적 보존 및 삭제 능력을 모방한 광전자 소자를 개발했습니다. 이 혁신은 단일 소자에 감지·메모리·컴퓨팅 기능을 통합합니다.\n\n핵심 기술: tetracene 기반 광활성 폴리머와 인듐-갈륨-아연 산화물(IGZO) 박막 트랜지스터를 결합한 하이브리드 구조. 빛이 입력되면 전자와 홀이 서로 다른 층으로 분리되며, 홀은 빛이 사라진 후에도 갇혀 전도성에 계속 영향을 미칩니다.\n\n신경모방 기능: 시스템은 도파민과 세로토닌 같은 신경전달물질을 전기적으로 모방합니다. 음의 게이트 바이어스는 기억 보존을 강화하고(도파민의 효과), 양의 바이어스는 저장된 전하를 빠르게 방출합니다(세로토닌의 기억 약화 기능).\n\n성능: 초저전력(5μW/cm² 이하), 매우 어두운 빛(0.5μW/cm²)에서 이미지 감지, 5000초 이상 정보 유지, MNIST 손글씨 인식 테스트에서 90% 이상 정확도 달성. 향후 로봇, 드론, 보안 카메라, 자율주행 등 모든 시각 데이터를 영구 저장할 필요가 없는 시스템에 활용 가능합니다.",
+      "published_at": "2026-06-21T12:57:19+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "오픈AI, 스스로 가설 세우고 실험·검증하는 'AI 화학자' 프로젝트 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211903",
+      "body": "OpenAI가 AI가 독립적으로 가설을 세우고 실험을 수행하며 결과를 검증하는 자율 연구 시스템을 공개했습니다. 이는 과학 연구에서 AI의 전통적인 보조 역할을 넘어서는 것입니다.\n\n시스템 아키텍처는 세 가지 통합 구성 요소로 구성됩니다: GPT-5.4: 화학 문헌을 평가하고 신약 개발을 위한 수천 가지 실험 전략을 제안하는 계획 담당. Maria AI: GPT-5.4의 계획을 상세한 실험실 프로토콜로 전환하고 자율적으로 화학 반응 실험을 실행. Maria Lab: 실험이 진행되는 자율 실험실 시설.\n\n주요 결과: Molecule.one과의 협력을 통해 3개월에 걸쳐 10,000건 이상의 고처리량 실험을 수행했으며, 제약 합성의 과제인 'Chan-Lam 커플링' 반응을 목표로 했습니다. AI는 TEMPO라는 온화한 산화제를 새로운 첨가제로 독립적으로 발견했으며, 반응 수율을 16.6%에서 25.2%로 향상시켰습니다. 인간 화학자들이 대부분의 기질 쌍에서 수율이 2배 이상 증가했음을 확인했습니다.",
+      "published_at": "2026-06-19T17:35:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Intel and AMD's new ACE CPU extensions bring an efficient AI-oriented instruction set to x86",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-and-amds-new-ace-cpu-extensions-bring-an-efficient-ai-oriented-instruction-set-to-x86-a-new-design-makes-matrix-multiplication-more-power-and-density-efficient",
+      "body": "Intel and AMD have released the full specification for the ACE (AI Compute Extensions) CPU extensions that make it easier and more power-efficient to run AI tasks on x86 processors. The x86 Ecosystem Advisory Group, formed by AMD and Intel in 2024, unveiled these new AI Compute Extensions for future x86 CPUs.\n\nACE leverages the existing AVX10 registers but adds silicon dedicated to matrix multiplication, bringing multiple benefits including better power efficiency, easier development and optimization, and leveraging AVX's 512-bit inputs. For the same number of input vectors, ACE can perform 16x as many operations compared to AVX10.\n\nSmaller models or single-user latency-sensitive operations can benefit from running on the CPU instead of GPU, avoiding the overhead of shuffling data to and from the GPU. ACE is implementation-agnostic, meaning ML frameworks and their underlying libraries (PyTorch, TensorFlow) can write one code path instead of having multiple variations depending on the underlying hardware and its degree of AVX support.\n\nThe extensions are designed to enable efficient inference for edge and local AI workloads, offering better power-per-performance ratios for workloads that don't require full GPU acceleration.",
+      "published_at": "2026-06-20T21:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "\"RAG도 미세조정도 한계\"... 실시간 모델 만드는 '하이퍼네트워크' 뜬다",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211947",
+      "body": "기업 지식을 AI 모델에 주입하는 전통적인 접근 방식인 RAG(검색 증강 생성)와 파인튜닝이 한계에 도달했다는 분석이 나왔습니다. 두 방법 모두 인간 검증의 필요성을 제거하지 못해 약속된 생산성 향상을 가로막는 병목 현상을 만들고 있습니다.\n\n하이퍼네트워크는 근본적으로 다른 접근 방식을 대표합니다. 고정된 모델을 반복적으로 파인튜닝하거나 긴 컨텍스트 창에 어려움을 겪는 대신, 이 시스템은 현재 비즈니스 문서와 정책을 기반으로 추론 시점에 실시간으로 특화된 모델 가중치를 생성합니다.\n\n주요 장점: 실시간 맞춤화(별도의 모델 저장소 없이 전문 어댑터 생성), 비용 효율(소규모 전문 모델은 반복 작업에서 대형 일반 모델보다 10-30배 낮은 비용), 확장성(작업별 LoRA 어댑터 관리 불필요). Nace.AI의 MetaModel이 이 접근 방식을 구현하여 '90/10' 협업 모델을 가능하게 합니다. 아직 현장에서 가장 검증이 덜 된 방식이라는 한계도 있습니다.",
+      "published_at": "2026-06-21T18:39:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "The US says ASML's top chip tool may be in China, ASML says it isn't",
+      "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "body": "U.S. Commerce Secretary Howard Lutnick has told ASML executives he's concerned that one of their extreme ultraviolet (EUV) lithography machines may have reached China, violating long-standing export controls. The government claims to have evidence of 'EUV-related components and transport equipment' shipped to China but hasn't publicly disclosed it.\n\nASML CEO Christophe Fouquet stated the company 'tracks every machine it has ever shipped' and maintains they're either in active use with monitored customers or have been dismantled and returned to ASML. ASML said it has 'never shipped an EUV machine to China nor have we shipped to China any component, module or equipment specially designed to be used in an EUV machine.'\n\nASML holds a global monopoly on EUV lithography—the only technology capable of printing advanced semiconductor patterns. Every cutting-edge processor from TSMC depends on these machines. An EUV system in Chinese hands would represent a major breach of U.S. export controls designed to limit Beijing's AI capabilities.\n\nThe article notes a 'commercial logic' issue: risking ASML's entire export license over one illegal sale would jeopardize roughly 20% of projected 2026 revenue from permitted sales to China. Export controls have barred ASML from selling EUV to China since the first Trump administration. ASML's most advanced EUV systems are roughly the size of a school bus and weigh 180 tons.",
+      "published_at": "2026-06-19T04:59:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung Electronics Focuses on HBM Expansion and LTA Strategy at Global Strategy Meeting",
+      "url": "https://www.etnews.com/20260621000054",
+      "body": "Samsung Electronics' Device Solutions division held a global strategy meeting on June 18, 2026, led by DS head Joh Young-hyun (Vice Chairman). The discussion centered on supplying next-generation HBM products to major customers.\n\nThe company is advancing its high-bandwidth memory roadmap, having begun mass production of HBM4 in February and recently becoming 'the first to supply HBM4E 12-stack samples to customers globally.'\n\nBeyond memory products, Samsung also reviewed its long-term agreement (LTA) strategy targeting major tech companies. The company previously stated it 'had concluded LTA agreements with select customers' during its Q1 earnings call, emphasizing business stability and demand visibility.\n\nThe meeting reflected an improved outlook compared to the previous year, with Samsung working to reclaim its DRAM market leadership position while capitalizing on the memory supercycle expansion driven by AI demand.",
+      "published_at": "2026-06-21T09:00:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Chip Pay Raises Drive Service-Sector Wage Response 10-Fold, BOK Says",
+      "url": "https://en.sedaily.com/finance/2026/06/21/chip-pay-raises-drive-service-sector-wage-response-10-fold",
+      "body": "The Bank of Korea warns that massive bonuses from Samsung Electronics and SK hynix could trigger significant inflationary pressure across the economy. The two companies are expected to release approximately 50 trillion won in liquidity through bonuses and internal loans by next year.\n\nAccording to BOK analysis, when unusually large bonuses are distributed, 'the strength of the service-sector wage response expands to more than 10 times normal levels.' This wage growth could spread to labor-intensive industries like food service and education, driving up prices.\n\nThe BOK's concern centers on lasting effects. As one official noted, 'Oil prices can come back down over time, but once wages begin to affect inflation expectations, price pressure can persist much longer.' The wage-driven price spillover was found to last approximately four years, compared to roughly one year for oil price shocks.\n\nBOK Governor Hyun Song Shin stated that 'Samsung Electronics bonuses could create inflationary pressure,' particularly concerning given special IT sector wages surged 60.6% year-over-year in Q1 2026.",
+      "published_at": "2026-06-21T10:00:00+09:00",
+      "source": "Seoul Economic Daily",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "한은의 '반도체 보너스발 인플레 경고'...CNBC \"유례없는 규모\" 조명",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211952",
+      "body": "한국은행이 삼성전자와 SK하이닉스의 반도체 직원 초대형 성과급이 물가 상승을 초래할 수 있다고 우려를 제기했습니다. CNBC는 이를 '유례없는 규모'의 거시경제 현상으로 조명했습니다.\n\n성과급 규모: 기본 연봉 8천만 원인 메모리 반도체 생산직 직원은 올해만 성과급으로 약 6억2600만 원을 받을 것으로 예상됩니다. SK하이닉스 직원은 연간 순이익 목표인 250조 원 달성 시 개인 성과급이 7억 원을 넘을 수 있습니다. 삼성은 영업이익의 10.5%, SK하이닉스는 10%를 직원 성과급으로 배분하기로 약속했습니다.\n\n경제적 우려: 한국은행은 '최근 IT 업종 성과급은 전례 없는 규모로, 실제 경제적 영향이 예상보다 클 수 있다'고 밝혔습니다. 중앙은행은 급격한 자본 유입이 다른 산업 전반의 임금 압력을 유발하고 공급 및 수요 양쪽에서 물가 상승을 자극할 수 있다고 우려합니다.",
+      "published_at": "2026-06-21T12:14:20+09:00",
+      "source": "AI타임스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Samsung and SK hynix bonuses for chip workers flagged as a national inflation risk",
+      "url": "https://www.tomshardware.com/tech-industry/bank-of-korea-flags-samsung-and-sk-hynix-chip-bonuses-as-a-national-inflation-risk",
+      "body": "The Bank of Korea has raised concerns about inflation stemming from exceptionally large bonus payments to semiconductor workers at Samsung Electronics and SK Hynix. CNBC highlighted this as an 'unprecedented scale' macroeconomic phenomenon.\n\nMemory semiconductor production workers with base salaries of 80 million won are expected to receive approximately 626 million won in performance bonuses this year alone. SK Hynix employees could receive individual bonuses exceeding 700 million won if the company achieves its annual net profit target of 250 trillion won.\n\nBoth companies committed to allocating substantial portions of operating profits to employee bonuses: Samsung at 10.5% and SK Hynix at 10%.\n\nThe Bank of Korea stated: 'The IT sector's recent performance bonuses represent an exceptionally large scale, meaning actual economic impact may exceed expectations.' The central bank worries that rapid capital injection could trigger wage pressure across other industries and stimulate inflation on both supply and demand sides. Current inflation forecasts stand at 2.7%, exceeding the target rate.\n\nRegional retail data shows significant increases in luxury spending near semiconductor manufacturing areas in southern Gyeonggi Province, with Shinsegae Department Store's Gyeonggi location reporting a 53.6% year-over-year surge in luxury sales during May.",
+      "published_at": "2026-06-21T20:58:39+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Intel hires former SK hynix chief Lee Seok-hee to lead advanced packaging",
+      "url": "https://www.koreaherald.com/article/10781977",
+      "body": "Intel appointed Lee Seok-hee, the former CEO of SK hynix and SK On, as senior vice president overseeing advanced packaging at Intel Foundry. Reporting directly to CEO Lip-Bu Tan, Lee will manage back-end technology development and manufacturing.\n\nCEO Tan stated that Lee's appointment strengthens the division, noting: 'Seok-Hee brings deep expertise in leading complex, high-scale technology and manufacturing organizations.' The executive is tasked with scaling advanced packaging technologies including EMIB-T and HBI for high-volume production.\n\nLee, who previously worked at Intel as an engineer from 2000-2010 before moving to South Korea for leadership roles, expressed enthusiasm about the opportunity: 'Intel is uniquely positioned to lead in advanced packaging as demand for system-level integration accelerates.'\n\nThe move reflects Intel's strategy to rebuild its foundry business and compete with leading contract chipmakers through strengthened manufacturing and packaging capabilities critical for next-generation AI systems.\n\nThis appointment marks a historic milestone—Lee is 'the first Korean from either industry or academia recruited directly into the highest decision-making ranks of a global tech giant,' rather than serving in regional or divisional roles. Lee holds degrees from Seoul National University (materials science and engineering) and Stanford University (engineering doctorate). He previously worked as an Intel researcher for over a decade before joining SK hynix, where he led the acquisition of Intel's NAND flash business, which became Solidigm.",
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Building a Dense Agentic AI CPU Rack Today",
+      "url": "https://www.servethehome.com/building-a-dense-agentic-ai-cpu-rack-amd-dell-today/",
+      "body": "Agentic AI is fundamentally reshaping datacenter CPU demand in two key ways:\n\n1. Agent Infrastructure: Agentic AI platforms like OpenClaw and Hermes run on CPUs rather than GPUs. These frameworks require responsive, always-on CPU infrastructure to execute tasks and handle requests. The author emphasizes treating agents 'like bringing on a contractor' with constrained access rather than unrestricted permissions.\n\n2. Legacy Application Load: When AI agents make requests, they trigger backend services—databases, web servers, authentication systems—all requiring CPU cycles. As 'bot traffic has eclipsed human traffic on the Internet,' infrastructure must handle exponentially more machine-to-machine interactions alongside traditional human users.\n\nCore Architecture Recommendation: The article advocates using deterministic workflows rather than relying on probabilistic LLM outputs. The suggestion: have LLMs generate scripts that run on CPUs instead of executing direct commands, reducing token waste from formatting errors (historically 25-40% of initial calls fail).\n\nInfrastructure Implications: With over 8 billion people plus countless agents making requests simultaneously, existing infrastructure optimized for human-only traffic requires modernization. The author compares this to the shift from manual order processing to electronic systems—speed becomes competitive advantage.\n\nThe article promotes AMD EPYC and Dell server solutions as suitable platforms for this emerging workload.",
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "메타, 크루소와 1.6GW 컴퓨팅 공급 계약…AI 인프라 구축 가속",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211909",
+      "body": "Meta가 데이터센터 개발업체 Crusoe와 컴퓨팅 공급 계약을 체결하여 AI 인프라 확장을 가속화하고 있습니다. Bloomberg에 따르면 Meta는 텍사스주 Childress와 미주리주 Warrenton에 있는 Crusoe의 두 시설에서 컴퓨팅 용량을 확보할 예정입니다.\n\n계약 규모: 두 곳의 시설에서 '1.6기가와트의 컴퓨팅 용량'을 커버합니다. 참고로, 1기가와트는 약 75만 미국 가구에 전력을 공급할 수 있는 양입니다.\n\n광범위한 전략: 이 계약은 Meta의 더 큰 AI 구축 이니셔티브를 지원합니다. 회사는 현재 최대 5기가와트의 전력 용량을 제공할 것으로 예상되는 루이지애나주의 4,000에이커 규모 대형 AI 데이터센터 캠퍼스를 건설 중입니다.\n\nCrusoe는 2018년 설립된 대규모 AI 전용 데이터센터를 구축·운영하는 전문 기업으로, Oracle, Microsoft, Google과 주요 계약을 체결했으며 OpenAI의 '스타게이트' 프로젝트 건설을 감독한 것으로 유명합니다. Meta는 향후 몇 년간 AI 인프라에 최소 6,000억 달러를 투자하겠다고 약속했습니다.",
+      "published_at": "2026-06-19T16:36:14+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "EU, 자금난에 데이터센터 구축 계획 축소…초기 안 대비 80% 감소",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211919",
+      "body": "유럽연합이 AI 경쟁력 강화를 위한 야심찬 데이터센터 구축 계획을 대폭 축소했습니다. Bloomberg에 따르면 EU는 사양이 크게 줄어든 수정된 입찰 계획을 발표했습니다.\n\n원래 계획과 현재 계획 비교: 초기 제안은 최대 5개 데이터센터에 각각 10만 개의 첨단 반도체를 탑재. 현재 1단계는 최소 25,000개의 GPU를 갖춘 4개 시설과 최소 40,000개의 프로세서를 갖춘 3개 시설.\n\n자금 조달 과제: 민간 부문이 대부분의 비용을 부담하고, EU와 회원국은 최대 3분의 1의 보조금을 제공하는 구조. 초기 410억 유로 예산이 1단계에서 약 100억 유로로 축소되었습니다.\n\n1단계 보조금은 시설당 최대 1억~2억 유로이며, 2028년 이후 EU 예산 승인을 조건으로 2단계 지원은 4억~8억 유로까지 가능합니다.\n\n경쟁 맥락: 이 축소는 미국의 AI 인프라 확장과 극명하게 대조됩니다. 미국 하이퍼스케일러들과 OpenAI, Anthropic 같은 기업들이 수천억 달러를 투자하는 반면, EU의 이번 결정은 대서양 양안의 기술 격차를 더 벌릴 수 있습니다.",
+      "published_at": "2026-06-19T16:46:35+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "China unifies tech sector to build grid-free orbiting satellite AI data centers, challenging Elon Musk's SpaceX",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/china-unifies-tech-sector-to-build-grid-free-orbiting-satellite-ai-data-centers-challenging-elon-musks-spacex-beijings-forced-chip-and-satellite-alliance-announced-a-week-before-musks-ai1-reveal",
+      "body": "The Chinese government quietly approved the Space Computing Industry Innovation Center in early June, which aims to bring together rocket and satellite manufacturers, semiconductor fabs, and AI tech companies to build a space computing network.\n\nAccording to the Beijing government, this aims to 'connect the entire industrial chain of space computing and boost the development of the satellite Internet of Things (IoT) sector.' China moved on space-based AI compute a week before Elon Musk's AI1 satellite announcement. What makes China's announcement different is that it's making multiple companies work together to build a system.\n\nThe initiative is grid-free—meaning these orbital data centers would operate on solar power rather than Earth-based electricity infrastructure, potentially bypassing one of the key constraints on terrestrial AI compute expansion. The Chinese tech sector alliance includes chip manufacturers, satellite builders, and AI companies all mandated to collaborate under the Space Computing Industry Innovation Center framework.\n\nThis development comes in direct competition with Elon Musk's SpaceX AI1 compute satellite, which spans wider than a Boeing 747 and runs an interchangeable chip payload with 120 kW compute capacity, peaking at 150 kW.",
+      "published_at": "2026-06-20T23:53:42+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "네덜란드 전력망 병목에 주택 전기화·기업 투자 지연…데이터센터 위치 제한도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211921",
+      "body": "네덜란드가 심각한 전력망 혼잡 문제에 직면하여 주택 전기화, 기업 확장, 데이터센터 개발을 제약하는 상황입니다.\n\n주거 부문 영향: 2026년 첫 5개월간 가정의 고용량 전력 연결 신청이 27,500건에 달해 전년 동기 대비 50% 이상 증가했습니다. 일부 신청자는 연결 업그레이드를 위해 최대 3년을 기다려야 하는 상황입니다. 위트레흐트 지역은 새 전력 연결을 사실상 중단했습니다.\n\n수요 주요 원인: 열 펌프, 전기차 충전기, 전기 요리 기구의 동시 보급 급증. 암스테르담 근교 데이터센터들은 전력망 용량 부족으로 입지 제한을 받고 있습니다. 재생에너지 프로젝트 역시 발전 확대의 필요성에도 불구하고 연결 지연을 겪고 있습니다.\n\n해결책: 네덜란드의 새 에너지법(2026년 발효)은 혼잡 관리, 유연한 송전 권리, 시간대별 가격제, 용량 공유 메커니즘을 도입합니다. 그러나 구현 성공 여부는 규제 변화와 함께 실제 인프라 투자 속도에 달려 있습니다.",
+      "published_at": "2026-06-21T09:30:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Everpure's AI Strategy Is Almost Purely Based On Nvidia",
+      "url": "https://www.nextplatform.com/store/2026/06/19/everpures-ai-strategy-is-almost-purely-based-on-nvidia/5258997",
+      "body": "Everpure executives outlined the company's heavily Nvidia-focused approach to artificial intelligence at their Accelerate Conference in Las Vegas. CTO Rob Lee acknowledged that while the vendor collaborates with other GPU manufacturers like AMD, their product development is primarily oriented around Nvidia's ecosystem.\n\nLee explained the strategic rationale: 'Nvidia is the dominant player in that space...because they've been so effective at delivering solutions and getting customers to results.'\n\nThe company introduced several new offerings, including:\n- Everpure Data Intelligence (built on the 1touch.io acquisition) for data discovery and governance\n- Evergreen//One Overdrive for handling on-premises storage spikes up to 25%\n- Everpure Data Stream, which claims to reduce AI data preparation 'from months to minutes'\n\nLee noted a shift in traditional high-performance computing toward GPU-accelerated solutions, particularly in financial services where 'quant traders, hedge funds' are leveraging GPUs for model backtesting. Regarding power consumption, Lee suggested optimization would become a priority once the current AI deployment rush stabilizes, citing historical patterns in semiconductor advancement.",
+      "published_at": "2026-06-19T21:58:00+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "LG CNS, 두산과 AI·로봇·데이터센터 분야 협력 MOU 체결",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211922",
+      "body": "LG CNS와 두산이 에이전틱 AI(AX), 로봇 전환(RX), 데이터센터, 클라우드 서비스 분야의 경쟁력을 강화하기 위한 양해각서(MOU)를 체결했습니다.\n\n주요 협력 분야: AI와 로봇틱스 - LG CNS의 엔터프라이즈 에이전틱 AI 플랫폼 'AgenticWorks'를 활용하여 두산의 AI 역량을 강화. LG CNS 신현균 대표는 'LG CNS의 AX와 RX 역량과 두산의 기술력을 결합해 예측 설비 유지보수부터 산업용 로봇 응용까지 제조 혁신을 추진하겠다'고 밝혔습니다.\n\n데이터센터와 클라우드 인프라: LG CNS의 클라우드 및 데이터센터 전문 기술을 활용하여 두산의 IT 인프라를 현대화할 예정입니다. 양사는 LG CNS 데이터센터 운영에 수소 연료전지를 통합하는 방안도 검토합니다.\n\n제조 혁신: 제조 설비 수명 주기 효율을 극대화하기 위한 디지털 트윈 기술 도입 및 친환경 물류 솔루션 협력 예정. 양사는 세부 운영 계획 수립을 위해 한 달 이내에 공동 업무협의체를 구성할 예정입니다.",
+      "published_at": "2026-06-19T16:28:33+09:00",
+      "source": "AI타임스",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "피지컬 AI 얼라이언스, '실행' 중심 2기 체계 본격 가동",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211920",
+      "body": "과학기술정보통신부가 피지컬 AI 얼라이언스 2기 출범식을 개최하며 기술 개발 실질적 실행 중심 체계로의 전환을 알렸습니다.\n\n2기 주요 이니셔티브는 세 가지 핵심 목표에 집중합니다: K-피지컬 AI 풀스택 개발 - 국산 AI 반도체, 모델, 소프트웨어, 로봇, 센서, 컴퓨팅 인프라를 독립적으로 확보하여 해외 솔루션 의존도를 줄이는 것이 목표. 토털 솔루션 플랫폼 강화 - 기본 기술 개발을 넘어 전체 구현 생명주기에 걸친 '통신망, 시스템 통합, 데이터센터, 보안, 표준, 인증, 운영'까지 확대. 산업 간 확장 - 제조업을 넘어 물류, 농업, 의료, 국방, 행정, 재난 관리 분야로 적용 확대.\n\n거버넌스 변화: 이제 과기정통부와 한국AI·SW산업협회(KOSA)가 공동으로 운영하여 정부 정책 지원과 민간 부문 실행 역량 간 조율을 강화합니다. 배경훈 차관은 기술 개발 성과를 실제 현장 적용과 연결하겠다는 의지를 밝혔습니다.",
+      "published_at": "2026-06-19T16:08:43+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "\"미소스 5는 막혔지만 프리뷰는 사용 가능\"...일부는 차단돼 '혼란 가중'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211926",
+      "body": "미국 정부가 Anthropic에 Misos 5와 Claude 5 접근을 중단하도록 명령했지만, 일부 기관들은 'Project Glaswing'을 통해 이전 Misos Preview 버전에 계속 접근할 수 있어 규제 모호성이 발생했습니다.\n\n접근 상태: Misos 5는 정부 명령으로 차단. Misos Preview는 약 200개 참여 기관에서 여전히 접근 가능. 확인된 접근 보유 기관: Cisco, Dragos 및 익명 기업들. EU의 사이버보안 기관 ENISA는 참여 초대를 받았으나 '더 이상 참여가 허용되지 않을 것'이라는 통보를 받았습니다.\n\n혼란의 핵심: Anthropic의 공식 공지는 '다른 모델들은 영향을 받지 않는다'고만 명시하여 프리뷰 버전에 대한 접근이 계속될지 참여 기관들에게 불분명했습니다. '외국인 제한' 규칙은 이론적으로 프리뷰에도 적용되어야 하지만 시행이 일관되지 않습니다. 프리뷰 버전에서는 탈옥 증거가 나타나지 않았으며, 성능 벤치마크에서 Misos 5가 대부분의 작업에서 더 나은 성능을 보입니다.",
+      "published_at": "2026-06-19T18:20:38+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "미 의회, 트럼프 정부의 '앤트로픽 AI 수출 금지' 근거 요구",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211914",
+      "body": "미국 하원 의원들이 상무장관 Howard Lutnick에게 Anthropic의 Misos 5와 Fable 5 AI 모델에 부과된 수출 통제에 대한 상세한 설명을 요청했습니다.\n\n초당적 요청: 민주당 Sam Licardo, Ted Lieu와 공화당 Jay Obernolte, Scott Franklin 의원들이 공동으로 정부의 이 특정 모델들 제한 근거를 요구하는 서한을 제출했습니다.\n\n의회 우려 사항: 의원들은 이 조치가 단일 기업을 넘어 '광범위한 첨단 AI 개발에 잠재적으로 영향을 미칠 수 있는 수출 통제 권한의 중요한 새 적용'을 대표한다고 우려했습니다. 이러한 규제 제한이 적용되는 AI 시스템을 결정하는 투명한 원칙의 필요성을 강조했습니다.\n\n문제의 모델들: Misos 5는 컴퓨터 코드의 보안 취약점 파악에 탁월, Fable 5는 추가 안전 메커니즘이 적용된 제어 버전. 촉발 사건: Amazon 연구원들이 안전 가드레일이 우회될 수 있다는 것을 발견하고 정부에 통보했으나 Anthropic은 이를 과장된 것으로 반박했습니다.",
+      "published_at": "2026-06-19T16:26:54+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "트럼프 '앤트로픽, 한때 국가 안보 위협으로 간주…현재는 관계 회복 중'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211939",
+      "body": "도널드 트럼프 대통령이 Axios 인터뷰에서 한때 Anthropic을 국가 안보 위협으로 간주했지만 상황이 개선되었다고 밝혔습니다.\n\n초기 우려: 트럼프는 '일주일 전'에 Anthropic이 국가 안보 위협으로 볼 수 있었지만 '이제는 아니다'라고 언급했습니다. 트럼프 행정부는 6월 12일 국가 안보를 이유로 미국 외 Anthropic 모델 접근을 제한하는 강력한 규제를 시행했습니다.\n\n조치 원인: Anthropic의 주요 투자자인 Amazon이 Anthropic 모델에 대한 보안 취약점 보고서를 정부에 제출한 후, 회사가 이 우려를 충분히 해결하지 않자 행정부가 강력한 조치를 취했습니다.\n\n변화된 역학 관계: G7 정상회담 이후 분위기가 바뀌었는데, 트럼프가 Anthropic CEO Dario Amodei와 직접 만나 그를 '친절하고 스마트한 사람'으로 묘사했습니다. 트럼프는 'Anthropic이 우리의 요구에 매우 빠르게 응했다'고 칭찬했습니다. AI에서 중국과의 경쟁이 트럼프의 입장에 영향을 미쳤습니다. 백악관과 Anthropic 간의 논의가 새 AI 모델의 보안 위험 평가 프레임워크 개발로 진전되었습니다.",
+      "published_at": "2026-06-20T11:34:05+09:00",
+      "source": "AI타임스",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "body": "The Trump administration forced Anthropic to take its two newest AI models—Fable 5 and Mythos 5—offline via an export control order citing unspecified 'national security concerns.' The crackdown allegedly stemmed from Amazon researchers discovering a way to bypass Fable 5's safety guardrails, which Amazon CEO Andy Jassy reportedly brought to the White House's attention.\n\nThe TechCrunch Equity podcast hosts debated whether this represents genuine security risk or political retaliatory action. Sean O'Kane noted that 'Anthropic has not had the best relationship with the Trump administration in a way that stands apart from the other leading AI labs.'\n\nHowever, cybersecurity experts have challenged the justification. Researchers signed an open letter opposing the ban, arguing that 'pulling these advanced cybersecurity capabilities from network defenders in the U.S.' is dangerous.\n\nPotential Upside for Anthropic: Ironically, the controversy may boost Claude's reputation. Previous clashes between Anthropic and the administration actually increased Claude downloads, as users perceived it as 'the more responsible one, the more resistance one.' Rebecca Bellan captured the paradox: 'Everyone loves a bad boy,' making the banned models appear even more desirable.",
+      "published_at": "2026-06-21T17:28:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Global investors chase Rebellions, Sakana AI, other Asian hardware champions to ride AI boom",
+      "url": "https://www.kedglobal.com/venture-capital/newsView/ked202606190007",
+      "body": "Major venture capital firms and asset managers are significantly expanding their presence in Northeast Asia, recognizing the region's critical role in AI hardware manufacturing. Seoul, Tokyo and Taipei are becoming strategic hubs as capital follows the Asian manufacturing backbone of the AI value chain.\n\nKey companies attracting investor attention include:\n- Rebellions: South Korean AI chip design startup (merging with Sapeon Korea)\n- Sakana AI: Japanese AI company\n- FuriosaAI and DeepX: Additional Korean AI firms\n\nNotable investors include Andreessen Horowitz (a16z), New Mountain Capital, PGIM, Kindred Ventures, Blackstone, and KKR. The investment wave reflects confidence that Northeast Asia's dominance in semiconductor manufacturing, testing, and design will position the region as a major beneficiary of the global AI expansion.\n\nThe region's established ecosystem includes major chipmakers like Samsung Electronics, SK Hynix, TSMC, and specialized equipment manufacturers, creating a compelling investment thesis for global capital.",
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "source": "KED Global",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Rebellions"
+    },
+    {
+      "title": "Marvell Is Up Around 260% in 2026 as It Joins the S&P 500. Here's Where the Stock Could Go",
+      "url": "https://www.tikr.com/blog/marvell-is-up-around-260-in-2026-as-it-joins-the-sp-500-heres-where-the-stock-could-go",
+      "body": "Marvell Technology (MRVL) officially joins the S&P 500 on June 22, 2026, following a remarkable 265% stock surge this year. The company replaces Pool Corp in the index.\n\nCurrent Valuation: Trading at $310.58, though Wall Street consensus targets average around $240—notably below the current price. TIKR's advanced model suggests potential upside to approximately $865.\n\nRecent Catalysts:\n1. NVIDIA CEO Jensen Huang called Marvell a candidate to become the 'next trillion-dollar company' at COMPUTEX on June 2\n2. KeyBanc raised its price target to $385 (Street-high) on June 18, emphasizing optical networking as a durable growth engine\n3. Marvell appointed Dan Durn as CFO on June 11, bringing experience from Adobe and Applied Materials\n\nThe Central Debate: Analysts diverge on whether the premium valuation is justified. The stock trades at 54x EV/EBITDA, significantly higher than peers NVIDIA (17x) and Broadcom (21x). Bulls argue accelerating custom AI chip and optical interconnect growth warrant the premium, projecting 43% two-year revenue CAGR. Bears worry the 265% gain already prices in execution, leaving little room for delays.\n\nCritical Catalyst: Q2 fiscal 2027 earnings (approximately August 27, 2026) will be decisive for validating premium valuations.",
+      "published_at": "2026-06-21T09:00:00+09:00",
+      "source": "TIKR",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor"],
+      "competitor": "Marvell"
+    },
+    {
+      "title": "구글, '제미나이' 탑재한 AI 스피커 5년 만에 출시…한국은 미정",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211950",
+      "body": "Google이 2020년 Nest Audio 이후 5년 만에 처음으로 독립형 스마트 스피커 Google Home Speaker를 출시했습니다. 이 기기는 Gemini AI 통합 기능을 갖추고 있으며 가격은 99.99달러(약 14만 원)입니다.\n\n주요 기능: Gemini Live - '다른 방 전등만 끄되 침실 등은 켜줘' 또는 말하는 도중에 '커피 메이커 꺼줘, 아니 켜줘'와 같은 자연스러운 대화 지원. Home Briefs - 부재 중 Nest 카메라 활동 요약. 360도 오디오 - 방 전체에 균일한 사운드 제공. 10가지 새로운 음성 옵션으로 개인화 가능.\n\n출시 일정 및 가격: 미국에서 6월 17일 예약 주문 시작, 6월 25일 공식 출시. 미국, 캐나다, 영국, 독일, 프랑스, 일본, 호주 출시 예정. 한국 출시 일정은 아직 미정입니다.\n\n프리미엄 구독 서비스(월 10달러 또는 연 100달러)로 고급 AI 기능을 잠금 해제할 수 있으며, 음악 재생, 일정 관리, 스마트 홈 제어 등 기본 기능은 무료로 제공됩니다.",
+      "published_at": "2026-06-21T12:42:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SK텔레콤, 16년된 LTE망 현대화 프로젝트 가동…AI 자율운용 기반 확보",
+      "url": "https://www.etnews.com/20260621000074",
+      "body": "SK텔레콤이 노후화된 LTE 장비를 고성능 통합 시스템으로 교체하는 현대화 프로젝트에 착수했습니다. 이 이니셔티브는 네트워크 안정성 강화, 고객 경험 개선, AI 기반 자율 네트워크 운영 기반 마련을 목표로 합니다.\n\n장비 교체 전략: 노후 LTE 장비 교체와 기존 인프라 재편성/재배치에 초점. SK텔레콤은 2011년 LTE를 상용화했으며, 일부 초기 장비에는 '자율 네트워크 구현을 제한하는 AI 판독 가능 데이터' 지원이 없습니다.\n\n기술 개선: 주파수별 레거시 장비를 통합 신규 시스템으로 통합, 인프라 공간 축소, 전력 효율 향상, 커버리지 공백 내 서비스 품질 개선.\n\nAI 통합: 새 장비는 AI 판독 가능 데이터를 생성하여 품질 메트릭, 트래픽 패턴, 장애 데이터 분석, 잠재적 서비스 저하 예측, 교정 조치 자동 실행, 수동 개입 및 사고 대응 시간 감소가 가능해집니다. 새 장비는 5G 규격으로 업그레이드 가능하여 현재 LTE 안정성을 유지하면서 주파수 재할당과 네트워크 확장에 대비합니다.",
+      "published_at": "2026-06-21T10:00:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "SK Telecom named as the Korean carrier at the center of Anthropic's Mythos export controls controversy",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
+      "body": "Wired identified SK Telecom as the South Korean telecom company whose access to Anthropic's Claude Mythos model the White House ordered revoked over alleged ties to China, days before the Trump administration imposed the export controls that pulled Anthropic's most advanced AI models offline.\n\nSK Telecom, South Korea's largest wireless carrier, was among roughly 150 organizations added to Anthropic's Project Glasswing in early June, the program through which Anthropic distributes Mythos for vulnerability detection. The White House asked Anthropic to revoke the carrier's access shortly after that expansion, and the company complied immediately.\n\nAnthropics opened a Seoul office on June 17 and signed a memorandum of understanding with South Korea's Ministry of Science and ICT, naming SK Telecom among its local partners.\n\nSK Telecom has denied the allegations, telling a Korean newspaper that the anonymous claims in foreign media 'lack verified facts,' and that it has no ties to China. SK Telecom's footprint in China is minimal, generating roughly $1.9 million in Chinese revenue in 2024 and employing seven people in the country, according to its annual report.\n\nLG U+, another Korean carrier using Huawei 5G equipment, explicitly denied receiving access, stating: 'We have not been granted access to Mythos.'",
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "source": "Tom's Hardware",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic Opens Its Seoul Office Even as a US Export Ban Cuts Korean Access to Its Top Models",
+      "url": "https://www.techtimes.com/articles/318637/20260619/anthropic-opens-its-seoul-office-even-us-export-ban-cuts-korean-access-its-top-models.htm",
+      "body": "Anthropic opened a Seoul office on June 17 and signed a memorandum of understanding with South Korea's Ministry of Science and ICT, even as the Trump administration's export controls have cut Korean access to the company's top AI models Fable 5 and Mythos 5.\n\nThe timing creates a paradox: Anthropic expands Korean presence just as restrictions bar most Korean organizations from accessing its most advanced models. The MOU named SK Telecom among Anthropic's local partners, which later became the center of controversy when the White House ordered SK Telecom's access to Claude Mythos revoked.\n\nThe export control order on June 12 banned all foreign nationals, including immigrants inside the U.S., from accessing Fable 5 and Mythos 5. The ban covers both models that represent Anthropic's state-of-the-art cybersecurity and reasoning capabilities.\n\nDespite the controversy, Anthropic's Korean expansion reflects the company's belief in the importance of the Korean AI market, particularly given Korea's advanced semiconductor ecosystem and significant AI infrastructure investments.",
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "source": "TechTimes",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "LG CNS, 양자컴퓨팅 성과 첫 공개…\"시장 선점 나선다\"",
+      "url": "https://www.etnews.com/20260619000230",
+      "body": "LG CNS가 양자 컴퓨팅 최적화 기술 개발 성과를 공개하며 시장 선점 나선다고 발표했습니다. 이 회사는 기존 수리 최적화 역량에 양자 컴퓨팅을 결합하여 새로운 비즈니스 분야 전반에 걸쳐 응용을 확대할 계획입니다.\n\nLG CNS는 '양자 증강 최적화(quantum-augmented optimization)'를 주제로 2026년 7월 2~4일 서울 동대문디자인플라자(DDP)에서 열리는 'Quantum Korea 2026'에 참가할 예정입니다.\n\n주요 성과: 이미지 재구성 기술 - NIST 표준 테스트 구조에서 615,888 복셀 해상도로 100% 정확도로 내부 구조를 재구성하는 데 성공. 도시 안전 응용 - 서울시 및 서울대학교와 협력하여 양자 증강 신호 정렬 기법을 이용한 싱크홀 탐지 기술 개발.\n\nLG CNS 임원은 '제조 및 공공 부문 전반에 걸쳐 실제 응용을 확대'하면서 한국 양자 컴퓨팅 시장에서 '차별화된 기술 경쟁력'을 확립하겠다고 밝혔습니다.",
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    }
+  ]
+}

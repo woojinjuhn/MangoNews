@@ -266,6 +266,34 @@ type: reference
 - **Technetbook (technetbooks.com)** — accessible; AMD Venice benchmark synthesis articles.
 - **Blockonomi** — accessible; Terafab/ASML conference articles; June 8 articles (outside window but accessible for reference).
 
+## Source notes (2026-06-22 run — 4-day weekend window Jun 19-22)
+
+- **Tom's Hardware news archive** (tomshardware.com/news/archive): Lists all articles by date including titles and URLs; best way to discover TH articles for a date range when RSS fails. Used this to find 6 additional June 19-21 articles. Body still JS-rendered/non-extractable; use RSS timestamps for dates.
+- **Tom's Hardware RSS** (tomshardware.com/feeds.xml): Confirmed working; gives pubDate in RFC 2822 with UTC offsets (+0000). Samsung bonus (Sun 21 Jun 11:58:39 +0000 = 20:58:39 KST), China satellite DC (Sat 20 Jun 14:53:42 +0000 = 23:53:42 KST).
+- **Tom's Hardware bodies**: article body text NOT extractable via WebFetch (returns navigation/membership only, not article content); verified on June 22 run. Use search + RSS dates only.
+- **etnews.com article list page** (etnews.com homepage): Fetching main page revealed June 19-21 articles directly with IDs; Samsung HBM strategy (20260621000054), SK Telecom LTE modernization (20260621000074).
+- **KED Global (kedglobal.com)**: Accessible; publishes English-language Korean VC/hardware investment news; June 19 article on global investors targeting Rebellions, Sakana AI confirmed accessible with body text.
+- **en.sedaily.com (Seoul Economic Daily English)**: June 21 article (Chip Pay Raises Drive Service-Sector Wage) confirmed accessible with body text. URL pattern: /finance/YYYY/MM/DD/slug.
+- **TIKR (tikr.com/blog/)**: Accessible; publishes semiconductor stock analysis; June 21 Marvell S&P 500 article confirmed accessible with body text and explicit publication date.
+- **Korea JoongAng Daily (koreajoongangdaily.com)**: Accessible; June 19 Intel/Lee Seok-hee article confirmed; body text extractable. Good for Korean semiconductor leadership/business coverage.
+- **Korea Herald (koreaherald.com)**: June 19 Intel/Lee Seok-hee article confirmed accessible with body.
+- **Gigazine (gigazine.net/gsc_news/en/)**: Accessible; re-publishes Bloomberg/Reuters Japan-angle tech stories; June 19 Amazon Trainium article confirmed with date.
+- **NVIDIA Newsroom**: No June 19-22 press releases — latest was June 18. Check newsroom directly when searching for NVIDIA news.
+- **DataCenterDynamics**: All article fetches return 403 on June 22 run (persistent). Skip direct fetches entirely; use search to find headlines.
+- **SemiAnalysis RSS**: Feed still returning September 2025 articles. Dead/stale — confirmed for second run. Skip.
+
+## Query patterns (2026-06-22 run — Jun 19-22 window)
+- `etnews.com homepage` — direct fetch revealed Samsung HBM strategy (20260621000054), SK Telecom LTE (20260621000074) articles
+- `tomshardware.com/news/archive` — revealed China satellite DC, Intel/AMD ACE CPU extensions, Intel Lee Seok-hee hire, SK Telecom/Anthropic June 19-21 articles
+- `"ASML" China EUV export controls June 19 2026` — surfaced TechCrunch, Bloomberg, PCGamer coverage of US Commerce complaint
+- `Amazon Trainium external sales data centers June 2026` — surfaced Gigazine, Yahoo Finance, aitimes.com coverage (June 19)
+- `Intel hires SK Hynix Seok-Hee Lee advanced packaging foundry June 2026` — surfaced Korea Herald, JoongAng Daily June 19 articles
+- `Samsung SK Hynix bonus Bank of Korea inflation June 21 2026` — surfaced CNBC, Tom's Hardware, en.sedaily.com, AI타임스
+- `Marvell Technology S&P 500 joins June 22 2026` — surfaced TIKR June 21 analysis, Fortune, CNBC original announcement
+- `Qualcomm Tenstorrent acquisition June 19 20 21 22 2026 update` — no new in-window reporting; original story June 15-16 already in published_urls
+- `Global investors Rebellions Sakana AI Asian hardware June 2026` — surfaced KED Global June 19 article
+- `리벨리온 퓨리오사 하이퍼엑셀 모레 뉴스 6월 19-22 2026` — no new standalone articles for Tier 1 Korean competitors in window
+
 ## Query patterns (2026-06-11 run)
 - `Samsung Electronics ChatGPT Gemini Claude AI 도입 2026년 6월` — surfaced ZDNet Korea + 전자신문 June 11 articles
 - `NVIDIA 6G antenna GPU AI-RAN wireless base station June 2026` — surfaced ZDNet Korea June 11 07:33 KST
