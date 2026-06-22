@@ -1,0 +1,92 @@
+{
+  "kept": [
+    {
+      "id": "techcrunch-amazon-trainium-external-sales",
+      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "AWS Trainium의 외부 판매 추진은 NVIDIA 독점 구도를 흔드는 hyperscaler in-house silicon의 시장 진입 사건으로, 소버린 클라우드 타깃 + H100 대비 80% 저비용은 MangoBoost AI 인프라 전략과 직결."
+    },
+    {
+      "id": "etnews-amazon-trainium-external-sales-kr",
+      "title": "아마존, AI칩 '트레이니엄' 외부 판매 추진…\"엔비디아 시장 지배력 줄인다\"",
+      "url": "https://www.etnews.com/20260619000005",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "competitor_preserved_note": "competitor field preserved from collector",
+      "keep_reason": "한국어 1차 소스로 환산 단위(2,250억달러 ≈ 3,240조원)와 소버린 클라우드 프레이밍이 영문본을 보완 — Korean-EN dual primary keep 원칙 적용."
+    },
+    {
+      "id": "aitimes-g7-ai-access-diplomacy",
+      "title": "[6월18일] 반도체 다음은 AI 모델...G7서 떠오른 '접근권 외교'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211859",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "G7에서 프런티어 AI 모델이 반도체 수출통제급 지정학 레버리지로 부상 — '신뢰 파트너' 프레임은 소버린 AI 구축 전략의 외교적 배경으로 MangoBoost 시장 포지셔닝에 직접 관련."
+    },
+    {
+      "id": "techcrunch-baseten-1-5b-funding",
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "6개월 만에 valuation 160% 상승한 $13B 라운드 — '추론 골드러시' 자본 흐름은 MangoBoost의 inference 최적화 사업 영역의 시장 검증 신호."
+    },
+    {
+      "id": "techcrunch-ferc-grid-fast-lane",
+      "title": "AI data centers just got a government-mandated fast lane to the grid",
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "FERC의 6개 그리드 운영자 fast-track 명령 + NVIDIA-Emerald AI grid-asset 파트너십 — AI 데이터센터 전력/효율 challenge의 미국 정책 액션."
+    },
+    {
+      "id": "thenextweb-ferc-grid-supply-paradox",
+      "title": "FERC orders a fast lane for data centre grid connections, but the electricity to fill them is another matter",
+      "url": "https://thenextweb.com/news/ferc-data-centre-grid-fast-lane-ai",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "동일 FERC 사건이나 해상풍력 4건 $765M 취소 + 2.4GW 손실 등 공급-수요 모순 각도와 디테일이 TechCrunch본을 보강 — dual primary 보완 keep."
+    },
+    {
+      "id": "etnews-meta-crusoe-1-6gw",
+      "title": "메타, 크루소 에너지와 AI 데이터센터 계약…1.6GW 용량 확보",
+      "url": "https://www.etnews.com/20260619000008",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "메타의 1.6GW 데이터센터 확보 + 향후 $6,000억(약 864조원) AI 인프라 투자 발표 — 빅테크 AI capex 규모와 전력 확보 경쟁의 명확한 시그널."
+    },
+    {
+      "id": "zdnet-lotte-handeok-pyeongtaek-tmah",
+      "title": "롯데화학군, 반도체 클러스터 겨냥…평택에 핵심소재 공장 착공",
+      "url": "https://zdnet.co.kr/view/?no=20260619083612",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "한덕화학(TMAH 글로벌 1위)의 평택 신공장 착공은 반도체 핵심소재 국산화/공급망 이원화 사례 — 한국 반도체 클러스터 정책의 후행 시그널 (borderline, filter_2 판단 위임)."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "aitimes-android-17-gemini-omni",
+      "title": "구글이 선보이는 '안드로이드 17'… AI 기능 어떤지 봤더니",
+      "discard_reason": "off-topic — 본문 95%가 소비자 모바일 OS의 AI 기능 소개(번역/요약/카메라 AI/비서)로 B2C 영역. 마지막 한 줄의 '엣지 AI 반도체 수요' 언급만으로는 DPU/AI 인프라 가치사슬과의 연결 부족."
+    }
+  ],
+  "summary": {
+    "total_received": 9,
+    "total_kept": 8,
+    "total_discarded": 1,
+    "category_breakdown": {
+      "market": 4,
+      "products": 0,
+      "projects": 1,
+      "challenges": 3,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 2,
+    "by_competitor": {
+      "NVIDIA": 2
+    }
+  }
+}

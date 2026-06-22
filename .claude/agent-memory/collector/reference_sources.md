@@ -296,6 +296,32 @@ type: reference
 ## Query patterns (2026-06-18 run)
 - `SK하이닉스 HBM4E 12단 샘플 공급 2026년 6월 18일` — surfaced ZDNet Korea + 전자신문 + Korea Herald triple coverage
 - `Anthropic Seoul office opening Korea AI June 18 2026` — surfaced AI타임스, 전자신문, DigitalToday.co.kr/en
+
+## Source notes (2026-06-19 run — single day window, post-#030)
+- **TechCrunch**: High-yield again — 3 directly relevant articles in window (Baseten $1.5B inference funding, Amazon Trainium external sales, FERC AI datacenter grid fast-lane). TechCrunch RSS gives UTC timestamps; PDT bylines on Jun 18 convert to KST Jun 19 (e.g. Jun 18 10:49 PDT = Jun 19 02:49 KST). Always include.
+- **AI타임스 (aitimes.com) RSS**: 2 qualifying articles (G7 AI diplomacy Jun 18 06:05 KST, Android 17 AI Jun 18 11:30 KST). RSS gives direct KST timestamps. Remains highest-yield Korean AI source.
+- **전자신문 (etnews.com)**: 1 qualifying article (Amazon Trainium 외판 한국어, idxno=20260618000069, 20:56 KST Jun 18). Late-day article was in window. Homepage crawl effective.
+- **ZDNet Korea**: 1 qualifying article (롯데화학 반도체 소재 공장 착공, no=20260618115400). Article body accessible; JSON-LD confirmed timestamp. Good for Korean conglomerate semiconductor material news.
+- **TheNextWeb (thenextweb.com)**: FERC AI datacenter power grid article (Jun 18 18:36 UTC = Jun 19 03:36 KST). Both TechCrunch and TNW covered FERC story — kept both as different angles (regulatory mandate vs electricity supply critique). JSON-LD datePublished accessible.
+- **전자신문**: Meta+Crusoe 1.6GW deal article (idxno=20260618000059, Jun 18 ~17:16 KST). Good Korean-language datacenter infrastructure coverage.
+- **SemiAnalysis RSS**: Still dead (September 2025 items). Do not attempt.
+- **DataCenterDynamics RSS**: Feed accessible; bodies still 403 — persistent issue.
+- **Tom's Hardware RSS**: Bodies JS-rendered/truncated; JSON-LD datePublished often unavailable client-side.
+- **HPCwire**: 403 persistent.
+- **NetworkWorld RSS**: 404 persistent.
+- **Wired RSS**: Blocked by WebFetch. Persistent.
+- **Tier 1 Korean competitors (Moreh, FriendliAI, HyperAccel, Furiosa, Rebellions)**: ZERO articles on Jun 19 KST window. Normal for a single-day window; these companies publish news sporadically, not daily.
+- **Korea Herald**: SK Hynix HBM4E article (koreaherald.com/article/10774401) was already in published_urls from issue #030 — correctly deduplicated. Always check published_urls before including Korea Herald HBM articles.
+
+## Query patterns (2026-06-19 run)
+- `Baseten funding $1.5 billion inference platform June 2026` — surfaced TechCrunch Jun 18 13:50 PDT = Jun 19 05:50 KST
+- `Amazon Trainium external customers inference chips June 2026` — surfaced TechCrunch + 전자신문 Korean version
+- `FERC AI power grid fast lane datacenter electricity June 2026` — surfaced TechCrunch + TheNextWeb dual coverage
+- `Meta Crusoe Energy 1.6GW datacenter deal June 2026` — surfaced 전자신문 (Korean) Jun 18 KST
+- `G7 AI 인공지능 2026년 6월 모델 접근 외교` — surfaced AI타임스 Jun 18 06:05 KST
+- `구글 안드로이드 17 AI 기능 June 2026` — surfaced AI타임스 Jun 18 11:30 KST
+- `롯데화학 반도체 소재 공장 착공 2026년 6월` — surfaced ZDNet Korea Jun 18 KST
+- **Low-yield day pattern**: Single-day Jun 19 window had most interesting Jun 18 KST stories already captured in issue #030. Only 9 new qualifying articles found — reflects prior issue's thoroughness rather than a news drought.
 - `HPE Discover 2026 datacenter AMD EPYC networking June 18 2026` — surfaced ServeTheHome (EPYC Venice), NextPlatform (HPE networking), NextPlatform (server boom pricing)
 - `Coherent optics NVIDIA photonics wafer capacity June 2026` — surfaced The Register (Jun 18 04:12 KST)
 - `MS Copilot Cowork collaborative AI agent June 18 2026` — surfaced ZDNet Korea
