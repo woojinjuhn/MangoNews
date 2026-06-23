@@ -1,0 +1,105 @@
+{
+  "kept": [
+    {
+      "id": "11",
+      "title": "시총 왕좌 등극한 SK하닉…증시 주도주, 전력·통신·전자 거쳐 AI 반도체로",
+      "url": "https://www.fnnews.com/news/202606230701213907",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "한국 1차 매체 보도: SK하이닉스가 25년 만에 삼성전자를 제치고 KOSPI 시총 1위 등극 — HBM 집중 + AI 반도체 패러다임 전환을 상징하는 한국 반도체 시장 핵심 사건."
+    },
+    {
+      "id": "1",
+      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia's $20B not-acqui-hire deal",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "category": "market",
+      "competitor": "Groq",
+      "keep_reason": "Tier 2 인접 AI 추론 칩 경쟁사: 6.5억 달러 펀딩, NVIDIA의 LPU IP 인수 이후 neocloud 비즈니스로 피벗 (13개 데이터센터, 주간 trillion 토큰 처리) — 경쟁사 전략 재편."
+    },
+    {
+      "id": "6",
+      "title": "Microsoft plans 2GW data center campus in Pecos, Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-plans-2gw-data-center-campus-in-pecos-texas/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 데이터센터 전력 인프라 메가 프로젝트: Microsoft-Chevron 20년 PPA, 2.67GW 천연가스, 5-7년 투자 — DCD 1차 인프라 매체의 상세 보도 (세수/일자리/공급 일정 포함)."
+    },
+    {
+      "id": "4",
+      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "AI 컴퓨트 수요 시그널: Reflection AI가 Colossus 2에서 GB300 사용에 월 1.5억 달러, 총 63억 달러 (3년) — Anthropic·Google에 이어 SpaceX의 neocloud 임대 경제 확장, GPU 인프라 수급의 가격 신호."
+    },
+    {
+      "id": "3",
+      "title": "Nvidia wants to cut data center water use, but that's not the same as fixing AI's water problem",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "category": "challenges",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA 데이터센터 냉각 신기술 (45도 warm-water closed-loop) + AI 물 발자국 한계 분석 — DPU 인접 경쟁사 + 데이터센터 효율/냉각 challenge."
+    },
+    {
+      "id": "8",
+      "title": "Prometheus Hyperscale secures planning approval for gigawatt data center campus in Wyoming",
+      "url": "https://www.datacenterdynamics.com/en/news/prometheus-hyperscale-secures-planning-approval-for-gigawatt-data-center-campus-in-wyoming/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "기가와트 데이터센터 허가 승인 (1.25GW→5GW 확장), 공공 grid 없이 자체 microgrid (천연가스), In-Q-Tel(CIA) 투자 — AI 인프라 grid bypass 모델 + 안보 함의."
+    },
+    {
+      "id": "9",
+      "title": "Microsoft proposes ratepayer-protection tariff in Nevada",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-proposes-ratepayer-protection-tariff-in-nevada/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 데이터센터 전력 비용 분배 정책 프레임워크: 'Bring Your Own Power' 경로, 60일 신속 승인 — 미국 hyperscaler가 일반 소비자 요금 보호 모델 제안하는 정책 트렌드."
+    },
+    {
+      "id": "10",
+      "title": "This is the Storage of Spaceborne Computer 4 Bringing AI Compute to the Moon",
+      "url": "https://www.servethehome.com/this-is-the-storage-kioxia-hpe-spaceborne-computer-4-bringing-ai-compute-to-the-moon/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Kioxia BG-시리즈 DRAM-less M.2 SSD를 달 표면 AI 컴퓨트에 채택 — 엣지 AI 추론, 패시브 방열 냉각, consumer-grade SSD의 우주 적용성 검증."
+    },
+    {
+      "id": "7",
+      "title": "Gigawatt-scale data center campus proposed in Kansas",
+      "url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-campus-proposed-in-kansas/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "1000에이커 기가와트급 캠퍼스 제안 (Flint Hills Digital Campus) — 미국 중부 신규 AI 데이터센터 수요 확산 시그널, 아직 초기 단계지만 시장 두께 지표."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "2",
+      "title": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US",
+      "discard_reason": "duplicate of article id 6 (DCD 'Microsoft plans 2GW data center campus in Pecos, Texas') — 동일한 Project Kilby 사건, DCD가 더 상세한 1차 데이터센터 매체 보도이므로 그것을 keep."
+    },
+    {
+      "id": "5",
+      "title": "OpenAI launches new initiative to help find and patch open-source bugs",
+      "discard_reason": "off-topic: 오픈소스 소프트웨어 보안 이니셔티브 (Patch the Planet) — AI 인프라/DPU/SmartNIC/AI 하드웨어와 연결고리 없음, MangoBoost의 KEEP 카테고리에 해당하지 않음."
+    }
+  ],
+  "summary": {
+    "total_received": 11,
+    "total_kept": 9,
+    "total_discarded": 2,
+    "category_breakdown": {
+      "market": 4,
+      "products": 1,
+      "projects": 0,
+      "challenges": 4,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 2,
+    "by_competitor": {
+      "Groq": 1,
+      "NVIDIA": 1
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "collection_date_kst": "2026-06-23",
+  "run_summary": {
+    "total": 11,
+    "by_topic": {
+      "ai": 2,
+      "semiconductor": 1,
+      "datacenter": 7,
+      "competitor": 1
+    },
+    "by_competitor": {
+      "NVIDIA": 1,
+      "Groq": 1,
+      "Tenstorrent": 0,
+      "Marvell": 0,
+      "Rebellions": 0,
+      "FuriosaAI": 0,
+      "Moreh": 0,
+      "FriendliAI": 0,
+      "HyperAccel": 0,
+      "Napatech": 0,
+      "Broadcom": 0,
+      "Cerebras": 0,
+      "AMD Pensando": 0
+    },
+    "competitor_tagged_total": 2,
+    "sources_consulted": 32,
+    "skipped_paywalled": 1,
+    "notes": "recency_window: 2026-06-23 KST only (last issue 2026-06-22). All articles dated 2026-06-22 KST (before midnight KST) excluded as out-of-window. Bloomberg Korea chip export article returned 403. Naver News IT section fetch blocked (WebFetch error). The Register Qualcomm-Tenstorrent article (Jun 16 KST) out of window — no confirmed same-day story for Tenstorrent. ZDNet Korea Samsung Electro-Mechanics AI200 article (Jun 22 14:26 KST) out of window. ZDNet Korea DeepSeek article (Jun 17) out of window. KT Cloud Rebellions article (Jun 4) out of window. AI타임스 articles published Jun 22 KST (SpatialClaw 17:44, Tesla Megapod 16:49, Anthropic robot 18:15, SK Hynix market cap 13:32) all out of window. The Next Platform HPE article (Jun 22 22:05 KST) out of window. Microsoft Blog Pecos duplicate of DCD coverage — excluded. ServeTheHome HPCwire feed returned 403. Napatech: no June 23 KST news found. FuriosaAI, Moreh, HyperAccel, FriendliAI: no June 23 KST-dated stories confirmed. dropped: https://www.aitimes.com/news/articleView.html?idxno=211993 — body unextractable (aitimes.com blocks body extraction)."
+  },
+  "articles": [
+    {
+      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia's $20B not-acqui-hire deal",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "body": "AI chipmaker Groq has confirmed a $650 million funding round, roughly six months after Nvidia executed what's termed a 'not-acqui-hire' deal. That December agreement involved Nvidia licensing Groq's technology while recruiting founder Jonathan Ross, president Sunny Madra, and other key personnel.\n\nThe funding round was led by Disruptive, a Dallas-based investment firm whose founder Alex Davis chairs Groq's board, and Infinitium, a Fort Lauderdale hedge fund. Groq's valuation was not disclosed; it was previously valued at $6.9 billion following a September 2025 funding round.\n\nRoss, who previously developed Google's Tensor Processing Unit, co-founded Groq a decade ago with fellow Google engineer Doug Wightman. Following Ross's departure to Nvidia, Wightman assumed the CEO position.\n\nGroq's original focus centered on language processing units for inference applications, distributed through cloud services or on-premises hardware. After Nvidia obtained the LPU intellectual property, the GPU manufacturer unveiled its own inference system, the Nvidia Groq 3 LPX.\n\nIn response, Groq has pivoted toward its 'neocloud business,' which evolved from Groq's 2024 acquisition of Definitive Intelligence, previously operated by Madra. This infrastructure now spans thirteen data centers across multiple continents and serves over five million developers, processing trillions of tokens weekly.\n\nThe company has also recruited replacement executives, including Alan Rice as Chief Operating Officer (formerly at xAI and Meta), Sinclair Schuller as Chief Technology Officer, and Rakesh Malhotra as Chief Product Officer. Schuller and Malhotra previously co-founded Nuvalence, acquired by EY in 2024.",
+      "published_at": "2026-06-23T07:13:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai", "semiconductor"],
+      "competitor": "Groq"
+    },
+    {
+      "title": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US",
+      "url": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
+      "body": "Microsoft and Chevron announced a partnership to build a 2.67-gigawatt natural gas power plant in West Texas. Under a 20-year power purchase agreement, the facility—called Project Kilby—will supply electricity exclusively to Microsoft's AI and cloud data centers.\n\nThe project utilizes two large GE Vernova turbines and additional capacity from Caterpillar subsidiary Solar Turbines. Chevron describes it as 'among the largest co-located natural gas power and data center developments in the U.S.'\n\nThe initiative represents a significant pivot for Microsoft, which has publicly committed to eliminating carbon emissions by 2030. According to the Environmental Integrity Project, the power plant could release more than 13 million tons of carbon dioxide annually, along with 3,200 tons of criteria air pollutants and 278,000 pounds of hazardous air pollutants.\n\nThe announcement reflects broader industry trends, as major technology companies increasingly turn to natural gas infrastructure to meet surging energy demands from AI operations.",
+      "published_at": "2026-06-23T07:37:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "Nvidia wants to cut data center water use, but that's not the same as fixing AI's water problem",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "body": "Nvidia announced a warm-water cooling system designed to dramatically reduce on-site water consumption at data centers. The company claims it can eliminate 'pretty much all water usage' inside facilities through a closed-loop coolant system that recirculates without requiring fresh water replenishment.\n\nHowever, the solution addresses only a partial aspect of AI's water footprint. While Nvidia's technology effectively reduces cooling water needs within data center walls, it ignores the substantial water demands upstream—particularly in electricity generation and chip manufacturing, which can double or triple total water consumption.\n\nThe technical approach pumps coolant at 45°C through server racks, extracting heat efficiently enough that passive radiators in most climates can dissipate warmth without evaporative cooling systems. This improves operational efficiency and reduces noise alongside water savings.\n\nThe critical limitation centers on power sourcing. Fossil fuel plants consumed 2.7 billion gallons daily in the U.S., with natural gas plants requiring 1.17 liters per kilowatt-hour generated. Coal plants demand even more at 2.2 liters per kilowatt-hour. The IEA projects fossil fuels will provide over 40% of new data center electricity through 2030.\n\nRenewables like wind and solar use minimal water—approximately 0.01 and 0.03 liters per kilowatt-hour respectively. Until data centers transition away from fossil fuel dependency, water consumption challenges persist despite hardware innovations.",
+      "published_at": "2026-06-23T07:08:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "body": "SpaceX has signed a compute infrastructure deal with Reflection AI, an open-source AI startup. Beginning July 1, 2026, Reflection will pay $150 million monthly through 2029 for access to Nvidia's GB300 AI chips at SpaceX's Colossus 2 data center near Memphis, Tennessee. The contract is valued at $6.3 billion with a 90-day cancellation clause after the initial three months.\n\nThis agreement follows larger deals SpaceX signed with Anthropic ($1.25 billion monthly) and Google ($920 million monthly), both running through July 2029.\n\nReflection, founded in 2024 by former Google DeepMind researchers, emphasized that 'open source is crucial to the AI ecosystem' following the U.S. government's recent ban on Anthropic's closed models. The startup positions its open-weight approach as an alternative to proprietary frontier labs.\n\nThe Colossus data center was originally built by xAI (now part of SpaceX) for internal AI development. As xAI's operations have diminished, SpaceX has monetized its substantial AI chip inventory by leasing computing resources to major AI companies and research organizations.",
+      "published_at": "2026-06-23T03:51:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI launches new initiative to help find and patch open-source bugs",
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "body": "OpenAI unveiled 'Patch the Planet,' a collaborative initiative with security firm Trail of Bits designed to strengthen open-source software security. The program pairs Trail of Bits engineers with open-source maintainers to identify and address code vulnerabilities, leveraging OpenAI's security tools like Codex Security.\n\nAs OpenAI explained, the initiative aims to 'reduce that burden, not add to it: security engineers review findings before they reach maintainers, work with projects to develop patches and tests, and build reusable workflows.'\n\nOpen-source projects form the technological foundation of commercial software but remain vulnerable due to decentralized oversight. The log4j vulnerability exemplifies how bugs in widely-used open-source components can cascade into major infrastructure problems.\n\nWhile AI-powered security tools risk enabling cyber attacks, OpenAI's approach reverses this dynamic by deploying AI defensively. The initiative appears partly competitive toward Anthropic's security tools while addressing genuine open-source community needs.",
+      "published_at": "2026-06-23T11:11:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft plans 2GW data center campus in Pecos, Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-plans-2gw-data-center-campus-in-pecos-texas/",
+      "body": "Microsoft has unveiled a 2GW data center campus in Pecos, Texas, partnering with oil and gas company Chevron to supply up to 2.67GW of power through a 20-year Power Purchase Agreement. The 'multibillion-dollar' project, known as Project Kilby and developed jointly by Chevron and hedge fund Engine No. 1, will span five to seven years of investment and generate approximately 6,000 construction jobs.\n\nThe power plant will primarily utilize GE Vernova-manufactured natural gas turbines alongside Caterpillar's Solar Turbines division. First power delivery is expected in 2028.\n\n'AI is reshaping the global economy, and abundant, affordable, reliable energy is essential' to fueling that transformation, stated Jeff Gustavson, Chevron's New Energies president. Microsoft's Noelle Walsh emphasized that 'rapid growth we're experiencing in AI and cloud...requires energy infrastructure that can scale quickly and reliably.'\n\nChevron projects over $10 billion in state and local tax revenue while planning to use non-potable, brackish groundwater for operations and exploring water reuse from oil and gas production.\n\nThe Pecos location in West Texas represents Microsoft's expanding Texas footprint, following recent projects in Medina, Castroville, and a 700MW capacity lease at Crusoe's Abilene facility.",
+      "published_at": "2026-06-23T01:34:00+09:00",
+      "source": "Data Centre Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Gigawatt-scale data center campus proposed in Kansas",
+      "url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-campus-proposed-in-kansas/",
+      "body": "A gigawatt-scale data center campus is being proposed in Kansas near Emporia in Lyon County. The Flint Hills Digital Campus could span 1,000 acres within Emporia's Industrial Park IV, approximately 100 miles southwest of Kansas City.\n\nThe project would feature 'a combination of dedicated grid infrastructure and on-site generation,' according to its dedicated website, though comprehensive details remain limited.\n\nThe City of Emporia is reviewing a request from Kanza Park Place, LLC to establish a Digital Infrastructure Overlay District and related annexation and zoning proposals. Local landowner Gary Pinkston is proposing the project alongside Kanza Park.\n\nThe development aims to 'attract substantial private investment, support thousands of construction jobs and hundreds of permanent jobs, create opportunities for local businesses, and significantly expand the county's tax base,' according to statements on the project website.\n\nGarrett Nordstrom of Kanza Park Place LLC emphasized the initiative represents 'an opportunity to engage the community in discussions about the future of economic development, technology infrastructure, workforce growth, and long-term regional competitiveness.' The company welcomed 'public engagement throughout the planning process.'",
+      "published_at": "2026-06-23T01:21:00+09:00",
+      "source": "Data Centre Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Prometheus Hyperscale secures planning approval for gigawatt data center campus in Wyoming",
+      "url": "https://www.datacenterdynamics.com/en/news/prometheus-hyperscale-secures-planning-approval-for-gigawatt-data-center-campus-in-wyoming/",
+      "body": "US data center firm Prometheus Hyperscale has secured planning approval for its long-planned Wyoming campus. The company received unanimous conditional use permit approval from the Uinta County board of commissioners for its flagship data center campus near Evanston.\n\nThe 506-acre site will initially offer 1.25GW capacity, with potential expansion to 5GW. Construction is anticipated to begin within six months of final permitting, with full buildout expected over 48 to 60 months in phases.\n\n'This unanimous approval reflects the strength of the project's fundamentals and the depth of community engagement,' stated Trevor Neilson, Prometheus Hyperscale's president.\n\nThe company, formerly known as Wyoming Hyperscale Whitebox and relaunched in September 2024, originally planned a 120MW campus on the site in 2020. The Evanston campus will operate as a fully islanded microgrid, generating power on-site through natural gas engines and turbines rather than connecting to the public utility grid.\n\nPrometheus is also developing additional projects including the 1.25GW Falls Ranch near Casper in partnership with Casper Carbon Capture, and a Dallas, Texas site with Engie.\n\nIn-Q-Tel, a venture firm funded by the US Central Intelligence Agency, has invested in the company.",
+      "published_at": "2026-06-23T00:33:00+09:00",
+      "source": "Data Centre Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft proposes ratepayer-protection tariff in Nevada",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-proposes-ratepayer-protection-tariff-in-nevada/",
+      "body": "Microsoft has submitted a proposal to Nevada's Public Utilities Commission establishing a framework for allocating costs tied to AI data center expansion. The filing, made in May, aligns with Microsoft's Community-First AI Infrastructure initiative and the Trump administration's ratepayer protection pledge, which the company endorsed in March.\n\nThe proposed framework requires NV Energy to track substations and transmission facilities serving large customers, with those customers paying for project-specific infrastructure investments through upfront or phased payments. Infrastructure providing broader grid benefits could later transfer to the rate base after commission approval.\n\nKey components include tracking mechanisms from development through operation, mandatory service agreements outlining expected demand, and exit charges if customers disconnect before investments are repaid. A 'Bring Your Own Power' pathway would allow customers to secure third-party generation recognized in utility planning.\n\nDevelopers funding projects entirely could access streamlined 60-day regulatory approval when no ratepayer cost recovery is sought. The PUC will conduct evaluation, scenario modeling, and public comment before deciding whether to adopt the proposal.\n\nMicrosoft currently operates no Nevada data centers but acquired Reno land in April 2025 for potential hyperscale development.",
+      "published_at": "2026-06-23T00:00:34+09:00",
+      "source": "Data Centre Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "This is the Storage of Spaceborne Computer 4 Bringing AI Compute to the Moon",
+      "url": "https://www.servethehome.com/this-is-the-storage-kioxia-hpe-spaceborne-computer-4-bringing-ai-compute-to-the-moon/",
+      "body": "HPE's Spaceborne Computer 4 represents a significant shift in space-based computing infrastructure. Unlike its predecessors (versions 1-3) deployed to the International Space Station, this fourth iteration is 'smaller and will go further,' heading to the lunar surface via the Astrolab FLEX platform.\n\nThe system addresses a critical challenge for distant missions: communication latency. By incorporating local CPU and GPU processing capabilities, the device enables autonomous decision-making on rovers without waiting for Earth-based instructions. Weight constraints demanded a compact design.\n\nMost remarkably, the storage solution defies expectations. Rather than custom space-qualified hardware, engineers selected a Kioxia BG-series M.2 SSD—a 'low-cost' DRAM-less drive typically found in consumer systems. This pragmatic choice reflects years of proven performance; Kioxia has successfully operated commercial NAND drives in space, establishing that standard consumer-grade storage survives the environment adequately.\n\nThe system employs passive radiative cooling rather than traditional fans, essential for the lunar environment where air circulation is impossible. Launch is anticipated later in 2026.",
+      "published_at": "2026-06-23T02:00:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "시총 왕좌 등극한 SK하닉…증시 주도주, 전력·통신·전자 거쳐 AI 반도체로",
+      "url": "https://www.fnnews.com/news/202606230701213907",
+      "body": "SK Hynix has ascended to the top market capitalization position on KOSPI, marking a significant shift in Korea's stock market leadership after 25 years of Samsung Electronics' dominance.\n\nOn June 22, SK Hynix closed at 2,919,000 won, up 5.61%, achieving a market capitalization of 208.04 trillion won, surpassing Samsung Electronics' 206.66 trillion won. This represents the first time in over two decades that the top position has changed hands.\n\nSK Hynix's stock has surged 348% this year, substantially outpacing Samsung Electronics' 195% gain. Analysts attribute this to high concentration in memory semiconductors, particularly HBM (high bandwidth memory), as opposed to Samsung's diversified portfolio across smartphones, appliances, and displays.\n\nThe shift reflects the symbolization of AI semiconductors becoming the new central axis of domestic markets, according to securities analysts. Historical context shows KOSPI leadership has evolved from power utilities (1998), telecommunications firms KT and SK Telecom (1999), to Samsung Electronics (since 1999).\n\nIn KOSDAQ markets, semiconductor equipment manufacturers are gaining prominence, with Joo Sung Engineering ranking fifth, followed by semiconductor-related companies Woni IPS and Lino Engineering at seventh and eighth positions respectively.\n\nSK Hynix submitted ADR registration documents to the U.S. Securities and Exchange Commission in March 2026. A successful listing would enhance accessibility for overseas investors and potentially enable inclusion in the Philadelphia Semiconductor Index.",
+      "published_at": "2026-06-23T07:01:00+09:00",
+      "source": "Financial News (파이낸셜뉴스)",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    }
+  ]
+}

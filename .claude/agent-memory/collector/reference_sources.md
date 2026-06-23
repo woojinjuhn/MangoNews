@@ -99,6 +99,26 @@ type: reference
 - **prnewswire.com** — accessible for Korean company press releases (Moreh, Rebellions PRs often syndicated here)
 - **thenextweb.com** — accessible; good for Google/Marvell/hyperscaler custom silicon news; explicit dates
 
+## Source notes (2026-06-23 run)
+- **TechCrunch RSS** — yields June 23 KST articles reliably; PDT timestamps must be converted (+16h to KST); Jun 22 afternoon PDT = Jun 23 KST morning. Most productive Channel A source for June 23.
+- **DCD RSS (datacenterdynamics.com)** — RSS timestamps confirmed UTC; Jun 22 15:00+ UTC = Jun 23 00:00+ KST (in window). Jun 22 < 15:00 UTC = Jun 22 KST (out of window). DCD body fetch returns 403 but full body recoverable via WebFetch prompt.
+- **ServeTheHome** — Jun 22 17:00 UTC articles fall in Jun 23 KST window. Body extractable.
+- **파이낸셜뉴스 (fnnews.com)** — URL pattern YYYYMMDDHHMMID; 2026-06-23 morning articles accessible; covers KOSPI/semiconductor market cap events.
+- **AI타임스 (aitimes.com)** — Article body NOT extractable via WebFetch (JS-rendered content area). Timestamps confirmed in page header. Reliable for Korean AI news published on Jun 23 KST.
+- **HPC Wire** — still 403; skip
+- **NetworkWorld RSS** — still 404; skip
+- **Wired RSS** — blocked entirely by WebFetch; skip
+- **Tom's Hardware** — article body still inaccessible (client-side JS render); skip body extraction
+- **SemiAnalysis RSS** — only shows articles from 2025 Sep (feed caching issue?); yields 0 articles for 2026-06-23
+- **en.sedaily.com** — article body accessible via WebFetch when full URL provided; Jun 4 Rebellions article confirmed
+
+## Query patterns (2026-06-23 run)
+- `Groq $650M raise Nvidia not-acqui-hire June 2026` — surfaced TechCrunch Jun 22 article confirmed in window
+- `Microsoft Chevron gas datacenter Texas natural gas` — surfaced TechCrunch + DCD + Bloomberg coverage; use TechCrunch as canonical
+- `Qualcomm Tenstorrent acquisition $10B RISC-V June 2026` — The Register Jun 16 article; out-of-window for Jun 23 run
+- `SK하이닉스 코스피 시총 1위 2026년 6월` — surfaces fnnews.com Jun 23 article; accessible
+- On weekdays when window = 1 day (today only), TechCrunch + DCD are highest-yield sources for confirmed same-day articles
+
 ## Source notes (2026-06-08 run — weekend collection window)
 - **SemiAnalysis RSS** (semianalysis.com/feed/): Feed is effectively dead — latest items are September 2025. Do not rely on RSS; check site directly via WebSearch.
 - **NetworkWorld RSS**: Confirmed 404. Do not attempt.
