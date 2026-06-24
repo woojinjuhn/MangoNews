@@ -117,6 +117,21 @@ type: reference
 - `Microsoft Chevron gas datacenter Texas natural gas` — surfaced TechCrunch + DCD + Bloomberg coverage; use TechCrunch as canonical
 - `Qualcomm Tenstorrent acquisition $10B RISC-V June 2026` — The Register Jun 16 article; out-of-window for Jun 23 run
 - `SK하이닉스 코스피 시총 1위 2026년 6월` — surfaces fnnews.com Jun 23 article; accessible
+
+## Source notes (2026-06-24 run)
+- **DCD RSS timestamps**: Critical pattern — articles published before 15:00 UTC on June 23 = June 23 KST (outside window for June 24 issue). Articles 15:00 UTC or later = June 24 KST (inside window). Exact cutoff: 15:00 UTC = midnight KST. Use RSS pubDate field for precise gating.
+- **ZDNet Korea (zdnet.co.kr)**: Homepage lists same-day articles with timestamps visible. URL pattern: /view/?no=YYYYMMDDHHMMSS. June 24 articles confirmed accessible at 09:51 and 10:07 KST. Body extractable via WebFetch.
+- **Yahoo Finance market articles**: Publishable at early KST hours (01:00-06:00 KST) when US markets are in session. Full body accessible via WebFetch. Contains exact timestamps in byline (GMT+9 format).
+- **The Register**: Article bodies fully extractable. Timestamps visible in article footer as "Day, DD Month YYYY at HH:MM UTC". June 23 articles at 21:16 and 21:50 UTC = June 24 06:16 and 06:50 KST (in window).
+- **SemiAnalysis RSS**: Returns content from September 2025 — confirmed feed caching issue, not current. Skip in future runs; use WebSearch for SemiAnalysis content discovery instead.
+- **HPC Wire**: Still 403. Skip.
+- **aitimes.com**: Body extraction inconsistent (JS rendering). Use articleList.html page to discover June 24 articles (shows timestamps); then fetch each article directly by idxno. June 24 06:05 KST article confirmed accessible.
+
+## Query patterns (2026-06-24 run)
+- `Qualcomm investor day June 24 2026 data center Dragonfly` — surfaces BofA preview + upcoming event details
+- `AMD Intel NVIDIA semiconductor sell-off June 23 2026` — surfaces Yahoo Finance market articles published June 24 KST 02:00-05:40
+- `한국 코스피 반도체 급락 MSCI 2026년 6월 24일` — surfaces fnnews.com, Korea Herald coverage of MSCI failure + market selloff
+- `DCD RSS pubDate verification` — always fetch DCD RSS to get exact UTC times; do not rely on article body "June 23" date alone
 - On weekdays when window = 1 day (today only), TechCrunch + DCD are highest-yield sources for confirmed same-day articles
 
 ## Source notes (2026-06-08 run — weekend collection window)

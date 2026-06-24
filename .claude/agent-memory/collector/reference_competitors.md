@@ -255,6 +255,14 @@ type: reference
 - AMD Pensando Silina 400 DPU (3rd gen) in Helios rack; Pollara 400 AI NIC in Oracle Cloud partnership
 - Cerebras IPO: S-1 filed April 17 2026; CBRS; $23B valuation; mid-May Nasdaq listing target
 
+## June 24 2026 update — competitor developments
+- **Qualcomm**: Investor Day June 24 held. Expected to announce Dragonfly AI200/AI250 data center accelerator details, HUMAIN 200MW agreement update, unnamed hyperscaler ASIC customer. Pre-day: BofA raised PT $165→$195 (Underperform maintained). Stock dropped 8% June 23 (-$19B mkt cap) ahead of event. Tenstorrent acquisition ($8-10B) not yet formally confirmed but widely expected as June 24 catalyst. Articles: Yahoo Finance (01:34 KST June 24).
+- **Tenstorrent**: Acquisition by Qualcomm at $8-10B still in advanced talks per pre-day articles; Galaxy Blackhole GA April 28 still most recent confirmed product news. No new standalone June 24 article confirmed before Investor Day completion (Investor Day during US hours = articles post-June 25 KST).
+- **NVIDIA**: KOSPI-connected sell-off on June 23 (US time) drove NVIDIA -4% alongside AMD -5%, Intel -6%, Micron -13%. Cause: Fed hawkishness + profit taking after massive YTD gains. BlueField-4 DPU + Vera Rubin platform details confirmed as core platform story. IREN partnership ($2.1B equity + $3.4B compute contract) updated in Korean press. Argentum AI $4.1B deal involves 27,000 NVIDIA GB300 GPUs.
+- **Moreh, FriendliAI, HyperAccel, FuriosaAI, Rebellions**: No standalone June 24 KST articles found after exhaustive English + Korean search. FuriosaAI pre-IPO funding (8500억 KRW) still open; Rebellions CCK Solution MOU from June 22 already past window.
+- **Marvell, Napatech**: No standalone June 24 articles. Marvell S&P 500 (June 22) story now in published_urls from #033.
+- **Groq (now under NVIDIA)**: DCD Groq $650M article published June 23 11:50 UTC = June 23 20:50 KST — OUTSIDE window. Not collected.
+
 ## June 19-22 2026 update — competitor developments (4-day weekend window)
 - **Marvell**: Officially joined S&P 500 on June 22 (replacing Juniper Networks after HPE acquisition). Announcement from S&P Dow Jones Indices on June 5/6; stock appreciation ~+7% on announcement. Confirmed within window: June 21 TIKR.com analysis article collected. Story context: S&P 500 inclusion triggers passive fund buying (ETFs) estimated $5-8B inflow. Also: Marvell-Google custom AI chip talks ongoing (MPU + inference TPU, 2 chips), not yet signed.
 - **Amazon (Trainium)**: Amazon confirmed Trainium chips now available for external customers (not just AWS-internal) — first time; announcement tied to broader hyperscaler-custom-silicon-as-product trend. Source: AI타임스 June 20. aitimes.com/211938 collected.

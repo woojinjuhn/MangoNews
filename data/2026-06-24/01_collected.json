@@ -1,0 +1,208 @@
+{
+  "collection_date_kst": "2026-06-24",
+  "run_summary": {
+    "total": 18,
+    "by_topic": {"ai": 5, "semiconductor": 7, "datacenter": 5, "competitor": 1},
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Qualcomm": 1,
+      "Tenstorrent": 0,
+      "Marvell": 0,
+      "Napatech": 0,
+      "Furiosa": 0,
+      "Rebellions": 0,
+      "HyperAccel": 0,
+      "FriendliAI": 0,
+      "Moreh": 0,
+      "Groq": 0,
+      "AMD": 0,
+      "Anthropic": 0
+    },
+    "competitor_tagged_total": 3,
+    "sources_consulted": 18,
+    "skipped_paywalled": 0,
+    "notes": "Naver News IT/과학 (news.naver.com/section/105): WebFetch blocked — Naver prevents scraping. | semianalysis.com RSS: feed returns September 2025 content, not current. | hpcwire.com RSS: 403 error. | DCD timestamp analysis via RSS feed: articles with pubDate before 15:00 UTC on June 23 are June 23 KST (outside window); articles at 15:00 UTC and later are June 24 KST (inside window). Rejected: DCD Oracle/workforce (14:38 UTC), DCD LineShine supercomputer (14:36 UTC), DCD Mayors pact (13:36 UTC), DCD Groq $650m (11:50 UTC), DCD SpaceX/Reflection (11:20 UTC) — all June 23 KST. Also rejected: Upscale AI/NVIDIA $190m (June 22 original publication per SiliconAngle), FuriosaAI/Broadcom (May 27), Rebellions/CCK Solution (June 22). | Competitor searches run for all Tier 1 (Moreh, FriendliAI, HyperAccel, FuriosaAI, Rebellions) and Tier 2 (NVIDIA, Napatech, Marvell, Tenstorrent) — no new June 24 KST articles found for Korean Tier 1 competitors. Qualcomm investor day (June 24 US time) articles published early KST morning confirmed in window. | Micron Q3 earnings report after US market close = articles will appear June 25 KST."
+  },
+  "articles": [
+    {
+      "title": "Argentum AI secures $4.1bn AI cloud contract with unnamed customer",
+      "url": "https://www.datacenterdynamics.com/en/news/argentum-ai-secures-41bn-ai-cloud-contract-with-unnamed-customer/",
+      "body": "Argentum AI has signed a large infrastructure agreement with an unnamed AI company. Under the contract, Argentum will supply long-term access to around 27,000 Nvidia GB300 GPUs to the customer, described only as a 'leading AI company.'\n\nThe contract is valued at $4.1 billion and will see capacity delivered through Argentum's cloud platform. Argentum will roll out capacity in phases starting this year.\n\nAndrew Sobko, founder and CEO of Argentum AI, stated: 'AI demand continues to outpace infrastructure availability across the market. This agreement demonstrates the increasing need for large-scale AI cloud capacity and validates Argentum's ability to rapidly deliver next-generation GPU infrastructure for the world's leading AI organizations.'\n\nHe further noted: 'As foundation models become larger and inference demand accelerates, access to reliable, scalable GPU infrastructure has become mission critical. Our focus is simple: deliver AI compute faster, at greater scale, and with more flexibility than traditional infrastructure models.'\n\nDetails about deployment locations have not been disclosed. According to Argentum's website, it operates in more than 15 countries through live or contracted facilities and is actively pursuing financing from US financial institutions and global investment banks for expansion.\n\nLast month, Argentum AI signed a $2.5 billion infrastructure agreement with cloud gaming company Boosteroid and DL Invest Group. This partnership involves deploying GPU infrastructure within a 300MW+ data center in Bielsko-Biala, Poland.",
+      "published_at": "2026-06-24T01:40:27+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "AlpSemi raises €17m for development of wide-bandgap power switches for AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/alpsemi-raises-17m-for-development-of-wide-bandgap-power-switches-for-ai-data-centers/",
+      "body": "French startup AlpSemi has raised €17 million ($19.5m) to support the development of its next-generation power switches. The round was led by Yotta Capital and saw participation from SE Ventures, Navitas Semiconductor, and Cycle Group.\n\nFounded in 2024 by CEO Frédéric Dupont and CTO Fabrice Letertre, the Grenoble-based company develops wide and ultra-wide bandgap semiconductor power switches for AI data centers and electrical grids. Wide- and ultra-wide-bandgap materials are more energy-efficient than traditional silicon, offering improved performance in energy-constrained environments.\n\nAlpSemi stated the funds would support commercialization of power switches designed for solid-state circuit breakers in residential and commercial buildings, plus 800V direct current AI data centers.\n\nDupont commented: 'This financing positions AlpSemi to emerge as a leading global industrial player in power electronics.' He emphasized accelerating semiconductor development for large-scale solid-state circuit breaker deployment.\n\nCTO Letertre noted: 'Our end-to-end engineering approach allows us to move beyond incremental improvements and fundamentally redefine power protection technologies.' The Grenoble, France-based company's technology targets the energy-constrained environments increasingly common in large-scale AI data center deployments.",
+      "published_at": "2026-06-24T02:00:25+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Lenovo partners with the University of Southampton for Nvidia-powered supercomputer",
+      "url": "https://www.datacenterdynamics.com/en/news/lenovo-partners-with-the-university-of-southampton-for-nvidia-powered-supercomputer/",
+      "body": "Lenovo has secured a four-year agreement to serve as the University of Southampton's primary supplier for high-performance computing infrastructure. The university ordered a supercomputer valued at approximately £7 million ($9.2 million), with delivery anticipated for summer 2026.\n\nThe deployment occurs in two phases. Phase One features Lenovo ThinkSystem SR675 V3 servers equipped with Nvidia H200 GPUs and NVLink technology. Phase Two will introduce an Nvidia Grace Blackwell-based cluster utilizing Lenovo ThinkSystem SC777 V4 Neptune Servers.\n\nThe partnership aims to help Southampton achieve a ranking on the Top500 list of the world's most powerful supercomputers. According to Andy Rhodes, Lenovo's managing director for UK & Ireland, 'These next-generation GPU-accelerated systems will enable the University of Southampton to tackle data-intensive workloads and accelerate breakthrough research.'\n\nProfessor Mark Spearing, VP of research and enterprise at Southampton, emphasized that 'this partnership represents a major step forward in strengthening our research infrastructure' and will enable the institution to 'compete at the highest international level.'\n\nThe expanded computational capabilities are designed to support the university's increasingly complex research demands across various disciplines.",
+      "published_at": "2026-06-24T01:00:38+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "SpaceXAI to restart work on wastewater treatment facility to serve Memphis data centers by Q1 2027",
+      "url": "https://www.datacenterdynamics.com/en/news/spacexai-to-restart-work-on-wastewater-treatment-facility-to-serve-memphis-data-centers-by-q1-2027/",
+      "body": "SpaceXAI has committed to restarting construction on an $80 million wastewater recycling facility in Memphis by the first quarter of 2027, according to statements from city officials.\n\nThe facility, which the company describes as the largest of its kind globally, will process approximately 49.2 million liters of wastewater daily. The treated water will be recycled for the company's data center operations, with excess capacity directed to other Memphis businesses to reduce pressure on the local water supply.\n\nInitial construction began in September 2025 but halted in April 2026 when SpaceXAI redirected staff toward other priorities. The company's leadership had previously stated: 'We need to focus on finishing Colossus 2...then will build the water recycling plant.'\n\nThe facility restart commitment followed a meeting between city representatives, including Mayor Paul Young, and SpaceXAI's Michael Nicoll. A city statement confirmed the company's pledge to resume work by Q1 2027.\n\nThe infrastructure supports SpaceXAI's three Memphis data centers, which house computing capacity leased by Google, Anthropic, and other AI firms. The project aims to address environmental concerns about the company's facility operations in the region.",
+      "published_at": "2026-06-24T01:00:35+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Vattenfall partners with Project Enki and ABB to integrate data centers with offshore wind farms across Europe",
+      "url": "https://www.datacenterdynamics.com/en/news/vattenfall-partners-with-project-enki-and-abb-to-integrate-data-centers-with-offshore-wind-farms-across-europe/",
+      "body": "Swedish energy company Vattenfall has partnered with AI data center startup Project Enki and electrical services provider ABB to explore offshore data centers directly connected to wind farms across Europe.\n\nThe initiative aims to power data centers with renewable energy generated offshore. Project Enki will develop and operate the facilities, while Vattenfall supplies power from its offshore wind assets. Unlike traditional cloud data centers, these facilities would handle long-duration, compute-intensive tasks designed to flex with wind generation patterns.\n\nThe facilities would delay or reduce certain workloads during low wind periods, creating flexibility between power generation and computing demand. During curtailment events — when energy would otherwise be wasted due to grid congestion or market conditions — the offshore data centers would consume that power locally under predetermined commercial agreements.\n\nSeawater cooling would provide natural temperature management, reducing energy consumption and carbon emissions compared to conventional air-cooled systems.\n\nAs one partner explained: 'Our power consumption does not come at the expense of electricity supplied to households' and emphasizes 'sovereignty, sustainability, and speed.'\n\nThe joint project team is evaluating technical, economic, and societal aspects while identifying a potential first deployment location. Vattenfall currently operates approximately 4.4GW of offshore wind capacity across Europe.",
+      "published_at": "2026-06-24T00:42:21+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Microsoft's first data center at Mount Pleasant, Wisconsin, campus now operational",
+      "url": "https://www.datacenterdynamics.com/en/news/microsofts-first-data-center-at-mount-pleasant-wisconsin-campus-now-operational/",
+      "body": "Microsoft has completed construction of its first datacenter facility in Mount Pleasant, Wisconsin, officially launching it on June 23, 2026 — just over two years after the project was announced.\n\nThe facility is a 'Fairwater' data center and part of a multi-building AI cluster. CEO Satya Nadella had revealed in April 2026 that the site was 'going live ahead of schedule,' though the exact operational status was unclear at that time.\n\nThe project required substantial infrastructure: 46.6 miles of deep foundation piles, 26.5 million pounds of structural steel, 120 miles of medium-voltage underground cable, and 72.6 miles of mechanical piping. Nearly 10,000 construction workers were involved.\n\nMicrosoft originally planned to develop 315 acres featuring three large buildings totaling 1.2 million square feet. The company later secured approval for a 1,000-acre expansion in 2023 and received clearance for 15 additional data center buildings in January 2026. Construction on a second facility is currently underway, expected completion in 2028.\n\nMicrosoft estimates investing $4.7 billion in Wisconsin hyperscale construction between 2024 and 2028. Brad Smith, Microsoft's vice chair, emphasized the facility will 'power the next generation of AI innovation globally' while creating hundreds of skilled jobs locally. Currently approximately 550 full-time employees work on-site.",
+      "published_at": "2026-06-24T00:30:32+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "21,000 Oracle jobs vanish amid Big Red's big bets on AI",
+      "url": "https://www.theregister.com/databases/2026/06/23/21000-oracle-jobs-vanish-amid-big-reds-big-bets-on-ai/5260086",
+      "body": "Oracle's workforce shrank by 21,000 over the last year, according to the company's annual report. In June 2025, Big Red reported approximately 162,000 employees. By June 2026, that figure had fallen to 141,000. US headcount fell by 9,000, while international workforce declined by 12,000.\n\nThe company acknowledged: 'Deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce.' Oracle warned of potential future restructuring plans.\n\nRecent layoff reports at Oracle had ranged from 20,000 to 30,000 positions, with the annual report confirming approximately 21,000 departures over the year. The company is financing its AI datacenter expansion through these workforce reductions.\n\nOracle cautioned that restructuring efforts 'have resulted, and may in the future result, in increased restructuring costs and reduced productivity' along with potential shortages of skilled employees and loss of institutional knowledge.\n\nIn response to inquiries, Oracle stated: 'As our cloud and AI businesses grow, we will continually balance our resources and restructure our development group to help ensure we have the right people delivering the best cloud and AI products.'\n\nOracle raised approximately $45 billion in debt and equity during 2026 for data center construction serving clients including AMD, Meta, Nvidia, OpenAI, TikTok, and xAI. Capital expenditures reached $55.6 billion in FY2026, with projections of $90-95 billion for 2027. The company faces a lawsuit from bondholders claiming it concealed debt obligations related to its $300 billion OpenAI deal.",
+      "published_at": "2026-06-24T00:12:19+09:00",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
+      "body": "Anthropic is discontinuing its existing Claude in Slack app in favor of Claude Tag, an always-on agentic AI that operates as a persistent team member within Slack workspaces.\n\nClaude Tag joins organizational Slack instances with access to designated channels, tools, data, and codebases. Users can tag @Claude to delegate tasks, and the system builds contextual understanding over time. According to Anthropic, '65 percent of the product team's code is apparently written by Tag.'\n\nThe system excels at multiple functions: writing code, analyzing product metrics, processing support tickets, and debugging complex issues. Unlike its predecessor, Claude Tag maintains persistent memory within channels — all team members interact with the same instance rather than receiving individual assistance.\n\nThe service introduces autonomous capabilities, including the ability to schedule tasks 'over hours or days' and proactively notify users about potentially relevant information. Anthropic notes that employees now 'spend much more of our time delegating tasks to many Claudes in parallel.'\n\nThe existing Claude for Slack app sunsets August 3, 2026. Enterprise and Teams customers gain access to Tag immediately, with attractive incentives: Enterprise accounts receive $25,000 in credits; Teams accounts get $2,500 — valid only for Tag usage in Slack.\n\nUsers should note that Claude Tag ingests business data on Anthropic's servers for contextual learning, raising considerations for organizations handling sensitive information in Slack channels.",
+      "published_at": "2026-06-24T06:16:00+09:00",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "OpenAI Codex bombards SSDs with needless write operations, costing millions",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+      "body": "OpenAI's Codex coding agent has a critical logging flaw causing excessive SSD wear. Developer Rui Fan reported that after 21 days of uptime, his machine accumulated 37 TB of writes, extrapolating to approximately 640 TB annually. This threatens to exhaust SSD endurance ratings — typical consumer drives offer 600 TBW (terabytes written) — potentially consuming a full drive's warranty within a year.\n\nThe root cause stems from SQLite feedback logs operating at TRACE level verbosity, introduced in February work. One affected user calculated the bug cost them '$38.64 in drive value' on their Samsung 990 NVMe. The broader impact assessment suggests the regression 'plausibly burned low-single-digit millions of dollars of SSD endurance across users during the March-June window.'\n\nOpenAI confirmed engineers are addressing the issue through recent pull requests. The logging was intended for diagnostics and defaults to enabled status, though users can exclude logs from feedback reports.",
+      "published_at": "2026-06-24T06:50:00+09:00",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Qualcomm investor day to detail data center plans Wednesday",
+      "url": "https://ca.finance.yahoo.com/news/qualcomm-investor-day-detail-data-163411390.html",
+      "body": "Bank of America has raised its price target on Qualcomm (QCOM) from $165 to $195, maintaining an 'Underperform' rating ahead of the company's Investor Day on Wednesday, June 24.\n\nThe revised target reflects BofA rolling its valuation forward to calendar year 2028 estimates, applying a 15x price-to-earnings multiple. The bank's underlying financial estimates remain unchanged, projecting roughly $2.5 billion in CY 2028 AI revenue.\n\nQualcomm is expected to outline its strategic shift away from handset reliance toward a broader AI compute platform spanning edge, automotive, internet of things, and data center applications. Management aims to demonstrate a path to generating the majority of its sales from non-smartphone segments by decade's end.\n\nBofA anticipates five key updates at the Investor Day: data center market sizing ($2-5 billion by FY 2027-2028), HUMAIN agreement progress for 200-megawatt accelerator agreements ramping in H2 2026, hyperscaler ASIC deal details, Dragonfly roadmap performance targets for AI200 and AI250 inference accelerators, and additional AI customer announcements.\n\nDespite the increased price target, Bank of America remains cautious. The firm believes Qualcomm's current valuation already reflects success even at $10 billion in CY 2028 data center and AI sales. Additionally, execution risk remains significant given the company's minimal current data center revenues and competition from established players including Nvidia, Broadcom, AMD, Marvell, Arm, and Intel.\n\nQualcomm is also reportedly in advanced negotiations to acquire AI chip startup Tenstorrent at a valuation between $8 billion and $10 billion, a deal that if confirmed at the Investor Day would give the company a RISC-V-based AI accelerator architecture designed to outperform Nvidia's GPU stacks on inference workloads.",
+      "published_at": "2026-06-24T01:34:00+09:00",
+      "source": "Yahoo Finance / Investing.com",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "Tenstorrent"
+    },
+    {
+      "title": "AMD and Intel Drop 5%, NVIDIA Slips 3% Amid Korean-Led Chip Selloff Bulls Say Is 'Healthy'",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-intel-drop-5-nvidia-172322211.html",
+      "body": "AMD and Intel stocks each dropped 5% on Tuesday, while NVIDIA fell 3% amid a broad semiconductor sector decline triggered by South Korea's KOSPI index retreating 10%. The pullback was attributed to profit-taking following substantial year-to-date gains: AMD up 158%, Intel up 282%, and NVIDIA up 12% through the prior trading day.\n\nThe selling stems from intertwined supply chain relationships. AMD partners with Samsung for memory, NVIDIA relies on Korean high-bandwidth memory suppliers, and Intel's data-center roadmap intersects with global memory pricing dynamics.\n\nDespite the decline, prominent analysts dismissed the rout as necessary market correction. Wedbush's Dan Ives characterized the weakness as 'profit-taking and market dynamics rather than deteriorating fundamentals.' Morgan Stanley's Andrew Slimmon stated the move was 'healthy,' arguing selloffs are needed to 'wash out the speculators' from an overcrowded AI trade.\n\nSupporting the bullish case, AMD reported Q1 2026 revenue of $10.25 billion (up 38% year-over-year), while NVIDIA posted Q1 FY2027 revenue of $81.6 billion (up 85% year-over-year).",
+      "published_at": "2026-06-24T02:23:00+09:00",
+      "source": "Yahoo Finance",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "Nvidia, Micron, AMD lead tech sell-off as AI trade cools",
+      "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-micron-amd-lead-tech-sell-off-as-ai-trade-cools-125946422.html",
+      "body": "Nvidia, Micron Technology, and AMD led a technology sector sell-off on Tuesday as investors shifted to a risk-off approach. The Federal Reserve's recent hawkish signals regarding persistent inflation drove the market decline. The Technology sector experienced significant losses, pulling the Nasdaq Composite down approximately 2.1% and extending declines into a second consecutive session.\n\nNvidia stock declined more than 4%, while Alphabet fell nearly 1%, continuing weakness across major technology companies. Micron, preparing to report earnings Wednesday, experienced a sharp 13% drop from recent highs. Asian chipmakers SK Hynix and Samsung Electronics also declined. The broader chipmaker sector, including AMD, Broadcom, and Intel, saw declines as the AI trade cooled.\n\nThroughout 2026, technology has been the strongest-performing sector, driving major indices to all-time highs due to robust AI infrastructure investments. However, expectations of potential Federal Reserve rate increases, combined with the SpaceX IPO and anticipated public debuts of AI developers Anthropic and OpenAI, have raised concerns about market capacity to support elevated AI company valuations. SpaceX stock initially dipped before recovering on Tuesday following a 16% drop in the previous session.",
+      "published_at": "2026-06-24T05:40:00+09:00",
+      "source": "Yahoo Finance",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "\"토큰 아끼지 마라\"...새로운 AI 경쟁력은 '추론 투자'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212009",
+      "body": "최근 몇주 동안 국내외 AI 업계에서는 토큰 효율화에 대한 이야기가 많이 등장했습니다. 무턱대고 AI 사용량을 늘리는 것보다 ROI(투자수익률)와 연결되도록 효율적으로 사용하자는 말입니다. 이는 AI 에이전트의 도입과 바이브 코딩의 일상화, 주요 모델 자체의 대규모화 등에 따라 토큰 사용량이 급증하며, 최근 부쩍 강조된 상황입니다.\n\n하지만 요 며칠 사이에는 오히려 정반대의 메시지가 등장하고 있습니다. 현재는 토큰을 절약할 단계가 아니라, 더 많은 추론 자원을 투입해 AI의 잠재력을 최대한 끌어내야 할 시기라는 주장입니다.\n\nOpenAI의 Noam Brown은 추론 시간을 늘릴수록 모델 성능이 비례해서 향상되는 '테스트 타임 컴퓨팅(Test-time computing)' 트렌드를 언급하며, 비용 절감에 집중하지 말 것을 강조했습니다. Anthropic의 Boris Cherni와 Greg Brockman 역시 유사한 방향의 의견을 피력했습니다.\n\nAI 추론 인프라 투자가 새로운 경쟁력의 핵심으로 부상하면서, 추론 특화 반도체와 클라우드 인프라에 대한 수요가 함께 증가하고 있습니다. 이는 GPU 기반의 훈련 인프라뿐 아니라 NPU, DPU 등 추론 최적화 하드웨어에 대한 관심으로도 이어지고 있습니다.",
+      "published_at": "2026-06-24T06:05:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null
+    },
+    {
+      "title": "한국 증시의 MSCI 선진국 지수 편입 또다시 좌절",
+      "url": "https://www.fnnews.com/news/202606240547133861",
+      "body": "한국 증시의 선진국지수 편입이 또다시 좌절됐다.\n\nMSCI(모건스탠리 캐피털 인터내셔널) 선진국 지수 진입을 위한 첫 단계인 '관찰대상국(Watch List)' 명단에 이번에도 이름을 올리지 못했다.\n\nMSCI는 23일(현지시간) 공개한 2026년 연례 시장 분류 결과에서 한국 증시를 선진국 지수 관찰대상국에 올리지 않았다. 역외 외환시장에서 원화의 환전이 여전히 제한적이라는 점 등을 이유로 들었다.\n\nMSCI는 '(한국 시장과 관련해 제기된) 오랜 우려를 해소하기 위해 한국 시장 당국이 발표한 조처들을 인정한다'면서도 '투자자들은 그러나 근본적인 문제들이 완전히 해소되지 않았다는 반응을 보였다'고 설명했다.\n\nMSCI 지수는 글로벌 기관투자가들이 해외 투자를 할 때 지침으로 삼는 지수다. 시장 규모와 제도에 따라 선진시장(DM), 신흥시장(EM), 프런티어시장(FM)으로 구분한다.\n\n신흥시장에서 선진시장으로 승격하려면 우선 관찰대상국에 포함돼야 한다. 관찰대상국 명단에 최소 1년은 이름을 올려놓고 심사를 받아야 최종 승격이 이뤄지는 것이 일반적이다.\n\n한국 증시는 1929년 신흥국 지수에 편입된 뒤 2008~2014년 관찰대상국에 들어갔다가 명단에서 제외된 뒤 지금까지 후보군에 재진입하지 못하고 있다.",
+      "published_at": "2026-06-24T05:56:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "뉴욕증시 반도체주 급락에 코스피 이틀연속 충격 불가피",
+      "url": "https://www.fnnews.com/news/202606240749547898",
+      "body": "간밤 뉴욕증시에서 반도체주가 급락세를 나타낸 가운데 코스피 역시 이틀 연속 충격이 불가피할 전망이다. 전날 역대 최대 낙폭을 기록한 가운데 이날에도 반도체주 중심의 자금 이탈이 이어지면서 8000선을 위협 받는 흐름이 이어질 것으로 예상된다.\n\n23일(현지시간) 뉴욕증권거래소(NYSE)에서 다우존스 30 산업평균지수는 전장 대비 45.87포인트(0.09%) 하락한 5만1666.84에 마감했다.\n\n스탠더드앤드푸어스(S&P) 500 지수는 107.33포인트(1.44%) 내린 7365.46에 거래를 마쳤고 기술주 중심의 나스닥 지수는 579.56포인트(2.21%) 하락한 2만5587.04에 장을 닫았다.\n\n반도체주가 일제히 약세를 보였다. 메모리 업체 마이크론 테크놀로지가 실적 발표를 앞두고 13.18% 하락했고 샌디스크는 14% 가까이 떨어졌다. 그외 엔비디아는 4%, 인텔은 6%, AMD는 5%, 퀄컴은 8% 가량 하락했다. 필라델피아 반도체지수 역시 7.87% 급락했다.\n\n전문가들은 이번 하락이 과도한 AI 기대감 조정과 미 연준의 금리 동결 기조 장기화 우려 속에서 나타난 차익실현 매물이라고 분석했다. SK하이닉스와 삼성전자도 동반 하락하면서 국내 반도체 업종에도 악영향이 예상된다.",
+      "published_at": "2026-06-24T07:49:00+09:00",
+      "source": "파이낸셜뉴스",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "South Korea fails to achieve MSCI developed market status as won convertibility remains limited",
+      "url": "https://www.koreaherald.com/article/10785904",
+      "body": "South Korea will maintain its emerging-market classification under the MSCI index despite efforts to achieve developed-market status. MSCI cited limited convertibility of the Korean won in offshore currency markets as the primary barrier to reclassification.\n\nThe Korean government acknowledged that while authorities recognize the country's reform efforts, 'the underlying issues have not been fully resolved.' Officials stated the nation will persist in implementing foreign exchange and capital market reforms to meet developed-market criteria.\n\nMSCI specifically noted insufficient onshore liquidity during extended trading hours, which constrains operational flexibility for index replicators. South Korea had set 39 key tasks to achieve developed-market status by 2027, planning to complete 28 by month-end.\n\nThe organization indicated it will continue monitoring implementation and engaging with Korean market authorities and participants. To qualify for developed-market status, South Korea must first be placed on a watch list for at least one year before full upgrading.\n\nThe failure to achieve developed market status came as a further blow to Korean semiconductor stocks, which had already suffered their largest single-day decline ever on June 23, with Samsung Electronics and SK Hynix each falling approximately 12%.",
+      "published_at": "2026-06-24T08:10:12+09:00",
+      "source": "Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "AI 클라우드 판 흔드는 GPU 전쟁…네오클라우드, 82조 시장 '정조준'",
+      "url": "https://zdnet.co.kr/view/?no=20260624100554",
+      "body": "그래픽처리장치(GPU) 집약형 인공지능(AI) 워크로드가 급증하면서 AI·고성능 컴퓨팅에 특화된 '네오클라우드'가 클라우드 시장의 새 축으로 떠오르고 있다. 생성형 AI 확산으로 대규모 학습·추론 인프라 수요가 커진 가운데 GPU 용량과 가격 경쟁력, 데이터 주권 확보 역량이 기업 클라우드 전략의 주요 변수로 부상했다.\n\n가트너에 따르면 네오클라우드 공급업체는 2030년까지 2670억 달러 규모 AI 클라우드 시장에서 20%를 차지할 전망이다. 원화 기준으로는 약 410조원 시장 가운데 82조원 규모다.\n\n네오클라우드는 AI와 고성능 워크로드에 특화된 클라우드 공급업체를 의미한다. 기존 범용 클라우드 모델의 한계가 드러나고 있으며, GPU 기반 컴퓨팅 수요가 전례 없는 수준으로 늘고 있다.\n\n소버린 클라우드도 네오클라우드의 주요 경쟁력으로 꼽힌다. 일부 네오클라우드 사업자는 '데이터와 운영이 특정 관할권 안에 유지되도록 보장' 기능을 강화하고 있다.\n\n글로벌 AI 클라우드 시장에선 GPU 특화 사업자의 인프라 확장이 이어지고 있다. 코어위브는 2030년까지 5GW 이상 규모 AI 팩토리를 구축할 계획을 내놨고, 람다와 네비우스도 엔비디아와 협력을 확대하고 있다.\n\n기업은 현지화된 하이브리드 아키텍처로 전환하는 움직임을 보이고 있으며, IT 리더는 전문 네오클라우드 공급업체를 평가해 고성능 AI 인프라를 확보해야 한다.",
+      "published_at": "2026-06-24T10:07:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "오픈AI 효과 희미해진 MS…자체 AI로 애저 성장 돌파구 찾나",
+      "url": "https://zdnet.co.kr/view/?no=20260624095038",
+      "body": "마이크로소프트(MS)가 오픈AI 중심의 인공지능(AI) 전략에서 벗어나 자체 AI 노선 강화에 나서고 있다. 기업용 AI 모델과 클라우드 인프라를 앞세워 AI 경쟁 구도를 다시 짜려는 시도지만, 반도체와 전력 확보 비용이 급증하면서 투자 부담도 함께 커진 분위기다.\n\nMS는 최근 자체 AI 모델 '마이(MAI)' 7종을 출시하며 오픈AI, 앤트로픽, 구글 등 프런티어 모델 중심 경쟁에서 다른 길을 모색하고 있다. 범용 초거대 모델보다 실사용 비용과 효율성을 앞세워 기업 시장 공략을 본격화 한 것이다.\n\nMS는 지난 4월 실적 발표에서 올해 설비투자 규모가 1900억 달러에 달할 것으로 전망했다. 전력 확보 역시 핵심 과제로 떠올랐으며, MS는 최근 셰브런과 20년 계약을 체결했다.\n\n투자 효과가 실적에 반영되기까지는 시간이 걸릴 전망이다. 나델라 CEO는 '우리는 모든 전력을 데이터센터 건설에 쓰겠다고 말할 수는 없다'고 언급했다.",
+      "published_at": "2026-06-24T09:51:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    }
+  ]
+}

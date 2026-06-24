@@ -1,0 +1,155 @@
+{
+  "kept": [
+    {
+      "id": 10,
+      "title": "Qualcomm investor day to detail data center plans Wednesday",
+      "url": "https://ca.finance.yahoo.com/news/qualcomm-investor-day-detail-data-163411390.html",
+      "category": "products",
+      "competitor": "Tenstorrent",
+      "keep_reason": "Tier 2 competitor (Qualcomm) Investor Day with $2-5B DC market sizing, AI200/AI250 inference accelerator roadmap, HUMAIN 200MW deal, plus reported Tenstorrent (Tier 2 competitor) acquisition at $8-10B valuation — major competitive landscape shift in AI inference silicon."
+    },
+    {
+      "id": 11,
+      "title": "AMD and Intel Drop 5%, NVIDIA Slips 3% Amid Korean-Led Chip Selloff Bulls Say Is 'Healthy'",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-intel-drop-5-nvidia-172322211.html",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "Major semi sector selloff tied to Korean HBM supply chain (AMD-Samsung, NVIDIA-Korean HBM); cites AMD Q1 +38% YoY and NVIDIA Q1 +85% YoY fundamentals — strategic market signal for MangoBoost's AMD ecosystem positioning."
+    },
+    {
+      "id": 15,
+      "title": "뉴욕증시 반도체주 급락에 코스피 이틀연속 충격 불가피",
+      "url": "https://www.fnnews.com/news/202606240749547898",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "한국어 1차 보완: 뉴욕 반도체주 급락(필라델피아 반도체지수 -7.87%, Micron -13%, Qualcomm -8%, NVIDIA -4%)이 SK하이닉스/삼성전자에 미칠 영향 분석 — 한국 반도체 산업 직접 노출 컨텍스트."
+    },
+    {
+      "id": 7,
+      "title": "21,000 Oracle jobs vanish amid Big Red's big bets on AI",
+      "url": "https://www.theregister.com/databases/2026/06/23/21000-oracle-jobs-vanish-amid-big-reds-big-bets-on-ai/5260086",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Oracle $45B debt raise + $55.6B FY26 capex + $90-95B projected FY27 capex for AI DC serving AMD/Meta/NVIDIA/OpenAI/xAI/TikTok; $300B OpenAI deal — top-tier hyperscaler infrastructure spend signal."
+    },
+    {
+      "id": 1,
+      "title": "Argentum AI secures $4.1bn AI cloud contract with unnamed customer",
+      "url": "https://www.datacenterdynamics.com/en/news/argentum-ai-secures-41bn-ai-cloud-contract-with-unnamed-customer/",
+      "category": "market",
+      "competitor": "NVIDIA",
+      "keep_reason": "$4.1B contract for 27,000 NVIDIA GB300 GPUs delivered via neocloud — large-scale AI compute capacity contract validating sustained GPU infrastructure demand."
+    },
+    {
+      "id": 6,
+      "title": "Microsoft's first data center at Mount Pleasant, Wisconsin, campus now operational",
+      "url": "https://www.datacenterdynamics.com/en/news/microsofts-first-data-center-at-mount-pleasant-wisconsin-campus-now-operational/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Microsoft Fairwater AI cluster going live ahead of schedule; $4.7B Wisconsin investment through 2028, multi-building AI campus — hyperscaler AI infrastructure buildout milestone."
+    },
+    {
+      "id": 18,
+      "title": "오픈AI 효과 희미해진 MS…자체 AI로 애저 성장 돌파구 찾나",
+      "url": "https://zdnet.co.kr/view/?no=20260624095038",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "MS 자체 AI 모델 'MAI' 7종 출시 + 1900억 달러(190조원) 설비투자 + 셰브런 20년 전력 계약 — 하이퍼스케일러 in-house AI 전략 + 반도체/전력 비용 부담 시그널."
+    },
+    {
+      "id": 17,
+      "title": "AI 클라우드 판 흔드는 GPU 전쟁…네오클라우드, 82조 시장 '정조준'",
+      "url": "https://zdnet.co.kr/view/?no=20260624100554",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "가트너 전망: 2030년 2670억 달러 AI 클라우드 시장 중 네오클라우드 20%(82조원) 점유; GPU 특화 + 소버린 클라우드 + 코어위브/람다/네비우스 확장 — MangoBoost 핵심 시장."
+    },
+    {
+      "id": 13,
+      "title": "\"토큰 아끼지 마라\"...새로운 AI 경쟁력은 '추론 투자'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212009",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI Noam Brown / Anthropic 임원들의 '테스트 타임 컴퓨팅' 추론 자원 확대 메시지 — NPU/DPU 등 추론 특화 하드웨어 수요 직접 언급, MangoBoost 추론 인프라 포지션과 직결."
+    },
+    {
+      "id": 16,
+      "title": "South Korea fails to achieve MSCI developed market status as won convertibility remains limited",
+      "url": "https://www.koreaherald.com/article/10785904",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "MSCI 선진국 편입 실패가 Samsung/SK Hynix 사상 최대 일일 낙폭(-12%)과 연결됨을 명시 — 한국 반도체 산업 거시적 영향 컨텍스트."
+    },
+    {
+      "id": 2,
+      "title": "AlpSemi raises €17m for development of wide-bandgap power switches for AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/alpsemi-raises-17m-for-development-of-wide-bandgap-power-switches-for-ai-data-centers/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "800V DC AI 데이터센터용 wide-bandgap 전력 스위치 — AI 인프라 전력 효율 문제 직접 대응 기술 및 솔리드스테이트 회로차단기 상용화 자금 조달."
+    },
+    {
+      "id": 5,
+      "title": "Vattenfall partners with Project Enki and ABB to integrate data centers with offshore wind farms across Europe",
+      "url": "https://www.datacenterdynamics.com/en/news/vattenfall-partners-with-project-enki-and-abb-to-integrate-data-centers-with-offshore-wind-farms-across-europe/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Offshore wind 직결 AI 데이터센터 + 풍력 변동에 맞춰 워크로드 flex; 해수 냉각 — DC 전력/냉각/소버린티 효율 문제 솔루션."
+    },
+    {
+      "id": 8,
+      "title": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Claude Tag: always-on 에이전틱 AI (Anthropic 제품팀 코드의 65% 작성) — 에이전틱 AI 워크로드 = CPU:GPU 비율 변화, DPU 수요 견인 신호."
+    },
+    {
+      "id": 9,
+      "title": "OpenAI Codex bombards SSDs with needless write operations, costing millions",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 에이전트 워크로드의 SSD endurance 영향: 21일 가동에 37TB 쓰기 → 연 640TB 추정, 600 TBW 소비자 드라이브 1년 내 소진 — AI 워크로드 스토리지 비용/수명 이슈."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 3,
+      "title": "Lenovo partners with the University of Southampton for Nvidia-powered supercomputer",
+      "discard_reason": "off-topic | 단일 대학 소규모 HPC 도입($9.2M) — 학술용 H200 클러스터, DPU/SmartNIC/전략적 인프라 연관성 없음."
+    },
+    {
+      "id": 4,
+      "title": "SpaceXAI to restart work on wastewater treatment facility to serve Memphis data centers by Q1 2027",
+      "discard_reason": "off-topic | 데이터센터용 폐수처리 시설 재개 발표 — 컴퓨팅/반도체/AI 효율 측면 substance 없는 environmental 인프라 단발 소식."
+    },
+    {
+      "id": 12,
+      "title": "Nvidia, Micron, AMD lead tech sell-off as AI trade cools",
+      "discard_reason": "duplicate of article 11 — 같은 6/23 반도체 selloff 보도이나 #11이 한국 HBM 공급망 + AMD/NVIDIA fundamentals 등 더 깊은 전략 컨텍스트 제공."
+    },
+    {
+      "id": 14,
+      "title": "한국 증시의 MSCI 선진국 지수 편입 또다시 좌절",
+      "discard_reason": "off-topic | 순수 외환/자본시장 분류 이슈; 반도체 산업 연결 컨텍스트 없음 — #16 Korea Herald는 Samsung/SK Hynix 연결을 명시하므로 그것으로 충분."
+    }
+  ],
+  "summary": {
+    "total_received": 18,
+    "total_kept": 14,
+    "total_discarded": 4,
+    "category_breakdown": {
+      "market": 7,
+      "products": 3,
+      "projects": 0,
+      "challenges": 4,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 3,
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Tenstorrent": 1
+    }
+  }
+}
