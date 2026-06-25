@@ -1,0 +1,267 @@
+{
+  "filter_date_kst": "2026-06-25",
+  "kept": [
+    {
+      "id": "art_19",
+      "title": "Qualcomm Unveils New AI Chips, Secures Meta as Data Center Customer",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-24/qualcomm-announces-new-ai-chips-adds-meta-as-customer",
+      "body": "Qualcomm Technologies announced a significant multi-year partnership with Meta to supply data center CPUs at its June 24 Investor Day event in New York. Qualcomm revealed the Dragonfly C1000, a CPU for data centers that Meta will deploy when it starts production in 2028.\n\nThe new chip was built for agentic AI, featuring CPU cores based on Qualcomm's custom Oryon architecture running at more than 5 GHz in a chiplet-based design with more than 250 cores. The datacenter-grade chips offer 2x better performance per watt and 30 percent more speed than competitors' processors.\n\nQualcomm also unveiled the Dragonfly AI200 inference accelerator built on its Hexagon neural processing unit technology with direct liquid cooling and up to 768GB of LPDDR memory. Qualcomm confirmed its acquisition of Modular, an AI software startup, in an all-stock deal valued at approximately $3.9 billion.\n\nQualcomm said its expansion into chips for data centers will produce 'billions' in revenue in the fiscal year that begins in October. Non-handset revenue in fiscal 2029 will be $40 billion, up from a prior forecast of $22 billion, targeting $15 billion in data center sales. Qualcomm shares jumped 15% in extended trading after the announcement.",
+      "published_at": "2026-06-25T04:00:00+09:00",
+      "source": "Bloomberg",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "Tier-1 market intelligence: Qualcomm enters datacenter CPU with Meta multi-gen deal, $40B FY29 target, $3.9B Modular acquisition — direct competitive landscape shift for AI infra silicon (Bloomberg primary)."
+    },
+    {
+      "id": "art_01",
+      "title": "Micron Technology Reports Record Q3 FY2026 Results: $41.5B Revenue, HBM4 Momentum",
+      "url": "https://www.stocktitan.net/news/MU/micron-technology-inc-reports-record-results-for-the-third-quarter-6f50161e5zxh.html",
+      "body": "Micron Technology reported exceptional third-quarter fiscal 2026 results demonstrating remarkable growth driven by artificial intelligence infrastructure demand. The company achieved record revenue of $41.46 billion, compared to $23.86 billion in the previous quarter and $9.30 billion year-over-year. GAAP net income reached $28.24 billion ($24.67 diluted EPS), while non-GAAP net income totaled $28.86 billion ($25.11 diluted EPS). Operating cash flow surged to $25.39 billion, with adjusted free cash flow of $18.3 billion. The company maintains a strong balance sheet with $30.2 billion in cash and investments.\n\nFor Q4 2026, Micron guides revenue to $50.0 billion ± $1.0 billion with approximately 86% gross margin. Management projects GAAP diluted EPS of $30.73 ± $1.00.\n\nAll four segments showed robust growth: cloud memory revenue reaching $13.77 billion, core data center at $11.52 billion, mobile and client at $11.52 billion, and automotive/embedded at $4.63 billion.\n\nCEO Sanjay Mehrotra stated that 'record fiscal Q3 financial results and even stronger outlook for Q4 reflect the strategic value of memory in the AI era.' Micron signed 16 strategic customer agreements representing approximately $100 billion in minimum contracted revenue.\n\nHBM4 is in high-volume shipments for the lead customer's platform. HBM4 12-high volume ramp is tracking twice as fast as HBM3E 12-high, and the company has shipped over $1 billion in HBM4 revenue. Qualification samples shipped to multiple end-customers for HBM4E. Mature yields on HBM4 12-high are expected significantly faster than the previous generation.\n\nStock price increased 15.73% to $1,214.25, adding approximately $160.72 billion to market capitalization.",
+      "published_at": "2026-06-25T05:01:00+09:00",
+      "source": "StockTitan (Micron press release)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "Mega market signal: $41.5B record revenue, $100B LTA contracted, HBM4 $1B shipped + 86% margin guide confirm AI memory super-cycle thesis — foundational for DPU/HBM ecosystem read."
+    },
+    {
+      "id": "art_05",
+      "title": "OpenAI unveils first custom AI inference chip, Jalapeño, with Broadcom",
+      "url": "https://interestingengineering.com/ai-robotics/openai-jalapeno-ai-inference-chip-broadcom",
+      "body": "OpenAI has unveiled Jalapeño, its first custom AI accelerator chip, developed in partnership with Broadcom and Celestica. The chip targets large-scale inference workloads—the process of generating responses from trained AI models.\n\nAccording to the announcement, Jalapeño delivers 'significantly better performance per watt than current state-of-the-art AI accelerators,' though detailed benchmarks will follow later. Engineering samples are already running machine learning workloads in laboratories, including GPT-5.3-Codex-Spark, at production target specifications.\n\nThe chip was architected specifically for LLM inference rather than general-purpose AI tasks. OpenAI claims it reduces data movement while optimizing compute, memory, and networking resources for improved hardware utilization. Broadcom contributed silicon implementation and networking technologies through its Tomahawk platform.\n\nThe development process took nine months from initial design to manufacturing tape-out—described as potentially 'the fastest ASIC development cycle achieved for a high-performance advanced semiconductor.' The effort involved extensive software-hardware collaboration between OpenAI and Broadcom engineers, with OpenAI's AI models accelerating portions of the design workflow.\n\nDeployment at gigawatt-scale data centers begins in 2026. OpenAI positions Jalapeño as the first product in a multi-generation compute platform combining OpenAI-designed accelerators with Broadcom networking and Celestica system integration expertise. The company projects improvements in inference efficiency will enable faster ChatGPT responses, reduced operating costs, and more reliable AI service access.",
+      "published_at": "2026-06-25T02:40:00+09:00",
+      "source": "Interesting Engineering",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor", "datacenter"],
+      "competitor": "Broadcom",
+      "category": "products",
+      "keep_reason": "Competitor (Broadcom) + custom inference silicon megatrend: OpenAI/Broadcom Jalapeño with Tomahawk networking, 9-month tape-out, gigawatt deployment — direct read on hyperscaler in-house silicon trajectory."
+    },
+    {
+      "id": "art_07",
+      "title": "Qualcomm Investor Day 2026 Data Center Announcements CPUs, AI Accelerators, and More",
+      "url": "https://www.servethehome.com/qualcomm-investor-day-2026-data-center-announcements-cpus-ai-accelerators-and-more/",
+      "body": "Patrick Kennedy attended Qualcomm's Investor Day 2026 in New York City to cover the company's data center strategy announcements.\n\nQualcomm introduced High Bandwidth Compute (HBC) as an alternative to traditional HBM solutions. The technology stacks memory directly on compute tiles, offering approximately 768GB of LPDDR memory. According to the presentation, this approach 'eliminates the HBMC tax without SRAM' by reducing power consumption from interposer data transfers.\n\nThe new Dragonfly C1000 processor features over 250 cores running at 5GHz with PCIe Gen7 and CXL support. It includes optional HBC attachment and enterprise RAS features. Qualcomm claims '2x better performance per watt' compared to competitors.\n\nQualcomm acquired Modular to address longstanding software stack challenges. Meta's Mark Zuckerberg announced 'a multi-generational agreement' to use Qualcomm processors, representing a significant hyperscaler commitment. Two hyperscaler customers are expected to drive over $1 billion each in FY27 revenue. Qualcomm updated its FY29 data center revenue forecast from $22 billion to $40 billion, targeting 'over 5% of a $1T+ TAM share in 5-7 years.'\n\nThe AI250 accelerator (launching next year) incorporates proprietary proximity memory computing architecture, delivering 133TB/s maximum memory bandwidth—18x improvement over AI200. The AI300 (2028) targets 54x memory performance enhancement.",
+      "published_at": "2026-06-25T04:22:00+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": null,
+      "category": "products",
+      "keep_reason": "Technical deep-dive on Qualcomm HBC architecture, AI250 (133TB/s, 18x), AI300 (54x) — alternate angle on the Qualcomm cluster with architectural detail relevant to DPU/memory-near-compute landscape."
+    },
+    {
+      "id": "art_09",
+      "title": "퀄컴, AI 데이터센터 청사진 공개...\"전용 CPU·AI 가속기 2028년 출시\"",
+      "url": "https://zdnet.co.kr/view/?no=20260625062146",
+      "body": "퀄컴이 6월 24일(현지시간) 뉴욕 투자자 행사에서 에이전틱 AI 워크로드를 위해 특별히 설계된 새로운 서버 프로세서와 가속기를 공개하며 종합 AI 데이터센터 전략을 발표했다.\n\n아몬 CEO는 '퀄컴은 조용히 필요한 자산들을 축적해왔으며 CPU, AI 가속기, 메모리, 네트워킹, 소프트웨어를 아우르는 종합 포트폴리오를 완성했다. 데이터센터 플랫폼 구축으로 새로운 챕터가 시작될 것'이라고 밝혔다.\n\n주요 제품 발표: 드래곤플라이 C1000 CPU (2028년 출시) - 에이전틱 AI 중심의 서버 프로세서, 5GHz 이상 동작하는 250개 이상의 오라이언 코어, PCIe 7.0 및 CXL 인터페이스 지원. AI250/AI300 가속기 - AI250(내년 출시)은 독자적인 근접 메모리 컴퓨팅 아키텍처를 탑재해 최대 메모리 대역폭 133TB/s, AI200 대비 18배 개선. AI300(2028년)은 메모리 성능 54배 향상 목표.\n\n고대역폭 컴퓨팅(HBC): 데이터 이동을 최소화하고 전력 소비를 줄이기 위해 D램 바로 아래에 컴퓨팅 유닛을 배치하는 2.5D 아키텍처를 도입했다.\n\n추가 발표: 800G 전기-광학 DSP 제품 및 미래 1.6T 제품군 포함 네트워킹 포트폴리오, AI 인프라 스타트업 모듈러(Modular) 인수(이종 데이터센터 지원 소프트웨어), 시장 전망: 에이전틱 AI 인프라 6800억 달러, 서버 CPU 시장 2000억 달러.",
+      "published_at": "2026-06-25T08:23:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai", "datacenter"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "Korean primary on Qualcomm cluster: 800G/1.6T networking portfolio, $680B agentic AI infra TAM, Modular acquisition detail — Korean readership angle for the Qualcomm announcement."
+    },
+    {
+      "id": "art_06",
+      "title": "Qualcomm claims it's not too late for Dragonfly to land in datacenters",
+      "url": "https://www.theregister.com/systems/2026/06/24/qualcomm-claims-its-not-too-late-for-dragonfly-to-land-in-datacenters/5261758",
+      "body": "Qualcomm is making an aggressive push into datacenters with its Dragonfly platform, arguing it's not too late despite established competitors like Nvidia. The company's datacenter EVP Tony Pialis stated: 'When the company turns its attention to solve a new problem, we revolutionize the solution.'\n\nThe C1000 CPU features Qualcomm's custom Oryon architecture with over 250 cores operating above 5 GHz. Pialis claims it delivers '2x better performance per watt and 30 percent more speed' versus competitors' processors.\n\nThe company introduced 'High-Bandwidth Compute' technology that integrates XPU beneath DRAM stacks, reportedly delivering SRAM-like performance while reducing power consumption. Production begins in H2 2028.\n\nMicrosoft plans to deploy HBC-based AI accelerators, while Meta committed to a multi-generation C1000 deployment agreement. Beyond CPUs, Qualcomm targets connectivity (20-kilometer cluster links), custom silicon for major clients, and AI accelerators. The company also announced acquiring Modular to strengthen its AI software capabilities.\n\nQualcomm updated its FY29 data center revenue forecast from $22 billion to $40 billion. Two hyperscaler customers are expected to drive over $1 billion each in FY27 revenue.",
+      "published_at": "2026-06-25T07:32:00+09:00",
+      "source": "The Register",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "Adds Microsoft HBC-based accelerator angle + 20km cluster connectivity to the Qualcomm cluster — competitive positioning details (vs NVIDIA) relevant for AI infra silicon landscape."
+    },
+    {
+      "id": "art_02",
+      "title": "마이크론, 메모리 장기계약 비중 확대...삼성·SK도 성장 구도 바뀐다",
+      "url": "https://zdnet.co.kr/view/?no=20260625084421",
+      "body": "마이크론이 메모리 시장의 사업 구조를 '장기공급계약(LTA) 중심'으로 전환하고 있다. 이번 분기에 데이터센터, 컨슈머, 자동차 분야에서 16건의 전략적 고객 계약(SCA)을 체결했다.\n\n마이크론의 2026회계연도 3분기 실적은 매출 415억 달러, 영업이익 337억 달러로 영업이익률 81%를 기록했다. 이는 전년 동기 대비 매출 345.7%, 영업이익 1252.7% 증가한 분기 사상 최대 실적이며, 시장 컨센서스를 크게 상회했다.\n\n현재 마이크론의 D램 물량 20%와 낸드 물량 33%가 SCA로 공급되고 있다. 이들 계약은 일정 물량 구매 의무와 함께 가격 하한선을 보장하며, '계약상 최소 보장 매출은 기간을 통틀어 1000억 달러에 이른다'고 회사는 강조했다.\n\n마이크론은 2027년에도 메모리 수급이 타이트할 것으로 예측하고 있으며, '2028년은 점진적 공급 개선'을 기대하고 있다. HBM4 누적 매출은 10억 달러를 초과했다.\n\n삼성전자와 SK하이닉스는 마이크론의 LTA 확대로 인해 경쟁 구도 변화에 직면할 것으로 분석된다. 마이크론의 안정적 공급망 확보는 단기적으로 시장 점유율 압력으로 작용하되, 중장기적으로는 메모리 시장 전반의 수익성 개선에 기여할 것이라는 전망이다.",
+      "published_at": "2026-06-25T08:55:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "Korean strategic angle on Micron earnings: LTA shift (D램 20%, 낸드 33%) → Samsung/SK 경쟁구도 변화 분석 — meta-analysis on Korean memory players Micron lacks."
+    },
+    {
+      "id": "art_13",
+      "title": "손정의 회장 \"AI 거품론은 모독... 아직 초지능 서막에 불과\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212076",
+      "body": "소프트뱅크 손정의 회장이 6월 24일 도쿄에서 열린 주주총회에서 AI 거품론을 강하게 반박했다. 손 회장은 'AI를 거품이라고 부르는 것은 AI에 대한 모독이자 신성모독'이라고 규정하고 'AI 혁명은 이제 막 시작됐을 뿐이며 그 잠재력은 앞으로 크게 펼쳐질 것'이라고 강조했다.\n\n68세의 손 회장은 70대에도 소프트뱅크를 이끌겠다는 의지를 표명하며 앞으로 10~15년을 인공 초지능(ASI) 실현에 헌신하겠다고 밝혔다. 최근 AI 투자 과열에 대한 시장의 우려를 일축하며, OpenAI와 앤트로픽, 구글 등 주요 AI 기업들이 '10배에서 100배까지' 성장할 여지가 있다고 전망했다.\n\n소프트뱅크의 전략적 초점은 '피지컬 AI', 즉 초지능을 갖춘 로봇에 맞춰져 있다. 손 회장은 회사가 '피지컬 AI 팩토리'에서 로봇 생산을 시작했으며 곧 공식 발표가 있을 것이라고 밝혔다.\n\n반도체와 전력, 데이터센터가 현재 AI 알고리즘이 아닌 병목지점으로 지목됐다. 소프트뱅크는 오하이오, 텍사스, 프랑스, 일본에 걸쳐 인프라를 확대하고 있으며 OpenAI·오라클과 함께 '스타게이트' 프로젝트를 확장할 계획이다. 손 회장은 소프트뱅크의 순자산가치가 10년 안에 1경 엔(약 9조 5000억 달러)에 달할 수 있다고 내다봤다.",
+      "published_at": "2026-06-25T09:06:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "Macro AI infra narrative: 손정의 ASI 비전, Stargate 확장, 반도체·전력·DC를 병목으로 지목, 피지컬 AI factory — directly relevant to AI infra demand/supply outlook."
+    },
+    {
+      "id": "art_04",
+      "title": "Europe is pushing back on Washington's chip war",
+      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
+      "body": "Dutch Trade Minister Sjoerd Sjoerdsma visited Washington this week to meet with Commerce Secretary Howard Lutnick and members of Congress to oppose the MATCH Act, a bill that would bar Chinese chipmakers from accessing Western semiconductor equipment, and one that would hit ASML especially hard.\n\nASML, based in the Netherlands, is Europe's most valuable company and the only maker in the world of the sophisticated lithography machines that are used to make cutting-edge AI chips.\n\n'It's exceptional that I'm coming here to broadly outline our concerns to Congress,' Sjoerdsma told Bloomberg after the meetings. 'The stakes for the Netherlands may be very high.'\n\nChina accounts for 19% of ASML's net system sales. The MATCH Act would go further than existing controls, extending curbs to ASML's deep ultraviolet immersion machines on top of the long-standing ban on its most advanced extreme ultraviolet, or EUV, tools reaching China.\n\nAs ASML CEO Christophe Fouquet told TechCrunch in May, what China can currently purchase are older-generation deep ultraviolet tools—equipment first released approximately a decade ago—the same machines the MATCH Act would now restrict.\n\nThe bill, introduced in April, hasn't yet faced a full House or Senate vote; Bloomberg notes it would likely need to be folded into a larger package to pass.",
+      "published_at": "2026-06-25T09:08:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "Semiconductor equipment policy: MATCH Act/ASML DUV controls → AI chip manufacturing chain implication for entire industry incl. Korean foundries/equipment supply."
+    },
+    {
+      "id": "art_11",
+      "title": "Seoul shares start sharply higher on tech gains led by Micron's strong earnings",
+      "url": "https://www.koreaherald.com/article/10787606",
+      "body": "South Korea's stock market opened significantly higher on Thursday, driven by semiconductor sector gains following Micron Technology's better-than-expected earnings announcement. The benchmark Korea Composite Stock Price Index rose 5.61% to 8,945.95 points by 9:15 a.m., triggering a buy-side sidecar halt on program trading.\n\nKey market movers included Samsung Electronics, which gained 4.99%, and SK hynix, which surged 9.88%. Related companies also performed well: Samsung Electro-Mechanics advanced 2.24% and SK Square jumped 8.56%.\n\nThe auto sector saw modest gains, with Hyundai Motor climbing 1.18% and Hyundai Mobis rising 2.16%.\n\nThe overnight Wall Street session had been mixed, with the Dow Jones Industrial Average gaining 0.35%, while both the S&P 500 and Nasdaq composite declined slightly. However, 'Investor sentiment was boosted after Micron released its quarterly report following the market closure as its results and forecast both exceeded expectations.'\n\nThe Korean won depreciated to 1,547.95 against the U.S. dollar by market open.",
+      "published_at": "2026-06-25T09:29:00+09:00",
+      "source": "The Korea Herald",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "KOSPI 5.61% surge / SK hynix +9.88% / Samsung +4.99% — Korean equity market read on Micron-driven AI memory cycle; relevant for domestic semi sentiment."
+    },
+    {
+      "id": "art_18",
+      "title": "First Street: 79 percent of global data center capacity facing 'acute climate hazards'",
+      "url": "https://www.datacenterdynamics.com/en/news/first-street-79-percent-of-global-data-center-capacity-facing-acute-climate-hazards/",
+      "body": "According to a First Street climate risk analysis covering 97 global markets, nearly four-fifths of worldwide data center capacity faces exposure to acute climate hazards including flooding, wind, and wildfire. Regional breakdown of acute climate risk exposure: Americas: 86 percent; APAC: 60 percent; EMEA: 25 percent.\n\nAdditionally, 54 percent of global data center capacity operates under chronic stress from extreme heat or water scarcity, with regional variations showing APAC at 89 percent, the Americas at 50 percent, and EMEA at 46 percent.\n\nMajor data center hubs identified as highest-risk include Northern Virginia, Johor, and Marseille. Matthew Eby, CEO and founder of First Street, emphasized that 'Most underwriting for real assets still uses historical data, but the climate is no longer behaving the way the historical record would predict.' He stressed that investors incorporating climate factors into decision-making will be better positioned to identify resilient markets and avoid mispriced risk.\n\nThe report suggests these climate exposures can materially impact power availability, cooling efficiency, insurance costs, and uptime for data center operations.",
+      "published_at": "2026-06-25T01:30:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "challenges",
+      "keep_reason": "Datacenter infrastructure challenge: 79% of global DC capacity exposed to acute climate hazards; cooling efficiency + power availability directly relevant to MangoBoost AI infra cost/efficiency narrative."
+    },
+    {
+      "id": "art_20",
+      "title": "Sunrun, Renew Home, and Tesla to aggregate 16GW of home energy resources across US for data center offtakers",
+      "url": "https://www.datacenterdynamics.com/en/news/sunrun-renew-home-and-tesla-to-aggregate-16gw-of-home-energy-resources-across-us-for-data-center-offtakers/",
+      "body": "Sunrun, Renew Home, and Tesla have formed a partnership to aggregate over 16 gigawatts of residential energy capacity across the United States for sale to hyperscalers and utility companies. The collaboration leverages existing home battery systems, smart thermostats, and vehicle-to-grid technology already installed nationwide.\n\nThe companies claim this approach requires no new hardware, land, water, or interconnection infrastructure from purchasing entities and could be deployed within months rather than years. The aggregated network draws from hundreds of thousands of home battery systems operated by Sunrun and Tesla, combined with demand flexibility from over eight million smart thermostats managed by Renew Home, creating what the partners describe as the nation's largest distributed power plant.\n\nSunrun CEO Mary Powell stated: 'The grid of the 1800s cannot power the innovation of 2026.' Available capacity will be allocated on a first-come, first-served basis. In Virginia specifically, the companies offer over 300 megawatts for immediate deployment, with commitments reaching at least 500 megawatts by 2030.\n\nThe partnership has also committed capacity to PJM's proposed Reliability Backstop Process, which could unlock over 1 gigawatt immediately for grid services including peak shaving and ancillary support. This arrangement reflects growing industry adoption of distributed energy resources and virtual power plants to address data center power demands.",
+      "published_at": "2026-06-24T23:04:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "challenges",
+      "keep_reason": "Datacenter power solution: 16GW residential energy aggregation for hyperscalers — addresses DC power bottleneck (a Q3 keep category) with novel VPP approach."
+    },
+    {
+      "id": "art_17",
+      "title": "Subsidiary of Malaysian state development agency to develop 65MW data center with domestic operator",
+      "url": "https://www.datacenterdynamics.com/en/news/subsidiary-of-malaysian-state-development-agency-to-develop-65mw-data-center-with-domestic-operator/",
+      "body": "A Malaysian state-backed development firm has partnered with a domestic data center developer to build a 65MW facility in Cyberjaya, south of Kuala Lumpur. The Selangor Industrial Corporation (SIC), a subsidiary of the state development agency PKNS, signed a joint venture agreement with DC Union to form SQDC.\n\nThe project will be constructed on a 5.2-hectare site with an investment of RM2.5 billion ($604 million). According to reports, the facility is expected to incorporate immersion cooling technology. Cyberjaya is a planned city in Selangor state, which surrounds Kuala Lumpur on the west coast of Peninsular Malaysia.\n\nThe agreement was announced via LinkedIn and local media outlets, though specific development timelines and exact location details were not disclosed in the announcement.",
+      "published_at": "2026-06-25T09:00:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "projects",
+      "keep_reason": "Regional DC buildout (65MW, $604M, immersion cooling, Malaysia state-backed) — APAC DC expansion + advanced cooling adoption signal."
+    },
+    {
+      "id": "art_16",
+      "title": "'AI 협업시대' 앤트로픽이 공개한 '클로드 태그'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212071",
+      "body": "앤트로픽이 슬랙 전용 에이전트 '클로드 태그(Claude Tags)'를 공개했다. AI 협업 시대를 알리는 슬랙 전용 에이전트로 자리매김하겠다는 포부를 담았다.\n\n클로드 태그는 슬랙 사용자들이 협업 워크플로우에서 클로드의 역량을 직접 활용할 수 있게 해주는 새로운 도구다. 앤트로픽은 기업 AI 솔루션에 집중하는 전략의 일환으로 이 도구를 출시했으며, 팀 협업 방식을 혁신할 것으로 기대하고 있다.\n\n이번 출시는 앤트로픽의 엔터프라이즈 AI 시장 확대 전략을 보여주는 사례로, 슬랙 사용자들이 별도 앱 전환 없이 대화 흐름 내에서 AI 지원을 받을 수 있게 됐다.",
+      "published_at": "2026-06-25T07:00:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "products",
+      "keep_reason": "AI Agent product update: Anthropic's Slack-native Claude Tags enterprise agent — fits KEEP category 'AI Agent 관련 업데이트'."
+    },
+    {
+      "id": "art_14",
+      "title": "구글 AI 핵심 인력 이탈 가속화… '제미나이' 주역 2명 앤트로픽행 예고",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212075",
+      "body": "구글 딥마인드에서 핵심 AI 연구원의 이탈이 빨라지고 있다. 제미나이 개발의 핵심 인물인 조나스 애들러와 알렉산더 프리첼이 경쟁사인 앤트로픽으로 이직할 예정이다. 애들러는 AI 코딩 기술 개발에 기여했으며, 프리첼은 대규모 AI 모델 학습에 깊이 관여했다.\n\n이번 이탈은 최근 잇따른 고프로필 퇴사에 뒤이어 나온 것이다. 알파폴드 노벨상 수상자 존 점퍼는 앤트로픽으로 이직했고, 트랜스포머 공동 개발자 노암 샤저는 오픈AI로 자리를 옮겼다. 해당 소식에 구글 주가는 장중 1.2% 하락했다.\n\n분석가들은 급성장하는 AI 스타트업과 IPO 전망이 인력 유출의 원인이라고 본다. 앤트로픽은 이르면 2026년 가을에 상장될 가능성이 있다.\n\n내부 자원 배분 문제도 퇴사에 영향을 미쳤다. 샤저의 프로젝트에 할당됐던 컴퓨팅 자원이 런던에 있는 다른 딥마인드 팀으로 재배정되면서 연구원들의 불만이 고조됐다. 구글은 이를 사전 학습 협업을 위한 효율성 조치라고 설명했다.\n\n구글 딥마인드 CEO 데미스 허사비스는 '우리는 어느 연구소보다 가장 방대하고 광범위한 연구팀을 보유하고 있다'고 반박하며, AI 인재 유치 경쟁이 '기술 역사상 가장 치열한 상황'이라고 덧붙였다. 제미나이 2.5 개발에 참여한 또 다른 연구원 아서 콘미도 앤트로픽 합류를 선언했다.",
+      "published_at": "2026-06-25T08:35:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "AI ecosystem competitive dynamics: DeepMind→Anthropic talent flow + compute resource allocation friction — color on AI lab ecosystem (downstream of AI infra demand)."
+    },
+    {
+      "id": "art_15",
+      "title": "앤트로픽, 미국 예비선거 대리전서 오픈AI에 패배...'AI 규제' 주장 후보 낙선",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212077",
+      "body": "뉴욕 제12 하원 선거구 민주당 예비선거(6월 23일 개최)에서 AI 규제론자 알렉스 보어스가 35.0%를 득표하며 39.1%를 얻은 미카 라셔에게 패배했다. 라셔는 제리 나들러 의원의 후계자 선두 주자로 부상했다.\n\nIT 전문가이자 AI 규제론자로 활동해온 보어스는 AI 기업들에 강력한 안전 요건을 의무화하는 'RAISE법'을 공동 발의하고 통과시킨 인물이다.\n\n오픈AI와 팔란티어, 안드리슨 호로위츠 임원들이 후원하는 친(親)오픈AI 슈퍼팩 'Leading the Future'는 보어스 낙선을 위해 815만 달러를 쏟아부었다. 이에 맞서 앤트로픽과 AI 안전 옹호 단체들은 FEC 기록에 따르면 보어스 지지에 1926만 달러를 투입했다. 양측을 합하면 이 단일 예비선거에서만 약 2741만 달러가 쓰인 셈이다.\n\n분석가들은 오픈AI 연합이 보어스를 밀어내는 데 성공했지만 상당한 반발 자금에 직면했다는 점을 주목했다. 향후 AI 규제 입법 전쟁에서 막대한 자금을 가진 기술 업계의 저항이 거세질 것이라고 전망했다.",
+      "published_at": "2026-06-25T08:30:00+09:00",
+      "source": "AI타임스",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "market",
+      "keep_reason": "AI regulation lobby battle: OpenAI/a16z vs Anthropic, $27.4M in single primary — directly tracks AI policy substance affecting AI industry trajectory."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "art_03",
+      "title": "마이크론, 3분기 매출 전년比 4.5배↑…AI 메모리 수요 둔화 우려 불식",
+      "url": "https://www.etnews.com/20260625000004",
+      "discard_reason": "duplicate of art_01 (Micron primary) and art_02 (Korean ZDNet); no unique angle — same earnings recap, Q4 guidance, LTA mention already covered."
+    },
+    {
+      "id": "art_08",
+      "title": "퀄컴·메타, 데이터센터 CPU 분야서 다세대 협력 체제 구축",
+      "url": "https://zdnet.co.kr/view/?no=20260625071143",
+      "discard_reason": "duplicate of art_09 (ZDNet Korea more comprehensive Qualcomm coverage with TAM, AI250/300, HBC, Modular) — same event, narrower scope."
+    },
+    {
+      "id": "art_10",
+      "title": "[미국 특징주] 퀄컴, 데이터센터 칩 매출 '수십억 달러' 전망…시간 외서 14% 반등",
+      "url": "https://www.newspim.com/news/view/20260625000029",
+      "discard_reason": "duplicate of art_19 (Bloomberg) + art_09 — stock-movement framing on the same Qualcomm event; Modular $3.9B detail already captured."
+    },
+    {
+      "id": "art_12",
+      "title": "[AI MY 증시전망] 코스피, 마이크론 '어닝 서프라이즈' 훈풍…반도체 중심 상승 전망",
+      "url": "https://www.newspim.com/news/view/20260625000096",
+      "discard_reason": "duplicate of art_11 (Korea Herald has the actual KOSPI/SK hynix/Samsung moves); this one is generic pre-market outlook with weaker substantive detail."
+    },
+    {
+      "id": "art_21",
+      "title": "OpenAI and Broadcom unveil 'Jalapeño' Intelligence Processor for LLM inference",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-and-broadcom-unveil-jalape%C3%B1o-intelligence-processor-for-llm-inference/",
+      "discard_reason": "duplicate of art_05 (Interesting Engineering comprehensive Jalapeño coverage) — same OpenAI/Broadcom announcement; Tomahawk + Richard Ho quote already in art_05 scope."
+    },
+    {
+      "id": "art_22",
+      "title": "OpenAI and Broadcom unveil Jalapeño intelligence platform — chip shown powered by Broadcom",
+      "url": "https://www.servethehome.com/openai-jalapeno-intelligence-platform-shown-powered-by-broadcom/",
+      "discard_reason": "duplicate of art_05; STH adds light industry framing but no new technical/financial substance not in art_05."
+    }
+  ],
+  "summary": {
+    "total_received": 22,
+    "total_kept": 16,
+    "total_discarded": 6,
+    "category_breakdown": {
+      "market": 9,
+      "products": 3,
+      "projects": 1,
+      "challenges": 2,
+      "collaboration": 0
+    },
+    "competitor_kept_total": 1,
+    "by_competitor": {
+      "Broadcom": 1
+    }
+  }
+}

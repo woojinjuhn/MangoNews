@@ -157,6 +157,33 @@ type: reference
 - `Huawei Ascend 910C DeepSeek V4 post-training China AI chips June 7 2026` — surfaced Tom's Hardware June 6 article
 - `ASML EUV Europe most valuable company June 2026` — surfaced Tom's Hardware June 7 article
 - `LGU+ AI datacenter 2030 5조 계약 June 2026` — surfaced ZDNet Korea June 7 article + AITimes
+
+## Source notes (2026-06-25 run — single day window after daily publication)
+- **SemiAnalysis RSS**: Still returning Sep 2025 content — confirmed persistent issue. Skip RSS; use WebSearch site:semianalysis.com for current content.
+- **HPC Wire RSS**: Still 403. Skip permanently.
+- **NetworkWorld RSS**: Still 404. Skip permanently.
+- **Wired RSS**: Still blocked by WebFetch. Skip.
+- **Naver News IT/과학 (news.naver.com/section/105)**: Confirmed BLOCKED — JS-rendered; cannot fetch from this environment. WebSearch individual article URLs is the only path.
+- **StockTitan (stocktitan.net)**: Press release syndication; accessible; Micron Q3 FY2026 earnings PR appeared here before official IR page; URL pattern /<ticker>/<press-release-slug>. Explicit UTC timestamps in metadata (05:01 KST for Micron June 25 early morning).
+- **ZDNet Korea**: Same-day articles accessible; URL pattern /view/?no=YYYYMMDDHHMMSS. June 25 08:55 KST Micron LTA article accessible.
+- **etnews.com (전자신문)**: June 25 Micron earnings article accessible; byline shows "2026.06.25" — verify via JSON-LD for precise time.
+- **newspim.com (뉴스핌)**: June 25 KST articles accessible; covers KOSPI/semiconductor investor reactions to Micron results.
+- **koreaherald.com**: June 25 KST articles accessible; covers semiconductor market reactions with explicit date.
+- **AiTimes RSS (aitimes.com)**: Still highest-yield Korean AI source — June 25 had SoftBank Son bubble comments, Google Gemini talent exodus, Anthropic vs OpenAI, Claude Tags articles; but body fetch is JS-rendered so body must be derived from RSS description + search.
+- **DCD body fetch**: Still 403 on direct WebFetch. DCD RSS timestamps in UTC; 14:00 UTC June 24 = 23:00 KST June 24 (OUT of June 25 window). Important boundary case — always check UTC precisely.
+- **ServeTheHome RSS**: 14:55 UTC June 24 = 23:55 KST June 24 (OUT of June 25 window by 5 minutes). Critical boundary — always verify UTC for STH articles that appear to be "today".
+- **interestingengineering.com**: Accessible; useful as alternative body source when primary (VentureBeat, TechCrunch) is rate-limited or returning 404. Micron/Jalapeño AI server coverage published June 25 02:40 KST.
+- **VentureBeat**: Rate limited (429) on direct fetch June 25. Use alternative sources for same story.
+- **Tom's Hardware**: Tom's Hardware Jalapeño article returned 404 on direct fetch (URL may have changed). Use WebSearch to find current URL for same topic.
+
+## Query patterns (2026-06-25 run)
+- `Micron Q3 2026 earnings results HBM4 record revenue June 25 2026` — surfaced StockTitan press release; Micron IR page itself (ir.micron.com) accessible
+- `마이크론 실적 분기 최대 2026년 6월 25일` — surfaced ZDNet Korea, etnews, newspim Korean-language coverage
+- `Qualcomm investor day June 24 2026 data center Dragonfly revenue` — surfaced ServeTheHome detailed post (out of window at 23:55 KST Jun 24); Bloomberg accessible via WebFetch Jun 25 morning
+- `OpenAI Jalapeño AI server chip 2026 June 25` — confirmed June 25 reporting on Jalapeño AI server chip project
+- `Malaysia data center 65MW June 25 2026` — surfaced DCD article in window
+- `First Street climate data center heat risk 2026` — surfaced DCD article in window
+- Single-day June 25 window note: 22 articles is low-but-honest volume for a weekday with no scheduled major announcements. Korean Tier 1 competitors had no new coverage; Qualcomm investor day news was mostly published June 24 KST.
 - **fortune.com** — accessible for big tech capex/data center articles; explicit dates; good heat island / sustainability coverage
 - **topnews.in** — accessible; republishes Korea semiconductor export analysis; explicit dates; easier access than Bloomberg
 - **TrendForce** beat: TSMC CoWoS wafer ASP approaching $10K (same as 7nm); key pricing signal for quarterly tracking
