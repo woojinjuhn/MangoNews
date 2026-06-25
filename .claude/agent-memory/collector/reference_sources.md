@@ -175,6 +175,9 @@ type: reference
 - **interestingengineering.com**: Accessible; useful as alternative body source when primary (VentureBeat, TechCrunch) is rate-limited or returning 404. Micron/Jalapeño AI server coverage published June 25 02:40 KST.
 - **VentureBeat**: Rate limited (429) on direct fetch June 25. Use alternative sources for same story.
 - **Tom's Hardware**: Tom's Hardware Jalapeño article returned 404 on direct fetch (URL may have changed). Use WebSearch to find current URL for same topic.
+- **Yahoo Finance markets/stocks/articles**: Accessible; Cerebras earnings analysis article published Jun 25 00:49 KST (12:49 AM GMT+9 visible in byline). Good for US-listed AI chip company earnings reactions.
+- **FuriosaAI partnership with MangoBoost**: Announced at RENEGADE 2026 Summit (April 2, 2026) — FuriosaAI and MangoBoost are developing "the world's first NPU-DPU scale-out architecture" using 400G RDMA fabric. High-value context for future issues but not new on June 25.
+- **Cerebras earnings pattern**: Earnings announced June 23 US ET → June 25 KST articles appear early morning. Yahoo Finance article confirmed at 00:49 KST. Stock fell on margin guidance (Q2 core gross margin 36-38%, down from 47%); concurrent $20B OpenAI deal not enough to offset.
 
 ## Query patterns (2026-06-25 run)
 - `Micron Q3 2026 earnings results HBM4 record revenue June 25 2026` — surfaced StockTitan press release; Micron IR page itself (ir.micron.com) accessible
@@ -183,7 +186,9 @@ type: reference
 - `OpenAI Jalapeño AI server chip 2026 June 25` — confirmed June 25 reporting on Jalapeño AI server chip project
 - `Malaysia data center 65MW June 25 2026` — surfaced DCD article in window
 - `First Street climate data center heat risk 2026` — surfaced DCD article in window
-- Single-day June 25 window note: 22 articles is low-but-honest volume for a weekday with no scheduled major announcements. Korean Tier 1 competitors had no new coverage; Qualcomm investor day news was mostly published June 24 KST.
+- `Cerebras earnings Q1 2026 stock margin June 25` — surfaced Yahoo Finance article at 00:49 KST (published pre-market US); `finance.yahoo.com/markets/stocks/articles/cerebras-stock-plunges-earnings-even-154955333.html`
+- `FuriosaAI MangoBoost partnership NPU DPU 2026` — confirmed RENEGADE 2026 Summit April announcement of NPU-DPU scale-out architecture; NOT new on June 25 but important ongoing competitor context
+- Single-day June 25 window note: 15 articles final count after dedup cleanup. Korean Tier 1 competitors had no new coverage; Qualcomm investor day news was mostly published June 24 KST (several articles excluded as out-of-window: DCD Jalapeño 23:00 KST, STH Qualcomm 23:55 KST, DCD Sunrun/Tesla 23:04 KST). The Write tool in this session required a prior Read of the existing file even for overwrites — existing 01_collected.json from earlier session had 22 articles including many already-published ones; cleaned to 15.
 - **fortune.com** — accessible for big tech capex/data center articles; explicit dates; good heat island / sustainability coverage
 - **topnews.in** — accessible; republishes Korea semiconductor export analysis; explicit dates; easier access than Bloomberg
 - **TrendForce** beat: TSMC CoWoS wafer ASP approaching $10K (same as 7nm); key pricing signal for quarterly tracking
