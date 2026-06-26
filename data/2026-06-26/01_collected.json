@@ -1,19 +1,19 @@
 {
   "collection_date_kst": "2026-06-26",
   "run_summary": {
-    "total": 42,
+    "total": 22,
     "by_topic": {
-      "ai": 16,
-      "semiconductor": 11,
-      "datacenter": 9,
-      "competitor": 6
+      "ai": 8,
+      "semiconductor": 9,
+      "datacenter": 3,
+      "competitor": 2
     },
     "by_competitor": {
-      "NVIDIA": 2,
-      "Rebellions": 2,
+      "NVIDIA": 0,
+      "Rebellions": 1,
       "Tenstorrent": 0,
       "Marvell": 0,
-      "Cerebras": 1,
+      "Cerebras": 0,
       "Moreh": 0,
       "FuriosaAI": 0,
       "HyperAccel": 0,
@@ -21,10 +21,10 @@
       "Napatech": 0,
       "Broadcom": 1
     },
-    "competitor_tagged_total": 6,
-    "sources_consulted": 22,
-    "skipped_paywalled": 4,
-    "notes": "수집 윈도우: 2026-06-26 KST 1일. 마지막 이슈 #036이 2026-06-25 발행. UTC Jun 25 기사는 KST 변환 후 Jun 26이면 포함. Paywall 차단: CNBC(403), Broadcom IR(timeout), VentureBeat(429), neowin.net(403). HPC Wire Jun 25 Inside LineShine article: 403. Tenstorrent/Moreh/FuriosaAI/HyperAccel/FriendliAI/Napatech: Jun 26 KST 당일 신규 뉴스 없음. Published_urls 기발행 제외: OpenAI Jalapeño 2건(interestingengineering, servethehome Jun 25 KST 기발행), Qualcomm Dragonfly(bloomberg Jun 25), Micron Q3 earnings(stocktitan/thenextweb Jun 25), Cerebras earnings panic(yahoo Jun 25), SK Hynix IPO(aitimes Jun 25). Qualcomm/Meta Dragonfly 한국어 기사(zdnet, aitimes): Jun 25 KST → 제외 대상이나 aitimes 212079(11:26 KST Jun 25) and zdnet 062146/071143 (08:23/08:25 Jun 25 KST) — 수집 윈도우 밖으로 제외. The Register data centre/networks 섹션: Jun 26 KST에 해당하는 신규 기사 없음(최신 Jun 24 UTC)."
+    "competitor_tagged_total": 2,
+    "sources_consulted": 18,
+    "skipped_paywalled": 3,
+    "notes": "수집 윈도우: 2026-06-26 KST 1일. 마지막 이슈 #036이 2026-06-25 발행. 이전 세션 01_collected.json은 Jun 25 KST 이전 기사 다수 포함 → 재구성. 최종 파일에는 published_at >= 2026-06-26T00:00:00+09:00 기사만 포함. 제외된 주요 Jun 25 KST 기사: Cerebras TechCrunch(Jun 25), Rebellions DCD $400M(Jun 25), Qualcomm Korean outlets(Jun 25), ServeTheHome articles(Jun 25), TheRegister LineShine(Jun 25), ETnews 반도체장비(Jun 25), BlocksFiles/DDN(Jun 25), Amazon India/Meta-Microsoft leases/AI moratorium DCD(Jun 25). Paywall 차단: HPC Wire(403), CNN(451), Tom's Hardware(paywall). Tenstorrent/Moreh/FuriosaAI/HyperAccel/FriendliAI/Napatech: Jun 26 KST 신규 뉴스 없음. 뉴스 희소일: 주요 발표(Qualcomm Investor Day, OpenAI Jalapeño, IBM Nanostack)가 Jun 24-25에 집중, Jun 26은 팔로업 분석 기사 위주임."
   },
   "articles": [
     {
@@ -68,36 +68,6 @@
       "competitor": null
     },
     {
-      "title": "Meta and Microsoft add more than $120bn in future lease commitments in latest quarter",
-      "url": "https://www.datacenterdynamics.com/en/news/meta-and-microsoft-add-more-than-120bn-in-future-lease-commitments-in-latest-quarter/",
-      "body": "Microsoft and Meta have signed approximately $120 billion in future capacity lease agreements during the most recent quarter, according to regulatory filings cited by Bloomberg. This brings total lease commitments among major cloud computing providers to exceed $850 billion.\n\nMeta led with $79 billion in new commitments, representing a 76 percent increase from the previous quarter, bringing its total to $182.9 billion for the quarter ending March 31. Microsoft added $41 billion, reaching a total of $196.6 billion.\n\nBoth companies continue investing heavily in self-built and operated data centers. Meta estimates between $120 billion and $135 billion ($182조~$204조원) in capital expenditures for 2026, while Microsoft expects $190 billion ($286조원) for fiscal year 2026, with $25 billion tied to component pricing.\n\nRecent Microsoft lease agreements include 'securing 30,000 GPUs from an Nscale data center in Norway' and a 900MW capacity deal with Crusoe for its Abilene, Texas campus. Both contracts were previously allocated to OpenAI.\n\nIn the prior quarter, both companies committed roughly $50 billion each in future leases. Currently, total commitments across Oracle, Microsoft, Meta, Amazon, Google, and CoreWeave reached $700 billion that quarter.\n\nAmazon added $10 billion in the latest quarter—half its previous quarter—while Oracle's commitments decreased slightly from $261 billion to $260 billion.",
-      "published_at": "2026-06-25T23:20:00+09:00",
-      "source": "Data Center Dynamics",
-      "topic_tag": "datacenter",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "Ocasio-Cortez and Sanders introduce AI Data Center Moratorium Act",
-      "url": "https://www.datacenterdynamics.com/en/news/ocasio-cortez-and-sanders-introduce-ai-data-center-moratorium-act/",
-      "body": "Senator Bernie Sanders and Representative Alexandria Ocasio-Cortez have unveiled legislation to halt data center construction. The 'Artificial Intelligence (AI) Data Center Moratorium Act' targets facilities consuming over 20MW with high-density racks and liquid cooling used for large-scale AI development.\n\nThe bill would suspend new construction until federal regulations are established. Required regulations include government review of AI products before release, policies protecting jobs, equitable wealth distribution, and proof that projects won't increase utility costs or harm the climate.\n\nThe proposal grants communities veto power over projects, prohibits government subsidies, and mandates unionized labor. The Secretary of Energy would submit quarterly reports tracking water usage, energy consumption, emissions, wastewater discharge, and noise levels.\n\nSanders stated: 'Congress is way behind where it should be in understanding the nature of this revolution and its impacts.' He emphasized the need for 'serious public debate and democratic oversight.'\n\nNine House members co-sponsor the bill. The legislation notes over 100 communities and 12 states have already enacted their own data center moratoriums, though federal passage remains unlikely. The bill cites concerns from tech leaders about job displacement and AI risks.",
-      "published_at": "2026-06-25T21:15:06+09:00",
-      "source": "Data Center Dynamics",
-      "topic_tag": "datacenter",
-      "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
-      "title": "AWS and Microsoft designated 'gatekeepers' under Europe's Digital Markets Act",
-      "url": "https://www.datacenterdynamics.com/en/news/aws-and-microsoft-designated-gatekeepers-under-europes-digital-markets-act/",
-      "body": "The European Commission has designated Amazon Web Services and Microsoft Azure as gatekeepers under the Digital Markets Act, despite these cloud services not meeting the DMA's quantitative thresholds for designation.\n\nThe commission's preliminary findings note that both companies 'have achieved significant turnover, and their operational capacity and investments seem to have significantly outpaced those of competitors.' Additionally, they maintain 'vast and entrenched user bases' with lock-in effects and high switching costs, plus expansive ecosystems.\n\nThe EC highlighted that AI services have become crucial in cloud procurement decisions. The agency stated that 'AI is significantly increasing the demand for cloud-related services' and both providers retain substantial market share within this growing sector.\n\nAn investigation into EU cloud service providers launched in November 2025 preceded this preliminary designation. The current findings don't prejudice the investigation's outcome.\n\nHenna Virkkunen, Executive Vice President for tech sovereignty, emphasized that 'cloud services have become a cornerstone of Europe's economy,' requiring fair and competitive markets.\n\nAWS responded that the Commission's findings 'disregard the breadth of cloud services available to European customers' and risk deterring investment. The company argued existing regulations already govern cloud services comprehensively.\n\nShould the findings be confirmed, both companies would have six months to comply with DMA obligations for their cloud computing services.",
-      "published_at": "2026-06-25T22:38:55+09:00",
-      "source": "Data Center Dynamics",
-      "topic_tag": "datacenter",
-      "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
       "title": "Gorilla Technology secures $2.5bn GPUaaS contract in Indonesia",
       "url": "https://www.datacenterdynamics.com/en/news/gorilla-technology-secures-25bn-gpuaas-contract-in-indonesia/",
       "body": "Gorilla Technology Group has secured a five-year AI compute contract valued at $2.5 billion (3조8천억원) with an unnamed customer. The contract will deploy GPUs at NeutraDC's Batam data center in Indonesia.\n\nThe initial phase includes 1,000 B300 GPU servers generating $1.3 billion (1조9천억원) in revenue over five years, with deployment targeted for September 2026, followed by a second phase in December 2026. Remaining capacity will be deployed in the first half of 2027.\n\nThe customer is described as a 'high investment-grade global technology customer' but remains unidentified. CEO Jay Chandan stated: 'This contract is a major validation of that strategy. This is not a pipeline story.'\n\nGorilla secured debt financing covering approximately 70 percent of expected project costs. The company signed a capacity agreement with NeutraDC in May 2026 for 5.5MW of capacity at the Batam facility located at Kabil Industrial Estate.\n\nPreviously, Gorilla signed a $1.4 billion three-year contract with Singaporean cloud provider Freyr and an April 2026 agreement with India's Yotta to deploy over 25,000 GPUs. The company is also planning a 200MW data center development in Thailand.",
@@ -128,16 +98,6 @@
       "competitor": null
     },
     {
-      "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
-      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
-      "body": "Amazon announced an additional $13 billion (19조8천억원) investment in India through 2030, focusing on expanding Amazon Web Services' data center capacity in Mumbai and Hyderabad. This follows CEO Andy Jassy's meeting with Prime Minister Narendra Modi in New Delhi.\n\nThe company's cumulative commitment to India now reaches $48 billion (73조원) across multiple announcements since 2023. Amazon is also expanding its domestic retail operations, planning over 20 new fulfillment centers and 100 last-mile delivery stations this year, plus extending its quick-commerce service Amazon Now to more than 300 cities.\n\nThe investment reflects intensifying competition among global tech giants betting on India as a major AI infrastructure hub. Microsoft committed $17.5 billion by 2029, while Google pledged $15 billion for AI infrastructure. Domestic players like Reliance Industries and Adani Group, plus international investors like AirTrunk and Canada Pension Plan Investment Board, are similarly expanding data center projects in the country.\n\nIndia has sweetened the deal with policy incentives, including tax exemptions through 2047 for foreign cloud providers offering overseas services from Indian data centers.",
-      "published_at": "2026-06-25T21:00:38+09:00",
-      "source": "TechCrunch",
-      "topic_tag": "datacenter",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
       "title": "A Deep Dive On China's 'LineShine' All-CPU, Exaflops-Class Supercomputer",
       "url": "https://www.nextplatform.com/hpc/2026/06/25/a-deep-dive-on-chinas-lineshine-all-cpu-exaflops-class-supercomputer/5262439",
       "body": "China's NSC Shenzhen has unveiled LineShine, an all-CPU exascale supercomputer now ranked first on the Top500 list. The system utilizes the LingKun LX2 processor, an Armv9.2-based CPU designed collaboratively by NSC Shenzhen and Huawei's HiSilicon division.\n\nThe LX2 processor features 304 active cores per socket, incorporating SVE2 vector units and SME matrix math units. With 13.79 million cores total, LineShine achieves a peak theoretical performance of 2.74 exaflops and delivers approximately 2.2 exaflops on the High Performance Linpack benchmark—21.5 percent more powerful than the previous top-ranked 'El Capitan' system.\n\nThe architecture consists of two chiplets per CPU, likely manufactured using SMIC's 7-nanometer process at N+3 refinement, operating at 1.55 GHz. Each socket includes 64 GB of HBM memory with 8 TB/sec bandwidth and 256 GB of DRAM across eight NUMA domains.\n\nThe full LineShine configuration contains 22,680 nodes with 13.79 million cores, consuming 42.2 megawatts and achieving 80.35 percent computational efficiency. The system employs the proprietary LingQi interconnect in a dual-plane, multi-rail fat-tree topology, delivering 1.6 Tb/sec bandwidth per node.\n\nChina developed this indigenous supercomputer independently, reflecting national policies prioritizing technological self-sufficiency amid U.S. export restrictions on semiconductor technology. This is a significant milestone: the world's most powerful supercomputer uses no Nvidia, AMD, or Intel components.",
@@ -148,142 +108,12 @@
       "competitor": null
     },
     {
-      "title": "Chinese supercomputer using local processors heads TOP500 list",
-      "url": "https://www.theregister.com/hpc/2026/06/24/chinese-supercomputer-using-local-processors-heads-top500-list/5260532",
-      "body": "China's LineShine supercomputer has claimed the top position on the TOP500 list with a performance of 2.198 Exaflop/s, marking a significant achievement in independent processor development. The machine, housed at the National Supercomputer Center in Shenzhen, operates 'without using any kit from Nvidia, Intel, or AMD.'\n\nThe system comprises 20,480 computing nodes powered by LX2 processors that 'integrate two compute dies (304 cores total) and eight on-package HBM stacks (32 GB, 4 TB/s aggregate bandwidth).' Each processor delivers 'up to 60.3/120.6 TFLOPS in FP64/FP32' performance.\n\nThe supercomputer achieved approximately 80 percent of its theoretical 2.736 Exaflop/s peak during testing and operates on KylinOS, a Linux-based distribution. Nodes connect via the LingQi high-speed network, also developed domestically in China.\n\nThis accomplishment reflects Beijing's policy push toward technological self-sufficiency. While LineShine uses ARM-based architecture (a British design), it demonstrates China's ability to develop competitive alternatives to Western processors, particularly as its nascent GPU industry continues developing capabilities that currently 'trail Nvidia and AMD by four or five years.'",
-      "published_at": "2026-06-25T04:34:00+09:00",
-      "source": "The Register",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
-      "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
-      "body": "Cerebras Systems' stock dropped nearly 20% on Wednesday following its first earnings report as a public company. Despite delivering better-than-expected Q1 results, the company's margin guidance spooked investors.\n\nThe AI chipmaker projected a full-year gross margin of 38-41%, significantly lower than the 47% achieved in Q1. This forecast caused shares to approach their IPO price, hitting new lows.\n\nCEO Andrew Feldman explained to CNBC that 'investors had misunderstood the company's margin guidance.' The margin compression stems from a strategic decision: Cerebras will temporarily lease back some of its own systems from a major customer while constructing its own data center capacity. This arrangement prioritizes near-term capacity availability over profitability.\n\nFinancial highlights from Q1 show revenue reached $193 million (2940억원), representing 94% year-over-year growth. The company's net loss narrowed to $14 million from $23.9 million in the prior year period.\n\nDuring the earnings call, management detailed how the equipment rental strategy would temporarily impact profit margins throughout the year.",
-      "published_at": "2026-06-25T08:41:00+09:00",
-      "source": "TechCrunch",
-      "topic_tag": "competitor",
-      "secondary_tags": ["semiconductor", "ai"],
-      "competitor": "Cerebras"
-    },
-    {
-      "title": "Samsung Opens ChatGPT Enterprise and Codex Access After AI Restrictions",
-      "url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/",
-      "body": "Samsung Electronics has expanded employee access to OpenAI's ChatGPT Enterprise and Codex tools across all Korean staff and Device eXperience division employees worldwide. This represents a significant shift from the company's 2023 restrictions on generative AI use due to data security concerns.\n\nThe deployment enables staff to leverage these tools across multiple business functions including software development, marketing, product development, and manufacturing. ChatGPT Enterprise provides organizational controls for data protection and security management, addressing Samsung's earlier concerns about sensitive information being uploaded to external platforms.\n\nThe rollout covers both technical and non-technical teams, with Codex supporting code-related work alongside general workflow automation. OpenAI reports that Codex now has over five million weekly active users, with Korean usage growing nearly 800% since February 2026.\n\nSamsung has deepened ties with OpenAI through multiple initiatives. In October 2025, the companies announced a memory partnership for OpenAI's Stargate infrastructure project, with Samsung and SK Hynix expected to supply significant portions of the 900,000 monthly DRAM wafers needed. Samsung SDS also secured reseller agreements to offer OpenAI services in Korea.\n\nResearch from Deloitte's 2026 State of AI in the Enterprise found that 66% of organizations reported productivity gains from enterprise AI adoption.",
-      "published_at": "2026-06-24T19:00:00+09:00",
-      "source": "AI News",
-      "topic_tag": "ai",
-      "secondary_tags": ["semiconductor"],
-      "competitor": null
-    },
-    {
-      "title": "AMD And Nvidia Are Neck And Neck In HPC Supercomputing",
-      "url": "https://www.nextplatform.com/hpc/2026/06/23/amd-and-nvidia-are-neck-and-neck-in-hpc-supercomputing/5260202",
-      "body": "The article analyzes the competitive landscape between AMD and NVIDIA in high-performance computing based on the June 2026 Top500 supercomputer rankings.\n\nNVIDIA dominates in quantity with 237 accelerated systems versus AMD's 32 systems on the Top500 list. The competition tightens considerably when measuring actual computational capacity. AMD operates 8.18 exaflops of installed capacity compared to Nvidia's 11 exaflops. Additionally, AMD has sold accelerated machines with a combined CPU and GPU concurrency of 35.3 million cores compared to Nvidia's 38.9 million cores.\n\nNew installations reveal preference patterns. Many HPC centers continue selecting NVIDIA's older Hopper GPUs over newer Blackwell models due to cost and performance advantages. There are also a lot of clusters that have Intel Xeon processors married to Nvidia GPUs, reflecting CPU preferences and availability constraints during the AI boom.\n\nThe author characterizes this as 'a real race,' suggesting AMD's competitive position in accelerated HPC computing may foreshadow similar dynamics in AI infrastructure markets.",
-      "published_at": "2026-06-23T22:25:15+09:00",
-      "source": "The Next Platform",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["ai"],
-      "competitor": "NVIDIA"
-    },
-    {
-      "title": "[데이터뉴스]2026년 반도체 장비 투자 50% 이상 급증…웨이퍼 전공정 장비 강세",
-      "url": "https://www.etnews.com/20260624000168",
-      "body": "글로벌 반도체 제조 장비 투자 규모가 인공지능(AI) 수요 폭증에 힘입어 2026년 본격적인 확대 국면에 들어선 것으로 나타났다.\n\n시장조사업체 테크인사이츠(TechInsights)가 최근 발간한 '2026 Semiconductor Outlook Report'에 따르면, '2026년 반도체 장비 지출이 2025년 대비 50% 이상 증가할 전망'이다.\n\n특히 2026년 4분기에는 전체 장비 지출이 605억 달러(약 8조3000억원)에 달해 사상 최고치를 기록할 것으로 예상된다. 2025년 1분기 399억달러였던 전체 장비 지출은 2026년 4분기 이르러 약 51.6% 증가할 것으로 전망된다.\n\n장비 지출 비중과 증가분 모두 웨이퍼 전공정 장비(WFE)가 가장 큰 비중을 차지하고 있다. 2026년 4분기 WFE 지출은 427억달러로 전체의 약 70%를 차지하며, 절대액 기준으로도 3분기 만에 145억달러가 늘어났다. AI 관련 첨단 공정 투자 확대를 선명하게 보여주고 있다.\n\n테스트 및 관련 장비는 2026년 4분기 114억달러, 서비스 및 지원 부문은 48억달러, 후공정·패키징 장비는 16억달러로 각각 집계됐다. 2025년 내내 분기당 380~430억 달러 수준에서 비교적 안정적으로 유지되던 장비 지출이 2026년 들어 급격한 상승 곡선을 그리고 있는 것이다. 특히 2026년 상반기부터 뚜렷한 증가세를 보이며 하반기에 투자 피크를 형성할 것으로 보인다.\n\n보고서는 AI 수요가 지속되면서 HBM4 메모리, 2나노 게이트올어라운드(GAA) 공정, 어드밴스드 패키징 수요가 폭발적으로 늘어나고 있다고 분석했다.\n\n특히 HBM4는 2026년 16단 제품 양산이 시작되면서 메모리 시장 회복과 함께 전공정 장비 수요를 직접적으로 자극할 것으로 봤다. 실리콘포토닉스(CPO) 등 첨단 패키징 기술이 AI 서버의 전력 문제를 해결하는 핵심 솔루션으로 부상하면서 관련 장비 투자도 함께 늘어나고 있다고 전망했다.",
-      "published_at": "2026-06-25T07:00:00+09:00",
-      "source": "전자신문",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "TSMC Clients Handed Price Hikes Across All Advanced Nodes",
-      "url": "https://www.culpium.com/p/tsmc-clients-handed-price-hikes-across",
-      "body": "TSMC is implementing price increases across its entire advanced node portfolio—7nm and beyond—affecting approximately 75% of the company's wafer revenue base. This represents a significantly broader impact than previously expected by industry observers.\n\nThe foundry has instructed sales teams to raise prices across all advanced nodes, not just the 3nm process as earlier rumors suggested. The 3nm node alone represented 25% of wafer revenue in Q1 2026, but the comprehensive price hike extends to legacy nodes as well.\n\nPrice increases appear to fall between 5-10%, though exact figures vary by client, node type, and product category. Implementation has already begun, with customers directed to incorporate higher costs into purchase orders.\n\nChairman CC Wei indicated he would 'like to' raise prices, while CFO Wendell Huang stated he 'does not rule out' price increases. When contacted, TSMC responded: 'TSMC does not comment on pricing. Our pricing strategy is strategic, not opportunistic.'\n\nA 5% average increase could boost full-year gross margin by 2+ percentage points, potentially affecting approximately $70 billion in advanced-node sales during the second half of 2026. Major affected customers include Nvidia, AMD, Apple, Qualcomm, and Broadcom, all of which depend heavily on TSMC's leading-edge processes.",
-      "published_at": "2026-06-23T09:00:00+09:00",
-      "source": "Culpium",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "Rebellions, CCK Solution Partner on Enterprise AI Transformation Infrastructure",
-      "url": "https://www.thelec.net/news/articleView.html?idxno=11534",
-      "body": "AI chip startup Rebellions has partnered with CCK Solution, an AI workflow automation provider, through a strategic memorandum of understanding aimed at supporting enterprise AI transformation initiatives.\n\nThe partnership focuses on delivering agentic AI solutions for back-office automation in accounting and administrative operations. Both companies plan to develop infrastructure that enhances efficiency of agentic AI systems while managing token consumption, offering integrated services ready for immediate deployment.\n\nCollaboration models under consideration include supplying Rebellions' AI chips for CCK Solution's server platforms, offering Neural Processing Unit-as-a-Service solutions via cloud partnerships, or deploying dedicated AI server infrastructure within customer data centers. Specific processors and final infrastructure details remain undetermined.\n\nRebellions offers low-power, high-performance server-grade NPUs, including Atom and Rebel product families. Its second-generation Rebel-100 NPU is in mass production with customer shipments expected in the second half of 2026.\n\nPark Sung-hyun, Rebellions CEO, stated: 'We will work with CCK Solution to respond to increasing AX demand in government and enterprise markets.'\n\nCCK Solution CEO Cho Hyun-soo emphasized creating an ecosystem delivering measurable business outcomes through their AI work-platform technologies.",
-      "published_at": "2026-06-22T20:56:00+09:00",
-      "source": "The Elec",
-      "topic_tag": "competitor",
-      "secondary_tags": ["ai"],
-      "competitor": "Rebellions"
-    },
-    {
-      "title": "Rebellions, CCK Solution team up to build Korean AI ecosystem",
-      "url": "https://www.digitaltoday.co.kr/en/view/72936/rebellion-cck-solution-team-up-to-build-korean-ai-ecosystem",
-      "body": "Rebellions announced a strategic partnership with CCK Solution to develop a comprehensive Korean artificial intelligence ecosystem. The collaboration merges Rebellions' energy-efficient, high-performance neural processing unit technology with CCK Solution's AI work platform.\n\nThe joint initiative focuses on creating an integrated solution enabling immediate corporate deployment without requiring separate infrastructure investment. This approach aims to streamline the deployment complexity enterprises typically encounter and reduce token usage expenses.\n\nCCK Solution specializes in automating back-office operations through a platform that breaks down complex business processes into modular components, managed by intelligent AI agents. The company currently serves major South Korean accounting firms while expanding into broader commercial and governmental sectors.\n\nRebellions' CEO stated that 'a Korean AI ecosystem is completed when capable companies in hardware and software closely cooperate.' He emphasized their combined approach would address market demand for AX transformation across private and public sectors.\n\nCCK Solution's CEO reiterated similar sentiments, noting their partnership demonstrates 'the true competitiveness of a Korean AI full stack.'",
-      "published_at": "2026-06-26T09:21:00+09:00",
-      "source": "Digital Today",
-      "topic_tag": "competitor",
-      "secondary_tags": ["ai"],
-      "competitor": "Rebellions"
-    },
-    {
       "title": "\"모델이 하네스를 먹어 치울 것\"...구글이 본 AI 경쟁의 다음 단계",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=212092",
       "body": "AI 업계는 지난 2년 동안 에이전트를 새로운 경쟁의 중심으로 여겨 왔습니다. 특히, 최근에는 대형언어모델(LLM) 자체보다 이를 활용해 외부 도구를 연결하고, 여러 작업을 오케스트레이션하며, 실제 업무를 수행하는 에이전트 계층이 새로운 가치를 만들 것이라는 목소리가 커졌습니다.\n\n하지만 구글 딥마인드의 로건 킬패트릭 AI 스튜디오 책임자는 최근 팟캐스트에서 이 같은 통념에 의문을 제기했습니다. 현재 수많은 스타트업과 개발사들이 경쟁적으로 구축하고 있는 에이전트 하네스(harness)와 스캐폴딩(scaffolding)이 결국 모델 자체에 흡수될 것이라는 전망입니다.\n\n그는 \"우리가 역사적으로 모델이라고 생각했던 것은 더 이상 단순한 모델이 아니다\"라며 \"이제 모델은 가중치(weights)만이 아니라, 그 가중치를 둘러싼 거대한 시스템 전체\"라고 설명했습니다.\n\n하네스는 모델과 외부 도구를 연결하고, 작업 순서를 계획하며, 여러 기능을 조율하는 일종의 제어 계층입니다. 최근 등장한 다양한 AI 코딩 에이전트와 워크플로 플랫폼, MCP 기반 서비스 등이 여기에 해당합니다.\n\n그러나 킬패트릭은 이러한 구조가 장기적인 차별화 요소가 되기는 어렵다고 봤습니다. 그는 \"지금은 모두가 하네스를 구축해야 한다고 생각하고, 그곳에 알파(alpha·차별화 가치)가 있다\"며 \"하지만, 12개월 뒤에도 지금과 같은 의미의 하네스가 여전히 중요할 것이라고 생각하지 않는다\"라고 말했습니다.\n\n이어 \"모델이 그 기능의 상당 부분을 소화(digest)하게 될 것이며, 결국 모델 내부로 업스트림(upstream)될 것\"이라며 \"알파는 또 다른 곳으로 이동할 것\"이라고 덧붙였습니다.",
       "published_at": "2026-06-26T06:15:00+09:00",
       "source": "AI타임스",
       "topic_tag": "ai",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "오픈AI, 자체 개발 '추론 칩' 공개… \"9개월 만에 테이프아웃\"",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212074",
-      "body": "오픈AI가 브로드컴과 공동 개발한 첫 번째 자체 AI 추론 칩 '할라페뇨(Jalapeño)'를 공개했다. 9개월이라는 초단기 개발 사이클로 첨단 반도체 역사상 가장 빠른 ASIC 개발 사례로 평가받고 있다.\n\n할라페뇨는 대형언어모델(LLM) 추론에 특화된 가속기로, TSMC 3나노 공정으로 제조되며 HBM 스택 8개를 탑재한다. 기존 GPU 대비 추론 토큰 비용을 약 50% 절감할 수 있다는 것이 오픈AI의 주장이다.\n\n오픈AI는 자체 모델을 활용해 칩 설계 및 최적화 과정을 가속화했다고 밝혔다. 이 칩은 2026년 말 초기 배포를 시작으로 점차 확대될 예정이다.\n\n브로드컴과 마이크로소프트, 기타 파트너사들과 함께 기가와트 규모의 데이터센터 구축을 목표로 하고 있다. 오픈AI는 '풀 스택'을 직접 구축하겠다는 전략적 의지를 다시 한 번 확인했다.",
-      "published_at": "2026-06-25T06:59:31+09:00",
-      "source": "AI타임스",
-      "topic_tag": "competitor",
-      "secondary_tags": ["semiconductor", "datacenter"],
-      "competitor": "Broadcom"
-    },
-    {
-      "title": "[게시판] 메가존클라우드, NIPA 국산 AI 반도체 인프라 실증 사업 참여 등 단신",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212120",
-      "body": "메가존클라우드가 한국지능정보사회진흥원(NIPA) 주관 '국산 AI 반도체 인프라 실증 사업'에 참여한다고 밝혔다. 이번 사업은 국내 AI 반도체 기업들의 인프라 실증 지원을 위한 프로젝트로, 국산 반도체 경쟁력 강화에 초점을 맞추고 있다.\n\n메가존클라우드는 클라우드 인프라 및 AI 서비스 전문 기업으로서 사업 참여를 통해 국산 AI 반도체 상용화 및 생태계 확산을 지원할 계획이다. 사업 세부 내용과 참여 반도체 기업 명단은 추후 공개될 예정이다.",
-      "published_at": "2026-06-25T17:00:00+09:00",
-      "source": "AI타임스",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "퀄컴, AI 데이터센터 CPU 시장 본격 진입... 메타에 '드래곤플라이 C1000' 공급",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212079",
-      "body": "퀄컴이 AI 데이터센터 시장 공략을 본격화하며 스마트폰 중심 사업 구조 탈피에 속도를 내고 있다.\n\nCNBC 등에 따르면 퀄컴은 24일(현지시간) 투자자 행사에서 데이터센터용 CPU '드래곤플라이 C1000(Dragonfly C1000)'을 공개하고, 메타가 해당 칩을 차세대 AI 인프라에 채택하기로 했다고 밝혔다.\n\n이 칩은 에이전틱 AI 환경에 최적화된 제품으로, 높은 연산 성능과 전력 효율성을 동시에 제공하는 데 초점을 맞췄다. 메타는 오는 2028년부터 자사 데이터센터에 드래곤플라이 C1000과 후속 세대 제품을 도입할 예정이다.\n\n이번 발표는 스마트폰 프로세서와 통신 모뎀 시장의 강자로 알려진 퀄컴이 AI 데이터센터 시장에 본격적으로 진출했음을 보여주는 신호로 평가된다. 퀄컴은 CPU뿐 아니라 AI 가속기, 다수의 칩을 연결하는 플랫폼 등 다양한 제품군을 통해 급성장하는 AI 인프라 시장을 공략하겠다는 전략을 제시했다.\n\n크리스티아노 아몬 퀄컴 CEO는 '그동안 기술과 자산을 꾸준히 축적해 왔으며 이제 데이터센터 사업의 다음 단계로 진입할 수 있는 종합적인 포트폴리오를 갖추게 됐다'고 말했다.\n\n퀄컴은 AI 데이터센터 사업 성장에 대한 자신감도 드러냈다. 2029 회계연도 데이터센터 매출 목표를 150억달러(약 23조원)로 제시했으며, 스마트폰 외 사업 부문 매출 목표도 기존 220억달러에서 400억달러(약 61조원)로 상향 조정했다.\n\n퀄컴은 소프트웨어 경쟁력 강화를 위해 AI 소프트웨어 스타트업 모듈러를 약 39억2000만달러(약 5조8000억원) 규모의 주식 교환 방식으로 인수한다고 발표했다. 모듈러는 엔비디아의 CUDA와 유사하게 다양한 반도체 아키텍처에서 AI 모델을 구동할 수 있는 소프트웨어 플랫폼을 개발하는 기업이다.\n\n퀄컴은 중국 바이트댄스와 맞춤형 칩 설계 서비스 제공을 논의 중인 것으로도 알려졌다.",
-      "published_at": "2026-06-25T11:26:13+09:00",
-      "source": "AI타임스",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["datacenter"],
-      "competitor": null
-    },
-    {
-      "title": "Qualcomm Unveils Dragonfly Data Center Platform, Wins Meta Deal",
-      "url": "https://www.thelec.net/news/articleView.html?idxno=11687",
-      "body": "Qualcomm introduced its Dragonfly family of AI data center products alongside High Bandwidth Computing (HBC) technology during its June 24 Investor Day event. The portfolio encompasses the C1000 data center CPU, AI300 inference accelerator, custom ASICs, and connectivity solutions.\n\nThe C1000 processor, built on Qualcomm's Oryon architecture, features over 250 CPU cores operating above 5GHz using chiplet design. According to executives, it delivers 'more than twice the performance per watt of competing server CPUs.' The processor supports PCIe 7.0 and CXL connectivity, enabling data transfer rates up to 2TB/s.\n\nHBC technology stacks LPDDR memory dies vertically above accelerator chips, creating near-memory computing architecture. Qualcomm claims HBC achieves 'six times higher bandwidth per watt than HBM' while reducing thermal output and total cost of ownership compared to HBM-based systems.\n\nThe company announced a multi-year agreement with Meta to supply Dragonfly C1000 CPUs for next-generation server deployments. Volume production begins in 2028, with Humain as the launch customer. Over 35 global technology companies support the ecosystem, including Samsung, SK hynix, Lenovo, Foxconn, and Supermicro.",
-      "published_at": "2026-06-25T18:42:00+09:00",
-      "source": "The Elec",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["datacenter"],
-      "competitor": null
-    },
-    {
-      "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
-      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
-      "body": "Netris, a network automation startup, has secured $15 million in Series A funding from Andreessen Horowitz to accelerate AI neocloud deployment timelines.\n\nThe company provides hardware-accelerated software running on network switches to help emerging data center operators reduce time-to-market. Unlike traditional software-defined networking (SDN), Netris emphasizes that 'for AI, software is not okay, because the amount of traffic is so high, everything must be hardware accelerated,' according to CEO Alex Saroyan.\n\nThe platform automates network setup, configuration, and operations while enabling multi-tenancy isolation and hardware-agnostic vendor support. Netris is currently live across more than 35 GPU clusters globally, managing approximately one million GPUs for clients including Lightning AI, Foxconn, and Hewlett Packard Enterprise.\n\nNotably, the company uses deterministic algorithms developed before the AI boom rather than machine learning. Saroyan explained that 'for changing many thousands of switch configurations, you don't need to be creative. You need to be very persistent and repeatable.'\n\nAndreessen Horowitz partner Guido Appenzeller joins the board. The funding will support engineering and sales expansion, additional hardware vendor integration, and algorithm enhancements.",
-      "published_at": "2026-06-25T23:55:38+09:00",
-      "source": "TechCrunch",
-      "topic_tag": "datacenter",
       "secondary_tags": [],
       "competitor": null
     },
@@ -308,124 +138,14 @@
       "competitor": null
     },
     {
-      "title": "Napatech Receives First Production Order for AI Infrastructure Design Win",
-      "url": "https://www.storagenewsletter.com/2026/06/11/napatech-receives-first-production-order-for-ai-infrastructure-design-win/",
-      "body": "Napatech announced that it has received the first material commercial purchase order associated with a major AI infrastructure design win secured in 2025. The initial order of 1,000 units, with multi-million dollar value, marks the transition from development into commercial production.\n\nThe customer's AI Inferencing platform leverages Napatech's high performance programmable SmartNIC architecture to deliver efficient, high-throughput, low latency, scale out connectivity for distributed AI workloads. The contract supports Napatech's financial guidance for the full year of 2026, which is unchanged.\n\nThis announcement represents a significant milestone for Napatech, validating its strategy in the growing AI infrastructure market. The company's SmartNIC technology is positioned as a key connectivity solution for distributed AI inference deployments at scale.",
-      "published_at": "2026-06-11T09:00:00+09:00",
-      "source": "Storage Newsletter",
+      "title": "Rebellions, CCK Solution team up to build Korean AI ecosystem",
+      "url": "https://www.digitaltoday.co.kr/en/view/72936/rebellion-cck-solution-team-up-to-build-korean-ai-ecosystem",
+      "body": "Rebellions announced a strategic partnership with CCK Solution to develop a comprehensive Korean artificial intelligence ecosystem. The collaboration merges Rebellions' energy-efficient, high-performance neural processing unit technology with CCK Solution's AI work platform.\n\nThe joint initiative focuses on creating an integrated solution enabling immediate corporate deployment without requiring separate infrastructure investment. This approach aims to streamline the deployment complexity enterprises typically encounter and reduce token usage expenses.\n\nCCK Solution specializes in automating back-office operations through a platform that breaks down complex business processes into modular components, managed by intelligent AI agents. The company currently serves major South Korean accounting firms while expanding into broader commercial and governmental sectors.\n\nRebellions' CEO stated that 'a Korean AI ecosystem is completed when capable companies in hardware and software closely cooperate.' He emphasized their combined approach would address market demand for AX transformation across private and public sectors.\n\nCCK Solution's CEO reiterated similar sentiments, noting their partnership demonstrates 'the true competitiveness of a Korean AI full stack.' Rebellions' second-generation Rebel-100 NPU is in mass production with customer shipments expected in the second half of 2026.",
+      "published_at": "2026-06-26T09:21:00+09:00",
+      "source": "Digital Today",
       "topic_tag": "competitor",
-      "secondary_tags": ["datacenter"],
-      "competitor": "Napatech"
-    },
-    {
-      "title": "Micron and Anthropic Announce Strategic Agreement to Scale Next-Generation AI Infrastructure",
-      "url": "https://investors.micron.com/news-releases/news-release-details/micron-and-anthropic-announce-strategic-agreement-scale-next",
-      "body": "Micron Technology and Anthropic announced a strategic agreement on June 22, 2026 to scale next-generation AI infrastructure. The deal covers co-design of memory and storage architecture, a multi-year supply agreement spanning Micron's full data-center portfolio, internal deployment of Claude across Micron, and a strategic investment by Micron in Anthropic's Series H funding round.\n\nThe supply agreement covers Micron's three data-center memory and storage layers: HBM (high-bandwidth memory), DRAM, and SSDs, which are the layers that underpin both AI training and inference.\n\nAll three global HBM suppliers are now Anthropic Series H partners, with Samsung and SK Hynix named at the round's close on May 28, 2026, and Micron's participation announced about 25 days later on June 22. No other AI lab has the full global HBM supply trio as strategic infrastructure investors.\n\nMicron Technology stock hit a record closing price of $1,211.38 on June 22, 2026, after the announcement. Both companies confirmed the size of Micron's Series H investment and the supply agreement's financial terms are undisclosed.",
-      "published_at": "2026-06-23T01:00:00+09:00",
-      "source": "Micron Technology Investor Relations",
-      "topic_tag": "semiconductor",
       "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
-      "title": "US memory triopolist makes its customers pay",
-      "url": "https://www.blocksandfiles.com/flash/2026/06/25/us-memory-triopolist-makes-its-customers-pay/5261977",
-      "body": "Micron Technology is increasingly locking customers into long-term supply contracts as AI memory demand surges, a strategy that mirrors what South Korean rivals Samsung and SK Hynix have already adopted. The shift toward contracted volumes represents a fundamental change in how memory is bought and sold.\n\nMicron's Q3 FY2026 earnings revealed the company is converting spot-market customers to multi-year agreements, reducing price volatility risk while securing stable revenue streams. This 'triopolist' behavior—where all three major DRAM/HBM suppliers move simultaneously to long-term contracts—could reshape procurement strategies for hyperscalers and AI hardware vendors.\n\nThe contracts typically include volume commitments across DRAM, NAND, and HBM products, with pricing indexed to market conditions but with floor protections. Customers gain supply security during the ongoing memory shortage; suppliers gain revenue predictability for their massive capital expenditure programs.",
-      "published_at": "2026-06-25T23:44:12+09:00",
-      "source": "Blocks & Files",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "DDN launches faster array HW and KV Cache SW for AI",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/06/24/ddn-launches-faster-array-hw-and-kv-cache-sw-for-ai/5261447",
-      "body": "DDN has launched new hardware and software products targeting AI inference workloads, specifically addressing the growing demand for efficient KV (key-value) cache management in large language model serving.\n\nThe new hardware array delivers significantly higher throughput for AI training and inference storage needs, while the KV Cache software optimizes how attention states are stored and retrieved during inference. As LLM context windows expand to millions of tokens, KV cache management has become a critical bottleneck affecting both latency and infrastructure costs.\n\nDDN's solution positions the company as a key infrastructure player in the AI inference stack, competing with specialized memory solutions from NVIDIA and storage-focused AI infrastructure vendors. The KV cache software is designed to work across multiple GPU vendors and can reduce memory pressure on expensive HBM resources.",
-      "published_at": "2026-06-25T23:26:28+09:00",
-      "source": "Blocks & Files",
-      "topic_tag": "datacenter",
-      "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
-      "title": "AI chip startup Rebellions raises $400m in pre-IPO funding round, launches two AI infrastructure platforms",
-      "url": "https://www.datacenterdynamics.com/en/news/ai-chip-startup-rebellions-raises-400m-in-pre-ipo-funding-round-launches-two-ai-infrastructure-platforms/",
-      "body": "AI chip startup Rebellions has raised $400 million in a pre-IPO funding round at a $2.34 billion valuation, and launched two new AI infrastructure platforms aimed at expanding its commercial footprint beyond Korea.\n\nThe funding will support mass production of the company's Rebel-100 NPU, which is already in production with customer shipments expected in the second half of 2026. Rebellions is also pursuing a dual listing strategy targeting both KOSDAQ and Nasdaq.\n\nThe company launched two new infrastructure platforms: a rack-scale AI inference system and a cloud-native NPU-as-a-Service offering. Both platforms are built around the Rebel-100's key differentiators: lower power consumption compared to GPU alternatives and higher inference throughput per watt.\n\nRebellions CEO Park Sung-hyun stated the NPU era will break NVIDIA's monopoly, citing the company's benchmark results showing 5-7x better price efficiency compared to competing GPU-based systems in real-world inference deployments.\n\nThe company is expanding its Middle East presence, having recently recruited a former diplomat to lead regional business development as US-Iran tensions that previously hampered the market begin to ease.",
-      "published_at": "2026-06-25T15:00:00+09:00",
-      "source": "Data Center Dynamics",
-      "topic_tag": "competitor",
-      "secondary_tags": ["semiconductor"],
       "competitor": "Rebellions"
-    },
-    {
-      "title": "NVIDIA powers over 400 of the world's top 500 supercomputers — June 2026 Top500 analysis",
-      "url": "https://techgenyz.com/nvidia-top-500-supercomputers-ai-hpc-green500/",
-      "body": "The June 2026 TOP500 list has been released, revealing that NVIDIA's technologies now power more than 400 of the world's top 500 supercomputers. NVIDIA's technology runs 81% of TOP500 systems, while 90% of systems newly added to the list use NVIDIA acceleration.\n\nNVIDIA GPU acceleration reached a record 238 systems, while NVIDIA networking reached 376 systems. This dominance is reinforced by the increasing deployment of Blackwell-generation hardware across major HPC centers.\n\nNotably, the top position belongs to LineShine, which debuted at No. 1 with 2.198 exaflops on the HPL benchmark, displacing El Capitan. This Chinese supercomputer took the top spot without using any NVIDIA, Intel, or AMD components, using the domestically-developed LX2 ARM-based processor.\n\nAMD shows strong representation with 191 total systems, up 11% year-over-year, and 41% of new systems in this year's list including El Capitan (No. 2) and Frontier (No. 3).",
-      "published_at": "2026-06-24T09:00:00+09:00",
-      "source": "TechGenyz",
-      "topic_tag": "competitor",
-      "secondary_tags": ["semiconductor", "ai"],
-      "competitor": "NVIDIA"
-    },
-    {
-      "title": "Qualcomm acquires AI startup Modular in open ecosystem bet to challenge CUDA",
-      "url": "https://www.sdxcentral.com/news/qualcomm-acquires-ai-startup-modular-in-open-ecosystem-bet-to-challenge-cuda/",
-      "body": "Qualcomm is acquiring AI software firm Modular for nearly $4 billion (6조원) in an all-stock deal, representing a strategic bet to create a competitive alternative to NVIDIA's CUDA software ecosystem.\n\nModular builds the Mojo programming language and the MAX inference engine, a hardware-agnostic stack that lets developers write AI code once and run it across CPUs, GPUs, NPUs, and custom ASICs without rewriting for each chip. This 'write once, run anywhere' approach directly challenges CUDA's platform lock-in.\n\nChris Lattner, Modular's co-founder, is the legendary software engineer behind open source compiler LLVM and Apple's Swift programming language, lending significant credibility to the technical foundation.\n\nThe acquisition accelerates Qualcomm's data center strategy by providing the software layer necessary to complement its Dragonfly C1000 CPU and AI300 inference accelerator hardware. Without competitive software, hardware alternatives to NVIDIA struggle to gain enterprise adoption.\n\nQualcomm aims to leverage Modular's platform to support its ecosystem of 35+ data center partners, including Samsung, SK Hynix, Lenovo, Foxconn, and Supermicro. The deal is expected to close in the second half of 2026.",
-      "published_at": "2026-06-25T16:00:00+09:00",
-      "source": "SDxCentral",
-      "topic_tag": "ai",
-      "secondary_tags": ["semiconductor"],
-      "competitor": null
-    },
-    {
-      "title": "The math behind the OpenAI Jalapeño chip",
-      "url": "https://www.artificialintelligence-news.com/news/openai-jalapeno-chip-inference-economics/",
-      "body": "OpenAI and Broadcom's Jalapeño chip represents a bet that purpose-built silicon can dramatically reduce the cost of LLM inference compared to general-purpose GPU clusters. The economics behind the chip reveal several key design choices.\n\nJalapeño is built on TSMC's 3nm process node and features eight HBM memory stacks in a reticle-sized ASIC configuration—the largest die size manufacturable on a single lithography pass. This maximizes on-chip memory bandwidth, the primary bottleneck in autoregressive LLM inference.\n\nBy designing the chip specifically around the compute patterns of transformer attention and feed-forward layers, Broadcom and OpenAI claim to achieve much higher hardware utilization than GPU alternatives. GPUs are designed for flexibility; Jalapeño sacrifices generality for efficiency.\n\nThe chip's development was accelerated using OpenAI's own AI models to assist in design optimization—a recursive use of AI to build AI infrastructure. This nine-month tape-out represents what the companies describe as the fastest advanced ASIC development cycle in history.\n\nDeployment is targeted for end of 2026, with OpenAI planning to use Jalapeño for cost-sensitive inference workloads while maintaining GPU clusters for training and latency-sensitive deployments.",
-      "published_at": "2026-06-25T15:00:00+09:00",
-      "source": "AI News",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
-      "title": "Qualcomm Investor Day 2026 Data Center Announcements CPUs, AI Accelerators, and More",
-      "url": "https://www.servethehome.com/qualcomm-investor-day-2026-data-center-announcements-cpus-ai-accelerators-and-more/",
-      "body": "Patrick Kennedy reports from Qualcomm's Investor Day 2026 in New York City, covering the company's data center strategy announcements.\n\nQualcomm CEO Christiano Amon emphasized three dimensions to the company's future, with 'rack-scale data center infrastructure' as the first priority. The company announced several major initiatives:\n\nHigh Bandwidth Compute (HBC): Qualcomm introduced HBC as an alternative to traditional HBM configurations. Rather than using an interposer, the technology stacks approximately 768GB of LPDDR memory directly on compute tiles. The company claims this approach delivers superior performance-per-watt by eliminating the power overhead of interposer connections.\n\nDragonfly C1000 CPU: This chiplet design features 250+ cores running at 5GHz, PCIe Gen7, CXL support, and optional HBC attachment. The processor promises '2x better performance per watt' compared to competitors and includes enterprise reliability features.\n\nSoftware Stack: Qualcomm acquired Modular to address longstanding software challenges. The acquisition aims to create a competitive alternative to established frameworks like CUDA.\n\nCustomer Wins: Meta entered a multi-generational agreement to use Qualcomm processors, representing a significant validation for the company's data center ambitions.\n\nFinancial Outlook: Qualcomm doubled its FY29 revenue forecast from $22B to $40B, with data center becoming a major growth driver. The company projects capturing over 5% of a $1 trillion-plus market within 5-7 years.",
-      "published_at": "2026-06-25T19:22:35+09:00",
-      "source": "ServeTheHome",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["datacenter"],
-      "competitor": null
-    },
-    {
-      "title": "OpenAI Jalapeño Intelligence Platform Shown Powered by Broadcom",
-      "url": "https://www.servethehome.com/openai-jalapeno-intelligence-platform-shown-powered-by-broadcom/",
-      "body": "ServeTheHome reports on OpenAI's Jalapeño intelligence processor announcement, the company's first custom AI chip co-developed with Broadcom. The platform represents OpenAI's move to build proprietary silicon infrastructure to reduce dependence on GPU suppliers.\n\nJalapeño is an ASIC designed specifically for LLM inference, featuring TSMC 3nm fabrication and eight HBM stacks. The chip was designed in just nine months—reportedly the fastest development cycle for an advanced AI ASIC.\n\nBroadcom's role extends beyond manufacturing; the company contributed its expertise in custom ASIC design, which it has honed through similar partnerships with Google (TPU), Meta, Apple, and other hyperscalers.\n\nOpenAI plans to deploy Jalapeño at scale by end of 2026, with Microsoft and other data center partners participating in the gigawatt-scale buildout. The chip aims to reduce inference costs by approximately 50% compared to equivalent GPU-based solutions.\n\nThis marks OpenAI's entry into the silicon supply chain, following in the footsteps of Google, Amazon, and Microsoft, all of which have developed proprietary AI chips to supplement or replace Nvidia GPU purchases.",
-      "published_at": "2026-06-25T23:55:44+09:00",
-      "source": "ServeTheHome",
-      "topic_tag": "competitor",
-      "secondary_tags": ["semiconductor"],
-      "competitor": "Broadcom"
-    },
-    {
-      "title": "Arm CPUs Take Number 1 in Latest Top500 List with Chinese LineShine",
-      "url": "https://www.servethehome.com/arm-cpus-take-number-1-in-latest-top500-list-with-chinese-lineshine/",
-      "body": "The June 2026 Top500 supercomputer rankings feature a historic achievement: an ARM-based system has taken the number 1 position for the first time. China's LineShine, built with domestically-designed LX2 processors based on Armv9.2 architecture, delivers 2.198 exaflops on HPL, surpassing the US-based El Capitan system.\n\nThe LX2 processor, developed by the National Supercomputing Center Shenzhen in collaboration with HiSilicon, features 304 cores per CPU and on-package HBM memory providing 4 TB/s bandwidth per socket. The full system uses 22,680 nodes.\n\nThis is significant beyond the performance milestone: LineShine was built entirely without US technology—no Nvidia GPUs, no AMD processors, no Intel components. China has demonstrated it can build world-class supercomputing infrastructure using domestically developed chips despite export controls.\n\nThe LX2's manufacturing process is believed to use SMIC's most advanced N+3 7nm node, showing China's foundry capabilities approaching competitiveness with Western peers for CPU workloads (though trailing significantly for GPU/AI accelerator performance).",
-      "published_at": "2026-06-25T03:46:35+09:00",
-      "source": "ServeTheHome",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "HPE Delivers Upgraded HPC Hardware, Software For Security, Sovereignty, And Multi-Tenancy",
-      "url": "https://www.nextplatform.com/hpc/2026/06/24/hpe-delivers-upgraded-hpc-hardware-software-for-security-sovereignty-and-multi-tenancy/5261332",
-      "body": "HPE has unveiled upgraded HPC hardware and software specifically designed to address enterprise demands for security, data sovereignty, and multi-tenant AI workloads. The announcement builds on HPE's position in the datacenter AI infrastructure market following its Discover 2026 conference presentations.\n\nThe upgraded systems focus on workload isolation and secure AI compute environments, addressing concerns from government and regulated enterprise customers who require strict data sovereignty controls. Multi-tenancy capabilities allow multiple organizations to share physical infrastructure while maintaining logical separation.\n\nHPE's approach positions the company to capture sovereign AI deployments, where governments and national enterprises are increasingly demanding that AI infrastructure remain under domestic control and within national regulatory frameworks.",
-      "published_at": "2026-06-25T21:30:05+09:00",
-      "source": "The Next Platform",
-      "topic_tag": "datacenter",
-      "secondary_tags": ["ai"],
-      "competitor": null
     },
     {
       "title": "Can you really make chips in space?",
@@ -438,36 +158,6 @@
       "competitor": null
     },
     {
-      "title": "SK하이닉스, 45조 규모 미국 IPO 추진...7월10일 상장 목표",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212102",
-      "body": "SK하이닉스가 대규모 미국 주식 상장에 나선다. 24일(현지시간) 블룸버그와 파이낸셜타임스 등에 따르면, SK하이닉스는 미국 증권거래위원회(SEC)에 등록 서류를 제출하고 신주 1779만주를 발행해 294억달러(약 45조4500억원)를 조달한다고 밝혔다. 7월10일 나스닥 상장이 목표다.\n\n이번 공모는 뱅크오브아메리카, 씨티그룹, 골드만삭스, JP모건체이스 등이 주도한다. 294억달러는 지난 2019년 사우디 아람코의 기업공개 규모와 견줄 만한 규모로, 환율에 따라 역대 주식 판매량 상위 5위 안에 포함될 가능성이 있다.\n\nFTSE 러셀의 글로벌 투자 연구 책임자인 인드라니 데는 \"SK 하이닉스의 뛰어난 실적은 HBM 경쟁에서 선제적으로 나선 전략과 HBM 칩에 대한 강력한 수요를 반영한 것\"이라며, 한국 기업들이 80%의 시장 점유율을 차지하며 주도권을 쥐고 있는 HBM 시장의 공급 부족이 수년간 지속될 것으로 예상된다고 설명했다.\n\n앤트로픽과 오픈AI 등 글로벌 AI 기업이 IPO를 준비 중인 가운데, 이번 IPO는 시장 선호도를 파악하는 중요한 지표가 될 것이라는 분석이다.",
-      "published_at": "2026-06-25T14:51:00+09:00",
-      "source": "AI타임스",
-      "topic_tag": "semiconductor",
-      "secondary_tags": [],
-      "competitor": null
-    },
-    {
-      "title": "AI Is Designing Radio Chips That Humans Couldn't Even Imagine",
-      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-      "body": "IEEE Spectrum reports on a new research development in which AI systems are autonomously designing radio frequency integrated circuits with architectures that human engineers would not have conceived. The AI-generated chips demonstrate unusual topologies that challenge conventional understanding of circuit design.\n\nThe research demonstrates generative AI and reinforcement learning applied to analog and mixed-signal circuit design, a domain previously considered resistant to automation due to its reliance on human intuition and experience. The resulting circuits show competitive or superior performance metrics compared to human-designed equivalents.\n\nThis development has implications for both the semiconductor design industry and the competitive landscape for EDA (electronic design automation) tools. As AI increasingly handles lower-level design tasks, the role of human chip designers may shift toward higher-level architectural decisions and specification.",
-      "published_at": "2026-06-25T22:00:01+09:00",
-      "source": "IEEE Spectrum",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["ai"],
-      "competitor": null
-    },
-    {
-      "title": "퀄컴·메타, 데이터센터 CPU 분야서 협력 체제 구축",
-      "url": "https://zdnet.co.kr/view/?no=20260625071143",
-      "body": "퀄컴과 메타는 24일(현지시간) 데이터센터용 CPU 분야에서 향후 수 년간 여러 세대에 걸쳐 협력하겠다고 밝혔다. 퀄컴이 같은 날 공개한 데이터센터 전용 CPU '드래곤플라이 C1000'이 메타 차세대 서버에 탑재된다.\n\n드래곤플라이 C1000은 5GHz 이상으로 동작하는 오라이언 코어 250개 이상을 탑재하며 PCI 익스프레스 7.0, CXL, 2TB/s 이상의 입출력 대역폭을 지원한다.\n\n크리스티아노 아몬 퀄컴 CEO는 '대규모 데이터센터 환경을 위해 코어당 성능과 전력 효율 모두에서 혁신적인 CPU를 설계했다'며 협력의 의의를 강조했다. 그는 모바일 기기에서의 협력을 데이터센터로 확대한다고 덧붙였다.\n\n마크 저커버그 메타 CEO는 인공지능 시대 인프라 구축이 협력의 핵심 배경이라고 설명했다. 메타는 차세대 서버에 드래곤플라이 C1000을 탑재해 각종 서비스에 활용할 예정이며, 양산은 2028년 하반기부터 시작될 예정이다.",
-      "published_at": "2026-06-25T08:25:00+09:00",
-      "source": "ZDNet Korea",
-      "topic_tag": "semiconductor",
-      "secondary_tags": ["datacenter"],
-      "competitor": null
-    },
-    {
       "title": "General Intuition's $2.3B bet that video games can train AI agents for the real world",
       "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
       "body": "General Intuition has secured $2.3 billion in funding to develop technology that uses video game environments as training grounds for AI agents that will eventually operate in the physical world. The company argues that game engines provide the richest available source of diverse, interactive, physics-accurate simulation data.\n\nThe approach leverages the massive library of existing game environments and the ability to generate novel scenarios at scale, enabling AI agents to encounter edge cases and develop robust decision-making that generalizes to real-world deployment.\n\nThis is one of the largest single funding rounds in AI infrastructure and training methodology, reflecting growing investor conviction that synthetic training environments are the path to reliable agentic AI. The funding will be used to expand the simulation infrastructure and develop partnerships with game engine providers.",
@@ -476,6 +166,86 @@
       "topic_tag": "ai",
       "secondary_tags": [],
       "competitor": null
+    },
+    {
+      "title": "AI giants back non-profit to retrain workers left behind by AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/26/ai-giants-back-non-profit-to-retrain-workers-left-behind-by-ai/5262601",
+      "body": "Major AI companies including Amazon, Anthropic, Microsoft, and the OpenAI Foundation have partnered with a new bipartisan non-profit organization called RAISE US to help retrain workers displaced by artificial intelligence.\n\nFounded by former US Commerce Secretary Gina Raimondo and former Indiana Governor Eric Holcomb, RAISE US aims to 'design and pilot new corporate incentives to retrain and redeploy workers' while exploring wage insurance and career guidance programs. The initiative has already raised more than $500 million, with a target of $1 billion in multi-year commitments.\n\nThe initiative addresses a significant challenge: despite investments in worker preparation, these same tech companies continue aggressive layoffs. Amazon eliminated 14,000 positions last fall, while Microsoft cut approximately 9,000 jobs last July and subsequently offered buyouts to similar numbers of staff.\n\nEmployment data reveals concerning trends. Engineering hiring has declined only 11 percent at major tech companies, but designer positions fell 48 percent and marketing roles dropped 36 percent. Most alarming: new hires with less than one year of experience now represent just 8 percent of hiring at large tech firms, down from 22 percent in 2016.\n\nRaimondo stated the nation needs 'a people strategy' to avoid technological advancement that leaves citizens behind, warning that automated progress without human consideration would constitute 'automated decline.' Additional backers include Bank of America, IBM, Mastercard, AMD, Eli Lilly, and the Rockefeller Foundation. Initial state partnerships have been agreed in Arkansas, Connecticut, Maryland, and Utah.",
+      "published_at": "2026-06-26T09:16:00+09:00",
+      "source": "The Register",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "IBM, 세계 최초 '0.7나노' 칩 기술 공개…나노스택 3D 구조 혁신",
+      "url": "https://www.etnews.com/20260626000001",
+      "body": "IBM이 세계 최초로 1나노미터 이하의 반도체 공정 기술을 발표했다. '나노스택(Nanostack)'이라는 이름의 3D 트랜지스터 아키텍처로, 0.7나노미터(7옹스트롬) 노드에서 동작한다.\n\n손톱만한 면적에 약 1000억 개의 트랜지스터를 집적해 IBM 2021년 2나노 칩 대비 밀도를 2배로 높였다. 성능은 50% 향상, 에너지 효율은 70% 개선 효과가 전망된다.\n\n나노스택은 트랜지스터를 수직으로 쌓고 교차 배치하는 3D 순차 집적(3D sequential integration) 방식을 채택했다. 각 층마다 서로 다른 소재 조합을 통해 트랜지스터 성능과 전력을 독립적으로 최적화할 수 있다는 점이 특징이다.\n\nIBM의 제이 감베타 연구소장은 '이번 혁신은 컴퓨팅 역사상 가장 변혁적인 순간을 의미하며, 나노미터 시대를 넘어 원자 단위 기술로 진입하는 것'이라고 밝혔다. 양산은 5년 내를 목표로 하고 있으며, 향후 10년 이상 반도체 로드맵을 연장할 수 있다는 전망도 나온다.",
+      "published_at": "2026-06-26T05:46:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "美 트럼프 행정부, 오픈AI에 GPT-5.6 단계적 출시 요청",
+      "url": "https://www.etnews.com/20260626000011",
+      "body": "트럼프 행정부가 오픈AI에 GPT-5.6 모델의 단계적 출시를 요청했다. 샘 올트먼 오픈AI CEO는 직원 회의에서 미 정부가 '소수의 신뢰할 수 있는 파트너에게 먼저 제공한 뒤 더 넓은 범위로 확대'하는 방식을 제안했다고 밝혔다.\n\n초기 배포는 약 20개 파트너 기업이 아마존웹서비스(AWS) 베드록(Bedrock) 플랫폼을 통해 모델에 접근하는 방식으로 진행될 예정이다.\n\n이 요청은 앤트로픽의 고급 AI 모델(미소스 5, 페이블 5)을 국가 안보를 이유로 제한한 정부 조치에 이어 나온 것이다. 트럼프 행정부가 이달 초 서명한 행정명령은 정부와 AI 기업이 60일 이내에 자발적 프레임워크를 마련하도록 했으며, 공개 출시 30일 전 정부에 '프런티어 모델'에 대한 접근 권한을 부여하는 내용을 담고 있다.\n\n이번 조치는 트럼프 행정부가 AI에 대한 '자유방임' 입장에서 벗어나 점차 AI 섹터에 대한 통제를 강화하고 있음을 보여준다.",
+      "published_at": "2026-06-26T08:26:00+09:00",
+      "source": "전자신문",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "메모리 수급난에 두 손 든 애플, PC 제품 가격 최대 22% 인상",
+      "url": "https://zdnet.co.kr/view/?no=20260626012843",
+      "body": "애플이 메모리 칩 가격 급등을 이유로 2026년 6월 26일부터 전체 PC 라인업 가격을 13~22% 인상했다. 이는 2026년 상반기 내내 가격을 동결한 이후 처음 단행하는 대규모 가격 조정이다.\n\n제품별 인상 폭은 맥북 에어 13인치 40만원 인상(219만원 시작), M5 Pro 맥북 프로 70만원 인상, 맥북 네오 20만원 인상(119만원 시작), 맥 미니 M4 약 15만9000원 인상 등이다.\n\n팀 쿡 CEO는 월스트리트저널과의 인터뷰에서 '메모리 공급업체들이 대규모 가격 인상을 단행하고 있으며, 최대한 소비자를 보호하려 했지만 더 이상 이 비용을 흡수하는 것은 불가능하다'고 밝혔다.\n\n애플은 또한 'AI 데이터센터 확장으로 메모리·스토리지 수요가 폭발적으로 증가했다'며 '이렇게 짧은 기간에 부품 가격이 급등한 것은 전례가 없는 일'이라고 설명했다.\n\nTrendForce는 맥북 네오 판매량을 연간 400~500만대로 예상한 바 있는데, 이번 가격 인상이 이 모델의 판매 모멘텀에 타격을 줄 수 있다는 분석이다. TSMC의 칩 공급 비용 추가 인상이 예고된 상황에서 추가 가격 인상 압력도 예상된다.",
+      "published_at": "2026-06-26T08:31:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "마이크론 '역대급 실적'에도…애플 주가 6% 급락",
+      "url": "https://zdnet.co.kr/view/?no=20260626082005",
+      "body": "마이크론 테크놀로지가 역대 최고 분기 실적을 발표했음에도 불구하고 애플 주가가 6.36% 급락하며 274.43달러까지 떨어졌다. 2025년 4월 이후 최대 낙폭이다.\n\n마이크론은 3분기(FY2026) 매출 415억 달러(약 63조원), 매출총이익률 84.9%를 기록하며 역대 최고치를 경신했다. 미국 대형 기술 기업 중 최고 수준의 이익률이다. 회사는 4분기에 이익률이 약 86%까지 상승할 것으로 전망했다.\n\n애플은 메모리 부족으로 맥북, 아이패드 가격을 100~300달러 올렸다. 시장 분석가들은 이번 인상 폭이 예상보다 컸다고 평가했다.\n\nBMO 캐피탈 마켓의 한 임원은 '한 기업의 막대한 이익이 다른 기업의 비용 증가로 이어지고 있다는 점을 시장이 인식하기 시작했다'고 언급했다. 이날 7개 주요 기술주가 합산 2% 하락하며 2개월 만에 최저 수준을 기록했다. 마이크로소프트는 3.46%, 메타와 알파벳도 하락했다.",
+      "published_at": "2026-06-26T08:57:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "화웨이, 글로벌 통신업계에 \"AI 토큰 수익모델 쫓아라\"",
+      "url": "https://zdnet.co.kr/view/?no=20260626081205",
+      "body": "화웨이가 글로벌 이동통신 산업에 AI 토큰 기반 수익화 모델을 채택할 것을 촉구하고 있다. 화웨이 순환회장 데이비드 왕은 MWC 상하이 기조연설에서 '모바일 통신 산업이 AI가 주도하는 새로운 단계에 진입했다'고 강조했다.\n\n왕 순환회장은 통신망이 단순히 데이터 트래픽을 전달하는 것에서 벗어나 실시간 인터랙션과 안정적 연결을 지원하는 방향으로 진화해야 한다고 밝혔다. 그는 텔레커뮤니케이션, 컴퓨팅, 인공지능을 하나의 아키텍처로 통합하는 'AI 내재화 모바일 네트워크' 구축의 필요성을 역설했다.\n\nAI 응용 프로그램에서 부상하는 핵심 기술 요구 사항은 강화된 업링크 기능이다. 동시 번역, 몰입형 경험 등 실시간 서비스는 신뢰성과 초저지연을 유지하면서 '약 20Mbps의 업링크 전송 속도'를 요구한다는 점이 지적되었다.\n\n화웨이는 또한 지상 네트워크와 위성 네트워크의 통합, 6G 개발을 위한 국제 협력을 미래 우선 과제로 제시했다.",
+      "published_at": "2026-06-26T08:43:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "SK keyfoundry Mass Produces EMC Technology for Automotive Chips",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11693",
+      "body": "SK keyfoundry announced the commercialization of an on-chip electromagnetic compatibility protection technology for automotive semiconductors. The technology utilizes a bidirectional silicon-controlled rectifier (Bi-SCR) implemented in the company's 130nm BCD manufacturing process.\n\nThe innovation addresses a critical automotive challenge: vehicles experience repeated positive and negative voltage spikes that can cause system failures. The Bi-SCR diverts excess current more quickly than conventional structures, providing more stable protection for semiconductor devices.\n\nThe integrated on-chip design eliminates the need for external transient voltage suppression components, thereby reducing overall component count and improving chip efficiency. The technology complies with the ISO 10605 international standard for automotive electrical stress resistance.\n\nCEO Lee Dong-jae stated the development 'enhances the reliability of automotive semiconductor products and improves overall system stability.' The company plans to expand its protection device portfolio for applications including power management integrated circuits, motor drivers, and power control ICs.",
+      "published_at": "2026-06-26T07:40:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Broadcom, OpenAI Unveil Jalapeño AI Inference Chip",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11692",
+      "body": "Broadcom and OpenAI jointly unveiled Jalapeño, a custom AI accelerator designed specifically for large language model inference. The chip completed its development cycle in nine months, progressing from initial concept through tape-out—reportedly the fastest ASIC development cycle ever achieved in high-performance advanced semiconductors.\n\nEarly laboratory testing demonstrates superior power efficiency compared to competing solutions. According to the announcement, 'early testing indicates the chip delivers better performance per watt than Nvidia graphics processing units (GPUs) and Google's Tensor Processing Units (TPUs).'\n\nOpenAI led architectural design, optimizing the chip for its models and serving systems. Broadcom managed silicon implementation and networking components. Celestica handled board manufacturing and system integration.\n\nThe chip is fabricated on TSMC's 3nm process and features eight high-bandwidth memory (HBM) stacks. It is designed specifically for LLM inference rather than general-purpose workloads, sacrificing flexibility for efficiency in autoregressive transformer computations.\n\nBroadcom's CEO stated the platform would be 'ready for deployment in gigawatt-scale data centers starting in 2026,' signaling ambitious scaling plans for this multi-generation roadmap. Deployment is targeted for end of 2026, with OpenAI planning to use Jalapeño for cost-sensitive inference workloads while maintaining GPU clusters for training and latency-sensitive deployments.",
+      "published_at": "2026-06-26T07:40:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Broadcom"
     }
   ]
 }

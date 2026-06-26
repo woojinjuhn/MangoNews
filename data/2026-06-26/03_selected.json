@@ -1,0 +1,173 @@
+{
+  "issue_date_kst": "2026-06-26",
+  "main": [
+    {
+      "id": "4",
+      "title": "Qualcomm unveils three new data center solutions including Dragonfly C1000 CPU, set to be deployed by Meta",
+      "url": "https://www.datacenterdynamics.com/en/news/qualcomm-unveils-three-new-data-center-solutions-including-qualcomm-dragonfly-c1000-cpu-set-to-be-deployed-by-meta/",
+      "body": "Qualcomm has announced three new data center offerings: the Dragonfly C1000 CPU, Qualcomm High Bandwidth Compute (HBC), and the Dragonfly AI300 inference accelerator. The company has entered into a multi-year partnership with Meta to deploy the C1000 CPU in Meta's next-generation server infrastructure.\n\nThe Dragonfly C1000 is a purpose-built data center processor featuring custom Oryon CPU cores optimized for 'agentic, general-purpose, and AI head node workloads.' With a 250+ core-count chiplet design, it delivers '2x better performance per watt compared to existing product benchmarks for server CPU' and is expected to launch commercially in 2028.\n\nThe Dragonfly AI300 is Qualcomm's third-generation inference accelerator offering both air and direct-liquid cooling at the rack level. It integrates HBC Gen 2 technology and is designed to provide '4x-8x better performance-per-watt compared to existing GPU-based architectures.' Commercial sampling is targeted for 2028.\n\nThe High Bandwidth Compute uses a 3D-stacked silicon architecture to address AI's data movement challenges. The AI250 with HBC Gen 1 is expected to deliver commercial sampling in mid-2027, while the AI300 with HBC Gen 2 provides a significant increase in effective memory bandwidth over prior generations.\n\nQualcomm CEO Christiano Amon emphasized three dimensions to the company's future, with 'rack-scale data center infrastructure' as the first priority. The company doubled its FY29 revenue forecast from $22B to $40B ($61조원), with data center becoming a major growth driver projecting over 5% of a $1 trillion-plus market within 5-7 years.\n\nQualcomm also announced the acquisition of AI software startup Modular for approximately $3.92 billion ($5.8조원) in an all-stock deal, aimed at creating a competitive alternative to NVIDIA's CUDA software ecosystem. Modular builds the Mojo programming language and the MAX inference engine, supporting chips from Nvidia, AMD, Arm, and custom ASICs without rewriting code for each platform.\n\nOver 35 global technology companies support the Dragonfly ecosystem, including Samsung, SK Hynix, Lenovo, Foxconn, and Supermicro.",
+      "published_at": "2026-06-26T00:23:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter", "ai"],
+      "competitor": null,
+      "category": "products",
+      "is_headline": true,
+      "keep_reason": "Qualcomm DC CPU·AI 가속기 본격 진입 + Meta 채택 + Modular($3.92B) 인수로 CUDA 대항 SW 스택 — AI 인프라 경쟁구도 재편 메가 이벤트.",
+      "select_reason": "DC CPU(Dragonfly C1000+Meta) + 3세대 AI 추론 가속기(AI300, GPU 대비 4-8x perf/W) + Modular $3.92B 인수로 CUDA 대항 풀스택 야망까지 — 4축 모두 최상위, FY29 매출 가이던스 2배 상향($40B)이라는 정량 임팩트까지 더한 당일 메가 이벤트."
+    },
+    {
+      "id": "22",
+      "title": "Broadcom, OpenAI Unveil Jalapeño AI Inference Chip",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11692",
+      "body": "Broadcom and OpenAI jointly unveiled Jalapeño, a custom AI accelerator designed specifically for large language model inference. The chip completed its development cycle in nine months, progressing from initial concept through tape-out—reportedly the fastest ASIC development cycle ever achieved in high-performance advanced semiconductors.\n\nEarly laboratory testing demonstrates superior power efficiency compared to competing solutions. According to the announcement, 'early testing indicates the chip delivers better performance per watt than Nvidia graphics processing units (GPUs) and Google's Tensor Processing Units (TPUs).'\n\nOpenAI led architectural design, optimizing the chip for its models and serving systems. Broadcom managed silicon implementation and networking components. Celestica handled board manufacturing and system integration.\n\nThe chip is fabricated on TSMC's 3nm process and features eight high-bandwidth memory (HBM) stacks. It is designed specifically for LLM inference rather than general-purpose workloads, sacrificing flexibility for efficiency in autoregressive transformer computations.\n\nBroadcom's CEO stated the platform would be 'ready for deployment in gigawatt-scale data centers starting in 2026,' signaling ambitious scaling plans for this multi-generation roadmap. Deployment is targeted for end of 2026, with OpenAI planning to use Jalapeño for cost-sensitive inference workloads while maintaining GPU clusters for training and latency-sensitive deployments.",
+      "published_at": "2026-06-26T07:40:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Broadcom",
+      "category": "products",
+      "is_headline": true,
+      "keep_reason": "Tier 2 경쟁사 Broadcom × OpenAI 커스텀 AI 인퍼런스 ASIC 공동 공개 — 3nm TSMC, HBM 8스택, GPU 대비 와트당 성능 우위 주장. MangoBoost AI 가속기 가치사슬 핵심 사건.",
+      "select_reason": "OpenAI 첫 자체 추론 ASIC 공개는 GPU/TPU 헤게모니에 균열을 내는 하이퍼스케일러발 메가 시그널 — 9개월 테이프아웃, 3nm TSMC, HBM 8스택, 기가와트급 배포 일정까지 하드 팩트가 풍부. competitor 태그지만 4축 모두 최상위로 main+competitor 양쪽 포함."
+    },
+    {
+      "id": "1",
+      "title": "IBM details major chip breakthrough with new sub-1nm 'nanostack' 3D architecture",
+      "url": "https://www.datacenterdynamics.com/en/news/ibm-details-major-chip-breakthrough-with-new-sub-1nm-nanostack-3d-architecture/",
+      "body": "IBM claims to have achieved a major chip breakthrough with the introduction of the world's first sub-1nm semiconductor technology. The company announced the 'nanostack' 3D architecture, which features an 'evolutionary transistor architecture at the 0.7 nm, or 7 angstrom node,' positioned to advance the semiconductor industry over the next decade.\n\nThe sub-1nm chips demonstrate nearly twice the density of IBM's 2nm chips from 2021, containing 100 billion transistors. These chips offer up to 50 percent greater performance or 70 percent improved energy efficiency for generative AI and cloud applications.\n\nIBM describes the nanostack transistor architecture as the industry's first known three-dimensional, nanosheet-based design. It works by vertically stacking and staggering transistors while utilizing different material combinations in each layer to independently optimize performance and power efficiency.\n\nThe company validated the architecture through ultra-thin dielectric bonding in CMOS integration, dual-channel engineering capability demonstrations, and functional CMOS inverter operation with anticipated switching performance.\n\nIBM developed this technology at its chip research facility in Albany, New York, which will soon house ASML's High Numerical Aperture Extreme Ultraviolet (High NA EUV) lithography equipment.\n\nJay Gambetta, director of IBM Research and IBM Fellow, stated the breakthrough 'marks a landmark moment in computing, pushing technology beyond the nanometer era to the scale of atoms,' emphasizing how the company is 'reinventing how chips are built to deliver dramatically more power and energy efficiency.'\n\nNanostack represents an industry-first three-dimensional, nanosheet-based transistor architecture. Key features include vertically stacked and staggered transistor arrangement, 3D sequential integration enabling higher transistor density, variable material combinations within each stacked layer for independent transistor optimization, dual-channel engineering capability with functional CMOS inverter operation, and ultra-thin dielectric bonding in CMOS integration.\n\nIBM projects at least a decade of future scaling, with potential production adoption within 5 years. Performance improvements: up to 50% more performance, 70% greater energy efficiency, and 40% SRAM scaling improvement versus 2nm node chips.",
+      "published_at": "2026-06-26T01:15:14+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null,
+      "category": "products",
+      "is_headline": true,
+      "keep_reason": "IBM 0.7nm 나노스택 3D 트랜지스터 발표 — 2nm 대비 50% 성능·70% 전력효율 개선, 생성형 AI/클라우드 워크로드 타겟. 향후 10년 반도체 로드맵 핵심.",
+      "select_reason": "옹스트롬 시대 진입을 알리는 반도체 공정 랜드마크 — 1000억 트랜지스터, 50% 성능·70% 전력효율 향상, 5년 양산 목표라는 구체 수치까지 갖춘 자기충족적 헤드라인. 3D 적층/HBM/HBM4 시대의 후속 노드 그림을 그리는 데 필수 컨텍스트."
+    },
+    {
+      "id": "8",
+      "title": "A Deep Dive On China's 'LineShine' All-CPU, Exaflops-Class Supercomputer",
+      "url": "https://www.nextplatform.com/hpc/2026/06/25/a-deep-dive-on-chinas-lineshine-all-cpu-exaflops-class-supercomputer/5262439",
+      "body": "China's NSC Shenzhen has unveiled LineShine, an all-CPU exascale supercomputer now ranked first on the Top500 list. The system utilizes the LingKun LX2 processor, an Armv9.2-based CPU designed collaboratively by NSC Shenzhen and Huawei's HiSilicon division.\n\nThe LX2 processor features 304 active cores per socket, incorporating SVE2 vector units and SME matrix math units. With 13.79 million cores total, LineShine achieves a peak theoretical performance of 2.74 exaflops and delivers approximately 2.2 exaflops on the High Performance Linpack benchmark—21.5 percent more powerful than the previous top-ranked 'El Capitan' system.\n\nThe architecture consists of two chiplets per CPU, likely manufactured using SMIC's 7-nanometer process at N+3 refinement, operating at 1.55 GHz. Each socket includes 64 GB of HBM memory with 8 TB/sec bandwidth and 256 GB of DRAM across eight NUMA domains.\n\nThe full LineShine configuration contains 22,680 nodes with 13.79 million cores, consuming 42.2 megawatts and achieving 80.35 percent computational efficiency. The system employs the proprietary LingQi interconnect in a dual-plane, multi-rail fat-tree topology, delivering 1.6 Tb/sec bandwidth per node.\n\nChina developed this indigenous supercomputer independently, reflecting national policies prioritizing technological self-sufficiency amid U.S. export restrictions on semiconductor technology. This is a significant milestone: the world's most powerful supercomputer uses no Nvidia, AMD, or Intel components.",
+      "published_at": "2026-06-26T01:48:02+09:00",
+      "source": "The Next Platform",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null,
+      "category": "market",
+      "is_headline": false,
+      "keep_reason": "中 화웨이 HiSilicon LingKun LX2 Armv9.2 CPU 단독 2.74 EF 슈퍼컴 Top500 1위 — NVIDIA·AMD·Intel 부재. 美 수출규제 하 中 소버린 컴퓨팅 자립 마일스톤.",
+      "select_reason": "美 NVIDIA/AMD/Intel 부재 상태로 Top500 1위 달성한 中 소버린 컴퓨팅 마일스톤 — HiSilicon LX2 304코어 Armv9.2, SMIC 7nm N+3, 2.2 EF HPL이라는 정량 디테일이 충분. 소버린 AI/지정학 차원에서 직원 주목도 강함."
+    },
+    {
+      "id": "19",
+      "title": "마이크론 '역대급 실적'에도…애플 주가 6% 급락",
+      "url": "https://zdnet.co.kr/view/?no=20260626082005",
+      "body": "마이크론 테크놀로지가 역대 최고 분기 실적을 발표했음에도 불구하고 애플 주가가 6.36% 급락하며 274.43달러까지 떨어졌다. 2025년 4월 이후 최대 낙폭이다.\n\n마이크론은 3분기(FY2026) 매출 415억 달러(약 63조원), 매출총이익률 84.9%를 기록하며 역대 최고치를 경신했다. 미국 대형 기술 기업 중 최고 수준의 이익률이다. 회사는 4분기에 이익률이 약 86%까지 상승할 것으로 전망했다.\n\n애플은 메모리 부족으로 맥북, 아이패드 가격을 100~300달러 올렸다. 시장 분석가들은 이번 인상 폭이 예상보다 컸다고 평가했다.\n\nBMO 캐피탈 마켓의 한 임원은 '한 기업의 막대한 이익이 다른 기업의 비용 증가로 이어지고 있다는 점을 시장이 인식하기 시작했다'고 언급했다. 이날 7개 주요 기술주가 합산 2% 하락하며 2개월 만에 최저 수준을 기록했다. 마이크로소프트는 3.46%, 메타와 알파벳도 하락했다.",
+      "published_at": "2026-06-26T08:57:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "market",
+      "is_headline": false,
+      "keep_reason": "마이크론 FY26 Q3 매출 415억$(63조원)·총이익률 84.9% 역대 최대 — AI 데이터센터 메모리 수요가 PC 시장 가격에 전가되는 시장 동학 한국어 1차.",
+      "select_reason": "메모리 사이클 정점을 시장이 가격에 반영하기 시작한 결정적 순간 — Micron 매출총이익률 84.9%(역대 최고)와 같은 날 애플 6.36% 급락이라는 단일 비트가 'AI 메모리 수요가 PC 소비자에 전가'라는 시장 동학을 압축. 메모리/HBM 가치사슬 직원 주목도 매우 높음."
+    },
+    {
+      "id": "3",
+      "title": "OpenAI: \"New bet\" to partner with semiconductor companies, using AI to optimize chip design",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-plans-new-bet-to-partner-with-semiconductor-companies-using-ai-to-optimize-chip-design/",
+      "body": "OpenAI is recruiting a deal lead to establish partnerships with semiconductor firms, leveraging its AI models for chip development and operational improvements. This hiring initiative, part of OpenAI's Special Situations team, represents a new vertical expansion.\n\nThe role focuses on identifying where AI can deliver significant value to semiconductor companies and their partners. The job listing describes these efforts as 'new bets' that may 'mature into repeatable ways of working.'\n\nPartnership structures are expected to include 'non-standard partnerships, including revenue share, royalties, and bespoke commercial terms.' While resulting chips could potentially be used by OpenAI, this outcome isn't mandatory.\n\nThis push into chip AI automation follows OpenAI's unveiling of Jalapeño, an intelligence processor co-designed with Broadcom. The inference chip utilized OpenAI's models to accelerate design and optimization phases.\n\nGoogle has similarly deployed DeepMind's AlphaChip across multiple generations of its Tensor Processing Units and Axion CPUs. Two AlphaChip creators subsequently founded Ricursive Intelligence, an independent AI chip design platform valued at $4 billion as of January 2026.",
+      "published_at": "2026-06-26T01:07:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "ai",
+      "secondary_tags": ["semiconductor"],
+      "competitor": null,
+      "category": "market",
+      "is_headline": false,
+      "keep_reason": "OpenAI가 Jalapeño 성공 이후 반도체사 대상 AI 칩 설계 자동화 파트너십 추진 — AI-for-chip-design 트렌드, AlphaChip 창업자 Ricursive Intelligence($4B) 사례 포함.",
+      "select_reason": "Jalapeño 발표 다음날 OpenAI가 자체 모델로 다른 반도체사 칩 설계도 가속화하는 'new bet' 채용을 공식화 — AI-for-chip-design이 점차 산업 표준화되는 추세. AlphaChip→Ricursive($4B) 사례까지 묶어주는 단일 기사."
+    },
+    {
+      "id": "6",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "body": "OpenAI plans a restricted release of GPT 5.6, sharing it only with select partners rather than the general public, following pressure from the Trump administration. During a staff meeting, CEO Sam Altman indicated that 'the government would be approving access customer by customer' during a preview phase, with hopes for broader availability 'a couple of weeks later.'\n\nThe Office of the National Cyber Director and Office of Science and Technology Policy requested the limited rollout. OpenAI staff reportedly collaborated closely with government agencies on the release strategy.\n\nThis represents a shift from the Trump administration's earlier 'hands-off' position on AI. In June, Trump signed an executive order requiring certain AI companies to voluntarily submit new models for government testing before public release.\n\nThe approach mirrors Anthropic's strategy with Claude Mythos, its frontier cyber model released only through Project Glasswing to select partners. Anthropic cited safety concerns, arguing the model's power posed misuse risks. However, observers debate whether such restrictions represent genuine safety measures or marketing tactics.\n\nFrontier cyber tools raise legitimate concerns: generative AI can write malware and execute ransomware attacks autonomously. These models excel at identifying and exploiting vulnerabilities faster than human analysts, threatening organizations relying on complex software infrastructure.",
+      "published_at": "2026-06-26T08:34:39+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null,
+      "category": "market",
+      "is_headline": false,
+      "keep_reason": "트럼프 행정부가 OpenAI GPT-5.6 단계 출시 요청 — Anthropic Mythos 사례 이은 프런티어 모델 규제 강화, AI 배포 정책 영문 1차.",
+      "select_reason": "Anthropic Mythos 사례 이은 프런티어 모델 정부 사전 심사 사실상 도입 — Trump 6월 행정명령 + customer-by-customer 승인 + AWS Bedrock 20개 파트너 게이트라는 AI 배포 정책 변화의 두 번째 데이터포인트. 한국어 1차(id 17)는 dedup 처리."
+    },
+    {
+      "id": "12",
+      "title": "Rebellions, CCK Solution team up to build Korean AI ecosystem",
+      "url": "https://www.digitaltoday.co.kr/en/view/72936/rebellion-cck-solution-team-up-to-build-korean-ai-ecosystem",
+      "body": "Rebellions announced a strategic partnership with CCK Solution to develop a comprehensive Korean artificial intelligence ecosystem. The collaboration merges Rebellions' energy-efficient, high-performance neural processing unit technology with CCK Solution's AI work platform.\n\nThe joint initiative focuses on creating an integrated solution enabling immediate corporate deployment without requiring separate infrastructure investment. This approach aims to streamline the deployment complexity enterprises typically encounter and reduce token usage expenses.\n\nCCK Solution specializes in automating back-office operations through a platform that breaks down complex business processes into modular components, managed by intelligent AI agents. The company currently serves major South Korean accounting firms while expanding into broader commercial and governmental sectors.\n\nRebellions' CEO stated that 'a Korean AI ecosystem is completed when capable companies in hardware and software closely cooperate.' He emphasized their combined approach would address market demand for AX transformation across private and public sectors.\n\nCCK Solution's CEO reiterated similar sentiments, noting their partnership demonstrates 'the true competitiveness of a Korean AI full stack.' Rebellions' second-generation Rebel-100 NPU is in mass production with customer shipments expected in the second half of 2026.",
+      "published_at": "2026-06-26T09:21:00+09:00",
+      "source": "Digital Today",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Rebellions",
+      "category": "collaboration",
+      "is_headline": false,
+      "keep_reason": "Tier 1 국내 경쟁사 Rebellions 신규 협업 — Rebel-100 NPU 양산·하반기 출하 일정 공개 및 한국 AI 풀스택 생태계 구축 행보.",
+      "select_reason": "Tier 1 국내 경쟁사 Rebellions의 Rebel-100 양산 진입 및 한국 AI 풀스택 생태계 빌딩 행보 — MangoBoost 직원 주목도(국내 NPU 경쟁구도)와 collaboration 카테고리 분산 모두 충족. main+competitor 양쪽 포함."
+    }
+  ],
+  "competitor_articles": [
+    {
+      "id": "22",
+      "title": "Broadcom, OpenAI Unveil Jalapeño AI Inference Chip",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11692",
+      "body": "Broadcom and OpenAI jointly unveiled Jalapeño, a custom AI accelerator designed specifically for large language model inference. The chip completed its development cycle in nine months, progressing from initial concept through tape-out—reportedly the fastest ASIC development cycle ever achieved in high-performance advanced semiconductors.\n\nEarly laboratory testing demonstrates superior power efficiency compared to competing solutions. According to the announcement, 'early testing indicates the chip delivers better performance per watt than Nvidia graphics processing units (GPUs) and Google's Tensor Processing Units (TPUs).'\n\nOpenAI led architectural design, optimizing the chip for its models and serving systems. Broadcom managed silicon implementation and networking components. Celestica handled board manufacturing and system integration.\n\nThe chip is fabricated on TSMC's 3nm process and features eight high-bandwidth memory (HBM) stacks. It is designed specifically for LLM inference rather than general-purpose workloads, sacrificing flexibility for efficiency in autoregressive transformer computations.\n\nBroadcom's CEO stated the platform would be 'ready for deployment in gigawatt-scale data centers starting in 2026,' signaling ambitious scaling plans for this multi-generation roadmap. Deployment is targeted for end of 2026, with OpenAI planning to use Jalapeño for cost-sensitive inference workloads while maintaining GPU clusters for training and latency-sensitive deployments.",
+      "published_at": "2026-06-26T07:40:00+09:00",
+      "source": "The Elec",
+      "topic_tag": "competitor",
+      "secondary_tags": ["semiconductor", "ai"],
+      "competitor": "Broadcom",
+      "category": "products",
+      "keep_reason": "Tier 2 경쟁사 Broadcom × OpenAI 커스텀 AI 인퍼런스 ASIC 공동 공개 — 3nm TSMC, HBM 8스택, GPU 대비 와트당 성능 우위 주장. MangoBoost AI 가속기 가치사슬 핵심 사건."
+    },
+    {
+      "id": "12",
+      "title": "Rebellions, CCK Solution team up to build Korean AI ecosystem",
+      "url": "https://www.digitaltoday.co.kr/en/view/72936/rebellion-cck-solution-team-up-to-build-korean-ai-ecosystem",
+      "body": "Rebellions announced a strategic partnership with CCK Solution to develop a comprehensive Korean artificial intelligence ecosystem. The collaboration merges Rebellions' energy-efficient, high-performance neural processing unit technology with CCK Solution's AI work platform.\n\nThe joint initiative focuses on creating an integrated solution enabling immediate corporate deployment without requiring separate infrastructure investment. This approach aims to streamline the deployment complexity enterprises typically encounter and reduce token usage expenses.\n\nCCK Solution specializes in automating back-office operations through a platform that breaks down complex business processes into modular components, managed by intelligent AI agents. The company currently serves major South Korean accounting firms while expanding into broader commercial and governmental sectors.\n\nRebellions' CEO stated that 'a Korean AI ecosystem is completed when capable companies in hardware and software closely cooperate.' He emphasized their combined approach would address market demand for AX transformation across private and public sectors.\n\nCCK Solution's CEO reiterated similar sentiments, noting their partnership demonstrates 'the true competitiveness of a Korean AI full stack.' Rebellions' second-generation Rebel-100 NPU is in mass production with customer shipments expected in the second half of 2026.",
+      "published_at": "2026-06-26T09:21:00+09:00",
+      "source": "Digital Today",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Rebellions",
+      "category": "collaboration",
+      "keep_reason": "Tier 1 국내 경쟁사 Rebellions 신규 협업 — Rebel-100 NPU 양산·하반기 출하 일정 공개 및 한국 AI 풀스택 생태계 구축 행보."
+    }
+  ],
+  "summary": {
+    "input_total_kept": 18,
+    "main_count": 8,
+    "competitor_articles_count": 2,
+    "headlines_in_main": 3,
+    "category_breakdown_main": {
+      "market": 4,
+      "products": 3,
+      "projects": 0,
+      "challenges": 0,
+      "collaboration": 1
+    },
+    "by_competitor": {
+      "Broadcom": 1,
+      "Rebellions": 1
+    },
+    "main_competitor_overlap_count": 2,
+    "registry_appended_urls": 8,
+    "selection_notes": "main_cap=8 (window_days=1, 일반 평일; 사용자 명시 '최대 8건'과 동적 공식값 일치). Dedup 적용: (1) IBM 나노스택 triplet(id 1/2/16) — DCD 영문 1차(id 1)만 채택, ServeTheHome(id 2)·ETnews(id 16) 드롭. (2) GPT-5.6 same-event(id 6/17) — TechCrunch 영문 1차(id 6) 채택, ETnews 한국어(id 17) 드롭. (3) 메모리 수급난 비트(id 18/19) — Micron 어닝+애플 6% 급락 시장 1차(id 19) 채택, 애플 PC 가격 인상 소비자 각도(id 18) 드롭. 헤드라인 3건 모두 독립 비트(Qualcomm DC진입+Modular M&A / OpenAI×Broadcom Jalapeño ASIC / IBM 0.7nm 나노스택)로 마킹 정당화. 카테고리: products 3 + market 4 + collaboration 1 = 3버킷 ≥3 diversity 충족(challenges/projects 0이지만 후보 약함). competitor(Broadcom·Rebellions) 2건 모두 top-8급 importance로 main+competitor 양쪽 포함, designer dedup 대상. published_urls.jsonl에 2026-06-25 같은-사건-다른-URL 다수 존재하지만 정확 URL 매칭 0건 → 등록 8건 전부 통과(이는 same-event-different-URL 정상 패턴, memory reference_stage1_contract_quirks)."
+  }
+}

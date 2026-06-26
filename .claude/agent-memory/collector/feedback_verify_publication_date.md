@@ -21,4 +21,6 @@ The `published_at` field must come from the article's own byline / meta tag / st
 4. After harvesting, scan all kept articles for `T00:00:00+09:00` and re-verify each one's byline before returning. Update the value to the real time or drop the article.
 5. After harvesting, scan kept article URLs for past-event slugs (`ces-2026`, `mwc-2026`, etc.). For each match whose `published_at` does NOT fall in the event's natural window, re-verify the byline.
 
+**2026-06-26 #037 lesson — single-day window is strict:** When last issue date and current date differ by only 1 day, the window is 24 hours only. Jun 25 KST articles (published_at < 2026-06-26T00:00:00+09:00) must be rejected even if they are not in published_urls.jsonl. The previous session (compacted) collected 42 articles but ~20 were Jun 25 KST or earlier — they had to be removed in reconstruction, leaving 22. This is honest on a follow-up day when major announcements landed the day before. When the window is 1 day and the news cycle peaked the prior day, expect 20-30 articles, not 40-80 — do not pad with out-of-window items.
+
 Related: see [[project_pipeline]] for the recency window definition. This rule is upstream of the dedup registry — a stale article that slips through the date check will not be caught by `published_urls.jsonl` (the URL wasn't published before).

@@ -45,9 +45,18 @@ type: reference
 - **Korea Times** (koreatimes.co.kr) — accessible English-language Korean tech coverage
 - **Naver News IT/과학** (news.naver.com/section/105) — BLOCKED (JS-rendered, cannot fetch directly); skip or use search to surface individual article URLs
 
+## Korean sources — additional notes (2026-06-26)
+- **thelec.net** (English: The Elec) — highest idxno articles on a given day are typically published that morning KST; idxno 11690+ on Jun 26 were published same day. Reliable for Korean semiconductor/display news in English.
+- **zdnet.co.kr** — URL pattern: `/view/?no=20260626XXXXXX`; date embedded in no= value. Jun 26 articles had no=20260626XXXXXX. Access works. Covers Apple price hikes, Micron earnings impact, Huawei telecom AI.
+- **etnews.com** — URL pattern: `/20260626000001`; date prefix in article ID; fetch works; publication times in byline format "발행일 : YYYY-MM-DD HH:MM". Jun 26 articles: IBM nanostack (05:46), GPT-5.6 phased rollout (08:26).
+- **AI타임스** — idxno 212092+ for Jun 26 KST articles; use idxno range to discover same-day articles. Max idxno on Jun 26 morning was ~212126.
+- **newsspace.kr** — Korean column/analysis site; covers NVIDIA photonics bets; accessible but not RSS-indexed.
+
 ## Query patterns that surfaced novel stories
 - `"April 29 2026" OR "April 30 2026" AI chip datacenter infrastructure` — precise date filtering
 - `site:techcrunch.com AI datacenter semiconductor "April 29"` — site-scoped date search
+- `site:zdnet.co.kr OR site:etnews.com OR site:aitimes.com "2026-06-26"` — Korean outlet date-specific search
+- When major news breaks Jun 24-25, expect Jun 26 to be a follow-up/analysis day with fewer original articles (20-30 vs 40-80 on heavy days)
 - Fetch TechCrunch category page directly — lists all same-day articles with timestamps; very effective
 - `삼성전자 1분기 실적 HBM4 2026년 4월 30일` — Korean Samsung earnings search; surfaces zdnet.co.kr, koreatimes.co.kr, wikitree.co.kr same-day
 - `SK하이닉스 HBM 삼성전자 반도체 실적 2026년 4월 30일` — Korean memory/HBM search; surfaces MBC, Korea Herald, aitimes

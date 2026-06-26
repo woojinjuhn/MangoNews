@@ -1,0 +1,188 @@
+{
+  "filter_date_kst": "2026-06-26",
+  "kept": [
+    {
+      "id": "22",
+      "title": "Broadcom, OpenAI Unveil Jalapeño AI Inference Chip",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11692",
+      "category": "products",
+      "competitor": "Broadcom",
+      "keep_reason": "Tier 2 경쟁사 Broadcom × OpenAI 커스텀 AI 인퍼런스 ASIC 공동 공개 — 3nm TSMC, HBM 8스택, GPU 대비 와트당 성능 우위 주장. MangoBoost AI 가속기 가치사슬 핵심 사건."
+    },
+    {
+      "id": "4",
+      "title": "Qualcomm unveils three new data center solutions including Dragonfly C1000 CPU, set to be deployed by Meta",
+      "url": "https://www.datacenterdynamics.com/en/news/qualcomm-unveils-three-new-data-center-solutions-including-qualcomm-dragonfly-c1000-cpu-set-to-be-deployed-by-meta/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Qualcomm DC CPU·AI 가속기 본격 진입 + Meta 채택 + Modular($3.92B) 인수로 CUDA 대항 SW 스택 — AI 인프라 경쟁구도 재편 메가 이벤트."
+    },
+    {
+      "id": "12",
+      "title": "Rebellions, CCK Solution team up to build Korean AI ecosystem",
+      "url": "https://www.digitaltoday.co.kr/en/view/72936/rebellion-cck-solution-team-up-to-build-korean-ai-ecosystem",
+      "category": "collaboration",
+      "competitor": "Rebellions",
+      "keep_reason": "Tier 1 국내 경쟁사 Rebellions 신규 협업 — Rebel-100 NPU 양산·하반기 출하 일정 공개 및 한국 AI 풀스택 생태계 구축 행보."
+    },
+    {
+      "id": "19",
+      "title": "마이크론 '역대급 실적'에도…애플 주가 6% 급락",
+      "url": "https://zdnet.co.kr/view/?no=20260626082005",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "마이크론 FY26 Q3 매출 415억$(63조원)·총이익률 84.9% 역대 최대 — AI 데이터센터 메모리 수요가 PC 시장 가격에 전가되는 시장 동학 한국어 1차."
+    },
+    {
+      "id": "18",
+      "title": "메모리 수급난에 두 손 든 애플, PC 제품 가격 최대 22% 인상",
+      "url": "https://zdnet.co.kr/view/?no=20260626012843",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 데이터센터 메모리·스토리지 수요 폭증으로 인한 PC 가격 13-22% 인상 — MangoBoost가 다루는 메모리/SSD 수급난을 소비자 시장에 가시화한 사례."
+    },
+    {
+      "id": "3",
+      "title": "OpenAI: \"New bet\" to partner with semiconductor companies, using AI to optimize chip design",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-plans-new-bet-to-partner-with-semiconductor-companies-using-ai-to-optimize-chip-design/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "OpenAI가 Jalapeño 성공 이후 반도체사 대상 AI 칩 설계 자동화 파트너십 추진 — AI-for-chip-design 트렌드, AlphaChip 창업자 Ricursive Intelligence($4B) 사례 포함."
+    },
+    {
+      "id": "8",
+      "title": "A Deep Dive On China's 'LineShine' All-CPU, Exaflops-Class Supercomputer",
+      "url": "https://www.nextplatform.com/hpc/2026/06/25/a-deep-dive-on-chinas-lineshine-all-cpu-exaflops-class-supercomputer/5262439",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "中 화웨이 HiSilicon LingKun LX2 Armv9.2 CPU 단독 2.74 EF 슈퍼컴 Top500 1위 — NVIDIA·AMD·Intel 부재. 美 수출규제 하 中 소버린 컴퓨팅 자립 마일스톤."
+    },
+    {
+      "id": "1",
+      "title": "IBM details major chip breakthrough with new sub-1nm 'nanostack' 3D architecture",
+      "url": "https://www.datacenterdynamics.com/en/news/ibm-details-major-chip-breakthrough-with-new-sub-1nm-nanostack-3d-architecture/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "IBM 0.7nm 나노스택 3D 트랜지스터 발표 — 2nm 대비 50% 성능·70% 전력효율 개선, 생성형 AI/클라우드 워크로드 타겟. 향후 10년 반도체 로드맵 핵심."
+    },
+    {
+      "id": "2",
+      "title": "IBM Outlines Sub-1nm Nanostack Transistor Technology: Building the Next Gen By Going Up",
+      "url": "https://www.servethehome.com/ibm-outlines-sub-1nm-nanostack-transistor-technology/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "IBM 나노스택 기술 심층 분석 — GAAFET 한계와 2030년대 후속 기술 맥락 추가. ServeTheHome 기술 deep-dive 각도가 DCD 발표 기사와 보완."
+    },
+    {
+      "id": "16",
+      "title": "IBM, 세계 최초 '0.7나노' 칩 기술 공개…나노스택 3D 구조 혁신",
+      "url": "https://www.etnews.com/20260626000001",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "IBM 나노스택 한국어 1차 보도 — 옹스트롬 단위·1000억 트랜지스터 디테일 한국어 기술 정리 (한국어/영문 1차 보완)."
+    },
+    {
+      "id": "7",
+      "title": "Databricks' former AI chief thinks he can cut AI's power bill by 1,000x",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "AI 인퍼런스 전력 1000배 감축 시도하는 Unconventional AI(전 Databricks AI 책임자 창업) — AI 스케일링의 전력 한계 화두는 MangoBoost 효율 가치 제안과 직결."
+    },
+    {
+      "id": "5",
+      "title": "Gorilla Technology secures $2.5bn GPUaaS contract in Indonesia",
+      "url": "https://www.datacenterdynamics.com/en/news/gorilla-technology-secures-25bn-gpuaas-contract-in-indonesia/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "동남아 25억$ GPUaaS 계약 — B300 GPU 1000대 배치, NeutraDC Batam DC. 글로벌 AI 데이터센터 GPU 수요 확장 추세 (Freyr·Yotta 후속)."
+    },
+    {
+      "id": "9",
+      "title": "\"모델이 하네스를 먹어 치울 것\"...구글이 본 AI 경쟁의 다음 단계",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212092",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "구글 딥마인드 임원 — 에이전트 하네스/스캐폴딩이 결국 모델 내부로 흡수될 것. AI 에이전트 시장 차별화 가치 이동 시사, MangoBoost 인프라 포지셔닝 시사점."
+    },
+    {
+      "id": "6",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "트럼프 행정부가 OpenAI GPT-5.6 단계 출시 요청 — Anthropic Mythos 사례 이은 프런티어 모델 규제 강화, AI 배포 정책 영문 1차."
+    },
+    {
+      "id": "17",
+      "title": "美 트럼프 행정부, 오픈AI에 GPT-5.6 단계적 출시 요청",
+      "url": "https://www.etnews.com/20260626000011",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "GPT-5.6 단계 출시 한국어 1차 — AWS Bedrock 통한 20개 파트너 초기 배포, 행정명령 60일 자발 프레임워크 등 영문 기사보다 정책 디테일 추가 (한국어/영문 1차 보완)."
+    },
+    {
+      "id": "14",
+      "title": "General Intuition's $2.3B bet that video games can train AI agents for the real world",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "$2.3B 메가펀딩 — 게임 엔진 기반 AI 에이전트 학습 시뮬레이션 인프라. AI 학습용 합성 데이터·인프라 트렌드의 대규모 사례."
+    },
+    {
+      "id": "20",
+      "title": "화웨이, 글로벌 통신업계에 \"AI 토큰 수익모델 쫓아라\"",
+      "url": "https://zdnet.co.kr/view/?no=20260626081205",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "화웨이가 MWC 상하이서 '텔레컴+컴퓨팅+AI' 통합 아키텍처 'AI 내재화 모바일 네트워크' 비전 제시 — 통신망의 AI 인프라화 추세, 6G 협력 강조."
+    },
+    {
+      "id": "10",
+      "title": "Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AI 에이전트 평가용 디지털 월드 시뮬레이션 환경 $50M 펀딩 — 엔터프라이즈 에이전틱 AI 배포 검증 인프라 필요성 부각."
+    }
+  ],
+  "discarded": [
+    {
+      "id": "11",
+      "title": "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT",
+      "discard_reason": "off-topic — 소비자 AI 구독 시장 점유율 추이로 AI 인프라/반도체/DPU 가치사슬과 무관."
+    },
+    {
+      "id": "13",
+      "title": "Can you really make chips in space?",
+      "discard_reason": "off-topic — 우주 반도체 제조는 수십 년 후 가능성 논의로 MangoBoost 단기 의사결정과 무관, 본문도 회의적 결론."
+    },
+    {
+      "id": "15",
+      "title": "AI giants back non-profit to retrain workers left behind by AI",
+      "discard_reason": "off-topic — AI 실직자 재교육 비영리 단체 결성, HR·노동정책 이슈로 AI 인프라/반도체 substance 없음."
+    },
+    {
+      "id": "21",
+      "title": "SK keyfoundry Mass Produces EMC Technology for Automotive Chips",
+      "discard_reason": "off-topic — 자동차용 130nm BCD 공정 ESD 보호 IC. automotive power semi는 DPU 가치사슬과 무관 (메모리 규칙 적용)."
+    }
+  ],
+  "summary": {
+    "total_received": 22,
+    "total_kept": 18,
+    "total_discarded": 4,
+    "category_breakdown": {
+      "market": 6,
+      "products": 7,
+      "projects": 1,
+      "challenges": 2,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 2,
+    "by_competitor": {
+      "Broadcom": 1,
+      "Rebellions": 1
+    }
+  }
+}
