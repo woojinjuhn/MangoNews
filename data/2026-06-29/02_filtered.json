@@ -1,0 +1,219 @@
+{
+  "kept": [
+    {
+      "id": 17,
+      "title": "Samsung, SK reportedly to invest $1.3 trillion over 10 years",
+      "url": "https://fortune.com/2026/06/28/samsung-sk-hynix-chip-fabs-investment-fabs-1-3-trillion-10-years-nand/",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Samsung+SK 2,000조원($1.3T) 10-year semi+AI DC mega-investment under President Lee's Three Mega Projects — defining strategic projects beat for the window (English primary with $ framing)."
+    },
+    {
+      "id": 16,
+      "title": "호남 반도체 시대 열리나…삼성·SK 2000조 쏟아붓는다",
+      "url": "https://www.hankyung.com/article/2026062823771",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Korean primary on 2,000조 mega-investment with specific fab counts (Samsung 4-5, SK 4-5 in Gwangju), Display OLED 100조, SK 5개 GW AI DC — most operationally detailed Korean source."
+    },
+    {
+      "id": 19,
+      "title": "'3대 메가프로젝트' 대한민국 산업 생태계 바꾼다",
+      "url": "https://www.etnews.com/20260628000078",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "Three Mega Projects (semiconductor + AI DC + Physical AI) ecosystem framing with infrastructure feasibility constraints (energy/water/workforce) — broader policy angle beyond fab counts."
+    },
+    {
+      "id": 14,
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "RAMageddon HBM/DRAM/NAND shortage through 2027 with Q3 revenue 4x to $41.45B, 16 long-term contracts — core AI infra supply constraint signal for DPU/memory ecosystem."
+    },
+    {
+      "id": 15,
+      "title": "김준기 래블업 CTO \"풀스택 AI 인프라로 GPU 한계 넘는다\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212203",
+      "category": "collaboration",
+      "competitor": null,
+      "keep_reason": "Korean infra startup: storage I/O (not GPU) is the bottleneck in large-scale AI infra, GPU Direct Storage virtualization, heterogeneous GPU+NPU orchestration — directly DPU-adjacent value prop."
+    },
+    {
+      "id": 24,
+      "title": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station",
+      "url": "https://www.servethehome.com/taking-an-up-close-look-at-the-supermicro-gb300-super-ai-station/",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "GB300 desktop spec deep-dive: Grace+Blackwell, 252GB HBM3e, 7.1TB/s, dual 400GbE ConnectX-8 — networking detail directly relevant to DPU/SmartNIC competitive landscape."
+    },
+    {
+      "id": 23,
+      "title": "Elon Musk gets FTC nod to acquire data center optics business Mesh Optical",
+      "url": "https://www.datacenterdynamics.com/en/news/elon-musk-gets-ftc-nod-to-acquire-data-center-optics-business-mesh-optical/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "Musk acquires 1.6T/800G optical transceiver vendor (1/3 power vs rivals) for AI DC — datacenter networking M&A directly in DPU/SmartNIC adjacency."
+    },
+    {
+      "id": 26,
+      "title": "K-AI Alliance Expands to 50 Members, Elevated to SK's Global AI Platform",
+      "url": "https://en.sedaily.com/business/2026/06/28/k-ai-alliance-expands-to-50-members-elevated-to-sks-global",
+      "category": "projects",
+      "competitor": "Rebellions",
+      "keep_reason": "K-AI Alliance 2.0 launched at Menlo Park Unite 2026 with 50 members including Tier-1 competitor Rebellions; SK Group elevation, global expansion (Japan/ME/SEA) — sovereign AI consortium signal."
+    },
+    {
+      "id": 1,
+      "title": "엔비디아, 'GLM-5.2' 4비트 양자화 모델 공개...\"정확도 유지·용량 70%↓\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212178",
+      "category": "products",
+      "competitor": "NVIDIA",
+      "keep_reason": "NVIDIA NVFP4 quantization on 753B-param MoE: 1.5TB→410GB (-73%), HBM -300GB, KV cache +57% — direct AI inference infra cost/memory math relevant to DPU/serving stack."
+    },
+    {
+      "id": 10,
+      "title": "딥시크, 오픈소스 추론 최적화 프레임워크 'DSpark' 공개…V4 속도 60~85% 향상",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212188",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "DSpark serving-layer optimization: 60-85% per-user speedup without model retraining, GPU-load-aware scheduling — directly addresses MangoBoost's AI inference cost/efficiency value prop."
+    },
+    {
+      "id": 21,
+      "title": "레노버 \"메모리 가격, 예전 수준으로 돌아가지 않을 것\"",
+      "url": "https://zdnet.co.kr/view/?no=20260627224252",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Lenovo at ISC 2026: memory prices won't normalize for 5+ years as Samsung/SK/Micron concentrate on HBM; system design shifting to GPU-accel over memory capacity — DC infra economics shift."
+    },
+    {
+      "id": 6,
+      "title": "'미소스 5' 미국 내 제한적 배포 허용…'페이블 5'는 금지 유지",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212186",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "US government limited Misos 5 release to ~100 critical-infra orgs (Project Glasswing) — sovereign-AI export-control framework now operational, shapes global AI access landscape."
+    },
+    {
+      "id": 7,
+      "title": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "China 360 (Tulongfeng) + Japan Sakana (Fugu) frontier models filling Mythos/Fable export-ban gap — Asia sovereign-AI alternatives angle distinct from US policy framing."
+    },
+    {
+      "id": 4,
+      "title": "딥시크의 외부 투자 유치는 '미소스 쇼크' 때문...\"고효율만으로 못 버텨\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212182",
+      "category": "market",
+      "competitor": null,
+      "keep_reason": "DeepSeek's $7.4B raise driven entirely toward compute infra to compete with Mithosa; abandoned cost-only strategy — signals frontier AI now requires hyperscale capex, key infra-economics shift."
+    },
+    {
+      "id": 25,
+      "title": "SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "category": "challenges",
+      "competitor": null,
+      "keep_reason": "Son/Altman pushback on orbital DC concept; compute-scarcity reshaping strategies across Groq/SpaceX/SoftBank — DC supply/timing tradeoff debate central to AI infra roadmap."
+    },
+    {
+      "id": 8,
+      "title": "제미나이 3.5 플래시에 '컴퓨터 유즈' 내장…화면 조작·검색·지도 한 번에",
+      "url": "https://zdnet.co.kr/view/?no=20260627135408",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Gemini 3.5 Flash native Computer Use (78.4 on OSWorld-Verified, $1.5/M input vs GPT-5.5 $5) — agent tooling consolidation directly in KEEP category."
+    },
+    {
+      "id": 13,
+      "title": "장시간 컴퓨터 사용 능력 벤치마크 공개…'오퍼스 4.8' 최고점",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212199",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "OSWorld 2.0 (1.6hr-typical professional tasks); Claude Opus 4.8 20.6% completion, 318 tool calls/task — agent capability frontier with infra cost implications."
+    },
+    {
+      "id": 2,
+      "title": "에이전트 장기 프로젝트 벤치마크 'AA-브리프케이스' 공개...1위는 '페이블 5'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212179",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "AA-Briefcase weeks-long business-deliverable benchmark; Fable 5 only 3% full-task pass at $31/task — real-world agent capability ceiling and cost math."
+    },
+    {
+      "id": 11,
+      "title": "MS, 깃허브 코파일럿에 자체 코딩 모델 출시...\"하이쿠보다 빠르고 저렴\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212192",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "Microsoft MAI-Code-1-Flash on GitHub Copilot (51.2% SWE-bench Pro vs Haiku 35.2%, 60% fewer tokens) — hyperscaler in-house AI model strategy on enterprise dev workloads."
+    },
+    {
+      "id": 12,
+      "title": "에포크 AI, '장기 개발 능력' 벤치마크 공개...\"코드 암기론 통과 못해\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212195",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "MirrorCode long-horizon SWE benchmark; Claude Opus 4.7 14hrs/$251 for 16k-line tool, 56% success — extreme inference budgets ($2.6k/task) highlight compute-cost angle."
+    },
+    {
+      "id": 3,
+      "title": "중국, 휴머노이드 로봇 이어 AI 에이전트에도 '디지털 신분증' 도입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212180",
+      "category": "projects",
+      "competitor": null,
+      "keep_reason": "China SAMR national standard for AI agent interconnection (unique IDs, 7-standard framework) — sovereign-AI governance precedent that may shape global agent ecosystem."
+    },
+    {
+      "id": 5,
+      "title": "애플 '비전 프로' 총괄 부사장, 오픈AI로 이직…AI 하드웨어 개발 주도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212185",
+      "category": "products",
+      "competitor": null,
+      "keep_reason": "OpenAI hardware push (Vision Pro VP Paul Mead + 100+ Apple hires + $6.5B Ive acquisition) — AI hardware ecosystem move with potential implications for AI device silicon demand."
+    }
+  ],
+  "discarded": [
+    {
+      "id": 0,
+      "title": "오픈AI, 정부 요청으로 GPT-5.6 배포 제한…\"규범이 돼선 안 돼\"",
+      "discard_reason": "duplicate of id 6 (same Misos/GPT-5.6 government restriction story; id 6 has more detail incl. Misos 5 100-org list, Project Glasswing, FIRE criticism)"
+    },
+    {
+      "id": 9,
+      "title": "美 정부 AI 개입에 오픈AI·앤트로픽 전략 갈렸다",
+      "discard_reason": "duplicate of id 6 (same gov restriction event re-framed as commentary on OpenAI vs Anthropic strategy; no new factual content beyond opinion piece)"
+    },
+    {
+      "id": 18,
+      "title": "President Lee Unveils Three Mega-Projects; Samsung, SK to Announce Record Investments",
+      "discard_reason": "duplicate of id 17/16/19 (English preview of the same Three Mega Projects briefing; numbers less precise than Fortune id 17, framing already covered by etnews id 19)"
+    },
+    {
+      "id": 20,
+      "title": "[ZD브리핑] 삼성·SK 투자 계획 공개 예고…반도체 클러스터 청사진 나온다",
+      "discard_reason": "duplicate of id 16/19 (preview-style briefing rehash before June 29 event; Hankyung id 16 + ETnews id 19 already cover the fab counts and ecosystem angles)"
+    }
+  ],
+  "summary": {
+    "total_received": 26,
+    "total_kept": 22,
+    "total_discarded": 4,
+    "category_breakdown": {
+      "market": 4,
+      "products": 8,
+      "projects": 4,
+      "challenges": 3,
+      "collaboration": 1
+    },
+    "competitor_kept_total": 3,
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Rebellions": 1
+    }
+  }
+}

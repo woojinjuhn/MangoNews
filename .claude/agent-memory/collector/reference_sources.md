@@ -872,3 +872,48 @@ type: reference
 - `Apollo Blackstone Broadcom AI infrastructure $35B deal June 2026` — 뉴스핌 June 10 02:57 KST; English source confirms June 9 Bloomberg original
 - `삼성전자 SK하이닉스 호남 충청 HBM 반도체 투자 2026-06-10` — 뉴스핌 07:25 + 아시아경제 06:59 confirmed
 - `Broadcom Marvell custom AI ASIC hyperscaler economics nextplatform June 10` — The Next Platform 01:58 KST June 10 confirmed
+
+## Source notes (2026-06-29 run — 3-day weekend window Jun 27-29)
+
+- **Dominant story: Samsung + SK Group 2,000조원 semiconductor/AI investment**: Announced at Blue House 3-mega-project event June 29. Pre-announcement articles appeared June 27-28 (한국경제 Korean, Fortune, Bloomberg). Covered across 5 outlets (hankyung.com, fortune.com, en.sedaily.com, etnews.com, zdnet.co.kr). Use fortune.com / en.sedaily.com for English access; hankyung.com for Korean-language financial original.
+- **fortune.com**: Accessible for big tech/semiconductor investment/capex articles; timestamp format "June 28, 2026, 7:41 PM ET" must be converted to KST (+13h). URL: fortune.com/article/<slug>. Fully body-extractable.
+- **en.sedaily.com (Seoul Economic Daily English)**: Article on Samsung/SK investment (URL /markets/2026/06/29/<slug>) confirmed accessible; JSON-LD datePublished present. High reliability for Korean government/chaebol financial news in English.
+- **hankyung.com (한국경제신문)**: Korean financial flagship; accessible; semiconductor/investment articles published June 27-28 morning KST (07:58, 15:00). URL pattern hankyung.com/article/YYYYMMDDXXXXX. Best source for pre-announcement details of Samsung+SK Blue House story.
+- **etnews.com (전자신문)**: June 28-29 articles accessible via homepage crawl; idxno 20260629XXXXXX for June 29. Coverage of Samsung/SK investment and OpenAI export restriction. Body extractable.
+- **ZDNet Korea**: June 27-29 articles accessible; URL /view/?no=YYYYMMDDHHMMSS. Covered OpenAI GPT-5.6 export restriction, Samsung/SK investment angles.
+- **AI타임스 (aitimes.com) RSS**: Remains highest-yield Korean AI source. June 27-29 articles idxno 212168-212203 range. RSS confirms KST timestamps precisely. Use sequential idxno scanning (212178, 212179, etc.) to discover same-day articles.
+- **ServeTheHome**: Weekend article confirmed (NVIDIA GB300 SuperPod, June 28 00:00:22 KST = June 27 15:00:22 UTC). RSS pubDate is the only timestamp source for STH — article body has no JSON-LD datePublished. Non-zero seconds (22) confirm genuine RSS pubDate, not midnight placeholder.
+- **TechCrunch**: 3 articles confirmed in window (Apple VP to OpenAI June 27, Asian AI startups June 28, GenAI workloads report June 28). URL pattern techcrunch.com/<YYYY>/<MM>/<DD>/<slug>/. Use article URL dates for rough gating; verify with JSON-LD.
+- **The Register RSS**: 2 articles confirmed (AMD Venice enterprise pricing June 28, TSMC price increases June 27). Body accessible; JSON-LD datePublished reliable.
+- **Tom's Hardware**: Tom's Hardware article bodies JS-rendered (body not extractable via WebFetch); titles and dates accessible via RSS only. Weekend articles (June 27-29) exist but body cannot be extracted — skip body-dependent articles.
+- **MarktechPost**: Accessible but article timestamps are date-only (no time in JSON-LD or visible byline). Dropped per hard gate rule — cannot extract precise publication time. Use alternative outlets for same story when possible.
+- **Bloomberg**: 403 on direct fetch. Persistent. Use en.sedaily.com or fortune.com for Korea coverage; use The Register or NextPlatform for enterprise tech.
+- **DataCenterDynamics**: Body fetch still 403 on June 29 run. Persistent — skip body extraction.
+- **SemiAnalysis RSS**: Still returning 2025 content. Skip.
+- **HPCWire RSS**: 403. Skip.
+- **NetworkWorld RSS**: 404. Skip.
+- **Naver News section/105**: JS-rendered, blocked. Skip.
+
+## Key observations (2026-06-29 run — 3-day weekend window)
+- **Weekend publishing pattern**: Jun 27-28 (Sat-Sun) had reduced English RSS output; Korean outlets (aitimes.com, hankyung.com, zdnet.co.kr) published normally. TechCrunch and The Register both published substantive articles over the weekend.
+- **26 articles total** for a 3-day weekend window — lower than the 40-80 daily-window target but appropriate given weekend volume reduction.
+- **AI domain (16 articles)** dominated due to OpenAI GPT-5.6 export restriction (top story), AI benchmarks, foundation model releases (Qwen 3), and K-AI Alliance news.
+- **Semiconductor domain (6 articles)**: Samsung+SK 2,000조원 investment as anchor story; AMD Venice pricing; TSMC price hike; foundry competition.
+- **Datacenter domain (3 articles)**: NVIDIA GB300 SuperPod (ServeTheHome), data center cooling/efficiency analysis (Fortune), hyperscaler nuclear/energy nexus (broader energy story). Lean domain for weekend.
+- **Competitor domain (1 article as primary topic)**: K-AI Alliance (Rebellions member company, SK Group 50-company coalition). NVIDIA tagged in 2 additional articles as secondary.
+- **AI Times systematic idxno scanning**: Use idxno range 212168-212203 as the reference for Jun 27-29 window; beyond 212203 = future window.
+- **Rebellions context**: First domestic appearance in June 27-29 window via K-AI Alliance; not a standalone Rebellions product/funding article. Tag competitor but note it's an alliance context.
+- **Tier 1 Korean competitors (FuriosaAI, Moreh, FriendliAI, HyperAccel)**: Zero qualifying June 27-29 articles despite exhaustive search. These companies publish news sporadically; expect gaps in 3-day or shorter windows.
+
+## Query patterns (2026-06-29 run)
+- `Samsung SK Group 2000조 반도체 AI 투자 삼성전자 2026년 6월` — hankyung.com (15:00 KST Jun 27) + etnews.com accessible
+- `Samsung SK Hynix $1.3T semiconductor AI investment Blue House June 29 2026` — fortune.com (Jun 28 19:41 ET = Jun 29 08:41 KST); en.sedaily.com June 29 accessible
+- `OpenAI GPT-5.6 export restriction government June 27 2026` — AI타임스 idxno=212168 (05:25 KST); ZDNet Korea accessible
+- `K-AI Alliance SK Group 50 companies AI Silicon Valley June 2026` — AI타임스 idxno=212188-212190 range
+- `NVIDIA GB300 NVL72 SuperPod performance June 28 2026` — ServeTheHome RSS (confirmed June 27 15:00:22 UTC = June 28 00:00:22 KST)
+- `Qwen3 235B benchmark performance June 2026` — AI타임스 Korean coverage
+- `AMD EPYC Venice enterprise data center pricing June 2026` — The Register June 28
+- `TSMC price increase advanced packaging HBM CoWoS 2026` — The Register June 27 + Korean outlets
+- `리벨리온 퓨리오사AI 하이퍼엑셀 모레 6월 27-29일 2026 뉴스` — zero qualifying standalone articles; K-AI Alliance context only for Rebellions
+- `Tenstorrent Qualcomm acquisition June 2026 update` — "in talks" status unchanged; no new development in window; do not include duplicate coverage
+- `Fortune.com "June 28" OR "June 29" semiconductor Samsung Korea` — most effective query for English-language Korean investment coverage when Bloomberg is paywalled
