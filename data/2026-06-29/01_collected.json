@@ -1,0 +1,285 @@
+{
+  "collection_date_kst": "2026-06-29",
+  "run_summary": {
+    "total": 26,
+    "by_topic": {"ai": 16, "semiconductor": 6, "datacenter": 3, "competitor": 1},
+    "by_competitor": {
+      "NVIDIA": 2,
+      "Rebellions": 1,
+      "Furiosa": 0,
+      "Moreh": 0,
+      "FriendlyAI": 0,
+      "HyperAccel": 0,
+      "Tenstorrent": 0,
+      "Marvell": 0,
+      "Napatech": 0,
+      "Broadcom": 0
+    },
+    "competitor_tagged_total": 3,
+    "sources_consulted": 42,
+    "skipped_paywalled": 3,
+    "notes": "Recency window: 2026-06-27 through 2026-06-29 KST (3-day weekend window; last issue #037 was 2026-06-26). Dominant story of the window: Samsung + SK Group announced up to 2,000조원 ($1.3T) 10-year semiconductor+AI datacenter investment at Blue House 3-mega-project event on June 29. No standalone new articles found for FuriosaAI, Moreh, FriendliAI, HyperAccel, Napatech in the window — ongoing coverage exists but no product/deal news events in Jun 27-29. Tenstorrent acquisition talks (Qualcomm, $8-10B) still 'in talks' status with no new development in window. Marvell AGM was June 25 (outside window). NVIDIA BlueField-4/Rubin product news is ongoing but no specific Jun 27-29 announcement. Skipped paywalled: UPI.com Samsung article (403), qz.com SK Hynix article (403), en.sedaily.com Yongin article (timeout). UnconventionalAI ZDNet article: URL could not be confirmed, dropped. ServeTheHome Supermicro GB300: timestamp confirmed from RSS feed as Sat 27 Jun 2026 15:00:22 +0000 = Mon 28 Jun 2026 00:00:22 KST; the non-zero seconds (22) confirm this is a genuine RSS pubDate, not a date-only midnight fallback. MarktechPost DSpark: dropped — no precise time extractable from JSON-LD; topic fully covered by AI Times article on same day. ZDNet Korea OpenAI GPT-5.6 article: covered as near-duplicate of AI Times 212168 on same story — kept as separate Korean outlet coverage."
+  },
+  "articles": [
+    {
+      "title": "오픈AI, 정부 요청으로 GPT-5.6 배포 제한…\"규범이 돼선 안 돼\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212168",
+      "body": "OpenAI가 미국 정부의 요청에 따라 GPT-5.6 모델 출시를 제한했다. 샘 올트먼 CEO는 이를 \"규범이 되어서는 안 된다\"고 밝혔다. OpenAI는 GPT-5.6을 전 세계 사용자에게 배포하려 했으나 정부 측이 제한적 배포를 요청했다고 전했다. 올트먼은 \"우리는 정부 요청을 수용했지만 이런 방식이 AI 개발의 표준이 되어서는 안 된다\"고 강조했다. GPT-5.6은 세 가지 모델로 구성되며 정부 제한 하에 출시됐다. 해당 모델은 정부가 승인한 약 100개 조직에만 제공되는 Misos 5(앤트로픽)와 달리, GPT-5.6은 미국 내 승인된 기업 및 인프라 운영자들에게 우선 배포되는 방식으로 변경됐다. 올트먼은 \"정부가 AI 기업의 고객을 직접 선택하는 것은 바람직하지 않다\"고 지적하면서도, 안전성 검토 측면에서 정부 협력의 가치는 인정한다고 밝혔다. 업계에서는 이같은 정부 개입이 AI 기업들의 글로벌 경쟁력에 미치는 영향을 우려하는 목소리가 나오고 있으며, 중국이 기술 격차를 좁힐 수 있는 기회를 줄 수 있다는 지적도 있다.",
+      "published_at": "2026-06-27T05:25:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "엔비디아, 'GLM-5.2' 4비트 양자화 모델 공개...\"정확도 유지·용량 70%↓\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212178",
+      "body": "Nvidia has released an optimized checkpoint of Zhipu AI's popular open-source large language model GLM-5.2 using its proprietary NVFP4 (4-bit) quantization technology. The company unveiled \"GLM-5.2 NVFP4\" via Hugging Face on June 26, enabling both commercial and non-commercial use. This represents Nvidia's Model Optimizer applied to the original GLM-5.2. GLM-5.2 is a mixture-of-experts (MoE) model with 753 billion parameters. It supports up to 1 million token context windows through sparse attention and IndexShare indexing, demonstrating inference and coding performance comparable to leading American models. The most significant achievement is compression efficiency. The original FP8-based GLM-5.2 checkpoint measured 1.5 terabytes; NVFP4 quantization reduced this to approximately 410 gigabytes—a ~73% reduction—while maintaining performance with minimal accuracy loss. Unlike traditional 4-bit quantization approaches that sacrifice accuracy, NVFP4 applies variable scales across smaller units and preserves higher precision for accuracy-sensitive layers. Benchmark results showed near-identical performance: GPQA Diamond scores of 89.52 (original) versus 89.39 (NVFP4); some tests showed NVFP4 exceeding baseline performance. However, developers noted contextual limitations: while NVFP4 reduced GPU HBM memory usage by ~300GB and expanded KV cache capacity by 57%, single-stream decoding speed decreased approximately 24% due to lack of Multi-Token Prediction support—making FP8 preferable for high-throughput inference scenarios.",
+      "published_at": "2026-06-27T13:21:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": ["competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "에이전트 장기 프로젝트 벤치마크 'AA-브리프케이스' 공개...1위는 '페이블 5'",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212179",
+      "body": "Artificial Analysis unveiled a new benchmark called AA-Briefcase on June 18 (local time) designed to evaluate AI models' real-world performance capabilities. Unlike traditional benchmarks measuring single-question responses, this framework assesses how thoroughly models complete long-term projects spanning several weeks. Each project comprises dozens of interconnected tasks requiring models to analyze extensive internal documents and produce actual business deliverables including financial models, board presentations, product plans, and design mockups. The evaluation environment mirrors realistic corporate conditions, with models processing thousands of company documents, meeting transcripts, large datasets, over 25,000 Slack messages, and more than 3,500 emails containing contradictory and incomplete information. Experts from Google, McKinsey, and Boston Consulting Group collaborated over months designing projects reflecting real-world complexity and uncertainty. Results: Claude Fable 5 achieved first place with an Elo score of 1587. Claude Opus 4.8 scored 1356, while Claude Opus 4.7 and Zhipu GLM-5.2(max) both achieved 1266. Cost-wise, Fable 5 required $31 per task. GLM-5.2(max) demonstrated superior cost-effectiveness at $2.40 per task. Notably, even top-performing Fable 5 fully satisfied evaluation criteria on merely 3% of tasks, revealing significant limitations in AI replacing knowledge work entirely.",
+      "published_at": "2026-06-27T13:36:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "중국, 휴머노이드 로봇 이어 AI 에이전트에도 '디지털 신분증' 도입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212180",
+      "body": "China is introducing a unified digital identity system for AI agents, following similar measures for humanoid robots. The State Administration for Market Regulation (SAMR) announced \"AI Agent Interconnection\" national standards on June 26, establishing what officials describe as a \"closed management system.\" The initiative marks China's first national standard addressing AI agent interoperability. It encompasses seven detailed standards covering overall architecture, unique identity codes, and tool deployment mechanisms, enabling agents to authenticate, communicate, and collaborate within a standardized framework. Officials expect this standardization will reduce development costs and accelerate product launches while strengthening security. Previously, China's humanoid robotics standards committee launched a lifecycle management platform assigning unchangeable identification numbers to humanoid robots, tracking them from development through recycling. Industry analysts interpret the dual identity systems as establishing the foundation for an autonomous collaborative AI ecosystem where agents and robots can safely operate across industrial and public service applications.",
+      "published_at": "2026-06-27T13:10:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "딥시크의 외부 투자 유치는 '미소스 쇼크' 때문...\"고효율만으로 못 버텨\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212182",
+      "body": "DeepSeek's decision to secure billions in external funding stems from Anthropic's Mithosa breakthrough, according to reports. CEO Liang Wenfeng had previously rejected investment offers, preferring independent research funded by personal capital of $3 billion. However, Mithosa's exceptional capabilities—including autonomous vulnerability detection and exploitation—demonstrated that overwhelming capital and near-unlimited resources were essential for frontier AI competition. This realization prompted DeepSeek's strategic shift. The $7.4 billion funding round will be directed entirely toward computing infrastructure expansion to compete with Mithosa. DeepSeek announced plans to double workforce across all departments while establishing the Harness Team focused on autonomous AI agents. Despite DeepSeek-V4's underperformance versus American models, the company maintains cost advantages. Token usage on Vercel's AI Gateway surged from under 1% to 17% in May, ranking third behind Anthropic and Google. Founder Liang maintains that despite adopting capital-intensive U.S. development models, the vision of reaching AGI through open-source remains unchanged.",
+      "published_at": "2026-06-27T12:18:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "애플 '비전 프로' 총괄 부사장, 오픈AI로 이직…AI 하드웨어 개발 주도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212185",
+      "body": "Apple's Vice President of Hardware Engineering, who oversaw the mixed reality headset Vision Pro and smart glasses development, is departing for OpenAI. According to Bloomberg on June 26, Paul Mead will leave Apple next week to join OpenAI's hardware division. He is expected to lead development of next-generation AI devices at OpenAI. Mead spent seven years as a key figure leading Vision Pro's hardware engineering. Recently, he also oversaw display-less smart glasses and AI wearable device development as Apple competed with Meta. OpenAI has been recruiting Apple hardware experts for years. The company acquired an AI hardware startup founded by former Apple Chief Design Officer Jonathan Ive and key designers including Tang Tan and Evans Hankey for $6.5 billion. Apple countered OpenAI's talent acquisition in early 2026 by offering hundreds of millions of won in bonuses to iPhone hardware designers. OpenAI has reportedly hired over 100 employees from Apple. Mead is expected to accelerate OpenAI's AI device lineup development alongside Ive and others. His departure coincides with recent Apple executive restructuring and Vision Pro's lackluster sales performance.",
+      "published_at": "2026-06-27T19:29:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "'미소스 5' 미국 내 제한적 배포 허용…'페이블 5'는 금지 유지",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212186",
+      "body": "The U.S. government has granted limited access to Anthropic's Misos 5 model to select American organizations, while maintaining restrictions on the public-facing Fable 5 model. According to Reuters, Anthropic received notification from the government that it could redistribute Misos 5 to trusted U.S. institutions and companies managing critical infrastructure—approximately 100 organizations, including Fortune 500 companies and infrastructure operators participating in Project Glasswing. Commerce Secretary Howard Rutnik's letter clarified that approved companies and their employees need no separate export licenses for Misos 5, even if non-U.S. citizens. However, unlisted companies face continued restrictions, with access limited to domestic organizations only. Anthropic expanded Misos Preview distribution to about 150 global institutions on June 2nd, though Fable 5 remains unavailable to the general public. Misos 5 and Fable 5 share the same base model, but Misos 5 removes certain safeguards for security and defense purposes. The selective authorization has drawn criticism from the AI industry and civil rights groups for lacking transparency regarding selection criteria. FIRE legislative advisor John Coleman noted: We cannot know how these companies were selected or why others were excluded, calling it excessive government power. OpenAI CEO Sam Altman similarly questioned whether government should directly choose AI companies' customers. Experts warn excessive government control may undermine U.S. AI competitiveness, potentially allowing China to narrow technological gaps.",
+      "published_at": "2026-06-27T20:09:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "body": "On Wednesday, Chinese cybersecurity firm 360 unveiled Tulongfeng, an AI tool designed to compete with Anthropic's Mythos. This announcement comes as the Trump Administration maintains its ban on Mythos and its more restricted counterpart, Fable 5, from non-American access. The same week, Tokyo-based Sakana AI launched Fugu, a frontier AI model. The company stated this model stands shoulder-to-shoulder with leading models like Anthropic's Fable 5 and Mythos Preview, and is engineered for agent orchestration across multiple model APIs. Sakana AI's spokesperson characterized their launch timing as entirely coincidental but noted they've been developing Fugu since last year, with research presented at ICLR this spring. The company markets Fugu as delivering frontier capability without the risk of export controls. Sakana, co-founded in 2023 by Google alumni David Ha and Llion Jones, specializes in affordable generative AI models optimized for Japanese language and culture. Ito has emphasized that U.S. models remain important to Asia, cautioning against viewing this moment as a permanent shift. He recently addressed the G7 summit in Evian, where AI access and export controls were central topics. Ha described Fugu as addressing concentration risks in AI infrastructure. China's 360 unveiled two cybersecurity tools: Tulongfeng for discovering software vulnerabilities and Yitianzhen for automating cyber defense. Founder Zhou Hongyi framed vulnerability-detection AI as a strategic national asset and warned against one-way transparency. Anthropic reported run-rate revenue crossing $47 billion in May 2026. Nevertheless, local alternatives now occupy the market gap created by export restrictions, potentially complicating U.S. companies' future recovery prospects even if the ban is lifted.",
+      "published_at": "2026-06-27T21:00:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "제미나이 3.5 플래시에 '컴퓨터 유즈' 내장…화면 조작·검색·지도 한 번에",
+      "url": "https://zdnet.co.kr/view/?no=20260627135408",
+      "body": "Google announced on June 25 that it has integrated the Computer Use capability—where AI agents view screens and autonomously perform clicking, typing, and navigation tasks—as a native tool within Gemini 3.5 Flash. Developers can immediately access this functionality through the Gemini API and Gemini Enterprise Agent Platform. Previously, this capability required a separate Gemini 2.5 Computer Use model released in October 2025. Now it is natively incorporated into the same model that already supports function calling, search grounding, and map integration. A single Gemini 3.5 Flash agent can handle screen viewing, information retrieval via search, and map interaction simultaneously without switching between models, reducing developer complexity. Performance benchmarks show Gemini 3.5 Flash achieved 78.4 points on the OSWorld-Verified benchmark, approaching OpenAI's GPT-5.5 (78.7 points) by just 0.3 points. The pricing advantage is substantial: input costs $1.5 per million tokens versus GPT-5.5's $5—roughly one-third the cost. This represents Google's competitive strategy against OpenAI's Operator and Anthropic's Claude computer control features, leveraging its established developer ecosystem to capture market share through superior cost-efficiency while maintaining comparable accuracy.",
+      "published_at": "2026-06-27T13:54:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "美 정부 AI 개입에 오픈AI·앤트로픽 전략 갈렸다",
+      "url": "https://zdnet.co.kr/view/?no=20260628120509",
+      "body": "OpenAI and Anthropic have adopted divergent strategies regarding U.S. government involvement in AI model releases. OpenAI accepted federal requests and adjusted its deployment timeline, while Anthropic withdrew its latest model Fable amid government pressure. The article highlights how Sam Altman, OpenAI's CEO, demonstrates pragmatism—converting the nonprofit OpenAI to a for-profit structure and securing substantial Microsoft computing agreements to fund AI development. This contrasts with Dario Amodei, Anthropic's CEO, who prioritizes principle and safety concerns over expediency. Jessica Lessin, founder of The Information, argues that successful tech leaders adapt strategies based on market, political, and customer circumstances rather than relying solely on ideology. She cites Meta's Mark Zuckerberg and Tesla's Elon Musk as examples of pragmatic pivots. Regarding the present situation, Lessin notes that while Anthropic maintains principled stances, more pragmatic competitors may establish market dominance through government compromise, suggesting Amodei may eventually face pressure to pursue practical choices.",
+      "published_at": "2026-06-28T12:53:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "딥시크, 오픈소스 추론 최적화 프레임워크 'DSpark' 공개…V4 속도 60~85% 향상",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212188",
+      "body": "DeepSeek unveiled DSpark, an open-source speculative decoding framework that achieves 60-85% per-user generation speedup on DeepSeek-V4 models while maintaining 100% output consistency. The framework uses confidence-scheduled speculative decoding with semi-autoregressive generation (CSSD-SAG). Rather than introducing a new model, DSpark is a serving optimization that attaches a draft module to existing DeepSeek-V4 weights. The system works by having a draft model propose token blocks while the full target model verifies them in single forward passes—rejection sampling preserves output distribution exactly, ensuring lossless quality. DSpark combines a parallel draft backbone with a lightweight sequential head to reduce suffix decay during token generation. A confidence-scoring mechanism and load-aware scheduler adapt verification depth based on GPU availability. Benchmarking shows accepted token length increased 26-31% compared to Eagle3 and 16-18% versus DFlash. Production deployments achieved per-user generation running 60-85% faster than the MTP-1 baseline. DeepSeek simultaneously released DeepSpec, an MIT-licensed toolkit for training and evaluating speculative decoding drafters. DeepSeek-V4-Pro-DSpark and DeepSeek-V4-Flash-DSpark checkpoints are available via Hugging Face. The release is significant for AI inference infrastructure: it demonstrates that serving-layer optimizations can dramatically reduce hardware costs without model retraining, a key consideration for operators running large-scale inference clusters.",
+      "published_at": "2026-06-28T13:44:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "MS, 깃허브 코파일럿에 자체 코딩 모델 출시...\"하이쿠보다 빠르고 저렴\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212192",
+      "body": "Microsoft has expanded its own AI coding model integration into GitHub Copilot, accelerating its push into the enterprise AI coding market. On June 26, the company officially released MAI-Code-1-Flash, a proprietary lightweight coding model optimized for code generation and agentic development work, to GitHub Copilot Business and Enterprise customers. The new model emphasizes rapid response speeds and minimal latency to support repetitive coding tasks in large-scale development environments. Unlike general-purpose AI models, MAI-Code-1-Flash is specifically engineered for code completion and modification workflows, delivering high productivity through quick response times. According to Microsoft's benchmarks on SWE-bench Pro, the model achieved 51.2% compared to Claude Haiku's 35.2%, and on SWE-bench Verified accomplished equivalent tasks using up to 60% fewer tokens. Activation occurs through policy settings in GitHub Copilot configurations. Pricing follows token-based billing: input tokens cost $0.75 per million, cached input tokens $0.075 per million, and output tokens $4.50 per million. Microsoft positions MAI-Code-1-Flash as cost-effective for routine coding rather than maximum inference performance, suitable for most development work while larger models handle complex architecture or security-sensitive changes.",
+      "published_at": "2026-06-28T13:06:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "에포크 AI, '장기 개발 능력' 벤치마크 공개...\"코드 암기론 통과 못해\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212195",
+      "body": "Epoch AI, in collaboration with AI safety research organization METR, unveiled MirrorCode—a benchmark designed to assess long-horizon software engineering capabilities of AI models. Unlike existing software engineering benchmarks that focus on short-term tasks, MirrorCode requires AI systems to reconstruct entire programs from scratch without accessing original source code or the internet. This approach aims to measure genuine development competency rather than mere pattern recognition. The benchmark comprises 25 programs spanning Unix utilities, data serialization tools, bioinformatics, interpreters, static analysis, cryptography, and compression. Notably, Epoch AI provided substantial inference budgets, with the most complex task requiring an AI system to work for 19 days at a cost of $2,600 per execution. Claude Opus 4.7 demonstrated the strongest performance, successfully reimplementing gotree—a 16,000-line bioinformatics tool with over 40 commands—in 14 hours for $251. However, no model achieved perfect scores across all 25 tasks, with Claude Opus 4.7 attaining 56% success rate. The research team acknowledged potential concerns about AI systems encountering training data from open-source projects, yet noted that models occasionally failed on memorizable tasks while succeeding on unfamiliar programs, indicating actual development ability substantially influenced the results.",
+      "published_at": "2026-06-28T13:32:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "장시간 컴퓨터 사용 능력 벤치마크 공개…'오퍼스 4.8' 최고점",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212199",
+      "body": "The AI research lab XLANG unveiled OSWorld 2.0 on June 26, a benchmark designed to evaluate long-horizon computer use capabilities. Unlike previous benchmarks measuring simple tasks completed in dozens of steps, OSWorld 2.0 assesses AI agents performing realistic work that typically requires skilled professionals 1.6 hours to complete. The 108 tasks span seven professional domains—research, content creation, software development, personal services, business/finance, administrative compliance, and healthcare—across 21 subcategories. Evaluation uses 31 self-hosted web environments and professional desktop applications, with an average of 27.25 checkpoints per task for partial scoring. Claude Opus 4.7 required approximately 318 tool calls per task—over ten times more than the original OSWorld 1.0's roughly 30 calls. Results show Claude Opus 4.8 achieved the highest performance at 20.6% task completion and 54.8% partial score within a 500-step budget. GPT-5.5 reached only 13% completion but demonstrated superior token efficiency. Researchers identified persistent issues: models frequently forgot constraints during extended work, missed newly emerging information, made unsupported assumptions rather than seeking user confirmation, and failed adequate final result verification.",
+      "published_at": "2026-06-28T14:02:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "body": "Micron, based in Boise, Idaho, has become a Wall Street favorite among memory chip manufacturers. The company briefly surpassed Meta and Tesla in market valuation on Thursday, closing Friday with approximately $1.27 trillion in market cap. Its stock has surged over 236% in the past month alone, reaching $1,132 per share. The surge stems from the AI infrastructure boom creating severe shortages of system memory chips, including DRAM, NAND, and High-Bandwidth Memory (HBM). AI servers require significantly more memory than traditional devices. Major buyers—Nvidia, Microsoft, Amazon AWS, Google, Meta, and Oracle—are purchasing enormous quantities, forcing other manufacturers like Dell and HP to hoard supplies. This shortage, termed RAMageddon, is expected to persist through 2027, already driving up consumer electronics prices for Apple products and gaming consoles. Micron delivered exceptional third-quarter earnings: revenue quadrupled year-over-year to $41.45 billion, while profits skyrocketed from $1.88 billion to $28.2 billion. The company forecasted fourth-quarter revenue between $49-51 billion. To address historical industry cycles where demand collapses when capacity increases, Micron signed 16 long-term strategic customer agreements across data center, consumer, and automotive segments. Analysts believe these contracts could create sustainable earnings growth and protect against market downturns.",
+      "published_at": "2026-06-29T01:00:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "김준기 래블업 CTO \"풀스택 AI 인프라로 GPU 한계 넘는다\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212203",
+      "body": "The South Korean AI market has seen a surge in services emphasizing stable and efficient GPU supply. As GPU prices rise and inference demand expands, companies face increasing AI infrastructure complexity alongside diverse hardware options like energy-efficient NPUs. Founded in 2015, Rablup (CEO Shin Jung-gyul) is shifting focus from model development and pretraining toward inference and agent services. Backend.AI serves as their core platform—orchestrating heterogeneous GPU and NPU clusters across hyperscale multitenant environments. Kim Jun-gi, Rablup's CTO, explains: Most companies now prioritize inference and operational readiness from the start. Backend.AI's strength lies in its model-agnostic design, allowing flexible model switching and testing without vendor lock-in. Key Technical Focus: Model Routing and Fault Tolerance: Backend.AI Continuum automatically switches to local resources during cloud outages. The Continuum Router dynamically routes between external APIs, local LLMs, and internal models, stabilizing performance while reducing costs through real-time input/output verification and caching. Infrastructure Bottleneck Evolution: Through participation in the government-backed independent AI foundation model project, Rablup discovered storage I/O—not GPU—represents the primary performance limitation in large-scale infrastructure. They've deployed GPU Direct Storage virtualization to address this. As AI agents emerge, CPU value resurfaces; agents require CPU resources for code modifications and file operations beyond model inference. Ecosystem Strategy: Rablup views neocloud and GPU subscription providers as partners rather than competitors. The company open-sourced MLXcel, a Rust-optimized inference engine for Apple MacBooks, and plans integrating Backend.AI Go for local small language models with server offerings and emerging NPU orchestration.",
+      "published_at": "2026-06-29T02:50:00+09:00",
+      "source": "AI Times",
+      "topic_tag": "ai",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "호남 반도체 시대 열리나…삼성·SK 2000조 쏟아붓는다",
+      "url": "https://www.hankyung.com/article/2026062823771",
+      "body": "Samsung and SK will publicly announce massive investment plans on June 29, centered on establishing a semiconductor cluster in the Honam region. The combined investment is projected to reach nearly 2,000 trillion won over ten years. Samsung Electronics plans to construct 4-5 semiconductor fabrication plants on the former Gwangju military airport site. SK Hynix will similarly build 4-5 fabrication plants in the Gwangju area. Beyond semiconductors, Samsung Display will invest approximately 100 trillion won in OLED production at its Asan and Cheonan campuses. Additional investments include packaging facilities in Cheonan and Onyang by Samsung, and increased NAND flash production at SK Hynix's Cheongju facility. SK Group plans to establish gigawatt-scale AI data centers across five nationwide locations. Industry observers raise feasibility questions, citing concentrated semiconductor ecosystem resources in Seoul metropolitan areas and infrastructure challenges regarding water supply and power availability in Honam. Park Jaehyun, research fellow at KAIST, cautions that semiconductor cluster success depends heavily on dense supplier networks and skilled workforce availability—conditions that may be difficult to replicate outside the existing metropolitan semiconductor belt.",
+      "published_at": "2026-06-28T17:34:00+09:00",
+      "source": "한국경제 (Hankyung)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "Samsung, SK reportedly to invest $1.3 trillion over 10 years",
+      "url": "https://fortune.com/2026/06/28/samsung-sk-hynix-chip-fabs-investment-fabs-1-3-trillion-10-years-nand/",
+      "body": "South Korea's Samsung Group and SK Group plan to announce approximately 2,000 trillion won ($1.3 trillion) in investments over the next decade as part of President Lee Jae Myung's industrial strategy, according to Korea Economic Daily reporting. The two conglomerates are expected to present their investment plans during a presidential office meeting. Samsung Electronics and SK Hynix each plan to construct four to five semiconductor fabrication plants in the Gwangju area. Additionally, Samsung will establish chip packaging facilities in South Chungcheong province, while SK Hynix will expand NAND plants in North Chungcheong province. President Lee will unveil the Three Mega Projects for the Great Leap Forward initiative at a 2 p.m. event. Officials from industry, science, climate, and land ministries will present government policy measures before the companies reveal their investment commitments. The combined investment commitment of 2,000 trillion won exceeds an earlier report indicating Samsung alone would announce over 1,000 trillion won in spending. Presidential policy chief Kim Yong-beom indicated that very unusual figures would be unveiled, with plans focusing on semiconductors, AI data centers, and physical AI development.",
+      "published_at": "2026-06-29T08:41:00+09:00",
+      "source": "Fortune",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "President Lee Unveils Three Mega-Projects; Samsung, SK to Announce Record Investments",
+      "url": "https://en.sedaily.com/politics/2026/06/28/president-lee-unveils-three-mega-projects-samsung-sk-to",
+      "body": "President Lee Jae-myung will oversee a Three Mega-Projects National Briefing at the Yeongbingwan guesthouse, themed From Recovery to a Great Leap Forward, Super-Gap Korea. The event aims to explain the government's super-gap industry strategy as the administration enters its second year. Samsung Electronics Executive Chairman Jay Y. Lee and SK Group Chairman Tae-won Choi are expected to attend and reveal substantial investment plans. The briefing will feature detailed policy announcements from multiple ministries regarding semiconductors, AI data centers, and physical AI infrastructure. The Ministry of Trade, Industry and Energy will unveil a Southern Region Innovation Belt strategy centered on Gwangju and Busan. The Ministry of Science and ICT will explain plans for a robot cluster connecting Saemangeum, Daegu, North Gyeongsang, and the metropolitan area, plus physical AI infrastructure measures. Samsung Electronics and SK Group will disclose investment scales and specific plans. The combined investment of major companies, including Samsung Electronics and SK hynix, could reach a total of 1,000 trillion won, according to observers cited in the article. President Lee previously met with both chairmen to coordinate investment plans on June 19 and June 25.",
+      "published_at": "2026-06-28T14:16:00+09:00",
+      "source": "Seoul Economic Daily (English)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "'3대 메가프로젝트' 대한민국 산업 생태계 바꾼다",
+      "url": "https://www.etnews.com/20260628000078",
+      "body": "South Korea is expanding its industrial ecosystem beyond the Seoul metropolitan area into a multi-polar strategic industry model during the AI transformation era. The government and industry will announce the Great Leap Forward Three Mega Projects on June 29, with massive investments centered on semiconductors, AI, and energy—approximately 1 trillion won expected in the Honam region alone. The projects represent an unprecedented attempt to decentralize industrial concentration from the capital region to Honam and Yeongnam areas. President Lee Jae-myung will preside over the Three Mega Projects National Report session, with the three focus areas being semiconductors, AI data centers, and Physical AI. Samsung Electronics and SK will announce their investment plans, with Chairman Lee Jae-yong and SK Group Chair Chey Tae-won attending personally. Samsung and SK Hynix are expected to construct both front-end and back-end fabrication plants, with investments exceeding 900 trillion won—surpassing the Yongin semiconductor cluster project scale. However, fab construction alone proves insufficient. Stable energy and water supply are essential prerequisites. Industry experts note that without robust support ecosystems—including workforce housing, living facilities, and supplier networks—the region could face severe labor shortages. Policy continuity remains another industry concern. With projects spanning over a decade, external factors like government transitions could jeopardize implementation. Professor Ahn Heung-jun of Yonsei University emphasizes the need to verify market demand projections thoroughly and maintain continuous assessment of market conditions throughout implementation.",
+      "published_at": "2026-06-28T13:55:00+09:00",
+      "source": "전자신문 (ETnews)",
+      "topic_tag": "semiconductor",
+      "secondary_tags": ["datacenter"],
+      "competitor": null
+    },
+    {
+      "title": "[ZD브리핑] 삼성·SK 투자 계획 공개 예고…반도체 클러스터 청사진 나온다",
+      "url": "https://zdnet.co.kr/view/?no=20260628114350",
+      "body": "Samsung Electronics and SK Hynix are expected to announce regional semiconductor investment plans. The Presidential Office plans to reveal major investment initiatives by these companies for Honam and Chungcheong regions during a national briefing on three mega-projects on June 29. A presidential policy official noted that the numbers that will emerge will be very unfamiliar. President Lee Jae-myung previously met separately with SK Group Chairman Chey Tae-won and Samsung Electronics Chairman Lee Jae-yong on June 19 and June 25 respectively to finalize investment details. On June 30, SK Group's chairman is expected to visit Gwangju to unveil specific roadmaps for establishing a semiconductor cluster in that region. This briefing follows weeks of coordination between the Blue House and Korea's major conglomerates to align regional development goals with corporate investment capacity. Industry observers note that the scale of investment—potentially 1,000 to 2,000 trillion won across both groups—would represent the largest domestic manufacturing commitment in Korean history, transforming the Honam region into a major semiconductor production hub over the coming decade.",
+      "published_at": "2026-06-28T11:46:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "레노버 \"메모리 가격, 예전 수준으로 돌아가지 않을 것\"",
+      "url": "https://zdnet.co.kr/view/?no=20260627224252",
+      "body": "Lenovo, the world's largest PC manufacturer, has stated that memory prices are unlikely to return to previous levels. According to German tech publication ComputerBase, Lenovo made this assertion during a presentation at the International Supercomputing Conference (ISC 2026) in Hamburg. A Lenovo representative indicated that at least for the next five years or more, it will be difficult for memory prices to decline to former levels. The company projects that even after 2028, when new production facilities from global memory manufacturers come online, there is low likelihood that DRAM and NAND flash memory prices will return to previous levels. This outlook stems from shifting investment priorities among memory manufacturers. Samsung, SK Hynix, and Micron are concentrating production capacity on AI server high-bandwidth memory (HBM) and high-performance server DRAM. As manufacturing resources concentrate on higher-margin product categories, general PC memory supply faces relative constraints. Lenovo anticipates that system design approaches for servers and data centers will shift accordingly, with GPU-accelerated computing becoming more economically viable than maximizing memory capacity.",
+      "published_at": "2026-06-28T09:44:00+09:00",
+      "source": "ZDNet Korea",
+      "topic_tag": "semiconductor",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Elon Musk gets FTC nod to acquire data center optics business Mesh Optical",
+      "url": "https://www.datacenterdynamics.com/en/news/elon-musk-gets-ftc-nod-to-acquire-data-center-optics-business-mesh-optical/",
+      "body": "The Federal Trade Commission has approved Elon Musk's acquisition of Mesh Optical Technologies, a data center optical networking company established by former SpaceX engineers. The company specializes in optical transceivers designed for artificial intelligence data centers. Mesh Optical's Alpha C1 transceiver supports 1.6T and 800G speeds while claiming to use a third of the power utilization of rival modules. The company secured $50 million in Series A funding in February 2026. The FTC approval specifically names Elon Musk as the acquiring entity rather than SpaceXAI, though Musk frequently blurs boundaries between his various business ventures through cross-selling and staff transfers. Co-founders Travis Brashears, Cameron Ramos, and Serena Grown-Haeberli previously developed optical communication systems for SpaceX's Starlink satellite network. SpaceX recently completed the largest IPO in history and intends to deploy up to one million data center satellites. The company's xAI subsidiary operates terrestrial data centers and has leased capacity to Anthropic, Google, and Reflection. SpaceX also plans a chip manufacturing partnership with Tesla called TeraFab.",
+      "published_at": "2026-06-29T07:43:00+09:00",
+      "source": "Data Center Dynamics",
+      "topic_tag": "datacenter",
+      "secondary_tags": [],
+      "competitor": null
+    },
+    {
+      "title": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station",
+      "url": "https://www.servethehome.com/taking-an-up-close-look-at-the-supermicro-gb300-super-ai-station/",
+      "body": "With NVIDIA announcing new desktop system designs at Computex 2026, the company's partners showcased their offerings. The highlight for many was seeing an NVIDIA DGX Station system, priced around $125,000—among the most expensive desktop computers available and the primary way to obtain NVIDIA's GB300 accelerator in a non-server form factor. Supermicro displayed their Super AI Station at Computex, featuring a plexiglass panel allowing attendees to view the interior. NVIDIA maintains strict control over DGX Station designs, providing critical components like the motherboard and processors while allowing OEMs flexibility in overall system design within specified parameters. The system centers on the Grace Blackwell GB300 chip, combining a 72-core Grace CPU with a Blackwell GPU. The 1600-watt TDP necessitates liquid cooling across critical components. Memory comprises four LPDDR5X SOCAMMs delivering 496GB capacity for the CPU, while the GPU uses a de-rated configuration with 7 of 8 HBM3e stacks enabled, yielding 252GB GPU memory and 7.1TB/second bandwidth. Storage includes four PCIe Gen5 x4 M.2 2280 slots. Supermicro's showcase system featured 480GB Micron 7450 Gen4 x4 drives and an NVIDIA RTX PRO video card—necessary since the GB300 lacks graphics capabilities. The system includes dual 400GbE QSFP ports via NVIDIA ConnectX-8 technology. The front-to-back airflow design suits both desktop and rackmount configurations, offering a 5U server mounting option. The DGX Station serves developers and testers needing GB300 access in a desktop environment. Windows versions will become available later in 2026.",
+      "published_at": "2026-06-28T00:00:22+09:00",
+      "source": "ServeTheHome",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["semiconductor", "competitor"],
+      "competitor": "NVIDIA"
+    },
+    {
+      "title": "SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "body": "SoftBank CEO Masayoshi Son has publicly questioned the viability of Elon Musk's orbital data center concept, arguing that building data centers in space won't substantially reduce costs and will take too long to address immediate AI infrastructure needs. The battle for AI, the next few years will be far more important than what might happen a decade or so from now, Son remarked at a shareholder meeting. Son is not alone in his skepticism. On TechCrunch's Equity podcast, hosts discussed how the industry faces severe compute constraints driving multiple companies—from Groq to SpaceX—to position themselves as compute providers. Sean O'Kane noted that Musk's satellite constellation approach essentially guarantees much more business for SpaceX's launch operations. Kirsten Korosec observed the irony that SoftBank, known for audacious investments, is questioning the concept. Anthony Ha highlighted a broader pattern: industry leaders' predictions about AI's future inherently benefit their own businesses. Sam Altman has also expressed skepticism about orbital data centers. The conversation underscores how compute scarcity is reshaping business strategies across the tech sector.",
+      "published_at": "2026-06-28T04:42:00+09:00",
+      "source": "TechCrunch",
+      "topic_tag": "datacenter",
+      "secondary_tags": ["ai"],
+      "competitor": null
+    },
+    {
+      "title": "K-AI Alliance Expands to 50 Members, Elevated to SK's Global AI Platform",
+      "url": "https://en.sedaily.com/business/2026/06/28/k-ai-alliance-expands-to-50-members-elevated-to-sks-global",
+      "body": "SK's AI Committee announced that the K-AI Alliance held its annual Unite 2026 gathering in Menlo Park, Silicon Valley on Wednesday. Approximately 60 attendees participated, including SK leadership and representatives from member companies like Moloco, Bespin Global, Rebellions, and Imprimed, alongside global venture capital and major tech officials. The K-AI Alliance, originally launched in February 2023 by SK Telecom with seven founding members, now comprises 50 companies spanning AI semiconductors, infrastructure, models, and applications. This year, operational responsibility transitioned from SK Telecom to the SK Group's AI Committee, positioning it as a group-level cooperation platform. At Unite 2026, the alliance unveiled K-AI Alliance 2.0, a mid-to-long-term strategy emphasizing joint technology development, proof-of-concept projects, and global customer acquisition. The organization intends to expand regional programs across Japan, the Middle East, and Southeast Asia. SK AI Committee Chairman Yoo Young-sang stated: genuine innovation becomes possible only when the AI full-stack ecosystem is organically connected. He added that the alliance aims to develop into a global AI ecosystem platform that investors and big tech seek out first.",
+      "published_at": "2026-06-28T13:21:00+09:00",
+      "source": "Seoul Economic Daily (English)",
+      "topic_tag": "competitor",
+      "secondary_tags": ["ai"],
+      "competitor": "Rebellions"
+    }
+  ]
+}

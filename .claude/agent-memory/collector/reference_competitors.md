@@ -242,6 +242,13 @@ type: reference
 - **Moreh, FriendliAI, Tenstorrent, Marvell, Napatech**: No standalone Jun 17 articles found.
 - **Qualcomm**: Investor Day June 24 (forward calendar) — expected Tenstorrent acquisition update and Dragonfly datacenter product details.
 
+## June 27-29 2026 update — competitor developments (3-day weekend window)
+- **Rebellions**: Confirmed member of K-AI Alliance (SK Group's 50-company AI ecosystem coalition). Attended Unite 2026 gathering in Menlo Park, Silicon Valley on June 25. Alliance now elevated from SK Telecom to SK Group AI Committee level. Source: Seoul Economic Daily (English) June 28 13:21 KST. IPO timeline unchanged (Q3 2026 KOSDAQ target).
+- **NVIDIA**: Released GLM-5.2 NVFP4 quantization checkpoint via Hugging Face (June 26, reported June 27 AI Times). 753B-parameter MoE model compressed from 1.5TB → 410GB (~73% reduction). GPU HBM memory usage reduced by ~300GB. Single-stream decoding 24% slower due to lack of MTP support. No standalone BlueField DPU or Vera Rubin news in window.
+- **FuriosaAI**: No standalone June 27-29 news found. Last confirmed: pre-IPO 8500억 KRW funding, Broadcom 3rd-gen chip partnership, 2027 KOSDAQ IPO target.
+- **Moreh, FriendliAI, HyperAccel, Tenstorrent, Napatech**: No standalone June 27-29 news found. Tenstorrent/Qualcomm acquisition talks ($8-10B) still "in talks" per last reporting from June 16; no deal announcement in window.
+- **Marvell**: No standalone June 27-29 news. Last: AGM June 25 (outside window); S&P 500 joined June 22; Teralynx T100 switch chip at Computex.
+
 ## Key M&A / strategic moves to watch
 - Marvell + XConn (CXL/PCIe switches, UALink) — Feb 2026
 - NVIDIA + Groq — early 2026, ~$20B; Groq 3 LPX now part of Vera Rubin platform
